@@ -1,0 +1,416 @@
+﻿########################################
+### 7174 / FA 120 - NS ###
+########################################
+### Intro Events and Chain Initialisation on Game Start for Key Characters ###
+fire_intro_events_0120 = {
+	# IMLADRIS
+	character:linefinwe28 = { # Elladan
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.0003
+				days = { 2 5 }
+			}
+		}
+	}
+	
+	#character:linefinwe28 = { # Elladan/Arwen Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.0012
+	#			days = 14
+	#		}
+	#	}
+	#}
+	
+	character:lineofglorfindel = { # Glorfindel Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.0006
+				days = { 2 5 }
+			}
+		}
+	}
+	
+	# LORIEN
+	character:linefinwe29 = { # Elrohir
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.0004
+				days = { 2 5 }
+			}
+		}
+	}
+	
+	character:lineofhaldir2 = { # Haldir Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.0016
+				days = { 2 5 }
+			}
+		}
+	}
+		
+	# GREENWOOD
+	#character:lineoforopher3 = { # Thranduil Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.0021 #same wad
+	#			days = 2
+	#		}
+	#	}
+	#}
+	
+	#character:lineoforopher5 = { # Ilmarien Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.0021 #same wad
+	#			days = 2
+	#		}
+	#	}
+	#}
+	
+	#character:lineoflenwe6 = { # Galion Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.0021 #same wad
+	#			days = 2
+	#		}
+	#	}
+	#}
+	
+	character:lineoforopher6 = { # Legolas Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.0036
+				days = { 5 10 }
+			}
+		}
+	}
+	
+	#character:lineoflanthir3 = { # Carangileth Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.0041
+	#			days = 2
+	#		}
+	#	}
+	#}
+	
+	#character:lineoflanthir4 = { # Aramagor Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.0046
+	#			days = 2
+	#		}
+	#	}
+	#}
+	
+	# Dwarves
+	# WHITE MOUNTAINS
+	#character:lineofdurin100 = { # Gimli Intro # handled by legolas
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.2001
+	#			days = { 5 10 }
+	#		}
+	#	}
+	#}
+	
+	#character:linefrar7 = { # Wirwir Intro # handled by legolas
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.2006
+	#			days = { 5 10 }
+	#		}
+	#	}
+	#}
+	
+	# GREY MOUNTAINS
+	#character:linegorin9 = { # Nordri Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.6401
+	#			days = 2
+	#		}
+	#	}
+	#}
+		
+	character:lineofdurinVII = { # DurinVII
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.2011
+				days = { 5 10 }
+			}
+		}
+	}
+	
+	# EREBOR
+	#character:lineofdurin91 = { # Thorin III Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.6401 #wad same
+	#			days = 2
+	#		}
+	#	}
+	#}
+	
+	#character:lineofdurin107 = { # Nain II Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.6401 #wad same
+	#			days = 2
+	#		}
+	#	}
+	#}
+	
+	# BELEGOST
+	character:lineofdwalin99 = { # Hreitmar Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.2016
+				days = { 5 10 }
+			}
+		}
+	}
+	
+	character:lineofuri126 = { # Oin Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.2021
+				days = { 5 10 }
+			}
+		}
+	}
+	
+	character:lineofuri90 = { # Frain Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.2026
+				days = { 5 10 }
+			}
+		}
+	}
+	
+	character:lineofdurin114 = { # Kili Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.2031
+				days = { 5 10 }
+			}
+		}
+	}
+	
+	character:lineofdurin107 = { # Nain Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.2036
+				days = { 5 10 }
+			}
+		}
+	}
+	
+	#character:lineofuri107 = { # Olius Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.6401
+	#			days = { 5 10 }
+	#		}
+	#	}
+	#}
+	
+	### ORC INTRO EVENTS ###
+	character:lineofazog14 = { # Boldog Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.4001
+				days = { 5 10 }
+			}
+		}
+	}
+	
+	character:lineofazog17 = { # Mazog Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.4006
+				days = { 5 10 }
+			}
+		}
+	}
+	
+	character:lineofazog16 = { # Bolgakh Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.4011
+				days = { 5 10 }
+			}
+		}
+	}
+	
+	### HUMANS INTRO EVENTS ###
+	# ARNOR
+	character:lineisildur48 = { # Anarion Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.6001
+				days = { 5 10 }
+			}
+		}
+	}
+	
+	# GONDOR
+	every_ruler = { # Death of Aragorn
+		if = {
+			limit = {
+				is_playable_character = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.6201
+				days = 1
+			}
+		}
+	}
+	
+	#character:lineisildur43 = { # Eldarion Intro # handled by aragorn
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.6200
+	#			days = { 360 480 }
+	#		}
+	#	}
+	#}
+	
+	character:lineisildur49 = { # Eldacar Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.6206
+				days = { 10 30 }
+			}
+		}
+	}
+	
+	#character:linesteward46 = { # Dior Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.6211
+	#			days = { 10 30 }
+	#		}
+	#	}
+	#}
+	
+	# ROHAN
+	# Rohan intro
+	#character:lineofeofor20 = { # Eofara
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.6401
+	#			days = { 5 10 }
+	#		}
+	#	}
+	#}
+	
+	#character:lineofeofor21 = { # Eobrand
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.6401 #wad same
+	#			days = { 5 10 }
+	#		}
+	#	}
+	#}
+	
+}

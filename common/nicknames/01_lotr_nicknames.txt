@@ -1,0 +1,40 @@
+﻿
+	# Special
+	nick_sharkey_saruman = { is_prefix = yes } # Saruman
+	nick_the_old_shadow = {}
+
+	# Generic
+	nick_the_humongous = { is_bad = yes } # Golmog
+	nick_the_wanderer = { is_bad = yes } # Varya
+	nick_the_blubbering = { is_bad = yes } # Unglob
+	nick_the_steadfast = {} # Alt Boromir
+	nick_the_golden = {} # Dior son Elboron
+	nick_the_king_of_hearts = {} # Nessanie
+	nick_the_queen_of_hearts = {} # Nessanie
+	nick_the_spurned_orc = {} # Mazog II the Spurned son of Mazog I the Exile
+	nick_the_manipulator_orc = {} # Now uassigned
+	nick_the_tormentor_orc = {} # Hurog the Manipulator, son of Gorgol the Proud
+
+	# Hobbit
+	nick_of_the_towers = {} # Fairbairns
+	nick_luckwearer = {} # Bilbo Baggins
+	
+	# Dúnedain
+	nick_envinyatar = {} # Elessar
+	nick_andumire = {} # Eldarion
+	
+	# Dwarf
+	nick_glitterbeard = {} # Wirwir of Aglarond
+	nick_orcsfoe = {} # Nain I
+	nick_the_slakeless = {}	# Dwarf - Náin the Slakeless, son of Dáin II 'Ironfoot'
+	
+	# Dwarf-Father last reincarnation nicknames
+	nick_the_last_dorfdad_durin = {} # Durin the Deathless of the Longbeards 
+	nick_the_last_dorfdad_dwalin = {} # Dwálin the Wise of the Broadbeams
+	nick_the_last_dorfdad_uri = {} # Úri the Scarred of the Firebeards
+	nick_the_last_dorfdad_thrar = {} # Thrár the Proud of the Blacklocks
+	nick_the_last_dorfdad_thulin = {} # Thúlin the Swift of the Stiffbeards
+	nick_the_last_dorfdad_sindri = {} # Sindri the Rich of the Ironfists
+	nick_the_last_dorfdad_bavor = {} # Bavór the Cold of the Stonefoots
+	# Dwarf - Gimli Elf Friend
+	nick_elf_friend_gimli = {} # Gimli of the Nine Walkers

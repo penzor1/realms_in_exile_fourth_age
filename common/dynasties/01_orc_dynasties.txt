@@ -1,0 +1,53 @@
+﻿####################
+#### Orcs ####
+####################
+
+dynasty_gharshzai = {
+	name = "dynn_gharshzai"
+	culture = "worauthai_madur"
+	motto = dynn_gharshzai_motto
+}
+
+dynasty_gorgor = {
+	name = "dynn_gorgor"
+	culture = "murdurhai"
+	motto = dynn_gorgor_motto
+}
+
+dynasty_rob = {
+	name = "dynn_rob"
+	culture = "murdurhai"
+	motto = dynn_rob_motto
+}
+
+dynasty_tarkmor = {
+	name = "dynn_tarkmor"
+	culture = "murdurhai"
+	motto = dynn_tarkmor_motto
+}
+
+dynasty_karazaz = {
+	name = "dynn_karazaz"
+	culture = "murdurhai"
+	motto = dynn_karazaz_motto
+}
+
+####################
+#### TROLL ####
+####################
+
+dynasty_shaq = {
+	name = "dynn_shaq"
+	culture = "black_troll"
+	motto = dynn_shaq_motto
+}
+
+####################
+#### Goblin ####
+####################
+
+dynasty_oz = {
+	name = "dynn_oz"
+	culture = "hidesprouter_goblin"
+	motto = dynn_oz_motto
+}

@@ -1,0 +1,20 @@
+### Titular and other Titles ###
+
+d_ithillond = {
+	7052.5.2 = { # Ithilien settled by Elves
+		holder = lineoforopher6 # Legolas
+		liege = e_reunitedkingdom
+		government = elven_government
+	}
+	7174.3.3 = { # On Aragorn's death, Legolas sails west with Gimli
+		holder = 0
+		liege = 0
+	}
+}
+
+d_ingors_expedition = {
+	7174.1.1 = { # Expedition led into the Grey Mountains by Ingor son of Vekun II, brother of King Otek VII
+		holder = lineofthelor904 # Ingor
+		liege = 0
+	}
+}

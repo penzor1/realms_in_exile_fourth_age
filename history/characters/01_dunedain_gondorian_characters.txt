@@ -1,0 +1,396 @@
+﻿
+##### The Stewards of Gondor ####
+#################################
+# House of Húrinionath ( Cadet Branch )
+
+## Children of faramir and eowyn ##
+#fiction
+linesteward43wife = {
+	name = Almariel
+	religion = faith_edain
+	culture = gondorian
+	female = yes
+	
+	trait = blood_of_numenor_2
+	
+	7068.1.1 = {
+		birth = yes
+	}
+	7145.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linesteward44wife = {
+	name = Rodwen
+	religion = faith_edain
+	culture = gondorian
+	female = yes
+	
+	7085.3.5 = {
+		birth = yes
+	}
+	7156.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linesteward45 = {
+	name = Morwen
+	dynasty_house = house_gondorstewards
+	religion = faith_edain
+	culture = gondorian
+	father = linesteward40 # Faramir
+	mother = 6000035 # Eowyn
+	female = yes
+	
+	trait = education_stewardship_3
+	
+	trait = beauty_good_1
+	trait = blood_of_numenor_2
+	
+	7075.1.1 = { #FO23
+		birth = yes
+		effect = {
+			learn_language = language_rohirric
+		}
+	}
+	7147.1.1 = { #FO95
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+## Children of Elboron and Almariel ##
+linesteward46 = {
+	name = Dior # Prince of Ithilien
+	dynasty_house = house_gondorstewards
+	religion = faith_edain
+	culture = gondorian
+	father = linesteward43 # Elboron
+	mother = linesteward43wife # Almariel
+	
+	trait = diligent
+	trait = greedy
+	trait = stubborn
+	
+	trait = education_stewardship_4
+	trait = administrator
+	
+	trait = intellect_good_1
+	trait = blood_of_numenor_2
+
+	7095.1.1 = { #FO43
+		birth = yes
+		give_nickname = nick_the_golden
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+			learn_language = language_sindarin
+		}
+	}
+	7100.1.1 = {
+		add_spouse = linesteward46wife # Eirien
+	}
+	7174.3.2 = {
+		give_council_position = councillor_steward
+		vassal_contract_set_obligation_level = {
+			type = council_rights 
+			level = 1
+		}
+	}
+	7197.1.1 = { #FO145
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linesteward46wife = {
+	name = Eirien
+	religion = faith_edain
+	culture = gondorian
+	female = yes
+	
+	trait = intellect_good_1
+	trait = blood_of_numenor_2
+
+	7099.1.1 = {
+		birth = yes
+	}
+	7170.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linesteward47 = { # Duke of Forithilien
+	name = H_urin
+	dynasty_house = house_gondorstewards
+	religion = faith_edain
+	culture = gondorian
+	father = linesteward43 # Elboron
+	mother = linesteward43wife # Almariel
+	
+	trait = education_stewardship_4
+	trait = blood_of_numenor_2
+
+	7099.3.10 = {
+		birth = yes
+	}
+	7132.4.20 = {
+		add_spouse = linesteward47wife # Boromis
+	}
+	7184.5.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linesteward47wife = {
+	name = Boromis
+	religion = faith_edain
+	culture = harondorim
+	female = yes
+	
+	7109.11.2 = {
+		birth = yes
+	}
+	7179.3.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linesteward48 = {
+	name = Elariel
+	dynasty_house = house_gondorstewards
+	religion = faith_edain
+	culture = gondorian
+	father = linesteward43 # Elboron
+	mother = linesteward43wife # Almariel
+	female = yes
+	
+	trait = beauty_good_1
+	trait = education_intrigue_3
+	trait = blood_of_numenor_2
+
+	7100.1.1 = { #FO48
+		birth = yes
+	}
+	7188.1.1 = { #FO136
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linesteward49 = {
+	name = Amanwen
+	dynasty_house = house_gondorstewards
+	religion = faith_edain
+	culture = gondorian
+	father = linesteward43 # Elboron
+	mother = linesteward43wife # Almariel
+	female = yes
+	
+	trait = education_learning_3
+	trait = blood_of_numenor_2
+
+	7101.1.1 = { #FO49
+		birth = yes
+	}
+	7189.1.1 = { #FO137
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+## Children of Dior and ? ##
+#canon
+linesteward53 = {
+	name = Barahir # Authored The Tale of Aragorn and Arwen
+	dynasty_house = house_gondorstewards
+	religion = faith_edain
+	culture = gondorian
+	father = linesteward46 # Dior
+	mother = linesteward46wife # Eirien
+	
+	trait = calm
+	trait = diligent
+	trait = chaste
+	
+	trait = education_learning_5
+	trait = scholar
+	trait = poet
+	
+	trait = intellect_good_2
+	trait = blood_of_numenor_2
+
+	7138.1.1 = { #FO86
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+			learn_language = language_rohirric
+		}
+	}
+	7150.1.1 = {
+		#add_spouse = 
+	}
+	7232.1.1 = { #FO180
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+## Children of Denethor II and Rodwen ##
+#fiction
+linesteward51 = {
+	name = Nessanie # Queen of RK
+	dynasty_house = house_gondorstewards
+	religion = faith_edain
+	culture = gondorian
+	father = linesteward44 # Denethor II
+	mother = linesteward44wife # Rodwen
+	female = yes
+	
+	trait = fickle
+	trait = calm
+	trait = compassionate
+	trait = shrewd
+	
+	trait = education_intrigue_3
+	trait = lifestyle_reveler
+	
+	trait = beauty_good_3
+	trait = blood_of_numenor_2
+	
+	7094.1.1 = { #FO42
+		birth = yes
+		give_nickname = nick_the_queen_of_hearts
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7119.1.1 = { #FO65
+		effect = {
+			learn_language = language_sindarin
+			learn_language = language_rohirric
+		}
+	}
+	7201.1.1 = { #FO149
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linesteward52 = {
+	name = Hunthor # Duke of Emyn Arnen
+	dynasty_house = house_gondorstewards
+	religion = faith_edain
+	culture = gondorian
+	father = linesteward44 # Denethor II
+	mother = linesteward44wife # Rodwen
+	
+	trait = education_martial_2
+	trait = blood_of_numenor_2
+
+	7110.1.1 = { #FO56
+		birth = yes
+	}
+	7119.1.1 = {
+		#add_spouse = 
+	}
+	7191.1.1 = { #FO139
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Line of Caran
+lineofcaran1 = {
+	name = Caran
+	religion = faith_edain
+	culture = gondorian
+	
+	trait = blood_of_numenor_1
+	
+	7050.5.21 = {
+		birth = yes
+	}
+	7079.6.30 = {
+		add_spouse = lineofcaran1wife # Elanna
+	}
+	7109.7.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcaran1wife = {
+	name = Elanna
+	religion = faith_edain
+	culture = gondorian
+	female = yes
+	
+	7051.1.14 = {
+		birth = yes
+	}
+	7108.6.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcaran2 = {
+	name = Tarcaran
+	religion = faith_edain
+	culture = gondorian
+	father = lineofcaran1 # Caran
+	mother = lineofcaran1wife # Elanna
+	
+	trait = blood_of_numenor_1
+	
+	7082.2.28 = {
+		birth = yes
+	}
+	7119.1.11 = {
+		add_spouse = lineofcaran2wife # lineofcaran2wife
+	}
+	7180.4.5 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcaran2wife = {
+	name = Artanis
+	religion = faith_edain
+	culture = gondorian
+	female = yes
+	
+	7099.1.23 = {
+		birth = yes
+	}
+	7182.8.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcaran3 = {
+	name = Caldaran
+	religion = faith_edain
+	culture = gondorian
+	father = lineofcaran2 # Tarcaran
+	mother = lineofcaran2wife # Artanis
+	
+	7120.11.1 = {
+		birth = yes
+	}
+	7200.9.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofcaran4 = {
+	name = Tarandor
+	religion = faith_edain
+	culture = gondorian
+	father = lineofcaran2 # Tarcaran
+	mother = lineofcaran2wife # Artanis
+	
+	7122.3.19 = {
+		birth = yes
+	}
+	7206.2.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}

@@ -1,0 +1,21 @@
+﻿####################
+#### Longbeards ####
+####################
+
+dynasty_bombur = {
+	name = "dynn_bombur"
+	culture = "longbeards"
+	motto = dynn_bombur_motto
+}
+
+dynasty_fazarumul = {
+	name = "dynn_fazarumul"
+	culture = "longbeards"
+	motto = dynn_fazarumul_motto
+}
+
+dynasty_tharakhalm = {
+	name = "dynn_tharakhalm"
+	culture = "longbeards"
+	motto = dynn_tharakhalm_motto
+}

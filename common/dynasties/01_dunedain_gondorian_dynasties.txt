@@ -1,0 +1,9 @@
+﻿########################################
+################ GONDOR ################
+########################################
+
+dynasty_herumori = {
+	name = "dynn_herumori"
+	culture = "black_numenorean"
+	motto = dynn_herumori_motto
+}

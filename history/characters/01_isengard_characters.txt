@@ -1,0 +1,54 @@
+﻿lineofugluk1 = {
+	name = Ugl_uk
+	religion = white_hand_cult
+	culture = isengard_urukhai
+	
+	trait = sadistic
+	trait = stubborn
+	trait = calm
+	
+	trait = education_martial_4
+	trait = rough_terrain_expert
+	trait = organizer
+	
+	martial = 9
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 3
+	learning = 4
+	prowess = 6
+	
+	7010.1.1 = {
+		birth = yes
+	}
+	7052.2.28 = {
+		death = { death_reason = death_battle killer = lineofeofor17 } # Battle of the Eaves of Fangorn
+	}
+}
+
+lineofugluk2 = {
+	name = Karl_uk
+	religion = white_hand_cult
+	culture = isengard_urukhai
+	
+	trait = callous
+	trait = brave
+	trait = calm
+	
+	trait = education_intrigue_3
+	trait = rough_terrain_expert
+	
+	martial = 8
+	diplomacy = 3
+	intrigue = 8
+	stewardship = 6
+	learning = 5
+	prowess = 10
+	
+	7045.3.20 = {
+		birth = yes
+	}
+	7189.12.5 = {
+		death = { death_reason = death_battle }  
+	}
+}

@@ -1,0 +1,9 @@
+﻿death_lava = {
+	public_knowledge = yes
+	icon = "death_natural.dds"
+}
+
+death_killed_by_monstrous_nameless = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}

@@ -1,0 +1,15 @@
+﻿########################################
+################ RHOVANION ################
+########################################
+
+house_gauzberto = {
+	name = "dynn_gauzberto"
+	dynasty = dynasty_olphanging
+	motto = dynn_gauzberto_motto
+}
+
+house_melbeorn = {
+	name = "dynn_melbeorn"
+	dynasty = dynasty_beorning
+	motto = dynn_melbeorn_motto
+}

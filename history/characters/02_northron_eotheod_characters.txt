@@ -1,0 +1,5311 @@
+﻿#### Line of Erkenbrand ####
+
+6000054wife = {
+	name = Eadhild
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = brave
+	trait = ambitious
+	trait = honest
+
+	diplomacy = 8
+	stewardship = 6
+	intrigue = 2
+	learning = 4
+	prowess = 2
+
+	trait = education_learning_1
+
+	7016.3.8 = {
+		birth = yes
+	}
+	7043.5.9 = {
+		add_spouse = 6000054 # Herubrand
+	}
+	7081.4.2 = {
+		death = yes
+	}
+}
+
+lineerkenbrand10 = {
+	name = Folca
+	dynasty = dynastyfelanda
+	religion = faith_rohirric
+	culture = rohirrim
+	father = 6000054 # Herubrand
+	mother = 6000054wife # Eadhild
+
+	trait = calm
+	trait = humble
+	trait = patient
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5 
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_learning_3
+	
+	7051.9.5 = {
+		birth = yes
+	}
+	7086.9.5 = {
+		add_spouse = lineerkenbrand10wife # Ingyth
+	}
+	7118.10.8 = {
+		death = yes
+	}
+}
+
+lineerkenbrand10wife = {
+	name = Ingyt_h_
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = generous
+	trait = gregarious
+	trait = diligent
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 4
+	intrigue = 8
+	learning = 9
+	prowess = 8
+
+	trait = education_intrigue_2
+	
+	7051.3.11 = {
+		birth = yes
+	}
+	7118.11.5 = {
+		death = yes
+	}
+}
+
+lineerkenbrand12 = {
+	name = L_eodhere
+	dynasty = dynastyfelanda
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineerkenbrand10 # Folca
+	mother = lineerkenbrand10wife # Ingyth
+
+	trait = lustful
+	trait = ambitious
+	trait = zealous
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 3
+	intrigue = 6
+	learning = 2
+	prowess = 9
+
+	trait = education_martial_3
+	
+	7087.12.8 = {
+		birth = yes
+	}
+	7121.9.5 = {
+		add_spouse = lineerkenbrand12wife # Wynnthryth
+	}
+	7154.9.10 = {
+		death = yes
+	}
+}
+
+lineerkenbrand12wife = {
+	name = Wynnt_h_ryt_h_
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = just
+	trait = trusting
+	trait = brave
+
+	diplomacy = 1
+	martial = 4
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	prowess = 4
+
+	trait = education_stewardship_1
+
+	7089.5.7 = {
+		birth = yes
+	}
+	7154.8.8 = {
+		death = yes
+	}
+}
+
+lineerkenbrand14 = {
+	name = Fr_eared
+	dynasty = dynastyfelanda
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineerkenbrand12 # Leodhere
+	mother = lineerkenbrand12wife # Wynnthryth
+
+	trait = temperate
+	trait = forgiving
+	trait = calm
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 4
+
+	trait = education_stewardship_3
+	
+	7132.4.2 = {
+		birth = yes
+	}
+	7152.9.5 = {
+		add_spouse = lineerkenbrand14wife # Leofgifu
+	}
+	7209.8.10 = {
+		death = yes
+	}
+}
+
+lineerkenbrand14wife = {
+	name = Leofgifu
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = humble
+	trait = honest
+	trait = brave
+
+	diplomacy = 7
+	martial = 2
+	stewardship = 6
+	intrigue = 3
+	learning = 8
+	prowess = 5
+
+	trait = education_diplomacy_2
+	
+	7134.6.9 = {
+		birth = yes
+	}
+	7214.3.12 = {
+		death = yes
+	}
+}
+
+#### Line of Grimbold ####
+
+linegrimbold11 = {
+	name = Balthild
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = gregarious
+	trait = compassionate
+	trait = diligent
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 4
+	intrigue = 8
+	learning = 9
+	prowess = 8
+
+	trait = education_learning_1
+	
+	7033.2.3 = {
+		birth = yes
+	}
+	7052.2.3 = {
+		add_spouse = linegrimbold7
+	}
+	7098.3.5 = {
+		death = yes
+	}
+}
+
+linegrimbold12 = {
+	name = Ra_e_dwald
+
+	dynasty = dynastygrimbold
+
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	father = linegrimbold7
+	mother = linegrimbold11
+
+	trait = wrathful
+	trait = greedy
+	trait = sadistic
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 8
+	intrigue = 3
+	learning = 2
+	prowess = 5
+
+	trait = education_stewardship_2
+	
+	7084.1.3 = {
+		birth = yes
+	}
+	7120.3.5 = {
+		add_spouse = linegrimbold13
+	}
+	7157.7.6 = {
+		death = yes
+	}
+}
+
+linegrimbold13 = {
+	name = Leofwynn
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = patient
+	trait = generous
+	trait = zealous
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 4
+	intrigue = 8
+	learning = 9
+	prowess = 8
+
+	trait = education_intrigue_2
+	
+	7089.5.6 = {
+		birth = yes
+	}
+	7147.5.6 = {
+		death = yes
+	}
+}
+
+linegrimbold14 = {
+	name = Eadulf
+
+	dynasty = dynastygrimbold
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	father = linegrimbold12
+	mother = linegrimbold13
+
+	trait = content
+	trait = trusting
+	trait = calm
+
+	diplomacy = 3
+	martial = 7
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+	prowess = 5
+
+	trait = education_martial_2
+	
+	7123.5.6 = {
+		birth = yes
+	}
+	7159.7.6 = {
+		add_spouse = linegrimbold15
+	}
+	7194.3.2 = {
+		death = yes
+	}
+}
+
+linegrimbold15 = {
+	name = Heregyth
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = ambitious
+	trait = brave
+	trait = diligent
+
+	diplomacy = 8
+	stewardship = 6
+	intrigue = 2
+	learning = 4
+	prowess = 2
+
+	trait = education_learning_1
+
+	7129.3.4 = {
+		birth = yes
+	}
+	7198.4.3 = {
+		death = yes
+	}
+}
+
+linegrimbold16 = {
+	name = A_E_lfwig
+
+	dynasty = dynastygrimbold
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = chaste
+	trait = humble
+	trait = patient
+
+	father = linegrimbold14
+	mother = linegrimbold15
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5 
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_learning_3
+	
+	7154.5.6 = {
+		birth = yes
+	}
+	7220.3.2 = {
+		death = yes
+	}
+}
+
+#### Line of Oscyteling ####
+
+lineofoscytel30 = {
+	name = Swithelm
+
+	dynasty = dynasty_oscytel
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = gregarious
+	trait = brave
+	trait = zealous
+
+	father = lineofoscytel24
+	mother = lineofoscytel25
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 5 
+	intrigue = 3
+	learning = 4
+	prowess = 9
+
+	trait = education_martial_3
+	
+	7033.4.15 = {
+		birth = yes
+	}
+	7055.6.22 = {
+		add_spouse = lineofoscytel31
+	}
+	7098.10.20 = {
+		death = yes
+	}
+}
+
+lineofoscytel31 = {
+	name = Judith
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = honest
+	trait = generous
+	trait = diligent
+
+	diplomacy = 1
+	martial = 4
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	prowess = 4
+
+	trait = education_stewardship_1
+
+	7036.7.18 = {
+		birth = yes
+	}
+	7105.1.14 = {
+		death = yes
+	}
+}
+
+lineofoscytel32 = {
+	name = Godwine
+
+	dynasty = dynasty_oscytel
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = ambitious
+	trait = wrathful
+	trait = greedy
+
+	father = lineofoscytel30
+	mother = lineofoscytel31
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 5 
+	intrigue = 2
+	learning = 3
+	prowess = 8
+
+	trait = education_martial_2
+	
+	7058.8.10 = {
+		birth = yes
+	}
+	7080.7.1 = {
+		add_spouse = lineofoscytel33
+	}
+	7128.3.5 = {
+		death = yes
+	}
+}
+
+lineofoscytel33 = {
+	name = Sigrid
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = arrogant
+	trait = deceitful
+	trait = sadistic
+
+	diplomacy = 1
+	martial = 4
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	prowess = 4
+
+	trait = education_intrigue_1
+
+	7062.5.22 = {
+		birth = yes
+	}
+	7134.6.1 = {
+		death = yes
+	}
+}
+
+lineofoscytel34 = {
+	name = A_E_lfstan
+
+	dynasty = dynasty_oscytel
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = ambitious
+	trait = just
+
+	father = lineofoscytel32
+	mother = lineofoscytel33
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5 
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_diplomacy_1
+	
+	7082.3.12 = {
+		birth = yes
+	}
+	7104.5.10 = {
+		add_spouse = lineofoscytel35
+	}	
+	7150.9.18 = {
+		death = yes
+	}
+}
+
+lineofoscytel35 = {
+	name = A_E_lfgyth
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = patient
+	trait = temperate
+	trait = trusting
+
+	diplomacy = 1
+	martial = 4
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	prowess = 4
+
+	trait = education_stewardship_1
+
+	7084.11.30 = {
+		birth = yes
+	}
+	7155.4.15 = {
+		death = yes
+	}
+}
+
+lineofoscytel36 = {
+	name = Sigeric
+
+	dynasty = dynasty_oscytel
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = just
+	trait = generous
+	trait = calm
+
+	father = lineofoscytel34
+	mother = lineofoscytel35
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5 
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_diplomacy_2
+	
+	7113.8.5 = {
+		birth = yes
+	}
+	7138.3.20 = {
+		add_spouse = lineofoscytel37
+	}	
+	7180.2.22 = {
+		death = yes
+	}
+}
+
+lineofoscytel37 = {
+	name = Mildrith
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = diligent
+	trait = humble
+
+	diplomacy = 1
+	martial = 4
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	prowess = 4
+
+	trait = education_stewardship_1
+
+	7116.2.12 = {
+		birth = yes
+	}
+	7185.6.30 = {
+		death = yes
+	}
+}
+
+lineofoscytel38 = {
+	name = Eadwig
+
+	dynasty = dynasty_oscytel
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = gregarious
+	trait = compassionate
+	trait = temperate
+
+	father = lineofoscytel36
+	mother = lineofoscytel37
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5 
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+	
+	7147.7.22 = {
+		birth = yes
+	}
+	7220.3.10 = {
+		death = yes
+	}
+}
+
+#### Line of Ordlacing ####
+lineordlac59 = {
+	name = Ordwulf
+
+	dynasty = dynasty_ordlac
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = temperate
+	trait = generous
+
+	father = lineordlac24
+	mother = lineordlac25
+
+	diplomacy = 5
+	martial = 9
+	stewardship = 4
+	intrigue = 2
+	learning = 5
+	prowess = 8
+
+	trait = education_martial_4
+
+	7058.11.12 = {
+		birth = yes
+	}
+	7082.3.15 = {
+		add_spouse = lineordlac60
+	}	
+	7125.1.30 = {
+		death = yes
+	}
+}
+
+lineordlac60 = {
+	name = Hrothwyn
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = diligent
+	trait = generous
+	trait = calm
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7062.4.25 = {
+		birth = yes
+	}
+	7130.6.18 = {
+		death = yes
+	}
+}
+
+lineordlac61 = {
+	name = Aelfric
+
+	dynasty = dynasty_ordlac
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = honest
+	trait = humble
+	trait = content
+
+	father = lineordlac59
+	mother = lineordlac60
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 6
+	intrigue = 3
+	learning = 5
+	prowess = 7
+
+	trait = education_diplomacy_3
+
+	7085.10.5 = {
+		birth = yes
+	}
+	7110.7.2 = {
+		add_spouse = lineordlac62
+	}	
+	7150.8.20 = {
+		death = yes
+	}
+}
+
+lineordlac62 = {
+	name = Wulfhild
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = gregarious
+	trait = compassionate
+	trait = zealous
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 3
+
+	trait = education_diplomacy_4
+
+	7088.3.18 = {
+		birth = yes
+	}
+	7155.4.10 = {
+		death = yes
+	}
+}
+
+lineordlac63 = {
+	name = Leofwine
+
+	dynasty = dynasty_ordlac
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = gregarious
+	trait = honest
+
+	father = lineordlac61
+	mother = lineordlac62
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 4
+	learning = 5
+	prowess = 9
+
+	trait = education_martial_3
+
+	7113.3.10 = {
+		birth = yes
+	}
+	7138.6.20 = {
+		add_spouse = lineordlac64
+	}
+	7180.5.5 = {
+		death = yes
+	}
+}
+
+lineordlac64 = {
+	name = Aethelwyn
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = just
+	trait = patient
+	trait = generous
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 7
+	intrigue = 3
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_3
+
+	7116.2.12 = {
+		birth = yes
+	}
+	7185.6.30 = {
+		death = yes
+	}
+}
+
+lineordlac65 = {
+	name = Ceolwine
+
+	dynasty = dynasty_ordlac
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = honest
+
+	father = lineordlac63
+	mother = lineordlac64
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+	
+	7147.7.22 = {
+		birth = yes
+	}
+	7220.3.10 = {
+		death = yes
+	}
+}
+
+#### Line of Athellaf ####
+
+lineofathellaf38 = {
+	name = Beorhthelm
+
+	dynasty = dynasty_athellaf
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = diligent
+	trait = just
+
+	father = lineofathellaf24
+	mother = lineofathellaf25
+
+	diplomacy = 5
+	martial = 9
+	stewardship = 4
+	intrigue = 3
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_4
+
+	7033.9.20 = {
+		birth = yes
+	}
+	7055.6.1 = {
+		add_spouse = lineofathellaf39
+	}
+	7094.8.30 = {
+		death = yes
+	}
+}
+
+lineofathellaf39 = {
+	name = Eadgyth
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = humble
+	trait = patient
+	trait = honest
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_diplomacy_3
+
+	7035.2.12 = {
+		birth = yes
+	}
+	7100.5.15 = {
+		death = yes
+	}
+}
+
+lineofathellaf40 = {
+	name = Ceolwulf
+
+	dynasty = dynasty_athellaf
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = temperate
+	trait = generous
+
+	father = lineofathellaf38
+	mother = lineofathellaf39
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_3
+
+	7058.7.18 = {
+		birth = yes
+	}
+	7080.2.10 = {
+		add_spouse = lineofathellaf41
+	}	
+	7128.4.30 = {
+		death = yes
+	}
+}
+
+lineofathellaf41 = {
+	name = Leofrun
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = diligent
+	trait = generous
+	trait = calm
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7062.4.25 = {
+		birth = yes
+	}
+	7130.6.18 = {
+		death = yes
+	}
+}
+
+lineofathellaf42 = {
+	name = Eadwine
+
+	dynasty = dynasty_athellaf
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = honest
+	trait = humble
+	trait = content
+
+	father = lineofathellaf40
+	mother = lineofathellaf41
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+	prowess = 7
+
+	trait = education_diplomacy_3
+
+	7085.10.5 = {
+		birth = yes
+	}
+	7110.7.2 = {
+		add_spouse = lineofathellaf43
+	}	
+	7150.8.20 = {
+		death = yes
+	}
+}
+
+lineofathellaf43 = {
+	name = Cynegyth
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = gregarious
+	trait = compassionate
+	trait = zealous
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 3
+
+	trait = education_diplomacy_4
+
+	7088.3.18 = {
+		birth = yes
+	}
+	7155.4.10 = {
+		death = yes
+	}
+}
+
+lineofathellaf44 = {
+	name = Wulfgar
+
+	dynasty = dynasty_athellaf
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = gregarious
+	trait = honest
+
+	father = lineofathellaf42
+	mother = lineofathellaf43
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 4
+	learning = 5
+	prowess = 9
+
+	trait = education_martial_3
+
+	7113.3.10 = {
+		birth = yes
+	}
+	7138.6.20 = {
+		add_spouse = lineofathellaf45
+	}
+	7180.5.5 = {
+		death = yes
+	}
+}
+
+lineofathellaf45 = {
+	name = Hildrith
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = just
+	trait = patient
+	trait = generous
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 7
+	intrigue = 3
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_3
+
+	7116.2.12 = {
+		birth = yes
+	}
+	7185.6.30 = {
+		death = yes
+	}
+}
+
+lineofathellaf46 = {
+	name = Hereweard
+
+	dynasty = dynasty_athellaf
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	father = lineofathellaf44
+	mother = lineofathellaf45
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7147.7.22 = {
+		birth = yes
+	}
+	7220.3.10 = {
+		death = yes
+	}
+}
+
+#### Line of Tordaging ####
+
+linetordag38 = {
+	name = Wulfstan
+
+	dynasty = dynasty_tordag
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = diligent
+	trait = just
+
+	father = linetordag27
+	mother = linetordag28
+
+	diplomacy = 5
+	martial = 9
+	stewardship = 4
+	intrigue = 3
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_4
+
+	7055.3.3 = {
+		birth = yes
+	}
+	7078.6.15 = {
+		add_spouse = linetordag39
+	}
+	7120.7.10 = {
+		death = yes
+	}
+}
+
+linetordag39 = {
+	name = Wulfhild
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = humble
+	trait = patient
+	trait = honest
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_diplomacy_3
+
+	7058.1.20 = {
+		birth = yes
+	}
+	7124.11.5 = {
+		death = yes
+	}
+}
+
+linetordag40 = {
+	name = Eadwine
+
+	dynasty = dynasty_tordag
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = temperate
+	trait = generous
+
+	father = linetordag38
+	mother = linetordag39
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_3
+
+	7079.7.22 = {
+		birth = yes
+	}
+	7101.3.14 = {
+		add_spouse = linetordag41
+	}
+	7144.5.5 = {
+		death = yes
+	}
+}
+
+linetordag41 = {
+	name = Cynegyth
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = diligent
+	trait = generous
+	trait = calm
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7081.4.12 = {
+		birth = yes
+	}
+	7147.9.20 = {
+		death = yes
+	}
+}
+
+linetordag42 = {
+	name = Beorhtfrith
+
+	dynasty = dynasty_tordag
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = honest
+	trait = humble
+	trait = content
+
+	father = linetordag40
+	mother = linetordag41
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+	prowess = 7
+
+	trait = education_diplomacy_3
+
+	7102.2.15 = {
+		birth = yes
+	}
+	7128.5.18 = {
+		add_spouse = linetordag43
+	}
+	7161.11.30 = {
+		death = yes
+	}
+}
+
+linetordag43 = {
+	name = Hildwyn
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = gregarious
+	trait = compassionate
+	trait = zealous
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 3
+
+	trait = education_diplomacy_4
+
+	7105.7.4 = {
+		birth = yes
+	}
+	7162.9.22 = {
+		death = yes
+	}
+}
+
+linetordag44 = {
+	name = Ceolwine
+
+	dynasty = dynasty_tordag
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = gregarious
+	trait = honest
+
+	father = linetordag42
+	mother = linetordag43
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 4
+	learning = 5
+	prowess = 9
+
+	trait = education_martial_3
+
+	7130.8.12 = {
+		birth = yes
+	}
+	7154.3.20 = {
+		add_spouse = linetordag45
+	}
+	7172.3.2 = {
+		death = yes
+	}
+}
+
+linetordag45 = {
+	name = Hildrith
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = just
+	trait = patient
+	trait = generous
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 7
+	intrigue = 3
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_3
+
+	7133.4.10 = {
+		birth = yes
+	}
+	7180.6.15 = {
+		death = yes
+	}
+}
+
+linetordag46 = {
+	name = Eadgar
+
+	dynasty = dynasty_tordag
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	father = linetordag44
+	mother = linetordag45
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7149.3.10 = {
+		birth = yes
+	}
+	7220.3.10 = {
+		death = yes
+	}
+}
+
+#### Line of Aelfwinging ####
+
+lineofelfwig38 = {
+	name = Ceolwulf # Son of Elfwig
+
+	dynasty = dynasty_elfwig
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = diligent
+	trait = just
+
+	father = lineofelfwig25
+	mother = lineofelfwig26
+
+	diplomacy = 5
+	martial = 9
+	stewardship = 4
+	intrigue = 3
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_4
+
+	7060.2.1 = {
+		birth = yes
+	}
+	7085.4.15 = {
+		add_spouse = lineofelfwig39
+	}
+	7120.7.10 = {
+		death = yes
+	}
+}
+
+lineofelfwig39 = {
+	name = Eadgyth # Wife of Ceolwulf
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = humble
+	trait = patient
+	trait = honest
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_diplomacy_3
+
+	7063.3.20 = {
+		birth = yes
+	}
+	7128.11.5 = {
+		death = yes
+	}
+}
+
+lineofelfwig40 = {
+	name = Sigehelm # Son of Ceolwulf
+
+	dynasty = dynasty_elfwig
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = temperate
+	trait = generous
+
+	father = lineofelfwig38
+	mother = lineofelfwig39
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_3
+
+	7087.7.22 = {
+		birth = yes
+	}
+	7109.3.14 = {
+		add_spouse = lineofelfwig40wife # Cyneburg
+	}	
+	7150.5.5 = {
+		death = yes
+	}
+}
+
+lineofelfwig40wife = {
+	name = Cyneburg # Wife of Sigehelm
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = diligent
+	trait = generous
+	trait = calm
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7090.4.12 = {
+		birth = yes
+	}
+	7155.6.18 = {
+		death = yes
+	}
+}
+
+lineofelfwig42 = {
+	name = Godwine # Son of Sigehelm
+	dynasty = dynasty_elfwig
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineofelfwig40 # Sigehelm
+	mother = lineofelfwig40wife # Cyneburg
+
+	trait = honest
+	trait = humble
+	trait = content
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+	prowess = 7
+
+	trait = education_diplomacy_3
+
+	7109.2.15 = {
+		birth = yes
+	}
+	7134.5.18 = {
+		add_spouse = lineofelfwig42wife # Hildrun
+	}	
+	7170.11.30 = {
+		death = yes
+	}
+}
+
+lineofelfwig42wife = {
+	name = Hildrun # Wife of Godwine
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = gregarious
+	trait = compassionate
+	trait = zealous
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 3
+
+	trait = education_diplomacy_4
+
+	7112.7.4 = {
+		birth = yes
+	}
+	7174.9.22 = {
+		death = yes
+	}
+}
+
+lineofelfwig44 = {
+	name = Eadwine # Son of Godwine
+	dynasty = dynasty_elfwig
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineofelfwig42 # Godwine
+	mother = lineofelfwig42wife # Hildrun
+
+	trait = brave
+	trait = gregarious
+	trait = honest
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 4
+	learning = 5
+	prowess = 9
+
+	trait = education_martial_3
+
+	7138.8.12 = {
+		birth = yes
+	}
+	7164.3.20 = {
+		add_spouse = lineofelfwig44wife # Aethelwyn
+	}
+	7190.3.2 = {
+		death = yes
+	}
+}
+
+lineofelfwig44wife = {
+	name = Aethelwyn # Wife of Eadwine
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = just
+	trait = patient
+	trait = generous
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 7
+	intrigue = 3
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_3
+
+	7141.4.10 = {
+		birth = yes
+	}
+	7200.6.15 = {
+		death = yes
+	}
+}
+
+lineofelfwig46 = {
+	name = Wiglaf # Son of Eadwine
+	dynasty = dynasty_elfwig
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineofelfwig44 # Eadwine
+	mother = lineofelfwig44wife # Aethelwyn
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7165.3.10 = {
+		birth = yes
+	}
+	7220.3.10 = {
+		death = yes
+	}
+}
+
+#### Line of Sigehelming ####
+6000037wife = {
+	name = Cynegyth
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = humble
+	trait = patient
+	trait = honest
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_diplomacy_3
+
+	7006.2.3 = {
+		birth = yes
+	}
+	7026.2.3 = {
+		add_spouse = 6000037 # Sigehelm
+	}
+	7073.2.3 = {
+		death = yes
+	}
+}
+
+lineelfhelm15 = {
+	name = Eadwine
+	dynasty = dynastyelfhelm
+	religion = faith_rohirric
+	culture = rohirrim
+	father = 6000037 # Sigehelm
+	mother = 6000037wife # Cynegyth
+
+	trait = brave
+	trait = diligent
+	trait = just
+
+	diplomacy = 5
+	martial = 9
+	stewardship = 4
+	intrigue = 3
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_4
+
+	7027.8.12 = {
+		birth = yes
+	}
+	7050.4.15 = {
+		add_spouse = lineelfhelm15wife # Eadgyth
+	}
+	7087.7.10 = {
+		death = yes
+	}
+}
+
+lineelfhelm15wife = {
+	name = Eadgyth
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = humble
+	trait = patient
+	trait = honest
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_diplomacy_3
+
+	7030.3.20 = {
+		birth = yes
+	}
+	7092.11.5 = {
+		death = yes
+	}
+}
+
+lineelfhelm17 = {
+	name = Sigehelm
+	dynasty = dynastyelfhelm
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineelfhelm15 # Eadwine
+	mother = lineelfhelm15wife # Eadgyth
+
+	trait = brave
+	trait = temperate
+	trait = generous
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_3
+
+	7051.7.22 = {
+		birth = yes
+	}
+	7078.3.14 = {
+		add_spouse = lineelfhelm18
+	}	
+	7110.5.5 = {
+		death = yes
+	}
+}
+
+lineelfhelm18 = {
+	name = Cyneburg
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = diligent
+	trait = generous
+	trait = calm
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7054.4.12 = {
+		birth = yes
+	}
+	7115.6.18 = {
+		death = yes
+	}
+}
+
+lineelfhelm19 = {
+	name = Godwine
+
+	dynasty = dynastyelfhelm
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = honest
+	trait = humble
+	trait = content
+
+	father = lineelfhelm17
+	mother = lineelfhelm18
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+	prowess = 7
+
+	trait = education_diplomacy_3
+
+	7079.2.15 = {
+		birth = yes
+	}
+	7103.5.18 = {
+		add_spouse = lineelfhelm20
+	}	
+	7145.11.30 = {
+		death = yes
+	}
+}
+
+lineelfhelm20 = {
+	name = Hildrun
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = gregarious
+	trait = compassionate
+	trait = zealous
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 3
+
+	trait = education_diplomacy_4
+
+	7082.7.4 = {
+		birth = yes
+	}
+	7152.9.22 = {
+		death = yes
+	}
+}
+
+lineelfhelm21 = {
+	name = Eadwine
+
+	dynasty = dynastyelfhelm
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	father = lineelfhelm19
+	mother = lineelfhelm20
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7144.3.10 = {
+		birth = yes
+	}
+	7220.3.10 = {
+		death = yes
+	}
+}
+
+#### Line of Dunhere ####
+
+linedunhere2 = {
+	name = Ealhswith
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = humble
+	trait = honest
+	trait = generous
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7011.5.10 = {
+		birth = yes
+	}
+	7030.2.29 = {
+		add_spouse = linedunhere1
+	}
+	7067.11.20 = {
+		death = yes
+	}
+}
+
+linedunhere3 = {
+	name = Cenric
+
+	dynasty = dynasty_dunhere
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = diligent
+	trait = just
+
+	father = linedunhere1
+	mother = linedunhere2
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_3
+
+	7033.8.15 = {
+		birth = yes
+	}
+	7057.4.20 = {
+		add_spouse = linedunhere4
+	}
+	7092.6.25 = {
+		death = yes
+	}
+}
+
+linedunhere4 = {
+	name = Eadgifu
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = patient
+	trait = generous
+	trait = honest
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7038.1.12 = {
+		birth = yes
+	}
+	7102.4.30 = {
+		death = yes
+	}
+}
+
+linedunhere5 = {
+	name = Hereweald
+
+	dynasty = dynasty_dunhere
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = temperate
+
+	father = linedunhere3
+	mother = linedunhere4
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7059.9.18 = {
+		birth = yes
+	}
+	7084.5.22 = {
+		add_spouse = linedunhere6
+	}
+	7118.7.11 = {
+		death = yes
+	}
+}
+
+linedunhere6 = {
+	name = Cynethryth
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = diligent
+	trait = patient
+	trait = content
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7062.3.5 = {
+		birth = yes
+	}
+	7125.8.10 = {
+		death = yes
+	}
+}
+
+linedunhere7 = {
+	name = Wulfgar
+
+	dynasty = dynasty_dunhere
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	father = linedunhere5
+	mother = linedunhere6
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_3
+
+	7087.11.4 = {
+		birth = yes
+	}
+	7112.9.15 = {
+		add_spouse = linedunhere8
+	}
+	7148.3.2 = {
+		death = yes
+	}
+}
+
+linedunhere8 = {
+	name = Leofgyth
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = humble
+	trait = patient
+	trait = zealous
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7089.6.20 = {
+		birth = yes
+	}
+	7158.2.8 = {
+		death = yes
+	}
+}
+
+linedunhere9 = {
+	name = Wulfric
+
+	dynasty = dynasty_dunhere
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = just
+	trait = calm
+
+	father = linedunhere7
+	mother = linedunhere8
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7116.3.20 = {
+		birth = yes
+	}
+	7140.5.2 = {
+		add_spouse = linedunhere10
+	}
+	7174.3.2 = {
+		death = yes
+	}
+}
+
+linedunhere10 = {
+	name = Sigrid
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = honest
+	trait = calm
+	trait = generous
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 7
+	prowess = 3
+
+	trait = education_diplomacy_3
+
+	7117.7.15 = {
+		birth = yes
+	}
+	7180.2.22 = {
+		death = yes
+	}
+}
+
+linedunhere11 = {
+	name = Wiglaf
+
+	dynasty = dynasty_dunhere
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = diligent
+	trait = humble
+
+	father = linedunhere9
+	mother = linedunhere10
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7149.3.10 = {
+		birth = yes
+	}
+	7209.5.15 = {
+		death = yes
+	}
+}
+
+###Line of Eofolda###
+
+lineeofalda30 = {
+	name = Leofgifu
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = humble
+	trait = patient
+	trait = generous
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 7
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7019.5.10 = {
+		birth = yes
+	}
+	7036.3.19 = {
+		add_spouse = lineeofalda19
+	}
+	7082.8.25 = {
+		death = yes
+	}
+}
+
+lineeofalda21 = {
+	name = Cenfus
+
+	dynasty = dynastyeofolda
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = diligent
+	trait = calm
+
+	father = lineeofalda19
+	mother = lineeofalda30
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7044.7.10 = {
+		birth = yes
+	}
+	7068.2.14 = {
+		add_spouse = lineeofalda22
+	}
+	7105.5.18 = {
+		death = yes
+	}
+}
+
+lineeofalda22 = {
+	name = Mildrith
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = patient
+	trait = honest
+	trait = temperate
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7047.2.15 = {
+		birth = yes
+	}
+	7110.8.30 = {
+		death = yes
+	}
+}
+
+lineeofalda23 = {
+	name = Beornwulf
+
+	dynasty = dynastyeofolda
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	father = lineeofalda21
+	mother = lineeofalda22
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_3
+
+	7069.9.18 = {
+		birth = yes
+	}
+	7094.6.12 = {
+		add_spouse = lineeofalda24
+	}
+	7132.4.5 = {
+		death = yes
+	}
+}
+
+lineeofalda24 = {
+	name = Ealhswith
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = diligent
+	trait = patient
+	trait = humble
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7071.5.22 = {
+		birth = yes
+	}
+	7140.8.15 = {
+		death = yes
+	}
+}
+
+lineeofalda25 = {
+	name = Burgheard
+
+	dynasty = dynastyeofolda
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = temperate
+
+	father = lineeofalda23
+	mother = lineeofalda24
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7096.8.10 = {
+		birth = yes
+	}
+	7121.6.20 = {
+		add_spouse = lineeofalda26
+	}
+	7148.7.22 = {
+		death = yes
+	}
+}
+
+lineeofalda26 = {
+	name = Cynehild
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = diligent
+	trait = honest
+	trait = content
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7099.11.5 = {
+		birth = yes
+	}
+	7155.4.30 = {
+		death = yes
+	}
+}
+
+lineeofalda27 = {
+	name = Godwine
+
+	dynasty = dynastyeofolda
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = diligent
+	trait = humble
+
+	father = lineeofalda25
+	mother = lineeofalda26
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7125.6.15 = {
+		birth = yes
+	}
+	7151.4.12 = {
+		add_spouse = lineeofalda29
+	}
+	7174.3.2 = {
+		death = yes
+	}
+}
+
+lineeofalda29 = {
+	name = Ealhburg
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = humble
+	trait = patient
+	trait = content
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7128.3.20 = {
+		birth = yes
+	}
+	7185.7.10 = {
+		death = yes
+	}
+}
+
+lineeofalda28 = {
+	name = Eadberht
+
+	dynasty = dynastyeofolda
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	father = lineeofalda27
+	mother = lineeofalda29
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_3
+
+	7149.3.10 = {
+		birth = yes
+	}
+	7210.5.15 = {
+		death = yes
+	}
+}
+
+### Line of Ordgaring ###
+
+linefroda10 = {
+	name = Cynegyth
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = humble
+	trait = patient
+	trait = generous
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 7
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7012.6.20 = {
+		birth = yes
+	}
+	7029.9.13 = {
+		add_spouse = linefroda7
+	}
+	7078.5.10 = {
+		death = yes
+	}
+}
+
+linefroda11 = {
+	name = Eadwig
+
+	dynasty = dynastyfroda
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = diligent
+	trait = calm
+
+	father = linefroda7
+	mother = linefroda10
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7039.5.15 = {
+		birth = yes
+	}
+	7064.8.14 = {
+		add_spouse = linefroda12
+	}
+	7089.3.12 = {
+		death = yes
+	}
+}
+
+linefroda12 = {
+	name = Ealhswith
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = patient
+	trait = honest
+	trait = temperate
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7042.3.18 = {
+		birth = yes
+	}
+	7100.1.22 = {
+		death = yes
+	}
+}
+
+linefroda13 = {
+	name = Byrhtnoth
+
+	dynasty = dynastyfroda
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	father = linefroda11
+	mother = linefroda12
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_3
+
+	7065.7.10 = {
+		birth = yes
+	}
+	7090.4.20 = {
+		add_spouse = linefroda14
+	}
+	7130.6.5 = {
+		death = yes
+	}
+}
+
+linefroda14 = {
+	name = WynflE_d
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = diligent
+	trait = patient
+	trait = humble
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7068.2.20 = {
+		birth = yes
+	}
+	7142.9.15 = {
+		death = yes
+	}
+}
+
+linefroda15 = {
+	name = Sigehelm
+
+	dynasty = dynastyfroda
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = temperate
+
+	father = linefroda13
+	mother = linefroda14
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7093.4.18 = {
+		birth = yes
+	}
+	7118.3.15 = {
+		add_spouse = linefroda16
+	}
+	7148.1.10 = {
+		death = yes
+	}
+}
+
+linefroda16 = {
+	name = Cynewyn
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = diligent
+	trait = honest
+	trait = content
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7096.7.11 = {
+		birth = yes
+	}
+	7155.4.30 = {
+		death = yes
+	}
+}
+
+linefroda17 = {
+	name = Ulfcytel
+
+	dynasty = dynastyfroda
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = diligent
+	trait = humble
+
+	father = linefroda15
+	mother = linefroda16
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7119.6.15 = {
+		birth = yes
+	}
+	7148.3.15 = {
+		add_spouse = linefroda19
+	}
+	7174.3.2 = {
+		death = yes
+	}
+}
+
+linefroda19 = {
+	name = Eadgyth
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = diligent
+	trait = honest
+	trait = content
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7125.6.15 = {
+		birth = yes
+	}
+	7177.3.2 = {
+		death = yes
+	}
+}
+
+linefroda18 = {
+	name = Guthfrith
+
+	dynasty = dynastyfroda
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	father = linefroda17
+	mother = linefroda19
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_3
+
+	7149.3.10 = {
+		birth = yes
+	}
+	7210.5.15 = {
+		death = yes
+	}
+}
+
+### House Widmunding ###
+
+linewidmund6 = {
+	name = Cynehild
+	female = yes
+
+	religion = faith_rohirric
+	culture = rohirrim
+
+	trait = humble
+	trait = patient
+	trait = generous
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 7
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7023.6.20 = {
+		birth = yes
+	}
+	7043.4.15 = {
+		add_spouse = linewidmund5
+	}
+	7090.2.10 = {
+		death = yes
+	}
+}
+
+linewidmund7 = {
+	name = BeornrE_d
+	dynasty = dynastywidmund
+	religion = faith_rohirric
+	culture = rohirrim
+	father = linewidmund5
+	mother = linewidmund6
+
+	trait = brave
+	trait = diligent
+	trait = calm
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7048.9.15 = {
+		birth = yes
+	}
+	7073.7.10 = {
+		add_spouse = linewidmund7wife # Hildrith
+	}
+	7105.5.18 = {
+		death = yes
+	}
+}
+
+linewidmund7wife = {
+	name = Hildrith
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = patient
+	trait = honest
+	trait = temperate
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7051.2.15 = {
+		birth = yes
+	}
+	7112.8.30 = {
+		death = yes
+	}
+}
+
+linewidmund9 = {
+	name = Burgheard
+	dynasty = dynastywidmund
+	religion = faith_rohirric
+	culture = rohirrim
+	father = linewidmund7 # Beornread
+	mother = linewidmund7wife # Hildrith
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_3
+
+	7074.11.12 = {
+		birth = yes
+	}
+	7099.4.18 = {
+		add_spouse = linewidmund9wife # Wulfrun
+	}
+	7138.3.5 = {
+		death = yes
+	}
+}
+
+linewidmund9wife = {
+	name = Wulfrun
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = diligent
+	trait = patient
+	trait = humble
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7078.5.22 = {
+		birth = yes
+	}
+	7140.7.15 = {
+		death = yes
+	}
+}
+
+linewidmund11 = {
+	name = Wiglaf
+	dynasty = dynastywidmund
+	religion = faith_rohirric
+	culture = rohirrim
+	father = linewidmund9 # Burgheard
+	mother = linewidmund9wife # Wulfrun
+
+	trait = brave
+	trait = calm
+	trait = temperate
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7100.8.18 = {
+		birth = yes
+	}
+	7126.6.20 = {
+		add_spouse = linewidmund11wife # Wynfled
+	}
+	7152.7.10 = {
+		death = yes
+	}
+}
+
+linewidmund11wife = {
+	name = Wynfled
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = diligent
+	trait = honest
+	trait = content
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7104.11.5 = {
+		birth = yes
+	}
+	7160.4.30 = {
+		death = yes
+	}
+}
+
+linewidmund13 = {
+	name = Leofwine
+	dynasty = dynastywidmund
+	religion = faith_rohirric
+	culture = rohirrim
+	father = linewidmund11 # Wiglaf
+	mother = linewidmund11wife # Wynfled
+
+	trait = brave
+	trait = diligent
+	trait = humble
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7128.3.15 = {
+		birth = yes
+	}
+	7154.4.12 = {
+		add_spouse = linewidmund13wife # Cwenburg
+	}
+	7174.3.2 = {
+		death = yes
+	}
+}
+
+linewidmund13wife = {
+	name = Cwenburg
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = humble
+	trait = patient
+	trait = content
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7131.6.20 = {
+		birth = yes
+	}
+	7180.3.10 = {
+		death = yes
+	}
+}
+
+linewidmund14 = {
+	name = Guthfrith
+	dynasty = dynastywidmund
+	religion = faith_rohirric
+	culture = rohirrim
+	father = linewidmund13 # Leofwine
+	mother = linewidmund13wife # Cwenburg
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_3
+
+	7150.6.22 = {
+		birth = yes
+	}
+	7215.3.10 = {
+		death = yes
+	}
+}
+
+### House Celmunding ###
+lineofcelmund68 = {
+	name = Aelfwine
+	dynasty_house = house_celmund
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineofcelmund25
+	mother = lineofcelmund26
+
+	trait = brave
+	trait = diligent
+	trait = calm
+
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7016.4.20 = {
+		birth = yes
+	}
+	7038.6.15 = {
+		add_spouse = lineofguthmunding7 # Eadgifu Guthmunding
+	}
+	7069.9.12 = {
+		death = yes
+	}
+}
+
+lineofcelmund70 = {
+	name = Herefrith
+	dynasty_house = house_celmund
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineofcelmund68 # Aelfwine
+	mother = lineofguthmunding7 # Eadgifu Guthmunding
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_3
+
+	7041.9.18 = {
+		birth = yes
+	}
+	7066.7.20 = {
+		add_spouse = lineofcelmund70wife # Mildgyth
+	}
+	7101.5.25 = {
+		death = yes
+	}
+}
+
+lineofcelmund70wife = {
+	name = Mildgyth
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = diligent
+	trait = patient
+	trait = humble
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7043.11.5 = {
+		birth = yes
+	}
+	7110.4.12 = {
+		death = yes
+	}
+}
+
+lineofcelmund72 = {
+	name = Oswine
+	dynasty_house = house_celmund
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineofcelmund70 # Herefrith
+	mother = lineofcelmund70wife # Mildgyth
+
+	trait = brave
+	trait = calm
+	trait = temperate
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7068.8.18 = {
+		birth = yes
+	}
+	7093.6.20 = {
+		add_spouse = lineofcelmund72wife # Cwenburh
+	}
+	7135.7.10 = {
+		death = yes
+	}
+}
+
+lineofcelmund72wife = {
+	name = Cwenburh
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = diligent
+	trait = honest
+	trait = content
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7071.2.22 = {
+		birth = yes
+	}
+	7140.8.30 = {
+		death = yes
+	}
+}
+
+lineofcelmund74 = {
+	name = Cuthwine
+	dynasty_house = house_celmund
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineofcelmund72 # Oswine
+	mother = lineofcelmund72wife # Cwenburh
+
+	trait = brave
+	trait = diligent
+	trait = humble
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7098.5.15 = {
+		birth = yes
+	}
+	7123.4.12 = {
+		add_spouse = lineofcelmund74wife # Leoffled
+	}
+	7149.7.22 = {
+		death = yes
+	}
+}
+
+lineofcelmund74wife = {
+	name = Leoffled
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = diligent
+	trait = humble
+	trait = honest
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7101.3.15 = {
+		birth = yes
+	}
+	7155.8.10 = {
+		death = yes
+	}
+}
+
+lineofcelmund76 = {
+	name = Herewine
+	dynasty_house = house_celmund
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineofcelmund74 # Cuthwine
+	mother = lineofcelmund74wife # Leoffled
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_3
+
+	7149.6.22 = {
+		birth = yes
+	}
+	7220.3.10 = {
+		death = yes
+	}
+}
+
+### House Marhath ###
+lineomarhath72 = {
+	name = Byrhtnoth
+	dynasty = dynasty_marhath
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineomarhath24
+	mother = lineomarhath25
+
+	trait = brave
+	trait = diligent
+	trait = calm
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 4
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_3
+
+	7013.3.12 = {
+		birth = yes
+	}
+	7038.6.10 = {
+		add_spouse = lineomarhath72wife # Ealhswith
+	}
+	7090.9.25 = {
+		death = yes
+	}
+}
+
+lineomarhath72wife = {
+	name = Ealhswith
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = humble
+	trait = patient
+	trait = generous
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_stewardship_2
+
+	7015.5.10 = {
+		birth = yes
+	}
+	7095.12.5 = {
+		death = yes
+	}
+}
+
+lineomarhath74 = {
+	name = Wigmund
+	dynasty = dynasty_marhath
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineomarhath72 # Byrhtnoth
+	mother = lineomarhath72wife # Ealhswith
+
+	trait = brave
+	trait = calm
+	trait = temperate
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_2
+
+	7042.11.17 = {
+		birth = yes
+	}
+	7067.4.12 = {
+		add_spouse = lineomarhath74wife # Wulfgifu
+	}
+	7117.6.18 = {
+		death = yes
+	}
+}
+
+lineomarhath74wife = {
+	name = Wulfgifu
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = diligent
+	trait = honest
+	trait = content
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_4
+
+	7044.8.23 = {
+		birth = yes
+	}
+	7125.5.30 = {
+		death = yes
+	}
+}
+
+lineomarhath76 = {
+	name = Hereweald
+	dynasty = dynasty_marhath
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineomarhath74 # Wigmund
+	mother = lineomarhath74wife # Wulfgifu
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_1
+
+	7069.5.15 = {
+		birth = yes
+	}
+	7094.7.18 = {
+		add_spouse = lineomarhath76wife # Wynfled
+	}
+	7149.4.10 = {
+		death = yes
+	}
+}
+
+lineomarhath76wife = {
+	name = Wynfled
+	religion = faith_rohirric
+	culture = rohirrim
+	female = yes
+
+	trait = diligent
+	trait = humble
+	trait = honest
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7072.3.18 = {
+		birth = yes
+	}
+	7152.9.5 = {
+		death = yes
+	}
+}
+
+lineomarhath78 = {
+	name = Beorhtric
+	dynasty = dynasty_marhath
+	religion = faith_rohirric
+	culture = rohirrim
+	father = lineomarhath76 # Hereweald
+	mother = lineomarhath76wife # Wynfled
+
+	trait = gregarious
+	trait = diligent
+	trait = chaste
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_4
+
+	7145.7.22 = {
+		birth = yes
+	}
+	7220.5.15 = {
+		death = yes
+	}
+}
+
+### Line of Haleth ###
+linehaleth5 = {
+	name = Cenwulf
+	dynasty = dynastyhaleth
+	religion = faith_rohirric
+	culture = leofring
+	father = linehaleth2
+	mother = linehaleth3
+
+	trait = brave
+	trait = diligent
+	trait = calm
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 4
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_3
+
+	7031.3.12 = {
+		birth = yes
+	}
+	7056.7.10 = {
+		add_spouse = linehaleth5wife # Godgifu
+	}
+	7108.9.25 = {
+		death = yes
+	}
+}
+
+linehaleth5wife = {
+	name = Godgifu
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = humble
+	trait = patient
+	trait = generous
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_stewardship_2
+
+	7034.5.10 = {
+		birth = yes
+	}
+	7115.12.5 = {
+		death = yes
+	}
+}
+
+linehaleth7 = {
+	name = Wulfhelm
+	dynasty = dynastyhaleth
+	religion = faith_rohirric
+	culture = leofring
+	father = linehaleth5 # Cenwulf
+	mother = linehaleth5wife # Godgifu
+
+	trait = brave
+	trait = calm
+	trait = temperate
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_2
+
+	7060.11.17 = {
+		birth = yes
+	}
+	7086.4.12 = {
+		add_spouse = linehaleth7wife # Eadlead
+	}
+	7135.6.18 = {
+		death = yes
+	}
+}
+
+linehaleth7wife = {
+	name = EadflE_d
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = diligent
+	trait = honest
+	trait = content
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7063.8.23 = {
+		birth = yes
+	}
+	7142.5.30 = {
+		death = yes
+	}
+}
+
+linehaleth9 = {
+	name = Leofwine
+	dynasty = dynastyhaleth
+	religion = faith_rohirric
+	culture = leofring
+	father = linehaleth7 # Wulfhelm
+	mother = linehaleth7wife # Eadlead
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_4
+
+	7090.5.15 = {
+		birth = yes
+	}
+	7115.7.18 = {
+		add_spouse = linehaleth9wife # Ealhfled
+	}
+	7160.4.10 = {
+		death = yes
+	}
+}
+
+linehaleth9wife = {
+	name = EalhflE_d
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = diligent
+	trait = humble
+	trait = honest
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_4
+
+	7093.3.18 = {
+		birth = yes
+	}
+	7165.9.5 = {
+		death = yes
+	}
+}
+
+linehaleth11 = {
+	name = Eadmund
+	dynasty = dynastyhaleth
+	religion = faith_rohirric
+	culture = leofring
+	trait = brave
+	trait = diligent
+	trait = humble
+	father = linehaleth9 # Leofwine
+	mother = linehaleth9wife # Ealhfled
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_1
+
+	7148.7.22 = {
+		birth = yes
+	}
+	7225.5.15 = {
+		death = yes
+	}
+}
+
+### Line Of Rungaring ### 
+linebeowyrt1wife = {
+	name = EalhflE_d
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = humble
+	trait = patient
+	trait = generous
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7031.6.18 = {
+		birth = yes
+	}
+	7053.4.20 = {
+		add_spouse = linebeowyrt1
+	}
+	7095.11.12 = {
+		death = yes
+	}
+}
+
+linebeowyrt6 = {
+	name = Sigeric
+	dynasty = dynastybeowyrt
+	religion = faith_rohirric
+	culture = leofring
+	father = linebeowyrt1
+	mother = linebeowyrt1wife # Ealhfled
+
+	trait = brave
+	trait = calm
+	trait = temperate
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_2
+
+	7054.9.17 = {
+		birth = yes
+	}
+	7081.2.10 = {
+		add_spouse = linebeowyrt6wife # Cwenburg
+	}
+	7115.7.22 = {
+		death = yes
+	}
+}
+
+linebeowyrt6wife = {
+	name = Cwenburg
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = diligent
+	trait = honest
+	trait = content
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_4
+
+	7057.5.19 = {
+		birth = yes
+	}
+	7122.8.30 = {
+		death = yes
+	}
+}
+
+linebeowyrt8 = {
+	name = Wulfhelm
+	dynasty = dynastybeowyrt
+	religion = faith_rohirric
+	culture = leofring
+	father = linebeowyrt6 # Sigeric
+	mother = linebeowyrt6wife # Cwenburg
+
+	trait = brave
+	trait = calm
+	trait = generous
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_4
+
+	7080.6.5 = {
+		birth = yes
+	}
+	7107.4.12 = {
+		add_spouse = linebeowyrt8wife # Wynfled
+	}
+	7160.3.20 = {
+		death = yes
+	}
+}
+
+linebeowyrt8wife = {
+	name = Wynfled
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = diligent
+	trait = humble
+	trait = honest
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_1
+
+	7083.3.18 = {
+		birth = yes
+	}
+	7165.9.5 = {
+		death = yes
+	}
+}
+
+linebeowyrt10 = {
+	name = Ecgfrith
+	dynasty = dynastybeowyrt
+	religion = faith_rohirric
+	culture = leofring
+	father = linebeowyrt8 # Wulfhelm
+	mother = linebeowyrt8wife # Wynfled
+
+	trait = calm
+	trait = content
+	trait = honest
+
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_3
+
+	7128.7.22 = {
+		birth = yes
+	}
+	7225.5.15 = {
+		death = yes
+	}
+}
+
+### Line Of Nircargas ###
+linemorcargas7wife = {
+	name = EalhflE_d
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = humble
+	trait = patient
+	trait = generous
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7031.6.18 = {
+		birth = yes
+	}
+	7053.4.20 = {
+		add_spouse = linemorcargas7
+	}
+	7095.11.12 = {
+		death = yes
+	}
+}
+
+linemorcargas17 = {
+	name = Wiglaf
+	dynasty_house = house_morcargas
+	religion = faith_rohirric
+	culture = leofring
+	father = linemorcargas7 # 
+	mother = linemorcargas7wife # Ealhfed
+
+	trait = brave
+	trait = calm
+	trait = temperate
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_2
+
+	7055.9.17 = {
+		birth = yes
+	}
+	7080.4.10 = {
+		add_spouse = linemorcargas17wife # Wynfled
+	}
+	7117.7.22 = {
+		death = yes
+	}
+}
+
+linemorcargas17wife = {
+	name = Wynfled
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = diligent
+	trait = honest
+	trait = content
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_4
+
+	7058.3.18 = {
+		birth = yes
+	}
+	7122.5.30 = {
+		death = yes
+	}
+}
+
+linemorcargas19 = {
+	name = Cuthberht
+	dynasty_house = house_morcargas
+	religion = faith_rohirric
+	culture = leofring
+	father = linemorcargas17 # Wiglaf
+	mother = linemorcargas17wife #Wynfled
+
+	trait = brave
+	trait = diligent
+	trait = humble
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_3
+
+	7085.7.22 = {
+		birth = yes
+	}
+	7113.4.15 = {
+		add_spouse = linemorcargas19wife # Wulfhild
+	}
+	7163.5.10 = {
+		death = yes
+	}
+}
+
+linemorcargas19wife = {
+	name = Wulfhild
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = humble
+	trait = just
+	trait = generous
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 7
+	intrigue = 3
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_2
+
+	7088.1.15 = {
+		birth = yes
+	}
+	7169.8.30 = {
+		death = yes
+	}
+}
+
+linemorcargas21 = {
+	name = Eadfrith
+	dynasty_house = house_morcargas
+	religion = faith_rohirric
+	culture = leofring
+	father = linemorcargas19 # Cuthberht
+	mother = linemorcargas19wife # Wulfhild
+
+	trait = honest
+	trait = generous
+	trait = gregarious
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 4
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_4
+
+	7125.3.10 = {
+		birth = yes
+	}
+	7220.5.15 = {
+		death = yes
+	}
+}
+
+### Line Of Deafringas ###
+lineleofr6wife = {
+	name = Eadgifu
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = humble
+	trait = patient
+	trait = generous
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7017.4.20 = {
+		birth = yes
+	}
+	7036.6.15 = {
+		add_spouse = lineleofr6
+	}
+	7092.10.10 = {
+		death = yes
+	}
+}
+
+lineleofr40 = {
+	name = Wigmund
+	dynasty = dynastyleofr
+	religion = faith_rohirric
+	culture = leofring
+	father = lineleofr6
+	mother = lineleofr6wife # Eadgifu
+
+	trait = brave
+	trait = calm
+	trait = temperate
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 7
+
+	trait = education_martial_2
+
+	7037.8.12 = {
+		birth = yes
+	}
+	7061.5.10 = {
+		add_spouse = lineleofr40wife # Leofrun
+	}
+	7117.7.22 = {
+		death = yes
+	}
+}
+
+lineleofr40wife = {
+	name = Leofrun
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = diligent
+	trait = honest
+	trait = content
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_4
+
+	7040.3.18 = {
+		birth = yes
+	}
+	7110.9.30 = {
+		death = yes
+	}
+}
+
+lineleofr42 = {
+	name = Godwine
+	dynasty = dynastyleofr
+	religion = faith_rohirric
+	culture = leofring
+	father = lineleofr40 # Wigmund
+	mother = lineleofr40wife # Leofrun
+
+	trait = brave
+	trait = diligent
+	trait = humble
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_3
+
+	7065.7.22 = {
+		birth = yes
+	}
+	7090.4.15 = {
+		add_spouse = lineleofr42wife # Ealhswith
+	}
+	7140.5.10 = {
+		death = yes
+	}
+}
+
+lineleofr42wife = {
+	name = Ealhswith
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = humble
+	trait = just
+	trait = generous
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 7
+	intrigue = 3
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_2
+
+	7068.1.15 = {
+		birth = yes
+	}
+	7150.8.30 = {
+		death = yes
+	}
+}
+
+lineleofr44 = {
+	name = Wulfric
+	dynasty = dynastyleofr
+	religion = faith_rohirric
+	culture = leofring
+	father = lineleofr42 # Godwine
+	mother = lineleofr42wife # Ealhswith
+
+	trait = temperate
+	trait = zealous
+	trait = humble
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 4
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_4
+
+	7109.3.10 = {
+		birth = yes
+	}
+	7220.5.15 = {
+		death = yes
+	}
+}
+
+### Line Of Bregdaning ###
+linebregdan4wife = {
+	name = Eadgyth
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = diligent
+	trait = content
+	trait = gregarious
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	trait = education_stewardship_3
+
+	7023.4.20 = {
+		birth = yes
+	}
+	7043.6.10 = {
+		add_spouse = linebregdan4
+	}
+	7105.8.15 = {
+		death = yes
+	}
+}
+
+linebregdan20 = {
+	name = Wulfgar
+	dynasty = dynastybregdan
+	religion = faith_rohirric
+	culture = leofring
+	father = linebregdan4 
+	mother = linebregdan4wife # Eadgyth
+
+	trait = brave
+	trait = honest
+	trait = trusting
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_2
+
+	7045.8.12 = {
+		birth = yes
+	}
+	7070.4.20 = {
+		add_spouse = linebregdan20wife # Cynegyth
+	}
+	7119.5.10 = {
+		death = yes
+	}
+}
+
+linebregdan20wife = {
+	name = Cynegyth
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = humble
+	trait = patient
+	trait = just
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 7
+	intrigue = 3
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_2
+
+	7049.3.18 = {
+		birth = yes
+	}
+	7120.9.5 = {
+		death = yes
+	}
+}
+
+linebregdan22 = {
+	name = Ceolwulf
+	dynasty = dynastybregdan
+	religion = faith_rohirric
+	culture = leofring
+	father = linebregdan20 # Wulfgar
+	mother = linebregdan20wife # Cynegyth
+
+	trait = diligent
+	trait = patient
+	trait = zealous
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_4
+
+	7073.9.10 = {
+		birth = yes
+	}
+	7101.5.20 = {
+		add_spouse = linebregdan22wife # Wulfrun
+	}
+	7155.4.15 = {
+		death = yes
+	}
+}
+
+linebregdan22wife = {
+	name = Wulfrun
+	religion = faith_rohirric
+	culture = leofring
+	female = yes
+
+	trait = temperate
+	trait = forgiving
+	trait = calm
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_stewardship_4
+
+	7076.2.15 = {
+		birth = yes
+	}
+	7160.7.25 = {
+		death = yes
+	}
+}
+
+linebregdan24 = {
+	name = Hereweald
+	dynasty = dynastybregdan
+	religion = faith_rohirric
+	culture = leofring
+	father = linebregdan22 # Ceolwulf
+	mother = linebregdan22wife # Wulfrun
+
+	trait = forgiving
+	trait = content
+	trait = honest
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 4
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_3
+
+	7119.3.10 = {
+		birth = yes
+	}
+	7220.5.15 = {
+		death = yes
+	}
+}
+
+### Line Of Cerdicing ###
+
+linecerdicing16 = {
+	name = Fynathas
+	female = yes
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	trait = zealous
+	trait = brave
+	trait = wrathful
+
+	diplomacy = 2
+    	martial = 2
+    	stewardship = 2
+    	intrigue = 2
+    	learning = 2
+    	prowess = 4
+
+	trait = education_stewardship_3
+
+	6997.4.10 = {
+		birth = yes
+	}
+	7020.3.15 = {
+		add_spouse = linecerdicing4
+	}
+	7060.5.4 = {
+		death = yes
+	}
+}
+
+linecerdicing17 = {
+	name = Tetfrard
+
+	dynasty = dynasty_cerdicing
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	father = linecerdicing4
+    	mother = linecerdicing16
+
+	trait = brave
+	trait = diligent
+	trait = stubborn
+
+	diplomacy = 4
+    	martial = 4
+    	stewardship = 4
+    	intrigue = 4
+    	learning = 4
+    	prowess = 9
+
+	trait = education_martial_3
+	
+	7033.1.1 = {
+		birth = yes
+	}
+	7052.3.4 = {
+		add_spouse = linecerdicing18
+	}
+	7098.5.12 = {
+		death = yes
+	}
+}
+
+linecerdicing18 = {
+	name = Gwyneth
+	female = yes
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	trait = generous
+	trait = just
+	trait = arrogant
+
+	diplomacy = 4
+   	martial = 4
+    	stewardship = 4
+    	intrigue = 4
+    	learning = 4
+    	prowess = 4
+
+	trait = education_diplomacy_3
+
+	7036.2.10 = {
+		birth = yes
+	}
+	7105.7.16 = {
+		death = yes
+	}
+}
+
+linecerdicing19 = {
+	name = Rolf
+
+	dynasty = dynasty_cerdicing
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	father = linecerdicing17
+    	mother = linecerdicing18
+
+	trait = brave
+	trait = zealous
+	trait = wrathful
+
+	diplomacy = 8
+    	martial = 8
+    	stewardship = 8
+    	intrigue = 8
+    	learning = 8
+    	prowess = 9
+
+	trait = education_martial_3
+	7054.4.21 = {
+		birth = yes
+	}
+	7074.6.9 = {
+		add_spouse = linecerdicing20
+	}
+	7115.8.3 = {
+		death = yes
+	}
+}
+
+linecerdicing20 = {
+	name = Rainwyn
+	female = yes
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	trait = gregarious
+	trait = honest
+	trait = impatient
+
+	diplomacy = 6
+    	martial = 6
+    	stewardship = 6
+    	intrigue = 6
+    	learning = 6
+    	prowess = 4
+
+	trait = education_intrigue_2
+
+	7058.8.15 = {
+		birth = yes
+	}
+	7120.9.11 = {
+		death = yes
+	}
+}
+
+linecerdicing21 = {
+	name = Alric
+
+	dynasty = dynasty_cerdicing
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	father = linecerdicing19
+    	mother = linecerdicing20
+
+	trait = compassionate
+	trait = loyal
+	trait = cynical
+
+	diplomacy = 8
+    	martial = 8
+    	stewardship = 8
+    	intrigue = 8
+    	learning = 8
+    	prowess = 9
+
+	trait = education_martial_1
+	7078.9.30 = {
+		birth = yes
+	}
+	7098.12.5 = {
+		add_spouse = linecerdicing22
+	}
+	7139.3.18 = {
+		death = yes
+	}
+}
+
+linecerdicing22 = {
+	name = Dalfra
+	female = yes
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	trait = shrewd
+	trait = calm
+	trait = honest
+	trait = paranoid
+
+	diplomacy = 6
+    	martial = 6
+    	stewardship = 6
+    	intrigue = 6
+    	learning = 6
+    	prowess = 4
+
+	trait = education_diplomacy_3
+
+	7081.5.20 = {
+		birth = yes
+	}
+	7143.10.27 = {
+		death = yes
+	}
+}
+
+linecerdicing23 = {
+	name = Roric
+
+	dynasty = dynasty_cerdicing
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	father = linecerdicing21
+    	mother = linecerdicing22
+
+	trait = brave
+	trait = diligent
+	trait = stubborn
+
+	diplomacy = 4
+    	martial = 4
+    	stewardship = 4
+    	intrigue = 4
+    	learning = 4
+    	prowess = 9
+
+	trait = education_diplomacy_2
+	
+	7102.11.14 = {
+		birth = yes
+	}
+	7123.2.8 = {
+		add_spouse = linecerdicing24
+	}
+	7157.4.9 = {
+		death = yes
+	}
+}
+
+linecerdicing24 = {
+	name = Frildalda
+	female = yes
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	trait = zealous
+	trait = brave
+	trait = wrathful
+
+	diplomacy = 6
+    	martial = 6
+    	stewardship = 6
+    	intrigue = 6
+    	learning = 6
+    	prowess = 4
+
+	trait = education_stewardship_3
+
+	7106.7.4 = {
+		birth = yes
+	}
+	7160.1.23 = {
+		death = yes
+	}
+}
+
+linecerdicing25 = {
+	name = Alrit
+
+	dynasty = dynasty_cerdicing
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	father = linecerdicing23
+    mother = linecerdicing24
+
+	trait = brave
+	trait = generous
+	trait = wrathful
+
+	diplomacy = 8
+    	martial = 8
+    	stewardship = 8
+    	intrigue = 8
+    	learning = 8
+    	prowess = 9
+
+	trait = education_stewardship_3
+	7126.10.22 = {
+		birth = yes
+	}
+	7145.3.15 = {
+		add_spouse = linecerdicing26
+	}
+	7180.9.10 = {
+		death = yes
+	}
+}
+
+linecerdicing26 = {
+	name = Aimrainwyn
+	female = yes
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	trait = gregarious
+	trait = honest
+	trait = arrogant
+
+	diplomacy = 6
+    	martial = 6
+    	stewardship = 6
+    	intrigue = 6
+    	learning = 6
+    	prowess = 4
+
+	trait = education_stewardship_3
+
+	7129.5.8 = {
+		birth = yes
+	}
+	7182.7.4 = {
+		death = yes
+	}
+}
+
+linecerdicing27 = {
+	name = Roric
+
+	dynasty = dynasty_cerdicing
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	father = linecerdicing25
+    	mother = linecerdicing26
+
+	trait = brave
+	trait = diligent
+	trait = stubborn
+
+	diplomacy = 8
+    	martial = 8
+    	stewardship = 8
+    	intrigue = 8
+    	learning = 8
+    	prowess = 9
+
+	trait = education_martial_3
+	7149.6.21 = {
+		birth = yes
+	}
+	7200.8.3 = {
+		death = yes
+	}
+}
+
+
+### Line Of Wulfdening ###
+
+lineofwulfdening8 = {
+	name = Aelrwyn
+	female = yes
+
+	religion = faith_dunlending_khrabnazerh
+	culture = adornaen
+
+	trait = brave
+	trait = generous
+	trait = impatient
+
+	diplomacy = 6
+    	martial = 6
+    	stewardship = 6
+    	intrigue = 6
+    	learning = 6
+    	prowess = 6
+
+	trait = education_stewardship_3
+
+	7035.5.14 = {
+		birth = yes
+	}
+    7057.4.3 = {
+		add_spouse = lineofwulfdening7
+	}
+	7091.2.5 = {
+		death = yes
+	}
+}
+
+lineofwulfdening9 = {
+	name = Wulgard
+
+	dynasty_house = house_wulfdening
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	father = lineofwulfdening7
+    	mother = lineofwulfdening8
+
+	trait = diligent
+	trait = honest
+	trait = trusting
+
+	diplomacy = 8
+    	martial = 8
+    	stewardship = 8
+    	intrigue = 8
+    	learning = 8
+    	prowess = 9
+
+	trait = education_martial_3
+	
+	7058.4.6 = {
+		birth = yes
+	}
+	7053.3.26 = {
+		add_spouse = lineofwulfdening10
+	}
+	7123.5.6 = {
+		death = yes
+	}
+}
+
+lineofwulfdening10 = {
+	name = Geth
+	female = yes
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	trait = honest
+	trait = humble
+	trait = just
+
+	diplomacy = 6
+    	martial = 6
+    	stewardship = 6
+    	intrigue = 6
+    	learning = 6
+    	prowess = 6
+
+	trait = education_diplomacy_4
+
+	7060.2.13 = {
+		birth = yes
+	}
+	7126.5.16 = {
+		death = yes
+	}
+}
+
+lineofwulfdening11 = {
+	name = Tetfrard
+
+	dynasty_house = house_wulfdening
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	father = lineofwulfdening9
+    	mother = lineofwulfdening10
+
+	trait = humble
+	trait = gregarious
+	trait = temperate
+
+	diplomacy = 8
+    	martial = 8
+    	stewardship = 8
+    	intrigue = 8
+    	learning = 8
+    	prowess = 9
+
+	trait = education_martial_prowess_4
+	
+	7108.4.5 = {
+		birth = yes
+	}
+	7148.3.26 = {
+		add_spouse = lineofwulfdening12
+	}
+	7173.5.6 = {
+		death = yes
+	}
+}
+
+lineofwulfdening12 = {
+	name = Neris
+	female = yes
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	trait = temperate
+	trait = zealous
+	trait = compassionate
+
+	diplomacy = 6
+    	martial = 6
+    	stewardship = 6
+    	intrigue = 6
+    	learning = 6
+    	prowess = 6
+
+	trait = education_stewardship_4
+
+	7110.5.15 = {
+		birth = yes
+	}
+	7174.1.1 = {
+		death = yes
+	}
+}
+
+lineofwulfdening13 = {
+	name = Wulf
+
+	dynasty_house = house_wulfdening
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	father = lineofwulfdening11
+    	mother = lineofwulfdening12
+
+	trait = content
+	trait = gregarious
+	trait = patient
+
+	diplomacy = 8
+    	martial = 8
+    	stewardship = 8
+    	intrigue = 8
+    	learning = 8
+    	prowess = 9
+
+	trait = education_stewardship_4
+	
+	7149.5.23 = {
+		birth = yes
+	}
+	7214.3.2 = {
+		death = yes
+	}
+}
+
+
+### Line Of Arden ###
+
+lineofarden11 = {
+	name = Roslyn
+	female = yes
+
+	religion = faith_dunlending_turthalis
+	culture = adornaen
+
+	trait = temperate
+	trait = zealous
+	trait = compassionate
+
+	diplomacy = 6
+    	martial = 6
+    	stewardship = 6
+    	intrigue = 6
+    	learning = 6
+    	prowess = 6
+
+	trait = education_stewardship_4
+
+	7028.5.2 = {
+		birth = yes
+	}
+	7053.5.15 = {
+		add_spouse = lineofarden6
+	}
+	7095.5.4 = {
+		death = yes
+	}
+}
+
+lineofarden12 = {
+	name = Fron
+
+	dynasty = dynasty_arden
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	father = lineofarden6
+    	mother = lineofarden11
+
+	trait = content
+	trait = gregarious
+	trait = patient
+
+	diplomacy = 8
+    	martial = 8
+    	stewardship = 8
+    	intrigue = 8
+    	learning = 8
+    	prowess = 9
+
+	trait = education_stewardship_4
+	
+	7083.2.3 = {
+		birth = yes
+	}
+	7053.5.15 = {
+		add_spouse = lineofarden13
+	}
+	7146.3.2 = {
+		death = yes
+	}
+}
+
+lineofarden13 = {
+	name = Gwyn
+	female = yes
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	trait = calm
+	trait = chaste
+	trait = diligent
+
+	diplomacy = 6
+    	martial = 6
+    	stewardship = 6
+    	intrigue = 6
+    	learning = 6
+    	prowess = 6
+
+	trait = education_stewardship_4
+
+	7083.8.12 = {
+		birth = yes
+	}
+	7147.1.5 = {
+		death = yes
+	}
+}
+
+lineofarden14 = {
+	name = Afralon
+
+	dynasty = dynasty_arden
+
+	religion = faith_rohirric
+	culture = adornaen
+
+	father = lineofarden12
+    	mother = lineofarden13
+
+	trait = brave
+	trait = diligent
+	trait = humble
+
+	diplomacy = 8
+    	martial = 8
+    	stewardship = 8
+    	intrigue = 8
+    	learning = 8
+    	prowess = 9
+
+	trait = education_martial_4
+	
+	7144.2.3 = {
+		birth = yes
+	}
+	7204.3.2 = {
+		death = yes
+	}
+}
+

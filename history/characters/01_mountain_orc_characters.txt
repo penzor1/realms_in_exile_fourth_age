@@ -1,0 +1,926 @@
+﻿#ALL FICTION
+
+## Mount Gram Orcs
+### Line of Tharzog
+lineoftharzog2 = {
+	name = Tharzog
+	dynasty = dynasty_tharzog
+	religion = way_of_strength
+	culture = worauthai_madur
+	father = lineoftharzog1 # Tharzog
+	#mother = 
+	
+	7041.10.18 = {
+		birth = yes
+	}
+	7080.2.28 = {
+		add_spouse = lineoftharzog2wife
+	}
+	7185.3.21 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineoftharzog2wife = {
+	name = Gralug
+	religion = way_of_strength
+	culture = worauthai_madur
+	#father = 
+	#mother = 
+	female = yes
+	
+	7045.1.8 = {
+		birth = yes
+	}
+	7180.2.2 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineoftharzog3 = {
+	name = Bozog
+	dynasty = dynasty_tharzog
+	religion = way_of_strength
+	culture = worauthai_madur
+	father = lineoftharzog2 # Tharzog
+	mother = lineoftharzog2wife # Gralug
+	
+	7088.4.28 = {
+		birth = yes
+	}
+	7199.12.7 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+## Gundabad Orcs
+### Line of Azog in Gundabad
+lineofazog14 = {
+	name = Boldog # Duke of Gundabad
+	dynasty = dynasty_ashmog
+	religion = cult_of_the_ulukai
+	culture = ghrazim
+	father = lineofazog6 #Gorgol
+	mother = lineofazog6wife
+	dna = boldog_dna
+	
+	trait = brave
+	trait = zealous
+	
+	trait = education_martial_3
+	trait = physique_good_2
+	trait = strong
+	trait = pilgrim
+	
+	7041.5.21 = {
+		birth = yes
+		give_nickname = nick_the_tyrant
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+		effect = {
+			house_feud_start_effect = {
+				# Feuding House Head
+				ACTOR = character:lineofazog14 # Boldog
+				# Target House Head
+				TARGET = character:lineofdurinVII # DuringVII
+				# Feud Reason
+				REASON = head_rivalry
+				# House Member attacker if relevant
+				ATTACKER = character:lineofazog14 # Boldog
+				# House Member victim if relevant
+				VICTIM = character:lineofdurinVII # DurinVII
+			}
+		}
+	}
+	7270.2.21 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofazog15 = {
+	name = Hurog
+	dynasty = dynasty_ashmog
+	religion = cult_of_the_ulukai
+	culture = ghrazim
+	father = lineofazog6 #Gorgol
+	mother = lineofazog6wife
+	dna = hurog_dna
+	
+	trait = ambitious
+	trait = vengeful
+	trait = sadistic
+
+	trait = education_intrigue_4
+	
+	trait = physique_good_1
+	
+	7049.6.17 = {
+		birth = yes
+		give_nickname = nick_the_tormentor_orc
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7258.5.11 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+### Line of Bolg the Lesser in Moria
+lineofazog7wife = { # Bolg the Lesser wife
+	name = H_u_riga
+	female = yes
+
+	religion = cult_of_the_ulukai
+	culture = ghrazim
+
+	sexuality = heterosexual
+
+	trait = deceitful
+	trait = craven
+	trait = gluttonous
+	
+	diplomacy = 4
+	martial = 5
+	stewardship = 7
+	intrigue = 7
+	learning = 3
+	prowess = 8
+
+	trait = education_learning_3
+
+	6895.7.9 = {
+		birth = yes
+	}
+	6934.5.5 = {
+		add_spouse = lineofazog7
+	}
+	7021.10.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofazog16 = {
+	name = Bolgakh # I
+	dynasty_house = house_bolgakh
+	religion = way_of_strength
+	culture = worauthai_madur
+	father = lineofazog7 # Bolg the lesser
+	mother = lineofazog7wife # Huriga
+	dna = bolgakh_the_hammer_dna
+	
+	trait = ambitious
+	trait = greedy
+	
+	trait = education_diplomacy_2
+	trait = adventurer
+	trait = physique_good_1
+	trait = rough_terrain_expert
+	
+	6935.6.17 = {
+		birth = yes
+		employer = nazgul2 # Bolg's spawn fled south after the war of dwarves and orcs
+		give_nickname = nick_the_hammer
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7045.5.5 = {
+		add_spouse = lineofazog16wife # Drurgru
+		}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+		effect = {
+			house_feud_start_effect = {
+				# Feuding House Head
+				ACTOR = character:lineofazog16 # Bolgakh
+				# Target House Head
+				TARGET = character:lineofazog17 # Mazog II
+				# Feud Reason
+				REASON = head_rivalry
+				# House Member attacker if relevant
+				ATTACKER = character:lineofazog16 # Bolgakh
+				# House Member victim if relevant
+				VICTIM = character:lineofazog10 # Mazog
+			}
+		}
+	}
+	7179.5.3 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofazog16wife = {
+	name = Drurgru
+	female = yes
+	
+	religion = way_of_strength
+	culture = worauthai_madur
+	
+	trait = ambitious
+	trait = deceitful
+	trait = sadistic
+	
+	trait = education_stewardship_2
+	
+	6954.3.9 = {
+		birth = yes
+	}
+	7189.4.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofazog20 = {
+	name = Burthrakh
+	dynasty_house = house_bolgakh
+	religion = way_of_strength
+	culture = worauthai_madur
+	father = lineofazog16 # Bolgakh I
+	mother = lineofazog16wife # Drurgru
+	dna = burthrakh_dna
+	
+	trait = deceitful
+	trait = gluttonous
+	trait = gregarious
+	
+	trait = lifestyle_reveler
+	trait = drunkard
+	
+	7046.6.7 = {
+		birth = yes
+	}
+	7174.1.1 = { # FO174 # Died in the battle against Mazog II the Spurned for the claim of Old Moria
+		death = {  death_reason = death_battle killer = lineofazog17 }
+	}
+}
+
+lineofazog20wife  = {
+	name = Baulwayaz
+	religion = way_of_strength
+	culture = worauthai_madur
+	female = yes
+	
+	trait = gluttonous
+	trait = vengeful
+	trait = zealous
+	
+	7049.5.3 = {
+		birth = yes
+	}
+
+	7191.12.13 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofazog21 = {
+	name = Bolgakh # II # Chieftain of Moria descendant of Azog from the game Return to Moria
+	dynasty_house = house_bolgakh
+	religion = way_of_strength
+	culture = worauthai_madur
+	father = lineofazog20 # Burthrakh
+	mother = lineofazog20wife # Baulwayaz
+	dna = bolgakh_the_younger_dna
+	
+	trait = brave
+	trait = eccentric
+	
+	trait = education_martial_3
+	trait = whole_of_body
+	trait = physique_good_3
+	
+	7098.10.17 = {
+		birth = yes
+		give_nickname = nick_the_younger
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7225.6.4 = { # Died in FO171 in the game Return to Moria
+		death = { death_reason = death_battle }
+	}
+}
+
+### Line of Mazog in north Moria
+lineofazog10wife = { # Mazog wife
+	name = Shelurg
+	female = yes
+
+	religion = cult_of_the_ulukai
+	culture = ghrazim		
+
+	sexuality = heterosexual
+
+	trait = deceitful
+	trait = vengeful
+	trait = wrathful
+	
+	diplomacy = 8
+	martial = 3
+	stewardship = 2
+	learning = 5
+	prowess = 7
+
+	trait = education_intrigue_2
+
+	6899.5.15 = {
+		birth = yes
+	}
+	7025.2.4 = {
+	add_spouse = lineofazog10 # Mazog
+	}
+	7046.2.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofazog17 = {
+	name = Mazog # II # Defeated Burthrakh, son of Bolgakh the Hammer
+	dynasty_house = house_mazog
+	religion = cult_of_the_ulukai
+	culture = ghrazim
+	father = lineofazog10 # Mazog the Outcast
+	mother = lineofazog10wife # Shelurg
+	dna = mazog_the_spurned_dna
+	
+	trait = gregarious
+	trait = content
+	trait = generous
+	
+	trait = family_first
+	
+	7035.12.1 = {
+		birth = yes
+	}
+	7051.5.1 = { # Bolgakh Defeats Mazog
+		give_nickname = nick_the_spurned_orc
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+			set_relation_nemesis = character:lineofazog16 # Bolgakh
+			house_feud_start_effect = {
+				# Feuding House Head
+				ACTOR = character:lineofazog17 # Mazog II
+				# Target House Head
+				TARGET = character:lineofazog16 # Bolgakh
+				# Feud Reason
+				REASON = head_rivalry
+				# House Member attacker if relevant
+				ATTACKER = character:lineofazog16 # Bolgakh
+				# House Member victim if relevant
+				VICTIM = character:lineofazog10 # Mazog
+			}
+		}
+	}
+	7063.2.4 = {
+		add_spouse = lineofazog17wife # Akhuth
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7184.1.13 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofazog17wife = { 
+	name = Akhuth
+	female = yes
+
+	religion = cult_of_the_ulukai
+	culture = ghrazim		
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = lustful
+	trait = greedy
+	
+	diplomacy = 8
+	martial = 3
+	stewardship = 2
+	learning = 5
+	prowess = 7
+	
+	trait = education_intrigue_2
+	
+	7040.3.22 = {
+		birth = yes
+	}
+	7189.2.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofazog18 = {
+	name = Urzog
+	dynasty_house = house_mazog
+	religion = cult_of_the_ulukai
+	culture = ghrazim
+	father = lineofazog17 # Mazog II the spurned
+	mother = lineofazog17wife # Akhuth
+	dna = urzog_dna
+	
+	trait = brave
+	
+	trait = lifestyle_hunter
+	trait = scarred
+	trait = depressed_1
+	
+	7087.7.11 = {
+		birth = yes
+	}
+	7119.2.4 = {
+		add_spouse = lineofazog18wife # Rugfand
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7199.10.28 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofazog18wife = { 
+	name = Rugfand
+	female = yes
+
+	religion = cult_of_the_ulukai
+	culture = ghrazim		
+
+	sexuality = heterosexual
+
+	trait = lustful
+	trait = honest
+	trait = craven
+	
+	diplomacy = 7
+	martial = 3
+	stewardship = 4
+	learning = 2
+	prowess = 8
+
+	trait = education_martial_1
+
+	7092.6.12 = {
+		birth = yes
+	}
+	7203.6.4 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofazog19 = {
+	name = Nazog
+	dynasty_house = house_mazog
+	religion = cult_of_the_ulukai
+	culture = ghrazim
+	father = lineofazog18 # Urzog
+	mother = lineofazog18wife # Rugfand
+	dna = nazog_dna
+	
+	trait = sadistic
+	trait = wrathful
+	trait = shy
+	
+	trait = education_intrigue_4
+	trait = torturer
+	trait = intellect_good_1
+	
+	7123.3.16 = {
+		birth = yes
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7209.1.15 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+### Line of Gharsh, in north Moria
+lineofgharsh0 = {
+	name = Gharsh
+	dynasty = dynasty_gharshzai
+	religion = cult_of_the_ulukai
+	culture = worauthai_madur
+	#father = 
+	#mother = 
+	
+	trait = trusting
+	
+	trait = loyal
+	trait = strong
+	trait = lifestyle_blademaster
+	trait = physique_good_1
+	
+	7011.6.3 = {
+		birth = yes
+		employer = lineofazog10 # Lieutenant of Mazog
+		give_nickname = nick_the_sluggard
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7181.12.21 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+
+
+### Line of Karrog, south of Gundabad
+linekasgrat1 = {
+	name = Karrog
+	dynasty = dynasty_kasgrat
+	religion = cult_of_the_ulukai
+	culture = worauthai_madur
+	father = linekasgrat
+	#mother = 
+	
+	trait = education_intrigue_4
+	trait = schemer
+	trait = seducer
+	
+	7034.4.22 = {
+		birth = yes
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7181.12.21 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+### Line of Ognor, west of Gundabad
+linemorgmolwife = {
+	name = Shemat
+	religion = way_of_strength
+	culture = worauthai_madur
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = lustful
+	trait = fornicator
+	
+	trait = beauty_good_2
+	
+	6991.4.20 = {
+		birth = yes
+	}
+	6991.4.20 = {
+		effect = {
+			set_relation_lover = {
+				target = character:linemorgmol
+			}
+		}
+	}
+	7181.6.13 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+linemorgmol1 = {
+	name = R_omok
+	dynasty = dynasty_morgmol
+	religion = cult_of_the_ulukai
+	culture = ghrazim
+	father = linemorgmol # Ognor
+	mother = linemorgmolwife # Shemat
+	
+	trait = education_martial_2
+	trait = overseer
+	
+	trait = legitimized_bastard
+	
+	7011.3.13 = {
+		birth = yes
+		give_nickname = nick_the_bastard
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7181.11.3 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+### Line of Grishnak, in Gundabad
+lineghrazbul1 = {
+	name = Drisnak
+	dynasty = dynasty_ghrazbul
+	religion = cult_of_the_ulukai
+	culture = ghrazim
+	father = lineghrazbul # Grishnak
+	mother = linebonesnapper4 # Griz
+	
+	trait = impatient
+	trait = arrogant
+	
+	trait = beauty_bad_1
+	
+	6985.11.7 = {
+		birth = yes
+	}
+	7030.6.15 = {
+		add_spouse = lineghrazbul1wife
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7180.2.3 = {
+		death = { death_reason = death_ripped_apart_limb_by_limb }
+	}
+}
+
+lineghrazbul1wife = {
+	name = Radnu
+	religion = cult_of_the_ulukai
+	culture = ghrazim
+	#father = 
+	#mother = 
+	female = yes
+	
+	7001.7.25 = {
+		birth = yes
+	}
+	7178.3.13 = {
+		death = { death_reason = death_ripped_apart_limb_by_limb }
+	}
+}
+
+lineghrazbul2 = {
+	name = Kr_u_snak
+	dynasty = dynasty_ghrazbul
+	religion = cult_of_the_ulukai
+	culture = ghrazim
+	father = lineghrazbul1 # Drisnak
+	mother = lineghrazbul1wife # Radnu
+	
+	trait = craven
+	trait = trusting
+	
+	trait = lifestyle_physician
+	
+	7032.4.5 = {
+		birth = yes
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7191.9.8 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+## Grey Mountain Orcs
+### Line of Hrekker
+linehrekker3 = {
+	name = Akth
+	dynasty = dynasty_hrekker
+	religion = dragon_cult
+	culture = worauthai_madur
+	father = linehrekker2 # Agrolg
+	mother = linehrekker2wife # Fangshalog
+	
+	trait = zealous
+	trait = paranoid
+	
+	7040.5.1 = {
+		birth = yes
+		give_nickname = nick_the_eager
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7079.9.17 = {
+		add_spouse = linehrekker3wife # Drurgru
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7191.1.20 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+linehrekker3wife = {
+	name = Drurgru
+	religion = dragon_cult
+	culture = worauthai_madur
+	#father = 
+	#mother = 
+	
+	7051.7.11 = {
+		birth = yes
+	}
+	7186.10.18 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+linehrekker4 = {
+	name = Grizz
+	dynasty = dynasty_hrekker
+	religion = dragon_cult
+	culture = worauthai_madur
+	father = linehrekker3 # Akth
+	mother = linehrekker3wife # Drurgru
+	
+	trait = brave
+	trait = diligent
+	trait = sadistic
+	
+	trait = physique_good_1
+	
+	7079.9.17 = {
+		birth = yes
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7202.3.10 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+## Mirkwood Mountain Orcs
+### Line of Ukorg ###
+lineukorg6 = {
+	name = Korg
+	dynasty = dynasty_ukorg
+	religion = way_of_strength
+	culture = kazgumhoth
+	father = lineukorg5 # Gorbad
+	#mother = 
+	
+	trait = ambitious
+	trait = calm
+	trait = cynical
+	
+	trait = education_learning_4
+	trait = theologian
+	trait = lifestyle_mystic
+	trait = witch
+	
+	7034.7.21 = {
+		birth = yes
+		give_nickname = nick_the_truthspeaker
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7081.2.4 = {
+		add_spouse = lineukorg6wife
+	}
+	7174.3.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7180.9.3 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineukorg6wife = {
+	name = Gruza
+	religion = way_of_strength
+	culture = kazgumhoth
+	#father = 
+	#mother = 
+	female = yes
+	
+	7055.10.11 = {
+		birth = yes
+	}
+	7178.4.13 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineukorg7 = {
+	name = Uk_org
+	dynasty = dynasty_ukorg
+	religion = way_of_strength
+	culture = kazgumhoth
+	father = lineukorg6 # Gorbad
+	mother = lineukorg6wife # Gruza
+	
+	7086.2.11 = {
+		birth = yes
+	}
+	7174.3.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7190.6.17 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineukorg8 = {
+	name = Akoth
+	dynasty = dynasty_ukorg
+	religion = way_of_strength
+	culture = kazgumhoth
+	father = lineukorg6 # Gorbad
+	mother = lineukorg6wife # Gruza
+	
+	trait = brave
+	trait = deceitful
+	
+	trait = reckless
+	trait = lifestyle_blademaster
+	trait = gallant
+	
+	7089.4.1 = {
+		birth = yes
+	}
+	7174.3.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7188.7.7 = {
+		death = { death_reason = death_battle }
+	}
+}

@@ -1,0 +1,21 @@
+﻿l_english:
+ cn_isengard_treegarth:0 "Treegarth"
+ cn_isengard_treegarth_adj:0 "Treegarther"
+ cn_arthedain_arnor:0 "Arnor"
+ cn_arthedain_arnor_adj:0 "Arnorian"
+ cn_arnor_eriador:0 "Eriador"
+ cn_arnor_eriador_adj:0 "Eriadorim"
+ ### Other ### (Titular Arnor)
+ d_ithillond: "Ithillond"
+ d_ithillond_adj: "Ithillondrim"
+ d_ingors_expedition: "Ingór's Expedition"
+ d_ingors_expedition_adj: "Ironfists"
+ ### LAAMPS ### (Titular Arnor)
+ d_laamp_rangers_of_mordor: "the Rangers of Mordor"
+ d_laamp_rangers_of_mordor_adj: "Rangers"
+ d_laamp_lost_band: "the Lost Band"
+ d_laamp_lost_band_adj: "Uruk"
+ d_laamp_bridge_dwellers: "the Bridge Dwellers"
+ d_laamp_bridge_dwellers_adj: "Trollish"
+ d_laamp_mahud_marauders: "the Mahûd Marauders"
+ d_laamp_mahud_marauders_adj: "Mahûd"

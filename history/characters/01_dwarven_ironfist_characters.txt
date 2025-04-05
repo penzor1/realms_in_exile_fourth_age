@@ -1,0 +1,252 @@
+﻿### ALL FICTION
+
+### Line of Sindri
+lineofthelorI = {
+	name = Sindri
+	#dynasty = dynasty_thelor
+	religion = faith_khazad
+	culture = ironfists
+	
+	trait = brave
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
+	trait = administrator
+	
+	1.1.1 = {
+		birth = yes
+		name = "Thelor"
+		give_nickname = nick_the_rich_dwarf
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+	}
+	1000.1.1 = { # just to fill the timeline
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofthelorII = {
+	name = Sindri
+	#dynasty = dynasty_thelor
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofthelorI
+
+	1000.1.1 = {
+		birth = yes
+		name = "Thelor"
+		effect = {
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+	}
+	2000.10.21 = { # just to fill the timeline
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofthelorIII = {
+	name = Sindri
+	#dynasty = dynasty_thelor
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofthelorII
+
+	2000.1.1 = {
+		birth = yes
+		name = "Thelor"
+		effect = {
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+	}
+	3000.10.21 = { # just to fill the timeline
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofthelorIV = {
+	name = Sindri
+	#dynasty = dynasty_thelor
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofthelorIII
+
+	3000.1.1 = {
+		birth = yes
+		name = "Thelor"
+		effect = {
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+	}
+	4000.10.21 = { # just to fill the timeline
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofthelorV = {
+	name = Sindri
+	#dynasty = dynasty_thelor
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofthelorIV
+
+	4000.1.1 = {
+		birth = yes
+		name = "Thelor"
+		effect = {
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+	}
+	5000.10.21 = { # just to fill the timeline
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofthelorVI = {
+	name = Sindri
+	#dynasty = dynasty_thelor
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofthelorV
+
+	6000.1.1 = {
+		birth = yes
+		name = "Thelor"
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+	}
+	6800.10.21 = { # just to fill the timeline
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofthelor900 = {
+	name = V_ekun # I
+	#dynasty = dynasty_thelor
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofthelorVI
+
+	6800.1.1 = {
+		birth = yes
+	}
+	6950.10.21 = { # just to fill the timeline
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofthelor901 = {
+	name = V_elat
+	#dynasty = dynasty_thelor
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofthelor900 # Vekun I
+
+	6800.1.1 = {
+		birth = yes
+	}
+	6950.10.21 = { # just to fill the timeline
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofthelor902 = {
+	name = V_ekun # II
+	#dynasty = dynasty_thelor
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofthelor901 # Velat
+
+	6900.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+	}
+	7250.10.21 = { # just to fill the timeline
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofthelor903 = {
+	name = _Otek #VII
+	#dynasty = dynasty_thelor
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofthelor902 # Velat
+
+	7000.1.1 = {
+		birth = yes
+	}
+	7250.10.21 = { # just to fill the timeline
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofthelor904 = {
+	name = Ing_or
+	#dynasty = dynasty_thelor
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofthelor902 # Velat
+
+	7050.1.1 = {
+		birth = yes
+	}
+	7174.1.1 = {
+		effect = {
+			set_relation_friend = { 
+				reason = contemplated_life_and_death_together 
+				target = character:lineofdurinVII # Durin VII
+			}
+			make_tributary = {
+				TYPE = tributary_permanent
+				SUZERAIN = character:lineofdurin91 # Thorin III
+				TRIBUTARY = character:lineofthelor904 # Ingor
+			}
+		}
+	}
+	7250.10.21 = { # just to fill the timeline
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Line of Varya
+lineofvarya1 = {
+	name = Varya
+	#dynasty = dynasty_varya
+	religion = faith_khazad
+	culture = ironfists
+	dna = varya_dna
+	
+	trait = brave
+	trait = vengeful
+	trait = fickle
+	
+	trait = education_martial_3
+	trait = adventurer
+	
+	7000.2.15 = {
+		birth = yes
+		give_nickname = nick_the_wanderer
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7213.10.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}

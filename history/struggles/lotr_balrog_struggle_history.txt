@@ -1,0 +1,9 @@
+﻿7052.1.25 = { # TA3019 # Battle of the Peak
+	effect = {
+		if = { 
+			limit = { exists = struggle:balrog_struggle }
+			struggle:balrog_struggle = { end_struggle = yes }
+		}
+		struggle:balrog_struggle ?= { end_struggle = yes }
+	}
+}

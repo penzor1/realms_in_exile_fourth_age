@@ -1,0 +1,242 @@
+﻿###############
+### Nurnoth ###
+###############
+	
+lineofkidjunagim1wife = {
+	name = Marwen
+	religion = faith_nurn_good
+	culture = nurnoth
+	female = yes
+	
+	trait = brave
+	trait = patient
+	trait = stubborn
+	sexuality = heterosexual
+	
+	diplomacy = 6
+	martial = 10
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 10
+	
+	trait = education_martial_2
+	
+	7013.3.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_prune
+		}
+		employer = lineovon55
+	}
+	7046.9.14 = {
+		add_spouse = lineofkidjunagim1 # Kidjun
+	}
+	7052.4.4 = {
+		effect = {
+			add_trait = peasant_leader
+			add_trait = shieldmaiden
+		}
+	}
+	7068.6.20 = {
+		effect = {
+			add_trait = widowed
+		}
+	}
+	7089.10.20 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofkidjunagim2 = {
+	name = Kidjun
+	dynasty = dynasty_kidjunagim
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofkidjunagim1 # Kidjun
+	mother = lineofkidjunagim1wife # Marwen
+	
+	trait = sickly
+	
+	7055.10.25 = {
+		birth = yes
+	}
+	7060.2.7 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+lineofkidjunagim3 = {
+	name = Turah
+	dynasty = dynasty_kidjunagim
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofkidjunagim1 # Kidjun
+	mother = lineofkidjunagim1wife # Marwen
+	female = yes
+	
+	trait = compassionate
+	trait = calm
+	trait = just
+	
+	trait = education_stewardship_4
+	
+	7057.8.30 = {
+		birth = yes
+	}
+	7081.9.14 = {
+		add_spouse = lineofkidjunagim3husband # Kan
+	}
+	7138.1.29 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofkidjunagim3husband = {
+	name = Kan
+	religion = faith_nurn_good
+	culture = nurnoth
+	
+	trait = intellect_good_1
+	
+	7051.7.10 = {
+		birth = yes
+	}
+	7139.9.2 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofkidjunagim4 = {
+	name = Kadbhah
+	dynasty = dynasty_kidjunagim
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofkidjunagim3husband # Kan
+	mother = lineofkidjunagim3 # Turah
+	
+	trait = forgiving
+	trait = humble
+	trait = generous
+	
+	trait = education_intrigue_2
+	trait = lifestyle_hunter
+	
+	7083.3.20 = {
+		birth = yes
+	}
+	7105.6.21 = {
+		add_spouse = lineofkidjunagim4wife # Vilon
+	}
+	7148.10.1 = { # hunting accident
+		effect = {
+			add_trait = infirm
+			add_trait = incapable
+		}
+		death = { death_reason = death_accident  }
+	}
+}
+
+lineofkidjunagim4wife = {
+	name = Vilon
+	religion = faith_nurn_good
+	culture = nurnoth
+	female = yes
+	
+	trait = fecund
+	
+	7089.8.24 = {
+		birth = yes
+	}
+	7168.3.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofkidjunagim5 = {
+	name = Kidjun
+	dynasty = dynasty_kidjunagim
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofkidjunagim4 # Kadbhah
+	mother = lineofkidjunagim4wife # Vilon
+	
+	trait = fickle
+	trait = patient
+	trait = wrathful
+	
+	7106.9.30 = {
+		birth = yes
+	}
+	7135.12.21 = {
+		add_spouse = lineofkidjunagim5wife # Hild
+	}
+	7173.3.2 = {
+		effect = {
+			make_tributary = {
+				TYPE = tributary_permanent
+				SUZERAIN = character:lineisildur43
+				TRIBUTARY = character:lineofvronkhar42
+			}
+		}
+	}
+	7191.6.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofkidjunagim5wife = {
+	name = Hild
+	religion = faith_nurn_good
+	culture = nurnoth
+	#father = 
+	#mother = 
+	female = yes
+	
+	7111.5.26 = {
+		birth = yes
+	}
+	7200.10.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofkidjunagim6 = {
+	name = Kan
+	dynasty = dynasty_kidjunagim
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofkidjunagim5 # Kidjun
+	mother = lineofkidjunagim5wife # Hild
+	
+	trait = calm
+	trait = brave
+	trait = diligent
+	
+	7137.1.30 = {
+		birth = yes
+	}
+	7225.6.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofkidjunagim7 = {
+	name = Marwen
+	dynasty = dynasty_kidjunagim
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofkidjunagim5 # Kidjun
+	mother = lineofkidjunagim5wife # Hild
+	female = yes
+	
+	trait = lustful
+	trait = patient
+	
+	7140.11.16 = {
+		birth = yes
+	}
+	7212.4.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}

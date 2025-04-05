@@ -1,0 +1,98 @@
+﻿l_english:
+ # DAEN names
+ Rus: "Rus" # Male
+ Cogan: "Cogan" # Male
+ Rogan: "Rogan" # Male
+ Mananach: "Mananach" # Male
+ Joly: "Joly" # Female
+ # ORC names
+ Arhuna: "Arhuna" # Male
+ Karl_uk: "karlúk" # Male
+ Gorgor: "Gorgor" # Male
+ Karazaz: "Karazaz" # Male
+ Tarkmor: "Tarkmor" # Male
+ Tarkgru: "Tarkgru" # Male
+ Zogzog: "Zogzog" # Male
+ Tarkzog: "Tarkzog" # Male
+ Morzog: "Morzog" # Male
+ Bozog: "Bozog" # Male
+ Korg: "Korg" # Male
+ Bolgakh: "Bolgakh" # Male
+ Shaq: "Shaq" # Male
+ Rugru: "Rugru" # Male
+ Golmog: "Golmog" # Male
+ Ash_urz: "Ashúrz" # Male
+ Baulwayaz: "Baulwayaz" # Female
+ # DWARF names
+ V_ekun: "Vékun" # Male
+ V_elat: "Vélat" # Male
+ _Otek: "Ótek" # Male
+ Ing_or: "Ingór" # Male
+ Varya: "Varya" # male
+ B_osi: "Bósi" # Male
+ B_ori: "Bóri" # Male
+ Br_oin: "Bróin" # Male
+ Burin: "Burin" # Male
+ Dwa_in: "Dwaín" # Male
+ Gr_or: "Grór" # Male
+ D_is: "Dís" # Female
+ Freyd_is: "Freydís" # Female
+ # ROHAN names
+ _Eobrand: "Éobrand" # Male
+ Hardvard: "Hardvard" # Male
+ Aelfwine: "Aelfwine" # Male
+ Herefrith: "Herefrith" # Male
+ Ordwulf: "Ordwulf" # Male
+ Hrothwyn: "Hrothwyn" # Male
+ WynflE_d: "WynflE_d" # Male
+ A_E_lfstan: "Ælfstan" # Male
+ Ra_e_dwald: "Rædwald" # Male
+ Aelfric: "Aelfric" # Male
+ Wulfric: "Wulfric" # Male
+ Ceolwine: "Ceolwine" # Male
+ Fr_eared: "Fréared" # Male
+ Herewine: "Herewine" # Male
+ A_E_lfwig: "Ælfwig" # Male
+ Wulffled: "Wulffled" # Female
+ Mildgyth: "Mildgyth" # Female
+ Hildrith: "Hildrith" # Female
+ Wynfled: "Wynfled" # Female
+ Cwenburh: "Cwenburh" # Female
+ Hildrun: "Hildrun" # Female
+ A_E_lfgyth: "Ælfgyth" # Female
+ Leofgyth: "Leofgyth" # Female
+ Cynewyn: "Cynewyn" # Female
+ Leoffled: "Leoffled" # Female
+ Aethelwyn: "Aethelwyn" # Female
+ Ealhburg: "Ealhburg" # Female
+ H_era: "Héra" # Female
+ # Rhovanion names
+ Odulf: "Odulf" # Male
+ Gothar: "Gothar" # Male
+ Mauro: "Mauro" # Male
+ # EDAIN names
+ Arranel: "Arranel" # Male
+ Beledar: "Beledar" # Male
+ Caldaran: "Caldaran" # Male
+ Tarcaran: "Tarcaran" # Male
+ Valadimir: "Valadimir" # Male
+ Amanwen: "Amanwen" # Female
+ Elariel: "Elariel" # Female
+ Idriel: "Idriel" # Female
+ # HOBBIT names
+ Holfast: "Holfast" #  Male
+ Marmaduke: "Marmaduke" # Male
+ Merry: "Merry" # Male
+ Goldilocks: "Goldilocks" # Female
+ # RHUN names
+ Odavi: "Odavi" # Male
+ Arodor: "Arodor" # Male
+ Abaan: "Abaan" # Male
+ Oyugu: "Oyugu"
+ Aiviv: "Aiviv"
+ Tarok: "Tarok"
+ Ovan: "Ovan"
+ Olai: "Olai"
+ Garnesa: "Garnesa"
+ Asteral: "Asteral"
+ Hoshkar: "Hoshkar"

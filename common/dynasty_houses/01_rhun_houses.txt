@@ -1,0 +1,10 @@
+﻿
+######################################
+##### EASTERLING HOUSES ##############
+######################################
+
+house_kugavodid_leshenid = {
+	name = "dynn_leshenid"
+	dynasty = dynasty_kugavodid
+	motto = dynn_leshenid_motto
+}

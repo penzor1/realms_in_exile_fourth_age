@@ -1,0 +1,127 @@
+﻿
+# Took
+#canon
+lineoftook82 = {
+	name = Faramir
+	dynasty = dynasty_took
+	religion = faith_hobbit
+	culture = hobbit
+	father = lineoftook30 # Peregrin Took
+	mother = lineoftook81 # Diamond of Long Cleeve
+	
+	trait = education_stewardship_4
+	
+	7064.1.1 = { #F10 SR1430
+		birth = yes
+	}
+	7096.1.1 = { #FO42 SR1463
+		add_spouse = lineofgardner6 # Goldilock 3rd daughter of Samwise Gamgee
+	}
+	7153.11.4 = { #FO99
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineoftook83 = {
+	name = Bilbo
+	dynasty = dynasty_took
+	religion = faith_hobbit
+	culture = hobbit
+	father = lineoftook82 # Faramir Took
+	mother = lineofgardner6 # Goldilock Gardner
+	
+	trait = education_stewardship_3
+	
+	7097.1.1 = { #F43
+		birth = yes
+	}
+	7141.1.1 = { #FO91
+		#add_spouse = 
+	}
+	7199.1.1 = { #FO154
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Gardner 
+lineofgardner14 = {
+	name = Holfast
+	dynasty_house = house_gardner
+	religion = faith_hobbit
+	culture = hobbit
+	father = lineofgardner2 #Frodo Gardner
+	#mother = 
+	
+	trait = education_stewardship_3
+	
+	7096.2.14 = { #FO42 SR1462
+		birth = yes
+	}
+	7195.2.14 = { #FO151
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofgardner15 = {
+	name = Harding
+	dynasty_house = house_gardner
+	religion = faith_hobbit
+	culture = hobbit
+	father = lineofgardner14 #Holfast Gardner
+	#mother = 
+	
+	trait = education_stewardship_3
+	
+	7134.2.14 = { #SR1501
+		birth = yes
+	}
+	7234.2.14 = { #fiction
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Line of Meriadoc
+lineofbrandybuck47 = {
+	name = Th_eoden
+	dynasty_house = house_brandybuck
+	religion = faith_hobbit
+	culture = bucklander
+	
+	father = lineofbrandybuck31 # Meriadoc
+	mother = lineofbolger9 # Estella
+	
+	trait = education_martial_2
+	
+	7057.2.3 = {
+		birth = yes
+	}
+	7056.1.1 = {
+		#add_spouse = 
+	}
+	7142.1.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+#fiction
+lineofbrandybuck48 = { # Merry was supposed to be called Marmaduke, Tolkien changed his mind
+	name = Marmaduke
+	dynasty_house = house_brandybuck
+	religion = faith_hobbit
+	culture = bucklander
+	
+	father = lineofbrandybuck47
+	#mother = 
+	
+	trait = education_stewardship_2
+	
+	7101.6.20 = {
+		birth = yes
+	}
+	7156.1.1 = {
+		#add_spouse = 
+	}
+	7227.10.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}

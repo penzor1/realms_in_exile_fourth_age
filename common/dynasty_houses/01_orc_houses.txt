@@ -1,0 +1,15 @@
+﻿########################################
+################ GUNDABAD ################
+########################################
+
+house_bolgakh = {
+	name = "dynn_bolgakh"
+	dynasty = dynasty_ashmog
+	motto = dynn_bolgakh_motto
+}
+
+house_mazog = {
+	name = "dynn_mazog"
+	dynasty = dynasty_ashmog
+	motto = dynn_mazog_motto
+}

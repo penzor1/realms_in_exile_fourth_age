@@ -1,0 +1,8 @@
+e_laurelindorenan = {
+	7052.5.1 = { #Proclamation of Great Lorien
+		holder = linefinwe36 # Galadriel
+	}
+	7054.10.29 = { # Galadriel sails west
+		holder = linefinwe29 #Elrohir
+	}
+}

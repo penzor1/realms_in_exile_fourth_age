@@ -1,0 +1,9 @@
+﻿###########################################
+################ Arthedain ################
+###########################################
+
+house_anarioni = {
+	name = "dynn_anarioni"
+	dynasty = dynasty_elendil
+	motto = dynn_anarioni_motto
+}

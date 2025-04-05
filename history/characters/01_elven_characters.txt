@@ -1,0 +1,28 @@
+﻿lineofsirneseld1 = { # Elf who holds Nabal Mayzri in the fourth age
+	name = Sirneseld
+#	dynasty = dynasty_sirneseld
+	religion = faith_moriquendi
+	culture = penni
+	female = yes
+
+	trait = patient
+	trait = generous
+	trait = compassionate
+	trait = loyal
+	trait = education_learning_4
+
+	1764.11.2 = {
+		birth = yes
+	}
+	1900.1.1 = {
+		employer = lineofsargon1 #is a courtier in Nelornieth in other start dates
+	}
+	7157.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+e_isengard_unleashed = {
+	#canon
+	7051.7.10 = {  #TA3018 July 10
+		holder = lineofsaruman # Saruman of Many Colors
+	}
+	#7052.8.15 = { #TA3019 August 22 - 15 Elessar visit Orthanc # Flight of Saruman
+	#	holder = 0 # Rules in the Shire
+	#}
+	7052.11.3 = { #TA3019 # Battle of Bywater
+		holder = 0
+	}
+}

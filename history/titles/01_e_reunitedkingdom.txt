@@ -1,0 +1,43 @@
+e_reunitedkingdom = {
+	7052.5.1 = { # Foundation of the reunited kingdoms of gondor and arnor
+		holder = lineisildur42 # Elessar
+		effect = {
+			title:e_reunitedkingdom.holder ?= {
+				set_realm_capital = title:c_minas_tirith
+			}
+			set_capital_county = title:c_minas_tirith
+			set_global_variable = gondor_has_a_king
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:aragorn_returned_to_gondor
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:aragorn_married_arwen
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_reunited_kingdom
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_solidify_reunited_kingdom
+			}
+		}
+	}
+	7174.3.2 = { #FO120
+		holder = lineisildur43 # Eldarion
+	}
+	7274.1.1 = { #FO220
+		holder = lineisildur47 # Elendil #assasinated
+		effect = {
+			title:e_reunitedkingdom.holder ?= {
+				set_realm_capital = title:c_osgiliath
+			}
+			set_capital_county = title:c_osgiliath
+		}
+	}
+	7273.1.2 = {
+		holder = lineisildur50 # Esthel
+	}
+}

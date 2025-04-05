@@ -1,0 +1,2832 @@
+﻿namespace = ns_lotr_intro_events
+
+#################################
+# 
+#	Elven Intro Events:
+#	0000 - 2000
+#
+#	Dwarven Intro Events:
+#	2001 - 4000
+#
+#	Orc Intro Events:
+#	4001 - 5000
+#
+#	Hobbit Intro Events:
+#	5001 - 5500
+#
+#	Non-human Intro Events: (Nazgul/Istari for instance)
+#	5501 - 6000
+#
+#	Human Intro Events:
+#	6001 - 9999
+#		#	6001 - 6200 = Arnor
+#		#	6201 - 6400 = Gondor
+#		#	6401 - 6500 = Rohan
+#		#	6501 - 6600 = Anduin Vale
+#		#	6601 - 6700 = Greenwood/Woodmen
+#		#	6701 - 6800 = Rhovanion
+#		#	6801 - 7000 = Bellakar and Far Harad
+#		#	7001 - 7200 = Rhun and Khand
+#		#	7201 - 7400 = Near Harad
+#		#	7401 - 7500 = Umbar and Mardruak
+#		#	7501 - 7700 = Thani-Hazad
+#       #   7800 - 7950 = Long Winter
+#################################
+
+##########################
+###					   ###
+### Elven Intro Events ###
+###					   ###
+##########################
+
+### Rivendell
+ns_lotr_intro_events.0001 = { # Elladan intro2
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0001.t
+	desc = ns_lotr_intro_events.0001.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = imladris
+	}
+	lower_left_portrait = {
+		character = character:linefinwe29 # Elrohir
+		animation = interested
+	}
+	right_portrait = {
+		character = character:linefinwe28 # Elladan
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0001.a
+	}
+}
+
+ns_lotr_intro_events.0002 = { # Elrohir intro2
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0002.t
+	desc = ns_lotr_intro_events.0002.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = imladris
+	}
+	lower_left_portrait = {
+		character = character:linefinwe28 # Elladan
+		animation = interested
+	}
+	right_portrait = {
+		character = character:linefinwe29 # Elrohir
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0002.a
+	}
+}
+
+ns_lotr_intro_events.0003 = { # Elladan intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0003.t
+	desc = ns_lotr_intro_events.0003.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = imladris
+	}
+	right_portrait = {
+		character = character:linefinwe28 # Elladan
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0003.a
+		character:linefinwe28 = { # Elladan
+			trigger_event = {
+				id = ns_lotr_intro_events.0001
+				days = { 5 10 }
+			}
+		}
+	}
+}
+ns_lotr_intro_events.0004 = { # Elrohir intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0004.t
+	desc = ns_lotr_intro_events.0004.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = imladris
+	}
+	right_portrait = {
+		character = character:linefinwe29 # Elrohir
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0004.a
+		character:linefinwe29 = { # Elrohir
+			trigger_event = {
+				id = ns_lotr_intro_events.0002
+				days = { 5 10 }
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.0005 = { # Elladan/Elrohir intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0005.t
+	desc = ns_lotr_intro_events.0005.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = imladris
+	}
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0005.a
+	}
+}
+
+ns_lotr_intro_events.0006 = { # Glorfindel intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0006.t
+	desc = ns_lotr_intro_events.0006.desc
+	theme = hunting
+	override_background = {
+		reference = imladris
+	}
+	right_portrait = {
+		character = character:lineofglorfindel # Glorfindel
+		animation = survey
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0006.a
+		hidden_effect = {
+			character:lineofglorfindel = { # Glorfindel
+				set_variable = {
+					name = reincarnation_of
+					value = character:lineofglorfindel
+				}
+			}
+		}
+	}
+}
+
+### Lorien
+ns_lotr_intro_events.0011 = { # Arwen intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0011.t
+	desc = ns_lotr_intro_events.0011.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = lorien_day
+	}
+	left_portrait = {
+		character = character:linefinwe29 # Elrohir
+		animation = sadness
+	}
+	right_portrait = {
+		character = character:linefinwe30 # Arwen
+		animation = crying
+	}
+	lower_right_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = prayer
+	}
+	
+	immediate = {
+		play_music_cue = lotr_the_grace_of_undomiel
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0011.a
+		character:linefinwe29 = { # Elrohir
+			add_stress = 50
+			trigger_event = {
+				id = ns_lotr_intro_events.0012
+				days = 341
+			}
+		}
+		hidden_effect = {
+			character:linefinwe30 = { # Arwen
+				add_trait = reclusive
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.0012 = {
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0012.t
+	desc = ns_lotr_intro_events.0012.desc
+	theme = death
+	override_background = {
+		reference = lorien_night
+	}
+	lower_left_portrait = {
+		character = character:linefinwe28 # Elladan
+		animation = crying
+	}
+	left_portrait = {
+		character = character:linefinwe29 # Elrohir
+		animation = crying
+	}
+	right_portrait = {
+		character = character:linefinwe30 # Arwen
+		animation = dead
+	}
+	lower_right_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = prayer
+	}
+	
+	immediate = {
+		play_music_cue = lotr_the_grace_of_undomiel
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0012.a
+	}
+}
+
+ns_lotr_intro_events.0016 = { # Haldir intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0016.t
+	desc = ns_lotr_intro_events.0016.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = throne_room_woodelf
+	}
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0016.a
+	}
+}
+
+### Greenwood
+ns_lotr_intro_events.0021 = { # Greenwood intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0021.t
+	desc = ns_lotr_intro_events.0021.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = throne_room_thranduils_halls
+	}
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_the_woodland_realm
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0021.a
+	}
+}
+
+ns_lotr_intro_events.0022 = { # Thranduil intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0022.t
+	desc = ns_lotr_intro_events.0022.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = throne_room_thranduils_halls
+	}
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_the_woodland_realm
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0022.a
+	}
+}
+
+ns_lotr_intro_events.0026 = { # Ilmarien intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0026.t
+	desc = ns_lotr_intro_events.0026.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = throne_room_thranduils_halls
+	}
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_the_woodland_realm
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0026.a
+	}
+}
+
+ns_lotr_intro_events.0031 = { # Galion intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0031.t
+	desc = ns_lotr_intro_events.0031.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = throne_room_thranduils_halls
+	}
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_the_woodland_realm
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0031.a
+	}
+}
+
+ns_lotr_intro_events.0036 = { # Legolas intro # BFFs sail west event chain
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0036.t
+	desc = ns_lotr_intro_events.0036.desc
+	theme = travel
+	override_background = {
+		reference = throne_room_thranduils_halls
+	}
+	lower_left_portrait = {
+		character = character:lineofdurin100 # Gimli
+		animation = worry
+	}
+	right_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0036.a
+		custom_tooltip = ns_lotr_intro_events.0036.a.tt # Leave
+		character:lineoforopher6 = { # Legolas
+			trigger_event = {
+				id = ns_lotr_intro_events.0037
+				days = 30 
+			}
+		}
+		character:lineoforopher3 = { # Thranduil
+			trigger_event = {
+				id = ns_lotr_intro_events.0037
+				days = 30
+			}
+		}
+		character:lineofdurin100 = { # Gimli
+			trigger_event = {
+				id = ns_lotr_intro_events.0037
+				days = 30
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 15
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 25
+			}
+		}
+	}
+	option = {
+		name = ns_lotr_intro_events.0036.b
+		custom_tooltip = ns_lotr_intro_events.0036.b.tt # Leave with Gimli
+		character:lineofdurin100 = { # Gimli
+			trigger_event = {
+				id = ns_lotr_intro_events.0038
+				days = 30			
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	option = {
+		name = ns_lotr_intro_events.0036.c
+		custom_tooltip = ns_lotr_intro_events.0036.c.tt # Stay
+		character:lineoforopher6 = { # Legolas
+			trigger_event = {
+				id = ns_lotr_intro_events.0040
+				days = { 10 90 }
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 15
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 25
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.0037 = { # Legolas leaves alone
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0037.t
+	desc = ns_lotr_intro_events.0037.desc
+	theme = travel_sea
+	override_background = {
+		reference = docks_elven
+	}
+	right_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = survey
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_erebor
+		character:lineoforopher6 = { # Legolas
+			#start_travel_plan = { #Travel to Valinor # NO TRAVEL PATH
+			#	destination = province:3900 # b_valinor_1
+			#	return_trip = no
+			#	players_use_planner = yes
+			#	on_arrival_destinations = all
+			#}
+		}
+		hidden_effect_new_object = {
+			# Create a commander for the troops.
+			create_character = {
+				template = knight
+				culture = character:lineoforopher6.culture
+				faith = character:lineoforopher6.faith
+				dynasty = generate
+				location = character:lineoforopher6.location
+				gender_female_chance = 0
+				save_scope_as = successor
+			}
+		}
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0037.a
+		custom_tooltip = ns_lotr_intro_events.0037.a.tt # Play as Thranduil
+		hidden_effect = {
+			character:lineoforopher6 = { # Legolas
+				add_courtier = scope:successor
+			}
+			scope:successor = { # RNG Successor
+				get_title = title:d_ithillond
+				get_title = title:c_coruvegil
+				get_title = title:c_asgaril
+				get_title = title:d_ithillond
+			}
+			character:lineoforopher6 = { # Legolas
+				set_player_character = character:lineoforopher3 # Thranduil
+				every_character_artifact = {
+					set_owner = character:lineoforopher3 # Thranduil
+				}
+				add_trait = sailed_west
+				set_employer = character:linefinwe6
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	option = {
+		name = ns_lotr_intro_events.0037.b
+		custom_tooltip = ns_lotr_intro_events.0037.b.tt # Play as RNG Elf
+		hidden_effect = {
+			character:lineoforopher6 = { # Legolas
+				add_courtier = scope:successor
+			}
+			scope:successor = { # RNG Successor
+				get_title = title:d_ithillond
+				get_title = title:c_coruvegil
+				get_title = title:c_asgaril
+				get_title = title:d_ithillond
+			}
+			character:lineoforopher6 = { # Legolas
+				set_player_character = scope:successor # RNG Elf
+				add_trait = sailed_west
+				set_employer = character:linefinwe6
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.0038 = { # Gimli receives a letter
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0038.t
+	desc = ns_lotr_intro_events.0038.desc
+	theme = travel
+	override_background = {
+		reference = underground_caverns_01
+	}
+	lower_left_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = worry
+	}
+	left_portrait = {
+		character = character:linefrar7 # Wirwir
+		animation = worry
+	}
+	right_portrait = {
+		character = character:lineofdurin100 # Gimli
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_durins_folk
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0038.a
+		custom_tooltip = ns_lotr_intro_events.0038.a.tt # Leave
+		character:lineoforopher6 = { # Legolas
+			trigger_event = {
+				id = ns_lotr_intro_events.0039
+				days = 30
+			}
+		}
+		hidden_effect = {
+			character:lineofdurin100 = { # Gimli
+				add_courtier = character:linefrar7 # Wirwir # safety
+			}
+			character:linefrar7 = { # Wirwir
+				trigger_event = {
+					id = ns_lotr_intro_events.0039
+					days = 30			
+				}
+				get_title = title:d_glittering_caves
+				get_title = title:c_glittering_caves
+				get_title = title:d_glittering_caves
+				trigger_event = {
+					id = ns_lotr_intro_events.2006
+					days = { 40 60 }
+				}
+				make_tributary = {
+					TYPE = tributary_protectorate
+					SUZERAIN = character:lineofeofor20 # Eofara
+					TRIBUTARY = character:linefrar7 # Wirwir
+				}
+			}
+			character:lineofdurin100 = { # Gimli
+				trigger_event = {
+					id = ns_lotr_intro_events.0039
+					days = 30
+				}
+				primary_spouse ?= {
+					save_scope_as = gimliwife
+					divorce_effect = {
+						DIVORCER = character:lineofdurin100 # Gimli
+						DIVORCEE = scope:gimliwife # Possible Spouse
+					}
+				}
+				every_character_artifact = {
+					set_owner = character:linefrar7 # Wirwir
+				}
+				set_player_character = character:linefrar7 # Wirwir
+				start_travel_plan = { # Travel to Ithilien
+					destination = province:236 # b_emyn_arnen
+					return_trip = no
+					players_use_planner = yes
+					on_arrival_destinations = all
+				}
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	option = {
+		name = ns_lotr_intro_events.0038.b
+		custom_tooltip = ns_lotr_intro_events.0038.b.tt # Stay
+		character:lineoforopher6 = { # Legolas
+			trigger_event = {
+				id = ns_lotr_intro_events.0037
+				days = 30
+			}
+		}
+		character:lineofdurin100 = { # Gimli
+			trigger_event = {
+				id = ns_lotr_intro_events.0037
+				days = 30
+			}
+			#trigger_event = {
+			#	id = ns_lotr_intro_events.2001
+			#	days = { 40 60 }
+			#}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.0039 = { # Gimli and Legolas leave
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0039.t
+	desc = ns_lotr_intro_events.0039.desc
+	theme = travel_sea
+	override_background = {
+		reference = docks_elven
+	}
+	lower_left_portrait = {
+		character = character:linefrar7 # Wirwir
+		animation = worry
+	}
+	left_portrait = {
+		character = character:lineofdurin100 # Gimli
+		animation = worry
+	}
+	right_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = survey
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_erebor
+		character:lineoforopher6 = { # Legolas
+			#start_travel_plan = { # Travel to Valinor # NO TRAVEL PATH
+			#	destination = province:3900 # b_valinor_1
+			#	return_trip = no
+			#	players_use_planner = yes
+			#	on_arrival_destinations = all
+			#}
+		}
+		character:lineofdurin100 = { # Gimli
+			#start_travel_plan = { # Travel to Valinor # NO TRAVEL PATH
+			#	destination = province:3900 # b_valinor_1
+			#	return_trip = no
+			#	players_use_planner = yes
+			#	on_arrival_destinations = all
+			#}
+		}
+		hidden_effect_new_object = {
+			# Create a commander for the troops.
+			create_character = {
+				template = knight
+				culture = character:lineoforopher6.culture
+				faith = character:lineoforopher6.faith
+				dynasty = generate
+				age = 1984
+				location = character:lineoforopher6.location
+				gender_female_chance = 0
+				save_scope_as = successor
+			}
+		}
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0039.a
+		custom_tooltip = ns_lotr_intro_events.0039.a.tt # Leave
+		hidden_effect = {
+#			character:lineoforopher6 = { # Legolas
+#				add_courtier = scope:successor
+#			}
+			scope:successor = { # RNG Successo
+				get_title = title:d_ithillond
+				get_title = title:c_coruvegil
+				get_title = title:c_asgaril
+				get_title = title:d_ithillond
+			}
+			character:lineoforopher6 = { # Legolas
+				set_player_character = character:lineoforopher3 # Thranduil
+				every_character_artifact = {
+					set_owner = character:lineoforopher3 # Thranduil
+				}
+				add_trait = sailed_west
+#				set_employer = character:linefinwe6
+			}
+			character:lineofdurin100 = { # Gimli
+				set_player_character = character:linefrar7 # Wirwir
+				add_trait = sailed_west
+#				set_employer = character:linefinwe6
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	option = {
+		name = ns_lotr_intro_events.0039.b
+		custom_tooltip = ns_lotr_intro_events.0039.b.tt # Play as RNG Elf
+		hidden_effect = {
+#			character:lineoforopher6 = { # Legolas
+#				add_courtier = scope:successor
+#			}
+			scope:successor = { # RNG Successor
+				get_title = title:d_ithillond
+				get_title = title:c_coruvegil
+				get_title = title:c_asgaril
+				get_title = title:d_ithillond
+			}
+			character:lineoforopher6 = { # Legolas
+				set_player_character = scope:successor # RNG Elf
+				every_character_artifact = {
+					set_owner = character:lineoforopher3 # Thranduil
+				}
+				add_trait = sailed_west
+				set_employer = character:linefinwe6
+			}
+			character:lineofdurin100 = { # Gimli
+				set_player_character = character:linefrar7 # Wirwir
+				add_trait = sailed_west
+#				set_employer = character:linefinwe6
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+
+}
+
+ns_lotr_intro_events.0040 = { # Stay
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0040.t
+	desc = ns_lotr_intro_events.0040.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = throne_room_thranduils_halls
+	}
+
+	right_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0040.a
+	}
+}
+
+ns_lotr_intro_events.0041 = { # Carangileth intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0041.t
+	desc = ns_lotr_intro_events.0041.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = throne_room_thranduils_halls
+	}
+	right_portrait = {
+		character = character:lineoflanthir3 # Carangileth
+		animation = worry
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0041.a
+	}
+}
+
+ns_lotr_intro_events.0046 = { # Aramagor intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.0046.t
+	desc = ns_lotr_intro_events.0046.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = throne_room_thranduils_halls
+	}
+	right_portrait = {
+		character = character:lineoflanthir4 # Aramagor
+		animation = worry
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.0046.a
+	}
+}
+
+
+############################
+###	   				     ###
+### Dwarven Intro Events ###
+###	  				     ###
+############################
+
+ns_lotr_intro_events.2001 = { # Gimli Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.2001.t
+	desc = ns_lotr_intro_events.2001.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = throne_room_dwarf
+	}
+	right_portrait = {
+		character = character:lineofdurin100 # Gimli
+	}
+	
+	lower_left_portrait = {
+		character = character:lineisildur42 # Elessar
+	}
+
+	lower_center_portrait = {
+		character = character:linefinwe36 # Galadriel
+	}
+
+	lower_right_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = personality_proud
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_feast_of_starlight
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.2001.a
+
+	}
+}
+
+ns_lotr_intro_events.2006 = { # Wirwir Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.2006.t
+	desc = ns_lotr_intro_events.2006.desc
+	theme = realm
+	override_background = {
+		reference = wilderness_mountains
+	}
+	right_portrait = {
+		character = character:linefrar7 # Wirwir
+		animation = survey
+	}
+
+	lower_left_portrait = {
+		character = character:linefinwe36 # Galadriel
+	}
+
+	lower_right_portrait = {
+		character = character:lineofdurin100 # Gimli, son of Glóin
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_feast_of_starlight
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.2006.a
+		character:linefrar7 = { # Wirwir
+			give_nickname = nick_glitterbeard
+		}
+	}
+}
+
+ns_lotr_intro_events.2011 = { # Durin VII Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.2011.t
+	desc = ns_lotr_intro_events.2011.desc
+	theme = martial
+	override_background = {
+		reference = throne_room_dwarf
+	}
+	right_portrait = {
+		character = character:lineofdurinVII # DurinVII
+		animation = personality_honorable
+	}
+
+	lower_left_portrait = {
+		character = character:lineofdurin90 # Dáin II Ironfoot
+	}
+
+	lower_center_portrait = {
+		character = character:lineofazog16 # Bolgakh the Hammer
+	}
+
+	lower_right_portrait = {
+		character = character:lineofdurin91 # Thorin III Stonehelm
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_the_edge_of_the_wild
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.2011.a
+
+	}
+}
+
+ns_lotr_intro_events.2016 = { # Hreithmar Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.2016.t
+	desc = ns_lotr_intro_events.2016.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = throne_room_dwarf
+	}
+	right_portrait = {
+		character = character:lineofdwalin99 # Hreithmar
+		animation = personality_content
+	}
+
+		lower_left_portrait = {
+		character = character:lineofdwalin93 # Buri
+	}
+
+	lower_center_portrait = {
+		character = character:lineofdwalin0 # Dwalin 'the Wise'
+	}
+
+	lower_right_portrait = {
+		character = character:lineofdwalinTindome # Tindome
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_shores_of_the_long_lake
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.2016.a
+
+	}
+}
+
+ns_lotr_intro_events.2021 = { # Óin, son of Eldberk Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.2021.t
+	desc = ns_lotr_intro_events.2021.desc
+	theme = intrigue
+	override_background = {
+		reference = throne_room_dwarf
+	}
+	right_portrait = {
+		character = character:lineofuri126 # Óin
+		animation = personality_greedy
+	}
+
+	lower_left_portrait = {
+		character = character:lineofuriVI  # Uri VI the Generous
+	}
+
+	lower_center_portrait = {
+		character = character:lineofuri122 # Eldberk
+	}
+
+	lower_right_portrait = {
+		character = character:lineofuri90 # Frain
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_shores_of_the_long_lake
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.2021.a
+
+	}
+}
+
+ns_lotr_intro_events.2026 = { # Frain Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.2026.t
+	desc = ns_lotr_intro_events.2026.desc
+	theme = realm
+	override_background = {
+		reference = wilderness_mountains
+	}
+	right_portrait = {
+		character = character:lineofuri90 # Frain
+		animation = personality_callous
+	}
+
+	lower_left_portrait = {
+		character = character:lineofuri126 # Óin
+	}
+
+	lower_center_portrait = {
+		character = character:lineofuriVI  # Uri VI the Generous
+	}
+
+	lower_right_portrait = {
+		character = character:lineofuri122 # Eldberk
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_shores_of_the_long_lake
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.2026.a
+
+	}
+}
+
+ns_lotr_intro_events.2031 = { # Kili, son of Nori Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.2031.t
+	desc = ns_lotr_intro_events.2031.desc
+	theme = martial
+	override_background = {
+		reference = wilderness_mountains
+	}
+	right_portrait = {
+		character = character:lineofdurin114 # Kili
+		animation = personality_bold
+	}
+
+	lower_left_portrait = {
+		character = character:lineofbomfur3 # Brogur, son of Bofur
+	}
+
+	lower_center_portrait = {
+		character = character:lineofdurin112 # Fili, son of Dóri
+	}
+
+	lower_right_portrait = {
+		character = character:lineofbifur2 # Bósi, son of Bifur
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_the_edge_of_the_wild
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.2031.a
+
+	}
+}
+
+ns_lotr_intro_events.2036 = { # Náin Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.2036.t
+	desc = ns_lotr_intro_events.2036.desc
+	theme = realm
+	override_background = {
+		reference = throne_room_dwarf
+	}
+	right_portrait = {
+		character = character:lineofdurin107 # Náin
+		animation = personality_content
+	}
+
+	lower_left_portrait = {
+		character = character:lineofdurinVII # Durin VII the Last
+	}
+
+	lower_center_portrait = {
+		character = character:lineofdurin90 # Dain II Ironfoot
+	}
+
+	lower_right_portrait = {
+		character = character:lineofdurin91 # Thorin III Stonehelm
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_the_edge_of_the_wild
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.2036.a
+
+	}
+}
+
+########################
+###					 ###
+### Orc Intro Events ###
+###					 ###
+########################
+
+ns_lotr_intro_events.4001 = { # Boldog, the Tyrant Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.4001.t
+	desc = ns_lotr_intro_events.4001.desc
+	theme = martial
+	override_background = {
+		reference = throne_room_orc
+	}
+	left_portrait = {
+		character = character:lineofazog14 # Boldog the Tyrant
+		animation = personality_bold
+	}
+	lower_left_portrait = {
+		character = character:lineofazog2
+	}
+	lower_center_portrait = {
+		character = character:lineofdurinVII
+	}
+	lower_right_portrait = {
+		character = character:lineofazog15
+	}
+	immediate = {
+		play_music_cue = hobbit_the_defiler
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.4001.a
+
+	}
+}
+
+ns_lotr_intro_events.4006 = { # Mazog II, the Spurned Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.4006.t
+	desc = ns_lotr_intro_events.4006.desc
+	theme = intrigue
+	override_background = {
+		reference = wilderness_underground
+	}
+	right_portrait = {
+		character = character:lineofazog17 # Mazog II the Spurned
+		animation = personality_callous
+	}
+	lower_left_portrait = {
+		character = character:lineofazog16
+	}
+	lower_center_portrait = {
+		character = character:lineofazog10
+	}
+	lower_right_portrait = {
+		character = character:lineofazog20
+	}
+	immediate = {
+		play_music_cue = lotr_moria
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.4006.a
+
+	}
+}
+
+ns_lotr_intro_events.4011 = { # Bolgakh, the Hammer Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.4011.t
+	desc = ns_lotr_intro_events.4011.desc
+	theme = martial
+	override_background = {
+		reference = throne_room_orc
+	}
+	left_portrait = {
+		character = character:lineofazog16 # Bolgakh the Hammer
+		animation = personality_bold
+	}
+	lower_left_portrait = {
+		character = character:lineofazog17
+	}
+	lower_center_portrait = {
+		character = character:lineofazog1
+	}
+	lower_right_portrait = {
+		character = character:lineofazog21
+	}
+	immediate = {
+		play_music_cue = lotr_moria
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.4011.a
+
+	}
+}
+
+###########################
+###					    ###
+### Hobbit Intro Events ###
+###					    ###
+###########################
+
+##############################
+###	   				       ###
+### Non-human Intro Events ###
+###	  				       ###
+##############################
+
+##########################
+###	   				   ###
+### Human Intro Events ###
+###	  				   ###
+##########################
+
+### Arnor
+ns_lotr_intro_events.6001 = { # Anarion Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6001.t
+	desc = ns_lotr_intro_events.6001.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = eregion_ruins
+	}
+	lower_left_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = personality_proud
+	}
+	left_portrait = {
+		character = character:linefinwe28 # Elladan
+		animation = personality_proud
+	}
+	right_portrait = {
+		character = character:lineisildur48 # Anarion
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_one_of_the_dunedain
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6001.a
+		custom_tooltip = ns_lotr_intro_events.6001.a.tt # Accept the Kingdom
+		character:lineisildur48 = {
+			add_prestige_level = 1
+			create_artifact_sceptre_of_annuminas_effect = { OWNER = this }
+			create_artifact_banner_of_elendil_effect = { OWNER = this }
+			trigger_event = {
+				id = ns_lotr_intro_events.6002
+				days = { 5 30 }
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	option = {
+		name = ns_lotr_intro_events.6001.b
+		custom_tooltip = ns_lotr_intro_events.6001.b.tt # Reject the Kingdom
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.6002 = {
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6002.t
+	desc = ns_lotr_intro_events.6002.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = annuminas
+	}
+	lower_left_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = personality_proud
+	}
+	lower_right_portrait = {
+		character = character:linefinwe28 # Elladan
+		animation = personality_proud
+	}
+	left_portrait = {
+		character = character:lineofaranbor21 # Turlong
+		animation = personality_proud
+	}
+	right_portrait = {
+		character = character:lineisildur48 # Anarion
+		animation = scepter
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_RoK
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6002.a
+		custom_tooltip = ns_lotr_intro_events.6002.a.tt # Disbanding of the Rangers
+		hidden_effect = {
+			character:lineoforodhos68 = { get_title = title:c_adandor }
+			character:lineofaranbor21 = { # Turlong
+				destroy_title = title:d_emyn_uial
+				get_title = title:d_eketya
+			}
+			title:k_arthedain = { set_title_name = cn_arthedain_arnor }
+			title:e_arnor = { set_title_name = cn_arnor_eriador }
+		}
+		character:lineisildur48 = { # Anarion
+			set_culture = culture:arnorian
+			spawn_army = {
+				men_at_arms = {
+					type = arnorian_soldiers
+					stacks = 1
+				}
+				men_at_arms = {
+					type = arnorian_bowmen
+					stacks = 1
+				}
+				men_at_arms = {
+					type = wardens_of_annuminas
+					stacks = 1
+				}
+				men_at_arms = {
+					type = arnorian_cavalry
+					stacks = 1
+				}
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+				uses_supply = no
+				name = wardens_of_annuminas
+				location = character:lineisildur48.location
+			}
+			hidden_effect = {
+				get_title = title:c_annuminas
+				set_realm_capital = title:c_annuminas
+				get_title = title:d_tarmea
+				set_nickname_effect = { NICKNAME = nick_the_restorer }
+				destroy_title = title:d_northern_dunedain
+				set_house = house:house_anarioni
+				every_child = { set_house = house:house_anarioni }
+				create_title_and_vassal_change = {
+					type = swear_fealty
+					save_scope_as = change0
+					add_claim_on_loss = no
+				}
+				change_liege = {
+					liege = character:lineisildur43 # Eldarion safety check
+					change = scope:change0
+				}
+			}
+			get_title = title:k_arthedain # stand-in for arnor
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6002.b
+		custom_tooltip = ns_lotr_intro_events.6002.b.tt # Go independent
+		hidden_effect = {
+			character:lineoforodhos68 = { get_title = title:c_adandor }
+			character:lineofaranbor21 = { # Turlong
+				destroy_title = title:d_emyn_uial
+				get_title = title:d_eketya
+			}
+		}
+		character:lineisildur48 = { # Anarion
+			set_culture = culture:arnorian
+			spawn_army = {
+				men_at_arms = {
+					type = arnorian_soldiers
+					stacks = 1
+				}
+				men_at_arms = {
+					type = arnorian_bowmen
+					stacks = 1
+				}
+				men_at_arms = {
+					type = wardens_of_annuminas
+					stacks = 1
+				}
+				men_at_arms = {
+					type = arnorian_cavalry
+					stacks = 1
+				}
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+				uses_supply = no
+				name = wardens_of_annuminas
+				location = character:lineisildur48.location
+			}
+			hidden_effect = {
+				get_title = title:c_annuminas
+				set_realm_capital = title:c_annuminas
+				get_title = title:d_tarmea
+				get_title = title:k_arthedain
+				set_nickname_effect = { NICKNAME = nick_the_restorer }
+				destroy_title = title:d_northern_dunedain
+				set_house = house:house_anarioni
+				every_child = { set_house = house:house_anarioni }
+			}
+			get_title = title:e_arnor
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+### Shire
+ns_lotr_intro_events.6006 = { # Bilbo Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6006.t
+	desc = ns_lotr_intro_events.6006.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = eregion_ruins
+	}
+	right_portrait = {
+		character = character:lineoftook83 # Bilbo
+		animation = personality_proud
+	}
+	
+	immediate = {
+		play_music_cue = lotr_the_shire
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6006.a
+	}
+}
+
+ns_lotr_intro_events.6011 = { # Holfast Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6011.t
+	desc = ns_lotr_intro_events.6011.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = eregion_ruins
+	}
+	right_portrait = {
+		character = character:lineofgardner14 # Holfast
+		animation = personality_proud
+	}
+	
+	immediate = {
+		play_music_cue = lotr_the_shire
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6011.a
+	}
+}
+
+ns_lotr_intro_events.6016 = { # Elfstan Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6016.t
+	desc = ns_lotr_intro_events.6016.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = eregion_ruins
+	}
+	right_portrait = {
+		character = character:lineisildur48 # not Fairbarns
+		animation = personality_proud
+	}
+	
+	immediate = {
+		play_music_cue = lotr_the_shire
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6016.a
+	}
+}
+
+### Gondor
+ns_lotr_intro_events.6200 = { # Eldarion Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6200.t
+	desc = ns_lotr_intro_events.6200.desc
+	theme = mental_break
+	override_background = {
+		reference = corridor_dunedain
+	}
+	left_portrait = {
+		character = character:linesteward51 # Nessanie
+		animation = sadness
+	}
+	right_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = wailing
+	}
+	lower_left_portrait = {
+		character = character:linesteward46 # Dior
+		animation = grief
+	}
+	lower_center_portrait = {
+		character = character:lineisildur47 # Elendil
+		animation = sadness
+	}
+	
+	immediate = {
+		play_music_cue = lotr_one_of_the_dunedain
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6200.a
+		character:lineisildur43 = {
+			add_stress = 50
+			set_relation_best_friend = {
+				reason = contemplated_life_and_death_together
+				target = character:linesteward46
+			}
+			set_relation_soulmate = {
+				reason = contemplated_life_and_death_together
+				target = character:linesteward51
+			}
+			set_relation_best_friend = {
+				reason = contemplated_life_and_death_together
+				target = character:lineisildur47
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.6201 = { # Twilight of the King # Aragorn's death event chain
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6201.t
+	desc = ns_lotr_intro_events.6201.desc
+	theme = death
+	override_background = {
+		reference = bedchamber
+	}
+	left_portrait = {
+		character = character:linefinwe30 # Arwen
+		animation = wailing
+	}
+	right_portrait = {
+		character = character:lineisildur42 # Aragorn
+		animation = dead
+	}
+	lower_left_portrait = {
+		character = character:linesteward51 # Nessanie
+		animation = prayer
+	}
+	lower_center_portrait = {
+		character = character:lineisildur47 # Elendil
+		animation = sadness
+	}
+	lower_right_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = crying
+	}
+	
+	immediate = {
+		play_music_cue = lotr_arwens_fate
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6201.a
+		character:lineisildur43 = {
+			add_stress = 50
+		}
+		character:linefinwe30 = {
+			add_trait = widowed
+			add_stress = 200
+		}
+		if = {
+			limit = {
+				OR = {
+					has_title = title:e_reunitedkingdom
+					target_is_liege_or_above = title:e_reunitedkingdom.holder #this will trigger the event below for every single vassals
+				}
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.6202
+				days = 1
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.6202 = { # Hallows of Heroes
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6202.t
+	desc = ns_lotr_intro_events.6202.desc
+	theme = funeral_activity
+	override_background = {
+		reference = stone_city #corridor_dunedain
+	}
+	left_portrait = {
+		character = character:linefinwe30 # Arwen
+		animation = crying
+	}
+	right_portrait = {
+		character = character:lineisildur42 # Aragorn
+		animation = dead
+	}
+	lower_left_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = worry
+	}
+	lower_center_portrait = {
+		character = character:lineofdurin100 # Gimli
+		animation = shame
+	}
+	lower_right_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = grief
+	}
+	
+	immediate = {
+		play_music_cue = lotr_the_departure_of_boromir
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6202.a
+		character:linefinwe30 = {
+			add_trait = depressed_1
+		}
+		trigger_event = {
+			id = ns_lotr_intro_events.6203
+			days = 1
+		}
+	}
+}
+
+ns_lotr_intro_events.6203 = { # Dawn of the King
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6203.t
+	desc = ns_lotr_intro_events.6203.desc
+	theme = crown
+	override_background = {
+		reference = minas_tirith
+	}
+	left_portrait = {
+		character = character:linesteward46 # Dior
+		animation = scepter
+	}
+	right_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = jockey_wave
+		camera = camera_event_horse_right_forward
+	}
+	lower_left_portrait = {
+		character = character:linesteward51 # Nessanie
+		animation = prayer
+	}
+	lower_center_portrait = {
+		character = character:lineisildur47 # Elendil
+		animation = happiness
+	}
+	lower_right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = disapproval
+	}
+	
+	immediate = {
+		#play_music_cue = lotr_sons_of_the_steward
+		play_music_cue = lotr_the_sacrifice_of_faramir
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6203.a
+		character:lineisildur43 = { # Eldarion
+			add_stress = -50
+		}
+		if = {
+			limit = {
+				has_title = title:e_reunitedkingdom #wad, dont use character target
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.6204
+				days = 10
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.6204 = { # Departure of Arwen
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6204.t
+	desc = ns_lotr_intro_events.6204.desc
+	theme = mental_break
+	override_background = {
+		reference = eaves_of_lorien
+	}
+	left_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = survey
+	}
+	right_portrait = {
+		character = character:linefinwe30 # Arwen
+		animation = jockey_walk
+		camera = camera_event_horse_right_forward
+	}
+	lower_right_portrait = {
+		character = character:linefinwe29 # Elrohir
+		animation = thinking
+	}
+	
+	immediate = {
+		play_music_cue = lotr_the_grace_of_undomiel
+		character:linefinwe30 = {
+			start_travel_plan = { #Travel to elves
+				destination = province:3108 # b_caras_galadhon
+				return_trip = no
+				players_use_planner = yes
+				on_arrival_destinations = all
+			}
+		}
+	}
+
+	option = {
+		name = ns_lotr_intro_events.6204.a
+		character:lineisildur43 = { # Eldarion
+			add_stress = 50
+		}
+		character:linefinwe30 = { # Arwen
+			set_employer = character:linefinwe29
+		}
+		trigger_event = {
+			id = ns_lotr_intro_events.6205
+			days = 354
+		}
+		character:linefinwe29 = { # Elrohir
+			trigger_event = {
+				id = ns_lotr_intro_events.0011
+				days = { 5 20 }
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.6205 = { # Death of Arwen
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6205.t
+	desc = ns_lotr_intro_events.6205.desc
+	theme = funeral_activity
+	override_background = {
+		reference = lorien_night
+	}
+	left_portrait = {
+		character = character:linefinwe29 # Elrohir
+		animation = crying
+	}
+	right_portrait = {
+		character = character:linefinwe30 # Arwen
+		animation = dead
+	}
+	lower_right_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = prayer
+	}
+	
+	immediate = {
+		play_music_cue = lotr_the_passing_of_the_elves
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6205.a
+		character:linefinwe30 = {
+			death = { death_reason = death_faded_grief }
+		}
+		character:lineisildur43 = {
+			add_stress = 50
+		}
+		character:lineisildur43 = {
+			trigger_event = {
+				id = ns_lotr_intro_events.6200
+				days = { 90 360 }
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.6206 = { # Eldacar Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6206.t
+	desc = ns_lotr_intro_events.6206.desc
+	theme = travel_danger
+	override_background = {
+		reference = mordor_fullscreen
+	}
+	left_portrait = {
+		character = scope:ranger # RNG Ranger
+		animation = survey
+	}
+	right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_base_evil_16
+		hidden_effect_new_object = {
+			# Create a commander for the troops.
+			create_character = {
+				template = knight
+				culture = culture:dunedain_ranger
+				faith = character:lineisildur49.faith
+				dynasty = generate
+				location = character:lineisildur49.location
+				gender_female_chance = 0
+				save_scope_as = ranger
+			}
+		}
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6206.a
+		custom_tooltip = ns_lotr_intro_events.6206.a.tt # There will be Repercussions
+		character:lineisildur49 = { # Eldacar
+			add_stress = 50
+			hidden_effect = {
+				add_courtier = scope:ranger
+				domicile ?= { change_provisions = max_provisions }
+			}
+		}
+		trigger_event = {
+			id = ns_lotr_intro_events.6207
+			days = { 90 360 }
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6206.b
+		custom_tooltip = ns_lotr_intro_events.6206.b.tt # Stay Loyal
+		character:lineisildur49 = { # Eldacar
+			spawn_army = {
+				men_at_arms = {
+					type = pelargir_mariners
+					stacks = 1
+				}
+				men_at_arms = {
+					type = harondorim_rangers
+					stacks = 1
+				}
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+				uses_supply = no
+				save_scope_as = dark_host
+				name = harondorim_rangers
+				location = character:lineisildur49.location
+			}
+		}
+		hidden_effect = {
+			character:lineisildur49 = { # Eldacar
+				add_courtier = scope:ranger
+				domicile ?= { change_provisions = max_provisions }
+			}
+			scope:ranger = { # RNG Ranger
+				add_opinion = {
+					target = character:lineisildur49 # Eldacar
+					modifier = loyalty_opinion
+					opinion = 300
+				}
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.6207 = {
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6207.t
+	desc = ns_lotr_intro_events.6207.desc
+	theme = travel_danger
+	override_background = {
+		reference = barad_dur
+	}
+	left_portrait = {
+		character = scope:ranger # RNG Ranger
+		animation = worry
+	}
+	right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = clutching_ball
+	}
+	
+	immediate = {
+		play_music_cue = lotr_base_evil_15
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6207.a
+		custom_tooltip = ns_lotr_intro_events.6207.a.tt # There will be Repercussions
+		character:lineisildur49 = { # Eldacar
+			add_stress = 50
+			add_piety_level = -1
+			create_artifact_palantir_minasithil_effect = { OWNER = this }
+			#hidden_effect = {
+				remove_trait = calm
+				add_trait = paranoid
+			#}
+		}
+		trigger_event = {
+			id = ns_lotr_intro_events.6208
+			days = { 120 480 }
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6207.b
+		custom_tooltip = ns_lotr_intro_events.6207.b.tt # Stay Loyal
+		character:lineisildur49 = { # Eldacar
+			spawn_army = {
+				men_at_arms = {
+					type = rangers_of_ithilien
+					stacks = 1
+				}
+				men_at_arms = {
+					type = dunedain_rangers
+					stacks = 1
+				}
+				men_at_arms = {
+					type = dunedain_wardens
+					stacks = 1
+				}
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+				uses_supply = no
+				name = rangers_of_ithilien
+				location = character:lineisildur49.location
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.6208 = {
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6208.t
+	desc = ns_lotr_intro_events.6208.desc
+	theme = travel_danger
+	override_background = {
+		reference = throne_room_evil
+	}
+	left_portrait = {
+		character = scope:wise_woman # RNG Wisewoman
+		animation = obsequious_bow 
+	}
+	right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = worry
+	}
+	lower_left_portrait = {
+		character = scope:commander # RNG Leader
+		animation = throne_room_bow_1 
+	}
+	lower_center_portrait = {
+		character = scope:local_soldier # RNG Warrior
+		animation = throne_room_bow_1 
+	}
+	lower_right_portrait = {
+		character = scope:ranger # RNG Ranger
+		animation = worry
+	}
+
+	immediate = {
+		play_music_cue = aotr_calm_mistymountains_10
+		hidden_effect_new_object = {
+			# Create a commander for the troops.
+			create_character = {
+				template = new_commander_character
+				culture = culture:nurniag
+				faith = faith:faith_nurniag
+				dynasty = generate
+				location = character:lineisildur49.location
+				gender_female_chance = root_soldier_female_chance
+				save_scope_as = commander
+				after_creation = {
+					learn_language = language_westron
+					add_opinion = {
+						target = character:lineisildur49 # Eldacar
+						modifier = loyalty_opinion
+						opinion = 100
+					}
+				}
+			}
+			## Give 'em a nickname.
+			scope:commander = { assign_random_nickname_effect = yes }
+			# Create a local soldier.
+			create_character = {
+				template = new_warrior_character
+				location = character:lineisildur49.location
+				culture = culture:magriag
+				faith = faith:faith_kerkassk
+				dynasty = none
+				gender_female_chance = 0
+				save_scope_as = local_soldier
+				after_creation = {
+					learn_language = language_westron
+					add_opinion = {
+						target = character:lineisildur49 # Eldacar
+						modifier = loyalty_opinion
+						opinion = 100
+					}
+				}
+			}
+			## Give 'em a nickname.
+			scope:local_soldier = { assign_random_nickname_effect = yes }
+			# Create a local soldier.
+			create_character = {
+				template = new_warrior_character
+				location = character:lineisildur49.location
+				culture = culture:umbarean
+				faith = faith:path_of_zigur
+				dynasty = none
+				gender_female_chance = root_soldier_female_chance
+				save_scope_as = local_soldier2
+				trait = blood_of_numenor_1
+				after_creation = {
+					learn_language = language_westron
+					add_opinion = {
+						target = character:lineisildur49 # Eldacar
+						modifier = loyalty_opinion
+						opinion = 100
+					}
+				}
+			}
+			## Give 'em a nickname.
+			scope:local_soldier2 = { assign_random_nickname_effect = yes }
+			# Create a wise woman.
+			create_character = { #massive bait
+				template = wise_woman_character
+				location = character:lineisildur49.location
+				culture = culture:old_umbarean
+				faith = faith:melkorite
+				dynasty = none
+				gender_female_chance = 100
+				save_scope_as = wise_woman
+				trait = zealous
+				trait = lustful
+				trait = ambitious
+				trait = shrewd
+				trait = intellect_good_1
+				trait = beauty_good_2
+				trait = blood_of_numenor_2
+				trait = witch
+				trait = lifestyle_herbalist
+				after_creation = {
+					learn_language = language_westron
+					learn_language = language_black_speech
+					add_opinion = {
+						target = character:lineisildur49 # Eldacar
+						modifier = loyalty_opinion
+						opinion = 200
+					}
+				}
+			}
+			## Give 'em a nickname.
+			scope:wise_woman = { assign_random_nickname_effect = yes }
+		}
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6208.a
+		custom_tooltip = ns_lotr_intro_events.6208.a.tt # No Turning Back
+		character:lineisildur49 = { # Eldacar
+			add_stress = 100
+			add_gold = major_gold_value
+			if = {
+				limit = { is_ai = yes }
+				set_character_faith_with_conversion = faith:melkorite
+			}
+			spawn_army = {
+				levies = 500
+				men_at_arms = {
+					type = umbar_usurpers
+					stacks = 1
+				}
+				men_at_arms = {
+					type = abrazanim_legion
+					stacks = 1
+				}
+				men_at_arms = {
+					type = abrazanim_halberdiers
+					stacks = 1
+				}
+				men_at_arms = {
+					type = abrazanim_warbows
+					stacks = 1
+				}
+				men_at_arms = {
+					type = temple_knights_of_the_eye
+					stacks = 1
+				}
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+				uses_supply = no
+				save_scope_as = dark_host
+				name = abrazanim_legion
+				location = character:lineisildur49.location
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.6209
+				days = { 240 960 }
+			}
+			hidden_effect = {
+				add_courtier = scope:commander
+				add_courtier = scope:local_soldier
+				add_courtier = scope:local_soldier2
+				add_courtier = scope:wise_woman
+			}
+		}
+		hidden_effect = {
+			scope:ranger = { # RNG Ranger
+				death = { killer = character:lineisildur49 death_reason = death_sacrificed_to_foreign_gods } # Eldarion kill them
+			}
+			character:lineisildur49 = { # Eldacar
+				add_trait = disloyal
+				add_trait = murderer
+			}
+		character:lineofcaran2 = { # The Watch splits
+			create_title_and_vassal_change = {
+				type = independency
+				add_claim_on_loss = yes
+				save_scope_as = change3
+			}
+			becomes_independent = { change = scope:change3 }
+			resolve_title_and_vassal_change = scope:change3
+		}
+		character:lineofcaran2 = { # The Watch splits pt2
+			create_title_and_vassal_change = {
+				type = swear_fealty
+				save_scope_as = change4
+				add_claim_on_loss = no
+			}
+			change_liege = {
+				liege = character:lineisildur43 # Eldarion
+				change = scope:change4
+			}
+		}
+		character:lineisildur49 = { # Eldacar
+			create_title_and_vassal_change = {
+				type = independency
+				add_claim_on_loss = yes
+				save_scope_as = change5
+			}
+			becomes_independent = { change = scope:change5 }
+			resolve_title_and_vassal_change = scope:change5
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6208.b
+		custom_tooltip = ns_lotr_intro_events.6208.b.tt # No
+		character:lineisildur49 = { # Eldacar
+			add_trait = loyal
+			add_piety_level = 1
+			spawn_army = {
+				men_at_arms = {
+					type = dunedain_knights
+					stacks = 1
+				}
+				men_at_arms = {
+					type = dunedain_archers
+					stacks = 1
+				}
+				men_at_arms = {
+					type = dunedain_soldiers
+					stacks = 1
+				}
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+				uses_supply = no
+				name = dunedain_knights
+				location = character:lineisildur49.location
+			}
+		}
+		scope:commander = {
+			death = { death_reason = death_battle killer = character:lineisildur49 } # Eldarion kill them
+		}
+		scope:local_soldier = {
+			death = { death_reason = death_battle killer = character:lineisildur49 } # Eldarion kill them
+		}
+		scope:local_soldier2 = {
+			death = { death_reason = death_battle killer = character:lineisildur49 } # Eldarion kill them
+		}
+		scope:wise_woman = {
+			death = { death_reason = death_vanished }
+		}
+		hidden_effect = {
+			scope:ranger = {
+				add_opinion = {
+					target = character:lineisildur49 # Eldacar
+					modifier = loyalty_opinion
+					opinion = 300
+				}
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.6209 = {
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6209.t
+	desc = ns_lotr_intro_events.6209.desc
+	theme = travel_danger
+	override_background = {
+		reference = throne_room_evil
+	}
+	left_portrait = {
+		character = scope:wise_woman # RNG Wisewoman
+		animation = obsequious_bow 
+	}
+	right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = delirium
+	}
+	lower_right_portrait = {
+		character = character:lineofsauron # Sauron
+		animation = worry
+	}
+
+	immediate = {
+		play_music_cue = hobbit_an_ancient_enemy
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6209.a
+		custom_tooltip = ns_lotr_intro_events.6209.a.tt # No Turning Back
+		character:lineisildur49 = { # Eldacar
+			set_character_faith_with_conversion = faith:melkorite
+			add_stress = 100
+			change_first_name = "Herumor"
+			add_character_flag = has_regnal_name
+			set_house = house:house_herumori
+			hidden_effect = {
+				add_trait = lunatic_genetic
+				add_trait = sorcerer_1
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.6210
+				days = { 720 1920 }
+			}
+		}
+		hidden_effect = {
+			scope:wise_woman = { # RNG Wisewoman
+				add_trait = sorcerer_1
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6209.b
+		custom_tooltip = ns_lotr_intro_events.6209.b.tt # No Turning Back
+		character:lineisildur49 = { # Eldacar
+			set_character_faith_with_conversion = faith:cult_of_zigur
+			add_stress = 100
+			change_first_name = "Herumor"
+			add_character_flag = has_regnal_name
+			set_house = house:house_herumori
+			hidden_effect = {
+				add_trait = lunatic_genetic
+				add_trait = sorcerer_1
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.6210
+				days = { 720 1920 }
+			}
+		}
+		hidden_effect = {
+			scope:wise_woman = { # RNG Wisewoman
+				add_trait = sorcerer_1
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6209.c
+		custom_tooltip = ns_lotr_intro_events.6209.c.tt # No
+		
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+ns_lotr_intro_events.6210 = {
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6210.t
+	desc = ns_lotr_intro_events.6210.desc
+	theme = travel_danger
+	override_background = {
+		reference = throne_room_evil
+	}
+	left_portrait = {
+		character = scope:wise_woman # RNG Wisewoman
+		animation = obsequious_bow 
+	}
+	right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = delirium
+	}
+	lower_right_portrait = {
+		character = character:lineofsauron # Sauron
+		animation = worry
+	}
+
+	immediate = {
+		play_music_cue = hobbit_an_ancient_enemy
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6210.a
+		custom_tooltip = ns_lotr_intro_events.6210.a.tt # No Turning Back
+		character:lineisildur49 = { # Eldacar
+			add_stress = 100
+			hidden_effect = {
+				add_trait = sorcerer_2
+				add_trait = possessed_genetic
+			}
+		}
+		#hidden_effect = {
+			scope:wise_woman = { # RNG Wisewoman
+				death = { killer = character:lineisildur49 death_reason = death_sacrificed_to_foreign_gods } # Eldarion kill them
+			}
+		#}
+		#trigger_event = { #next level sorcery??
+		#	id = ns_lotr_intro_events.6211
+		#	days = { 960 1920 }
+		#}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6210.b
+		custom_tooltip = ns_lotr_intro_events.6210.b.tt # Too late
+		hidden_effect = {
+			character:lineisildur49 = { # Eldacar
+				death = { killer = scope:wise_woman death_reason = death_sacrificed_to_foreign_gods } # Killed
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.6211 = { # Dior Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6211.t
+	desc = ns_lotr_intro_events.6211.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = mordor_fullscreen
+	}
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	
+	immediate = {
+		play_music_cue = lotr_the_sacrifice_of_faramir
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6211.a
+	}
+}
+
+### Rohan
+ns_lotr_intro_events.6401 = { # Rohan Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6401.t
+	desc = ns_lotr_intro_events.6401.desc
+	theme = martial_chivalry_focus
+	override_background = {
+		reference = edoras
+	}
+	left_portrait = {
+		character = character:lineofeofor20 # Eofara
+		animation = steward
+	}
+	right_portrait = {
+		character = character:lineofeofor21 # Eobrand
+		animation = marshal
+	}
+	
+	immediate = {
+		play_music_cue = lotr_edoras
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6401.a
+		character:lineofeofor20 = { # Eofara
+			trigger_event = {
+				id = ns_lotr_intro_events.6402
+				days = 10
+			}
+		}
+		character:lineofeofor21 = { # Eobrand
+			trigger_event = {
+				id = ns_lotr_intro_events.6406
+				days = 10
+			}
+		}
+	}
+}
+
+ns_lotr_intro_events.6402 = { # Eofara Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6402.t
+	desc = ns_lotr_intro_events.6402.desc
+	theme = martial_chivalry_focus
+	override_background = {
+		reference = edoras
+	}
+	right_portrait = {
+		character = character:lineofeofor20 # Eofara
+		animation = personality_proud
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_rohan
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6402.a
+	}
+}
+
+ns_lotr_intro_events.6406 = { # Eobrand Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.6406.t
+	desc = ns_lotr_intro_events.6406.desc
+	theme = martial_chivalry_focus
+	override_background = {
+		reference = edoras
+	}
+	right_portrait = {
+		character = character:lineofeofor21 # Eobrand
+		animation = personality_proud
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_rohan
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.6406.a
+	}
+}

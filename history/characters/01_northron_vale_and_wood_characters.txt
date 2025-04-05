@@ -1,0 +1,1654 @@
+﻿### ALL FICTION
+
+#### Beornings of the Anduin Vale ####
+### Line of Olbeorn
+lineofbeorn4 = {
+	name = Odovacar
+	dynasty = dynasty_beorning
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn3b # Olbeorn
+	#mother = 
+	
+	trait = skinchanger
+	
+	7039.8.8 = {
+		birth = yes
+	}
+	7126.7.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn5 = {
+	name = Odulf
+	dynasty = dynasty_beorning
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn4 # Odovacar
+	#mother = 
+	
+	trait = skinchanger
+	
+	7055.3.20 = {
+		birth = yes
+	}
+	7159.11.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn6 = {
+	name = Odulf #II
+	dynasty = dynasty_beorning
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn5 # Odulf
+	#mother = 
+	
+	trait = skinchanger
+	
+	7088.6.30 = {
+		birth = yes
+	}
+	7173.9.25 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn7 = {
+	name = Olbeorn #II
+	dynasty = dynasty_beorning
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn6 # Odulf II
+	#mother = 
+	
+	trait = skinchanger
+	
+	7107.11.13 = {
+		birth = yes
+	}
+	7201.2.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn15 = {
+	name = Hakon
+	dynasty = dynasty_beorning
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn7 # Olbeorn II
+	#mother = 
+	
+	trait = skinchanger
+	trait = bleeder
+	
+	7152.4.8 = {
+		birth = yes
+	}
+	7242.7.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Line of Albeorn
+lineofbeorn8 = {
+	name = Grimeric	
+	dynasty = dynasty_beorning
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn3c # Albeorn
+	#mother = 
+	
+	trait = skinchanger
+	
+	7069.3.20 = {
+		birth = yes
+	}
+	7099.1.2 = {
+		add_spouse = lineofbeorn8wife
+	}
+	7189.6.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn8wife = {
+	name = Froiliuva	
+	religion = faith_woodmen
+	culture = valemen
+	#father = 
+	#mother = 
+	female = yes
+	
+	7080.3.2 = {
+		birth = yes
+	}
+	7189.2.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+lineofbeorn9 = {
+	name = Gunderic	
+	dynasty = dynasty_beorning
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn8 # Grimeric
+	mother = lineofbeorn8wife # Froiliuva
+	
+	trait = skinchanger
+	
+	7099.10.3 = {
+		birth = yes
+	}
+	7198.10.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn10 = {
+	name = Grima
+	dynasty = dynasty_beorning
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn9 # Gunderic
+	#mother = 
+	
+	7127.1.30 = {
+		birth = yes
+		give_nickname = nick_the_naysayer
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7203.6.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Line of Jarbeorn
+lineofbeorn11 = {
+	name = Torbeorn	
+	dynasty_house = house_melbeorn
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn3e # Jarbeorn
+	#mother = 
+	
+	trait = skinchanger
+	
+	7050.3.20 = {
+		birth = yes
+		give_nickname = nick_strongarm
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7149.10.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn12 = {
+	name = Jarnrik
+	dynasty_house = house_melbeorn
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn11 # Torbeorn
+	#mother = 
+	
+	7079.6.17 = {
+		birth = yes
+	}
+	7174.3.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn13 = {
+	name = Beornwulf
+	dynasty_house = house_melbeorn
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn12 # Jarnrik
+	#mother = 
+	
+	7106.1.1 = {
+		birth = yes
+	}
+	7189.4.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn14 = {
+	name = Jarbeorn
+	dynasty_house = house_melbeorn
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofbeorn13 # Beornwulf
+	#mother = 
+	
+	7136.8.29 = {
+		birth = yes
+	}
+	7201.12.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Olphangings - major tribe of the forest eves. Beorn married the female heir. ###
+### Line of Gauzberto
+lineofolphang6 = {
+	name = Gesalecho
+	dynasty_house = house_gauzberto
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofolphang4c2 # Gauzberto
+	#mother = 
+	
+	7010.2.6 = {
+		birth = yes
+	}
+	7106.5.8 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofolphang7 = {
+	name = Alaricho
+	dynasty_house = house_gauzberto
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofolphang6 # Gesalecho
+	#mother = 
+	
+	7041.3.16 = {
+		birth = yes
+	}
+	7112.4.18 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofolphang8 = {
+	name = Silvio
+	dynasty_house = house_gauzberto
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofolphang7 # Alaricho
+	#mother = 
+	
+	7070.1.9 = {
+		birth = yes
+		give_nickname = nick_the_green
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7160.2.20 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofolphang9 = {
+	name = Gauzberto #II
+	dynasty_house = house_gauzberto
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofolphang8 # Olwine
+	#mother = 
+	
+	7096.10.30 = {
+		birth = yes
+	}
+	7121.9.2 = {
+		add_spouse = lineofgudamar9sis # Urraca Gudamari
+	}
+	7170.4.28 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofolphang10 = {
+	name = Gauzberto #III
+	dynasty_house = house_gauzberto
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofolphang9 # Gauzberto II
+	mother = lineofgudamar9sis # Urraca Gudamari
+	
+	7124.4.4 = {
+		birth = yes
+		give_nickname = nick_twistedbeard
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7190.5.5 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofolphang11 = {
+	name = Silvio #II
+	dynasty_house = house_gauzberto
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofolphang10 # Gauzberto III
+	#mother = 
+	
+	7157.10.20 = {
+		birth = yes
+	}
+	7199.3.15 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+### Line of Olphabeorn
+lineofolphang12 = {
+	name = Olphango
+	dynasty = dynasty_olphanging
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofolphang4c1 # Olphabeorn
+	#mother = 
+	
+	trait = skinchanger
+	
+	7035.10.4 = {
+		birth = yes
+	}
+	7111.1.25 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofolphang13 = {
+	name = Olwine
+	dynasty = dynasty_olphanging
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofolphang12 # Olphango
+	#mother = 
+	
+	trait = skinchanger
+	
+	7058.2.24 = {
+		birth = yes
+		give_nickname = nick_the_old
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7180.10.19 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofolphang14 = {
+	name = Olwine
+	dynasty = dynasty_olphanging
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofolphang13 # Olwine
+	#mother = 
+	
+	trait = skinchanger
+	
+	7087.9.7 = {
+		birth = yes
+		give_nickname = nick_the_young
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7120.2.20 = {
+		add_spouse = lineofolphang14wife # Eldonza
+	}
+	7191.5.5 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofolphang14wife = {
+	name = Eldonza
+	religion = faith_woodmen
+	culture = valemen
+	#father = 
+	#mother = 
+	female = yes
+	
+	7089.10.27 = {
+		birth = yes
+	}
+	7178.5.15 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofolphang15 = {
+	name = Beorn
+	dynasty = dynasty_olphanging
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofolphang14 # Olwine
+	mother = lineofolphang14wife # Eldonza
+	
+	trait = skinchanger
+	
+	7121.1.17 = {
+		birth = yes
+	}
+	7150.1.1 = {
+		add_spouse = lineofherimundi16 # Gothina Herimundi
+	}
+	7208.11.7 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofolphang16 = {
+	name = Arnulf
+	dynasty = dynasty_olphanging
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofolphang15 # Beorn
+	mother = lineofherimundi16 # Gothina Herimundi
+	
+	7152.2.6 = {
+		birth = yes
+	}
+	7220.11.7 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+### Gudamari - ancient woodmen tribe of north-west Mirkwood - have resisted Beorning suzerainty out of pride. ###
+lineofgudamar6 = {
+	name = Egica
+	dynasty = dynasty_gudamari
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofgudamar5 # Gaton
+	
+	trait = compassionate
+	
+	7033.6.2 = {
+		birth = yes
+	}
+	7049.10.9 = {
+		add_spouse = lineofgudamar6wife # Leofwynn
+	}
+	7110.7.2 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofgudamar6wife = {
+	name = Leofwynn
+	religion = faith_framling
+	culture = framling
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = fecund
+	trait = depressed_1
+	
+	7034.2.12 = {
+		birth = yes
+	}
+	7090.7.2 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofgudamar6bro = {
+	name = Hildebald
+	dynasty = dynasty_gudamari
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofgudamar5 # Gaton
+	
+	trait = brave
+	
+	trait = adventurer
+	trait = maimed
+	
+	7036.6.2 = {
+		birth = yes
+	}
+	7059.7.2 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofgudamar7 = {
+	name = Thalton
+	dynasty = dynasty_gudamari
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofgudamar6 # Egica
+	mother = lineofgudamar6wife # Leofwynn
+	
+	trait = just
+	trait = diligent
+	trait = patient
+	
+	trait = education_stewardship_4
+	trait = administrator
+	
+	7050.5.1 = {
+		birth = yes
+		give_nickname = nick_the_pragmatic
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7066.3.21 = {
+		add_spouse = lineofbeorn3d # Langhar Beorning
+	}
+	7148.7.2 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofgudamar8 = {
+	name = Tjudmund
+	dynasty = dynasty_gudamari
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofgudamar7 # Thalton
+	mother = lineofbeorn3d # Langhar Beorning
+	
+	trait = infirm
+		
+	7069.3.4 = {
+		birth = yes
+	}
+	7099.2.21 = {
+		add_spouse = lineofgudamar8wife # Winidilda
+	}
+	7170.4.12 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofgudamar8wife = {
+	name = Winidilda
+	religion = faith_woodmen
+	culture = valemen
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = giant
+	
+	7068.11.7 = {
+		birth = yes
+	}
+	7169.2.18 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofgudamar8sis = {
+	name = Monnia
+	dynasty = dynasty_gudamari
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofgudamar7 # Thalton
+	mother = lineofbeorn3d # Langhar Beorning
+	female = yes
+	
+	7071.10.14 = {
+		birth = yes
+	}
+	7180.6.27 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofgudamar9 = {
+	name = Alaric
+	dynasty = dynasty_gudamari
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofgudamar8 # Thalton
+	mother = lineofgudamar8wife # Winidilda
+	
+	trait = giant
+	trait = strong
+	trait = reaver
+	
+	7099.8.9 = {
+		birth = yes
+	}
+	7120.2.21 = {
+		add_spouse = lineofgudamar9wife # Gaudiosa
+	}
+	7190.7.2 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofgudamar9wife = {
+	name = Gaudiosa
+	religion = faith_woodmen
+	culture = valemen
+	#father = 
+	#mother = 
+	female = yes
+	
+	7101.12.9 = {
+		birth = yes
+	}
+	7180.5.25 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofgudamar9sis = {
+	name = Urraca
+	dynasty = dynasty_gudamari
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofgudamar8 # Thalton
+	mother = lineofgudamar8wife # Winidilda
+	female = yes
+	
+	sexuality = homosexual
+	
+	trait = brave
+	trait = compassionate
+	trait = gregarious
+	
+	trait = beauty_good_1
+	trait = education_diplomacy_4
+	trait = poet
+	
+	7106.8.9 = {
+		birth = yes
+		give_nickname = nick_the_rhymer
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7190.7.2 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofgudamar10 = {
+	name = Alaricho
+	dynasty = dynasty_gudamari
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofgudamar9 # Alaric
+	mother = lineofgudamar9wife # Gaudiosa
+	
+	trait = athletic
+	trait = whole_of_body
+	trait = forest_fighter
+	
+	7120.11.1 = {
+		birth = yes
+	}
+	7202.6.8 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofgudamar11 = {
+	name = Gatano
+	dynasty = dynasty_gudamari
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofgudamar9 # Alaric
+	mother = lineofgudamar9wife # Gaudiosa
+	
+	trait = forest_fighter
+	trait = gallant
+	
+	7126.4.17 = {
+		birth = yes
+	}
+	7204.8.9 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+#### Framlings of Framburg ####	
+framlingcount3sis = {
+	name = Agatha
+	dynasty = dynasty_tauring
+	religion = faith_framling
+	culture = framling 
+	father = framlingcount2 # Sexbald
+	#mother = 
+	female = yes
+	
+	trait = bastard
+	trait = beauty_good_1
+	
+	7049.12.1 = {
+		birth = yes
+	}
+	7138.8.20 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+#### Framlings of Framburg ####	
+linefram48 = {
+	name = Amalaric
+	dynasty = dynasty_framling
+	religion = faith_framling
+	culture = framling
+	father = linefram47 # Aoricho
+	
+	trait = lazy
+	trait = humble
+	trait = calm
+	
+	7056.2.18 = {
+		birth = yes
+		give_nickname = nick_the_bearded
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7069.2.10 = {
+		add_spouse = framlingcount3sis # Agatha
+	}
+	7141.10.12 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+linefram49 = {
+	name = Alaric
+	dynasty = dynasty_framling
+	religion = faith_framling
+	culture = framling
+	father = linefram48 # Amalaric
+	mother = framlingcount3sis # Agatha
+	
+	trait = arrogant
+	trait = lustful
+	
+	trait = education_intrigue_2
+	trait = physique_good_1
+	trait = cavalry_leader
+	
+	7070.1.8 = {
+		birth = yes
+	}
+	7089.1.8 = {
+		add_spouse = linefram49wife # Hungifu
+	}
+	7159.8.24 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+linefram49wife = {
+	name = Hungifu
+	religion = faith_woodmen
+	culture = woodmen
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = zealous
+	trait = ambitious
+	trait = brave
+	
+	trait = lifestyle_hunter
+	trait = physique_good_1
+	trait = education_martial_2
+	trait = rough_terrain_expert
+	
+	7071.3.6 = {
+		birth = yes
+	}
+	7180.1.1 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+linefram49bro = {
+	name = Ardo
+	dynasty = dynasty_framling
+	religion = faith_framling
+	culture = framling
+	father = linefram48 # Amalaric
+	mother = framlingcount3sis # Agatha
+	
+	trait = eccentric
+	
+	trait = education_learning_4
+	trait = infertile
+	trait = lunatic_1
+	trait = reclusive
+	
+	7072.1.8 = {
+		birth = yes
+		give_nickname = nick_the_recluse
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7201.8.24 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+linefram50 = {
+	name = Aoricho
+	dynasty = dynasty_framling
+	religion = faith_framling
+	culture = framling
+	father = linefram49 # Alaric
+	mother = linefram49wife # Hungifu
+	
+	trait = brave
+	trait = temperate
+	trait = ambitious
+	
+	trait = education_martial_4
+	trait = physique_good_2
+	trait = strong
+	trait = lifestyle_blademaster
+	trait = cavalry_leader
+	trait = one_eyed
+	
+	7089.6.28 = {
+		birth = yes
+		give_nickname = nick_the_ploughman
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7161.6.2 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+linefram51 = {
+	name = Amalaric
+	dynasty = dynasty_framling
+	religion = faith_framling
+	culture = framling
+	father = linefram50 # Aoricho
+	
+	trait = wheezing
+	trait = greedy
+	
+	trait = education_stewardship_3
+	trait = avaricious
+	
+	7111.5.5 = {
+		birth = yes
+	}
+	7135.8.13 = {
+		add_spouse = linefram51wife # Ealdgyth
+	}
+	7189.12.25 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+linefram51wife = {
+	name = Ealdgyth
+	religion = faith_framling
+	culture = framling
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = cancer
+	
+	7115.2.15 = {
+		birth = yes
+	}
+	7169.3.3 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+linefram52 = {
+	name = Ardo
+	dynasty = dynasty_framling
+	religion = faith_framling
+	culture = framling
+	father = linefram51 # Amalaric
+	mother = linefram51wife # Ealdgyth
+	
+	trait = education_diplomacy_3
+	trait = cavalry_leader
+	trait = athletic
+	
+	7136.9.13 = {
+		birth = yes
+	}
+	7201.1.19 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+### Melburgi - tribe in and around the town of Melburg ###
+#fiction
+lineofmelburg6 = {
+	name = Atawulfo
+	dynasty = dynasty_melburgi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofmelburg4aa # Egico
+	
+	7009.5.15 = {
+		birth = yes
+	}
+	7097.8.12 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofmelburg7 = {
+	name = Eadulf
+	dynasty = dynasty_melburgi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofmelburg6 # Atawulfo
+	
+	7026.5.15 = {
+		birth = yes
+		give_nickname = nick_the_clever
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7045.5.15 = {
+		add_spouse = linefram46
+	}
+	7091.8.12 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofmelburg8 = {
+	name = Athanagildo
+	dynasty = dynasty_melburgi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofmelburg7 # Eadulf
+	mother = linefram46 # Sibilia Framling
+	
+	7058.3.25 = {
+		birth = yes
+	}
+	7075.1.2 = {
+		add_spouse = lineofmelburg8wife #Adosinda
+	}
+	7145.6.11 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofmelburg8wife = {
+	name = Adosinda
+	religion = faith_woodmen
+	culture = valemen
+	#father = 
+	#mother = 
+	female = yes
+	
+	7059.8.2 = {
+		birth = yes
+	}
+	7131.12.1 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofmelburg9 = {
+	name = Cearl
+	dynasty = dynasty_melburgi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofmelburg8 # Athanagildo
+	mother = lineofmelburg8wife #Adosinda
+	
+	7075.5.13 = {
+		birth = yes
+	}
+	7099.5.13 = {
+		add_spouse = lineofgudamar8sis # Munnia Gudamari
+	}
+	7161.7.19 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofmelburg10 = {
+	name = Egica
+	dynasty = dynasty_melburgi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofmelburg9 # Cearl
+	mother = lineofgudamar8sis # Munnia Gudamari
+	
+	trait = greedy
+	trait = deceitful
+	trait = calm
+	
+	7112.2.1 = {
+		birth = yes
+		give_nickname = nick_the_cheater
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7181.4.20 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofmelburg11 = {
+	name = Guttier
+	dynasty = dynasty_melburgi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofmelburg10 # Egica
+	
+	7141.12.2 = {
+		birth = yes
+	}
+	7209.6.30 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+### Herimundi - independent-minded tribe of the southern Vale. East of the Anduin their territory has been subsumed by Dol Guldur.###
+### Line of Mauregato
+lineofherimundi6 = {
+	name = Mauro
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi5a # Mauregato
+	mother = lineofgailavira1 # Gailavira
+	
+	trait = craven
+	trait = shy
+	trait = eccentric
+	
+	7036.11.2 = {
+		birth = yes
+		give_nickname = nick_the_craven
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7099.7.14 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi7 = {
+	name = Miron
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi6 # Mauro
+	#mother = 
+	
+	7061.6.23 = {
+		birth = yes
+	}
+	7127.1.30 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi8 = {
+	name = Friednand
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi7 # Miron
+	#mother = 
+	
+	7093.3.19 = {
+		birth = yes
+	}
+	7187.6.6 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi9 = {
+	name = Friednand
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi8 # Friednand
+	#mother = 
+	
+	7125.8.10 = {
+		birth = yes
+		give_nickname = nick_the_younger
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7195.12.25 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi9sis = {
+	name = Agnes
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi8 # Friednand
+	#mother = 
+	female = yes
+
+	trait = beauty_good_1
+	
+	7128.10.7 = {
+		birth = yes
+		give_nickname = nick_the_fair
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7196.5.11 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi10 = {
+	name = Sigibert
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi9 # Friednand
+	#mother = 
+	
+	7154.1.6 = {
+		birth = yes
+	}
+	7251.7.20 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi11 = {
+	name = Theodora
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi9 # Friednand
+	#mother = 
+	female = yes
+	
+	7156.10.7 = {
+		birth = yes
+	}
+	7221.2.18 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+### Line of Madrubal
+lineofherimundi12 = {
+	name = Hermesind
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi5 # Madrubal
+	mother = lineofbeorn3a # Medbeorn Beorning
+	female = yes
+	
+	7033.8.1 = {
+		birth = yes
+	}
+	7111.6.25 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi13 = {
+	name = Madrubal
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi5 # Madrubal
+	mother = lineofbeorn3a # Medbeorn Beorning
+	
+	7049.10.30 = {
+		birth = yes
+		give_nickname = nick_the_discussant
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7112.1.13 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi14 = {
+	name = Miro
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi13 # Madrubal
+	#mother = 
+	
+	7079.7.29 = {
+		birth = yes
+	}
+	7162.4.14 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi15 = {
+	name = Geila
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi14 # Miro
+	#mother = 
+	
+	7100.1.17 = {
+		birth = yes
+	}
+	7169.6.3 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi16 = {
+	name = Gothina
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi15 # Geila
+	#mother = 
+	female = yes
+	
+	trait = lustful
+	trait = shy
+	trait = zealous
+	
+	trait = twin
+	
+	7125.2.27 = {
+		birth = yes
+	}
+	7199.4.1 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi17 = {
+	name = Gothar
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi15 # Geila
+	#mother = 
+	
+	trait = brave
+	trait = arrogant
+	trait = zealous
+	
+	trait = twin
+	trait = physique_good_1
+	
+	7125.2.27 = {
+		birth = yes
+		give_nickname = nick_the_brave
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7199.4.1 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi18 = {
+	name = Gothar
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi17 # Gothar
+	#mother = 
+	
+	7159.8.10 = {
+		birth = yes
+	}
+	7210.9.11 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+# Line of Matago
+lineofherimundi19 = {
+	name = Baldac
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi3aaa # Matago
+	#mother = 
+	
+	7059.8.10 = {
+		birth = yes
+	}
+	7120.9.11 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi20 = {
+	name = Aloito
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi19 # Baldac
+	#mother = 
+	
+	7091.10.10 = {
+		birth = yes
+	}
+	7160.1.28 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofherimundi21 = {
+	name = Matheo
+	dynasty = dynasty_herimundi
+	religion = faith_woodmen
+	culture = valemen
+	father = lineofherimundi20 # Aloito
+	#mother = 
+	
+	7130.1.13 = {
+		birth = yes
+	}
+	7198.6.16 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+### Sairthiuda - small but important woodman tribe, mostly independent but western villages drifting towards the Beornings###
+# Line of Dalecho
+lineofsairthiuda6 = {
+	name = Diasto
+	dynasty = dynasty_sairthiuda
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofsairthiuda5 # Diaco
+	#mother = 
+	
+	7040.11.21 = {
+		birth = yes
+	}
+	7070.1.2 = {
+		add_spouse = lineofherimundi3aab # Mataga Herimundi
+	}
+	7121.5.1 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofsairthiuda7 = {
+	name = Diagero
+	dynasty = dynasty_sairthiuda
+	religion = faith_woodmen
+	culture = woodmen
+	father = lineofsairthiuda6 # Diasto
+	mother = lineofherimundi3aab # Mataga
+	
+	7071.1.26 = {
+		birth = yes
+	}
+	7159.7.30 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofsairthiuda8 = {
+	name = Diego
+	dynasty = dynasty_sairthiuda
+	father = lineofsairthiuda7 # Diagero
+	#mother = 
+	religion = faith_woodmen
+	culture = woodmen
+	
+	7098.2.10 = {
+		birth = yes
+	}
+	7170.1.19 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofsairthiuda9 = {
+	name = Diego
+	dynasty = dynasty_sairthiuda
+	father = lineofsairthiuda8 # Diego
+	#mother = 
+	religion = faith_woodmen
+	culture = woodmen
+	
+	7122.2.22 = {
+		birth = yes
+	}
+	7150.3.14 = {
+		add_spouse = lineofsairthiuda9wife # Argilo
+	}
+	7182.4.8 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofsairthiuda9wife = {
+	name = Argilo
+	#father = 
+	#mother = 
+	religion = faith_woodmen
+	culture = woodmen
+	female = yes
+	
+	7123.1.2 = {
+		birth = yes
+	}
+	7182.4.8 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofsairthiuda10 = {
+	name = Dalecho
+	dynasty = dynasty_sairthiuda
+	father = lineofsairthiuda9 # Diego
+	mother = lineofsairthiuda9wife # Argilo
+	religion = faith_woodmen
+	culture = woodmen
+	
+	7151.7.15 = {
+		birth = yes
+	}
+	7213.4.13 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+# Line of Balecho
+lineofsairthiuda11 = {
+	name = Brego
+	dynasty = dynasty_sairthiuda
+	father = lineofsairthiuda4aa # Belgo
+	#mother = 
+	religion = faith_woodmen
+	culture = woodmen
+	
+	7051.6.26 = {
+		birth = yes
+	}
+	7111.8.29 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofsairthiuda12 = {
+	name = Belgo
+	dynasty = dynasty_sairthiuda
+	father = lineofsairthiuda11 # Brego
+	#mother = 
+	religion = faith_woodmen
+	culture = woodmen
+	
+	7081.5.10 = {
+		birth = yes
+	}
+	7161.7.12 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofsairthiuda13 = {
+	name = Erwigio
+	dynasty = dynasty_sairthiuda
+	father = lineofsairthiuda12 # Belgo
+	#mother = 
+	religion = faith_woodmen
+	culture = woodmen
+	
+	7100.2.20 = {
+		birth = yes
+	}
+	7189.8.27 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofsairthiuda14 = {
+	name = Lupo
+	dynasty = dynasty_sairthiuda
+	father = lineofsairthiuda13 # Erwigio
+	#mother = 
+	religion = faith_woodmen
+	culture = woodmen
+	
+	7134.9.11 = {
+		birth = yes
+	}
+	7199.12.2 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+### Line of Euricho
+lineofsairthiuda15 = {
+	name = Euricho
+	dynasty = dynasty_sairthiuda
+	father = lineofsairthiuda4b # Euricho
+	#mother = 
+	religion = faith_woodmen
+	culture = woodmen
+	
+	7034.2.6 = {
+		birth = yes
+	}
+	7082.1.6 = {
+		add_spouse = lineofsairthiuda15wife # Ermengardis
+	}
+	7092.3.28 = {
+		death = { death_reason = death_old_age }
+	}
+}
+lineofsairthiuda15wife = {
+	name = Ermengardis
+	#father = 
+	#mother = 
+	religion = faith_woodmen
+	culture = woodmen
+	female = yes
+	
+	7066.10.26 = {
+		birth = yes
+	}
+	7132.6.5 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofsairthiuda16 = {
+	name = Ricimero
+	dynasty = dynasty_sairthiuda
+	father = lineofsairthiuda15 # Euricho
+	#mother = 
+	religion = faith_woodmen
+	culture = woodmen
+	
+	7083.10.23 = {
+		birth = yes
+	}
+	7142.6.12 = {
+		add_spouse = lineofherimundi9sis # Agnes Herimundi
+	}
+	7157.3.13 = {
+		give_nickname = nick_the_old
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofsairthiuda17 = {
+	name = Theudigislo
+	dynasty = dynasty_sairthiuda
+	father = lineofsairthiuda16 # Ricimero
+	mother = lineofherimundi9sis # Agnes Herimundi
+	religion = faith_woodmen
+	culture = woodmen
+	
+	7144.4.30 = {
+		birth = yes
+	}
+	7210.8.12 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+lineofsairthiuda18 = {
+	name = Ricimero
+	dynasty = dynasty_sairthiuda
+	father = lineofsairthiuda16 # Ricimero
+	mother = lineofherimundi9sis # Agnes Herimundi
+	religion = faith_woodmen
+	culture = woodmen
+	
+	7170.1.9 = {
+		birth = yes
+	}
+	7250.4.23 = {
+		death = { death_reason = death_old_age }
+	}
+}

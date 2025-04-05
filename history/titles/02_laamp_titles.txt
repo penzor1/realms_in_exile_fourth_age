@@ -1,0 +1,52 @@
+
+d_laamp_rangers_of_mordor = {
+	7174.3.1 = {
+		holder = 0 # Eldacar
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 7052.5.1 }
+		}
+	}
+}
+
+d_laamp_uruk_band = {
+	7174.3.1 = {
+		holder = lineofugluk2 # Karluk
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 7052.5.1 }
+		}
+	}
+}
+
+d_laamp_troll_band = {
+	7174.3.1 = {
+		holder = 0 # something like Bert
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 7052.5.1 }
+		}
+	}
+}
+
+d_laamp_mahud_marauders = {
+	7174.3.1 = {
+		holder = 0 # 
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 7052.5.1 }
+		}
+	}
+}

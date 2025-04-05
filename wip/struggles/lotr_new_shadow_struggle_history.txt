@@ -1,0 +1,8 @@
+﻿7172.1.1 = { 
+	effect = {
+		start_struggle = {
+			struggle_type = new_shadow_struggle
+			start_phase = struggle_ns_phase_stabilisation
+		}
+	}
+}

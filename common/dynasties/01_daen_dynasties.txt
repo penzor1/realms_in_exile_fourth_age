@@ -1,0 +1,27 @@
+﻿########################################
+################ GONDOR ################
+########################################
+
+dynasty_mananach = {
+	name = "dynn_mananach"
+	culture = "hillmen"
+	motto = dynn_mananach_motto
+}
+
+dynasty_devin = {
+	name = "dynn_devin"
+	culture = "hillmen"
+	motto = dynn_devin_motto
+}
+
+dynasty_brant = {
+	name = "dynn_brant"
+	culture = "hillmen"
+	motto = dynn_brant_motto
+}
+
+dynasty_oloch = {
+	name = "dynn_oloch"
+	culture = "hillmen"
+	motto = dynn_oloch_motto
+}

@@ -1,0 +1,102 @@
+﻿############################
+#### BREEMEN CHARACTERS ####
+############################
+
+
+### House Butterbur
+#fiction
+lineofbutterbur15 = {
+	name = Caradoc
+	dynasty = dynasty_butterbur
+	religion = faith_hobbit
+	culture = breemen
+	father = lineofbutterbur13 # Cory
+	#mother = 
+	
+	7041.3.13 = {
+		birth = yes
+	}
+	7120.6.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbutterbur16 = {
+	name = Merimas
+	dynasty = dynasty_butterbur
+	religion = faith_hobbit
+	culture = breemen
+	father = lineofbutterbur15 # Caradoc
+	#mother = 
+	
+	7051.10.8 = {
+		birth = yes
+	}
+	7168.8.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbutterbur17 = {
+	name = Cory
+	dynasty = dynasty_butterbur
+	religion = faith_hobbit
+	culture = breemen
+	father = lineofbutterbur16 # Merimas
+	#mother = 
+	
+	7080.1.18 = {
+		birth = yes
+	}
+	7179.12.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbutterbur18 = {
+	name = Will
+	dynasty = dynasty_butterbur
+	religion = faith_hobbit
+	culture = breemen
+	father = lineofbutterbur17 # Cory
+	#mother = 
+	
+	7101.1.18 = {
+		birth = yes
+	}
+	7190.3.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbutterbur19 = {
+	name = Will
+	dynasty = dynasty_butterbur
+	religion = faith_hobbit
+	culture = breemen
+	father = lineofbutterbur18 # Will
+	#mother = 
+	
+	7128.1.18 = {
+		birth = yes
+	}
+	7200.6.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbutterbur20 = {
+	name = Merimas
+	dynasty = dynasty_butterbur
+	religion = faith_hobbit
+	culture = breemen
+	father = lineofbutterbur19 # Will
+	#mother = 
+	
+	7128.1.18 = {
+		birth = yes
+	}
+	7200.6.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}

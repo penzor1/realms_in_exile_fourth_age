@@ -1,0 +1,302 @@
+﻿l_english:
+# By Fisto and Jagua
+  #################################
+  # Elven Intro Events
+  # 0000 - 2000
+  # Dwarven Intro Events
+  # 2001 - 4000
+  # Orc Intro Events
+  # 4001 - 5000
+  # Hobbit Intro Events
+  # 5001 - 5500
+  # Non-human Intro Events (Nazgul/Istari for instance)
+  # 5501 - 6000
+  # Human Intro Events
+  # 6001 - 9999
+  #   #   6001 - 6200 = Arnor
+  #   #   6201 - 6400 = Gondor
+  #   #   6401 - 6500 = Rohan
+  #   #   6501 - 6600 = Anduin Vale
+  #   #   6601 - 6700 = Greenwood/Woodmen
+  #   #   6701 - 6800 = Rhovanion
+  #   #   6801 - 7000 = Bellakar and Far Harad
+  #   #   7001 - 7200 = Rhun and Khand
+  #   #   7201 - 7400 = Near Harad
+  #   #   7401 - 7500 = Umbar and Mardruak
+  #   #   7501 - 7700 = Thâni-Hazâd
+  #################################
+  #[CHARACTER.GetShortUINoFormat|U]
+ ##########################
+ ###                    ###
+ ### Elven Intro Events ###
+ ###                    ###
+ ##########################
+ # Rivendell
+ ns_lotr_intro_events.0001.t:0 "A Brothers' Correspondence" # Noldor Intro, Elladan perspective #By Jagua, should come after Elladan's and Elrohir's intro event
+ ns_lotr_intro_events.0001.desc:0 "In [imladris|E], I reflect on the peace that followed [sauroncharacter|E]’s fall, yet a sense of uncertainty lingers. Most of the [eldar|E] have sailed west, leaving their realms behind. I wonder what the future holds for those who remain, including my brother, Elrohir, in [lothlorien|E]. I write to my brother, seeking guidance on what role we are to play in this new Age.\n\n#help 'My brother,\nThe peace in Imladris is welcome, yet I cannot shake the feeling that it is but a pause. Most have left, and we who remain ponder our place in the world. With Elessar’s passing, a great chapter has closed, and a new one waits to be written. What do you see in Lothlórien? What now for us?'\nElladan#!\nElrohir’s response reflects the same uncertainty.\n#help 'My brother,\nI share your thoughts. Lothlórien is quiet, beautiful, but heavy with silence. Now that Elessar rests, we wonder what role remains for us. The passing of time leaves us waiting. The world has moved on, yet we are still here. I do not know what lies ahead, but I too sense it is time to seek our path.'\nElrohir#!\nUncertainty clouds our minds, yet we both acknowledge it is our duty to shape the future for those who remain.
+ ns_lotr_intro_events.0001.a:0 "The Elves' path forward in [middleearth|E] is theirs to decide."
+ ns_lotr_intro_events.0002.t:0 "A Brothers' Correspondence" # Noldor Intro, Elrohir perspective #By Jagua
+ ns_lotr_intro_events.0002.desc:0 "In [lothlorien|E], I reflect on the peace that has followed the fall of [sauroncharacter|E], yet a sense of uncertainty lingers. Most of the [eldar|E] have sailed west, leaving their realms behind. I wonder what the future holds for those who remain, including my brother, Elladan, in [imladris|E]. I write to my brother, seeking guidance and asking what role we both are to play in this new Age.\n\n#help 'My brother,\nThe peace in Lothlórien is welcome, yet I cannot shake the feeling that it is but a pause. Most have left, and we who remain ponder our place in the world. With Elessar’s passing, a great chapter has closed, and a new one waits to be written. What do you see in Imladris? What now for us?'\nElrohir#!\nElladan’s response reflects the same uncertainty.\n#help 'My brother,\nI share your thoughts. Imladris is quiet, beautiful, but heavy with silence. Now that Elessar rests, we wonder what role remains for us. The passing of time leaves us waiting. The world has moved on, yet we are still here. I do not know what lies ahead, but I too sense it is time to seek our path.'\nElladan\n#!Uncertainty clouds our minds, yet we both acknowledge it is our duty to shape the future for those who remain.
+ ns_lotr_intro_events.0002.a:0 "The Elves' path forward in [middleearth|E] is theirs to decide."
+ ns_lotr_intro_events.0003.t:0 "An Empty Haven" # Elladan Intro
+ ns_lotr_intro_events.0003.desc:0 "As Elladan walks through the halls of [imladris|E], once a vibrant sanctuary, the quiet joy now fills the air, a testament to the victory over [sauroncharacter|E]. Though quieter than before, there’s still peace, as if winter’s chill has melted away with the first warmth of spring.\n\nThe realm feels emptier, many of his kin having sailed west. Yet, there’s a subtle joy in this quietude, a peace the world hasn’t known for ages. The trees stand tall again, the Bruinen glistens in the spring warmth, and even in silence, there’s a melody—a remembrance of when Imladris was a beacon for those seeking refuge.\n\nHis father, [elrondshort|E], is gone, and the weight of leadership now rests on him. His sister Arwen grieves Elessar’s loss, and he often thinks of her. But the task ahead remains clear: to ensure the [elves|E]' legacy endures, even as Men’s age unfolds.\n\nThe world feels different, and though the old age fades, there may still be time for the [elves|E] to leave their mark."
+ ns_lotr_intro_events.0003.a:0 "The time to choose a new path has come."
+ ns_lotr_intro_events.0004.t:0 "Whispers of a Silent Age" # Elrohir Intro
+ ns_lotr_intro_events.0004.desc:0 "As Elrohir walks through the golden woods of [lothlorien|E], the silence feels heavier than ever. The once vibrant realm now rests in peaceful repose, with echoes of a past age in the trees. The rustling of leaves fills the air, the forest bathed in the light of a setting sun. The weight of centuries rests in every branch, every root, as if the land feels the passing of time.\n\n[lothlorien|E]'s beauty remains, but it is tinged with sorrow. Most of his kin have sailed west, leaving behind the land that flourished under Galadriel and Celeborn. Only a few remain, and the forest feels lonelier than before. Yet there is peace, knowing [sauroncharacter|E]’s shadow has passed.\n\nElrohir thinks of his brother, Elladan, in [imladris|E], and his father, [elrondshort|E], who has sailed west. The mantle of leadership now falls on him in [lothlorien|E]. His thoughts turn to Arwen, grieving Elessar, and the uncertain future of the [elves|E].\n\nThe trees stand as a testament to his people’s endurance, but Elrohir knows the time has come for the [elves|E] to find their place in the new world. With Sauron defeated, what legacy will he leave behind?"
+ ns_lotr_intro_events.0004.a:0 "Now is the time to chart a new course."
+ ns_lotr_intro_events.0005.t:0 "Twins United"
+ ns_lotr_intro_events.0005.desc:0 "The twins meet and decide upon a pursuit together, discussing the lay of the land, perhaps they start a pilgrimage together" # idea by Jagua
+ ns_lotr_intro_events.0005.a:0 ""
+ ns_lotr_intro_events.0006.t:0 "The Vigil of Eriador" # Glorfindel Intro #By Jagua
+ ns_lotr_intro_events.0006.desc:0 "For over a century since the fall of [sauroncharacter|E], [glorfindel|E] has ridden the wilds of [eriador|E], seeking the last remnants of the Dark Lord’s scattered servants. He had expected to find [orcs|E] lurking in the mountains or trolls lumbering in the hills. Yet the land of [eriador|E] is empty. No foes remain, except for those in the Hithaeglir, the Misty Mountains, and beyond. \n\nAs he rides through the ruins of old Elven settlements, past broken towers and empty halls, another thought takes root. The [eldar|E] may be few, but must their works be left to fade? Could Eriador be more than a land of ghosts and scattered [men|E]? The time may soon come to decide.\n\nShould the past be reclaimed, be left to memory or will his ambitions surpass the realms of Eriador?"
+ ns_lotr_intro_events.0006.a:0 "The future remains uncertain."
+ # Lorien
+ ns_lotr_intro_events.0011.t:0 "When the Wind Whispers Goodbye" # Arwen Intro #By Jagua, should come after Elrohir intro
+ ns_lotr_intro_events.0011.desc:0 "[lothlorien|E] stands silent beneath the golden boughs. The mallorn leaves still shine, yet the spirit of the wood has faded. I stand in a quiet glade, lost in thought, when footsteps approach. I turn and there, emerging from the path, is Arwen Undómiel. After long years apart, the sight of her stirs something deep within me.\nArwen steps forward, weary but steady. The loss of Elessar is fresh, and though we are kin, grief holds part of her distant. I speak first, my voice low.\n#help 'It has been long since last we stood together, Arwen. I am gladdened to see you again, though I had hoped it would not be under such sorrow.'#!\nShe offers a faint smile, but her eyes remain clouded.\n#help 'It brings me joy to see you, brother, yet no joy can lift the weight upon my heart. Elessar was my world, and now he is beyond my reach.'#!\nMy gaze softens.\n#help 'Elessar’s reign was marked by courage and compassion. You instilled in Eldarion the best of you both, and I see in him the strength to carry on his father’s legacy.'#!\nWe stand in silence as the shadows lengthen and the wind whispers through the leaves. As night settles, I realise that when Arwen says farewell, it will be for the very last time."
+ ns_lotr_intro_events.0011.a:0 "The weight of grief lingers in the air."
+ ns_lotr_intro_events.0012.t:0 "The Fading of Arwen"
+ ns_lotr_intro_events.0012.desc:0 "Beloved Arwen stayed with us for over a year. The loss of Aragorn still weighed heavily on her heart, despite her long walks in the golden gardens of [lorien|E]. She lost part of her fëa on that dreadful day, when you too lost a dear friend.\n\nSome Galadhrim spoke in hushed tones of a figure seen accompanying her wanderings in the deep woods, a radiant being like the [eldar|E] of old. A good spirit come to her aid, I believed.\n\nBut last evening, Arwen came to me after dinner and kissed me on the forehead. Then, without a word, she retired to her chambers. This morning, she was found lifeless, her body now but a memory.\n\n#help 'Namárië! Nai Hiruvalyë Valimar!'#!"
+ ns_lotr_intro_events.0012.a:0 "Farewell! May you find Valimar!"
+ ns_lotr_intro_events.0012.b:0 "No I will not let you go!" # option maybe she lives and becomes playable?
+ ns_lotr_intro_events.0016.t:0 "A Silent Vigil" # Haldir Intro
+ ns_lotr_intro_events.0016.desc:0 "[lothlorien|E], the golden wood, stands quiet after the peace won at great cost. The shadow of evil has lifted, though remnants still linger, few in number. The stars shine brightly above the mallorn trees, yet the song of the Elves fades, with fewer voices in Caras Galadhon.\n\nAs Warden of Lothlórien, Haldir remains steadfast in his duty. The realm is safe, though its protection now guards against a diminished enemy. Many of his kin have sailed west, leaving the land empty. Those who remain are scattered, their voices silent, searching for their place in a world where their kind no longer thrives.\n\nHaldir stands at the borders of Lothlórien, feeling the weight of peace, but also the absence of those who once filled this place. Even in this sacred wood, the time of the Elves seems to be nearing its end. The future is uncertain, and the wood stands still, as unchanging as the ageless trees sheltering it."
+ ns_lotr_intro_events.0016.a:0 "Yet my vigil continues, as the stars above remain ever bright."
+ # Greenwood
+ ns_lotr_intro_events.0021.t:0 "The Leafthrone" # Greenwood Intro
+ ns_lotr_intro_events.0021.desc:0 ""
+ ns_lotr_intro_events.0021.a:0 ""
+ ns_lotr_intro_events.0022.t:0 "Departed Son" # Thranduil Intro
+ ns_lotr_intro_events.0022.desc:0 ""
+ ns_lotr_intro_events.0022.a:0 ""
+ ns_lotr_intro_events.0026.t:0 "" # Ilmarien Intro
+ ns_lotr_intro_events.0026.desc:0 "" # thranduil may or may not sail west so shes the heiress
+ ns_lotr_intro_events.0026.a:0 ""
+ ns_lotr_intro_events.0031.t:0 "" # Galion Intro
+ ns_lotr_intro_events.0031.desc:0 "" # idea is an opportunity to settle edhelin that elvish place near dol amroth, he is secretly the grand father of the whole dol amroth nobility # his land is gained by toriel and ilmarien
+ ns_lotr_intro_events.0031.a:0 ""
+ ns_lotr_intro_events.0036.t:0 "The Sea's Call" # Legolas Intro # By Jagua
+ ns_lotr_intro_events.0036.desc:0 "Elessar has passed, and the weight of his loss settles upon Legolas like a shadow. He recalls the many roads they walked together, the battles fought, the hardships endured side by side. The Fellowship, once united by oaths and deep friendship, now lies scattered across the lands. Boromir has long passed into memory, and so too have Peregrin and Meriadoc. Mithrandir, Frodo, Sam, and Bilbo have sailed across the Sea, leaving only echoes of their deeds and the warmth of their shared days. Gimli, steadfast and loyal, still walks the land, one of the last of the Fellowship to remain, his bond with Legolas unbroken.\n\nThe call of the West stirs in Legolas’s heart, but the thought of leaving without his dearest friend, without the companionship that saw them through so much, fills him with sorrow. Could he truly walk the shores of Valinor alone? Or does [middleearth|E] yet hold a purpose, something worth staying for?"
+ ns_lotr_intro_events.0036.a:0 "The Sea calls, and I must answer!"
+ ns_lotr_intro_events.0036.a.tt:0 "You choose to sail west to Valinor alone."
+ ns_lotr_intro_events.0036.b:0 "I will go, and Gimli shall join me!"
+ ns_lotr_intro_events.0036.b.tt:0 "You request Gimli to sail west to Valinor together."
+ ns_lotr_intro_events.0036.c:0 "No, my place is here."
+ ns_lotr_intro_events.0036.c.tt:0 "You choose to stay in [middleearth|E]."
+ ns_lotr_intro_events.0037.t:0 "The Last Journey"
+ ns_lotr_intro_events.0037.desc:0 "The boat is finished. Crafted by my own hands beneath Ithilien’s green boughs, it is light upon the water, yet sturdy enough for the long voyage ahead. The Anduin carries me past the lands of [men|E], past the cities of stone and the fields of golden grain. The wind fills the sail, the scent of salt grows stronger, and at last, I see the open Sea before me.\n\nThe sun sets upon [middleearth|E], and in its fading light, I pass beyond sight, bound for the shores of Valinor."
+ ns_lotr_intro_events.0037.a:0 "Into the West"
+ ns_lotr_intro_events.0037.a.tt:0 "You sail west, answering the call to Valinor.\n\nYou (Legolas) continue as Thranduil."
+ ns_lotr_intro_events.0037.b:0 "Into the West"
+ ns_lotr_intro_events.0037.b.tt:0 "You sail west, answering the call to Valinor.\n\nYou (Legolas) continue as the Elves in Emyn Arnen."
+ ns_lotr_intro_events.0038.t:0 "An Invitation to the West"
+ ns_lotr_intro_events.0038.desc:0 "I sit in the quiet of the Glittering Caves, the sound of hammers and dwarven voices familiar to my thoughts. The weight of years presses upon me, marked by change. Elessar’s funeral still lingers, his passing a stone upon my chest. His death ends an era, one of the last great men of [middleearth|E].\n\nA messenger arrives with a letter sealed by Greenwood, unmistakably from Legolas. I break the seal and read the words of my dear friend, the elf who once stood beside me in peril. He writes of Elessar’s passing, the fading of [middleearth|E], and the call to sail west.\n#help ‘I have long walked this land with you, Master Dwarf,’#!\nLegolas writes,\n#help ‘The time has come for me to leave, but I cannot go without inviting you. It is a great honour to journey to the Undying Lands, where you may again behold Lady Galadriel. I would not leave without you.’#!\nTo sail to Valinor would be a tremendous honour. Peace, untouched by [middleearth|E]’s troubles. Yet could I really leave behind the Glittering Caves and the life I've built here?"
+ ns_lotr_intro_events.0038.a:0 "I will go, and sail with you to the Undying Lands."
+ ns_lotr_intro_events.0038.a.tt:0 "You choose to sail west with Legolas, answering the call to Valinor.\n\nYou continue as Wirwir 'Glitterbeard'."
+ ns_lotr_intro_events.0038.b:0 "I will stay. [middleearth|E] still needs me."
+ ns_lotr_intro_events.0038.b.tt:0 "You stay amongst your people in the Glittering Caves of Aglarond."
+ ns_lotr_intro_events.0039.t:0 "The Last Journey Together"
+ ns_lotr_intro_events.0039.desc:0 "Side by side, as ever. The boat glides over the Anduin, its wooden frame steady beneath the weight of old friends. The lands of Men pass by, their towers and fields shrinking into memory. The scent of salt grows in the wind, and the open Sea beckons ahead. Gimli sits beside Legolas, cradling a small crystal, the glint of golden strands encased within catching the final rays of sunlight.\n\n#help 'I see you have brought the Lady’s gift, Master Dwarf,'#! Legolas says, eyes on the horizon. \nGimli chuckles, running a calloused finger over the heirloom. \n#help 'A treasure beyond price, Elf, which I shall cherish as long as I am able.\nIt warms my heart to know I shall soon set eyes upon the Fair Lady once again in Valinor. There she shall see I have kept my word to her.'#!\n\nThe sun dips below the waves. Together, they pass beyond sight, bound for the Undying Lands."
+ ns_lotr_intro_events.0039.a:0 "Together, into the West!"
+ ns_lotr_intro_events.0039.a.tt:0 "You sail west, answering the call to Valinor.\n\nYou (Legolas) continue as Thranduil."
+ ns_lotr_intro_events.0039.b:0 "Together, into the West!"
+ ns_lotr_intro_events.0039.b.tt:0 "You sail west, answering the call to Valinor.\n\nYou (Legolas) continue as the Elves in Emyn Arnen."
+ ns_lotr_intro_events.0040.t:0 "A Long Road Ahead"
+ ns_lotr_intro_events.0040.desc:0 "The Sea calls, but I have chosen to remain. I cannot bring myself to abandon [middleearth|E], the land that has shaped me, where the bonds of friendship and kinship endure. I stay, resolute in my place, carrying the weight of memories and the legacy of those who walked beside me.\n\nThough the world grows quieter and the lands more empty, my purpose is not yet finished. The echoes of the past, the deeds of the Fellowship, still stir within me. The land of Men may yet need my counsel, and my strength remains to guide them. A long road lies ahead, and I will walk it with resolve, knowing that my place is still here, among the living, under the stars of [middleearth|E]."
+ ns_lotr_intro_events.0040.a:0 "I shall remain, for [middleearth|E] is still my home."
+ ns_lotr_intro_events.0040.a.tt:0 "You choose to stay in [middleearth|E]."
+ ns_lotr_intro_events.0041.t:0 "Beggar Princess" # Penni Lasgalen Intro
+ ns_lotr_intro_events.0041.desc:0 "princess of ninlor who led her people west into greenwood after the ravage of the penni by the orcs. in debt to thranduil"
+ ns_lotr_intro_events.0041.a:0 "Alas"
+ ns_lotr_intro_events.0046.t:0 "Prince in the Branches" # Penni Ninlor Intro
+ ns_lotr_intro_events.0046.desc:0 "prince of ninlor who stayed to distract the orcs from her sister leading the people away from the woods. has been hunting orcs slowly but carefully with his remaining elves. elvish batman"
+ ns_lotr_intro_events.0046.a:0 ""
+ ##########################
+ ###                    ###
+ ### Dwarven Intro Events ###
+ ###                    ###
+ ##########################
+ ns_lotr_intro_events.2001.t:0 "Stone and Memory" # Gimli Intro
+ ns_lotr_intro_events.2001.desc:0 "In the Glittering Caves of Aglarond, where forge fires glimmer upon the stone, Gimli, son of Glóin, continue to reign as lord and guardian. His hands, calloused by years of craft, shape the stone into a realm that echoes with strength and beauty. Once a sanctuary, the caves now stand as a testament to [dwarven|E] steadfastness.\n\nUnder his rule, the Glittering Caves have flourished, a kingdom where art and industry thrive. The halls shine with intricate carvings and ornate metalwork, each piece reflecting his reverence for Lady Galadriel, whose memory endures in every shining surface, every beam of light. Those who enter do so with awe, for it is not just a home, but a legacy.\n\nNow, with Elessar, the true King of [men|E], gone, the world beyond the Glittering Caves faces uncertain days. Though ancient, Gimli remains resolute. He has crafted a realm of enduring strength, but even the hardiest of Dwarves cannot outlast time. What lies ahead, he does not know, but his hands have not yet stilled. And so, the Caves will echo with hammer and chisel, carving his people's legacy into the earth."
+ ns_lotr_intro_events.2001.a:0 "Our work is never done."
+ ns_lotr_intro_events.2006.t:0 "A Vision Carved in Stone" # Wirwir Intro
+ ns_lotr_intro_events.2006.desc:0 "When Gimli, son of Glóin, carved his halls within the Glittering Caves of Aglarond, he built more than stone and steel. He wove beauty into the very fabric of his realm, often speaking of Lady Galadriel, whose words had stirred his heart.\n\nNow, with Gimli departed to Valinor alongside Legolas, his legacy rests in the hands of Wirwir 'Glitterbeard', his most trusted engineer and successor. That reverence, that vision of splendour, has not been forgotten. The White Mountains rise high, their depths rich with untapped promise. With Sauron vanquished, the time has come to shape something greater.\n\nThe halls of the White Mountains shall ring with the sounds of hammer and chisel, of forges blazing, shaping stone to purpose. A beacon of [dwarven|E] mastery, industry, and beauty, as Gimli would have wished."
+ ns_lotr_intro_events.2006.a:0 "Our work shall not wait."
+ ns_lotr_intro_events.2011.t:0 "The Road I Know" # Durin VII, the Last Intro
+ ns_lotr_intro_events.2011.desc:0 "[durin|E] VII stands at the precipice of destiny. Gunduzbad, the sacred mountain from which he first emerged long ago, has been reclaimed. In the vast distance lie the halls of Khazad-dûm, their echoes threading through stone and time, a song he has never heard yet knows as if forged within him.\n#help ’I've ne'er beheld my Khazad-dûm, but know my home will greet me there.\nThe gates will part like open arms, entrusting me with jewels there.\nBelow the mountains three and tall, lie pillared halls that stand apart.\nI've ne'er beheld my Khazad-dûm, but know the road I'll take by heart.#!\nThe words of his kin still ring through these halls, a testament to the yearning of his people. The [longbeards|E] have waited long enough, their legacy fractured, their greatest city shrouded in darkness. For Durin VII is no mere heir, he is the last reincarnation of [durin|E] the Deathless, the [dwarffather|E] himself reborn.\n\nAs his banners rise and his warriors gather, the Longbeards march toward their destiny. [orcs|E] defile the depths, entrenched in the great halls of Moria. The road ahead is perilous, but the will of the Dwarves remains resolute, and Durin VII will not rest until Khazad-dûm stands once more, its ancient glory restored."
+ ns_lotr_intro_events.2011.a:0 "The Darkness dwells in Durin's halls."
+ ns_lotr_intro_events.2016.t:0 "An Unforeseen Crown" # Hreithmar Intro
+ ns_lotr_intro_events.2016.desc:0 "The halls of Gabilgathol have echoed with the weight of troubled succession. Buri, son of Brokkr, succumbed to his own excesses before his time, while his brother Tindome left no heir to follow him. Now, through fate’s strange turn, Hreithmar, a distant kin from Dwálin’s line, finds himself the ruler of the Broadbeams.\n\nHis claim was unexpected, yet the legacy he inherits is one of resilience and strength. The Broadbeams, once mighty among the dwarven clans, have long endured without a homeland of their own. While the Longbeards turn their gaze toward Khazad-dûm, Hreithmar’s people look to their own past—to the lost halls of Belegost, where their forefathers once ruled with pride.\n\nThe road ahead is uncertain, and the burdens of kingship weigh heavily upon him. The road ahead is uncertain, and the burdens of kingship weigh heavily upon him. Whether Hreithmar’s line will forge a new era for their people or fade into history like those before them remains to be seen."
+ ns_lotr_intro_events.2016.a:0 "The Broadbeams shall reclaim what was ravaged long ago."
+ ns_lotr_intro_events.2021.t:0 "The True Power in Buzrâ-dûm" # Óin Intro
+ ns_lotr_intro_events.2021.desc:0 "The halls of Buzrâdûm murmur with quiet tension, their great forges burning as they have for generations, yet the embers of the Firebeards' unity grow cold. Olius, a distant offshoot of Úri’s line, sits the throne not by strength but by necessity. True power lies elsewhere.\n\nÓin, son of Eldberk, walks the stone corridors of his hold with measured steps, each decision weaving his will deeper into the fabric of power. All know that when Olius draws his last breath, there will be no need for pretense. Buzrâdûm will be his.\n\nYet the past is not so easily buried. Eldberk’s feud with Úri VI cast a long shadow, and though Úri VI met a suspicious end, his sons remain. Frain and Ón, exiled to Zillînakhur, the very refuge Eldberk once sought, have lost their home but not their will. Exile is but a test of patience. To Óin’s sympathisers, they are remnants of a dying claim, their cause broken beyond repair. To his rivals, they are heirs in waiting, biding their time. But such men have risen before. Will they fade into obscurity or return to reclaim what was stolen?"
+ ns_lotr_intro_events.2021.a:0 "Power never goes unchallenged."
+ ns_lotr_intro_events.2026.t:0 "Exile’s End" # Frain Intro
+ ns_lotr_intro_events.2026.desc:0 "The halls of Buzrâ-dûm burn as they always have, but their fire no longer belongs to the rightful heirs. Olius, a distant relative with no claim to true power, sits the throne, propped up by Óin, son of Eldberk. The [dwarves|E] remember it was Eldberk whose schemes led to the fall of Frain’s own father and rightful ruler of the [firebeards|E], Úri VI.\n\nFrain, lawful heir of Buzrâ-dûm, walks the stony paths of Zillînakhur, the same refuge where Eldberk once withdrew. The land is one of exile and shame, a bitter reminder of what was lost. His brother Ón stands beside him, both bound by a legacy their enemies thought would fade with time. But neither will forget the treachery that led to their father's untimely death under mysterious circumstances.\n\nThose who stole the throne from his father believe they can erase his line with silence and years of waiting. But Frain is a son of Úri, and sons of Úri do not forget. Buzrâ-dûm will be his again — whether by reclaiming it through force or watching his enemies falter beneath their own betrayals."
+ ns_lotr_intro_events.2026.a:0 "Treachery shall not go unpunished."
+ ns_lotr_intro_events.2031.t:0 "To Dungeons Deep and Caverns Old" # Kili Intro
+ ns_lotr_intro_events.2031.desc:0 "Kili, son of Nori, rules the halls of Thakalgund alongside his vassals, Brogur, son of Bofur, and Bósi, son of Bifur. His cousin Fili, son of Dóri, now reigns over Arhûd in the distant lands of Arnor, but Kili’s ambition grows larger. Though their strongholds endure, the call of the Grey Mountains grows stronger with each passing year.\n\nThese mountains are often ravaged by dragons that scoured the landscapes, their devastating attacks eventually forcing the [dwarves|E] of old to largely abandon the region. Now, the remnants of these ancient realms lie in ruin, but the desire to restore dwarven glory endures.\n\nThough [orcs|E] and [goblins|E] still lurk in the shadows of the Grey Mountains, Kili knows that the time to reclaim his ancestors' lands may be near. The path will be fraught with danger, but the legacy of his people calls him to rise and restore what was lost."
+ ns_lotr_intro_events.2031.a:0 "The descendants of Thorin's Company shall continue their great legacy."
+ ns_lotr_intro_events.2036.t:0 "The Slakeless Lord" # Náin Intro
+ ns_lotr_intro_events.2036.desc:0 "Náin, son of Dáin II 'Ironfoot', brother of Thorin III 'Stonehelm' and uncle to [durin|E] VII 'the Last', [dwarffather|E] of the [longbeards|E], has long been a steadfast and loyal vassal of [erebor|E], ruling the Iron Hills with great pride. Despite having spent much of his life in the shadow of his more prominent family members, he is well-known for his strength and determination, earning him the nickname 'the Slakeless'.\n\nThe Iron Hills stand as a testament to his unwavering resolve, and his leadership has ensured that the [dwarves|E] of the region remain as a bulwark against any who would threaten their lands.\n\nHis own son, Dáin III, is destined to continue his legacy, and Náin has already begun preparing him to take up the mantle of leadership.\n\nAs the future of Erebor and the Iron Hills rests upon the shoulders of his son, Náin’s legacy will continue, ensuring the strength of his people and the endurance of Dwarven might for years to come."
+ ns_lotr_intro_events.2036.a:0 "The Iron Hills shall endure, as they always have."
+ ns_lotr_intro_events.2041.t:0 "" # dorwinion mt ironfist dwarf
+ ns_lotr_intro_events.2041.desc:0 ""
+ ns_lotr_intro_events.2041.a:0 ""
+ ##########################
+ ###                    ###
+ ### Orc Intro Events   ###
+ ###                    ###
+ ##########################
+ ns_lotr_intro_events.4001.t:0 "The Tyrant of Gundabad" # Boldog, the Tyrant
+ ns_lotr_intro_events.4001.desc:0 "The Grey Mountains echo with the blood of Azog, and now Boldog, the Tyrant, stains their halls with his accursed legacy. Once rulers of the North, the Ghrazîm, the [orcs|E] of Gundabad have been cast low, their halls reclaimed by Durin VII. But Boldog, son of Gorgol, grandson of Bolg ‘the Strong’, does not bow to the [dwarves|E]. He will not let his bloodline be erased so easily.\n\nBoldog rules his shattered territory with an iron fist, his domain one of cruelty. His brother, Hurog, his treacherous right hand, is a master of deceit. Together, they have forged warriors hardened by endless battle. The Line of Ashmog shall rise once more, driven by vengeance.\n\nBoldog remembers the terror of Azog ‘the Defiler’ and Bolg, the dread their names inspired. One day, the name of Boldog shall instill the same fear. The Longbeards thought they could reclaim Gundabad and erase the Ghrazîm. But Boldog will not let the Dwarves claim what was never theirs. The mountains shall know his wrath." 
+ ns_lotr_intro_events.4001.a:0 "The Line of Azog and Bolg shall rise again in blood!"
+ ns_lotr_intro_events.4006.t:0 "The Return of the Exiled" # Mazog II, the Unworthy
+ ns_lotr_intro_events.4006.desc:0 "Mazog II ‘the Spurned’, son of Mazog ‘the Exile’, grandson of Bolg ‘the Strong’, once ruled Moria, but his bloodline was nearly extinguished after the fall of his father. Forced into exile and known as ‘the Spurned’, he has spent years nursing his hatred, his strength growing in the shadows. Now, with his father’s killer, Bolgakh ‘the Hammer,’ in control of Old Moria, Mazog II has carved out a new domain in the north, biding his time and waiting for an opportunity to reclaim his birthright.\n\nDuring the same battle that saw his father slain by Bolgakh, Mazog II struck down Burthrakh, son of Bolgakh, a small but significant victory.\n\nIn his years of exile, Mazog has become more cunning, ruthless, and determined. His ambitions burn with vengeance, and the day will come when he confronts Bolgakh. For now, Mazog waits in the shadows, ready to rise again and claim what he believes is rightfully his."
+ ns_lotr_intro_events.4006.a:0 "Let Old Moria fall to the ashes of my vengeance!"
+ ns_lotr_intro_events.4011.t:0 "The Hammer's Legacy" # Bolgakh, the Hammer
+ ns_lotr_intro_events.4011.desc:0 "Bolgakh 'the Hammer', ruthless ruler of Old Moria and descendant of Azog 'the Defiler', has crushed all who stood in his way, including Mazog I, whose death shattered the last remnants of resistance and forced his followers into hiding. Yet, Bolgakh’s thirst for power is unquenched, and his ambitions extend far beyond the dark halls of Moria.\n\nAs age creeps upon him, Bolgakh turns his gaze to the Misty Mountains, determined to bring the entire territory under his iron grip. But with his strength fading, his grandson, Bolgakh 'the Younger', waits in the shadows, eager to rise. Driven by hatred for Mazog II and his killing of Bolgakh the Younger’s father, Burthrakh, he is a fury waiting to be unleashed.\n\nBolgakh the Hammer knows his days are numbered, and soon it will be his grandson who will carry on the Hammer’s legacy, sweeping through the mountains and leaving a trail of death in his wake."
+ ns_lotr_intro_events.4011.a:0 "The Misty Mountains shall flow with the blood of my enemies!"
+ ns_lotr_intro_events.4016.t:0 "" # Golmog the Humongous # Unglob the Blubbering
+ ns_lotr_intro_events.4016.desc:0 ""
+ ns_lotr_intro_events.4016.a:0 ""
+ ns_lotr_intro_events.4021.t:0 "" # grey mountain goblin the dragon
+ ns_lotr_intro_events.4021.desc:0 ""
+ ns_lotr_intro_events.4021.a:0 ""
+ ns_lotr_intro_events.4026.t:0 "" # penni woods ologhai
+ ns_lotr_intro_events.4026.desc:0 ""
+ ns_lotr_intro_events.4026.a:0 ""
+ ns_lotr_intro_events.4031.t:0 "" # dorwinion mt orc
+ ns_lotr_intro_events.4031.desc:0 ""
+ ns_lotr_intro_events.4031.a:0 ""
+ ns_lotr_intro_events.4036.t:0 "" # nurn orc tribe
+ ns_lotr_intro_events.4036.desc:0 ""
+ ns_lotr_intro_events.4036.a:0 ""
+ ns_lotr_intro_events.4041.t:0 "" # mirkwood orc tribe
+ ns_lotr_intro_events.4041.desc:0 ""
+ ns_lotr_intro_events.4041.a:0 ""
+ ns_lotr_intro_events.4046.t:0 "" # mt gram tribe
+ ns_lotr_intro_events.4046.desc:0 ""
+ ns_lotr_intro_events.4046.a:0 ""
+ ns_lotr_intro_events.4051.t:0 "" # carn dum orc tribe
+ ns_lotr_intro_events.4051.desc:0 ""
+ ns_lotr_intro_events.4051.a:0 ""
+ ##########################
+ ###                    ###
+ ### Human Intro Events ###
+ ###                    ###
+ ##########################
+ # Arnor
+ ns_lotr_intro_events.6001.t:0 "End of the Northern Watch" # Anarion Intro
+ ns_lotr_intro_events.6001.desc:0 "Writing a letter of condolence is never easy, finding the right words, the right tone. How to express Anarion’s pain? Especially when it’s to his father, about his grandfather’s passing. Love. Loss. Tears. Hope.\nHaving missed the funeral procession, Anarion had a quiet ceremony with fellow Rangers, those who knew his grandfather as Aragorn, Chieftain of the [dunedain|E], or Strider. Anarion knew him as Elessar. Now, his father is King.\n#help 'My lord, something from [minasanor|E] for you,'#! says a Ranger, allowing a hooded figure to enter.#help 'I carry the gift of good news.'#!, the figure declares.\nHe reveals himself as Elladan, and he lays a package on the field desk. The banner of Elendil sewn by Lady Arwen: a black field with a flowering white tree for Gondor, seven stars wrought of gems about it, and a crown wrought of mithril and gold above it; furled around the Scepter of Annúminas, regalia of [arnor|E].\n#help 'I am sorry for your loss, Anarion,'#! Elladan says, his voice gentle.\n#help 'Elessar was a father to many. His spirit will always guide you, and the legacy he left will endure in you and your people.'#!\nHe pauses, his gaze firming with resolve. #help 'But your time has come, young one. The great restoration begins now. Your people need you. Your grandfather’s and father's work will continue through you.\nThis is not the end, but the start of something new. This, your kind has taught us.'#!"
+ ns_lotr_intro_events.6001.a:0 "It is my wish."
+ ns_lotr_intro_events.6001.a.tt:0 "You choose to disband the rangers and restore the [northernkingdom|E]."
+ ns_lotr_intro_events.6001.b:0 "I cannot, I am not worthy!"
+ ns_lotr_intro_events.6001.b.tt:0 "You choose to refuse the Kingdom of Arnor."
+ ns_lotr_intro_events.6002.t:0 "The Realm of Arnor Anew"
+ ns_lotr_intro_events.6002.desc:0 "In a letter with the Sceptre, my father King Eldarion appointed me as Regent of [arnor|E]. Despite the restored Reunited Kingdoms of [arnor|E] and [gondor|E], Arnor still lays in ruin. Mostly ignored and devoid of men, the seat of power remained in [minastirith|E], or [minasanor|E] as the Rangers still call it. With the [lordofmordor|E] defeated, nothing threatens the North nor South anymore. My father saw fit to grant me the task of truly restoring the [northernkingdom|E].\nI gathered my subjects, Sceptre in hand, in the hallowed ruins of the partially rebuilt Annúminas. The great Hall of the Kings was domeless, open to Anár, the Daystar, or the Star of Eärendil by night. The crowd of Dúnedain men and women stood before you, the people of the northern realm.\nTurlong, the eldest Ranger, came forward. A winged crown made of simple steel made from ancient swords, in his hands. I bowed to the people and to him.\nAnd so, the crown was raised upon my head.\n#help 'Et Eärello, Endorenna utúlien, Sinome Maruvan, ar Hildinyar tenn' Ambar-Metta'\n'Out of the Great Sea to [middleearth|E] I am come. In this place I will abide, and my heirs, unto the ending of the world.'#!"
+ ns_lotr_intro_events.6002.a:0 "We have work to do."
+ ns_lotr_intro_events.6002.a.tt:0 "You choose to become Regent of [arnor|E], a vassal realm."
+ ns_lotr_intro_events.6002.b:0 "I will lead this realm freely!"
+ ns_lotr_intro_events.6002.b.tt:0 "You choose to become King of [arnor|E], an independent realm."
+ ns_lotr_intro_events.6006.t:0 "" # Bilbo Intro
+ ns_lotr_intro_events.6006.desc:0 "" 
+ ns_lotr_intro_events.6006.a:0 ""
+ ns_lotr_intro_events.6011.t:0 "" # Holfast Intro
+ ns_lotr_intro_events.6011.desc:0 ""
+ ns_lotr_intro_events.6011.a:0 ""
+ ns_lotr_intro_events.6016.t:0 "" # Elfstan Intro
+ ns_lotr_intro_events.6016.desc:0 ""
+ ns_lotr_intro_events.6016.a:0 ""
+ ns_lotr_intro_events.6021.t:0 "" # Marmaduke Intro
+ ns_lotr_intro_events.6021.desc:0 ""
+ ns_lotr_intro_events.6021.a:0 ""
+ ns_lotr_intro_events.6026.t:0 "" # Bree Intro
+ ns_lotr_intro_events.6026.desc:0 ""
+ ns_lotr_intro_events.6026.a:0 ""
+ ns_lotr_intro_events.6031.t:0 "" # Turlong Intro
+ ns_lotr_intro_events.6031.desc:0 ""
+ ns_lotr_intro_events.6031.a:0 ""
+ ns_lotr_intro_events.6036.t:0 "" # Caradoc Intro
+ ns_lotr_intro_events.6036.desc:0 ""
+ ns_lotr_intro_events.6036.a:0 ""
+ ns_lotr_intro_events.6041.t:0 "" # Saralain Intro
+ ns_lotr_intro_events.6041.desc:0 ""
+ ns_lotr_intro_events.6041.a:0 ""
+ ns_lotr_intro_events.6046.t:0 "" # Tharbad Intro
+ ns_lotr_intro_events.6046.desc:0 ""
+ ns_lotr_intro_events.6046.a:0 ""
+ ns_lotr_intro_events.6051.t:0 "" # Dunland Intro
+ ns_lotr_intro_events.6051.desc:0 ""
+ ns_lotr_intro_events.6051.a:0 ""
+ ns_lotr_intro_events.6056.t:0 "" # Dunland Intro
+ ns_lotr_intro_events.6056.desc:0 ""
+ ns_lotr_intro_events.6056.a:0 ""
+ # Gondor
+ ns_lotr_intro_events.6200.t:0 "Alone in Eä" # Eldarion Intro
+ ns_lotr_intro_events.6200.desc:0 "Father is gone. Mother is gone. And Eldarion is King now. Allies, vassals, retainers... how can they understand?\nThe Kingdom, a crown upon his head, his to carry.\nThe Realm, a burden his to bear.\n\nThe East and South still burn. New shadows and vile kings wish harm on his people. The people… do they love him? Daily they come to the city to make requests, to voice their malcontent. His father would have listened with patience and responded with tact. Is he fit? Is he able? He is not his father.\n\nEldarion grips his throne as if in pain, torn by thoughts, in anguish in truth. #help 'My love, I am here for as long as I can'#! Nessanie moved to take him in her arms, the king on the verge of tears in his own hall. #help 'Father, you can count on me'#! Elendil, his son, moved to join the embrace.\n\n#help 'My lord, the realm is with you'#! said Dior the Steward, holding himself back from moving and only bowing. The steward's desk was covered in letters of condolence and sympathy, including one from Prince Anárion himself in far [eriador|E]."
+ ns_lotr_intro_events.6200.a:0 "I am not alone."
+ ns_lotr_intro_events.6201.t:0 "Twilight of King Elessar" # Death of Aragorn #Gondor Intro
+ ns_lotr_intro_events.6201.desc:0 "The bells of [minastirith|E] toll! Not for alarm, fortunately, nor for joy, unfortunately. High King Elessar, first of his name, passed in his sleep with the Maiden Queen Arwen and Prince Eldarion, his son, at his side.\n\nThroughout Gondor and as far as messengers could reach, tocsin bells rang out. The free peoples of [middleearth|E] sighed for the passing of a King, the loss of a hero. It is said that even the old enemies of East and South bowed their head in remembered honour. Common folk and nobles of the realm fall slowly flocked to [whitecity|E] to pay one last homage to the High King. All were reverential. Most were dejected. Many were weeping.\n\nMourners gathered at solemn vigils held in every quarter. Gondorians, both humble and noble, bowed in prayer, hoping that King Elessar might find his way to the [timelesshalls|E]."
+ ns_lotr_intro_events.6201.a:0 "So passes Aragorn, son of Arathorn."
+ ns_lotr_intro_events.6202.t:0 "The Hallows of Heroes"
+ ns_lotr_intro_events.6202.desc:0 "Family members, faithful retainers, loyal vassals, and honourable figures of the people, friends such as the brave Legolas and Gimli, all gathered in the narrow streets of Rath Dínen, before the House of Kings. A hall of stone, marble, gold and silver. The final resting place for the Kings and Stewards of yore.\n\nAs the body of King Elessar was laid to rest in his final chamber, Queen Nessanie sang a beautiful song in Rohanese. One she had learned from her grandmother, the long gone Lady Eowyn of [rohan|E], a mournful song. Then for the Enyalië, a few words were spoken of his deeds, heroism, achievements and his love for his people, all people, truly. He will lie surrounded by his ancestors and his peers, equalled and surpassed.\n\nAs a final gesture, the coffins of Peregrin Took and Meriadoc Brandybuck were brought forth from the early halls, where lesser born heroes reside. Laid in tombs beside King Elessar, the Masters Perian who came to [whitecity|E] shortly before their passing, now accompany their host on one final journey."
+ ns_lotr_intro_events.6202.a:0 "Thank you, old friends..."
+ ns_lotr_intro_events.6203.t:0 "Dawn of King Eldarion"
+ ns_lotr_intro_events.6203.desc:0 "As the sun rose on Anórien, [whitecity|E] was quiet. The ceremonies had lasted through the night. Slowly, the Hallows emptied in waves until only the King's close family remained. By dawn, there were no more tears to shed, all sorrow spent.\nWhen the sun's rays touched the [anduin|E], the royal family crossed Fen Hollen and returned to the Court of the Fountain. Prince Eldarion entered the stables, mounted his steed, Fána, and silently rode down each level. His people called out and followed him as he passed. When he crossed the city gate and reached the fields of Pelennor, he paused and turned back. Assembled before him were the city's inhabitants, crowding the walls, and the nobility of Gondor beneath the mithril gatehouse. Lord Dior, Prince of Ithilien and Steward of Gondor, and Lord Dagon, Warden of the Keys, stood foremost.\nDior proclaimed: #help 'Behold the King!'#!\n\nAnd in that moment all the trumpets were blown. King Eldarion went forth and Dagon gave him the Keys of the city amid cheers and the singing of clear voices. The King passed through the flower-laden streets, came to the Citadel and entered in. The banner of the Tree and the Stars was unfurled upon the topmost tower, and the reign of King Eldarion began." #after behold the king, is a direct copy paste from return of the king
+ ns_lotr_intro_events.6203.a:0 "The King is dead! Long live the King!"
+ ns_lotr_intro_events.6204.t:0 "The Departure of Arwen"
+ ns_lotr_intro_events.6204.desc:0 "The Maiden Queen was inconsolable for days, barely emerging from her room except to linger by King Elessar's tomb. Her true love was lost. No maid, nor lady, nor the good Nessanie could offer comfort.\n\nFor she remembered the words of her father, Elrond:\n\n#help 'He will come to death an image of the splendour of the kings of Men, in glory undimmed before the breaking of the world. But you, my daughter, you will linger on in darkness and in doubt, as nightfall in winter that comes without a star. Here you will dwell, bound to your grief under the fading trees, until all the world is changed and the long years of your life are utterly spent.'#!\n\nBy next dawn, she took a strong mare from the citadel stables and rode out of [whitecity|E]. From atop the Tower of Ecthelion, I watched her disappear to the north beyond the horizon.\n\n #help 'Arwen vanimelda, namárië!'#!"
+ ns_lotr_intro_events.6204.a:0 "Arwen beautiful and beloved, farewell!"
+ ns_lotr_intro_events.6204.a.tt:0 "Your mother chooses to leave."
+ ns_lotr_intro_events.6204.b:0 "No wait! Stay!"
+ ns_lotr_intro_events.6205.t:0 "The Fading of Arwen"
+ ns_lotr_intro_events.6205.desc:0 "Lady Arwen remained with her kin for over a year. Long walks in the golden gardens of [lorien|E] helped somewhat, but the loss of Aragorn still weighed heavily on her heart. She lost part of her fëa on that dreadful day, her mind wandering only through those memories.\n\nSome said that a figure had been seen accompanying her wanderings in the deep woods, a radiant being like the [eldar|E] of old. Surely, a good spirit come to aid her.\n\nOne evening, she came to me after dinner and kissed me on the forehead. Then, without a word, she retired to her chambers. This morning, she was found lifeless, her body now but a memory.\n\n #help 'Namárië! Nai Hiruvalyë Valimar!'#!" 
+ ns_lotr_intro_events.6205.a:0 "Farewell! May you find Valimar!"
+ ns_lotr_intro_events.6206.t:0 "Grey Cloaks of Mordor" # Eldacar Intro
+ ns_lotr_intro_events.6206.desc:0 "Ashes, ashes and fire... This is what Eldacar returns to, after the loss of his grandfather and his father's coronation day. He barely knew him, his grandfather, King Elessar. He was a good man, a good king, who must have known many secrets of the world. But he was very busy and Eldacar quickly went East to secure Mordor from danger in the name of the realm.\nIn a way, this is where he belongs. He somehow prefers his tent in the barren Slag-hills to the old comforts of home. The long, meditative patrols. Observing the fleeting tracks and potential movements of [orcs|E]. Studying the curios collected in the blackened ruins keeps his mind busy. On that note, there is one thing, or event, that needs more... observation.\n\nWhispers... Voices. Not from wights nor wraiths, but from beyond... Whispers coming from the ruins he came across. From items... Relics that he found. They lead him, guide him. To something.\nWill he follow? Should he follow? He needs to see this through.\n#help 'Where to today, my Lord?'#! says a Ranger, entering your tent."
+ ns_lotr_intro_events.6206.a:0 "Something calls to me."
+ ns_lotr_intro_events.6206.a.tt:0 "You choose to indulge the Darkness."
+ ns_lotr_intro_events.6206.b:0 "I will do my duty."
+ ns_lotr_intro_events.6206.b.tt:0 "You choose loyalty to [westernesse|E]."
+ ns_lotr_intro_events.6207.t:0 "Into Ruins of Evil"
+ ns_lotr_intro_events.6207.desc:0 "Voices, voices... They led me throughout the plains of [nurn|E] and the [landofshadows|E]. Chasing shadows and trails of darkness. My men look at me with suspicion, but they do not know what is at stake. There is something more, something further.\nToday the voices led me to a dark-stoned, soot-blackened tower. I came across evidence of a great battle with [orcs|E], their scattered refuse marking the site. The plains have largely been cleansed of their filth. The people of [gondor|E] celebrate Cormarë, Ringday, to remember the fall of Barad-dûr. It was near the remnants of that tower where I found it. A black sphere. Heavy yet lithe. I have an inkling of what it is, an ancient [palantir|E]. Dangerous...\nIn my tent, I study scrolls and maps to understand the lava-rock terrain. My gaze drifts to the black sphere on my desk. It makes me uneasy, and though I’ve not yet looked into it, it whispers to me... About other ruins, more items, more relics. \n#help 'My lord, are you sure about this? Should we not tell [minasanor|E] about this.. thing?'#!"
+ ns_lotr_intro_events.6207.a:0 "I could use it."
+ ns_lotr_intro_events.6207.a.tt:0 "You choose to indulge the Darkness."
+ ns_lotr_intro_events.6207.b:0 "No, I should not."
+ ns_lotr_intro_events.6207.b.tt:0 "You choose loyalty to [westernesse|E]."
+ ns_lotr_intro_events.6208.t:0 "Black Host Laid Bare"
+ ns_lotr_intro_events.6208.desc:0 "#help 'Traitors, my lord! These are traitors of the old world! We must-'#! I raise a hand to silence the Ranger, and he obeys. My men follow you still, despite my trespasses. But now, I have gone too far to not understand what all of this is about. Armed men, and some women, are before me. A host clad in ancient armour, with painted red eyes and other sigils I do not recognise.\nA female voice murmurs, from one bowed low like all of them.\n#help 'Great Prince, we are rightful sons and daughters of [elenna|E].\nOf the [bloodofnumenor|E], like you,'#!\nI contemplate for a moment before responding.\n#help 'I am not like you, I am Prince Eldacar, son of Eldarion, the King of [gondor|E] and [arnor|E]. Do not call me your equal.#!'\nShe pauses, giving a brief look.\n#help 'Of course, my Lord. We are your servants. Yours to command.'\n'Do you hear [zigur|E], my Lord? He… they taught us many unnatural things. And I can teach them to you, as our new Black Lord.'#!\nMy Rangers' disapproval becomes louder still.\n#help 'No! This is blasphemy, devilry, madness!'#! \nIs it? The whispers have led me right so far. Right to Darkness."
+ ns_lotr_intro_events.6208.a:0 "I will answer the call!"
+ ns_lotr_intro_events.6208.a.tt:0 "You choose treachery."
+ ns_lotr_intro_events.6208.b:0 "TO ARMS!"
+ ns_lotr_intro_events.6208.b.tt:0 "You choose loyalty to [westernesse|E]."
+ ns_lotr_intro_events.6209.t:0 "Wallowing in Dark Arts"
+ ns_lotr_intro_events.6209.desc:0 "midnight ritual in the wilderness (east probably) with weird witches and a couple of orc shamans calling to sauron, [zigur|E] and older stuff aka morgoth [mulkhercharacter|E], use the palantir like beacon and look straight up to the void beyond the firmament. blood sacrifice of some captured orcs. drumbs, fire, dancing. see weird shadows dancing in the void with the palantir. not the first time. whispers. stop the party noises. the whispers give dark arts instructions"
+ ns_lotr_intro_events.6209.a:0 "[mulkhercharacter|E] is Great!"
+ ns_lotr_intro_events.6209.a.tt:0 "You choose to convert to [mulkhercharacter|E]."
+ ns_lotr_intro_events.6209.b:0 "[zigur|E] is Great!"
+ ns_lotr_intro_events.6209.b.tt:0 "You choose to convert to [zigur|E]."
+ ns_lotr_intro_events.6209.c:0 "This is devilry. Burn it all..."
+ ns_lotr_intro_events.6209.c.tt:0 "You choose wrong."
+ ns_lotr_intro_events.6210.t:0 "Deeper, Deeper"
+ ns_lotr_intro_events.6210.desc:0 "ritual in the wilderness again. Midday. fewer witches youve been sacrificing them to the shadows. more orc shamans instead. disgusting practices with human blood and entrails, maybe elf too. eldarion is the focus instead. the witches chant -at- you. look in the palantir, no dancing this time only eyes. dont dare stare back. an eclipse happen. the palantir lights like the sun. the door of night shakes (gate to the void). something reaches out to eldacar. no idea what or who it is. powerful, trying to enter eldacar"
+ ns_lotr_intro_events.6210.a:0 "We are Legion, for we are many."
+ ns_lotr_intro_events.6210.a.tt:0 "You choose to indulge the Darkness."
+ ns_lotr_intro_events.6210.b:0 "NOOOOOoooo......!"
+ ns_lotr_intro_events.6210.b.tt:0 "You choose to resist. Die."
+ ns_lotr_intro_events.6211.t:0 "A House Gathered" # Dior Intro
+ ns_lotr_intro_events.6211.desc:0 "Nessanie visits Dior and the house of the stewards after elessar funeral. minas ithil. new seat of the stewardship. prosperity of the house is prosperity of ithilien, prosperity of ithilien is prosperity of the realm. protect from the east and south, even from inside"
+ ns_lotr_intro_events.6211.a:0 "We are the Stewards."
+ ns_lotr_intro_events.6212.t:0 "Tales of Inspiration" # maybe land barahir and give him an intro
+ ns_lotr_intro_events.6212.desc:0 "son barahir was moved by arwen's grief and distress. visits the settled elves in ithilien. they are beautiful but inhuman. move like mist, as light as feathers, belong in nature like birds. look placid in their eternal life. but they build, sing, fight, love, better, harder, stronger than any human. live the fullest of lives in Ea. inspired to write the tale of aragorn and arwen"
+ ns_lotr_intro_events.6212.a:0 ""
+ # Rohan
+ ns_lotr_intro_events.6401.t:0 "King on the Plain" # Rohan Intro
+ ns_lotr_intro_events.6401.desc:0 "eofara riding with eobrand, receives news of the death of aragorn. rohan is still poor and mostly pastoral despite the peace and time since the wotr. passage of people on the old road crossing rohan into arnor brings new ways of life, new methods. hope for the future"
+ ns_lotr_intro_events.6401.a:0 "Forth Eorlingas"
+ ns_lotr_intro_events.6402.t:0 "Hallowed Halls" # Eofara Intro
+ ns_lotr_intro_events.6402.desc:0 "eofara in edoras thinks of his people, parrallells with theoden. different struggle. no war. (not sure what goal or impact)"
+ ns_lotr_intro_events.6402.a:0 "Forth Eorlingas"
+ ns_lotr_intro_events.6406.t:0 "The Tower Watch" # Eobrand Intro
+ ns_lotr_intro_events.6406.desc:0 "eobrand in orthanc surrounded by old malice, shivers, looks west to dunland and enedwaith, wildmen are becoming farmers, chieftains are kings. you were in the mundberg in minas tirith and your great grandmother was a princess of the south, you arent even really rohirrim anymore. new trails awaits"
+ ns_lotr_intro_events.6406.a:0 "I am the Marshal of the West"

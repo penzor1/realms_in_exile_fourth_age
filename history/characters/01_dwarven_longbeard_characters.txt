@@ -1,0 +1,547 @@
+﻿#By Fisto and Jagua
+
+##########################
+### The Line of Durin ####
+##########################
+
+###line of Balin of Moria
+#kinda canon, was supposed to be son of Balin at the white council instead of Gimli, tolkien canceled him last minute
+lineofdurin117 = {
+	name = Burin
+	dynasty = dynasty_durin
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofdurin95 # Balin
+	mother = lineofuni65 
+	dna = burin_son_of_balin_dna
+	
+	6912.11.12 = {
+		birth = yes
+	}
+	7033.1.2 = { #TA 2994 # Battle of Khazad Dum #canon7027.11.5
+		death = { death_reason = death_battle }
+	}
+}
+
+###line of Thorin III of erebor
+#canon
+lineofdurinVII = {
+	name = Durin # Durin the Last
+	dynasty = dynasty_durin
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofdurin91 # Thorin III
+	mother = lineofbravesoul118 # Thurfrith
+	dna = durin_dna
+	
+	sexuality = heterosexual
+	
+	trait = education_stewardship_5
+
+	trait = diligent 
+	trait = generous
+	trait = just
+	
+	trait = intellect_good_3
+	trait = poet
+	trait = dwarf_father
+	
+	7075.1.7 = {
+		birth = yes
+	}
+	7119.1.7 = {
+		give_nickname = nick_the_last_dorfdad_durin
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+			add_character_flag = no_auto_family
+			set_relation_nemesis = character:lineofazog14 # Boldog
+			house_feud_start_effect = {
+				# Feuding House Head
+				ACTOR = character:lineofdurinVII # DuringVII
+				# Target House Head
+				TARGET = character:lineofazog14 # Boldog
+				# Feud Reason
+				REASON = head_rivalry
+				# House Member attacker if relevant
+				ATTACKER = character:lineofdurinVII # DurinVII
+				# House Member victim if relevant
+				VICTIM = character:lineofazog14 # Boldog
+			}
+		}
+	}
+	#Fourth age = {
+		#death = { death_reason = unknown }
+	#}
+}
+
+#fiction
+lineofbravesoul118 = { # Wife of Thorin III Stonehelm of Durin's Folk
+	name = Thurfrith
+	dynasty = dynasty_bravesoul
+	religion = faith_khazad
+	culture = iron_hills
+	father = lineofbravesoul113
+	mother = lineofbravesoul114
+	female = yes
+
+	sexuality = heterosexual
+	
+	6942.3.18 = {
+		birth = yes
+	}
+	7044.3.18 = {
+		add_spouse = lineofdurin91
+	}
+	7234.7.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofdurin116 = {
+	name = Thrain
+	dynasty = dynasty_durin
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofdurin91 # Thorin III
+	mother = lineofbravesoul118 # Thurfrith
+	dna = thrain_son_of_thorin_III_dna
+
+	sexuality = heterosexual
+
+	trait = intellect_good_1
+
+	7081.3.24 = {
+		birth = yes
+	}
+	7222.2.2 = {
+		death = { death_reason = death_vanished }
+	}
+}
+
+###line of Náin of Iron Hills
+#fiction
+linegorin23 = { # Ai wife of Nain of Iron Hills
+	name = A_i
+	dynasty = dynasty_gorin
+	religion = faith_khazad
+	culture = longbeards
+	father = linegorin19
+	mother = linegorin20
+	female = yes
+
+	sexuality = heterosexual
+	
+	6971.5.24 = {
+		birth = yes
+	}
+	7045.5.24 = {
+		add_spouse = lineofdurin107
+	}
+	7222.1.2 = {
+		death = { death_reason = death_vanished }
+	}
+}
+
+lineofdurin108 = {
+	name = D_ain # Dain III
+	dynasty = dynasty_durin
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofdurin107 # Nain II
+	mother = linegorin23 # Ai
+	dna = dain_son_of_nain_dna
+
+	sexuality = heterosexual
+	
+	trait = intellect_good_1
+	
+	7085.1.14 = {
+		birth = yes
+	}
+	7174.1.1 = {
+            set_relation_friend = { 
+                reason = contemplated_life_and_death_together 
+                target = character:lineofdurinVII 
+            }
+	}
+	#Fourth age = {
+		#death = { death_reason = death_natural_causes }
+	#}
+}
+
+lineofdurin109 = {
+	name = D_is
+	dynasty = dynasty_durin
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofdurin107 # Nain II
+	mother = linegorin23 # Ai
+	female = yes
+
+	sexuality = heterosexual
+	
+	7061.1.14 = {
+		birth = yes
+	}
+	7285.10.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+###line of Dwalin of Thorin's Company
+#fiction
+lineoftherrel78 = { # Wife of Dwalin of Thorin's Company
+	name = D_ufr
+	dynasty = dynasty_therrel
+	religion = faith_khazad
+	culture = iron_hills
+	father = lineoftherrel69
+	mother = lineoftherrel70
+	female = yes
+
+	sexuality = heterosexual
+	
+	6933.5.14 = {
+		birth = yes
+	}
+	7035.5.5 = {
+		add_spouse = lineofdurin96 # Dwalin of Thorin's Company
+	}
+	7128.11.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofdurin110 = {
+	name = Borin
+	dynasty = dynasty_durin
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofdurin96 # Dwalin
+	mother = lineoftherrel78 # Dufr
+	dna = borin_son_of_dwalin_dna
+
+	sexuality = heterosexual
+	
+	trait = physique_good_1
+	
+	7047.1.11 = {
+		birth = yes
+	}
+	7109.5.5 = {
+		add_spouse = lineofmorthain114 # Freydis
+	}
+	7198.11.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofmorthain114 = { # Wife of Borin, son of Dwalin of Thorin's Company
+	name = Freyd_is
+	dynasty = dynasty_morthain
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofmorthain108
+	mother = lineofmorthain109
+	female = yes
+
+	sexuality = heterosexual
+		
+	7039.1.11 = {
+		birth = yes
+	}
+	7252.1.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofdurin111 = { # Grandson of Dwalin
+	name = Fundin
+	dynasty = dynasty_durin
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofdurin110 # Borin
+	mother = lineofmorthain114 # Freydis
+	dna = fundin_son_of_borin_dna
+
+	sexuality = heterosexual
+	
+	trait = physique_good_2
+	
+	7110.11.03 = {
+		birth = yes
+	}
+	7260.5.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+###line of Dori of Thorin's Company
+#fiction
+lineofdurin112 = {
+	name = F_ili
+	dynasty = dynasty_durin
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofdurin104 # Dori
+	mother = lineoffalna49 # Skirfir
+	dna = fili_son_of_dori_dna
+
+	sexuality = heterosexual
+	
+	7036.6.30 = {
+		birth = yes
+	}
+	7117.3.18 = {
+		add_spouse = lineofhunduzir86 # Wife of Fili, son of Dori
+	}
+	7251.8.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofdurin113 = {
+	name = N_ori
+	dynasty = dynasty_durin
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofdurin112 # Fili
+	mother = lineofhunduzir86
+	dna = nori_son_of_fili_dna
+
+	sexuality = heterosexual
+	
+	7119.2.12 = {
+		birth = yes
+	}
+	7199.4.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+#line of Nori of Thorin's Company
+lineofdurin114 = {
+	name = Kili
+	dynasty = dynasty_durin
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofdurin105 # Nori
+	mother = lineofuni69
+	dna = kili_son_of_nori_dna
+
+	sexuality = heterosexual
+	
+	7040.6.29 = {
+		birth = yes
+	}
+	7115.3.18 = {
+		add_spouse = lineofhunduzir87
+	}
+	7227.1.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofhunduzir87 = { # Wife of Kili, son of Nori
+	name = H_ar 
+	dynasty = dynasty_hundu_zir
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofhunduzir84
+    mother = lineofhunduzir85
+	female = yes
+
+	sexuality = heterosexual
+	
+	7044.3.25 = {
+		birth = yes
+	}
+	7249.1.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofdurin115 = {
+	name = D_ori
+	dynasty = dynasty_durin
+	religion = faith_khazad
+	culture = longbeards
+	father = lineofdurin114 # Kili
+	mother = lineofhunduzir87 # Har
+	dna = dori_son_of_kili_dna
+	sexuality = heterosexual
+	
+	7115.10.18 = {
+		birth = yes
+	}
+	7301.5.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Lines of Bifur and Bofur of Thorin's Company
+#fiction
+lineofbifurwife = {
+	name = L_oin
+	religion = faith_khazad			
+	culture = longbeards
+	female = yes
+
+	sexuality = heterosexual
+					
+	6931.4.15 = {
+		birth = yes
+	}
+	7034.3.18 = {
+		add_spouse = lineofbifur
+	}
+	7120.5.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbifur2 = { # Son of Bifur
+	name = B_osi
+	dynasty = dynasty_tharakhalm
+	religion = faith_khazad			
+	culture = longbeards
+	father = lineofbifur # Bifur
+	mother = lineofbifurwife # Loin
+	dna = bosi_son_of_bifur_dna
+
+	sexuality = heterosexual
+					
+	7035.4.15 = {
+		birth = yes
+	}
+	7087.11.23 = {
+		employer = lineofdurin114 # Kili
+    }
+	7261.8.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbifur2wife = {
+	name = Herauthur
+	religion = faith_khazad			
+	culture = longbeards
+	female = yes
+
+	sexuality = heterosexual
+					
+	7039.4.15 = {
+		birth = yes
+	}
+	7110.3.21 = {
+		add_spouse = lineofbifur2
+	}
+	7259.9.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbifur3 = { # Grandson of Bifur			
+	name = B_ori
+	dynasty = dynasty_tharakhalm
+	religion = faith_khazad			
+	culture = longbeards
+	father = lineofbifur2 # Bosi
+	mother = lineofbifur2wife # Herauthur
+	dna = bori_son_of_bosi_dna
+	
+	sexuality = heterosexual
+					
+	7111.6.7 = {
+		birth = yes
+	}
+	7087.11.23 = {
+		employer = lineofdurin114 # Kili
+	}
+	7298.5.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbomfur2wife = {
+	name = R_athspakr
+	religion = faith_khazad			
+	culture = longbeards
+	female = yes
+
+	sexuality = heterosexual
+  			
+	6931.9.10 = {
+		birth = yes
+	}
+	7036.1.11 = {
+		add_spouse = lineofbomfur2
+	}	
+	7134.4.12 = {
+		death = { death_reason = death_natural_causes }
+	}				
+}
+
+lineofbomfur3 = { # Son of Bofur		
+	name = Brogur
+	dynasty = dynasty_fazarumul
+	religion = faith_khazad			
+	culture = longbeards
+	father = lineofbomfur2 # Bofur
+	mother = lineofbomfur2wife # Rathspakr
+	dna = brogur_son_of_bofur_dna
+
+	sexuality = heterosexual
+  			
+	7038.9.10 = {
+		birth = yes
+	}
+	7087.11.23 = {
+		employer = lineofdurin114 # Kili
+	}
+	7108.1.11 = {
+		add_spouse = lineofbomfur3wife # Withur
+	}			
+	7223.2.21 = {
+		death = { death_reason = death_natural_causes }
+	}				
+}
+
+lineofbomfur3wife = { 		
+	name = Withur
+	religion = faith_khazad			
+	culture = longbeards
+	female = yes
+
+	sexuality = heterosexual
+  			
+	7037.9.10 = {
+		birth = yes
+	}	
+	7271.1.25 = {
+		death = { death_reason = death_natural_causes }
+	}			
+}
+
+lineofbomfur4 = { # Grandson of Bofur			
+	name = Br_oin
+	dynasty = dynasty_fazarumul
+	religion = faith_khazad			
+	culture = longbeards
+	father = lineofbomfur3 # Brogur
+	mother = lineofbomfur3wife # Withur
+	dna = broin_son_of_brogur_dna
+
+	sexuality = heterosexual
+  			
+	7110.4.5 = {
+		birth = yes
+	}
+	7087.11.23 = {
+		employer = lineofdurin114 # Kili
+	}			
+	7341.3.20 = {
+		death = { death_reason = death_natural_causes }
+	}	
+}

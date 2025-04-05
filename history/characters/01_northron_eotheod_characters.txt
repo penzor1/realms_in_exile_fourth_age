@@ -1,0 +1,359 @@
+﻿### ALL FICTION
+
+## Hardingas Clan (Dark Leofring)
+linehardingas17 = {
+	name = Harding
+	dynasty_house = house_hardingas
+	religion = faith_fey_court
+	culture = leofring
+	father = linehardingas13son # Hardmund
+	#mother = 
+	
+	7033.2.11 = {
+		birth = yes
+	}
+	7049.6.20 = {
+		add_spouse = lineofherimundi12 # Hermesind Herimundi
+	}
+	7108.5.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas18 = {
+	name = Harold
+	dynasty_house = house_hardingas
+	religion = faith_fey_court
+	culture = leofring
+	father = linehardingas17 # Harding
+	mother = lineofherimundi12 # Hermesind Herimundi
+	
+	trait = physique_good_1
+	
+	7049.12.3 = {
+		birth = yes
+	}
+	7066.12.20 = {
+		add_spouse = linehardingas18wife # Judith
+	}
+	7122.6.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas18wife = {
+	name = Judith
+	religion = faith_fey_court
+	culture = leofring
+	#father = 
+	#mother = 
+	female = yes
+	
+	7050.12.3 = {
+		birth = yes
+	}
+	7123.9.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas19 = {
+	name = Hardvard
+	dynasty_house = house_hardingas
+	religion = faith_fey_court
+	culture = leofring
+	father = linehardingas18 # Harold
+	mother = linehardingas18wife # Judith
+	
+	7068.3.22 = {
+		birth = yes
+	}
+	7094.6.2 = {
+		add_spouse = linehardingas19wife # Salvia
+	}
+	7161.9.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas19wife = {
+	name = Salvia
+	religion = faith_woodmen
+	culture = valemen
+	#father = 
+	#mother = 
+	female = yes
+	
+	7070.10.4 = {
+		birth = yes
+	}
+	7165.7.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas20 = {
+	name = Harding
+	dynasty_house = house_hardingas
+	religion = faith_fey_court
+	culture = leofring
+	father = linehardingas19 # Hardvard
+	mother = linehardingas19wife # Salvia
+	
+	7095.7.16 = {
+		birth = yes
+	}
+	7120.1.10 = {
+		add_spouse = linehardingas20wife # Galwyn
+	}
+	7188.1.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas20wife = {
+	name = Galwyn
+	religion = faith_fey_court
+	culture = leofring
+	#father = 
+	#mother = 
+	female = yes
+	
+	7098.8.14 = {
+		birth = yes
+	}
+	7178.4.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas21 = {
+	name = Leofric
+	dynasty_house = house_hardingas
+	religion = faith_fey_court
+	culture = leofring
+	father = linehardingas20 # Harding
+	mother = linehardingas20wife # Galwyn
+	
+	7122.3.10 = {
+		birth = yes
+	}
+	7148.2.14 = {
+		add_spouse = linehardingas21wife # Galwyn
+	}
+	7198.11.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas21wife = {
+	name = Frithuhild
+	religion = faith_rohirric
+	culture = rohirrim
+	#father = 
+	#mother = 
+	female = yes
+	
+	7123.6.20 = {
+		birth = yes
+	}
+	7198.11.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas22 = {
+	name = Leofwaru
+	dynasty_house = house_hardingas
+	religion = faith_fey_court
+	culture = leofring
+	father = linehardingas21 # Leofric
+	mother = linehardingas21wife # Frithuhild
+	
+	7149.9.6 = {
+		birth = yes
+	}
+	7218.6.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas23 = {
+	name = Galwyn
+	dynasty_house = house_hardingas
+	religion = faith_fey_court
+	culture = leofring
+	father = linehardingas21 # Leofric
+	mother = linehardingas21wife # Frithuhild
+	female = yes
+	
+	7151.10.26 = {
+		birth = yes
+	}
+	7219.9.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Line of Goldwine
+linehardingas20bro = {
+	name = Goldwine
+	dynasty_house = house_hardingas
+	religion = faith_fey_court
+	culture = leofring
+	father = linehardingas19 # Hardvard
+	mother = linehardingas19wife # Salvia
+	
+	7099.6.26 = {
+		birth = yes
+	}
+	7129.1.10 = {
+		add_spouse = linehardingas20wife # Hild
+	}
+	7189.2.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas20browife = {
+	name = Hild
+	religion = faith_fey_court
+	culture = leofring
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = infertile
+	
+	7105.4.3 = {
+		birth = yes
+	}
+	7181.7.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linehardingas24 = {
+	name = H_era
+	dynasty_house = house_hardingas
+	religion = faith_fey_court
+	culture = leofring
+	father = linehardingas20bro # Goldwine
+	mother = linehardingas20browife # Hild
+	female = yes
+	
+	trait = brave
+	
+	trait = shieldmaiden
+	trait = beauty_good_1
+	trait = physique_good_1
+	
+	7132.5.26 = {
+		birth = yes
+	}
+	7188.1.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Clan Morcargas	(Midde Leofrings)
+
+## Guthmunding Clan (Fae Leofring)
+lineofguthmunding28 = {
+	name = Wiglaf
+	dynasty_house = house_guthmunding
+	religion = faith_fey_court
+	culture = leofring
+	father = lineofguthmunding10 # Osulf
+	#mother = 
+	
+	7029.3.18 = {
+		birth = yes
+	}
+	7101.11.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofguthmunding29 = {
+	name = Osulf
+	dynasty_house = house_guthmunding
+	religion = faith_fey_court
+	culture = leofring
+	father = lineofguthmunding28 # Wiglaf
+	#mother = 
+	
+	7055.9.25 = {
+		birth = yes
+	}
+	7150.1.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofguthmunding30 = {
+	name = Morcar
+	dynasty_house = house_guthmunding
+	religion = faith_fey_court
+	culture = leofring
+	father = lineofguthmunding29 # Osulf
+	#mother = 
+	
+	7081.7.20 = {
+		birth = yes
+	}
+	7160.3.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofguthmunding31 = {
+	name = Cerdic
+	dynasty_house = house_guthmunding
+	religion = faith_fey_court
+	culture = leofring
+	father = lineofguthmunding30 # Morcar
+	#mother = 
+	
+	7103.8.13 = {
+		birth = yes
+	}
+	7171.9.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofguthmunding32 = {
+	name = Guthmund
+	dynasty_house = house_guthmunding
+	religion = faith_fey_court
+	culture = leofring
+	father = lineofguthmunding31 # Cerdic
+	#mother = 
+	
+	7129.12.1 = {
+		birth = yes
+	}
+	7149.5.1 = {
+		add_spouse = linehardingas24 # Hera Hardingas
+	}
+	7199.4.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofguthmunding33 = {
+	name = Morcar
+	dynasty_house = house_guthmunding
+	religion = faith_fey_court
+	culture = leofring
+	father = lineofguthmunding32 # Guthmund
+	mother = linehardingas24 # Hera Hardingas
+	
+	7150.7.7 = {
+		birth = yes
+	}
+	7229.3.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}

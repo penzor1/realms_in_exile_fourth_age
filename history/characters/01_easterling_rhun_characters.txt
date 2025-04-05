@@ -1,0 +1,1163 @@
+﻿### FOURTH AGE RHUN CHARACTERS ###
+
+# Line of Pultai-Mistrand countinued from Mareke (lineofvronkhar38) #
+lineofvronkhar39 = { # Azdrivet 'the Scholar'
+	name = Azdrivet
+	dynasty_house = house_pultai_mistrand
+	religion = faith_rhun_araw_triumvirate
+	culture = igath
+	father = lineofodavi4
+	mother = lineofvronkhar38
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = just
+	trait = fickle
+	
+	trait = intellect_good_1
+	trait = beauty_good_2
+	trait = lifestyle_mystic
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 3
+	learning = 8
+	prowess = 7
+
+	trait = education_learning_3
+
+	7055.2.3 = {
+		birth = yes
+		give_nickname = nick_the_scholar
+	}
+	7079.12.3 = {
+		add_spouse = lineofadekig26
+		religion = faith_phaon_afod
+	}
+	7132.11.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvronkhar40 = { # Askul
+	name = Askul
+	dynasty_house = house_pultai_mistrand
+	religion = faith_rhun_araw_triumvirate
+	culture = igath
+	father = lineofvronkhar39
+	mother = lineofadekig26
+
+	sexuality = heterosexual
+
+	trait = arbitrary
+	trait = zealous
+	trait = impatient
+	trait = beauty_good_1
+
+	diplomacy = 9
+	martial = 2
+	stewardship = 3
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	trait = education_diplomacy_2
+
+	7084.6.17 = {
+		birth = yes
+	}
+	7149.7.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvronkhar41 = { # Ovan
+	name = Ovan
+	dynasty_house = house_pultai_mistrand
+	religion = faith_easterling_war
+	culture = igath
+	father = lineofvronkhar39
+	mother = lineofadekig26
+
+	sexuality = heterosexual
+
+	trait = arrogant
+	trait = gregarious
+	trait = deceitful
+	trait = intellect_good_1
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 3
+	intrigue = 7
+	learning = 2
+	prowess = 13
+
+	trait = education_martial_4
+
+	7097.8.3 = {
+		birth = yes
+	}
+	7137.5.10 = {
+		death = { 
+			death_reason = death_execution 
+			killer = lineofvronkhar40 
+		}
+	}
+}
+
+lineofvronkhar42 = { # Govli 'The Builder'
+	name = Govli
+	dynasty_house = house_pultai_mistrand
+	religion = faith_rhun_araw_triumvirate
+	culture = igath
+	father = lineofvronkhar40
+	female = yes
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = just
+	trait = diligent
+	trait = intellect_good_1
+	trait = beauty_good_2
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 8
+	intrigue = 3
+	learning = 5
+	prowess = 5
+
+	trait = education_stewardship_3
+
+	7124.12.11 = {
+		birth = yes
+		give_nickname = nick_the_builder
+	}
+	7173.3.2 = {
+		effect = {
+			make_tributary = {
+				TYPE = tributary_permanent
+				SUZERAIN = character:lineisildur43
+				TRIBUTARY = character:lineofvronkhar42
+			}
+		}
+	}
+	7189.10.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvronkhar43 = { # Hoshkar
+	name = Hoshkar
+	dynasty_house = house_pultai_mistrand
+	religion = faith_rhun_araw_triumvirate
+	culture = igath
+	father = lineofvronkhar40
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = content
+	trait = humble
+	trait = intellect_good_1
+	trait = unyielding_defender
+
+	diplomacy = 5
+	martial = 9
+	stewardship = 7
+	intrigue = 2
+	learning = 2
+	prowess = 12
+
+	trait = education_martial_3
+
+	7130.7.17 = {
+		birth = yes
+	}
+	7186.9.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvronkhar44 = { # Mareke II
+	name = Mareke
+	dynasty_house = house_pultai_mistrand
+	religion = faith_rhun_araw_triumvirate
+	culture = igath
+	mother = lineofvronkhar42
+	female = yes
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = brave
+	trait = ambitious  
+	trait = intellect_good_1
+	trait = beauty_good_2
+	trait = lifestyle_blademaster
+	trait = strong
+
+	diplomacy = 4
+	martial = 10
+	stewardship = 7
+	intrigue = 3
+	learning = 5
+	prowess = 14
+
+	trait = education_martial_4
+
+	7152.12.11 = {
+		birth = yes
+	}
+	7242.10.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvronkhar45 = { # Vaugan
+	name = Vaugan
+	dynasty_house = house_pultai_mistrand
+	religion = faith_rhun_araw_triumvirate
+	culture = igath
+	mother = lineofvronkhar42
+
+	sexuality = heterosexual
+
+	trait = eccentric
+	trait = zealous
+	trait = lazy
+	trait = intellect_good_3
+	trait = lifestyle_mariner
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 7
+	intrigue = 1
+	learning = 5
+	prowess = 2
+
+	trait = education_stewardship_4
+
+	7154.3.9 = {
+		birth = yes
+	}
+	7170.6.12 = {
+		religion = faith_blue_sect
+	}
+	7223.10.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvronkhar46 = { # Bountig
+	name = Bountig
+	dynasty_house = house_pultai_mistrand
+	religion = faith_rhun_araw_triumvirate
+	culture = igath
+	father = lineofvronkhar43
+	sexuality = heterosexual
+
+	trait = brave
+	trait = greedy
+	trait = wrathful
+
+	diplomacy = 3
+	martial = 7
+	stewardship = 5
+	intrigue = 4
+	learning = 6
+	prowess = 9
+
+	trait = education_martial_2
+
+	7158.2.11 = {
+		birth = yes
+	}
+	7227.1.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvronkhar47 = { # Akvoth
+	name = Akvoth
+	dynasty_house = house_pultai_mistrand
+	religion = faith_rhun_araw_triumvirate
+	culture = igath
+	father = lineofvronkhar43
+	sexuality = heterosexual
+
+	trait = calm
+	trait = fickle
+	trait = curious
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 4
+	intrigue = 2
+	learning = 6
+	prowess = 9
+
+	7161.4.19 = {
+		birth = yes
+	}
+	7232.1.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Line of Adevig countinued from lineofadekig18 #
+
+lineofadekig22 = {
+	name = Mardrash
+	dynasty = dynasty_adekig
+	religion = faith_kerkassk
+	culture = igath
+	father = lineofadekig18
+	mother = lineofadekig19
+	sexuality = heterosexual
+
+	7037.5.27 = {
+		birth = yes
+	}
+	7052.12.24 = {
+		religion = faith_blue_sect
+	}
+	7056.8.13 = {
+		add_spouse = lineofadekig23
+	}
+	7095.10.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofadekig23 = {
+	name = Mariya
+	religion = faith_kerkassk
+	culture = igath
+	female = yes
+	sexuality = heterosexual
+
+	7040.7.22 = {
+		birth = yes
+	}
+	7052.12.24 = {
+		religion = faith_blue_sect
+	}
+	7101.2.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofadekig24 = {
+	name = Jyka
+	dynasty = dynasty_adekig
+	religion = faith_blue_sect
+	culture = igath
+	father = lineofadekig22
+	mother = lineofadekig23
+	sexuality = heterosexual
+
+	7057.9.10 = {
+		birth = yes
+	}
+
+	7075.8.12 = {
+		add_spouse = lineofadekig25
+	}
+
+	7126.6.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofadekig25 = {
+	name = Itazha
+	religion = faith_blue_sect
+	culture = igath
+	female = yes
+	sexuality = heterosexual
+
+	7054.5.19 = {
+		birth = yes
+	}
+	7130.9.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofadekig26 = {
+	name = Tarlaris
+	dynasty = dynasty_adekig
+	religion = faith_blue_sect
+	culture = igath
+	father = lineofadekig22
+	mother = lineofadekig23
+	female = yes
+	sexuality = heterosexual
+
+	7060.9.10 = {
+		birth = yes
+	}
+	7137.6.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofadekig27 = {
+	name = Okar
+	dynasty = dynasty_adekig
+	religion = faith_blue_sect
+	culture = igath
+	father = lineofadekig24
+	mother = lineofadekig25
+	sexuality = heterosexual
+
+	7087.11.9 = {
+		birth = yes
+	}
+	7108.6.18 = {
+		add_spouse = lineofadekig28
+	}
+	7162.7.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofadekig28 = {
+	name = Kusko
+	religion = faith_blue_sect
+	culture = igath
+	female = yes
+	sexuality = heterosexual
+
+	7090.7.24 = {
+		birth = yes
+	}
+	7170.4.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofadekig29 = {
+	name = Anzhar
+	dynasty = dynasty_adekig
+	religion = faith_blue_sect
+	culture = igath
+	father = lineofadekig27
+	mother = lineofadekig28
+	sexuality = heterosexual
+
+	7110.12.10 = {
+		birth = yes
+	}
+	7132.4.16 = {
+		add_spouse = lineofadekig30
+	}
+	7172.7.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofadekig30 = {
+	name = Kolona
+	religion = faith_blue_sect
+	culture = igath
+	female = yes
+	sexuality = heterosexual
+
+	7103.2.24 = {
+		birth = yes
+	}
+	7166.12.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofadekig31 = {
+	name = Valathmir
+	dynasty = dynasty_adekig
+	religion = faith_blue_sect
+	culture = igath
+	father = lineofadekig29
+	mother = lineofadekig30
+
+	trait = patient
+	trait = shy
+	trait = arbitrary
+
+	trait = education_learning_2
+
+	sexuality = heterosexual
+
+	7138.11.4 = {
+		birth = yes
+	}
+	7206.1.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Line of Kugavodid countinued from line_kugavodid21 #
+line_kugavodid23 = { # wife of WOTR ruler
+	name = Faigi
+	religion = faith_rhun_pantheistic
+	culture = ulgath
+	female = yes
+
+	7007.7.6 = {
+		birth = yes
+	}
+	7052.9.6 = {
+		religion = faith_blue_sect
+	}
+	7080.6.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_kugavodid24 = {	
+	name = Orvani
+	dynasty = dynasty_kugavodid
+	religion = faith_rhun_pantheistic
+	culture = ulgath
+	father = line_kugavodid21
+	mother = line_kugavodid23
+	female = yes
+
+	7038.3.24 = {
+		birth = yes
+	}
+	7052.9.6 = {
+		religion = faith_blue_sect
+	}
+	7060.2.28 = {
+		add_spouse = line_kugavodid25
+	}
+	7112.1.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_kugavodid25 = {	
+	name = Olriag
+	religion = faith_rhun_pantheistic
+	culture = ulgath
+
+	7036.1.20 = {
+		birth = yes
+	}
+	7052.9.6 = {
+		religion = faith_blue_sect
+	}
+	7108.5.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_kugavodid26 = {	
+	name = Irbo
+	dynasty = dynasty_kugavodid
+	religion = faith_blue_sect
+	culture = ulgath
+	father = line_kugavodid25
+	mother = line_kugavodid24
+
+	7064.3.24 = {
+		birth = yes
+	}
+	7085.1.19 = {
+		add_spouse = line_kugavodid27
+	}
+	7125.12.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_kugavodid27 = {
+	name = Coefa
+	religion = faith_blue_sect
+	culture = ulgath
+	female = yes
+
+	7068.8.21 = {
+		birth = yes
+	}
+	7132.4.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_kugavodid28 = {	
+	name = Ikuli
+	dynasty = dynasty_kugavodid
+	religion = faith_blue_sect
+	culture = ulgath
+	father = line_kugavodid26
+	mother = line_kugavodid27
+	female = yes
+
+	7091.12.15 = {
+		birth = yes
+	}
+	7119.8.10 = {
+		add_spouse = line_kugavodid29
+	}
+	7164.4.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_kugavodid29 = {	
+	name = Sakun
+	religion = faith_blue_sect
+	culture = ulgath
+
+	7087.8.17 = {
+		birth = yes
+	}
+	7167.6.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_kugavodid30 = {	
+	name = Etha
+	dynasty = dynasty_kugavodid
+	religion = faith_blue_sect
+	culture = ulgath
+	father = line_kugavodid29
+	mother = line_kugavodid28
+
+	7124.4.15 = {
+		birth = yes
+	}
+	7200.12.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Line of Leshenid, split from Kugavodid due to religion, countinued from line_kugavodid22 #
+lineleshenid1 = {	
+	name = Braga
+	religion = faith_rhun_pantheistic
+	culture = ulgath
+	female = yes
+
+	7007.2.19 = {
+		birth = yes
+	}
+	7086.7.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineleshenid2 = {
+	name = Balun
+	dynasty_house = house_kugavodid_leshenid
+	religion = faith_rhun_pantheistic
+	culture = ulgath
+	father = line_kugavodid22
+	mother = lineleshenid1
+
+	7040.3.24 = {
+		birth = yes
+	}
+	7066.6.2 = {
+		add_spouse = lineleshenid3
+	}
+	7108.6.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineleshenid3 = {	
+	name = Eona
+	religion = faith_rhun_pantheistic
+	culture = ulgath
+	female = yes
+
+	7044.7.18 = {
+		birth = yes
+	}
+	7109.9.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineleshenid4 = {
+	name = Oran
+	dynasty_house = house_kugavodid_leshenid
+	religion = faith_rhun_pantheistic
+	culture = ulgath
+	father = lineleshenid2
+	mother = lineleshenid3
+
+	7072.4.7 = {
+		birth = yes
+	}
+	7103.1.3 = {
+		add_spouse = lineleshenid5
+	}
+	7156.5.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineleshenid5 = {	
+	name = Eona
+	religion = faith_rhun_pantheistic
+	culture = ulgath
+	female = yes
+
+	7075.9.8 = {
+		birth = yes
+	}
+	7162.6.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineleshenid6 = {
+	name = Molluk
+	dynasty_house = house_kugavodid_leshenid
+	religion = faith_rhun_pantheistic
+	culture = ulgath
+	father = lineleshenid4
+	mother = lineleshenid5
+
+	7103.7.4 = {
+		birth = yes
+	}
+	7132.11.1 = {
+		add_spouse = lineleshenid6
+	}
+	7171.1.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineleshenid7 = {	
+	name = Asteral
+	religion = faith_rhun_pantheistic
+	culture = ulgath
+	female = yes
+
+	7107.4.26 = {
+		birth = yes
+	}
+	7185.8.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineleshenid8 = {
+	name = Khurubra
+	dynasty_house = house_kugavodid_leshenid
+	religion = faith_rhun_pantheistic
+	culture = ulgath
+	father = lineleshenid6
+	mother = lineleshenid7
+
+	7137.11.9 = {
+		birth = yes
+	}
+	7200.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Line of Miakad countinued from line_mirakad28 #
+
+line_mirakad31 = {
+	name = Arodor
+	dynasty = dynasty_mirakad
+	religion = faith_logath
+	culture = logath
+	father = line_mirakad30
+	mother = line_mirakad28
+	female = yes
+
+	7033.12.1 = {
+		birth = yes
+	}
+	7054.5.13 = {
+		add_matrilineal_spouse = line_mirakad32
+	}
+	7125.2.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_mirakad32 = {
+	name = Alvrev
+	religion = faith_logath
+	culture = logath
+
+	7034.8.5 = {
+		birth = yes
+	}
+	7125.1.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_mirakad33 = {
+	name = Remlis
+	female = yes
+	dynasty = dynasty_mirakad
+	religion = faith_logath
+	culture = logath
+	father = line_mirakad32
+	mother = line_mirakad31
+
+	7061.12.5 = {
+		birth = yes
+	}
+	7088.6.26 = {
+		add_matrilineal_spouse = line_mirakad34
+	}
+	7151.3.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_mirakad34 = {
+	name = Tarok
+	religion = faith_logath
+	culture = logath
+
+	7064.9.9 = {
+		birth = yes
+	}
+	7142.1.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_mirakad35 = {
+	name = Husis
+	dynasty = dynasty_mirakad
+	religion = faith_logath
+	culture = logath
+	father = line_mirakad34
+	mother = line_mirakad33
+	female = yes
+
+	7090.3.18 = {
+		birth = yes
+	}
+	7132.5.4 = {
+		add_matrilineal_spouse = line_mirakad36
+	}
+	7167.3.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_mirakad36 = {
+	name = Urig
+	religion = faith_logath
+	culture = logath
+
+	7089.2.9 = {
+		birth = yes
+	}
+	7150.6.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+line_mirakad37 = {
+	name = Shagelda
+	dynasty = dynasty_mirakad
+	religion = faith_logath
+	culture = logath
+	father = line_mirakad36
+	mother = line_mirakad35
+	female = yes
+
+	7135.12.1 = {
+		birth = yes
+	}
+	7200.3.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+## Line of Shakalian countinued from lineofshakhalian9
+lineofshakhalian20 = {
+	name = Saym
+	religion = faith_rhun_pantheistic
+	culture = odhriag
+	female = yes
+
+	7017.9.23 = {
+		birth = yes
+	}
+	7101.11.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofshakhalian21 = {
+	name = Yarl
+	dynasty = dynasty_shakhalian
+	religion = faith_rhun_pantheistic
+	culture = odhriag
+	father = lineofshakhalian9
+	mother = lineofshakhalian20
+
+	7052.9.25 = {
+		birth = yes
+	}
+	7089.8.18 = {
+		add_spouse = lineofshakhalian22
+	}
+	7129.1.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofshakhalian22 = {
+	name = Oyugu
+	religion = faith_rhun_pantheistic
+	culture = odhriag
+	female = yes
+
+	7055.11.2 = {
+		birth = yes
+	}
+	7136.11.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofshakhalian23 = {
+	name = Othaji
+	dynasty = dynasty_shakhalian
+	religion = faith_rhun_pantheistic
+	culture = odhriag
+	father = lineofshakhalian21
+	mother = lineofshakhalian22
+
+	7094.6.25 = {
+		birth = yes
+	}
+	7133.6.28 = {
+		add_spouse = lineofshakhalian24
+	}
+	7161.4.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofshakhalian24 = {
+	name = Olai
+	religion = faith_rhun_pantheistic
+	culture = odhriag
+	female = yes
+
+	7098.7.29 = {
+		birth = yes
+	}
+	7171.8.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofshakhalian25 = {
+	name = Yarl
+	dynasty = dynasty_shakhalian
+	religion = faith_rhun_pantheistic
+	culture = odhriag
+	father = lineofshakhalian23
+	mother = lineofshakhalian24
+
+	7138.6.8 = {
+		birth = yes
+	}
+	7200.4.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Line of Odavi
+
+lineofodavi1 = {
+	name = Odavi
+	dynasty = dynasty_odavi
+	religion = faith_kerkassk
+	culture = igath
+
+	6990.1.5 = {
+		birth = yes
+	}
+	7011.9.1 = {	
+		add_spouse = lineofodavi2
+	}
+	7030.8.15 = {
+		death = { death_reason = death_typhus }
+	}
+}
+
+lineofodavi2 = {
+	name = Shurdani
+	religion = faith_kerkassk
+	culture = igath
+	female = yes
+
+	6993.7.14 = {
+		birth = yes
+	}
+	7030.8.15 = {
+		death = { death_reason = death_typhus }
+	}
+}
+
+lineofodavi3 = {
+	name = Odavi
+	dynasty = dynasty_odavi
+	religion = faith_kerkassk
+	culture = igath
+	father = lineofodavi1
+	mother = lineofodavi2
+
+	7012.2.27 = {
+		birth = yes
+	}
+	7054.4.5 = {
+		religion = faith_rhun_araw_triumvirate
+		add_spouse = lineofodavi5
+	}
+	7092.5.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofodavi4 = {
+	name = Oran
+	dynasty = dynasty_odavi
+	religion = faith_kerkassk
+	culture = igath
+	father = lineofodavi1
+	mother = lineofodavi2
+
+	7016.4.3 = {
+		birth = yes
+	}
+	7054.4.5 = {
+		religion = faith_rhun_araw_triumvirate
+	}
+	7099.3.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofodavi5 = {
+	name = Shurdani
+	religion = faith_kerkassk
+	culture = igath
+	female = yes
+
+	7017.8.1 = {
+		birth = yes
+	}
+	7054.4.5 = {
+		religion = faith_rhun_araw_triumvirate
+	}
+	7093.4.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofodavi6 = {
+	name = Yumrukh
+	dynasty = dynasty_odavi
+	religion = faith_rhun_araw_triumvirate
+	culture = igath
+	father = lineofodavi3
+	mother = lineofodavi5
+
+	7055.8.21 = {
+		birth = yes
+	}
+	7082.11.24 = {
+		add_spouse = lineofodavi7
+		religion = faith_phaon_afod
+	}
+	7129.8.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofodavi7 = {
+	name = Aiviv
+	religion = faith_rhun_araw_triumvirate
+	culture = igath
+	female = yes
+
+	7058.1.21 = {
+		birth = yes
+	}
+	7082.11.24 = {
+		religion = faith_phaon_afod
+	}
+	7131.11.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofodavi8 = {
+	name = Oldur
+	dynasty = dynasty_odavi
+	religion = faith_phaon_afod
+	culture = igath
+	father = lineofodavi6
+	mother = lineofodavi7
+
+	7090.8.6 = {
+		birth = yes
+	}
+	7131.4.5 = {
+		add_spouse = lineofodavi9
+		culture = asdriag
+	}
+	7170.10.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofodavi9 = {
+	name = Garnesa
+	religion = faith_phaon_afod
+	culture = asdriag
+	female = yes
+
+	7101.1.31 = {
+		birth = yes
+	}
+	7185.1.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofodavi10 = {
+	name = Yarl
+	dynasty = dynasty_odavi
+	religion = faith_phaon_afod
+	culture = asdriag
+
+	father = lineofodavi8
+	mother = lineofodavi9
+
+	7141.12.28 = {
+		birth = yes
+	}
+	7217.10.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}

@@ -1,0 +1,486 @@
+### Titular and other Titles ###
+
+### Wasteland ###
+k_wastelands = {				
+	2.1.2 = {			
+		change_development_level = -100
+		holder = k_wastelands_holder
+		government = wastelands_government
+	}			
+}
+
+c_wastelands = {				
+	2.1.2 = {			
+		change_development_level = -100
+		holder = k_wastelands_holder
+		government = wastelands_government
+	}			
+}
+
+### Titular Titles ###
+d_northern_dunedain = { # Line of the Chieftans of the Dúnedain		
+	6008.1.1 = {	
+		holder = lineisildur27 # Aranarth
+	}	
+	6139.1.1 = {	
+		holder = lineisildur28 # Arahael
+	}	
+	6210.1.1 = {	
+		holder = lineisildur29 # Aranuir
+	}	
+	6280.1.1 = {	
+		holder = lineisildur30 # Aravir
+	}	
+	6352.1.1 = {	
+		holder = lineisildur31 # Aragorn
+	}	
+	6360.1.1 = {	
+		holder = lineisildur32 # Araglas
+	}	
+	6488.1.1 = {	
+		holder = lineisildur33 # Arahad
+	}	
+	6556.1.1 = {	
+		holder = lineisildur34 # Aragost
+	}	
+	6621.1.1 = {	
+		holder = lineisildur35 # Aravorn
+	}	
+	6687.1.1 = {	
+		holder = lineisildur36 # Arahad
+	}	
+	6752.1.1 = {	
+		holder = lineisildur37 # Arassuil
+	}	
+	6817.1.1 = {	
+		holder = lineisildur38 # Arathorn
+	}	
+	6881.1.1 = {	
+		holder = lineisildur39 # Argonui
+	}	
+	6945.1.1 = {	
+		holder = lineisildur40 # Arador
+	}	
+	6963.1.1 = {	
+		holder = lineisildur41 # Arathorn II, Aragorn's father
+	}	
+	6966.1.1 = {	
+		holder = lineisildur42 # Aragorn II, Eventual King of the Reunited Kingdoms
+	}	
+	#fiction
+	7174.3.1 = { # F0120
+		holder = lineisildur43 # Eldarion
+		liege = e_reunitedkingdom
+	}
+	7174.3.2 = {
+		holder = lineisildur48 # Anarion
+		liege = e_reunitedkingdom
+	}
+	7174.3.3 = {
+		holder = 0 # Disbanding of the rangers and Regency of Arnor
+	}
+}
+
+d_watch_on_mordor = { 
+	4032.4.17 = { #Fall of Sauron, the Watch is created
+		holder = lineisildur0 # Isildur  
+		liege = e_gondor
+	}
+	4035.10.5 = { # Isildur grants the rule of Gondor to Meneldil
+		holder = lineofanarion5 # Meneldil
+		liege = e_gondor
+	}
+	4036.3.7 = { # Meneldil orders his realm and appoints the first Lord Captain of the Watch
+		holder = predolamroth441
+		liege = e_gondor
+		succession_laws = { feudal_elective_succession_law }
+	}
+	4212.2.12 = {
+		holder = lineostomir811
+	}
+	4428.12.12 = { # Thorondir slain by a troll
+		holder = lineofatanatar771
+	}
+	4599.9.9 = {
+		holder = lineofmanwedur11brother
+	}
+	4725.5.18 = {
+		holder = lineofbregor17brother
+	}
+	4844.4.1 = {
+		holder = lineofneithan17brother
+	}
+	5003.3.3 = {
+		holder = lineofulmondur21brother
+	}
+	5144.4.4 = {
+		holder = lineofegalmoth27brother
+	}
+	5288.8.18 = { # Angmar start date ruler
+		holder = linepinnathgelin404 
+	}
+	5391.1.1 = {
+		holder = lineofsaeros27brother
+	}
+	5499.9.9 = {
+		holder = lineimloth21brother
+	}
+	5677.7.7 = {
+		holder = predolamroth24brother
+	}
+	5769.6.9 = {
+		holder = linelamedon2brother
+	}
+	5888.8.8 = {
+		holder = lineofhardang33brother
+	}
+	5944.4.27 = {
+		holder = dynasty_dor_giril47brother #Hallas
+	}
+	5973.9.5 = {
+	    holder = dorhunen15  #Last Commander - Talion from SoW
+		# Alrain Awesome Comment - Talion doesn't actually show up as a commander of the Watch on Mordor - can we make it so he dies right before it is destroyed?
+	}
+	5977.1.1 = { # The Watch on Mordor is abandoned
+		holder = 0
+	}
+	#fiction
+	7110.1.1 = { #watch restored
+		holder = lineisildur43 # Eldarion
+		liege = e_reunitedkingdom
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_recreate_watch_on_mordor
+			}
+		}
+	}
+	7170.1.1 = {
+		holder = lineisildur49 # Elcadar
+		government = landless_adventurer_government #temp for memes
+	}
+}
+
+d_numenorean_fleet_tumag = { # Numenorean remnant in Alyahopa
+	3911.1.1 = { # Small Numenorean holdout gets stranded during the downfall
+		holder = lineezirkhon6
+	}
+	3917.12.5 = {
+		holder = 0
+	}
+}
+
+k_doriath = { # Kingdom of Doriath
+	2.3.2 = {
+		holder = lineofelwe3
+	}
+	504.5.4 = {
+		holder = lineofelwe5
+	}
+	508.2.6 = { # Destroyed in the Second Kinslaying
+		holder = 0
+	}
+}
+
+k_gondolin = {
+	118.3.20 = {
+		holder = linefinwe21
+	}
+	512.8.25 = { # Destroyed by the armies of Morgoth
+		holder = 0
+	}
+}
+
+k_nargothrond = {
+	102.4.7 = {
+		holder = linefinwe33
+	}
+	467.1.1 = { # death of Finrod
+		holder = linefinwe39
+	}
+	497.1.1 = { # Orodreth is slain in the battle of Tumhalad
+		holder = 0
+	}
+}
+
+k_ossiriand = {
+	2.8.1 = {
+		holder = lineoflenwe3	
+	}
+	2.12.1 = {
+		holder = 0
+	}
+}
+
+k_hithlum = {
+	5.1.1 = {
+		holder = linefinwe4
+	}
+	458.1.1 = {
+		holder = linefinwe20
+	}
+	474.1.1 = {
+		holder = 0
+	}	
+}
+
+d_feanorians = {
+	5.2.1 = { # Abdication of Maedhros of the High-Kingship
+		holder = linefinwe10
+	}
+	589.12.31 = { # Suicide of Maedhros, what remains of the Feanorians join Celebrimbor
+		holder = 0
+	}
+}
+
+d_middle_army_mercenaries = { # Historical Variag mercenary band
+	5183.1.1 = {
+		holder = khandwarlord2
+	}
+	5221.5.2 = {
+		holder = 0
+	}
+}
+
+d_dor_lomin = {
+	5.1.1 = {
+		holder = linefinwe20
+	}
+	418.6.11 = {
+		holder = lineofhador1
+	}
+	457.5.29 = {
+		holder = lineofhador3
+	}
+	464.8.18 = {
+		holder = lineofhador5
+	}
+	472.3.9 = {
+		holder = 0
+	}
+}
+
+d_brethil = {
+	367.9.12 = {
+		holder = lineofhaleth3
+	}
+	422.9.21 = {
+		holder = lineofhaleth4
+	}
+	453.12.2 = {
+		holder = lineofhaleth5
+	}
+	471.9.12 = {
+		holder = lineofhaleth6
+	}
+	474.3.3 = {
+		holder = lineofhaleth10
+	}
+	497.4.24 = {
+		holder = lineofhaleth11
+	}
+	501.12.21 = {
+		holder = lineofhaleth14
+	}
+	503.10.2 = {
+		holder = 0
+	}
+}
+
+k_dragon_knights = {
+	7028.3.21 = {
+		holder = lineofamdur1
+		liege = e_golden_realm_rhun
+	}
+}
+
+d_scarlet_triad = {
+	7028.3.21 = {
+		holder = lineofszoranh1
+		#liege = none, lol
+	}
+}
+
+d_bukumagen = {
+	7028.3.21 = {
+		holder = lineofbukumagen1
+		#liege = none
+	}
+}
+
+d_balan_lai_leader = {
+	6618.1.1 = {
+		holder = lineofinzilloni35
+		succession_laws = { balan_lai_leader_elective_succession_law }
+	}
+	6736.1.1 = { # Ziryô is badass!
+		holder = linehammerdelgeneral42
+		#succession_laws = { balan_lai_leader_elective_succession_law }
+	}
+	6974.1.1 = {
+		holder = lineofgimilthani48
+		#succession_laws = { balan_lai_leader_elective_succession_law }
+	}
+}
+
+# e_sea_dragon_host = {
+# 	# 7028.3.21 = {
+# 	# 	holder = lineofszoranh1
+# 	# 	#liege = none, lol
+# 	# }
+# }
+
+d_minovuld = {
+    5200.1.1 = {
+        effect = {
+            set_de_jure_liege_title = title:k_dorwinion
+        }
+	}
+	5222.6.21 = {
+        holder = lineminoreik1 #Sigurd
+    }
+    5256.2.17 = {
+        holder = lineminoreik3 #Thiudakind
+    }
+    5303.2.14 = {
+        holder = lineminoreik5 #Hargast
+    }
+    5347.2.25 = {
+        holder = lineminoreik7 #Godomar
+    }
+    5382.1.25 = { #Angmar Start date ruler
+        holder = lineminoreik9 #Widin
+    }
+    5427.10.16 = {
+        holder = lineminoreik11 #Vogirion
+    }
+	5455.3.6 = {
+		holder = 0
+	}
+	6550.5.2 = {
+        holder = linelogian01 #Erminga
+		liege = k_dorwinion
+    }
+    6624.7.26 = {
+        holder = linelogian03 #Woedwyn
+    }
+    6652.5.5 = {
+        holder = linelogian05 #Adela
+    }
+    6700.6.19 = {
+        holder = linelogian07 #Vidusintha
+    }
+    6738.9.3 = {
+        holder = linelogian09 #Athalsintha
+    }
+    6756.4.18 = {
+        holder = linelogian011 #Thorberta
+    }
+    6775.10.9 = { #Long winter start date ruler
+        holder = linelogian013 #Amalasuintha
+    }
+	6825.11.24 = {
+        holder = linelogian015 #Erminga
+    }
+	6845.9.24 = {
+        holder = 0
+		liege = 0
+    }
+}
+
+### Valinor ###
+
+c_tol_eressea = {
+	2.1.12 = {
+		holder = lineofingwe5
+		change_development_level = 30
+	}
+}
+
+# Valinor Titular (to be converted to landed at a later date)
+k_alqualonde = {
+	2.1.12 = {
+		holder = lineofolwe1
+	}
+}
+
+c_valinor_3 = {
+	2.1.12 = {
+		holder = lineofolwe1
+		change_development_level = 30
+	}
+}
+
+k_valimar = {
+	2.1.12 = {
+		holder = lineofingwe3
+	}
+}
+
+c_valinor_2 = {
+	2.1.12 = {
+		holder = lineofingwe3
+		change_development_level = 30
+	}
+}
+
+k_tirion = {		
+	2.2.5 = { # -3783.1.1, Noldor take Finwë for their king
+		holder = linefinwe1 # Finwë
+	}
+	2.12.1 = { # -44.1.1, Death of Finwe
+		holder = linefinwe2 # Fëanor
+	}
+	2.12.2 = {
+		holder = linefinwe6
+	}
+}
+
+c_valinor_1 = {		
+	2.2.5 = { # -3783.1.1, Noldor take Finwë for their king
+		holder = linefinwe1 # Finwë
+		change_development_level = 30
+	}
+	2.12.1 = { # -44.1.1, Death of Finwe
+		holder = linefinwe2 # Fëanor
+	}
+	2.12.2 = {
+		holder = linefinwe6
+	}
+}
+
+# Faith titles
+d_serpent_temple = {
+    6550.1.1 = { # Became High Priest of Khäz-Gramaze, founded his Great Temple at Khäz-Ilaz
+        holder = lineofafalku60 #Arat
+		liege = k_haruzan
+    }
+    6577.12.7 = {
+        holder = 0
+    }
+
+    6780.7.4 = {
+        holder = lineofyahyaka15a
+		liege = k_haruzan
+    }
+    6813.4.7 = {
+        holder = 0
+    }
+	
+	7015.1.1 = {
+		holder = serpentcult1
+		liege = k_haruzan
+	}
+	7062.1.1 = {
+		holder = 0
+	}
+}
+
+d_concordant_circle = { # Pel head of faith
+	5236.5.19 = {
+		liege = k_pel
+	}
+	7024.12.6 = {
+		holder = lineofjinibi31
+	}
+}

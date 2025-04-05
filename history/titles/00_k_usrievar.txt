@@ -1,0 +1,36 @@
+## Usrievar title history ##
+
+# There's no title history for Usrievar in the base mod so this file will be created and double as a lore dump for the history of Fourth Age Rhun. Feel free to scrap or change anything about this.#
+
+# Usrievar (South-West Rhun) is a client state of the Reunited Kingdom in the Fourth Age. It serves as a buffer state keeping the rest of Rhun out of Rhovanion and preventing any dark-aligned realm from rising there.# 
+
+k_usrievar = {
+
+	# Mareke 'The Wise' of Mistrand unites Usrievar with backing from the Reunited Kingdom and converts to Triumvirate of Araw. Arawism becomes the faith of the realm and Kerkasskism and Rhunnic begin declining. Usrievar becomes a client state of RK and presumably aids Aragorn and Eomer in their "military campaigns beyond the Sea of Rhûn".# 
+	
+	#NOTE: Old dev accounts have Mareke being overthrown at some point only to be reinstated after RK intervention. We know very little beyond that and it might not be realms canon anymmre so I omitted it for now in the title history. Everything below is pretty much me making my own head canon.#
+	7054.4.5 = {
+		holder = lineofvronkhar38
+	}
+
+	# Azdrivet 'The Scholar', only child of Mareke. Popular leader who stabilized religious tensions in the realm. He promoted a resurgence of Phaon-Afod but controversially gave protections to Rhunnic followers and was not as dilligent at stamping out dark-aligned faiths as his mother. However like Mareke, he expanded the realm north diplomatically by vassalizing Kugavod and Leshen in exchange for religious protection. In his final years he established contact with the Penni Elves of Nelornieth, public conscious of Elves would increase in the follwing decades.#
+	7103.12.3 = {
+		holder = lineofvronkhar39
+	}
+
+	# Askul, one of Azdrivet's two son's and Usrievar's most infamous ruler. Askul's younger brother Ovan, wanted to restore the easterlings to the great conquerors they once were, and was swayed by like minded lords to secretly convert to the Cult of Maladum. Ovan plotted to overthrow his brother and knew that Askul suspected his deception but was confident his brother could do nothing without evidence. Unfortunatly for Ovan, Askul was a total Zealous "kill and ask questions later" psycho. In the next feast Askul rounded up Ovan along with his followers and executed them and their families for treason without any proof. Most didn't beleive Askul's claim of a plot against him but with the realms most powerful vassals dead, there was no civil war and Askul spent the rest of his reign purging dark-aligned influences in the realm. Askul's tyrannical methods made him hated in life but posthumously his legacy is recovering as his brutal rule paved the way for Usrievar's prosperity under his daughter, Govli.
+
+	#NOTE: An idea for possible future Rhun content would be to give Ovan a secret bastard son and his decendents in the fourth age having the goal of userping Usrievar.
+	7132.11.18 = {
+		holder = lineofvronkhar40
+	}
+
+	# Govli 'The Builder', eldest child of Askul. She and her brother Hoshkar studied under the Elves of Nelornieth, further strengthening the bonds between the two kingdoms. With Usrievar finally stable, Govli's reign brought economic prosperity to the realm with the construction of the University of Mistrand and ports along the coast of the sea of Rhun. Hoshkar serves as her right hand, defending the borders from Variag raids from the south and leading milatary expeditions east. Govli also invited the Elves to Nabal Mayzri, rebuilding the temple of Sulerab. 
+	
+	# Govli's heir Mareke II is a young ambitious General. She hates her realm's servitude to the Reunited Kingdom, believing their client state status holds them back from uniting Rhun. Mareke seeks a future where Rhun becomes independent of foreign influence while remaining faithful to Araw.
+
+	# Govli's second child Vaugan is a brilliant man held back by his own laziness. In order to teach him resposibility, his mother granted his inheritance early and made him Lord of Lest. Vaugan, driven crazy by boredom, converted to Fishkurkyn and began a chaotic schism that somehow succeeded and in just 4 years Lest became a city rivaling Mistrand thanks to it's new trade based religion.   
+	7149.7.14 = {
+		holder = lineofvronkhar42
+	}
+}

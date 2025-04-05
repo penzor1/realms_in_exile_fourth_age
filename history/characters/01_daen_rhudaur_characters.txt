@@ -1,0 +1,695 @@
+﻿##############################
+### THE HILLMEN OF RHUDAUR ###
+##############################
+
+### ALL FICTION
+### Caradach Tribe
+linecaradoc10 = {
+	name = Cadoc
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc8 # R_uadcara
+	#mother = 
+	
+	7049.3.19 = {
+		birth = yes
+	}
+	7072.4.20 = {
+		add_spouse = linecaradoc10wife # Maar
+	}
+	7121.4.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc10wife = {
+	name = Ma_a_r
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = enedhwaithrim
+	#father = 
+	#mother = 
+	female = yes
+	
+	7052.6.25 = {
+		birth = yes
+	}
+	7128.9.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc11 = {
+	name = Kermac # II
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc10 # Cadoc
+	mother = linecaradoc10wife # Maar
+	
+	trait = adulterer
+	
+	7073.3.19 = {
+		birth = yes
+	}
+	7144.10.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc11wife = {
+	name = Turan
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	#mother = 
+	female = yes
+	
+	7072.4.26 = {
+		birth = yes
+	}
+	7146.12.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc11wife2 = {
+	name = Nivi
+	religion = faith_hillmen
+	culture = andrastrim
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = fornicator
+	
+	7075.3.19 = {
+		birth = yes
+	}
+	7120.8.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc12 = {
+	name = Cogan # I
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc11 # Kermac
+	mother = linecaradoc11wife # Turan
+	
+	7089.12.7 = {
+		birth = yes
+	}
+	7113.6.21 = {
+		add_spouse = linecaradoc12wife # Rena
+	}
+	7169.5.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc12wife = {
+	name = Rena
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	#mother = 
+	female = yes
+	
+	7091.7.24 = {
+		birth = yes
+	}
+	7170.6.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc12bro = {
+	name = Hedrig
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc11 # Kermac
+	#mother = linecaradoc11wife2 # Nivi
+	
+	trait = bastard
+	trait = strong
+	
+	7091.6.17 = {
+		birth = yes
+	}
+	7187.3.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc13 = {
+	name = Rogan
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc12 # Cogan I
+	mother = linecaradoc12wife # Rena
+	
+	7115.3.3 = {
+		birth = yes
+	}
+	7134.1.15 = {
+		add_spouse = linecaradoc13wife # Mara
+	}
+	7170.9.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc13wife = {
+	name = Mara
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	#mother = 
+	female = yes
+	
+	7116.5.23 = {
+		birth = yes
+	}
+	7175.11.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc14 = {
+	name = Cogan # II
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc13 # Rogan
+	mother = linecaradoc13wife # Mara
+	
+	7135.1.13 = {
+		birth = yes
+	}
+	7150.9.20 = {
+		add_spouse = linecaradoc14wife # Eile
+	}
+	7187.2.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc14bro = {
+	name = Tadg
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc13 # Rogan
+	mother = linecaradoc13wife # Mara
+	
+	7143.9.21 = {
+		birth = yes
+	}
+	7158.2.16 = {
+		add_spouse = linedevin3 # Dianagh
+	}
+	7198.3.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc14wife = {
+	name = Eile
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = beauty_good_2
+	
+	7134.4.26 = {
+		birth = yes
+	}
+	7185.6.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc15 = {
+	name = Caradoc # II
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc14 # Cogan II
+	mother = linecaradoc14wife # Eile
+	
+	7152.8.27 = {
+		birth = yes
+	}
+	7168.9.1 = {
+		add_spouse = linemananach5 # Camrynn
+	}
+	7202.7.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc16 = {
+	name = Seammus
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc14 # Cogan II
+	mother = linecaradoc14wife # Eile
+	
+	7153.11.13 = {
+		birth = yes
+	}
+	7211.6.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc17 = {
+	name = Caradoc # III
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc15 # Caradoc II
+	mother = linemananach5 # Camryn
+	
+	7169.4.25 = {
+		birth = yes
+	}
+	7267.1.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecaradoc18 = {
+	name = Mara
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc15 # Caradoc II
+	mother = linemananach5 # Camryn
+	female = yes
+	
+	trait = beauty_good_1
+	
+	7171.10.3 = {
+		birth = yes
+	}
+	7239.8.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Mananach Tribe
+linemananach1mom = {
+	name = Joly
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = fornicator
+	trait = beauty_good_2
+	trait = lovers_pox
+	
+	7059.1.3 = {
+		birth = yes
+	}
+	7090.3.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemananach1 = {
+	name = Mananach # I
+	dynasty = dynasty_mananach
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	mother = linemananach1mom # Joly
+	
+	trait = adventurer
+	trait = bastard_founder
+	
+	7074.7.18 = {
+		birth = yes
+		give_nickname = nick_the_nameless
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7091.3.6 = {
+		add_spouse = linemananach1wife # Shaleen
+	}
+	7152.8.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemananach1bro = {
+	name = Mulligan
+	dynasty = dynasty_mananach
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	mother = linemananach1mom # Joly
+	
+	trait = sickly
+	trait = bastard
+	
+	7076.4.20 = {
+		birth = yes
+	}
+	7080.1.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemananach1wife = {
+	name = Shaleen
+	dynasty = dynasty_caradach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linecaradoc10 # Cadoc
+	#mother = 
+	female = yes
+	
+	trait = beauty_bad_1
+	
+	7078.8.21 = {
+		birth = yes
+	}
+	7150.3.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemananach2 = {
+	name = Mulligan
+	dynasty = dynasty_mananach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linemananach1 # Mananach
+	mother = linemananach1wife # Shaleen
+	
+	7092.5.25 = {
+		birth = yes
+	}
+	7111.5.25 = {
+		add_spouse = linemananach2wife # Flana
+	}
+	7164.6.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemananach2wife = {
+	name = Flana
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	#mother = 
+	female = yes
+	
+	7099.6.2 = {
+		birth = yes
+	}
+	7184.9.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemananach3 = {
+	name = Mananach # II
+	dynasty = dynasty_mananach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linemananach2 # Mulligan
+	mother = linemananach2wife # Flana
+	
+	trait = physique_good_2
+	
+	7112.2.1 = {
+		birth = yes
+		give_nickname = nick_sure_footed
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7132.1.3 = {
+		add_spouse = linemananach2wife # Flana
+	}
+	7178.10.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemananach3wife = {
+	name = Caith
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	#mother = 
+	female = yes
+	
+	7115.1.13 = {
+		birth = yes
+	}
+	7171.9.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemananach4 = {
+	name = Croggan
+	dynasty = dynasty_mananach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linemananach3 # Mananach II
+	mother = linemananach3wife # Caith
+		
+	trait = physique_good_1
+	
+	7139.11.6 = {
+		birth = yes
+	}
+	7199.5.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemananach5 = {
+	name = Camrynn
+	dynasty = dynasty_mananach
+	religion = faith_hillmen
+	culture = hillmen
+	father = linemananach3 # Mananach II
+	mother = linemananach3wife # Caith
+	female = yes
+	
+	trait = spindly
+	
+	7149.7.24 = {
+		birth = yes
+	}
+	7198.6.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Devin Tribe
+linedevin1 = {
+	name = Dathas
+	dynasty = dynasty_devin
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	#mother = 
+	
+	trait = strong
+	trait = reaver
+	
+	7101.5.10 = {
+		birth = yes
+	}
+	7134.3.6 = {
+		add_spouse = linedevin1wife # Shaleen
+	}
+	7165.8.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linedevin1wife = {
+	name = _Enid
+	religion = faith_hillmen
+	culture = saralain
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = wheezing
+	
+	7103.3.12 = {
+		birth = yes
+	}
+	7170.6.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linedevin2 = {
+	name = Devin
+	dynasty = dynasty_devin
+	religion = faith_hillmen
+	culture = hillmen
+	father = linedevin1 # Dathas
+	mother = linedevin1wife # Enid
+	
+	trait = adventurer
+	trait = rough_terrain_expert
+	
+	7135.7.6 = {
+		birth = yes
+	}
+	7202.11.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linedevin3 = {
+	name = Dianagh
+	dynasty = dynasty_devin
+	religion = faith_hillmen
+	culture = hillmen
+	father = linedevin1 # Dathas
+	mother = linedevin1wife # Enid
+	female = yes
+	
+	7142.4.14 = {
+		birth = yes
+	}
+	7212.1.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Brant Tribe
+linebrant1 = {
+	name = Brant
+	dynasty = dynasty_brant
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	#mother = 
+	
+	trait = gallowsbait
+	
+	7110.1.16 = {
+		birth = yes
+	}
+	7141.3.30 = {
+		add_spouse = linebrant1wife
+	}
+	7180.11.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linebrant1wife = {
+	name = Alis
+	religion = faith_hillmen
+	culture = dunlending
+	#father = 
+	#mother = 
+	female = yes
+	
+	7115.5.26 = {
+		birth = yes
+	}
+	7190.12.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linebrant2 = {
+	name = Rus
+	dynasty = dynasty_brant
+	religion = faith_hillmen
+	culture = hillmen
+	father = linebrant1 # Brant
+	mother = linebrant1wife # Alis
+	
+	7142.6.22 = {
+		birth = yes
+	}
+	7222.8.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Oloch Tribe
+lineoloch1 = {
+	name = Drus
+	dynasty = dynasty_oloch
+	religion = faith_hillmen
+	culture = hillmen
+	#father = 
+	#mother = 
+	
+	trait = shrewd
+	
+	7102.2.12 = {
+		birth = yes
+	}
+	7181.9.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineoloch1wife = {
+	name = Asko
+	religion = faith_hillmen
+	culture = lossoth
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = fecund
+	
+	7108.3.17 = {
+		birth = yes
+	}
+	7180.10.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineoloch2 = {
+	name = Rolf
+	dynasty = dynasty_oloch
+	religion = faith_hillmen
+	culture = hillmen
+	father = lineoloch1 # Drus
+	mother = lineoloch1wife # Asko
+	
+	7138.7.30 = {
+		birth = yes
+	}
+	7201.2.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+

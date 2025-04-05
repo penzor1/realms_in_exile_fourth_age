@@ -1,0 +1,5 @@
+﻿dynasty_odavi = {
+	name = "dynn_odavi"
+	culture = "igath"
+	motto = dynn_odavi_motto
+}
