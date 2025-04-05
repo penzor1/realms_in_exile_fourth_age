@@ -155,7 +155,7 @@ lotr_on_game_start = {
 		
 		if = {
 			limit = {
-				game_start_date < 7052.1.25 # TA3019 # Battle of the Peak
+				game_start_date < 7053 # TA3019 # Battle of the Peak
 			}
 			start_struggle = { # Balrog flees after defeat in War of Wrath, settling in Moria
 				struggle_type = balrog_struggle

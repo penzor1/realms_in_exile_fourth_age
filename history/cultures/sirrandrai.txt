@@ -58,6 +58,4 @@
 
 7052.5.1 = {
 	discover_innovation = innovation_sirrandrai_warfare
-	remove_cultural_tradition = tradition_sirgalan_exiles
-	add_cultural_tradition = tradition_sirgala_renewed
 }
