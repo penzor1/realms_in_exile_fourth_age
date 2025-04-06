@@ -29,17 +29,17 @@
  nick_the_humongous:0 "the Humongous"
  nick_the_humongous_desc:0 "Bloated in body and blessed in belly, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] said to feast in honour of [CharYourHerHis(CHARACTER)] god with every breath taken."
  nick_the_blubbering:0 "the Blubbering"
- nick_the_blubbering_desc:0 "They say the 'Great Fat One' shaped [CHARACTER.GetShortUINameNoTooltipNoFormat|U] in his own corpulent image – and kept on shaping."
+ nick_the_blubbering_desc:0 "They say the Great Fat One shaped [CHARACTER.GetShortUINameNoTooltipNoFormat|U] in his own corpulent image – and kept on shaping."
  nick_the_steadfast:0 "the Steadfast" # Alt Boromir son of Denethor
  nick_the_steadfast_desc:0 "$nick_the_stalwart_desc$"
  nick_the_golden:0 "the Golden" # Dior son of Elboron
  nick_the_golden_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] vast wealth due to this realm's strategic situation, and an equality imposing amount of finery."
  nick_the_king_of_hearts:0 "the Queen of Hearts"
- nick_the_king_of_hearts_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so beloved by [CharYourHerHis(CHARACTER)] subjects that they proclaimed [CharYouHerHim(CHARACTER)] '[CHARACTER.GetNicknameNoTooltip]'."
+ nick_the_king_of_hearts_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so beloved by [CharYourHerHis(CHARACTER)] subjects that they proclaimed [CharYouHerHim(CHARACTER)] [CHARACTER.GetNicknameNoTooltip]."
  nick_the_queen_of_hearts:0 "the Queen of Hearts" # Nessanie
- nick_the_queen_of_hearts_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so beloved by [CharYourHerHis(CHARACTER)] subjects that they proclaimed [CharYouHerHim(CHARACTER)] '[CHARACTER.GetNicknameNoTooltip]'."
+ nick_the_queen_of_hearts_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so beloved by [CharYourHerHis(CHARACTER)] subjects that they proclaimed [CharYouHerHim(CHARACTER)] [CHARACTER.GetNicknameNoTooltip]."
  nick_the_spurned_orc:0 "the Spurned" # Mazog II
- nick_the_spurned_orc_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nicknamed after Bolgakh ‘the Hammer’ claimed Old Moria in battle through the death of Mazog ‘the Exile’, forcing [CharYouHerHim(CHARACTER)] to flee."
+ nick_the_spurned_orc_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nicknamed after Bolgakh the Hammer claimed Old Moria in battle through the death of Mazog the Exile, forcing [CharYouHerHim(CHARACTER)] to flee."
  nick_the_manipulator_orc:0 "the Manipulator" # Unassigned
  nick_the_manipulator_orc_desc:0 "Fueled by a relentless desire for control and wealth, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] excels in deceit, using others to further [CharYourHerHis(CHARACTER)] own interests."
  ### Hobbit Nicknames ###
@@ -61,19 +61,19 @@
  nick_the_slakeless_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname during the Battle of Five Armies, when neither wound nor foe could halt [CharYourHerHis(CHARACTER)] unquenchable thirst for battle."
  # Dwarf-Father last reincarnation titles
  nick_the_last_dorfdad_durin:0 "The Last"
- nick_the_last_dorfdad_durin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of [durin|E] 'the Deathless', [dwarffather|E] of the [longbeards|E]." 
+ nick_the_last_dorfdad_durin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of [durin|E] the Deathless, [dwarffather|E] of the [longbeards|E]." 
  nick_the_last_dorfdad_dwalin:0 "The Last"
- nick_the_last_dorfdad_dwalin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Dwálin 'the Wise', [dwarffather|E] of the [broadbeams|E]."
+ nick_the_last_dorfdad_dwalin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Dwálin the Wise, [dwarffather|E] of the [broadbeams|E]."
  nick_the_last_dorfdad_uri:0 "The Last"
- nick_the_last_dorfdad_uri_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Úri 'the Scarred', [dwarffather|E] of the [firebeards|E]."
+ nick_the_last_dorfdad_uri_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Úri the Scarred, [dwarffather|E] of the [firebeards|E]."
  nick_the_last_dorfdad_thrar:0 "The Last"
- nick_the_last_dorfdad_thrar_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Thrár 'the Proud', [dwarffather|E] of the [blacklocks|E]."
+ nick_the_last_dorfdad_thrar_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Thrár the Proud, [dwarffather|E] of the [blacklocks|E]."
  nick_the_last_dorfdad_thulin:0 "The Last"
- nick_the_last_dorfdad_thulin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Thúlin 'the Swift', [dwarffather|E] of the [stiffbeards|E]."
+ nick_the_last_dorfdad_thulin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Thúlin the Swift, [dwarffather|E] of the [stiffbeards|E]."
  nick_the_last_dorfdad_sindri:0 "The Last"
- nick_the_last_dorfdad_sindri_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Sindri 'the Rich', [dwarffather|E] of the [ironfists|E]."
+ nick_the_last_dorfdad_sindri_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Sindri the Rich, [dwarffather|E] of the [ironfists|E]."
  nick_the_last_dorfdad_bavor:0 "The Last"
- nick_the_last_dorfdad_bavor_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Bavór 'the Cold', [dwarffather|E] of the [stonefoots|E]."
+ nick_the_last_dorfdad_bavor_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Bavór the Cold, [dwarffather|E] of the [stonefoots|E]."
  # Gimli Elf Friend title
  nick_elf_friend_gimli:0 "Elf Friend"
  nick_elf_friend_gimli_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] a [dwarf|E] who befriended one of the [eldar|E]. Their bond was an echo of a rare and profound unity that once shone brightly in ages past."
