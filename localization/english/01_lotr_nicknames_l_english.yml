@@ -55,8 +55,8 @@
  nick_andumire:0 "Andúmírë" # Eldarion
  nick_andumire_desc:0 "Meaning 'Jewel of the West' in Quenya. [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] a descendent of the [eldar|E]. A blood-tie as an echo to the prosperity of ages past and perhaps ages coming."
  ### Dwarf Nicknames ###
- nick_the_unworthy_dwarf:0 "The Unworthy"
- nick_the_unworthy_dwarf:0 "A failure of a [dwarf|E], [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] little more than a figurehead, controlled by unseen puppeteers."
+ nick_the_unworthy_dwarf:0 "the Unworthy"
+ nick_the_unworthy_dwarf_desc:0 "A failure of a [dwarf|E], [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] little more than a figurehead, controlled by unseen puppeteers."
  nick_glitterbeard:0 "Glitterbeard" # Wirwir of Aglarond
  nick_glitterbeard_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] has gem dust, crystal specks and bits of diamonds in his beard, like all dwarves who mine in the Glittering Caves."
  nick_orcsfoe:0 "Orcsfoe" # Nain I
@@ -64,20 +64,20 @@
  nick_the_slakeless:0 "the Slakeless" # Dwarf - Náin the Slakeless, son of Dáin 'Ironfoot'
  nick_the_slakeless_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname during the Battle of Five Armies, when neither wound nor foe could halt [CharYourHerHis(CHARACTER)] unquenchable thirst for battle."
  # Dwarf-Father last reincarnation titles
- nick_the_last_dorfdad_durin:0 "The Last"
+ nick_the_last_dorfdad_durin:0 "the Last"
  nick_the_last_dorfdad_durin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of [durin|E] 'the Deathless', [dwarffather|E] of the [longbeards|E]." 
- nick_the_last_dorfdad_dwalin:0 "The Last"
+ nick_the_last_dorfdad_dwalin:0 "the Last"
  nick_the_last_dorfdad_dwalin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Dwálin 'the Wise', [dwarffather|E] of the [broadbeams|E]."
- nick_the_last_dorfdad_uri:0 "The Last"
+ nick_the_last_dorfdad_uri:0 "the Last"
  nick_the_last_dorfdad_uri_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Úri 'the Scarred', [dwarffather|E] of the [firebeards|E]."
- nick_the_last_dorfdad_thrar:0 "The Last"
+ nick_the_last_dorfdad_thrar:0 "the Last"
  nick_the_last_dorfdad_thrar_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Thrár 'the Proud', [dwarffather|E] of the [blacklocks|E]."
- nick_the_last_dorfdad_thulin:0 "The Last"
+ nick_the_last_dorfdad_thulin:0 "the Last"
  nick_the_last_dorfdad_thulin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Thúlin 'the Swift', [dwarffather|E] of the [stiffbeards|E]."
- nick_the_last_dorfdad_sindri:0 "The Last"
+ nick_the_last_dorfdad_sindri:0 "the Last"
  nick_the_last_dorfdad_sindri_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Sindri 'the Rich', [dwarffather|E] of the [ironfists|E]."
- nick_the_last_dorfdad_bavor:0 "The Last"
+ nick_the_last_dorfdad_bavor:0 "the Last"
  nick_the_last_dorfdad_bavor_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Bavór 'the Cold', [dwarffather|E] of the [stonefoots|E]."
  # Gimli Elf Friend title
  nick_elf_friend_gimli:0 "Elf Friend"
- nick_elf_friend_gimli_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] a [dwarf|E] who befriended one of the [eldar|E]. Their bond was an echo of a rare and profound unity that once shone brightly in ages past."
+ nick_elf_friend_gimli_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] a [dwarf|E] who befriended one of the [eldar|E]. [CharYourHerHis(CHARACTER)] bond was an echo of a rare and profound unity that once shone brightly in ages past."
