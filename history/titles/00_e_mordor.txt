@@ -208,9 +208,9 @@ c_morannon = {
     7052.3.25 = { # Final Defeat of Sauron
         holder = k_wastelands_holder
         change_development_level = -100
-        effect = {
-            title:b_narchost = { set_capital_barony = yes }
-        }
+#        effect = {
+#            title:b_narchost = { set_capital_barony = yes }
+#        }
     }
     7075.3.1 = { #RK waypost castle on the way to Rhovanion established
 		holder = lineisildur42 #Current king, replace with holder of Dagorlad

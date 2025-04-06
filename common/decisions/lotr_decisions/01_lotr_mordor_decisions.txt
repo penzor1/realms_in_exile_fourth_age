@@ -21,10 +21,14 @@ decision_follow_the_voices = {
 	is_shown = {
 		has_character_flag = is_eldacar
 		has_title = title:d_watch_on_mordor
-		NOT = {
+		NOR = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:voices_shutdown
+			}
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_followed
 			}
 		}
 		is_target_in_global_variable_list = {
@@ -48,7 +52,7 @@ decision_follow_the_voices = {
 		custom_tooltip = decision_follow_the_voices.tt
 		trigger_event = {
 			id = 01_mordor.1001
-			days = { 90 360 }
+			days = { 30 120 }
 		}
 	}
 	
@@ -75,7 +79,7 @@ decision_follow_the_voices = {
 
 decision_leave_the_watch = {
 	sort_order = 25
-	title = decision_seek_places_of_power
+	title = decision_leave_the_watch
 	picture = {
 		reference = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
 	}
@@ -94,7 +98,6 @@ decision_leave_the_watch = {
 	
 	is_shown = {
 		has_character_flag = is_eldacar
-		is_ruler = yes
 		has_title = title:d_watch_on_mordor
 		NOT = {
 			is_target_in_global_variable_list = {
@@ -126,7 +129,7 @@ decision_leave_the_watch = {
 	effect = {
 		custom_tooltip = decision_leave_the_watch.tt
 		trigger_event = {
-			id = mordor.1003
+			id = 01_mordor.1003
 			days = 1
 		}
 	}
@@ -174,6 +177,7 @@ decision_seek_places_of_power = {
 	
 	is_shown = {
 		has_character_flag = is_eldacar
+		is_landless_adventurer = yes
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -200,8 +204,8 @@ decision_seek_places_of_power = {
 	effect = {
 		custom_tooltip = decision_seek_places_of_power.tt
 		trigger_event = {
-			id = mordor.1005
-			days = { 90 360 }
+			id = 01_mordor.1005
+			days = { 30 90 }
 		}
 	}
 	
@@ -274,7 +278,7 @@ decision_commit_to_darkness = {
 		custom_tooltip = decision_commit_to_darkness.tt
 		trigger_event = {
 			id = 01_mordor.1010
-			days = 5
+			days = 1
 		}
 	}
 	
@@ -353,7 +357,7 @@ decision_commune_in_darkness = {
 		custom_tooltip = decision_commune_in_darkness.tt
 		trigger_event = {
 			id = 01_mordor.1011
-			days = 5
+			days = 1
 		}
 	}
 	
@@ -431,8 +435,8 @@ decision_commune_in_darkness_2 = {
 	effect = {
 		custom_tooltip = decision_commune_in_darkness_2.tt
 		trigger_event = {
-			id = 01_mordor.1011
-			days = 5
+			id = 01_mordor.1012
+			days = 1
 		}
 	}
 	
