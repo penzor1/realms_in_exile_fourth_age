@@ -348,7 +348,6 @@ bm_120_fourth_age_02 = {
 		}
 	# add tharbad
 	}
-}
 
 # Mordor
 bm_120_fourth_age_03 = {
