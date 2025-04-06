@@ -2,7 +2,7 @@
 # History database id:lineofgoblinking3
 bookmark_fa_04_golmog={
 	type=male
-	id=34072
+	id=34079
 	random_seed=1523950567
 	age=0.479091
 	genes={ 		hair_color={ 104 249 104 249 }
@@ -97,8 +97,8 @@ bookmark_fa_04_golmog={
  		expression_other={ "cheek_wrinkles_both_01" 175 "cheek_wrinkles_both_01" 175 }
  		complexion={ "complexion_no_face" 255 "complexion_no_face" 255 }
  		gene_height={ "normal_height" 70 "normal_height" 46 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 244 "body_fat_head_fat_low" 16 }
- 		gene_bs_body_shape={ "body_shape_apple_full" 165 "body_shape_apple_full" 31 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 255 "body_fat_head_fat_low" 16 }
+ 		gene_bs_body_shape={ "body_shape_apple_full" 138 "body_shape_apple_full" 31 }
  		gene_bs_bust={ "bust_clothes" 56 "bust_shape_4_half" 112 }
  		gene_age={ "old_2" 14 "old_2" 14 }
  		gene_eyebrows_shape={ "far_spacing_lower_thickness" 161 "far_spacing_lower_thickness" 161 }
@@ -117,7 +117,7 @@ bookmark_fa_04_golmog={
  		eyelashes_accessory={ "no_eyelashes" 255 "no_eyelashes" 255 }
  		race_head_accessory={ "uruk" 255 "uruk" 255 }
  		race_body_accessory={ "uruk" 255 "uruk" 255 }
- 		gene_hunchbacked={ "hunchbacked" 2 "hunchbacked" 0 }
+ 		gene_hunchbacked={ "hunchbacked" 3 "hunchbacked" 0 }
  		beards={ "isengard_urukhai_beards_straight" 12 "no_beard" 0 }
  		cloaks={ "no_cloak" 211 "no_cloak" 0 }
  		hairstyles={ "no_hairstyles" 153 "all_hairstyles" 0 }
@@ -129,7 +129,7 @@ bookmark_fa_04_golmog={
  		clothes={ "goblin_clothes" 152 "" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 2697330347 2697330347 }
+	entity={ 979141817 979141817 }
 	tags={ {
 			hash=1367985987
 			invert=no

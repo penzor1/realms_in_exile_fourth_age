@@ -2,7 +2,7 @@
 # History database id:lineofazog17
 bookmark_fa_05_mazog={
 	type=male
-	id=33639
+	id=33643
 	random_seed=941654398
 	age=0.558182
 	genes={ 		hair_color={ 0 0 0 0 }
@@ -98,7 +98,7 @@ bookmark_fa_05_mazog={
  		complexion={ "complexion_no_face" 255 "complexion_no_face" 255 }
  		gene_height={ "normal_height" 134 "normal_height" 134 }
  		gene_bs_body_type={ "body_fat_head_fat_medium" 71 "body_fat_head_fat_medium" 59 }
- 		gene_bs_body_shape={ "body_shape_hourglass_half" 166 "body_shape_hourglass_half" 144 }
+ 		gene_bs_body_shape={ "body_shape_hourglass_half" 193 "body_shape_hourglass_half" 144 }
  		gene_bs_bust={ "bust_clothes" 108 "bust_default" 170 }
  		gene_age={ "old_1" 40 "old_1" 40 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 118 "avg_spacing_lower_thickness" 118 }
