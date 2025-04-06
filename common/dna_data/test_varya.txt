@@ -113,9 +113,7 @@
  		eyelashes_accessory={ "normal_eyelashes" 116 "normal_eyelashes" 116 }
  		race_head_accessory={ "man" 0 "man" 0 }
  		race_body_accessory={ "man" 0 "man" 0 }
- 		beards={ "fp1_beards_straight" 51 "no_beard" 0 }
- 		hairstyles={ "fp3_hairstyles_iranian_straight" 211 "all_hairstyles" 0 }
- 		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
+		}
 	}
 	enabled = yes
 }
