@@ -188,6 +188,7 @@ lineofazog16 = {
 	
 	trait = ambitious
 	trait = greedy
+	trait = vengeful
 	
 	trait = education_diplomacy_2
 	trait = adventurer

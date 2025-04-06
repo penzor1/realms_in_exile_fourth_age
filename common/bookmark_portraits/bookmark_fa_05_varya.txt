@@ -1,4 +1,4 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
+# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:lineofvarya1
 bookmark_fa_05_varya={
 	type=male
@@ -98,7 +98,7 @@ bookmark_fa_05_varya={
  		complexion={ "complexion_7" 100 "complexion_7" 100 }
  		gene_height={ "normal_height" 57 "normal_height" 57 }
  		gene_bs_body_type={ "body_fat_head_fat_medium" 199 "body_fat_head_fat_medium" 184 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 216 "body_shape_triangle_half" 152 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 226 "body_shape_triangle_half" 152 }
  		gene_bs_bust={ "bust_clothes" 82 "bust_shape_3_full" 103 }
  		gene_age={ "old_2" 250 "old_2" 250 }
  		gene_eyebrows_shape={ "far_spacing_avg_thickness" 246 "far_spacing_avg_thickness" 246 }

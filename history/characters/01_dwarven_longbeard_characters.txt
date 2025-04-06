@@ -403,7 +403,7 @@ lineofbifurwife = {
 
 lineofbifur2 = { # Son of Bifur
 	name = B_osi
-	dynasty = dynasty_tharakhalm
+	dynasty = dynasty_bifur
 	religion = faith_khazad			
 	culture = longbeards
 	father = lineofbifur # Bifur
@@ -444,7 +444,7 @@ lineofbifur2wife = {
 
 lineofbifur3 = { # Grandson of Bifur			
 	name = B_ori
-	dynasty = dynasty_tharakhalm
+	dynasty = dynasty_bifur
 	religion = faith_khazad			
 	culture = longbeards
 	father = lineofbifur2 # Bosi
@@ -485,7 +485,7 @@ lineofbomfur2wife = {
 
 lineofbomfur3 = { # Son of Bofur		
 	name = Brogur
-	dynasty = dynasty_fazarumul
+	dynasty = dynasty_bofur
 	religion = faith_khazad			
 	culture = longbeards
 	father = lineofbomfur2 # Bofur
@@ -526,7 +526,7 @@ lineofbomfur3wife = {
 
 lineofbomfur4 = { # Grandson of Bofur			
 	name = Br_oin
-	dynasty = dynasty_fazarumul
+	dynasty = dynasty_bofur
 	religion = faith_khazad			
 	culture = longbeards
 	father = lineofbomfur3 # Brogur

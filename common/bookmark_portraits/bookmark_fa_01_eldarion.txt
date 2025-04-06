@@ -1,8 +1,8 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
+# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:lineisildur43
 bookmark_fa_01_eldarion={
 	type=male
-	id=33866
+	id=33931
 	random_seed=1933743297
 	age=0.506364
 	genes={ 		hair_color={ 12 226 12 226 }
