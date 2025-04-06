@@ -3127,6 +3127,7 @@ d_westmarches = {
 	}
 	7052.5.1 = { #TA3019
 		de_jure_liege = k_rohan
+		liege = k_rohan
 		effect = {
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -3136,7 +3137,6 @@ d_westmarches = {
 	}
 	7053.2.11 = { 
 		holder = linecerdicing17
-		liege = k_rohan
 	}
 	7098.5.12 = { 
 		holder = linecerdicing19
@@ -3296,6 +3296,7 @@ c_emyndunendor = {
 	}
 	7214.3.2 = {
 		holder = lineofwulfdening15
+		liege = d_westmarches
 	}
 }
 c_valesoftheadorn = {
@@ -3345,7 +3346,6 @@ c_valesoftheadorn = {
 	}
 	7085.10.12 = {
 		holder = lineofwulfdening9
-		liege = d_westmarches
 	}
 	7123.5.6 = {
 		holder = lineofwulfdening11
@@ -3355,6 +3355,7 @@ c_valesoftheadorn = {
 	}
 	7214.3.2 = {
 		holder = lineofwulfdening15
+		liege = d_westmarches
 	}
 }
 c_gaetir = {
@@ -3420,6 +3421,7 @@ c_gaetir = {
 	}
 	7146.3.2 = {			
 		holder = lineofarden14 
+		liege = d_westmarches
 	}
 }
 

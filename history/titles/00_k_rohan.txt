@@ -4060,6 +4060,7 @@ d_thewold = {
     7220.5.15 = {
         holder = lineomarhath78 # Beorhtric
     }
+
 }
 # Sutwold
 c_sutwold = {
