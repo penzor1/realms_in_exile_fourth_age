@@ -1,5 +1,23 @@
 ﻿l_english:
 # By Fisto and Jagua
+
+  # [CHARACTER.GetShortUINameNoTooltipNoFormat]
+  # [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat]
+  # 
+  # [CharYouSheHe(CHARACTER)]
+  # [CharYourHerHis(CHARACTER)]
+  # [CharYouHerHim(CHARACTER)]
+  # [CharYourHerHimself(CHARACTER)]
+  # 
+  # [CharAreIs(CHARACTER)]
+  # [CharWereWas(CHARACTER)]
+  # [_s(CHARACTER)]
+  # [CHARACTER.GetWomanMan]
+  # [CharDontDoesnt(CHARACTER)]
+  # 
+  # (theres more check the vanilla file)
+  # remember to add |U at the end to capitalize the start of a sentence!
+  
   #################################
   # Elven Intro Events
   # 0000 - 2000
@@ -156,9 +174,9 @@
  ns_lotr_intro_events.4011.t:0 "The Hammer's Legacy" # Bolgakh, the Hammer
  ns_lotr_intro_events.4011.desc:0 "Bolgakh 'the Hammer', ruthless ruler of Old Moria and descendant of Azog 'the Defiler', has crushed all who stood in his way, including Mazog 'the Exile', whose death shattered the last remnants of resistance and forced his followers into hiding. Yet, Bolgakh’s thirst for power is unquenched, and his ambitions extend far beyond the dark halls of Moria.\n\nAs age creeps upon him, Bolgakh turns his gaze to the Misty Mountains, determined to bring the entire territory under his iron grip. But with his strength fading, his grandson, Bolgakh 'the Younger', waits in the shadows, eager to rise. Driven by hatred for Mazog II and his killing of Bolgakh the Younger’s father, Burthrakh, he is a fury waiting to be unleashed.\n\nBolgakh knows his days are numbered, and soon it will be his grandson and namesake who will carry on his legacy, sweeping through the mountains and leaving a trail of death in his wake."
  ns_lotr_intro_events.4011.a:0 "The Misty Mountains shall flow with the blood of my enemies!"
- ns_lotr_intro_events.4016.t:0 "" # Golmog the Humongous # Unglob the Blubbering
- ns_lotr_intro_events.4016.desc:0 ""
- ns_lotr_intro_events.4016.a:0 ""
+ ns_lotr_intro_events.4016.t:0 "The Humongous Stirs" # Golmog the Humongous # Unglob the Blubbering
+ ns_lotr_intro_events.4016.desc:0 "Since the fall of [sauroncharacter|E], the [goblins|E] have bided their time in Goblin Town, the strong feeding on the weak and praising the Great Fat One with every swollen breath.\n\nGolmog ‘the Humongous’ now sprawls atop his hoard of bones, trinkets, and filth. Though the Great Fat One was slain long ago by a sorcerer’s blade, his hunger lives on — and Golmog is its bloated vessel. Among goblins, gluttony is greatness. His insatiable hunger is sacred, his revolting size a mark of divine favour.\n\nBut now, the silence is heavy with bloodlust. To the south, Mazog the Spurned rages in his bitter feud with Bolgakh the Hammer over Moria. To the north, Boldog the Tyrant tightens his grip on the lands near Gundabad, where the dwarves have recently reclaimed their ancient stronghold. All are bound by the cursed blood of Azog the Defiler.\n\nGolmog senses the rotting scent of opportunity. The Ashmogs fight among themselves, the dwarves cling to their halls — but to Golmog, it matters little. Every battle is a chance to feast, to spread his influence. War is the banquet, and the Great Fat One will be pleased."
+ ns_lotr_intro_events.4016.a:0 "Let the Ashmogs fight. The goblins shall feast."
  ns_lotr_intro_events.4021.t:0 "" # grey mountain goblin the dragon
  ns_lotr_intro_events.4021.desc:0 ""
  ns_lotr_intro_events.4021.a:0 ""

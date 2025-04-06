@@ -1,4 +1,22 @@
 ﻿l_english:
+
+  # [CHARACTER.GetShortUINameNoTooltipNoFormat]
+  # [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat]
+  # 
+  # [CharYouSheHe(CHARACTER)]
+  # [CharYourHerHis(CHARACTER)]
+  # [CharYouHerHim(CHARACTER)]
+  # [CharYourHerHimself(CHARACTER)]
+  # 
+  # [CharAreIs(CHARACTER)]
+  # [CharWereWas(CHARACTER)]
+  # [_s(CHARACTER)]
+  # [CHARACTER.GetWomanMan]
+  # [CharDontDoesnt(CHARACTER)]
+  # 
+  # (theres more check the vanilla file)
+  # remember to add |U at the end to capitalize the start of a sentence!
+
  # The 4th Age - The Dominion of Men 
  #bm_120_fourth_age_01:0 "The Dominion of Men"
  #gameconcepts [] dont work in bookmark start date texts, only character bookmark texts
@@ -247,15 +265,15 @@
  bm_120_fourth_age_06:0 "A Hunger for Vengeance"
  bm_120_fourth_age_06_desc:0 "After the fall of Sauron, the Orcs of Mordor scattered like vermin, their once-unified strength now shattered into savage tribes and rogue bands. Though their master is gone, their bloodlust and insatiable thirst for dominance endure, poisoning the land wherever they tread. From the dark corners of Middle-earth, they claw their way back, leaving only destruction in their wake.\n\nWhether lurking in mountains, forests, or forgotten realms, their very presence corrupts and defiles, a blight upon the land. Will these foul creatures rise again, spreading chaos and ruin, or will they finally fade, leaving behind nothing but the scars of their twisted legacy?"
  bookmark_fa_06_boldog:0 "Boldog, the Tyrant"
- bookmark_fa_06_boldog_desc:0 "The last true heir of Azog’s line still lurking within the domains of Gundabad, Boldog ‘the Tyrant’ rules its outskirts with an iron grip. Where once his ancestors held dominion over the North, he now clings to the remnants of their broken legacy, ever seething at the Longbeards who have retaken the mountain once held by his father, Gorgol the Proud.\n\nBut Boldog and his kin are no mere rabble of scattered Orcs. They are Ghrazîm, the Gundabad Orcs, a warlike and disciplined breed of the Worauthai Madûr, more organised and formidable than the savage hordes of old. With his brother Hurog ‘the Manipulator’ at his side, known for his conniving nature, Boldog has turned his territory into a pit of war and cruelty, an Orc-realm of hardened veterans and embittered warriors. The Dwarves grow bold in their mountain, and their king, Durin VII 'the Last', speaks of restoring Khazad-dûm in full. Yet Boldog remembers the days when the Defiler’s name made all the Free Peoples tremble, and he has no intention of letting the Ghrazîm be swept aside so easily...\n\nWill he carve out a new dominion in the shadow of his ancestors, or will his House be snuffed out for the last time?"
+ bookmark_fa_06_boldog_desc:0 "One of the last remaining descendants of Azog’s line still lurking within the domains of Gundabad, Boldog ‘the Tyrant’ rules its outskirts with an iron grip. Where once his ancestors held dominion over the North, he now clings to the remnants of their broken legacy, ever seething at the Longbeards who have retaken the mountain once held by his father, Gorgol the Proud.\n\nBut Boldog and his kin are no mere rabble of scattered Orcs. They are Ghrazîm, the Gundabad Orcs, a warlike and disciplined breed of the Worauthai Madûr, more organised and formidable than the savage hordes of old. With his brother Hurog ‘the Manipulator’ at his side, known for his conniving nature, Boldog has turned his territory into a pit of war and cruelty, an Orc-realm of hardened veterans and embittered warriors. The Dwarves grow bold in their mountain, and their king, Durin VII 'the Last', speaks of restoring Khazad-dûm in full. Yet Boldog remembers the days when the Defiler’s name made all the Free Peoples tremble, and he has no intention of letting the Ghrazîm be swept aside so easily...\n\nWill he carve out a new dominion in the shadow of his ancestors, or will his House be snuffed out for the last time?"
  bookmark_fa_06_mazog:0 "Mazog II, the Spurned"
  bookmark_fa_06_mazog_desc:0 "The War of the Ring has long passed, and many Orcs scattered to the dark corners of the world. Among them was Mazog II, son of Mazog ‘the Exile’, grandson of Bolg ‘the Strong’. Forced to flee after his father’s fall after a failed conquest for Old Moria, Mazog retreated north, earning himself the nickname ‘the Spurned’. Since his father's killer, Bolgakh ‘the Hammer’, holds Old Moria, Mazog II has carved out a realm to the north, waiting for the chance to avenge his father.\n\nIn the same battle where Bolgakh ‘the Hammer’ slew Mazog I, Mazog II managed to strike down Burthrakh, Bolgakh’s son. This victory has fueled his drive for vengeance.\n\nIn his years of exile, Mazog has grown stronger, more cunning, and more determined. The day will come when he faces Bolgakh the Hammer and his kin, but for now, Mazog plans his return in the darkness, determined to reclaim what he believes is rightfully his."
  bookmark_fa_06_bolgakh:0 "Bolgakh, the Hammer"
  bookmark_fa_06_bolgakh_desc:0 "Bolgakh 'the Hammer', descendant of Azog 'the Defiler', brutal and unyielding, has crushed every foe that dared stand against him, including Mazog I, whose death extinguished the last flicker of rebellion. Now, his ambition has no bounds, and his eyes turn to the Misty Mountains, eager to claim the entire region as his own.\n\nAs the years take their toll, Bolgakh's strength wanes, but his grandson, Bolgakh 'the Younger', lurks in the shadows, his heart burning with rage. His fury is fueled by the death of his father, Burthrakh, slain by Mazog II, and he longs to exact his revenge.\n\nThough Bolgakh the Hammer knows his time is limited, his grandson is poised to take up the mantle. Will Bolgakh’s dynasty rise to fulfill the Hammer's legacy and bring the Misty Mountains under their control?"
  bookmark_fa_06_golmog:0 "Golmog, the Humongous"
- bookmark_fa_06_golmog_desc:0 "description, goblin town had an uprising due to fleeing orcs, now the new goblin king biding his time when now he is required to take about because of the surrounding Ashmogs"
+ bookmark_fa_06_golmog_desc:0 "In the aftermath of [sauroncharacter|E]’s fall, the [goblins|E] of Goblin Town have waited in silence, preying on the weak and honouring the Great Fat One with each gluttonous breath.\n\nGolmog the Humongous now rules atop his hoard of bones and filth. Though the Great Fat One was slain by a sorcerer's blade, his insatiable hunger endures through Golmog, who has become its bloated vessel. Among the goblins, his vast size is sacred, a testament to his devotion.\n\nWith the Ashmogs at war to the south and the dwarves reclaiming their strongholds to the north, Golmog sees the time is ripe. The Great Fat One’s hunger has not been satisfied, and Golmog is eager to claim what is his. War and conflict present the perfect chance to spread his influence and sate his eternal hunger."
  bookmark_fa_06_unglob:0 "Unglob, the Blubbering"
- bookmark_fa_06_unglob_desc:0 "bob"
+ bookmark_fa_06_unglob_desc:0 ""
  bookmark_fa_06_skoralg:0 "Skoralg, the Thin"
  bookmark_fa_06_skoralg_desc:0 ""
  bookmark_fa_06_gharsh:0 "Gharsh, the Rat"
