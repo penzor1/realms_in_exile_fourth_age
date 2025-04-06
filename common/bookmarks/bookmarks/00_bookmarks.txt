@@ -167,7 +167,7 @@ bm_120_fourth_age_01 = {
 		history_id = lineoforopher6
 		position = { 800 800 }
 		animation = personality_rational
-		# Nessanie, Queen of RK
+		# Eldarion, King of RK
 		character = {
 			name = "bookmark_fa_01_eldarion"
 			relation = "BOOKMARK_RELATION_LIEGE"

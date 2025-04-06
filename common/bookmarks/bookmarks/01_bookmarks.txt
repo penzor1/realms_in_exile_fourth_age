@@ -16,7 +16,7 @@ bm_120_fourth_age_02 = {
 		dynasty_splendor_level = 10
 		type = male
 		birth = 6943.5.16
-		title = k_belegost
+		title = k_broadbeams
 		government = feudal_government
 		religion = faith_broadbeams
 		culture = broadbeams
@@ -31,8 +31,6 @@ bm_120_fourth_age_02 = {
 			 dynasty = dynasty_dwalin
 			 type = male
 			 birth = 7139.5.21
-			 title = k_belegost
-			 government = feudal_government
 			 religion = faith_broadbeams
 			 culture = broadbeams
 			 history_id = lineofdwalinVII
@@ -306,7 +304,7 @@ bm_120_fourth_age_02 = {
 		# Elladan, King of Imladris
 		character = {
 			name = "bookmark_fa_02_elladan"
-			relation = "BOOKMARK_RELATION_BROTHER"
+			relation = "BOOKMARK_RELATION_LIEGE"
 			dynasty_house = house_elrond
 			type = male
 			birth = 4163.1.1
@@ -375,6 +373,19 @@ bm_120_fourth_age_03 = {
 		history_id = lineisildur49
 		position = { 400 200 }
 		animation = personality_greedy
+		# Eldarion, King of RK
+		character = {
+			name = "bookmark_fa_01_eldarion"
+			relation = "BOOKMARK_RELATION_FATHER"
+			dynasty_house = house_telcontar
+			type = male
+			birth = 7054.12.25
+			title = e_reunitedkingdom
+			government = feudal_government
+			religion = faith_edain
+			culture = dunedain
+			history_id = lineisildur43
+		}
 	}
 	
 	# Vaugan, the Fishmonger
@@ -677,6 +688,20 @@ bm_120_fourth_age_04 = {
 			religion = way_of_strength
 			culture = worauthai_madur
 			history_id = lineofazog21
+		}
+		# Mazog II, the Spurned
+		character = {
+			name = "bookmark_fa_04_mazog"
+			relation = "BOOKMARK_RELATION_RIVAL"
+			dynasty_house = house_mazog
+			dynasty_splendor_level = 10
+			type = male
+			birth = 7063.2.4
+			title = d_barazinbar
+			government = feudal_government
+			religion = cult_of_the_ulukai
+			culture = ghrazim
+			history_id = lineofazog17
 		}
 	}
 	
@@ -1128,6 +1153,19 @@ bm_120_fourth_age_05 = {
 		position = { 300 450 }
 		animation = disapproval
 	}
+		# Úri VI
+			character = {
+			name = "bookmark_fa_05_uri_VI"
+			relation = "BOOKMARK_RELATION_FATHER"
+			dynasty = dynasty_uri
+			type = male
+			birth = 6751.4.22
+			religion = faith_broadbeams
+			culture = firebeards
+			history_id = lineofuriVI
+			position = { 300 450 }
+			animation = schadenfreude
+	}
 	
 #	# Olius, the Unworthy
 #	character = {
@@ -1174,6 +1212,7 @@ bm_120_fourth_age_05 = {
 		history_id = lineofuri126
 		position = { 350 700 }
 		animation = personality_dishonorable
+		}
 		# Olius, the Unworthy
 		character = {
 			name = "bookmark_fa_05_olius"
@@ -1181,11 +1220,23 @@ bm_120_fourth_age_05 = {
 			dynasty = dynasty_uri
 			type = male
 			birth = 6909.7.18
-			title = k_buzra_dum
+			title = k_firebeards
 			government = feudal_government
 			religion = faith_broadbeams
 			culture = firebeards
 			history_id = lineofuri107
+			animation = personality_coward
+		}
+		character = {
+			name = "bookmark_fa_05_eldberk"
+			relation = "BOOKMARK_RELATION_FATHER"
+			dynasty = dynasty_uri
+			type = male
+			birth = 6813.1.1
+			religion = faith_khazad
+			culture = firebeards
+			history_id = lineofuri122
+			animation = personality_zealous
 		}
 	}
 	
@@ -1216,6 +1267,7 @@ bm_120_fourth_age_05 = {
 			religion = cult_of_the_ulukai
 			culture = ghrazim
 			history_id = lineofazog15
+			animation = personality_dishonorable
 		}
 	}
 	
@@ -1234,20 +1286,20 @@ bm_120_fourth_age_05 = {
 		history_id = lineofazog17
 		position = { 650 450 }
 		animation = personality_vengeful
-		# Urzog, 
 		character = {
-			name = "bookmark_fa_05_urzog"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty_house = house_mazog
+			name = "bookmark_fa_04_bolgakh"
+			relation = "BOOKMARK_RELATION_RIVAL"
+			dynasty_house = house_bolgakh
+			dynasty_splendor_level = 10
 			type = male
-			birth = 7087.7.11
-			title = d_barazinbar
+			birth = 6935.6.17
+			title = d_zirakzigil
 			government = feudal_government
-			religion = cult_of_the_ulukai
-			culture = ghrazim
-			history_id = lineofazog18
+			religion = way_of_strength
+			culture = worauthai_madur
+			history_id = lineofazog16
+			personality = personality_vengeful
 		}
-	}
 	
 #	# Fili, the Miner
 #	character = {
@@ -1311,6 +1363,19 @@ bm_120_fourth_age_05 = {
 		history_id = lineofdurinVII
 		position = { 950 300 }
 		animation = personality_callous
+		# Thorin III, Stonehelm
+		character = {
+			name = "bookmark_fa_05_thorin"
+			relation = "BOOKMARK_RELATION_FATHER"
+			dynasty = dynasty_durin
+			type = male
+			birth = 6899.4.4
+			title = k_longbeards
+			government = feudal_government
+			religion = faith_khazad
+			culture = longbeards
+			history_id = lineofdurin91
+		}
 		# Dain III, the Brave
 		character = {
 			name = "bookmark_fa_05_dain"
@@ -1487,7 +1552,7 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofvarya1
 		position = { 1100 700 }
-		animation = personality_honorable
+		animation = personality_bold
 	}
 }
 
@@ -1541,7 +1606,7 @@ bm_120_fourth_age_06 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineukorg6
 		position = { 650 450 }
-		animation = personality_honorable
+		animation = personality_vengeful
 		# Ukorg, 
 		character = {
 			name = "bookmark_fa_06_ukorg"
@@ -1584,7 +1649,7 @@ bm_120_fourth_age_06 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofrob2
 		position = { 1000 700 }
-		animation = personality_honorable
+		animation = personality_dishonorable
 		# Zauglob, the Hidden
 		character = {
 			name = "bookmark_fa_06_zauglob"
