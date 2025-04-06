@@ -228,7 +228,7 @@ bm_120_fourth_age_02 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = linecaradoc14
 		position = { 1100 200 }
-		animation = personality_honorable
+		animation = schadenfreude
 		# Tadg, Lefthand
 		character = {
 			name = "bookmark_fa_02_tadg"
@@ -664,7 +664,7 @@ bm_120_fourth_age_04 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofazog16
 		position = { 300 550 }
-		animation = personality_callous
+		animation = personality_vengeful
 		# Bolgakh, the Younger
 		character = {
 			name = "bookmark_fa_04_bolgakh2"
@@ -1007,7 +1007,7 @@ bm_120_fourth_age_04 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoflanthir4
 		position = { 1100 250 }
-		animation = personality_honorable
+		animation = personality_rational
 		# Sargon, 
 		character = {
 			name = "bookmark_fa_04_sargon"
@@ -1068,7 +1068,7 @@ bm_120_fourth_age_04 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofshaq2
 		position = { 1200 600 }
-		animation = personality_callous
+		animation = personality_irrational
 	}
 	
 #	# Gharsh, the Rat
@@ -1296,7 +1296,7 @@ bm_120_fourth_age_05 = {
 		}
 	}
 	
-	# Durin, the Reincarnated
+	# Durin VII, the Last
 	character = {
 		name = "bookmark_fa_05_durin"
 		dynasty = dynasty_durin
@@ -1310,7 +1310,7 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofdurinVII
 		position = { 950 300 }
-		animation = personality_bold
+		animation = personality_callous
 		# Dain III, the Brave
 		character = {
 			name = "bookmark_fa_05_dain"
@@ -1373,7 +1373,7 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofdurin114
 		position = { 1200 400 }
-		animation = personality_honorable
+		animation = personality_rational
 		# Brogur, the Hammer
 		character = {
 			name = "bookmark_fa_05_brogur"
