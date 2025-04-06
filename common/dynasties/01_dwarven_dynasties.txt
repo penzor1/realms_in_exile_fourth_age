@@ -8,14 +8,14 @@ dynasty_bombur = {
 	motto = dynn_bombur_motto
 }
 
-dynasty_fazarumul = {
-	name = "dynn_fazarumul"
+dynasty_bofur = {
+	name = "dynn_bofur"
 	culture = "longbeards"
-	motto = dynn_fazarumul_motto
+	motto = dynn_bofur_motto
 }
 
-dynasty_tharakhalm = {
-	name = "dynn_tharakhalm"
+dynasty_bifur = {
+	name = "dynn_bifur"
 	culture = "longbeards"
-	motto = dynn_tharakhalm_motto
+	motto = dynn_bifur_motto
 }

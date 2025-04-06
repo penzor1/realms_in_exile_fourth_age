@@ -14536,7 +14536,7 @@ lineofbifur = {
 		employer = lineofdurin90
 	}
 	7052.5.1 = {
-		dynasty = dynasty_tharakhalm
+		dynasty = dynasty_bifur
 	}
 	7075.2.25 = {
 		death = { death_reason = death_natural_causes }	
@@ -14644,7 +14644,7 @@ lineofbomfur2 = {
 		employer = lineofdurin90
 	}
 	7052.5.1 = {
-		dynasty = dynasty_fazarumul
+		dynasty = dynasty_bofur
 	}
 	7122.5.17 = {
 		death = { death_reason = death_natural_causes }	
