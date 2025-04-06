@@ -15,12 +15,16 @@
 		birth = yes
 	}
 	1900.1.1 = {
-		employer = lineofsargon1 #is a courtier in Nelornieth in other start dates
+		employer = lineoflanthir1 #is a courtier in Nelornieth in other start dates
 	}
 	7157.1.1 = {
 		effect = {
 			vassal_contract_set_obligation_level = {
 				type = title_revocation_rights
+				level = 1
+			}
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
 				level = 1
 			}
 		}

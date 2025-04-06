@@ -1494,8 +1494,11 @@ bm_120_fourth_age_06 = {
 	# add lossoth
 	# add angmar orcs
 	# add framling
-
-	# Goblin, roofsleeper clan
+	
+	# add urukhai laamp group in enedwaith
+	# add orc tribe in harad
+	
+	# Goblin, dorwinion roofsleeper clan
 #	character = {
 #		name = "bookmark_fa_06_gharsh"
 #		dynasty = dynasty_rob
@@ -1512,76 +1515,76 @@ bm_120_fourth_age_06 = {
 #		animation = personality_honorable
 #	}
 	
-#	# Korg, the Hidden
-#	character = {
-#		name = "bookmark_fa_06_korg"
-#		dynasty = dynasty_ukorg
-#		dynasty_splendor_level = 10
-#		type = male
-#		birth = 7034.7.21
-#		title = c_enedhmen_i_naugrim
-#		government = tribal_government
-#		religion = way_of_strength
-#		culture = kazgumhoth
-#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-#		history_id = lineukorg6
-#		position = { 650 450 }
-#		animation = personality_honorable
-#		# Ukorg, 
-#		character = {
-#			name = "bookmark_fa_06_ukorg"
-#			relation = "BOOKMARK_RELATION_SON"
-#			dynasty = dynasty_ukorg
-#			type = male
-#			birth = 7086.2.11
-#			title = c_enedhmen_i_naugrim
-#			government = tribal_government
-#			religion = way_of_strength
-#			culture = kazgumhoth
-#			history_id = lineukorg7
-#		}
-#		# Akoth, the Scion
-#		character = {
-#			name = "bookmark_fa_06_akoth"
-#			relation = "BOOKMARK_RELATION_SON"
-#			dynasty = dynasty_ukorg
-#			type = male
-#			birth = 7089.4.1
-#			title = c_enedhmen_i_naugrim
-#			government = tribal_government
-#			religion = way_of_strength
-#			culture = kazgumhoth
-#			history_id = lineukorg8
-#		}
-#	}
+	# Korg, the Hidden
+	character = {
+		name = "bookmark_fa_06_korg"
+		dynasty = dynasty_ukorg
+		dynasty_splendor_level = 10
+		type = male
+		birth = 7034.7.21
+		title = c_enedhmen_i_naugrim
+		government = tribal_government
+		religion = way_of_strength
+		culture = kazgumhoth
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lineukorg6
+		position = { 650 450 }
+		animation = personality_honorable
+		# Ukorg, 
+		character = {
+			name = "bookmark_fa_06_ukorg"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = dynasty_ukorg
+			type = male
+			birth = 7086.2.11
+			title = c_enedhmen_i_naugrim
+			government = tribal_government
+			religion = way_of_strength
+			culture = kazgumhoth
+			history_id = lineukorg7
+		}
+		# Akoth, the Scion
+		character = {
+			name = "bookmark_fa_06_akoth"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = dynasty_ukorg
+			type = male
+			birth = 7089.4.1
+			title = c_enedhmen_i_naugrim
+			government = tribal_government
+			religion = way_of_strength
+			culture = kazgumhoth
+			history_id = lineukorg8
+		}
+	}
 	
-#	# Gharsh, the Rat
-#	character = {
-#		name = "bookmark_fa_06_gharsh"
-#		dynasty = dynasty_rob
-#		dynasty_splendor_level = 10
-#		type = male
-#		birth = 7062.5.7
-#		title = c_rovlarand
-#		government = tribal_government
-#		religion = sons_of_sauron
-#		culture = burgulhai
-#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-#		history_id = lineofrob2
-#		position = { 1000 700 }
-#		animation = personality_honorable
-#		# Zauglob, the Hidden
-#		character = {
-#			name = "bookmark_fa_06_zauglob"
-#			relation = "BOOKMARK_RELATION_SON"
-#			dynasty = dynasty_rob
-#			type = male
-#			birth = 7101.6.30
-#			title = c_rovlarand
-#			government = tribal_government
-#			religion = sons_of_sauron
-#			culture = burgulhai
-#			history_id = lineofrob3
-#		}
-#	}
+	# Gharsh, the Rat
+	character = {
+		name = "bookmark_fa_06_gharsh"
+		dynasty = dynasty_rob
+		dynasty_splendor_level = 10
+		type = male
+		birth = 7062.5.7
+		title = c_rovlarand
+		government = tribal_government
+		religion = sons_of_sauron
+		culture = burgulhai
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lineofrob2
+		position = { 1000 700 }
+		animation = personality_honorable
+		# Zauglob, the Hidden
+		character = {
+			name = "bookmark_fa_06_zauglob"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = dynasty_rob
+			type = male
+			birth = 7101.6.30
+			title = c_rovlarand
+			government = tribal_government
+			religion = sons_of_sauron
+			culture = burgulhai
+			history_id = lineofrob3
+		}
+	}
 }

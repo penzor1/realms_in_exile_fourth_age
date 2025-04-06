@@ -5,6 +5,10 @@
  cn_arthedain_arnor_adj:0 "Arnorian"
  cn_arnor_eriador:0 "Eriador"
  cn_arnor_eriador_adj:0 "Eriadorim"
+ cn_mordor_kharatdor:0 "Kharatdor"
+ cn_mordor_kharatdor_adj:0 "Kharatdorim"
+ cn_mordor_southlands:0 "Southlands"
+ cn_mordor_southlands_adj:0 "Southlandic"
  ### Other ### (Titular Arnor)
  d_ithillond: "Ithillond"
  d_ithillond_adj: "Ithillondrim"
