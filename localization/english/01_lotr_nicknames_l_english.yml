@@ -55,6 +55,8 @@
  nick_andumire:0 "Andúmírë" # Eldarion
  nick_andumire_desc:0 "Meaning 'Jewel of the West' in Quenya. [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] a descendent of the [eldar|E]. A blood-tie as an echo to the prosperity of ages past and perhaps ages coming."
  ### Dwarf Nicknames ###
+ nick_the_unworthy_dwarf:0 "The Unworthy"
+ nick_the_unworthy_dwarf:0 "A failure of a [dwarf|E], [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] little more than a figurehead, controlled by unseen puppeteers."
  nick_glitterbeard:0 "Glitterbeard" # Wirwir of Aglarond
  nick_glitterbeard_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] has gem dust, crystal specks and bits of diamonds in his beard, like all dwarves who mine in the Glittering Caves."
  nick_orcsfoe:0 "Orcsfoe" # Nain I

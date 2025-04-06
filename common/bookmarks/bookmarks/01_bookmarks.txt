@@ -26,7 +26,7 @@ bm_120_fourth_age_02 = {
 		animation = personality_honorable
 	#add family
 		character = {
-			 name = "bookmark_fa_05_dwalinVII"
+			 name = "bookmark_fa_02_dwalinVII"
 			 relation = "BOOKMARK_RELATION_GRANDSON"
 			 dynasty = dynasty_dwalin
 			 type = male

@@ -24,6 +24,7 @@
 	nick_andumire = {} # Eldarion
 	
 	# Dwarf
+	nick_the_unworthy_dwarf = {} # Olius the Unworthy
 	nick_glitterbeard = {} # Wirwir of Aglarond
 	nick_orcsfoe = {} # Nain I
 	nick_the_slakeless = {}	# Dwarf - Náin the Slakeless, son of Dáin II 'Ironfoot'

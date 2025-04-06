@@ -1104,7 +1104,7 @@ ns_lotr_intro_events.2016 = { # Hreithmar Intro
 	}
 
 	lower_center_portrait = {
-		character = character:lineofdwalin0 # Dwalin 'the Wise'
+		character = character:lineofdwalinVII # Dwalin VII
 	}
 
 	lower_right_portrait = {
