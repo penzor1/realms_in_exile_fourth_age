@@ -2082,6 +2082,10 @@ ns_lotr_intro_events.6206 = { # Eldacar Intro
 		character:lineisildur49 = { # Eldacar
 			add_stress = 50
 		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:hear_voices
+		}
 		ai_chance = {
 			base = 0
 			modifier = { # Game Rule

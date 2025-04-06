@@ -173,19 +173,63 @@
 	option = {
 		name = 01_mordor.1003.a
 		custom_tooltip = 01_mordor.1001.a.tt # There will be Repercussions
+		title:c_morannon = {
+			change_development_level = -1
+		}
 		character:lineisildur49 = { # Eldacar
 			add_stress = 50
-			create_artifact_palantir_minasithil_effect = { OWNER = this }
-			hidden_effect = {
-				add_piety_level = -1
-				remove_trait = calm
-				add_trait = paranoid
-			}
+			add_gold = major_gold_value
 		}
 		character:lineisildur43 = { # Eldarion
 			trigger_event = {
 				id = 01_mordor.1004
-				days = { 30 120 }
+				days = { 15 60 }
+			}
+		}
+		hidden_effect = {
+			character:lineisildur49 = { # Eldacar
+				add_trait = disloyal
+				add_trait = gallivanter
+				every_vassal = { # The Watch splits
+					create_title_and_vassal_change = {
+						type = independency
+						add_claim_on_loss = yes
+						save_scope_as = change3
+					}
+					becomes_independent = { change = scope:change3 }
+					resolve_title_and_vassal_change = scope:change3
+				}
+			}
+			character:lineisildur49 = { # Eldacar
+				every_vassal = { # The Watch splits pt2
+					create_title_and_vassal_change = {
+						type = swear_fealty
+						save_scope_as = change4
+						add_claim_on_loss = no
+					}
+					change_liege = {
+						liege = character:lineisildur43 # Eldarion
+						change = scope:change4
+					}
+				}
+			}
+			character:lineisildur49 = { # Eldacar
+				create_title_and_vassal_change = {
+					type = independency
+					add_claim_on_loss = yes
+					save_scope_as = change5
+				}
+				becomes_independent = { change = scope:change5 }
+				resolve_title_and_vassal_change = scope:change5
+			}
+			character:lineisildur49 = { # Eldacar
+				get_title = title:d_laamp_rangers_of_mordor
+				change_government = landless_adventurer_government
+			}
+			character:dynasty_dor_giril92 = { # Watchman
+				get_title = title:d_watch_on_mordor
+				get_title = title:c_morannon
+				get_title = title:d_watch_on_mordor
 			}
 		}
 		add_to_global_variable_list = {
@@ -465,35 +509,6 @@
 			character:lineisildur49 = { # Eldacar
 				add_trait = disloyal
 				add_trait = murderer
-			}
-		character:lineofcaran2 = { # The Watch splits
-			create_title_and_vassal_change = {
-				type = independency
-				add_claim_on_loss = yes
-				save_scope_as = change3
-			}
-			becomes_independent = { change = scope:change3 }
-			resolve_title_and_vassal_change = scope:change3
-		}
-		character:lineofcaran2 = { # The Watch splits pt2
-			create_title_and_vassal_change = {
-				type = swear_fealty
-				save_scope_as = change4
-				add_claim_on_loss = no
-			}
-			change_liege = {
-				liege = character:lineisildur43 # Eldarion
-				change = scope:change4
-			}
-		}
-		character:lineisildur49 = { # Eldacar
-			create_title_and_vassal_change = {
-				type = independency
-				add_claim_on_loss = yes
-				save_scope_as = change5
-			}
-			becomes_independent = { change = scope:change5 }
-			resolve_title_and_vassal_change = scope:change5
 			}
 		}
 		ai_chance = {

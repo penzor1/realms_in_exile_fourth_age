@@ -1,4 +1,4 @@
-lineofdwalinVII = { # Dwalin VII the Last, grandson of Hreithmar the Unexpected
+﻿lineofdwalinVII = { # Dwalin VII the Last, grandson of Hreithmar the Unexpected
     name = Virinehtar
 
     dynasty = dynasty_dwalin

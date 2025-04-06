@@ -1273,7 +1273,7 @@ bm_120_fourth_age_05 = {
 			religion = way_of_strength
 			culture = worauthai_madur
 			history_id = lineofazog16
-			personality = personality_vengeful
+			animation = personality_vengeful
 		}
 	}
 	

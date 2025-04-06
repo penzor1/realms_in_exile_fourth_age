@@ -113,7 +113,7 @@ lineisildur47 = {
 	7120.1.1 = { # Fourth Age 66
 		birth = yes
 		effect = {
-			#add_character_flag = is_elendil
+			add_character_flag = is_elendil
 			add_character_flag = ai_immune_to_mental_breaks
 			learn_language = language_westron
 		}
@@ -141,7 +141,7 @@ lineisildur48 = {
 	7121.1.1 = { # Fourth Age 67
 		birth = yes
 		effect = {
-			#add_character_flag = is_anarion
+			add_character_flag = is_anarion
 			add_character_flag = ai_immune_to_mental_breaks
 			set_culture = culture:dunedain
 		}
@@ -173,7 +173,7 @@ lineisildur49 = {
 	mother = linesteward51 # Nessanie
 	
 	trait = brave
-	trait = eccentric
+	trait = temperate
 	trait = calm
 	
 	trait = education_learning_3
@@ -184,7 +184,7 @@ lineisildur49 = {
 	7139.1.1 = { # Fourth Age 85
 		birth = yes
 		effect = {
-			#add_character_flag = is_eldacar
+			add_character_flag = is_eldacar
 			add_character_flag = ai_immune_to_mental_breaks
 			set_culture = culture:dunedain
 		}
@@ -192,7 +192,6 @@ lineisildur49 = {
 	7170.1.1 = { # Fourth Age 116 # Sent to Watch
 		effect = {
 			add_gold = 200
-			add_trait = gallivanter
 			add_trait = lifestyle_voyager
 			add_trait = lifestyle_blademaster
 			vassal_contract_set_obligation_level = {

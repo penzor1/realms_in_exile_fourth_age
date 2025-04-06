@@ -227,12 +227,10 @@ lineofthelor904 = {
 	}
 }
 
-
-
 ### Line of Varya
 lineofvarya1 = {
 	name = Varya
-	#dynasty = dynasty_varya
+	dynasty = dynasty_varya
 	religion = faith_khazad
 	culture = ironfists
 	dna = varya_dna
