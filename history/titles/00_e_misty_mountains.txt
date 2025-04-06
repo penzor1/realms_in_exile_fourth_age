@@ -5270,8 +5270,11 @@ d_hallroamer = {
 		government = feudal_government
 	}
 	#fiction
-	7041.1.1 = { #TA3019 # Bolgakh arrives in Moria after the fellowship and death of Durin's Bane
-		holder = 0
+	7041.1.1 = {
+		holder = linehallroamer2 # Bruka
+	}
+	7080.1.1 = {
+		holder = linehallroamer3 # Garg
 	}
 }
 # d_deepwalker = {

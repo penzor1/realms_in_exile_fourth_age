@@ -3,7 +3,7 @@
 ### Line of Sindri
 lineofthelorI = {
 	name = Sindri
-	#dynasty = dynasty_thelor
+	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
 	
@@ -35,7 +35,7 @@ lineofthelorI = {
 
 lineofthelorII = {
 	name = Sindri
-	#dynasty = dynasty_thelor
+	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
 	father = lineofthelorI
@@ -54,7 +54,7 @@ lineofthelorII = {
 
 lineofthelorIII = {
 	name = Sindri
-	#dynasty = dynasty_thelor
+	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
 	father = lineofthelorII
@@ -73,7 +73,7 @@ lineofthelorIII = {
 
 lineofthelorIV = {
 	name = Sindri
-	#dynasty = dynasty_thelor
+	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
 	father = lineofthelorIII
@@ -92,7 +92,7 @@ lineofthelorIV = {
 
 lineofthelorV = {
 	name = Sindri
-	#dynasty = dynasty_thelor
+	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
 	father = lineofthelorIV
@@ -111,7 +111,7 @@ lineofthelorV = {
 
 lineofthelorVI = {
 	name = Sindri
-	#dynasty = dynasty_thelor
+	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
 	father = lineofthelorV
@@ -133,7 +133,7 @@ lineofthelorVI = {
 
 lineofthelor900 = {
 	name = V_ekun # I
-	#dynasty = dynasty_thelor
+	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
 	father = lineofthelorVI
@@ -148,7 +148,7 @@ lineofthelor900 = {
 
 lineofthelor901 = {
 	name = V_elat
-	#dynasty = dynasty_thelor
+	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
 	father = lineofthelor900 # Vekun I
@@ -163,7 +163,7 @@ lineofthelor901 = {
 
 lineofthelor902 = {
 	name = V_ekun # II
-	#dynasty = dynasty_thelor
+	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
 	father = lineofthelor901 # Velat
@@ -181,7 +181,7 @@ lineofthelor902 = {
 
 lineofthelor903 = {
 	name = _Otek #VII
-	#dynasty = dynasty_thelor
+	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
 	father = lineofthelor902 # Velat
@@ -196,7 +196,7 @@ lineofthelor903 = {
 
 lineofthelor904 = {
 	name = Ing_or
-	#dynasty = dynasty_thelor
+	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
 	father = lineofthelor902 # Velat
@@ -215,9 +215,12 @@ lineofthelor904 = {
 				SUZERAIN = character:lineofdurin91 # Thorin III
 				TRIBUTARY = character:lineofthelor904 # Ingor
 			}
+			create_alliance = {
+				target = character:lineofdurinVII # Durin VII
+			}
 		}
 	}
-	7250.10.21 = { # just to fill the timeline
+	7350.10.21 = { # just to fill the timeline
 		death = { death_reason = death_natural_causes }
 	}
 }
