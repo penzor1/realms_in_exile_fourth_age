@@ -109,7 +109,7 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.0036
-				days = { 5 10 }
+				days = { 2 5 }
 			}
 		}
 	}
@@ -184,7 +184,7 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.2011
-				days = { 5 10 }
+				days = { 2 5 }
 			}
 		}
 	}
@@ -222,7 +222,7 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.2016
-				days = { 5 10 }
+				days = { 2 5 }
 			}
 		}
 	}
@@ -234,7 +234,7 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.2021
-				days = { 5 10 }
+				days = { 2 5 }
 			}
 		}
 	}
@@ -246,7 +246,7 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.2026
-				days = { 5 10 }
+				days = { 2 5 }
 			}
 		}
 	}
@@ -258,7 +258,7 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.2031
-				days = { 5 10 }
+				days = { 2 5 }
 			}
 		}
 	}
@@ -270,7 +270,7 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.2036
-				days = { 5 10 }
+				days = { 2 5 }
 			}
 		}
 	}
@@ -295,7 +295,7 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.4001
-				days = { 5 10 }
+				days = { 2 5 }
 			}
 		}
 	}
@@ -307,7 +307,7 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.4006
-				days = { 5 10 }
+				days = { 2 5 }
 			}
 		}
 	}
@@ -319,7 +319,19 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.4011
-				days = { 5 10 }
+				days = { 2 5 }
+			}
+		}
+	}
+
+	character:lineofgoblinking3 = { # Golmog the Humongous Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.4016
+				days = { 2 5 }
 			}
 		}
 	}
@@ -333,7 +345,7 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.6001
-				days = { 5 10 }
+				days = { 2 5 }
 			}
 		}
 	}
