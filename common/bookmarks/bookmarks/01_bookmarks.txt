@@ -1330,9 +1330,9 @@ bm_120_fourth_age_05 = {
 #		animation = personality_honorable
 #	}
 	
-	# Hack the Dragon
+	# Durblakh the Dragon
 	character = {
-		name = "bookmark_fa_05_hack"
+		name = "bookmark_fa_05_durblakh"
 		dynasty = dynasty_oz
 		dynasty_splendor_level = 10
 		type = male
