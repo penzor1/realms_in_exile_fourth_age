@@ -27,7 +27,7 @@
  nick_the_wanderer:0 "the Wanderer"
  nick_the_wanderer_desc:0 "$DEFAULT_NICKNAME_DESC$"
  nick_the_humongous:0 "the Humongous"
- nick_the_humongous_desc:0 "Bloated in body and blessed in belly, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] said to feast in honour of [CharYourHerHis(CHARACTER)] god with every breath taken."
+ nick_the_humongous_desc:0 "Bloated in body and blessed in belly, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] said to feast in honour of [CharYourHerHis(CHARACTER)] god with every disgusting breath taken."
  nick_the_blubbering:0 "the Blubbering"
  nick_the_blubbering_desc:0 "They say the Great Fat One shaped [CHARACTER.GetShortUINameNoTooltipNoFormat|U] in his own corpulent image – and kept on shaping."
  nick_the_steadfast:0 "the Steadfast" # Alt Boromir son of Denethor
