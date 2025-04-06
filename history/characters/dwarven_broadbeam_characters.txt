@@ -3308,7 +3308,7 @@ lineofdwalin99 = {
     }
 
     7157.5.21 = {
-        set_designated_heir_unsafe = lineofdwalinVII
+        set_designated_heir_unsafe = character:lineofdwalinVII
     }
 
     7181.1.11 = {

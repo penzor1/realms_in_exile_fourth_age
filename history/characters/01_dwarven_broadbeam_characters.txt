@@ -9,6 +9,7 @@ lineofdwalinVII = { # Dwalin VII the Last, grandson of Hreithmar the Unexpected
     mother = lineofdwalinVIImother
 
     trait = education_stewardship_5
+	dna = dorfdad_dwalin_dna
 
     diplomacy = 5
     martial = 5
@@ -27,7 +28,6 @@ lineofdwalinVII = { # Dwalin VII the Last, grandson of Hreithmar the Unexpected
 
     7157.5.21 = {
         name = Dw_alin # VII
-        dna = dorfdad_dwalin_dna
         remove_character_modifier = reflection_of_dwalin
         trait = dwarf_father
 		# Confirmed as reincarnation

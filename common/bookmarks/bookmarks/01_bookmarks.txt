@@ -9,6 +9,24 @@ bm_120_fourth_age_02 = {
 		value = 0
 	}
 	
+	# Hreithmar, the Unexepected
+	character = {
+		name = "bookmark_fa_02_hreithmar"
+		dynasty = dynasty_dwalin
+		dynasty_splendor_level = 10
+		type = male
+		birth = 6943.5.16
+		title = k_belegost
+		government = feudal_government
+		religion = faith_broadbeams
+		culture = broadbeams
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = lineofdwalin99
+		position = { 250 200 }
+		animation = personality_honorable
+	#add family
+	}
+	
 	# Anárion, Regent Restorator
 	character = {
 		name = "bookmark_fa_02_anarion"
@@ -22,7 +40,7 @@ bm_120_fourth_age_02 = {
 		culture = arnorian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineisildur48
-		position = { 400 400 }
+		position = { 750 450 }
 		animation = personality_honorable
 		# Eärnur, Future of the Realm
 		character = {
@@ -167,24 +185,24 @@ bm_120_fourth_age_02 = {
 		}
 	}
 	
-	# Fili, son of Dori
-	character = {
-		name = "bookmark_fa_02_fili"
-		dynasty = dynasty_durin
-		dynasty_splendor_level = 10
-		type = male
-		birth = 7036.6.30
-		title = c_rhunlest
-		government = feudal_government
-		religion = faith_khazad
-		culture = longbeards
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = lineofdurin112
-		position = { 800 500 }
-		animation = personality_honorable
-	}
+#	# Fili, son of Dori
+#	character = {
+#		name = "bookmark_fa_02_fili"
+#		dynasty = dynasty_durin
+#		dynasty_splendor_level = 10
+#		type = male
+#		birth = 7036.6.30
+#		title = c_rhunlest
+#		government = feudal_government
+#		religion = faith_khazad
+#		culture = longbeards
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+#		history_id = lineofdurin112
+#		position = { 800 500 }
+#		animation = personality_honorable
+#	}
 
-	# Cogan, the Chief
+	# Cogan, King of the Hills
 	character = {
 		name = "bookmark_fa_02_cogan"
 		dynasty = dynasty_caradach
@@ -1082,7 +1100,7 @@ bm_120_fourth_age_05 = {
 		value = 0
 	}
 	
-#	# Hreithmar, the Blue King
+#	# Hreithmar, the Unexepected
 #	character = {
 #		name = "bookmark_fa_05_hreithmar"
 #		dynasty = dynasty_dwalin

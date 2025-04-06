@@ -41,7 +41,7 @@ linesteward45 = {
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward40 # Faramir
-	mother = 6000035 # Eowyn
+	mother = lineofeofor18 # Eowyn
 	female = yes
 	
 	trait = education_stewardship_3
@@ -49,13 +49,13 @@ linesteward45 = {
 	trait = beauty_good_1
 	trait = blood_of_numenor_2
 	
-	7075.1.1 = { #FO23
+	7075.1.1 = {
 		birth = yes
 		effect = {
 			learn_language = language_rohirric
 		}
 	}
-	7147.1.1 = { #FO95
+	7147.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }

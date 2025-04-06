@@ -261,7 +261,7 @@ lineofgoblinking4 = {
 	religion = faith_goblin_town
 	culture = towndweller_goblin
 	father = lineofgoblinking3 # Golmog
-	mother = lineofgoblinking2wife # Mogsharlob
+	mother = lineofgoblinking3wife # Mogsharlob
 	dna = unglob_the_blubbering_dna
 	
 	trait = gluttonous
@@ -294,7 +294,7 @@ lineofgoblinking5 = {
 	religion = faith_goblin_town
 	culture = towndweller_goblin
 	father = lineofgoblinking3 # Golmog
-	mother = lineofgoblinking2wife # Mogsharlob
+	mother = lineofgoblinking3wife # Mogsharlob
 	
 	trait = spindly
 	
