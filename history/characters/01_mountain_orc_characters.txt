@@ -67,6 +67,13 @@ lineofazog14 = {
 
 	father = lineofazog6 #Gorgol
 	mother = lineofazog6wife
+
+	diplomacy = 2
+	martial = 8
+	stewardship = 8
+	intrigue = 5
+	learning = 5
+	prowess = 8
 	
 	trait = brave
 	trait = zealous
@@ -121,6 +128,13 @@ lineofazog15 = {
 	culture = ghrazim
 	father = lineofazog6 #Gorgol
 	mother = lineofazog6wife
+
+	diplomacy = 0
+	martial = 4
+	stewardship = 5
+	intrigue = 10
+	learning = 9
+	prowess = 9
 	
 	trait = ambitious
 	trait = vengeful
@@ -195,11 +209,20 @@ lineofazog16 = {
 
 	father = lineofazog7 # Bolg the lesser
 	mother = lineofazog7wife
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 6
+	intrigue = 4
+	learning = 6
+	prowess = 10
 	
 	trait = ambitious
 	trait = greedy
+	trait = callous
 	
-	trait = education_diplomacy_2
+	trait = education_martial_4
+	
 	trait = adventurer
 	trait = physique_good_1
 	trait = rough_terrain_expert
@@ -274,10 +297,19 @@ lineofazog20 = {
 
 	father = lineofazog16 # Bolgakh I
 	mother = lineofazog16wife
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 4
+	intrigue = 2
+	learning = 2
+	prowess = 6
 	
 	trait = deceitful
 	trait = gluttonous
 	trait = gregarious
+
+	trait = education_martial_1
 	
 	trait = lifestyle_reveler
 	trait = drunkard
@@ -320,9 +352,19 @@ lineofazog21 = {
 
 	father = lineofazog20 # Burthrakh
 	mother = lineofazog20wife
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 7
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = education_stewardship_3
 	
 	trait = brave
 	trait = eccentric
+	trait = vengeful
 	
 	trait = education_martial_3
 	trait = whole_of_body
@@ -396,6 +438,8 @@ lineofazog17 = {
 	trait = gregarious
 	trait = content
 	trait = generous
+
+	trait = education_intrigue_4
 	
 	trait = family_first
 	

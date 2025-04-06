@@ -159,15 +159,21 @@ linebellbreaker1 = {
 # Town Dwellers
 lineofgoblinking2 = {
 	name = Wedegog
+
 	dynasty = dynasty_gorkil
 	religion = faith_goblin_town
 	culture = towndweller_goblin
+
+	dna = wedegog_dna
+
 	father = lineofgoblinking1 # Gorkil
 	#mother = 
 	
 	trait = gluttonous
 	trait = lustful
 	trait = cynical
+
+	trait = education_stewardship_2
 
 	trait = comfort_eater
 	trait = seducer
@@ -194,6 +200,8 @@ lineofgoblinking2wife = {
 	trait = brave
 	trait = ambitious
 	trait = gluttonous
+
+	trait = education_intrigue_1
 	
 	7041.6.16 = {
 		birth = yes
@@ -256,7 +264,7 @@ lineofgoblinking3wife = {
 	trait = gluttonous
 	trait = lazy
 
-	trait = education_intrigue_3
+	trait = education_stewardship_3
 	
 	7073.10.17 = {
 		birth = yes

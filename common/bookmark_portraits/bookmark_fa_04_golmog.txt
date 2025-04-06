@@ -98,7 +98,7 @@ bookmark_fa_04_golmog={
  		complexion={ "complexion_no_face" 255 "complexion_no_face" 255 }
  		gene_height={ "normal_height" 70 "normal_height" 46 }
  		gene_bs_body_type={ "body_fat_head_fat_low" 255 "body_fat_head_fat_low" 16 }
- 		gene_bs_body_shape={ "body_shape_apple_full" 158 "body_shape_apple_full" 31 }
+ 		gene_bs_body_shape={ "body_shape_apple_full" 192 "body_shape_apple_full" 31 }
  		gene_bs_bust={ "bust_clothes" 56 "bust_shape_4_half" 112 }
  		gene_age={ "old_2" 14 "old_2" 14 }
  		gene_eyebrows_shape={ "far_spacing_lower_thickness" 161 "far_spacing_lower_thickness" 161 }
@@ -119,7 +119,7 @@ bookmark_fa_04_golmog={
  		race_body_accessory={ "uruk" 255 "uruk" 255 }
  		gene_hunchbacked={ "hunchbacked" 3 "hunchbacked" 0 }
  		beards={ "isengard_urukhai_beards_straight" 12 "no_beard" 0 }
- 		cloaks={ "no_cloak" 211 "no_cloak" 0 }
+ 		cloaks={ "fp1_cloak" 242 "no_cloak" 0 }
  		hairstyles={ "no_hairstyles" 153 "all_hairstyles" 0 }
  		special_clothing_accessory={ "male_uruk_berserker_legwear" 40 "male_uruk_berserker_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
@@ -127,11 +127,20 @@ bookmark_fa_04_golmog={
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		clothes={ "goblin_clothes" 152 "" 0 }
+ 		headgear={ "dwarf_high_headgear" 189 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 979141817 979141817 }
 	tags={ {
 			hash=1367985987
+			invert=no
+		}
+ {
+			hash=1500963499
+			invert=no
+		}
+ {
+			hash=3672171019
 			invert=no
 		}
  }

@@ -92,13 +92,13 @@ bookmark_fa_01_earnur={
  		face_detail_nose_tip_def={ "nose_tip_def" 116 "nose_tip_def" 41 }
  		face_detail_temple_def={ "temple_def" 107 "temple_def" 99 }
  		expression_brow_wrinkles={ "brow_wrinkles_03" 224 "brow_wrinkles_01" 107 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 134 "eye_wrinkles_03" 47 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 100 "eye_wrinkles_03" 47 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 23 "forehead_wrinkles_02" 0 }
  		expression_other={ "cheek_wrinkles_left_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_1" 191 "complexion_beauty_1" 27 }
  		gene_height={ "normal_height" 175 "normal_height" 156 }
  		gene_bs_body_type={ "body_fat_head_fat_full" 143 "body_fat_head_fat_full" 124 }
- 		gene_bs_body_shape={ "body_shape_pear_half" 67 "body_shape_hourglass_half" 1 }
+ 		gene_bs_body_shape={ "body_shape_pear_half" 77 "body_shape_hourglass_half" 1 }
  		gene_bs_bust={ "bust_clothes" 90 "bust_default" 213 }
  		gene_age={ "old_4" 183 "old_beauty_1" 3 }
  		gene_eyebrows_shape={ "far_spacing_low_thickness" 173 "far_spacing_low_thickness" 104 }
@@ -125,21 +125,29 @@ bookmark_fa_01_earnur={
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "arnorian_high_clothes" 84 "" 0 }
- 		headgear={ "uialdain_low_headgear" 207 "no_headgear" 0 }
+ 		clothes={ "arnorian_war_clothes" 149 "" 0 }
+ 		headgear={ "arnorian_war_headgear" 187 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 979141817 979141817 }
+	entity={ 616600735 616600735 }
 	tags={ {
+			hash=1989892411
+			invert=no
+		}
+ {
 			hash=2125534279
 			invert=no
 		}
  {
-			hash=1554943520
+			hash=3941715396
 			invert=no
 		}
  {
 			hash=681013727
+			invert=no
+		}
+ {
+			hash=726151402
 			invert=no
 		}
  {
@@ -152,6 +160,10 @@ bookmark_fa_01_earnur={
 		}
  {
 			hash=1563190100
+			invert=no
+		}
+ {
+			hash=2842715111
 			invert=no
 		}
  {

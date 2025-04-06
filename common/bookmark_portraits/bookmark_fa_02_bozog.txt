@@ -98,7 +98,7 @@ bookmark_fa_02_bozog={
  		complexion={ "complexion_no_face" 255 "complexion_no_face" 255 }
  		gene_height={ "normal_height" 118 "normal_height" 127 }
  		gene_bs_body_type={ "body_fat_head_fat_medium" 50 "body_fat_head_fat_low" 185 }
- 		gene_bs_body_shape={ "body_shape_pear_full" 170 "body_shape_average" 237 }
+ 		gene_bs_body_shape={ "body_shape_pear_full" 197 "body_shape_average" 237 }
  		gene_bs_bust={ "bust_clothes" 92 "bust_default" 151 }
  		gene_age={ "old_2" 217 "old_1" 224 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 91 "close_spacing_lower_thickness" 1 }
@@ -130,7 +130,7 @@ bookmark_fa_02_bozog={
  		special_clothing_accessory={ "male_uruk_berserker_legwear" 5 "male_uruk_berserker_legwear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 3267808479 3267808479 }
+	entity={ 3942081117 3942081117 }
 	tags={ {
 			hash=2670398845
 			invert=no
