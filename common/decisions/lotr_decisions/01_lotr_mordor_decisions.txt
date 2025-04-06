@@ -1,0 +1,150 @@
+﻿### MORDOR DECISIONS ###
+decision_follow_the_voices = {
+	title = decision_follow_the_voices
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
+	}
+	
+	ai_goal = yes
+	selection_tooltip = decision_follow_the_voices_tooltip
+	desc = decision_follow_the_voices_desc
+	confirm_text = decision_follow_the_voices_confirm
+	
+	cost = {
+		gold = 25
+		prestige = 200
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		has_character_flag = is_eldacar
+		has_title = title:d_watch_on_mordor
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_shutdown
+			}
+		}
+	}
+
+	is_valid = {
+		has_title = title:d_watch_on_mordor
+		completely_controls = title:c_morannon
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_at_war = no
+	}
+	
+	effect = {
+		custom_tooltip = decision_follow_the_voices_tooltip # you will seek the voices
+		character:lineisildur49 = { # Eldacar
+			trigger_event = {
+				id = ns_lotr_intro_events.6207
+				days = { 90 360 }
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = { # Game Rule
+			has_game_rule = default_ai_behavior
+			add = 100
+		}
+		modifier = { # Game Rule
+			has_game_rule = weighted_ai_behavior
+			add = 25
+		}
+		modifier = { # Game Rule
+			has_game_rule = random_ai_behavior
+			add = 10
+		}
+	}
+}
+
+decision_search_for_the_source = {
+	title = search_for_the_source
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
+	}
+	
+	ai_goal = yes
+	selection_tooltip = decision_search_for_the_source_tooltip
+	desc = decision_search_for_the_source_desc
+	confirm_text = decision_search_for_the_source_confirm
+	
+	cost = {
+		gold = 100
+		prestige = 500
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		has_character_flag = is_eldacar
+		has_title = title:d_watch_on_mordor
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_shutdown
+			}
+		}
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:following_the_voices
+		}
+	}
+
+	is_valid = {
+		has_title = title:d_watch_on_mordor
+		completely_controls = title:c_morannon
+		piety_level >= 2
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_at_war = no
+	}
+	
+	effect = {
+		custom_tooltip = decision_search_for_the_source_tooltip # you will seek the voices
+		title:c_morannon = {
+			change_development_level = -1
+		}
+		character:lineisildur49 = { # Eldacar
+			trigger_event = {
+				id = ns_lotr_intro_events.6208
+				days = { 360 980 }
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = { # Game Rule
+			has_game_rule = default_ai_behavior
+			add = 100
+		}
+		modifier = { # Game Rule
+			has_game_rule = weighted_ai_behavior
+			add = 25
+		}
+		modifier = { # Game Rule
+			has_game_rule = random_ai_behavior
+			add = 10
+		}
+	}
+}
