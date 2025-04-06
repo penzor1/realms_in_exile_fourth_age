@@ -11807,7 +11807,33 @@
 		}
 	}
 
- # Olog-hai Shagdush
+ # fictional, 4th Age Olog-hai
+
+shaq_olog_hai_portrait = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_balding_01
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				accessory = 0.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofshaq1
+				this = character:lineofshaq1
+			}
+		}
+	}
 
  	shagdush_olog_hai_portrait = {
 		dna_modifiers = {

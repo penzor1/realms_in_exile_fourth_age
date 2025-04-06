@@ -2,7 +2,7 @@
 # History database id:lineofbomfur3
 bookmark_fa_05_brogur={
 	type=male
-	id=33670
+	id=33688
 	random_seed=3657977885
 	age=0.460638
 	genes={ 		hair_color={ 76 229 234 54 }
@@ -97,8 +97,8 @@ bookmark_fa_05_brogur={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 110 }
  		complexion={ "complexion_4" 124 "complexion_1" 163 }
  		gene_height={ "normal_height" 55 "normal_height" 54 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 128 "body_fat_head_fat_medium" 148 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 146 "body_shape_rectangle_full" 237 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 124 "body_fat_head_fat_medium" 148 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 132 "body_shape_rectangle_full" 237 }
  		gene_bs_bust={ "bust_clothes" 66 "bust_clothes" 74 }
  		gene_age={ "old_2" 49 "old_1" 34 }
  		gene_eyebrows_shape={ "avg_spacing_high_thickness" 184 "avg_spacing_high_thickness" 229 }

@@ -2,7 +2,7 @@
 # History database id:lineofdurin108
 bookmark_fa_05_dain={
 	type=male
-	id=34208
+	id=34246
 	random_seed=233367542
 	age=0.372553
 	genes={ 		hair_color={ 223 109 250 20 }
@@ -97,8 +97,8 @@ bookmark_fa_05_dain={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_7" 126 "complexion_5" 252 }
  		gene_height={ "normal_height" 60 "normal_height" 73 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 100 "body_fat_head_fat_medium" 158 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 168 "body_shape_rectangle_half" 234 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 113 "body_fat_head_fat_medium" 158 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 185 "body_shape_rectangle_half" 234 }
  		gene_bs_bust={ "bust_clothes" 88 "bust_clothes" 84 }
  		gene_age={ "old_3" 23 "old_1" 1 }
  		gene_eyebrows_shape={ "avg_spacing_high_thickness" 244 "far_spacing_high_thickness" 149 }

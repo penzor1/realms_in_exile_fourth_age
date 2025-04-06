@@ -2,7 +2,7 @@
 # History database id:lineofazog18
 bookmark_fa_05_urzog={
 	type=male
-	id=34224
+	id=34262
 	random_seed=2641612021
 	age=0.416364
 	genes={ 		hair_color={ 0 0 0 0 }
@@ -97,7 +97,7 @@ bookmark_fa_05_urzog={
  		expression_other={ "cheek_wrinkles_both_01" 201 "cheek_wrinkles_both_01" 201 }
  		complexion={ "complexion_no_face" 0 "complexion_no_face" 255 }
  		gene_height={ "normal_height" 189 "normal_height" 109 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 133 "body_fat_head_fat_low" 112 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 132 "body_fat_head_fat_low" 112 }
  		gene_bs_body_shape={ "body_shape_hourglass_full" 255 "body_shape_hourglass_full" 129 }
  		gene_bs_bust={ "bust_clothes" 84 "bust_default" 209 }
  		gene_age={ "old_3" 165 "old_3" 165 }

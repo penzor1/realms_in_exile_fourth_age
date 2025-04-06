@@ -2,7 +2,7 @@
 # History database id:lineofazog16
 bookmark_fa_04_bolgakh={
 	type=male
-	id=26770
+	id=26779
 	random_seed=2862003865
 	age=1.000000
 	genes={ 		hair_color={ 0 0 0 0 }
@@ -54,7 +54,7 @@ bookmark_fa_04_bolgakh={
  		gene_bs_eye_upper_lid_size={ "eye_upper_lid_size_pos" 33 "eye_upper_lid_size_pos" 33 }
  		gene_bs_forehead_brow_curve={ "forehead_brow_curve_pos" 4 "forehead_brow_curve_pos" 4 }
  		gene_bs_forehead_brow_forward={ "forehead_brow_forward_pos" 67 "forehead_brow_forward_pos" 67 }
- 		gene_bs_forehead_brow_inner_height={ "forehead_brow_inner_height_pos" 102 "forehead_brow_inner_height_pos" 28 }
+ 		gene_bs_forehead_brow_inner_height={ "forehead_brow_inner_height_pos" 28 "forehead_brow_inner_height_pos" 28 }
  		gene_bs_forehead_brow_outer_height={ "forehead_brow_outer_height_pos" 71 "forehead_brow_outer_height_pos" 71 }
  		gene_bs_forehead_brow_width={ "forehead_brow_width_pos" 247 "forehead_brow_width_pos" 247 }
  		gene_bs_jaw_def={ "jaw_def_neg" 134 "jaw_def_neg" 134 }
@@ -91,14 +91,14 @@ bookmark_fa_04_bolgakh={
  		face_detail_nose_ridge_def={ "nose_ridge_def_pos" 88 "nose_ridge_def_pos" 88 }
  		face_detail_nose_tip_def={ "nose_tip_def" 98 "nose_tip_def" 98 }
  		face_detail_temple_def={ "temple_def" 151 "temple_def" 151 }
- 		expression_brow_wrinkles={ "brow_wrinkles_04" 255 "brow_wrinkles_04" 250 }
+ 		expression_brow_wrinkles={ "brow_wrinkles_04" 250 "brow_wrinkles_04" 250 }
  		expression_eye_wrinkles={ "eye_wrinkles_02" 255 "eye_wrinkles_02" 223 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 244 "forehead_wrinkles_01" 244 }
- 		expression_other={ "cheek_wrinkles_both_01" 255 "cheek_wrinkles_both_01" 234 }
+ 		expression_other={ "cheek_wrinkles_both_01" 234 "cheek_wrinkles_both_01" 234 }
  		complexion={ "complexion_no_face" 255 "complexion_no_face" 255 }
  		gene_height={ "normal_height" 128 "normal_height" 128 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 126 "body_fat_head_fat_low" 102 }
- 		gene_bs_body_shape={ "body_shape_rectangle_half" 178 "body_shape_rectangle_half" 111 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 93 "body_fat_head_fat_low" 102 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_half" 164 "body_shape_rectangle_half" 111 }
  		gene_bs_bust={ "bust_clothes" 68 "bust_shape_1_full" 107 }
  		gene_age={ "old_4" 120 "old_4" 120 }
  		gene_eyebrows_shape={ "far_spacing_lower_thickness" 20 "far_spacing_lower_thickness" 20 }
@@ -130,7 +130,7 @@ bookmark_fa_04_bolgakh={
  		special_clothing_accessory={ "male_uruk_berserker_legwear" 30 "male_uruk_berserker_legwear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 2268070609 2268070609 }
+	entity={ 979141817 979141817 }
 	tags={ {
 			hash=2670398845
 			invert=no

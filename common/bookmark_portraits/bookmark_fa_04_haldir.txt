@@ -2,7 +2,7 @@
 # History database id:lineofhaldir2
 bookmark_fa_04_haldir={
 	type=male
-	id=1406
+	id=1410
 	random_seed=3748112889
 	age=0.311407
 	genes={ 		hair_color={ 45 6 178 133 }
