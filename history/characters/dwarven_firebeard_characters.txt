@@ -3617,7 +3617,7 @@ lineofuri107 = {
         add_spouse = lineofuri108
     }
 	7052.5.1 = {
-		give_nickname = nick_the_unworthy
+		give_nickname = nick_the_unworthy_dwarf
 		effect = {
 			add_character_flag = {
 				flag = had_nickname_event

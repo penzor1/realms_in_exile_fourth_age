@@ -16,28 +16,27 @@ bm_120_fourth_age_02 = {
 		dynasty_splendor_level = 10
 		type = male
 		birth = 6943.5.16
-		title = k_belegost
+		title = k_broadbeams
 		government = feudal_government
 		religion = faith_broadbeams
 		culture = broadbeams
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofdwalin99
 		position = { 250 200 }
-		animation = personality_honorable
+		animation = personality_compassionate
 	#add family
 		character = {
-			 name = "bookmark_fa_05_dwalinVII"
+			 name = "bookmark_fa_02_dwalinVII"
 			 relation = "BOOKMARK_RELATION_GRANDSON"
 			 dynasty = dynasty_dwalin
 			 type = male
 			 birth = 7139.5.21
-			 title = k_belegost
-			 government = feudal_government
 			 religion = faith_broadbeams
 			 culture = broadbeams
 			 history_id = lineofdwalinVII
-			}
-	
+		}
+	}
+
 	# Anárion, Regent Restorator
 	character = {
 		name = "bookmark_fa_02_anarion"
@@ -52,7 +51,7 @@ bm_120_fourth_age_02 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineisildur48
 		position = { 750 450 }
-		animation = personality_honorable
+		animation = personality_bold
 		# Eärnur, Future of the Realm
 		character = {
 			name = "bookmark_fa_02_earnur"
@@ -94,7 +93,7 @@ bm_120_fourth_age_02 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoftook83
 		position = { 400 600 }
-		animation = personality_honorable
+		animation = personality_coward
 		# Marmaduke, the Buck
 		character = {
 			name = "bookmark_fa_02_marmaduke"
@@ -227,7 +226,7 @@ bm_120_fourth_age_02 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = linecaradoc14
 		position = { 1100 200 }
-		animation = personality_honorable
+		animation = schadenfreude
 		# Tadg, Lefthand
 		character = {
 			name = "bookmark_fa_02_tadg"
@@ -301,11 +300,11 @@ bm_120_fourth_age_02 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofglorfindel
 		position = { 1050 550 }
-		animation = personality_honorable
+		animation = personality_rational
 		# Elladan, King of Imladris
 		character = {
 			name = "bookmark_fa_02_elladan"
-			relation = "BOOKMARK_RELATION_BROTHER"
+			relation = "BOOKMARK_RELATION_LIEGE"
 			dynasty_house = house_elrond
 			type = male
 			birth = 4163.1.1
@@ -331,7 +330,7 @@ bm_120_fourth_age_02 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofeofor21
 		position = { 1100 800 }
-		animation = personality_honorable
+		animation = personality_zealous
 		# Eofara, King of Rohan
 		character = {
 			name = "bookmark_fa_01_eofara"
@@ -348,7 +347,6 @@ bm_120_fourth_age_02 = {
 		}
 	# add tharbad
 	}
-}
 
 # Mordor
 bm_120_fourth_age_03 = {
@@ -374,7 +372,20 @@ bm_120_fourth_age_03 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineisildur49
 		position = { 400 200 }
-		animation = personality_honorable
+		animation = personality_greedy
+		# Eldarion, King of RK
+		character = {
+			name = "bookmark_fa_01_eldarion"
+			relation = "BOOKMARK_RELATION_FATHER"
+			dynasty_house = house_telcontar
+			type = male
+			birth = 7054.12.25
+			title = e_reunitedkingdom
+			government = feudal_government
+			religion = faith_edain
+			culture = dunedain
+			history_id = lineisildur43
+		}
 	}
 	
 	# Vaugan, the Fishmonger
@@ -391,7 +402,7 @@ bm_120_fourth_age_03 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofvronkhar45
 		position = { 1100 150 }
-		animation = personality_honorable
+		animation = personality_compassionate
 		# Mareke II, Throne-luster
 		character = {
 			name = "bookmark_fa_03_mareke"
@@ -577,7 +588,7 @@ bm_120_fourth_age_04 = {
 #		}
 #	}
 	
-	# Golmog, the Humongus
+	# Golmog, the Humongous
 	character = {
 		name = "bookmark_fa_04_golmog"
 		dynasty = dynasty_gorkil
@@ -591,7 +602,7 @@ bm_120_fourth_age_04 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofgoblinking3
 		position = { 300 300 }
-		animation = personality_honorable
+		animation = personality_greedy
 		# Unglob, the Blubbering
 		character = {
 			name = "bookmark_fa_04_unglob"
@@ -664,7 +675,7 @@ bm_120_fourth_age_04 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofazog16
 		position = { 300 550 }
-		animation = personality_honorable
+		animation = personality_vengeful
 		# Bolgakh, the Younger
 		character = {
 			name = "bookmark_fa_04_bolgakh2"
@@ -677,6 +688,20 @@ bm_120_fourth_age_04 = {
 			religion = way_of_strength
 			culture = worauthai_madur
 			history_id = lineofazog21
+		}
+		# Mazog II, the Spurned
+		character = {
+			name = "bookmark_fa_04_mazog"
+			relation = "BOOKMARK_RELATION_RIVAL"
+			dynasty_house = house_mazog
+			dynasty_splendor_level = 10
+			type = male
+			birth = 7063.2.4
+			title = d_barazinbar
+			government = feudal_government
+			religion = cult_of_the_ulukai
+			culture = ghrazim
+			history_id = lineofazog17
 		}
 	}
 	
@@ -737,7 +762,7 @@ bm_120_fourth_age_04 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofhaldir2
 		position = { 650 600 }
-		animation = personality_honorable
+		animation = personality_zealous
 		# Elrohir, High King of Lorien
 		character = {
 			name = "bookmark_fa_04_elrohir"
@@ -798,7 +823,7 @@ bm_120_fourth_age_04 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoflanthir3
 		position = { 600 200 }
-		animation = personality_honorable
+		animation = personality_coward
 		# Moriel, the Tutor
 		character = {
 			name = "bookmark_fa_04_moriel"
@@ -944,7 +969,7 @@ bm_120_fourth_age_04 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoflenwe6
 		position = { 900 400 }
-		animation = personality_honorable
+		animation = personality_dishonorable
 		# Thranduil, High King of Lasgalen
 		character = {
 			name = "bookmark_fa_04_thranduil"
@@ -1007,7 +1032,7 @@ bm_120_fourth_age_04 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoflanthir4
 		position = { 1100 250 }
-		animation = personality_honorable
+		animation = personality_rational
 		# Sargon, 
 		character = {
 			name = "bookmark_fa_04_sargon"
@@ -1068,7 +1093,7 @@ bm_120_fourth_age_04 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofshaq2
 		position = { 1200 600 }
-		animation = personality_honorable
+		animation = personality_irrational
 	}
 	
 #	# Gharsh, the Rat
@@ -1126,7 +1151,7 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofuri90
 		position = { 300 450 }
-		animation = personality_honorable
+		animation = disapproval
 	}
 	
 #	# Olius, the Unworthy
@@ -1173,7 +1198,7 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofuri126
 		position = { 350 700 }
-		animation = personality_honorable
+		animation = personality_dishonorable
 		# Olius, the Unworthy
 		character = {
 			name = "bookmark_fa_05_olius"
@@ -1181,11 +1206,12 @@ bm_120_fourth_age_05 = {
 			dynasty = dynasty_uri
 			type = male
 			birth = 6909.7.18
-			title = k_buzra_dum
+			title = k_firebeards
 			government = feudal_government
 			religion = faith_broadbeams
 			culture = firebeards
 			history_id = lineofuri107
+			animation = personality_coward
 		}
 	}
 	
@@ -1203,7 +1229,7 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofazog14
 		position = { 650 150 }
-		animation = personality_honorable
+		animation = personality_bold
 		# Hurog, the Manipulator
 		character = {
 			name = "bookmark_fa_05_hurog"
@@ -1216,6 +1242,7 @@ bm_120_fourth_age_05 = {
 			religion = cult_of_the_ulukai
 			culture = ghrazim
 			history_id = lineofazog15
+			animation = personality_dishonorable
 		}
 	}
 	
@@ -1233,19 +1260,20 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofazog17
 		position = { 650 450 }
-		animation = personality_honorable
-		# Urzog, 
+		animation = personality_vengeful
 		character = {
-			name = "bookmark_fa_05_urzog"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty_house = house_mazog
+			name = "bookmark_fa_04_bolgakh"
+			relation = "BOOKMARK_RELATION_RIVAL"
+			dynasty_house = house_bolgakh
+			dynasty_splendor_level = 10
 			type = male
-			birth = 7087.7.11
-			title = d_barazinbar
+			birth = 6935.6.17
+			title = d_zirakzigil
 			government = feudal_government
-			religion = cult_of_the_ulukai
-			culture = ghrazim
-			history_id = lineofazog18
+			religion = way_of_strength
+			culture = worauthai_madur
+			history_id = lineofazog16
+			personality = personality_vengeful
 		}
 	}
 	
@@ -1280,7 +1308,7 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofdurin100
 		position = { 650 800 }
-		animation = personality_honorable
+		animation = personality_content
 		# Wirwir, Glitterbeard
 		character = {
 			name = "bookmark_fa_05_wirwir"
@@ -1296,7 +1324,7 @@ bm_120_fourth_age_05 = {
 		}
 	}
 	
-	# Durin, the Reincarnated
+	# Durin VII, the Last
 	character = {
 		name = "bookmark_fa_05_durin"
 		dynasty = dynasty_durin
@@ -1310,7 +1338,20 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofdurinVII
 		position = { 950 300 }
-		animation = personality_honorable
+		animation = personality_callous
+		# Thorin III, Stonehelm
+		character = {
+			name = "bookmark_fa_05_thorin"
+			relation = "BOOKMARK_RELATION_FATHER"
+			dynasty = dynasty_durin
+			type = male
+			birth = 6899.4.4
+			title = k_longbeards
+			government = feudal_government
+			religion = faith_khazad
+			culture = longbeards
+			history_id = lineofdurin91
+		}
 		# Dain III, the Brave
 		character = {
 			name = "bookmark_fa_05_dain"
@@ -1356,7 +1397,7 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofoz1
 		position = { 1200 150 }
-		animation = personality_honorable
+		animation = schadenfreude
 	}
 	
 	# Kili, the Brave
@@ -1373,7 +1414,7 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofdurin114
 		position = { 1200 400 }
-		animation = personality_honorable
+		animation = personality_rational
 		# Brogur, the Hammer
 		character = {
 			name = "bookmark_fa_05_brogur"
@@ -1487,7 +1528,7 @@ bm_120_fourth_age_05 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofvarya1
 		position = { 1100 700 }
-		animation = personality_honorable
+		animation = personality_bold
 	}
 }
 
@@ -1541,7 +1582,7 @@ bm_120_fourth_age_06 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineukorg6
 		position = { 650 450 }
-		animation = personality_honorable
+		animation = personality_vengeful
 		# Ukorg, 
 		character = {
 			name = "bookmark_fa_06_ukorg"
@@ -1584,7 +1625,7 @@ bm_120_fourth_age_06 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofrob2
 		position = { 1000 700 }
-		animation = personality_honorable
+		animation = personality_dishonorable
 		# Zauglob, the Hidden
 		character = {
 			name = "bookmark_fa_06_zauglob"

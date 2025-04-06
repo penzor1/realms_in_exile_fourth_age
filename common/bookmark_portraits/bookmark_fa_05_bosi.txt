@@ -2,7 +2,7 @@
 # History database id:lineofbifur2
 bookmark_fa_05_bosi={
 	type=male
-	id=33620
+	id=33624
 	random_seed=2741369228
 	age=0.466383
 	genes={ 		hair_color={ 127 253 2 255 }
@@ -91,14 +91,14 @@ bookmark_fa_05_bosi={
  		face_detail_nose_ridge_def={ "nose_ridge_def_pos" 18 "nose_ridge_def_pos" 149 }
  		face_detail_nose_tip_def={ "nose_tip_def" 212 "nose_tip_def" 139 }
  		face_detail_temple_def={ "temple_def" 140 "temple_def" 173 }
- 		expression_brow_wrinkles={ "brow_wrinkles_04" 238 "brow_wrinkles_02" 14 }
+ 		expression_brow_wrinkles={ "brow_wrinkles_04" 189 "brow_wrinkles_02" 14 }
  		expression_eye_wrinkles={ "eye_wrinkles_03" 197 "eye_wrinkles_01" 3 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 8 "forehead_wrinkles_02" 164 }
- 		expression_other={ "cheek_wrinkles_both_01" 33 "cheek_wrinkles_both_01" 0 }
+ 		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_2" 228 "complexion_7" 248 }
  		gene_height={ "normal_height" 52 "normal_height" 56 }
  		gene_bs_body_type={ "body_fat_head_fat_full" 133 "body_fat_head_fat_medium" 164 }
- 		gene_bs_body_shape={ "body_shape_pear_full" 212 "body_shape_triangle_half" 149 }
+ 		gene_bs_body_shape={ "body_shape_pear_full" 185 "body_shape_triangle_half" 149 }
  		gene_bs_bust={ "bust_clothes" 69 "bust_clothes" 79 }
  		gene_age={ "old_1" 185 "old_1" 163 }
  		gene_eyebrows_shape={ "far_spacing_avg_thickness" 187 "avg_spacing_low_thickness" 239 }
@@ -129,7 +129,7 @@ bookmark_fa_05_bosi={
  		headgear={ "dwarf_low_headgear" 151 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 807438772 807438772 }
+	entity={ 616600735 616600735 }
 	tags={ {
 			hash=1989892411
 			invert=no

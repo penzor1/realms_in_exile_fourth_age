@@ -15,7 +15,7 @@
 ### House of Dwalin the Wise ###
 ################################
 
-lineofdwalin0 = { # Born and died in the years of the Trees. Dwalin I, 'The Wise'
+lineofdwalin0 = { # Born and died in the years of the Trees. Dwálin I, 'The Wise'
     name = Dw_alin
 
     dynasty = dynasty_dwalin
@@ -239,7 +239,7 @@ lineofdwalin6 = {
     }
 }
 
-lineofdwalin7 = { # Dwalin II, son of Azaghal, who led his people to Khazad-dum. From his sons come two lines - one in the Blue Mountains and one in the Misty Mountains, to be reunited in his next incarnation
+lineofdwalin7 = { # Dwálin II, son of Azaghal, who led his people to Khazad-dum. From his sons come two lines - one in the Blue Mountains and one in the Misty Mountains, to be reunited in his next incarnation
     name = Dw_alin # II
 
     dynasty = dynasty_dwalin
@@ -839,7 +839,7 @@ lineofdwalin25 = {
     }
 }
 
-lineofdwalin27 = {# Born after the Dwalin lines were reforged
+lineofdwalin27 = {# Born after the Dwálin lines were reforged
     name = Dw_alin # III
 
     dynasty = dynasty_dwalin

@@ -5,11 +5,16 @@ lineofdwalinVII = { # Dwalin VII the Last, grandson of Hreithmar the Unexpected
     religion = faith_broadbeams
     culture = broadbeams
 
+    dna = dorfdad_dwalin_dna
+
     father = lineofdwalinVIIfather
     mother = lineofdwalinVIImother
 
+    trait = diligent
+    trait = patient
+    trait = content
+
     trait = education_stewardship_5
-	dna = dorfdad_dwalin_dna
 
     diplomacy = 5
     martial = 5
@@ -30,6 +35,12 @@ lineofdwalinVII = { # Dwalin VII the Last, grandson of Hreithmar the Unexpected
         name = Dw_alin # VII
         remove_character_modifier = reflection_of_dwalin
         trait = dwarf_father
+        give_nickname = nick_the_last_dorfdad_dwalin
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
 		# Confirmed as reincarnation
     }
 
