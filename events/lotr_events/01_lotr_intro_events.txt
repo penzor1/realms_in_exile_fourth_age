@@ -1346,7 +1346,7 @@ ns_lotr_intro_events.4011 = { # Bolgakh, the Hammer Intro
 	}
 	left_portrait = {
 		character = character:lineofazog16 # Bolgakh the Hammer
-		animation = aggressive_hammer
+		animation = marshal_mace
 	}
 	lower_left_portrait = {
 		character = character:lineofazog17
