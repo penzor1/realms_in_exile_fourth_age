@@ -1153,19 +1153,6 @@ bm_120_fourth_age_05 = {
 		position = { 300 450 }
 		animation = disapproval
 	}
-		# Úri VI
-			character = {
-			name = "bookmark_fa_05_uri_VI"
-			relation = "BOOKMARK_RELATION_FATHER"
-			dynasty = dynasty_uri
-			type = male
-			birth = 6751.4.22
-			religion = faith_broadbeams
-			culture = firebeards
-			history_id = lineofuriVI
-			position = { 300 450 }
-			animation = schadenfreude
-	}
 	
 #	# Olius, the Unworthy
 #	character = {
@@ -1226,17 +1213,6 @@ bm_120_fourth_age_05 = {
 			culture = firebeards
 			history_id = lineofuri107
 			animation = personality_coward
-		}
-		character = {
-			name = "bookmark_fa_05_eldberk"
-			relation = "BOOKMARK_RELATION_FATHER"
-			dynasty = dynasty_uri
-			type = male
-			birth = 6813.1.1
-			religion = faith_khazad
-			culture = firebeards
-			history_id = lineofuri122
-			animation = personality_zealous
 		}
 	}
 	
