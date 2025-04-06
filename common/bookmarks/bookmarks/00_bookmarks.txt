@@ -79,7 +79,7 @@ bm_120_fourth_age_01 = {
 #			culture = rohirrim
 #			history_id = lineofeofor20
 #		}
-	}
+#	}
 	
 	# Éofara, King of Rohan
 	character = {
