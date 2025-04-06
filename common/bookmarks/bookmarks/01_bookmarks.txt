@@ -37,7 +37,7 @@ bm_120_fourth_age_02 = {
 			 culture = broadbeams
 			 history_id = lineofdwalinVII
 			}
-	
+		}
 	# Anárion, Regent Restorator
 	character = {
 		name = "bookmark_fa_02_anarion"
