@@ -8,12 +8,15 @@
 #kinda canon, was supposed to be son of Balin at the white council instead of Gimli, tolkien canceled him last minute
 lineofdurin117 = {
 	name = Burin
+
 	dynasty = dynasty_durin
 	religion = faith_khazad
 	culture = longbeards
+
+	dna = burin_son_of_balin_dna
+
 	father = lineofdurin95 # Balin
 	mother = lineofuni65 
-	dna = burin_son_of_balin_dna
 	
 	6912.11.12 = {
 		birth = yes
@@ -27,14 +30,17 @@ lineofdurin117 = {
 #canon
 lineofdurinVII = {
 	name = Durin # Durin the Last
+
 	dynasty = dynasty_durin
 	religion = faith_khazad
 	culture = longbeards
-	father = lineofdurin91 # Thorin III
-	mother = lineofbravesoul118 # Thurfrith
+
 	dna = durin_dna
 	
 	sexuality = heterosexual
+	
+	father = lineofdurin91 # Thorin III
+	mother = lineofbravesoul118 # Thurfrith
 	
 	trait = education_stewardship_5
 
@@ -79,12 +85,14 @@ lineofdurinVII = {
 #fiction
 lineofbravesoul118 = { # Wife of Thorin III Stonehelm of Durin's Folk
 	name = Thurfrith
+	female = yes
+
 	dynasty = dynasty_bravesoul
 	religion = faith_khazad
 	culture = iron_hills
+
 	father = lineofbravesoul113
 	mother = lineofbravesoul114
-	female = yes
 
 	sexuality = heterosexual
 	
@@ -101,12 +109,15 @@ lineofbravesoul118 = { # Wife of Thorin III Stonehelm of Durin's Folk
 
 lineofdurin116 = {
 	name = Thrain
+
 	dynasty = dynasty_durin
 	religion = faith_khazad
 	culture = longbeards
+
+	dna = thrain_son_of_thorin_III_dna
+
 	father = lineofdurin91 # Thorin III
 	mother = lineofbravesoul118 # Thurfrith
-	dna = thrain_son_of_thorin_III_dna
 
 	sexuality = heterosexual
 
@@ -124,12 +135,14 @@ lineofdurin116 = {
 #fiction
 linegorin23 = { # Ai wife of Nain of Iron Hills
 	name = A_i
+	female = yes
+
 	dynasty = dynasty_gorin
 	religion = faith_khazad
 	culture = longbeards
+
 	father = linegorin19
 	mother = linegorin20
-	female = yes
 
 	sexuality = heterosexual
 	
@@ -146,12 +159,15 @@ linegorin23 = { # Ai wife of Nain of Iron Hills
 
 lineofdurin108 = {
 	name = D_ain # Dain III
+
 	dynasty = dynasty_durin
 	religion = faith_khazad
 	culture = longbeards
+
+	dna = dain_son_of_nain_dna
+
 	father = lineofdurin107 # Nain II
 	mother = linegorin23 # Ai
-	dna = dain_son_of_nain_dna
 
 	sexuality = heterosexual
 	
@@ -173,12 +189,14 @@ lineofdurin108 = {
 
 lineofdurin109 = {
 	name = D_is
+	female = yes
+
 	dynasty = dynasty_durin
 	religion = faith_khazad
 	culture = longbeards
+
 	father = lineofdurin107 # Nain II
 	mother = linegorin23 # Ai
-	female = yes
 
 	sexuality = heterosexual
 	
@@ -194,12 +212,14 @@ lineofdurin109 = {
 #fiction
 lineoftherrel78 = { # Wife of Dwalin of Thorin's Company
 	name = D_ufr
+	female = yes
+
 	dynasty = dynasty_therrel
 	religion = faith_khazad
 	culture = iron_hills
+
 	father = lineoftherrel69
 	mother = lineoftherrel70
-	female = yes
 
 	sexuality = heterosexual
 	
@@ -215,12 +235,15 @@ lineoftherrel78 = { # Wife of Dwalin of Thorin's Company
 }
 lineofdurin110 = {
 	name = Borin
+
 	dynasty = dynasty_durin
 	religion = faith_khazad
 	culture = longbeards
+
+	dna = borin_son_of_dwalin_dna
+
 	father = lineofdurin96 # Dwalin
 	mother = lineoftherrel78 # Dufr
-	dna = borin_son_of_dwalin_dna
 
 	sexuality = heterosexual
 	
@@ -239,12 +262,14 @@ lineofdurin110 = {
 
 lineofmorthain114 = { # Wife of Borin, son of Dwalin of Thorin's Company
 	name = Freyd_is
+	female = yes
+
 	dynasty = dynasty_morthain
 	religion = faith_khazad
 	culture = longbeards
+
 	father = lineofmorthain108
 	mother = lineofmorthain109
-	female = yes
 
 	sexuality = heterosexual
 		
@@ -258,12 +283,15 @@ lineofmorthain114 = { # Wife of Borin, son of Dwalin of Thorin's Company
 
 lineofdurin111 = { # Grandson of Dwalin
 	name = Fundin
+
 	dynasty = dynasty_durin
 	religion = faith_khazad
 	culture = longbeards
+	
+	dna = fundin_son_of_borin_dna
+
 	father = lineofdurin110 # Borin
 	mother = lineofmorthain114 # Freydis
-	dna = fundin_son_of_borin_dna
 
 	sexuality = heterosexual
 	
@@ -281,12 +309,15 @@ lineofdurin111 = { # Grandson of Dwalin
 #fiction
 lineofdurin112 = {
 	name = F_ili
+	
 	dynasty = dynasty_durin
 	religion = faith_khazad
 	culture = longbeards
+
+	dna = fili_son_of_dori_dna
+
 	father = lineofdurin104 # Dori
 	mother = lineoffalna49 # Skirfir
-	dna = fili_son_of_dori_dna
 
 	sexuality = heterosexual
 	
@@ -303,12 +334,15 @@ lineofdurin112 = {
 
 lineofdurin113 = {
 	name = N_ori
+	
 	dynasty = dynasty_durin
 	religion = faith_khazad
 	culture = longbeards
+
+	dna = nori_son_of_fili_dna
+
 	father = lineofdurin112 # Fili
 	mother = lineofhunduzir86
-	dna = nori_son_of_fili_dna
 
 	sexuality = heterosexual
 	
@@ -323,12 +357,15 @@ lineofdurin113 = {
 #line of Nori of Thorin's Company
 lineofdurin114 = {
 	name = Kili
+
 	dynasty = dynasty_durin
 	religion = faith_khazad
 	culture = longbeards
+
+	dna = kili_son_of_nori_dna
+
 	father = lineofdurin105 # Nori
 	mother = lineofuni69
-	dna = kili_son_of_nori_dna
 
 	sexuality = heterosexual
 	
@@ -345,12 +382,14 @@ lineofdurin114 = {
 
 lineofhunduzir87 = { # Wife of Kili, son of Nori
 	name = H_ar 
+	female = yes
+
 	dynasty = dynasty_hundu_zir
 	religion = faith_khazad
 	culture = longbeards
+
 	father = lineofhunduzir84
     mother = lineofhunduzir85
-	female = yes
 
 	sexuality = heterosexual
 	
@@ -364,12 +403,16 @@ lineofhunduzir87 = { # Wife of Kili, son of Nori
 
 lineofdurin115 = {
 	name = D_ori
+	
 	dynasty = dynasty_durin
 	religion = faith_khazad
 	culture = longbeards
+
+	dna = dori_son_of_kili_dna
+
 	father = lineofdurin114 # Kili
 	mother = lineofhunduzir87 # Har
-	dna = dori_son_of_kili_dna
+
 	sexuality = heterosexual
 	
 	7115.10.18 = {
@@ -384,9 +427,10 @@ lineofdurin115 = {
 #fiction
 lineofbifurwife = {
 	name = L_oin
+	female = yes
+
 	religion = faith_khazad			
 	culture = longbeards
-	female = yes
 
 	sexuality = heterosexual
 					
@@ -403,14 +447,16 @@ lineofbifurwife = {
 
 lineofbifur2 = { # Son of Bifur
 	name = B_osi
-	dynasty = dynasty_bifur
+	dynasty = dynasty_tharakhalm
 	religion = faith_khazad			
 	culture = longbeards
-	father = lineofbifur # Bifur
-	mother = lineofbifurwife # Loin
+
 	dna = bosi_son_of_bifur_dna
 
 	sexuality = heterosexual
+
+	father = lineofbifur # Bifur
+	mother = lineofbifurwife # Loin
 					
 	7035.4.15 = {
 		birth = yes
@@ -425,9 +471,10 @@ lineofbifur2 = { # Son of Bifur
 
 lineofbifur2wife = {
 	name = Herauthur
+	female = yes
+
 	religion = faith_khazad			
 	culture = longbeards
-	female = yes
 
 	sexuality = heterosexual
 					
@@ -444,14 +491,17 @@ lineofbifur2wife = {
 
 lineofbifur3 = { # Grandson of Bifur			
 	name = B_ori
-	dynasty = dynasty_bifur
+
+	dynasty = dynasty_tharakhalm
 	religion = faith_khazad			
 	culture = longbeards
+	
+	dna = bori_son_of_bosi_dna
+
+	sexuality = heterosexual
+
 	father = lineofbifur2 # Bosi
 	mother = lineofbifur2wife # Herauthur
-	dna = bori_son_of_bosi_dna
-	
-	sexuality = heterosexual
 					
 	7111.6.7 = {
 		birth = yes
@@ -466,9 +516,10 @@ lineofbifur3 = { # Grandson of Bifur
 
 lineofbomfur2wife = {
 	name = R_athspakr
+	female = yes
+
 	religion = faith_khazad			
 	culture = longbeards
-	female = yes
 
 	sexuality = heterosexual
   			
@@ -485,14 +536,17 @@ lineofbomfur2wife = {
 
 lineofbomfur3 = { # Son of Bofur		
 	name = Brogur
-	dynasty = dynasty_bofur
+
+	dynasty = dynasty_fazarumul
 	religion = faith_khazad			
 	culture = longbeards
-	father = lineofbomfur2 # Bofur
-	mother = lineofbomfur2wife # Rathspakr
+
 	dna = brogur_son_of_bofur_dna
 
 	sexuality = heterosexual
+	
+	father = lineofbomfur2 # Bofur
+	mother = lineofbomfur2wife # Rathspakr
   			
 	7038.9.10 = {
 		birth = yes
@@ -510,9 +564,10 @@ lineofbomfur3 = { # Son of Bofur
 
 lineofbomfur3wife = { 		
 	name = Withur
+	female = yes
+
 	religion = faith_khazad			
 	culture = longbeards
-	female = yes
 
 	sexuality = heterosexual
   			
@@ -526,14 +581,17 @@ lineofbomfur3wife = {
 
 lineofbomfur4 = { # Grandson of Bofur			
 	name = Br_oin
-	dynasty = dynasty_bofur
+
+	dynasty = dynasty_fazarumul
 	religion = faith_khazad			
 	culture = longbeards
-	father = lineofbomfur3 # Brogur
-	mother = lineofbomfur3wife # Withur
+
 	dna = broin_son_of_brogur_dna
 
 	sexuality = heterosexual
+	
+	father = lineofbomfur3 # Brogur
+	mother = lineofbomfur3wife # Withur
   			
 	7110.4.5 = {
 		birth = yes

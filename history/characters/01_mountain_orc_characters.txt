@@ -23,6 +23,7 @@ lineoftharzog2 = {
 
 lineoftharzog2wife = {
 	name = Gralug
+	dynasty = dynasty_tharzog
 	religion = way_of_strength
 	culture = worauthai_madur
 	#father = 
@@ -58,11 +59,14 @@ lineoftharzog3 = {
 lineofazog14 = {
 	name = Boldog # Duke of Gundabad
 	dynasty = dynasty_ashmog
+
+	dna = boldog_dna
+
 	religion = cult_of_the_ulukai
 	culture = ghrazim
+
 	father = lineofazog6 #Gorgol
 	mother = lineofazog6wife
-	dna = boldog_dna
 	
 	trait = brave
 	trait = zealous
@@ -108,12 +112,15 @@ lineofazog14 = {
 
 lineofazog15 = {
 	name = Hurog
+
 	dynasty = dynasty_ashmog
 	religion = cult_of_the_ulukai
+
+	dna = hurog_dna
+
 	culture = ghrazim
 	father = lineofazog6 #Gorgol
 	mother = lineofazog6wife
-	dna = hurog_dna
 	
 	trait = ambitious
 	trait = vengeful
@@ -180,15 +187,17 @@ lineofazog7wife = { # Bolg the Lesser wife
 lineofazog16 = {
 	name = Bolgakh # I
 	dynasty_house = house_bolgakh
+
+	dna = bolgakh_the_hammer_dna
+
 	religion = way_of_strength
 	culture = worauthai_madur
+
 	father = lineofazog7 # Bolg the lesser
-	mother = lineofazog7wife # Huriga
-	dna = bolgakh_the_hammer_dna
+	mother = lineofazog7wife
 	
 	trait = ambitious
 	trait = greedy
-	trait = vengeful
 	
 	trait = education_diplomacy_2
 	trait = adventurer
@@ -206,7 +215,7 @@ lineofazog16 = {
 		}
 	}
 	7045.5.5 = {
-		add_spouse = lineofazog16wife # Drurgru
+		add_spouse = lineofazog16wife
 		}
 	7174.1.1 = {
 		add_character_modifier = {
@@ -257,11 +266,14 @@ lineofazog16wife = {
 lineofazog20 = {
 	name = Burthrakh
 	dynasty_house = house_bolgakh
+
+	dna = burthrakh_dna
+
 	religion = way_of_strength
 	culture = worauthai_madur
+
 	father = lineofazog16 # Bolgakh I
-	mother = lineofazog16wife # Drurgru
-	dna = burthrakh_dna
+	mother = lineofazog16wife
 	
 	trait = deceitful
 	trait = gluttonous
@@ -300,11 +312,14 @@ lineofazog20wife  = {
 lineofazog21 = {
 	name = Bolgakh # II # Chieftain of Moria descendant of Azog from the game Return to Moria
 	dynasty_house = house_bolgakh
+
+	dna = bolgakh_the_younger_dna
+
 	religion = way_of_strength
 	culture = worauthai_madur
+
 	father = lineofazog20 # Burthrakh
-	mother = lineofazog20wife # Baulwayaz
-	dna = bolgakh_the_younger_dna
+	mother = lineofazog20wife
 	
 	trait = brave
 	trait = eccentric
@@ -359,7 +374,7 @@ lineofazog10wife = { # Mazog wife
 		birth = yes
 	}
 	7025.2.4 = {
-	add_spouse = lineofazog10 # Mazog
+	add_spouse = lineofazog10
 	}
 	7046.2.1 = {
 		death = { death_reason = death_battle }
@@ -369,11 +384,14 @@ lineofazog10wife = { # Mazog wife
 lineofazog17 = {
 	name = Mazog # II # Defeated Burthrakh, son of Bolgakh the Hammer
 	dynasty_house = house_mazog
+
+	dna = mazog_the_spurned_dna
+
 	religion = cult_of_the_ulukai
 	culture = ghrazim
+
 	father = lineofazog10 # Mazog the Outcast
-	mother = lineofazog10wife # Shelurg
-	dna = mazog_the_spurned_dna
+	mother = lineofazog10wife
 	
 	trait = gregarious
 	trait = content
@@ -406,7 +424,7 @@ lineofazog17 = {
 		}
 	}
 	7063.2.4 = {
-		add_spouse = lineofazog17wife # Akhuth
+		add_spouse = lineofazog17wife
 	}
 	7174.1.1 = {
 		add_character_modifier = {
@@ -451,11 +469,14 @@ lineofazog17wife = {
 lineofazog18 = {
 	name = Urzog
 	dynasty_house = house_mazog
+
+	dna = urzog_dna
+
 	religion = cult_of_the_ulukai
 	culture = ghrazim
+
 	father = lineofazog17 # Mazog II the spurned
-	mother = lineofazog17wife # Akhuth
-	dna = urzog_dna
+	mother = lineofazog17wife 
 	
 	trait = brave
 	
@@ -467,7 +488,7 @@ lineofazog18 = {
 		birth = yes
 	}
 	7119.2.4 = {
-		add_spouse = lineofazog18wife # Rugfand
+		add_spouse = lineofazog18wife
 	}
 	7174.1.1 = {
 		add_character_modifier = {
@@ -512,11 +533,14 @@ lineofazog18wife = {
 lineofazog19 = {
 	name = Nazog
 	dynasty_house = house_mazog
+
+	dna = nazog_dna
+
 	religion = cult_of_the_ulukai
 	culture = ghrazim
+
 	father = lineofazog18 # Urzog
-	mother = lineofazog18wife # Rugfand
-	dna = nazog_dna
+	mother = lineofazog18wife
 	
 	trait = sadistic
 	trait = wrathful
@@ -762,9 +786,6 @@ linehrekker3 = {
 			add_character_flag = had_nickname_event
 		}
 	}
-	7079.9.17 = {
-		add_spouse = linehrekker3wife # Drurgru
-	}
 	7174.1.1 = {
 		add_character_modifier = {
 			modifier = orc_challenge_win_modifier
@@ -776,28 +797,13 @@ linehrekker3 = {
 	}
 }
 
-linehrekker3wife = {
-	name = Drurgru
-	religion = dragon_cult
-	culture = worauthai_madur
-	#father = 
-	#mother = 
-	
-	7051.7.11 = {
-		birth = yes
-	}
-	7186.10.18 = {
-		death = { death_reason = death_battle }
-	}
-}
-
 linehrekker4 = {
 	name = Grizz
 	dynasty = dynasty_hrekker
 	religion = dragon_cult
 	culture = worauthai_madur
 	father = linehrekker3 # Akth
-	mother = linehrekker3wife # Drurgru
+	#mother = 
 	
 	trait = brave
 	trait = diligent
@@ -923,5 +929,448 @@ lineukorg8 = {
 	}
 	7188.7.7 = {
 		death = { death_reason = death_battle }
+	}
+}
+
+## Penni Woods Orcs
+### Line of Tarkmor
+lineoftarkmor1father = {
+	name = Tarkmor # Legendary Leader of the Mordor Orcs who fled from Mordor
+	dynasty = dynasty_tarkmor
+	religion = sons_of_sauron
+	culture = ghashhai
+	#father = 
+	#mother = 
+	
+	diplomacy = 8
+	martial = 10
+	stewardship = 8
+	intrigue = 8
+	learning = 6
+	prowess = 10
+
+	trait = callous
+	trait = brave
+	trait = gregarious
+	
+	trait = education_martial_5
+	trait = lifestyle_blademaster
+	trait = strategist
+	trait = august
+	trait = overseer
+	trait = strong
+	trait = adventurer
+	trait = reaver
+	trait = legend
+		
+	trait = physique_good_1
+	
+	7034.12.18 = {
+		birth = yes
+		give_nickname = nick_the_champion
+		effect = {
+			add_character_flag = had_nickname_event
+			set_relation_rival = {
+				target = character:lineoflanthir4 # Aramagor
+			}
+		}
+	}
+	7079.3.1 = {
+		add_spouse = lineoftarkmor1mom
+	}
+	7156.6.20 = {
+		trait = one_eyed
+		trait = maimed
+		death = { death_reason = death_duel killer = lineoflanthir4 } # Aramagor hunted him down
+	}
+}
+
+lineoftarkmor1mom = {
+	name = Ognorta
+	religion = red_eye_cult
+	culture = ruhai
+	#father = 
+	#mother = 
+	female = yes
+	
+	trait = brave
+	
+	trait = physique_good_2
+	
+	7041.1.26 = {
+		birth = yes
+	}
+	7156.6.20 = {
+		death = { death_reason = death_duel killer = lineoflanthir4 } # Aramagor killed her too
+	}
+}
+
+lineoftarkmor1 = {
+	name = Tarkgru # Brute son
+	religion = sons_of_sauron
+	culture = ghashhai
+	dynasty = dynasty_tarkmor
+	father = lineoftarkmor1father # Tarkmor
+	mother = lineoftarkmor1mom # Ognorta
+	
+	trait = callous
+	trait = arbitrary
+	trait = dull
+	
+	trait = education_martial_3
+	trait = reckless
+	trait = lifestyle_blademaster
+	trait = strong
+	trait = berserker
+	trait = intellect_bad_1
+	
+	prowess = 10
+	
+	7080.6.1 = {
+		birth = yes
+		effect = {
+			set_relation_rival = {
+				target = character:lineoflanthir4 # Aramagor
+			}
+		}
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7244.4.4 = {
+		death = { death_reason = death_duel } 
+	}
+}
+
+lineoftarkmor2 = {
+	name = Tarkzog
+	religion = sons_of_sauron
+	culture = ghashhai
+	dynasty = dynasty_tarkmor
+	father = lineoftarkmor1 # Tarkmor
+	#mother = 
+	
+	trait = vengeful
+	trait = sadistic
+	trait = lazy
+	
+	trait = education_intrigue_2
+	trait = lifestyle_hunter
+	trait = cannibal
+	trait = child_of_concubine_male
+	
+	7146.10.9 = {
+		birth = yes
+		set_relation_rival = {
+			target = character:lineoftarkmor3 # Morzog
+		}
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7221.6.28 = {
+		death = { death_reason = death_duel } 
+	}
+}
+
+lineoftarkmor3 = {
+	name = Morzog
+	religion = sons_of_sauron
+	culture = ghashhai
+	dynasty = dynasty_tarkmor
+	father = lineoftarkmor1 # Tarkmor
+	#mother = 
+	
+	trait = brave
+	trait = paranoid
+	trait = cynical
+	
+	trait = education_martial_3
+	trait = logistician
+	trait = physique_good_1
+	trait = child_of_concubine_male
+	
+	7149.3.19 = {
+		birth = yes
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7212.7.20 = {
+		death = { death_reason = death_duel } 
+	}
+}
+
+### Line of Gorgor
+lineofgorgor1 = {
+	name = Gorgor # Captain of Akgru before Aramagor hunted the confederation
+	religion = sons_of_sauron
+	culture = gurgurhai
+	dynasty = dynasty_gorgor
+	#father = 
+	#mother = 
+	
+	trait = calm
+	trait = temperate
+	trait = diligent
+	
+	trait = whole_of_body
+	trait = intellect_good_1
+	trait = cautious_leader
+	trait = clubfooted
+	
+	7037.3.2 = {
+		birth = yes
+		effect = {
+			set_relation_rival = {
+				target = character:lineoflanthir4 # Aramagor
+			}
+		}
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7209.2.28 = {
+		death = { death_reason = death_duel } 
+	}
+}
+
+lineofgorgor2 = {
+	name = Zogzog
+	religion = sons_of_sauron
+	culture = gurgurhai
+	dynasty = dynasty_gorgor
+	father = lineofgorgor1 # Gorgor
+	#mother = 
+	
+	trait = just
+	trait = zealous
+	
+	trait = shrewd
+	trait = lifestyle_gardener
+	trait = blind
+	
+	7082.12.29 = {
+		birth = yes
+		give_nickname = nick_the_gardener
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7218.2.13 = {
+		death = { death_reason = death_duel } 
+	}
+}
+
+### Line of Karazaz
+lineofkarazaz1 = {
+	name = Karazaz # Captain of Akgru before Aramagor hunted the confederation
+	religion = sons_of_sauron
+	culture = ghashhai
+	dynasty = dynasty_karazaz
+	#father = 
+	#mother = 
+	
+	trait = honest
+	trait = lustful
+	
+	trait = education_diplomacy_3
+	trait = august
+	trait = poet
+	
+	trait = lunatic_1
+	
+	7042.8.26 = {
+		birth = yes
+		give_nickname = nick_the_bard
+		effect = {
+			add_character_flag = had_nickname_event
+			set_relation_rival = {
+				target = character:lineoflanthir4 # Aramagor
+			}
+		}
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7248.1.10 = {
+		death = { death_reason = death_duel } 
+	}
+}
+
+lineofkarazaz2 = {
+	name = B_urz
+	religion = sons_of_sauron
+	culture = ghashhai
+	dynasty = dynasty_karazaz
+	father = lineofkarazaz1 # Karazaz
+	#mother = 
+	
+	trait = callous
+	trait = arbitrary
+	trait = eccentric
+	
+	7112.12.29 = {
+		birth = yes
+	}
+	7054.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7218.2.13 = {
+		death = { death_reason = death_duel } 
+	}
+}
+
+lineofkarazaz3 = {
+	name = Bolbet
+	religion = sons_of_sauron
+	culture = ghashhai
+	dynasty = dynasty_karazaz
+	father = lineofkarazaz1 # Karazaz
+	#mother = 
+	female = yes
+	
+	trait = beauty_bad_1
+	
+	7060.4.15 = {
+		birth = yes
+	}
+	7231.4.28 = {
+		death = { death_reason = death_duel } 
+	}
+}
+
+### Line of Shaq
+lineofshaq1 = {
+	name = Shaq
+	dynasty = dynasty_shaq
+	religion = sons_of_sauron
+	culture = black_troll
+	#father = 
+	#mother = 
+	
+	trait = stubborn
+	trait = impatient
+	trait = gluttonous
+	
+	trait = education_martial_3
+	trait = giant
+	
+	7040.2.25 = {
+		birth = yes
+	}
+	7156.6.20 = {
+		trait = maimed
+		death = { death_reason = death_duel killer = lineoflanthir4 } # Aramagor hunted him down
+	}
+}
+
+lineofshaq2 = {
+	name = Shagdush
+	dynasty = dynasty_shaq
+	religion = sons_of_sauron
+	culture = black_troll
+	father = lineofshaq1 # Shaq
+	#mother = 
+	
+	diplomacy = 8
+	martial = 10
+	stewardship = 4
+	intrigue = 3
+	learning = 5
+	prowess = 5
+	
+	trait = calm
+	trait = vengeful
+	trait = brave
+	
+	trait = education_martial_3
+	trait = strong
+	trait = intellect_good_1
+	trait = lisping
+	
+	7089.12.30 = {
+		birth = yes
+	}
+	7236.1.13 = {
+		trait = maimed
+		death = { death_reason = death_duel } 
+	}
+}
+
+### Line of Rob
+lineofrob1 = {
+	name = Rob
+	dynasty = dynasty_rob
+	religion = sons_of_sauron
+	culture = burgulhai
+	#father = 
+	#mother = 
+	
+	trait = physique_good_1
+	
+	7038.6.18 = {
+		birth = yes
+	}
+	7091.12.24 = {
+		death = { death_reason = death_duel }
+	}
+}
+
+lineofrob2 = {
+	name = Gharsh
+	dynasty = dynasty_rob
+	religion = sons_of_sauron
+	culture = burgulhai
+	father = lineofrob1 # Rob
+	#mother = 
+	
+	7062.5.7 = {
+		birth = yes
+	}
+	7182.4.10 = {
+		death = { death_reason = death_duel } 
+	}
+}
+
+lineofrob3 = {
+	name = Zauglob
+	dynasty = dynasty_rob
+	religion = sons_of_sauron
+	culture = burgulhai
+	father = lineofrob2 # Gharsh
+	#mother = 
+	
+	trait = physique_good_1
+	
+	7101.6.30 = {
+		birth = yes
+	}
+	7237.10.1 = {
+		death = { death_reason = death_duel } 
 	}
 }
