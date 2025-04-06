@@ -654,48 +654,48 @@ bm_120_fourth_age_04 = {
 		}
 	}
 	
-	# Elrohir, High King of Lorien
-	character = {
-		name = "bookmark_fa_04_elrohir"
-		dynasty_house = house_elrond
-		dynasty_splendor_level = 10
-		type = male
-		birth = 4163.1.1
-		title = e_laurelindorenan
-		government = elven_government
-		religion = faith_eldar
-		culture = noldor
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = linefinwe29
-		position = { 300 750 }
-		animation = personality_honorable
-		# Elladan, King of Imladris
-		character = {
-			name = "bookmark_fa_04_elladan"
-			relation = "BOOKMARK_RELATION_BROTHER"
-			dynasty_house = house_elrond
-			type = male
-			birth = 4163.1.1
-			title = k_imladris
-			government = elven_government
-			religion = faith_eldar
-			culture = noldor
-			history_id = linefinwe28
-		}
-		# Haldir, King of Amon Lanc
-		character = {
-			name = "bookmark_fa_04_haldir"
-			relation = "BOOKMARK_RELATION_VASSAL"
-			dynasty = dynasty_haldir
-			type = male
-			birth = 3321.8.7
-			title = k_amon_lanc
-			government = elven_government
-			religion = faith_eldar
-			culture = galadhrim
-			history_id = lineofhaldir2
-		}
-	}
+#	# Elrohir, High King of Lorien
+#	character = {
+#		name = "bookmark_fa_04_elrohir"
+#		dynasty_house = house_elrond
+#		dynasty_splendor_level = 10
+#		type = male
+#		birth = 4163.1.1
+#		title = e_laurelindorenan
+#		government = elven_government
+#		religion = faith_eldar
+#		culture = noldor
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+#		history_id = linefinwe29
+#		position = { 300 750 }
+#		animation = personality_honorable
+#		# Elladan, King of Imladris
+#		character = {
+#			name = "bookmark_fa_04_elladan"
+#			relation = "BOOKMARK_RELATION_BROTHER"
+#			dynasty_house = house_elrond
+#			type = male
+#			birth = 4163.1.1
+#			title = k_imladris
+#			government = elven_government
+#			religion = faith_eldar
+#			culture = noldor
+#			history_id = linefinwe28
+#		}
+#		# Haldir, King of Amon Lanc
+#		character = {
+#			name = "bookmark_fa_04_haldir"
+#			relation = "BOOKMARK_RELATION_VASSAL"
+#			dynasty = dynasty_haldir
+#			type = male
+#			birth = 3321.8.7
+#			title = k_amon_lanc
+#			government = elven_government
+#			religion = faith_eldar
+#			culture = galadhrim
+#			history_id = lineofhaldir2
+#		}
+#	}
 	
 	# Haldir, King of Amon Lanc
 	character = {
@@ -710,7 +710,7 @@ bm_120_fourth_age_04 = {
 		culture = galadhrim
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofhaldir2
-		position = { 650 850 }
+		position = { 650 800 }
 		animation = personality_honorable
 		# Elrohir, High King of Lorien
 		character = {
@@ -727,8 +727,6 @@ bm_120_fourth_age_04 = {
 		}
 		#add family
 	}
-	# add beorn
-	# add rhadagast playable
 	
 #	# Moriel, the Tutor
 #	character = {
@@ -790,21 +788,21 @@ bm_120_fourth_age_04 = {
 		}
 	}
 	
-	# Korg, the Hidden
-	character = {
-		name = "bookmark_fa_04_korg"
-		dynasty = dynasty_ukorg
-		dynasty_splendor_level = 10
-		type = male
-		birth = 7034.7.21
-		title = c_enedhmen_i_naugrim
-		government = tribal_government
-		religion = way_of_strength
-		culture = kazgumhoth
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = lineukorg6
-		position = { 650 450 }
-		animation = personality_honorable
+#	# Korg, the Hidden
+#	character = {
+#		name = "bookmark_fa_04_korg"
+#		dynasty = dynasty_ukorg
+#		dynasty_splendor_level = 10
+#		type = male
+#		birth = 7034.7.21
+#		title = c_enedhmen_i_naugrim
+#		government = tribal_government
+#		religion = way_of_strength
+#		culture = kazgumhoth
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+#		history_id = lineukorg6
+#		position = { 650 450 }
+#		animation = personality_honorable
 #		# Ukorg, 
 #		character = {
 #			name = "bookmark_fa_04_ukorg"
@@ -818,64 +816,63 @@ bm_120_fourth_age_04 = {
 #			culture = kazgumhoth
 #			history_id = lineukorg7
 #		}
-		# Akoth, the Scion
-		character = {
-			name = "bookmark_fa_04_akoth"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty = dynasty_ukorg
-			type = male
-			birth = 7089.4.1
-			title = c_enedhmen_i_naugrim
-			government = tribal_government
-			religion = way_of_strength
-			culture = kazgumhoth
-			history_id = lineukorg8
-		}
-	}
-	# add woodsmen
+#		# Akoth, the Scion
+#		character = {
+#			name = "bookmark_fa_04_akoth"
+#			relation = "BOOKMARK_RELATION_SON"
+#			dynasty = dynasty_ukorg
+#			type = male
+#			birth = 7089.4.1
+#			title = c_enedhmen_i_naugrim
+#			government = tribal_government
+#			religion = way_of_strength
+#			culture = kazgumhoth
+#			history_id = lineukorg8
+#		}
+#	}
 	
-	# Thranduil, High King of Lasgalen
-	character = {
-		name = "bookmark_fa_04_thranduil"
-		dynasty = dynasty_oropher
-		dynasty_splendor_level = 10
-		type = male
-		birth = 95.1.1
-		title = k_lasgalen
-		government = elven_government
-		religion = faith_eldar
-		culture = lasgalendrim
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = lineoforopher3
-		position = { 950 200 }
-		animation = disapproval
-		# Ilmarien, Heir of Lasgalen
-		character = {
-			name = "bookmark_fa_04_ilmarien"
-			relation = "BOOKMARK_RELATION_SISTER"
-			dynasty = dynasty_oropher
-			type = female
-			birth = 130.1.1
-			title = c_car_rusc
-			government = elven_government
-			religion = faith_eldar
-			culture = lasgalendrim
-			history_id = lineoforopher5
-		}
-		# Legolas, of the Nine Walkers
-		character = {
-			name = "bookmark_fa_04_legolas"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty = dynasty_oropher
-			type = male
-			birth = 4820.10.4
-			title = d_ithillond
-			government = elven_government
-			religion = faith_eldar
-			culture = lasgalendrim
-			history_id = lineoforopher6
-		}
-	}
+#	# Thranduil, High King of Lasgalen
+#	character = {
+#		name = "bookmark_fa_04_thranduil"
+#		dynasty = dynasty_oropher
+#		dynasty_splendor_level = 10
+#		type = male
+#		birth = 95.1.1
+#		title = k_lasgalen
+#		government = elven_government
+#		religion = faith_eldar
+#		culture = lasgalendrim
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+#		history_id = lineoforopher3
+#		position = { 950 200 }
+#		animation = disapproval
+#		# Ilmarien, Heir of Lasgalen
+#		character = {
+#			name = "bookmark_fa_04_ilmarien"
+#			relation = "BOOKMARK_RELATION_SISTER"
+#			dynasty = dynasty_oropher
+#			type = female
+#			birth = 130.1.1
+#			title = c_car_rusc
+#			government = elven_government
+#			religion = faith_eldar
+#			culture = lasgalendrim
+#			history_id = lineoforopher5
+#		}
+#		# Legolas, of the Nine Walkers
+#		character = {
+#			name = "bookmark_fa_04_legolas"
+#			relation = "BOOKMARK_RELATION_SON"
+#			dynasty = dynasty_oropher
+#			type = male
+#			birth = 4820.10.4
+#			title = d_ithillond
+#			government = elven_government
+#			religion = faith_eldar
+#			culture = lasgalendrim
+#			history_id = lineoforopher6
+#		}
+#	}
 	
 #	# Ilmarien, Heir of Lasgalen
 #	character = {
@@ -920,7 +917,7 @@ bm_120_fourth_age_04 = {
 		culture = noldor
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoflenwe6
-		position = { 950 400 }
+		position = { 900 400 }
 		animation = personality_honorable
 		# Thranduil, High King of Lasgalen
 		character = {
@@ -983,7 +980,7 @@ bm_120_fourth_age_04 = {
 		culture = penni
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoflanthir4
-		position = { 1150 300 }
+		position = { 110 250 }
 		animation = personality_honorable
 		# Sargon, 
 		character = {
@@ -1044,39 +1041,39 @@ bm_120_fourth_age_04 = {
 		culture = black_troll
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofshaq2
-		position = { 1250 600 }
+		position = { 1200 600 }
 		animation = personality_honorable
 	}
 	
-	# Gharsh, the Rat
-	character = {
-		name = "bookmark_fa_04_gharsh"
-		dynasty = dynasty_rob
-		dynasty_splendor_level = 10
-		type = male
-		birth = 7062.5.7
-		title = c_rovlarand
-		government = tribal_government
-		religion = sons_of_sauron
-		culture = burgulhai
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = lineofrob2
-		position = { 1000 700 }
-		animation = personality_honorable
-		# Zauglob, the Hidden
-		character = {
-			name = "bookmark_fa_04_zauglob"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty = dynasty_rob
-			type = male
-			birth = 7101.6.30
-			title = c_rovlarand
-			government = tribal_government
-			religion = sons_of_sauron
-			culture = burgulhai
-			history_id = lineofrob3
-		}
-	}
+#	# Gharsh, the Rat
+#	character = {
+#		name = "bookmark_fa_04_gharsh"
+#		dynasty = dynasty_rob
+#		dynasty_splendor_level = 10
+#		type = male
+#		birth = 7062.5.7
+#		title = c_rovlarand
+#		government = tribal_government
+#		religion = sons_of_sauron
+#		culture = burgulhai
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+#		history_id = lineofrob2
+#		position = { 1000 700 }
+#		animation = personality_honorable
+#		# Zauglob, the Hidden
+#		character = {
+#			name = "bookmark_fa_04_zauglob"
+#			relation = "BOOKMARK_RELATION_SON"
+#			dynasty = dynasty_rob
+#			type = male
+#			birth = 7101.6.30
+#			title = c_rovlarand
+#			government = tribal_government
+#			religion = sons_of_sauron
+#			culture = burgulhai
+#			history_id = lineofrob3
+#		}
+#	}
 }
 
 # Dorf fortress 2
@@ -1089,23 +1086,23 @@ bm_120_fourth_age_05 = {
 		value = 0
 	}
 	
-	# Hreithmar, the Blue King
-	character = {
-		name = "bookmark_fa_05_hreithmar"
-		dynasty = dynasty_dwalin
-		dynasty_splendor_level = 10
-		type = male
-		birth = 6943.5.16
-		title = k_belegost
-		government = feudal_government
-		religion = faith_broadbeams
-		culture = broadbeams
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = lineofdwalin99
-		position = { 250 200 }
-		animation = personality_honorable
-	#add family
-	}
+#	# Hreithmar, the Blue King
+#	character = {
+#		name = "bookmark_fa_05_hreithmar"
+#		dynasty = dynasty_dwalin
+#		dynasty_splendor_level = 10
+#		type = male
+#		birth = 6943.5.16
+#		title = k_belegost
+#		government = feudal_government
+#		religion = faith_broadbeams
+#		culture = broadbeams
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+#		history_id = lineofdwalin99
+#		position = { 250 200 }
+#		animation = personality_honorable
+#	#add family
+#	}
 	
 	# Frain, the Settler
 	character = {
@@ -1227,7 +1224,7 @@ bm_120_fourth_age_05 = {
 		culture = ghrazim
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofazog17
-		position = { 650 400 }
+		position = { 650 450 }
 		animation = personality_honorable
 		# Urzog, 
 		character = {
@@ -1275,7 +1272,7 @@ bm_120_fourth_age_05 = {
 		culture = longbeards
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofdurin100
-		position = { 650 850 }
+		position = { 650 800 }
 		animation = personality_honorable
 		# Wirwir, Glitterbeard
 		character = {
