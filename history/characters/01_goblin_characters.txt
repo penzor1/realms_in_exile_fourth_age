@@ -1,4 +1,8 @@
-﻿#ALL FICTION
+﻿##########################						
+##########################						
+####	 GOBLINS	 #####			
+##########################						
+##########################
 
 ### Gundabad ###
 # Bones Snappers
@@ -20,23 +24,6 @@ linebonesnapper4 = {
 		add_spouse = lineghrazbul
 	}
 	6999.4.14 = {
-		death = { death_reason = death_battle }		
-	}
-}
-
-### Line of Leegrash
-lineofleegrash1 = {
-	name = Leegrash
-	#dynasty = dynasty_leegrash
-	religion = cult_of_the_ulukai
-	culture = bonesnapper_goblin
-	#father = 
-	#mother = 
-	
-	7060.12.13 = {
-		birth = yes
-	}
-	7199.4.24 = {
 		death = { death_reason = death_battle }		
 	}
 }
@@ -63,6 +50,7 @@ lineofrugru = {
 		death = { death_reason = death_battle }		
 	}
 }
+
 
 ### MORIA ###
 # Hall Roamers
@@ -110,32 +98,12 @@ linehallroamer3 = {
 }
 
 # Bell Breakers
-linebellbreakerwife = {
-	name = Aglush
-	religion = faith_balrog_cult
-	culture = bellbreaker_goblin
-	#father = 
-	#mother = 
-	female = yes
-	
-	7012.2.25 = {
-		birth = yes
-	}
-	7042.1.12 = {
-		add_spouse = linebellbreaker # Ulthug
-	}
-	7161.6.19 = {
-		death = { death_reason = death_battle }
-	}
-}
-
 linebellbreaker1 = {
 	name = Bakzur
-	dynasty = dynasty_bellbreaker
 	religion = faith_balrog_cult
 	culture = bellbreaker_goblin
 	father = linebellbreaker # Ulthug
-	mother = linebellbreakerwife # Aglush
+	#mother = 
 	
 	7042.10.15 = {
 		birth = yes
@@ -159,7 +127,6 @@ lineofgoblinking2 = {
 	religion = faith_goblin_town
 	culture = towndweller_goblin
 	father = lineofgoblinking1 # Gorkil
-	#mother = 
 	female = yes
 	
 	trait = gluttonous
@@ -190,7 +157,7 @@ lineofgoblinking2husband = {
 	trait = seducer
 	trait = confider
 	
-	7041.1.25 = {
+	7040.2.25 = {
 		birth = yes
 	}
 	7161.5.9 = {
@@ -200,18 +167,17 @@ lineofgoblinking2husband = {
 
 lineofgoblinking3 = {
 	name = Golmog
+	
 	dynasty = dynasty_gorkil
 	religion = faith_goblin_town
 	culture = towndweller_goblin
+
+	dna = golmog_the_humongous_dna
+
 	father = lineofgoblinking2husband # Wedegog
 	mother = lineofgoblinking2 # Stula
-	dna = golmog_the_humongous_dna
 	
 	trait = gluttonous
-	trait = vengeful
-	trait = brave
-	
-	trait = comfort_eater
 	
 	7064.10.3 = {
 		birth = yes
@@ -220,51 +186,23 @@ lineofgoblinking3 = {
 			add_character_flag = had_nickname_event
 		}
 	}
-	7110.2.27 = {
-		add_spouse = lineofgoblinking3wife # Mogsharlob
-	}
-	7174.1.1 = {
-		add_character_modifier = {
-			modifier = orc_challenge_win_modifier
-			years = 5
-		}
-	}
 	7181.6.19 = {
 		death = { death_reason = death_battle }
 	}
 }
 
-lineofgoblinking3wife = {
-	name = Mogsharlob
-	religion = faith_goblin_town
-	culture = towndweller_goblin
-	#father = 
-	#mother = 
-	female = yes
-	
-	7073.10.17 = {
-		birth = yes
-	}
-	7198.6.19 = {
-		death = { death_reason = death_battle }
-	}
-}
-
-
 lineofgoblinking4 = {
 	name = Unglob
+
 	dynasty = dynasty_gorkil
 	religion = faith_goblin_town
 	culture = towndweller_goblin
-	father = lineofgoblinking3 # Golmog
-	mother = lineofgoblinking2wife # Mogsharlob
+
 	dna = unglob_the_blubbering_dna
+
+	father = lineofgoblinking3 # Golmog
 	
 	trait = gluttonous
-	trait = lazy
-	trait = calm
-	
-	trait = comfort_eater
 	
 	7111.8.10 = {
 		birth = yes
@@ -273,13 +211,7 @@ lineofgoblinking4 = {
 			add_character_flag = had_nickname_event
 		}
 	}
-	7174.1.1 = {
-		add_character_modifier = {
-			modifier = orc_challenge_win_modifier
-			years = 5
-		}
-	}
-	7211.1.3 = {
+	7215.1.3 = {
 		death = { death_reason = death_battle }
 	}
 }
@@ -290,20 +222,13 @@ lineofgoblinking5 = {
 	religion = faith_goblin_town
 	culture = towndweller_goblin
 	father = lineofgoblinking3 # Golmog
-	mother = lineofgoblinking2wife # Mogsharlob
 	
-	trait = spindly
+	trait = gluttonous
 	
 	7115.11.30 = {
 		birth = yes
 	}
-	7174.1.1 = {
-		add_character_modifier = {
-			modifier = orc_challenge_win_modifier
-			years = 5
-		}
-	}
-	7215.1.3 = {
+	7211.1.3 = {
 		death = { death_reason = death_battle }
 	}
 }
@@ -367,12 +292,6 @@ lineofscabb1 = {
 	7089.10.8 = {
 		birth = yes
 	}
-	7174.1.1 = {
-		add_character_modifier = {
-			modifier = orc_challenge_win_modifier
-			years = 5
-		}
-	}
 	7205.6.3 = {
 		death = { death_reason = death_battle }
 	}
@@ -391,120 +310,9 @@ lineofscabb2 = {
 	7089.10.8 = {
 		birth = yes
 	}
-	7174.1.1 = {
-		add_character_modifier = {
-			modifier = orc_challenge_win_modifier
-			years = 5
-		}
-	}
 	7201.6.4 = {
 		death = { death_reason = death_battle }
 	}
-}
-
-# Ridgelurkers
-lineridgelurker3 = {
-	name = Grabuth
-	dynasty = dynasty_ridgelurker
-	religion = way_of_strength
-	culture = ridgelurker_goblin
-	father = lineridgelurker2 # Rugrul
-	#mother = 
-	female = yes
-	
-	7034.6.7 = {
-		birth = yes
-	}
-	7191.5.9 = {
-		death = { death_reason = death_battle }
-	}
-}
-
-lineofashurz1 = {
-	name = Ash_urz
-	#dynasty = dynasty_gorkil
-	religion = way_of_strength
-	culture = ridgelurker_goblin
-	#father = 
-	#mother = 
-	
-	trait = cynical
-	
-	7010.2.25 = {
-		birth = yes
-	}
-	7057.3.11 = {
-		add_spouse = lineridgelurker3 # Grabuth
-	}
-	7174.1.1 = {
-		add_character_modifier = {
-			modifier = orc_challenge_win_modifier
-			years = 5
-		}
-	}
-	7191.5.9 = {
-		death = { death_reason = death_battle }
-	}
-}
-
-### Gloomdrinkers
-### Line of Gorfel
-lineofgorfel1 = {
-	name = Gorfel
-	#dynasty = dynasty_gloomdrinker
-	religion = faith_deep_cult
-	culture = gloomdrinker_goblin
-	
-	trait = patient
-	trait = vengeful
-	trait = paranoid
-	
-	trait = reckless
-	trait = dull
-	trait = weak
-	
-	trait = education_intrigue_3
-	
-	7100.2.7 = {
-		birth = yes
-		give_nickname = nick_the_hairy
-		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
-		}
-	}
-	7174.1.1 = {
-		add_character_modifier = {
-			modifier = orc_challenge_win_modifier
-			years = 5
-		}
-	}
-	7241.11.27 = {				
-		death = { death_reason = death_battle }		
-	}				
-}
-
-### Shroombrewers
-### Line of Ashkash
-lineofashkash1 = {
-	name = Ashkash
-	#dynasty = dynasty_shroombrewer
-	religion = faith_deep_cult
-	culture = shroombrewer_goblin
-
-	7094.8.12 = {
-		birth = yes
-	}
-	7174.1.1 = {
-		add_character_modifier = {
-			modifier = orc_challenge_win_modifier
-			years = 5
-		}
-	}
-	7211.6.19 = {				
-		death = { death_reason = death_battle }		
-	}				
 }
 
 
@@ -523,7 +331,7 @@ linehrekker2wife = {
 		birth = yes
 	}
 	7039.10.1 = {
-		add_spouse = linehrekker2 # Grizz Kuzrash
+		add_spouse = linehrekker2
 	}
 	7171.3.16 = {
 		death = { death_reason = death_battle }
@@ -533,12 +341,15 @@ linehrekker2wife = {
 ### Line of Oz
 lineofoz1 = {
 	name = Durblakh
+
 	dynasty = dynasty_oz
 	religion = dragon_cult
 	culture = hidesprouter_goblin
+
+	dna = durblakh_the_dragon_dna
+
 	#father = 
 	#mother = 
-	dna = durblakh_the_dragon_dna
 	
 	trait = paranoid
 	trait = ambitious
