@@ -1,193 +1,78 @@
-lineofdwalin0 = { # Born and died in the years of the Trees. Dwálin I, 'The Wise'
-    name = Dw_alin
+lineofdwalinVII = { # Dwalin VII the Last, grandson of Hreithmar the Unexpected
+    name = Virinehtar
 
     dynasty = dynasty_dwalin
     religion = faith_broadbeams
     culture = broadbeams
 
-    dna = dorfdad_dwalin_dna
+    father = lineofdwalinVIIfather
+    mother = lineofdwalinVIImother
 
-    trait = patient
-    trait = diligent
-    trait = content
+    trait = education_stewardship_5
 
-    trait = education_learning_5
-	trait = dwarf_father
+    diplomacy = 5
+    martial = 5
+    stewardship = 9
+    intrigue = 2
+    learning = 7
+    prowess = 6
 
-    2.1.15 = {
+    7139.5.21 = {
         birth = yes
-        give_nickname = nick_the_wise_dwarf
         effect = {
-            add_character_flag = {
-                flag = had_nickname_event
-            }
+            # Add "reflection of" modifier
+            add_character_modifier = reflection_of_dwalin
         }
     }
 
-    2.4.18 = {
+    7157.5.21 = {
+        name = Dw_alin # VII
+        dna = dorfdad_dwalin_dna
+        remove_character_modifier = reflection_of_dwalin
+        trait = dwarf_father
+		# Confirmed as reincarnation
+    }
+
+    7442.5.17 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-lineofdwalin7 = { # Dwálin II, son of Azaghal, who led his people to Khazad-dum. From his sons come two lines - one in the Blue Mountains and one in the Misty Mountains, to be reunited in his next incarnation
-    name = Dw_alin # II
+lineofdwalin99wife = { # Wife of Hreithmar the Unexpected
+    name = Galadwen
+    female = yes
 
-    dynasty = dynasty_dwalin
     religion = faith_broadbeams
     culture = broadbeams
 
-    dna = dorfdad_dwalin_dna
-
-    father = lineofdwalin5
-    mother = lineofdwalin6
-
-    trait = diligent
-    trait = patient
-    trait = content
-    trait = dwarf_father
-    trait = intellect_good_3
-
-    diplomacy = 7
-    martial = 2
-    stewardship = 7
-    intrigue = 2
-    learning = 6
-    prowess = 8
-
-    trait = education_diplomacy_4
-
-    378.3.3 = {
-        birth = yes
-    }
-
-    505.2.20 = {
-        add_spouse = lineofdwalin8
-    }
-
-    717.4.12 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineofdwalin27 = {# Born after the Dwálin lines were reforged
-    name = Dw_alin # III
-
-    dynasty = dynasty_dwalin
-    religion = faith_broadbeams
-    culture = broadbeams
-
-    dna = dorfdad_dwalin_dna
-
-    father = lineofdwalin25
-    mother = lineofdwalin26
-
-    trait = diligent
-    trait = patient
-    trait = content
-
-    trait = education_stewardship_5
-    trait = dwarf_father
+    trait = brave
+    trait = gregarious
+    trait = gluttonous
 
     diplomacy = 5
-    martial = 3
-    stewardship = 4
-    intrigue = 6
-    learning = 10
+    martial = 6
+    stewardship = 8
+    intrigue = 2
+    learning = 5
     prowess = 4
 
-    1990.9.19 = {
+    trait = education_stewardship_3
+
+    6953.3.10 = {
         birth = yes
     }
 
-    2153.5.1 = {
-        add_spouse = lineofdwalin28
+    7053.3.10 = {
+        add_spouse = lineofdwalin99
     }
 
-    2286.1.5 = {
+    7212.5.14 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-lineofdwalin45 = {
-    name = Dw_alin # IV 
-
-    dynasty = dynasty_dwalin
-    religion = faith_broadbeams
-    culture = broadbeams
-
-    dna = dorfdad_dwalin_dna
-    
-    father = lineofdwalin43
-    mother = lineofdwalin44
-
-    trait = diligent
-    trait = patient
-    trait = content
-
-    trait = education_stewardship_5
-    trait = dwarf_father
-
-    diplomacy = 3
-    martial = 5
-    stewardship = 4
-    intrigue = 6
-    learning = 7
-    prowess = 7
-
-    3475.9.12 = {
-        birth = yes
-    }
-
-    3653.2.21 = {
-        add_spouse = lineofdwalin46
-    }
-
-    3765.8.27 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineofdwalin61 = { # From whom the Broadbeam Ring was stolen
-    name = Dw_alin # V
-
-    dynasty = dynasty_dwalin
-    religion = faith_broadbeams
-    culture = broadbeams
-
-    dna = dorfdad_dwalin_dna
-    
-    father = lineofdwalin59
-    mother = lineofdwalin60
-
-    trait = diligent
-    trait = patient
-    trait = content
-
-    trait = education_stewardship_5
-    trait = dwarf_father
-
-    diplomacy = 2
-    martial = 5
-    stewardship = 5
-    intrigue = 4
-    learning = 2
-    prowess = 4
-
-    4651.12.15 = {
-        birth = yes
-    }
-
-    4738.5.18 = {
-        add_spouse = lineofdwalin62
-    }
-
-    4949.5.24 = {
-        death = { death_reason = death_battle } # Killed by Skorgrim
-    }
-}
-
-lineofdwalin77 = { # Spearheaded efforts to reconnect with the Longbeards after the loss of Khazad-dum. Known for single-handidly slaying three trolls that descended upon his party in the eastern High Pass
-    name = Dw_alin # VI
+lineofdwalinVIIfather = { # Son of Hreithmar the Unexpected and father of Dwalin VII
+    name = Fror
 
     dynasty = dynasty_dwalin
     religion = faith_broadbeams
@@ -195,15 +80,14 @@ lineofdwalin77 = { # Spearheaded efforts to reconnect with the Longbeards after 
 
     dna = dorfdad_dwalin_dna
 
-    father = lineofdwalin75
-    mother = lineofdwalin76
+    father = lineofdwalin99
+    mother = lineofdwalin99wife
 
     trait = diligent
-    trait = patient
-    trait = content
+    trait = calm
+    trait = compassionate
 
-    trait = education_stewardship_5
-    trait = dwarf_father
+    trait = education_martial_3
 
     diplomacy = 3
     martial = 2
@@ -212,15 +96,45 @@ lineofdwalin77 = { # Spearheaded efforts to reconnect with the Longbeards after 
     learning = 4
     prowess = 7
 
-    5875.4.22 = {
+    7064.4.8 = {
         birth = yes
     }
 
-    5951.1.11 = {
-        add_spouse = lineofdwalin78
+    7135.5.21 = {
+        add_spouse = lineofdwalinVIImother
     }
 
-    6173.4.7 = {
+    7304.6.6 = {
         death = { death_reason = death_natural_causes }
     }
 }
+
+lineofdwalinVIImother = { # Mother of Dwalin VII
+    name = Morlime
+    female = yes
+
+    religion = faith_broadbeams
+    culture = broadbeams
+
+    trait = gregarious
+    trait = greedy
+    trait = stubborn
+
+    trait = education_diplomacy_2
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 2
+
+    7062.9.2  = {
+        birth = yes
+    }
+
+    7293.10.9  = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
