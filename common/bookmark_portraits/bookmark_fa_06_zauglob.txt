@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:lineofrob3
-bookmark_fa_04_zauglob={
+bookmark_fa_06_zauglob={
 	type=male
 	id=34350
 	random_seed=2694581528

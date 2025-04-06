@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:lineofrob2
-bookmark_fa_04_gharsh={
+bookmark_fa_06_gharsh={
 	type=male
 	id=34021
 	random_seed=2984810192

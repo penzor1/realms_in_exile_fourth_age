@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:lineukorg6
-bookmark_fa_04_korg={
+bookmark_fa_06_korg={
 	type=male
 	id=33587
 	random_seed=270903423
