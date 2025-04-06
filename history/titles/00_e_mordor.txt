@@ -20,6 +20,7 @@ e_mordor = {
 	}
     7052.3.25 = { # Final Defeat of Sauron
         holder = 0
+		name = cn_mordor_kharatdor
 		effect = {
 			set_global_variable = {
 				name = sauron_destroyed
