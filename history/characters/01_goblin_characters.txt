@@ -158,31 +158,34 @@ linebellbreaker1 = {
 ### GOBLIN TOWN ###
 # Town Dwellers
 lineofgoblinking2 = {
-	name = Stula # THE RAREST GOB, THE MATRILINEAL GOB
+	name = Wedegog
 	dynasty = dynasty_gorkil
 	religion = faith_goblin_town
 	culture = towndweller_goblin
 	father = lineofgoblinking1 # Gorkil
 	#mother = 
-	female = yes
 	
 	trait = gluttonous
 	trait = lustful
 	trait = cynical
+
+	trait = comfort_eater
+	trait = seducer
 	
 	7040.2.25 = {
 		birth = yes
 	}
-	7063.9.15 = {
-		add_spouse = lineofgoblinking2husband # Wedegog
+	7083.9.15 = {
+		add_spouse = lineofgoblinking2husband # Stula
 	}
 	7161.5.9 = {
 		death = { death_reason = death_battle }
 	}
 }
 
-lineofgoblinking2husband = {
-	name = Wedegog
+lineofgoblinking2wife = {
+	name = Stula
+	female = yes
 	religion = faith_goblin_town
 	culture = towndweller_goblin
 	#father = 
@@ -190,14 +193,12 @@ lineofgoblinking2husband = {
 	
 	trait = brave
 	trait = ambitious
+	trait = gluttonous
 	
-	trait = seducer
-	trait = confider
-	
-	7041.1.25 = {
+	7041.6.16 = {
 		birth = yes
 	}
-	7161.5.9 = {
+	7159.2.5 = {
 		death = { death_reason = death_battle }
 	}
 }
@@ -207,8 +208,8 @@ lineofgoblinking3 = {
 	dynasty = dynasty_gorkil
 	religion = faith_goblin_town
 	culture = towndweller_goblin
-	father = lineofgoblinking2husband # Wedegog
-	mother = lineofgoblinking2 # Stula
+	father = lineofgoblinking2 # Wedegog
+	mother = lineofgoblinking2wife # Stula
 	dna = golmog_the_humongous_dna
 	
 	trait = gluttonous
@@ -216,6 +217,9 @@ lineofgoblinking3 = {
 	trait = brave
 	
 	trait = comfort_eater
+	trait = confider
+
+	trait = education_martial_3
 	
 	7064.10.3 = {
 		birth = yes
@@ -240,11 +244,19 @@ lineofgoblinking3 = {
 
 lineofgoblinking3wife = {
 	name = Mogsharlob
+	female = yes
+
 	religion = faith_goblin_town
 	culture = towndweller_goblin
+
 	#father = 
 	#mother = 
-	female = yes
+
+	trait = sadistic
+	trait = gluttonous
+	trait = lazy
+
+	trait = education_intrigue_3
 	
 	7073.10.17 = {
 		birth = yes
@@ -266,7 +278,7 @@ lineofgoblinking4 = {
 	
 	trait = gluttonous
 	trait = lazy
-	trait = calm
+	trait = lustful
 	
 	trait = comfort_eater
 	
@@ -295,6 +307,10 @@ lineofgoblinking5 = {
 	culture = towndweller_goblin
 	father = lineofgoblinking3 # Golmog
 	mother = lineofgoblinking3wife # Mogsharlob
+
+	trait = eccentric
+	trait = wrathful
+	trait = callous
 	
 	trait = spindly
 	
