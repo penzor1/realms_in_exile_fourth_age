@@ -7,8 +7,8 @@ define_elven_homelands = {
 		##Sirgala
 		culture:sirrandrai = {
 			add_innovation = innovation_sirrandrai_warfare
-			remove_cultural_tradition = tradition_sirgalan_exiles
-			add_cultural_tradition = tradition_sirgala_renewed
+			remove_culture_tradition = tradition_sirgalan_exiles
+			add_culture_tradition = tradition_sirgala_renewed
 			remove_variable = tradition_cooldown
 		}
 		# add title: sirgala forest

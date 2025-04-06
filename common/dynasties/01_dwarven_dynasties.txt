@@ -19,3 +19,9 @@ dynasty_bifur = {
 	culture = "longbeards"
 	motto = dynn_bifur_motto
 }
+
+dynasty_thelor = {
+	name = "dynn_thelor"
+	culture = "ironfists"
+	motto = dynn_thelor_motto
+}

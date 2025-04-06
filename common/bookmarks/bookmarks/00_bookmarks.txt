@@ -51,37 +51,7 @@ bm_120_fourth_age_01 = {
 		}
 	}
 		
-	# Éobrand, Prince of Rohan #replace with erkenbrand
-	character = {
-		name = "bookmark_fa_01_eobrand"
-		dynasty_house = house_eofor
-		dynasty_splendor_level = 10
-		type = male
-		birth = 7127.7.3
-		title = d_isengard
-		government = feudal_government
-		religion = faith_rohirric
-		culture = rohirrim
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = lineofeofor21
-		position = { 400 600 }
-		animation = personality_honorable
-		# Éofara, King of Rohan
-		character = {
-		name = "bookmark_fa_01_eofara"
-			relation = "BOOKMARK_RELATION_FATHER"
-			dynasty_house = house_eofor
-			type = male
-			birth = 7093.4.28
-			title = k_rohan
-			government = feudal_government
-			religion = faith_rohirric
-			culture = rohirrim
-			history_id = lineofeofor20
-		}
-	}
-	
-#	# Éobrand, Prince of Rohan
+#	# Éobrand, Prince of Rohan #replace with erkenbrand
 #	character = {
 #		name = "bookmark_fa_01_eobrand"
 #		dynasty_house = house_eofor
@@ -109,37 +79,37 @@ bm_120_fourth_age_01 = {
 #			culture = rohirrim
 #			history_id = lineofeofor20
 #		}
-#	}
+	}
 	
-#	# Éofara, King of Rohan
-#	character = {
-#		name = "bookmark_fa_01_eofara"
-#		dynasty_house = house_eofor
-#		dynasty_splendor_level = 10
-#		type = male
-#		birth = 7093.4.28
-#		title = k_rohan
-#		government = feudal_government
-#		religion = faith_rohirric
-#		culture = rohirrim
-#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-#		history_id = lineofeofor20
-#		position = { 400 800 }
-#		animation = personality_honorable
-#		# Éobrand, Prince of Rohan
-#		character = {
-#			name = "bookmark_fa_01_eobrand"
-#			relation = "BOOKMARK_RELATION_SON"
-#			dynasty_house = house_eofor
-#			type = male
-#			birth = 7127.7.3
-#			title = d_isengard
-#			government = feudal_government
-#			religion = faith_rohirric
-#			culture = rohirrim
-#			history_id = lineofeofor21
-#		}
-#	}
+	# Éofara, King of Rohan
+	character = {
+		name = "bookmark_fa_01_eofara"
+		dynasty_house = house_eofor
+		dynasty_splendor_level = 10
+		type = male
+		birth = 7093.4.28
+		title = k_rohan
+		government = feudal_government
+		religion = faith_rohirric
+		culture = rohirrim
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = lineofeofor20
+		position = { 400 800 }
+		animation = personality_honorable
+		 Éobrand, Prince of Rohan
+		character = {
+			name = "bookmark_fa_01_eobrand"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty_house = house_eofor
+			type = male
+			birth = 7127.7.3
+			title = d_isengard
+			government = feudal_government
+			religion = faith_rohirric
+			culture = rohirrim
+			history_id = lineofeofor21
+		}
+	}
 	
 	# Eldarion 'Andúmírë', Second King of the Reunited Kingdom
 	character = {
