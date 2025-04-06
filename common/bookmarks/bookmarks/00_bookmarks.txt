@@ -96,7 +96,7 @@ bm_120_fourth_age_01 = {
 		history_id = lineofeofor20
 		position = { 400 800 }
 		animation = personality_honorable
-		 Éobrand, Prince of Rohan
+		# Éobrand, Prince of Rohan
 		character = {
 			name = "bookmark_fa_01_eobrand"
 			relation = "BOOKMARK_RELATION_SON"

@@ -1464,7 +1464,7 @@ bm_120_fourth_age_05 = {
 	# Varya, the Wanderer
 	character = {
 		name = "bookmark_fa_05_varya"
-		dynasty = dynasty_sindri
+		dynasty = dynasty_varya
 		dynasty_splendor_level = 10
 		type = male
 		birth = 7000.2.15
