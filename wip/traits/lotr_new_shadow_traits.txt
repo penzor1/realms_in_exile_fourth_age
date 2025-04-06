@@ -16,7 +16,7 @@ lotr_new_shadow_struggle_detractor = {
 
 	flag = can_foment_revolt_interaction
 	flag = can_request_incursion_interaction
-	flag = can_change_to_iranian_faith_decision
+	flag = can_change_to_dark_faith_decision
 
 	desc = {
 		first_valid = {
@@ -24,13 +24,13 @@ lotr_new_shadow_struggle_detractor = {
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_fp3_struggle_detractor_desc
+				desc = trait_lotr_new_shadow_struggle_detractor_desc
 			}
 			# triggered_desc = { # LotR
 			# 	trigger = { faith.religious_head_title ?= title:d_sunni }
 			# 	desc = trait_fp3_struggle_detractor_character_desc
 			# }
-			desc = trait_fp3_struggle_detractor_non_orthodox_sunni_character_desc
+			desc = trait_lotr_new_shadow_struggle_detractor_character_desc
 		}
 	}
 }
@@ -44,6 +44,7 @@ lotr_new_shadow_struggle_supporter = {
 	shown_in_ruler_designer = no
 
 	flag = can_use_install_loyalist_cb
+	flag = can_change_to_good_faith_decision
 	
 	same_opinion = 10
 	opposite_opinion = -30
@@ -54,13 +55,13 @@ lotr_new_shadow_struggle_supporter = {
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_fp3_struggle_supporter_desc
+				desc = trait_lotr_new_shadow_struggle_supporter_desc
 			}
 			# triggered_desc = { # LotR
 			# 	trigger = { has_title = title:d_sunni }
 			# 	desc = trait_fp3_struggle_supporter_character_is_caliph_desc
 			# }
-			desc = trait_fp3_struggle_supporter_character_desc
+			desc = trait_lotr_new_shadow_struggle_supporter_character_desc
 		}
 	}
 }
