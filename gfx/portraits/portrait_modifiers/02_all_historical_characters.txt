@@ -11610,7 +11610,7 @@
 				mode = add
 				gene = beards
 				template = all_beards
-				accessory = male_empty
+				accessory = 0.0
 			}
 		}	
 		weight = {
@@ -11714,7 +11714,7 @@
 				mode = add
 				gene = beards
 				template = all_beards
-				accessory = male_empty
+				accessory = 0.0
 			}
 		}
 		weight = {
@@ -11767,7 +11767,7 @@
 				mode = add
 				gene = beards
 				template = all_beards
-				accessory = male_empty
+				accessory = 0.0
 			}
 		}
 		weight = {
