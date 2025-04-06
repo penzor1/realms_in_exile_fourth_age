@@ -3544,20 +3544,19 @@
 			}
 		}
 	}
-
-dorfdad_dwalin_portrait = { # Jagua note: Added beard and hair based on from Dwalin V model to gimli_temp model by Jamie-san
+	dorfdad_dwalin_portrait = { # Juke note: Placeholder hair and beard, same as Thorin. Please add!
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = hairstyles
 				template = all_hairstyles
-				accessory = male_hair_northern_02
+				accessory = male_hair_fp1_08
 			}
 			accessory = {
 				mode = add
 				gene = beards
 				template = all_beards
-				accessory = male_beard_fp1_04
+				accessory = male_beard_northern_02
 			}
 		}   
 		weight = {
@@ -3573,47 +3572,9 @@ dorfdad_dwalin_portrait = { # Jagua note: Added beard and hair based on from Dwa
 				exists = character:lineofdwalin0
 				this = character:lineofdwalin0
 			}
-			modifier = { # Dwalin II
-				add = 999
-				exists = this
-				exists = character:lineofdwalin7
-				this = character:lineofdwalin7
-			}
-			modifier = { # Dwalin III
-				add = 999
-				exists = this
-				exists = character:lineofdwalin27
-				this = character:lineofdwalin27
-			}
-			modifier = { # Dwalin IV
-				add = 999
-				exists = this
-				exists = character:lineofdwalin45
-				this = character:lineofdwalin45
-			}
-			modifier = { # Dwalin V
-				add = 999
-				exists = this
-				exists = character:lineofdwalin61
-				this = character:lineofdwalin61
-			}
-			modifier = { # Dwalin VI
-				add = 999
-				exists = this
-				exists = character:lineofdwalin77
-				this = character:lineofdwalin77
-
-			}
-			modifier = { # Dwalin VII
-				add = 999
-				exists = this
-				exists = character:lineofdwalinVII
-				this = character:lineofdwalinVII
-
-			}
+			# Add other incarnations once added to history!
 		}
 	}
-}
 	dorfdad_bavor_portrait = { # Juke note: Placeholder hair and beard, same as Thorin. Please add!
 		dna_modifiers = {
 			accessory = {
@@ -11649,7 +11610,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Added beard and hair based on from Dwa
 				mode = add
 				gene = beards
 				template = all_beards
-				accessory = 0.0
+				accessory = male_empty
 			}
 		}	
 		weight = {
@@ -11753,7 +11714,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Added beard and hair based on from Dwa
 				mode = add
 				gene = beards
 				template = all_beards
-				accessory = 0.0
+				accessory = male_empty
 			}
 		}
 		weight = {
@@ -11806,7 +11767,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Added beard and hair based on from Dwa
 				mode = add
 				gene = beards
 				template = all_beards
-				accessory = 0.0
+				accessory = male_empty
 			}
 		}
 		weight = {
@@ -11842,60 +11803,6 @@ dorfdad_dwalin_portrait = { # Jagua note: Added beard and hair based on from Dwa
 				exists = this
 				exists = character:lineofazog21
 				this = character:lineofazog21
-			}
-		}
-	}
-
- # fictional, 4th Age Olog-hai
-
-shaq_olog_hai_portrait = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = all_hairstyles
-				accessory = male_hair_balding_01
-			}
-			accessory = {
-				mode = add
-				gene = beards
-				template = all_beards
-				accessory = 0.0
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 999
-				exists = this
-				exists = character:lineofshaq1
-				this = character:lineofshaq1
-			}
-		}
-	}
-
- 	shagdush_olog_hai_portrait = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = all_hairstyles
-				accessory = male_hair_balding_01
-			}
-			accessory = {
-				mode = add
-				gene = beards
-				template = all_beards
-				accessory = 0.0
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 999
-				exists = this
-				exists = character:lineofshaq2
-				this = character:lineofshaq2
 			}
 		}
 	}
