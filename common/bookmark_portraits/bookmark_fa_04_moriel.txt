@@ -1,4 +1,4 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
+# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:lineofmoriel1
 bookmark_fa_04_moriel={
 	type=female
@@ -129,7 +129,7 @@ bookmark_fa_04_moriel={
  		headgear={ "elven_low_headgear" 174 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 3942081117 3942081117 }
+	entity={ 3267808479 3267808479 }
 	tags={ {
 			hash=2125534279
 			invert=no

@@ -1,4 +1,4 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
+# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:lineoflanthir4
 bookmark_fa_04_aramagor={
 	type=male

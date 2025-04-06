@@ -1,8 +1,8 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
+# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:lineofdurin100
 bookmark_fa_05_gimli={
 	type=male
-	id=25812
+	id=25814
 	random_seed=745942782
 	age=0.710000
 	genes={ 		hair_color={ 204 129 204 129 }
