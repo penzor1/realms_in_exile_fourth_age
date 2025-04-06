@@ -59,12 +59,11 @@ mouthofsauron = {
 		#	death_reason = death_battle	
 		#}		
 		name = "Herumor"
-		remove_nickname = character:mouthofsauron # Mordu
-		#give_nickname = nick_the_old_shadow
+		remove_nickname = yes
+		give_nickname = nick_the_old_shadow
 		effect = {
-			set_to_lowborn = character:mouthofsauron # Mordu
+			set_to_lowborn = yes
 			add_trait = maimed
-#			remove_nickname = character:mouthofsauron # Mordu
    			add_character_modifier = ringbearer_health_modifier
 		}
 	}			

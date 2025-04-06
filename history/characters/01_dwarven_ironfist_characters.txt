@@ -28,7 +28,7 @@ lineofthelorI = {
 			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
 		}
 	}
-	1000.1.1 = { # just to fill the timeline
+	1000.1.2 = { # just to fill the timeline
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -47,7 +47,7 @@ lineofthelorII = {
 			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
 		}
 	}
-	2000.10.21 = { # just to fill the timeline
+	2000.1.2 = { # just to fill the timeline
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -66,7 +66,7 @@ lineofthelorIII = {
 			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
 		}
 	}
-	3000.10.21 = { # just to fill the timeline
+	3000.1.2 = { # just to fill the timeline
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -85,7 +85,7 @@ lineofthelorIV = {
 			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
 		}
 	}
-	4000.10.21 = { # just to fill the timeline
+	4000.1.2 = { # just to fill the timeline
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -104,7 +104,7 @@ lineofthelorV = {
 			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
 		}
 	}
-	5000.10.21 = { # just to fill the timeline
+	5000.1.2 = { # just to fill the timeline
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -126,7 +126,7 @@ lineofthelorVI = {
 			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
 		}
 	}
-	6800.10.21 = { # just to fill the timeline
+	6500.1.2 = { # just to fill the timeline
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -138,10 +138,10 @@ lineofthelor900 = {
 	culture = ironfists
 	father = lineofthelorVI
 
-	6800.1.1 = {
+	6500.1.1 = {
 		birth = yes
 	}
-	6950.10.21 = { # just to fill the timeline
+	6750.1.2 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -153,10 +153,10 @@ lineofthelor901 = {
 	culture = ironfists
 	father = lineofthelor900 # Vekun I
 
-	6800.1.1 = {
+	6750.1.1 = {
 		birth = yes
 	}
-	6950.10.21 = { # just to fill the timeline
+	6950.1.2 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -174,7 +174,7 @@ lineofthelor902 = {
 			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
 		}
 	}
-	7250.10.21 = { # just to fill the timeline
+	7250.10.21 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -189,7 +189,7 @@ lineofthelor903 = {
 	7000.1.1 = {
 		birth = yes
 	}
-	7250.10.21 = { # just to fill the timeline
+	7250.10.21 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -217,10 +217,12 @@ lineofthelor904 = {
 			}
 			create_alliance = {
 				target = character:lineofdurinVII # Durin VII
+				allied_through_owner = this
+				allied_through_target = character:lineofdurinVII # Durin VII
 			}
 		}
 	}
-	7350.10.21 = { # just to fill the timeline
+	7350.10.21 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
