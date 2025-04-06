@@ -1199,7 +1199,6 @@ bm_120_fourth_age_05 = {
 		history_id = lineofuri126
 		position = { 350 700 }
 		animation = personality_dishonorable
-		}
 		# Olius, the Unworthy
 		character = {
 			name = "bookmark_fa_05_olius"
@@ -1276,6 +1275,7 @@ bm_120_fourth_age_05 = {
 			history_id = lineofazog16
 			personality = personality_vengeful
 		}
+	}
 	
 #	# Fili, the Miner
 #	character = {
