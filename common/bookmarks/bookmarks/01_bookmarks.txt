@@ -566,9 +566,9 @@ bm_120_fourth_age_04 = {
 		history_id = lineofgoblinking3
 		position = { 300 300 }
 		animation = personality_honorable
-		# Skoralg, the Thin
+		# Unglob, the Blubbering
 		character = {
-			name = "bookmark_fa_04_skoralg"
+			name = "bookmark_fa_04_unglob"
 			relation = "BOOKMARK_RELATION_SON"
 			dynasty = dynasty_gorkil
 			type = male
@@ -579,9 +579,9 @@ bm_120_fourth_age_04 = {
 			culture = towndweller_goblin
 			history_id = lineofgoblinking4
 		}
-		# Unglob, the Blubbering
+		# Skoralg, the Thin
 		character = {
-			name = "bookmark_fa_04_unglob"
+			name = "bookmark_fa_04_skoralg"
 			relation = "BOOKMARK_RELATION_SON"
 			dynasty = dynasty_gorkil
 			type = male
