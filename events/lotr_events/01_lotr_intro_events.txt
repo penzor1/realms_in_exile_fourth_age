@@ -1060,7 +1060,7 @@ ns_lotr_intro_events.2011 = { # Durin VII Intro
 	}
 	right_portrait = {
 		character = character:lineofdurinVII # DurinVII
-		animation = personality_honorable
+		animation = celebrate_axe
 	}
 
 	lower_left_portrait = {
@@ -1282,7 +1282,7 @@ ns_lotr_intro_events.4001 = { # Boldog, the Tyrant Intro
 	}
 	left_portrait = {
 		character = character:lineofazog14 # Boldog the Tyrant
-		animation = personality_bold
+		animation = aggressive_axe
 	}
 	lower_left_portrait = {
 		character = character:lineofazog2
@@ -1314,7 +1314,7 @@ ns_lotr_intro_events.4006 = { # Mazog II, the Spurned Intro
 	}
 	right_portrait = {
 		character = character:lineofazog17 # Mazog II the Spurned
-		animation = personality_callous
+		animation = aggressive_sword
 	}
 	lower_left_portrait = {
 		character = character:lineofazog16
@@ -1346,7 +1346,7 @@ ns_lotr_intro_events.4011 = { # Bolgakh, the Hammer Intro
 	}
 	left_portrait = {
 		character = character:lineofazog16 # Bolgakh the Hammer
-		animation = personality_bold
+		animation = aggressive_hammer
 	}
 	lower_left_portrait = {
 		character = character:lineofazog17
