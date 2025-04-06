@@ -1060,7 +1060,7 @@ ns_lotr_intro_events.2011 = { # Durin VII Intro
 	}
 	right_portrait = {
 		character = character:lineofdurinVII # DurinVII
-		animation = personality_honorable
+		animation = celebrate_axe
 	}
 
 	lower_left_portrait = {
@@ -1282,7 +1282,7 @@ ns_lotr_intro_events.4001 = { # Boldog, the Tyrant Intro
 	}
 	left_portrait = {
 		character = character:lineofazog14 # Boldog the Tyrant
-		animation = personality_bold
+		animation = aggressive_axe
 	}
 	lower_left_portrait = {
 		character = character:lineofazog2
@@ -1314,7 +1314,7 @@ ns_lotr_intro_events.4006 = { # Mazog II, the Spurned Intro
 	}
 	right_portrait = {
 		character = character:lineofazog17 # Mazog II the Spurned
-		animation = personality_callous
+		animation = aggressive_sword
 	}
 	lower_left_portrait = {
 		character = character:lineofazog16
@@ -1346,7 +1346,7 @@ ns_lotr_intro_events.4011 = { # Bolgakh, the Hammer Intro
 	}
 	left_portrait = {
 		character = character:lineofazog16 # Bolgakh the Hammer
-		animation = personality_bold
+		animation = marshal_mace
 	}
 	lower_left_portrait = {
 		character = character:lineofazog17
@@ -1363,6 +1363,38 @@ ns_lotr_intro_events.4011 = { # Bolgakh, the Hammer Intro
 	
 	option = {
 		name = ns_lotr_intro_events.4011.a
+
+	}
+}
+
+ns_lotr_intro_events.4016 = { # Golmog, the Humongous Intro
+	content_source = realms_dlc
+	type = character_event
+	title = ns_lotr_intro_events.4016.t
+	desc = ns_lotr_intro_events.4016.desc
+	theme = martial
+	override_background = {
+		reference = throne_room_orc
+	}
+	left_portrait = {
+		character = character:lineofgoblinking3 # Bolgakh the Hammer
+		animation = threatening
+	}
+	lower_left_portrait = {
+		character = character:lineofazog16
+	}
+	lower_center_portrait = {
+		character = character:lineofazog14
+	}
+	lower_right_portrait = {
+		character = character:lineofazog17
+	}
+	immediate = {
+		play_music_cue = lotr_moria
+	}
+	
+	option = {
+		name = ns_lotr_intro_events.4016.a
 
 	}
 }
