@@ -219,10 +219,10 @@ c_morannon = {
 	}				
 	#fiction
 	7075.3.2 = { #RK waypost castle on the way to Rhovanion established
-		holder = dynasty_dor_giril98 # Mordulin
+		holder = lineisildur49 # eldacar
 		liege = d_watch_on_mordor
 		government = feudal_government
-		change_development_level = 2
+		change_development_level = 3
 	}
 }							
 # Udûn
@@ -313,7 +313,7 @@ c_udun = {
 		holder = dynasty_dor_giril88 # Glorfindel
 		liege = d_watch_on_mordor
 		government = feudal_government
-		change_development_level = 1
+		change_development_level = 2
 	}
 	7172.11.2 = {
 		holder = dynasty_dor_giril92 # Mardil
@@ -665,7 +665,7 @@ c_cirith_ungol = {
 		holder = dynasty_dor_giril81 # Belegund
 		liege = d_watch_on_mordor
 		government = feudal_government
-		change_development_level = 1
+		change_development_level = 2
 	}
 }
 # Lhingris
@@ -750,6 +750,13 @@ c_lhingris = {
         holder = k_wastelands_holder
         change_development_level = -100
     }					
+	#fiction
+	7075.3.2 = { #RK waypost castle on the way to Rhovanion established
+		holder = dynasty_dor_giril98 # Mordulin
+		liege = d_watch_on_mordor
+		government = feudal_government
+		change_development_level = 1
+	}
 }
 # Kâm Lagúrz													
 c_kam_lagurz = { 

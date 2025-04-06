@@ -1,0 +1,776 @@
+﻿namespace = 01_mordor
+
+#################################
+
+01_mordor.1001 = {
+	content_source = realms_dlc
+	type = character_event
+	title = 01_mordor.1001.t
+	desc = 01_mordor.1001.desc
+	theme = travel_danger
+	override_background = {
+		reference = barad_dur
+	}
+	left_portrait = {
+		character = scope:ranger # RNG Ranger
+		animation = worry
+	}
+	right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = clutching_ball
+	}
+	
+	immediate = {
+		play_music_cue = lotr_base_evil_15
+	}
+	
+	option = {
+		name = 01_mordor.1001.a
+		custom_tooltip = 01_mordor.1001.a.tt # There will be Repercussions
+		character:lineisildur49 = { # Eldacar
+			add_stress = 50
+			create_artifact_palantir_minasithil_effect = { OWNER = this }
+			hidden_effect = {
+				add_piety_level = -1
+				remove_trait = calm
+				add_trait = paranoid
+			}
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_followed
+		}
+		character:lineisildur43 = { # Eldarion
+			trigger_event = {
+				id = 01_mordor.1002
+				days = { 30 120 }
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = 01_mordor.1001.b
+		custom_tooltip = 01_mordor.1001.b.tt # Stay Loyal
+		character:lineisildur43 = { # Eldarion
+			create_artifact_palantir_minasithil_effect = { OWNER = this }
+		}
+		character:lineisildur49 = { # Eldacar
+			spawn_army = {
+				men_at_arms = {
+					type = rangers_of_ithilien
+					stacks = 1
+				}
+				men_at_arms = {
+					type = dunedain_rangers
+					stacks = 1
+				}
+				men_at_arms = {
+					type = dunedain_wardens
+					stacks = 1
+				}
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+				uses_supply = no
+				name = rangers_of_ithilien
+				location = character:lineisildur49.location
+			}
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_shutdown
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+01_mordor.1002 = {
+	content_source = realms_dlc
+	type = character_event
+	title = 01_mordor.1002.t
+	desc = 01_mordor.1002.desc
+	theme = travel_danger
+	override_background = {
+		reference = barad_dur
+	}
+	lower_left_portrait = {
+		character = scope:ranger # RNG Ranger
+		animation = worry
+	}
+	lower_right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = clutching_ball
+	}
+	right_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_base_evil_15
+	}
+	
+	option = {
+		name = 01_mordor.1002.a
+	}
+}
+
+01_mordor.1003 = {
+	content_source = realms_dlc
+	type = character_event
+	title = 01_mordor.1003.t
+	desc = 01_mordor.1003.desc
+	theme = travel_danger
+	override_background = {
+		reference = barad_dur
+	}
+	left_portrait = {
+		character = scope:ranger # RNG Ranger
+		animation = worry
+	}
+	right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = survey
+	}
+	
+	immediate = {
+		play_music_cue = lotr_base_evil_15
+		character:lineisildur49 = { # Eldacar
+			hidden_effect = {
+				domicile ?= { change_provisions = max_provisions }
+			}
+		}
+	}
+	
+	option = {
+		name = 01_mordor.1003.a
+		custom_tooltip = 01_mordor.1001.a.tt # There will be Repercussions
+		character:lineisildur49 = { # Eldacar
+			add_stress = 50
+			create_artifact_palantir_minasithil_effect = { OWNER = this }
+			hidden_effect = {
+				add_piety_level = -1
+				remove_trait = calm
+				add_trait = paranoid
+			}
+		}
+		character:lineisildur43 = { # Eldarion
+			trigger_event = {
+				id = 01_mordor.1004
+				days = { 30 120 }
+			}
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:deserted_watch
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	option = {
+		name = 01_mordor.1003.b
+		custom_tooltip = 01_mordor.1003.b.tt # Stay Loyal
+		character:lineisildur49 = { # Eldacar
+			spawn_army = {
+				men_at_arms = {
+					type = rangers_of_ithilien
+					stacks = 1
+				}
+				men_at_arms = {
+					type = dunedain_rangers
+					stacks = 1
+				}
+				men_at_arms = {
+					type = dunedain_wardens
+					stacks = 1
+				}
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+				uses_supply = no
+				name = rangers_of_ithilien
+				location = character:lineisildur49.location
+			}
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_shutdown
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+01_mordor.1004 = {
+	content_source = realms_dlc
+	type = character_event
+	title = 01_mordor.1004.t
+	desc = 01_mordor.1004.desc
+	theme = travel_danger
+	override_background = {
+		reference = barad_dur
+	}
+	lower_left_portrait = {
+		character = scope:ranger # RNG Ranger
+		animation = worry
+	}
+	lower_right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = clutching_ball
+	}
+	right_portrait = {
+		character = character:lineisildur43 # Eldarion
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_base_evil_15
+	}
+	
+	option = {
+		name = 01_mordor.1004.a
+	}
+}
+
+01_mordor.1005 = {
+	content_source = realms_dlc
+	type = character_event
+	title = 01_mordor.1005.t
+	desc = 01_mordor.1005.desc
+	theme = travel_danger
+	override_background = {
+		reference = throne_room_evil
+	}
+	left_portrait = {
+		character = scope:wise_woman # RNG Wisewoman
+		animation = obsequious_bow 
+	}
+	right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = worry
+	}
+	lower_left_portrait = {
+		character = scope:commander # RNG Leader
+		animation = throne_room_bow_1 
+	}
+	lower_center_portrait = {
+		character = scope:local_soldier # RNG Warrior
+		animation = throne_room_bow_1 
+	}
+	lower_right_portrait = {
+		character = scope:ranger # RNG Ranger
+		animation = worry
+	}
+
+	immediate = {
+		play_music_cue = aotr_calm_mistymountains_10
+		hidden_effect_new_object = {
+			# Create a commander for the troops.
+			create_character = {
+				template = new_commander_character
+				culture = culture:nurniag
+				faith = faith:faith_nurniag
+				dynasty = generate
+				location = character:lineisildur49.location
+				gender_female_chance = root_soldier_female_chance
+				save_scope_as = commander
+				after_creation = {
+					learn_language = language_westron
+					add_opinion = {
+						target = character:lineisildur49 # Eldacar
+						modifier = loyalty_opinion
+						opinion = 100
+					}
+				}
+			}
+			## Give 'em a nickname.
+			scope:commander = { assign_random_nickname_effect = yes }
+			# Create a local soldier.
+			create_character = {
+				template = new_warrior_character
+				location = character:lineisildur49.location
+				culture = culture:magriag
+				faith = faith:faith_kerkassk
+				dynasty = none
+				gender_female_chance = 0
+				save_scope_as = local_soldier
+				after_creation = {
+					learn_language = language_westron
+					add_opinion = {
+						target = character:lineisildur49 # Eldacar
+						modifier = loyalty_opinion
+						opinion = 100
+					}
+				}
+			}
+			## Give 'em a nickname.
+			scope:local_soldier = { assign_random_nickname_effect = yes }
+			# Create a local soldier.
+			create_character = {
+				template = new_warrior_character
+				location = character:lineisildur49.location
+				culture = culture:umbarean
+				faith = faith:path_of_zigur
+				dynasty = none
+				gender_female_chance = root_soldier_female_chance
+				save_scope_as = local_soldier2
+				trait = blood_of_numenor_1
+				after_creation = {
+					learn_language = language_westron
+					add_opinion = {
+						target = character:lineisildur49 # Eldacar
+						modifier = loyalty_opinion
+						opinion = 100
+					}
+				}
+			}
+			## Give 'em a nickname.
+			scope:local_soldier2 = { assign_random_nickname_effect = yes }
+			# Create a wise woman.
+			create_character = { #massive bait
+				template = wise_woman_character
+				location = character:lineisildur49.location
+				culture = culture:old_umbarean
+				faith = faith:melkorite
+				dynasty = none
+				gender_female_chance = 100
+				save_scope_as = wise_woman
+				trait = zealous
+				trait = lustful
+				trait = ambitious
+				trait = shrewd
+				trait = intellect_good_1
+				trait = beauty_good_2
+				trait = blood_of_numenor_2
+				trait = witch
+				trait = lifestyle_herbalist
+				after_creation = {
+					learn_language = language_westron
+					learn_language = language_black_speech
+					add_opinion = {
+						target = character:lineisildur49 # Eldacar
+						modifier = loyalty_opinion
+						opinion = 200
+					}
+				}
+			}
+			## Give 'em a nickname.
+			scope:wise_woman = { assign_random_nickname_effect = yes }
+		}
+	}
+	
+	option = {
+		name = 01_mordor.1005.a
+		custom_tooltip = 01_mordor.1005.a.tt # No Turning Back
+		character:lineisildur49 = { # Eldacar
+			add_stress = 100
+			add_gold = major_gold_value
+			if = {
+				limit = { is_ai = yes }
+				set_character_faith_with_conversion = faith:melkorite
+			}
+			spawn_army = {
+				levies = 500
+				men_at_arms = {
+					type = umbar_usurpers
+					stacks = 1
+				}
+				men_at_arms = {
+					type = abrazanim_legion
+					stacks = 1
+				}
+				men_at_arms = {
+					type = abrazanim_halberdiers
+					stacks = 1
+				}
+				men_at_arms = {
+					type = abrazanim_warbows
+					stacks = 1
+				}
+				men_at_arms = {
+					type = temple_knights_of_the_eye
+					stacks = 1
+				}
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+				uses_supply = no
+				save_scope_as = dark_host
+				name = abrazanim_legion
+				location = character:lineisildur49.location
+			}
+			hidden_effect = {
+				add_courtier = scope:commander
+				add_courtier = scope:local_soldier
+				add_courtier = scope:local_soldier2
+				add_courtier = scope:wise_woman
+			}
+		}
+		hidden_effect = {
+			scope:ranger = { # RNG Ranger
+				death = { killer = character:lineisildur49 death_reason = death_sacrificed_to_foreign_gods } # Eldarion kill them
+			}
+			character:lineisildur49 = { # Eldacar
+				add_trait = disloyal
+				add_trait = murderer
+			}
+		character:lineofcaran2 = { # The Watch splits
+			create_title_and_vassal_change = {
+				type = independency
+				add_claim_on_loss = yes
+				save_scope_as = change3
+			}
+			becomes_independent = { change = scope:change3 }
+			resolve_title_and_vassal_change = scope:change3
+		}
+		character:lineofcaran2 = { # The Watch splits pt2
+			create_title_and_vassal_change = {
+				type = swear_fealty
+				save_scope_as = change4
+				add_claim_on_loss = no
+			}
+			change_liege = {
+				liege = character:lineisildur43 # Eldarion
+				change = scope:change4
+			}
+		}
+		character:lineisildur49 = { # Eldacar
+			create_title_and_vassal_change = {
+				type = independency
+				add_claim_on_loss = yes
+				save_scope_as = change5
+			}
+			becomes_independent = { change = scope:change5 }
+			resolve_title_and_vassal_change = scope:change5
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = 01_mordor.1005.b
+		custom_tooltip = 01_mordor.1005.b.tt # No
+		character:lineisildur49 = { # Eldacar
+			add_trait = loyal
+			add_piety_level = 1
+			spawn_army = {
+				men_at_arms = {
+					type = dunedain_knights
+					stacks = 1
+				}
+				men_at_arms = {
+					type = dunedain_archers
+					stacks = 1
+				}
+				men_at_arms = {
+					type = dunedain_soldiers
+					stacks = 1
+				}
+				war_keep_on_attacker_victory = yes
+				inheritable = yes
+				uses_supply = no
+				name = dunedain_knights
+				location = character:lineisildur49.location
+			}
+		}
+		scope:commander = {
+			death = { death_reason = death_battle killer = character:lineisildur49 } # Eldarion kill them
+		}
+		scope:local_soldier = {
+			death = { death_reason = death_battle killer = character:lineisildur49 } # Eldarion kill them
+		}
+		scope:local_soldier2 = {
+			death = { death_reason = death_battle killer = character:lineisildur49 } # Eldarion kill them
+		}
+		scope:wise_woman = {
+			death = { death_reason = death_vanished }
+		}
+		hidden_effect = {
+			scope:ranger = {
+				add_opinion = {
+					target = character:lineisildur49 # Eldacar
+					modifier = loyalty_opinion
+					opinion = 300
+				}
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+01_mordor.1010 = {
+	content_source = realms_dlc
+	type = character_event
+	title = 01_mordor.1010.t
+	desc = 01_mordor.1010.desc
+	theme = travel_danger
+	override_background = {
+		reference = throne_room_evil
+	}
+	left_portrait = {
+		character = scope:wise_woman # RNG Wisewoman
+		animation = obsequious_bow 
+	}
+	right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = delirium
+	}
+	lower_right_portrait = {
+		character = character:lineofsauron # Sauron
+		animation = worry
+	}
+
+	immediate = {
+		play_music_cue = hobbit_an_ancient_enemy
+	}
+	
+	option = {
+		name = 01_mordor.1010.a
+		custom_tooltip = 01_mordor.1010.a.tt # No Turning Back
+		character:lineisildur49 = { # Eldacar
+			set_character_faith_with_conversion = faith:melkorite
+			add_stress = 100
+			change_first_name = "Herumor"
+			add_character_flag = has_regnal_name
+			set_house = house:house_herumori
+			hidden_effect = {
+				add_trait = lunatic_genetic
+				add_trait = sorcerer_1
+			}
+		}
+		hidden_effect = {
+			scope:wise_woman = { # RNG Wisewoman
+				add_trait = sorcerer_1
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = 01_mordor.1010.b
+		custom_tooltip = 01_mordor.1010.b.tt # No Turning Back
+		character:lineisildur49 = { # Eldacar
+			set_character_faith_with_conversion = faith:cult_of_zigur
+			add_stress = 100
+			change_first_name = "Herumor"
+			add_character_flag = has_regnal_name
+			set_house = house:house_herumori
+			hidden_effect = {
+				add_trait = lunatic_genetic
+				add_trait = sorcerer_1
+			}
+		}
+		hidden_effect = {
+			scope:wise_woman = { # RNG Wisewoman
+				add_trait = sorcerer_1
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = 01_mordor.1010.c
+		custom_tooltip = 01_mordor.1010.c.tt # No
+		
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+01_mordor.1011 = {
+	content_source = realms_dlc
+	type = character_event
+	title = 01_mordor.1011.t
+	desc = 01_mordor.1011.desc
+	theme = travel_danger
+	override_background = {
+		reference = throne_room_evil
+	}
+	left_portrait = {
+		character = scope:wise_woman # RNG Wisewoman
+		animation = obsequious_bow 
+	}
+	right_portrait = {
+		character = character:lineisildur49 # Eldacar
+		animation = delirium
+	}
+	lower_right_portrait = {
+		character = character:lineofsauron # Sauron
+		animation = worry
+	}
+
+	immediate = {
+		play_music_cue = hobbit_an_ancient_enemy
+	}
+	
+	option = {
+		name = 01_mordor.1011.a
+		custom_tooltip = 01_mordor.1011.a.tt # No Turning Back
+		character:lineisildur49 = { # Eldacar
+			add_stress = 100
+			hidden_effect = {
+				add_trait = sorcerer_2
+				add_trait = possessed_genetic
+			}
+		}
+		#hidden_effect = {
+			scope:wise_woman = { # RNG Wisewoman
+				death = { killer = character:lineisildur49 death_reason = death_sacrificed_to_foreign_gods } # Eldarion kill them
+			}
+		#}
+		#trigger_event = { #next level sorcery??
+		#	id = ns_lotr_intro_events.6211
+		#	days = { 960 1920 }
+		#}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	
+	option = {
+		name = 01_mordor.1011.b
+		custom_tooltip = 01_mordor.1011.b.tt # Too late
+		hidden_effect = {
+			character:lineisildur49 = { # Eldacar
+				death = { killer = scope:wise_woman death_reason = death_sacrificed_to_foreign_gods } # Killed
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+

@@ -1,0 +1,368 @@
+﻿### MORDOR DECISIONS ###
+decision_follow_the_voices = {
+	sort_order = 25
+	title = decision_follow_the_voices
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
+	}
+	
+	ai_goal = yes
+	selection_tooltip = decision_follow_the_voices_tooltip
+	desc = decision_follow_the_voices_desc
+	confirm_text = decision_follow_the_voices_confirm
+	
+	cost = {
+		gold = 25
+		prestige = 200
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		has_character_flag = is_eldacar
+		is_ruler = yes
+		has_title = title:d_watch_on_mordor
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_shutdown
+			}
+		}
+	}
+
+	is_valid = {
+		has_title = title:d_watch_on_mordor
+		completely_controls = title:c_morannon
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_at_war = no
+	}
+	
+	effect = {
+		trigger_event = {
+			id = 01_mordor.1001
+			days = { 90 360 }
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = { # Game Rule
+			has_game_rule = default_ai_behavior
+			add = 50
+		}
+		modifier = { # Game Rule
+			has_game_rule = weighted_ai_behavior
+			add = 25
+		}
+		modifier = { # Game Rule
+			has_game_rule = random_ai_behavior
+			add = 10
+		}
+	}
+}
+
+decision_leave_the_watch = {
+	sort_order = 25
+	title = decision_seek_places_of_power
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
+	}
+	
+	ai_goal = yes
+	selection_tooltip = decision_leave_the_watch_tooltip
+	desc = decision_leave_the_watch_desc
+	confirm_text = decision_leave_the_watch_confirm
+	
+	cost = {
+		gold = 100
+		prestige = 500
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		has_character_flag = is_eldacar
+		is_ruler = yes
+		has_title = title:d_watch_on_mordor
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_shutdown
+			}
+		}
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_followed
+		}
+	}
+
+	is_valid = {
+		has_title = title:d_watch_on_mordor
+		completely_controls = title:c_morannon
+		
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_at_war = no
+	}
+	
+	effect = {
+		title:c_morannon = {
+			change_development_level = -1
+		}
+		trigger_event = {
+			id = mordor.1003
+			days = 1
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = { # Game Rule
+			has_game_rule = default_ai_behavior
+			add = 50
+		}
+		modifier = { # Game Rule
+			has_game_rule = weighted_ai_behavior
+			add = 25
+		}
+		modifier = { # Game Rule
+			has_game_rule = random_ai_behavior
+			add = 10
+		}
+	}
+}
+
+decision_seek_places_of_power = {
+	sort_order = 25
+	title = decision_seek_places_of_power
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
+	}
+	
+	ai_goal = yes
+	selection_tooltip = decision_seek_places_of_power_tooltip
+	desc = decision_seek_places_of_power_desc
+	confirm_text = decision_seek_places_of_power_confirm
+	
+	cost = {
+		gold = 50
+		prestige = 250
+		piety = 250
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		has_character_flag = is_eldacar
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_shutdown
+			}
+		}
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:deserted_watch
+		}
+	}
+
+	is_valid = {
+		prestige_level >= 1
+		piety_level >= 1
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_at_war = no
+	}
+	
+	effect = {
+		trigger_event = {
+			id = mordor.1005
+			days = { 90 360 }
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = { # Game Rule
+			has_game_rule = default_ai_behavior
+			add = 50
+		}
+		modifier = { # Game Rule
+			has_game_rule = weighted_ai_behavior
+			add = 25
+		}
+		modifier = { # Game Rule
+			has_game_rule = random_ai_behavior
+			add = 10
+		}
+	}
+}
+
+decision_commit_to_darkness = {
+	sort_order = 25
+	title = decision_commit_to_darkness
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
+	}
+	
+	ai_goal = yes
+	selection_tooltip = decision_commit_to_darkness_tooltip
+	desc = decision_commit_to_darkness_desc
+	confirm_text = decision_commit_to_darkness_confirm
+	
+	cost = {
+		gold = 100
+		prestige = 500
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		has_character_flag = is_eldacar
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_shutdown
+			}
+		}
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:deserted_watch
+		}
+	}
+
+	is_valid = {
+		prestige_level >= 1
+		piety_level >= 2
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_at_war = no
+	}
+	
+	effect = {
+		trigger_event = {
+			id = 01_mordor.1010
+			days = 5
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = { # Game Rule
+			has_game_rule = default_ai_behavior
+			add = 50
+		}
+		modifier = { # Game Rule
+			has_game_rule = weighted_ai_behavior
+			add = 25
+		}
+		modifier = { # Game Rule
+			has_game_rule = random_ai_behavior
+			add = 10
+		}
+	}
+}
+
+decision_commune_in_darkness = {
+	sort_order = 25
+	title = decision_commune_in_darkness
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
+	}
+	
+	ai_goal = yes
+	selection_tooltip = decision_commune_in_darkness_tooltip
+	desc = decision_commune_in_darkness_desc
+	confirm_text = decision_commune_in_darkness_confirm
+	
+	cost = {
+		gold = 100
+		prestige = 500
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		has_character_flag = is_eldacar
+		faith_is_evil = yes
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_shutdown
+			}
+		}
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:deserted_watch
+		}
+	}
+
+	is_valid = {
+		prestige_level >= 2
+		piety_level >= 2
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_at_war = no
+	}
+	
+	effect = {
+		trigger_event = {
+			id = 01_mordor.1011
+			days = 5
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = { # Game Rule
+			has_game_rule = default_ai_behavior
+			add = 50
+		}
+		modifier = { # Game Rule
+			has_game_rule = weighted_ai_behavior
+			add = 25
+		}
+		modifier = { # Game Rule
+			has_game_rule = random_ai_behavior
+			add = 10
+		}
+	}
+}
+
+
