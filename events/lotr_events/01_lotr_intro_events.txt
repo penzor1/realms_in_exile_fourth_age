@@ -660,9 +660,6 @@ ns_lotr_intro_events.0038 = { # Gimli receives a letter
 			}
 		}
 		hidden_effect = {
-			character:lineofdurin100 = { # Gimli
-				add_courtier = character:linefrar7 # Wirwir # safety
-			}
 			character:linefrar7 = { # Wirwir
 				trigger_event = {
 					id = ns_lotr_intro_events.0039
@@ -700,7 +697,7 @@ ns_lotr_intro_events.0038 = { # Gimli receives a letter
 				start_travel_plan = { # Travel to Ithilien
 					destination = province:236 # b_emyn_arnen
 					return_trip = no
-					players_use_planner = yes
+					players_use_planner = no
 					on_arrival_destinations = all
 				}
 			}
@@ -1794,19 +1791,16 @@ ns_lotr_intro_events.6200 = { # Eldarion Intro
 	
 	option = {
 		name = ns_lotr_intro_events.6200.a
-		character:lineisildur43 = {
-			add_stress = 50
-			set_relation_best_friend = {
-				reason = contemplated_life_and_death_together
-				target = character:linesteward46
+		character:lineisildur43 = { # Eldarion
+			add_stress = -50
+			set_relation_friend = {
+				target = character:linesteward46 # Dior
 			}
 			set_relation_soulmate = {
-				reason = contemplated_life_and_death_together
-				target = character:linesteward51
+				target = character:linesteward51 # Nessanie
 			}
-			set_relation_best_friend = {
-				reason = contemplated_life_and_death_together
-				target = character:lineisildur47
+			set_relation_friend = {
+				target = character:lineisildur47 # Elendil
 			}
 		}
 	}
