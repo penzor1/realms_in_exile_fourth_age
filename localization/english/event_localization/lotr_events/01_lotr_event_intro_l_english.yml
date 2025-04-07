@@ -196,8 +196,10 @@
  ns_lotr_intro_events.4046.desc:0 ""
  ns_lotr_intro_events.4046.a:0 ""
  ns_lotr_intro_events.4051.t:0 "" # carn dum orc tribe
- ns_lotr_intro_events.4051.desc:0 ""
- ns_lotr_intro_events.4051.a:0 ""
+ ns_lotr_intro_events.4056.t:0 "Shagdush, the Last Fang" # Shagdush the Troll
+ ns_lotr_intro_events.4056.desc:0 "The Dark Master is gone. The Black Gate is dust. The horde is no more.\n\nOnce, there were hundreds. [orcs|E] and Trolls, all roaring behind Yagmuz the Troll-father. They fled east, away from fire and ruin. Tried Dol Guldur — burned. Tried Rhûn — hunted. Then came the forest. Dark. Full of Elf-stink.\n\nThe warbands went mad. Slashed trees, tore flesh, roared until the sky split. But the Elves came back. With spells. With steel. Yagmuz fell, and the horde shattered.\n\nNow only Shagdush remains. Big, angry, and not much for words. He remembers blood. He remembers fire. He wants more. He wants warbands. He wants someone to smash.\n\nBut Shagdush doesn’t care. Shagdush doesn’t think. Shagdush smashes."
+ ns_lotr_intro_events.4056.a:0 "Big. Angry. Ready to smash."
+
  ##########################
  ###                    ###
  ### Human Intro Events ###

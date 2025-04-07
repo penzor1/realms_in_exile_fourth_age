@@ -335,6 +335,18 @@ fire_intro_events_0120 = {
 			}
 		}
 	}
+
+	character:lineofyagmuz2 = { # Yagmuz the Troll Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.4056
+				days = { 2 5 }
+			}
+		}
+	}
 	
 	### HUMANS INTRO EVENTS ###
 	# ARNOR
