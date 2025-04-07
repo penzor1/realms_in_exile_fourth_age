@@ -8,6 +8,7 @@ lineofthelorI = {
 	culture = ironfists
 	
 	trait = brave
+	trait = stubborn
 	trait = ambitious
 	trait = diligent
 
@@ -19,7 +20,7 @@ lineofthelorI = {
 	
 	1.1.1 = {
 		birth = yes
-		name = "Thelor"
+		name = "Thelor I"
 		give_nickname = nick_the_rich_dwarf
 		effect = {
 			add_character_flag = {
@@ -42,7 +43,7 @@ lineofthelorII = {
 
 	1000.1.1 = {
 		birth = yes
-		name = "Thelor"
+		name = "Thelor II"
 		effect = {
 			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
 		}
@@ -61,7 +62,7 @@ lineofthelorIII = {
 
 	2000.1.1 = {
 		birth = yes
-		name = "Thelor"
+		name = "Thelor III"
 		effect = {
 			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
 		}
@@ -80,7 +81,7 @@ lineofthelorIV = {
 
 	3000.1.1 = {
 		birth = yes
-		name = "Thelor"
+		name = "Thelor IV"
 		effect = {
 			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
 		}
@@ -99,7 +100,7 @@ lineofthelorV = {
 
 	4000.1.1 = {
 		birth = yes
-		name = "Thelor"
+		name = "Thelor V"
 		effect = {
 			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
 		}
@@ -118,7 +119,7 @@ lineofthelorVI = {
 
 	6000.1.1 = {
 		birth = yes
-		name = "Thelor"
+		name = "Thelor VI"
 		effect = {
 			add_character_flag = {
 				flag = had_nickname_event
