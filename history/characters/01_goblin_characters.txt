@@ -170,11 +170,11 @@ lineofgoblinking2 = {
 	#mother = 
 
 	diplomacy = 5
-    martial = 5
-    stewardship = 3
-    intrigue = 6
-    learning = 7
-    prowess = 6
+	martial = 5
+	stewardship = 3
+	intrigue = 6
+	learning = 7
+	prowess = 6
 	
 	trait = gluttonous
 	trait = lustful
@@ -228,11 +228,11 @@ lineofgoblinking3 = {
 	dna = golmog_the_humongous_dna
 
 	diplomacy = 4
-    martial = 8
-    stewardship = 6
-    intrigue = 4
-    learning = 6
-    prowess = 9
+	martial = 8
+	stewardship = 6
+	intrigue = 4
+	learning = 6
+	prowess = 9
 	
 	trait = gluttonous
 	trait = vengeful
@@ -299,11 +299,11 @@ lineofgoblinking4 = {
 	dna = unglob_the_blubbering_dna
 
 	diplomacy = 2
-    martial = 4
-    stewardship = 6
-    intrigue = 7
-    learning = 4
-    prowess = 7
+	martial = 4
+	stewardship = 6
+	intrigue = 7
+	learning = 4
+	prowess = 7
 	
 	trait = gluttonous
 	trait = lazy
@@ -340,13 +340,13 @@ lineofgoblinking5 = {
 	mother = lineofgoblinking3wife # Mogsharlob
 
 	diplomacy = 4
-    martial = 6
-    stewardship = 1
-    intrigue = 6
-    learning = 4
-    prowess = 4
+	martial = 6
+	stewardship = 1
+	intrigue = 6
+	learning = 4
+	prowess = 4
 
-	education_diplomacy_1
+	trait = education_diplomacy_1
 
 	trait = eccentric
 	trait = wrathful
