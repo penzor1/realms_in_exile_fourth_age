@@ -444,7 +444,6 @@ lineofyagmuz3 = {
 	
 	trait = education_martial_2
 	trait = physique_good_1
-	trait = hunchbacked
 	trait = stuttering
 	
 	7105.6.8 = {
