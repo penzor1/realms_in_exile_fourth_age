@@ -228,12 +228,12 @@
 			content = minor_stress_impact_gain
 			lazy = minor_stress_impact_gain
 		}
-#		character:lineisildur43 = { # Eldarion
-#			trigger_event = {
-#				id = 01_mordor.1005
-#				days = { 15 60 }
-#			}
-#		}
+		character:lineisildur43 = { # Eldarion
+			trigger_event = {
+				id = 01_mordor.1005
+				days = { 15 60 }
+			}
+		}
 		ai_chance = {
 			base = 0
 			modifier = { # Game Rule

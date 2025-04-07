@@ -401,7 +401,7 @@ decision_commit_to_darkness = {
 		}
 		is_target_in_global_variable_list = {
 			name = unavailable_unique_decisions
-			target = flag:voices_found_2
+			target = flag:voices_found
 		}
 	}
 
