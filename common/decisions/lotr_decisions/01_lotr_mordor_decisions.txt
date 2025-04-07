@@ -68,7 +68,6 @@ decision_follow_the_voices = {
 	ai_potential = {
 		always = yes
 	}
-	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
@@ -186,7 +185,6 @@ decision_leave_the_watch = {
 	ai_potential = {
 		always = yes
 	}
-	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
@@ -269,7 +267,6 @@ decision_seek_places_of_power = {
 	ai_potential = {
 		always = yes
 	}
-	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
@@ -353,7 +350,6 @@ decision_seek_places_of_power_2 = { # temp
 	ai_potential = {
 		always = yes
 	}
-	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
@@ -435,7 +431,6 @@ decision_commit_to_darkness = {
 	ai_potential = {
 		always = yes
 	}
-	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
@@ -523,7 +518,6 @@ decision_commune_in_darkness = {
 	ai_potential = {
 		always = yes
 	}
-	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
@@ -611,7 +605,6 @@ decision_commune_in_darkness_2 = {
 	ai_potential = {
 		always = yes
 	}
-	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule

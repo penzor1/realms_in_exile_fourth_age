@@ -159,10 +159,13 @@
 				add_courtier = scope:successor
 			}
 			scope:successor = { # RNG Successor
-				get_title = title:d_ithillond
-				get_title = title:c_coruvegil
-				get_title = title:c_asgaril
-				get_title = title:d_ithillond
+				if = {
+					limit = { NOT = { has_title = title:d_ithillond } }
+					get_title = title:d_ithillond
+					get_title = title:c_coruvegil
+					get_title = title:c_asgaril
+					get_title = title:d_ithillond
+				}
 			}
 			character:lineoforopher6 = { # Legolas
 				set_player_character = character:lineoforopher3 # Thranduil
@@ -197,10 +200,13 @@
 				add_courtier = scope:successor
 			}
 			scope:successor = { # RNG Successor
-				get_title = title:d_ithillond
-				get_title = title:c_coruvegil
-				get_title = title:c_asgaril
-				get_title = title:d_ithillond
+				if = {
+					limit = { NOT = { has_title = title:d_ithillond } }
+					get_title = title:d_ithillond
+					get_title = title:c_coruvegil
+					get_title = title:c_asgaril
+					get_title = title:d_ithillond
+				}
 			}
 			character:lineoforopher6 = { # Legolas
 				set_player_character = scope:successor # RNG Elf
@@ -277,7 +283,7 @@
 				make_tributary = {
 					TYPE = tributary_protectorate
 					SUZERAIN = title:k_rohan.holder # Eofara or any king
-					TRIBUTARY = this # Wirwir
+					TRIBUTARY = character:linefrar7 # Wirwir
 				}
 			}
 			character:lineofdurin100 = { # Gimli
@@ -286,9 +292,10 @@
 					days = 30
 				}
 				primary_spouse ?= {
+					save_scope_as = gimliwife
 					divorce_effect = {
 						DIVORCER = character:lineofdurin100 # Gimli
-						DIVORCEE = this
+						DIVORCEE = scope:gimliwife # Possible Spouse
 					}
 				}
 				every_character_artifact = {
@@ -301,7 +308,10 @@
 #					players_use_planner = no
 #					on_arrival_destinations = all
 #				}
-#			}
+			}
+			character:lineoforopher6 = { # Legolas
+				add_courtier = character:lineofdurin100 # Gimli
+			}
 		}
 		ai_chance = {
 			base = 0
@@ -380,7 +390,7 @@
 			#start_travel_plan = { # Travel to Valinor # NO TRAVEL PATH
 			#	destination = province:3900 # b_valinor_1
 			#	return_trip = no
-			#	players_use_planner = yes
+			#	players_use_planner = no
 			#	on_arrival_destinations = all
 			#}
 		}
@@ -388,7 +398,7 @@
 			#start_travel_plan = { # Travel to Valinor # NO TRAVEL PATH
 			#	destination = province:3900 # b_valinor_1
 			#	return_trip = no
-			#	players_use_planner = yes
+			#	players_use_planner = no
 			#	on_arrival_destinations = all
 			#}
 		}
@@ -414,11 +424,14 @@
 #			character:lineoforopher6 = { # Legolas
 #				add_courtier = scope:successor
 #			}
-			scope:successor = { # RNG Successo
-				get_title = title:d_ithillond
-				get_title = title:c_coruvegil
-				get_title = title:c_asgaril
-				get_title = title:d_ithillond
+			scope:successor = { # RNG Successor
+				if = {
+					limit = { NOT = { has_title = title:d_ithillond } }
+					get_title = title:d_ithillond
+					get_title = title:c_coruvegil
+					get_title = title:c_asgaril
+					get_title = title:d_ithillond
+				}
 			}
 			character:lineoforopher6 = { # Legolas
 				set_player_character = character:lineoforopher3 # Thranduil
@@ -458,10 +471,13 @@
 #				add_courtier = scope:successor
 #			}
 			scope:successor = { # RNG Successor
-				get_title = title:d_ithillond
-				get_title = title:c_coruvegil
-				get_title = title:c_asgaril
-				get_title = title:d_ithillond
+				if = {
+					limit = { NOT = { has_title = title:d_ithillond } }
+					get_title = title:d_ithillond
+					get_title = title:c_coruvegil
+					get_title = title:c_asgaril
+					get_title = title:d_ithillond
+				}
 			}
 			character:lineoforopher6 = { # Legolas
 				set_player_character = scope:successor # RNG Elf

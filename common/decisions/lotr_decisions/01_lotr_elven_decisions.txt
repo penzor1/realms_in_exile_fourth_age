@@ -76,7 +76,6 @@ decision_build_a_grey_ship = {
 	ai_potential = {
 		always = yes
 	}
-	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
