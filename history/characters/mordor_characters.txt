@@ -60,13 +60,15 @@ mouthofsauron = {
 		#}		
 		name = "Herumor"
 		remove_nickname = yes
-		give_nickname = nick_the_old_shadow
+		dynasty = dynasty_herumori
 		effect = {
-			set_to_lowborn = yes
 			add_trait = maimed
    			add_character_modifier = ringbearer_health_modifier
 		}
 	}			
+	7052.5.2 = {
+		give_nickname = nick_the_old_shadow
+	}
 }			
 				
 ###############				
