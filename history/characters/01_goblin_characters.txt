@@ -189,7 +189,7 @@ lineofgoblinking2 = {
 		birth = yes
 	}
 	7083.9.15 = {
-		add_spouse = lineofgoblinking2husband # Stula
+		add_spouse = lineofgoblinking2wife # Stula
 	}
 	7161.5.9 = {
 		death = { death_reason = death_battle }
@@ -203,6 +203,7 @@ lineofgoblinking2wife = {
 	culture = towndweller_goblin
 	#father = 
 	#mother = 
+	female = yes
 	
 	trait = brave
 	trait = ambitious
