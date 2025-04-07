@@ -11911,6 +11911,12 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				template = all_beards
 				accessory = 0.0
 			}
+			accessory = {
+				mode = add	
+				gene = headgear
+				template = uruk_war_headgear
+				accessory = male_headgear_uruk_isengard_2
+			}
 		}
 		weight = {
 			base = 0
@@ -11937,6 +11943,12 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				template = all_beards
 				accessory = 0.0
 			}
+			accessory = {
+				mode = add	
+				gene = headgear
+				template = uruk_war_headgear
+				accessory = male_headgear_uruk_isengard_1
+			}
 		}
 		weight = {
 			base = 0
@@ -11962,6 +11974,12 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				gene = beards
 				template = all_beards
 				accessory = 0.0
+			}
+			accessory = {
+				mode = add	
+				gene = headgear
+				template = uruk_war_headgear
+				accessory = male_headgear_uruk_isengard_2
 			}
 		}
 		weight = {
