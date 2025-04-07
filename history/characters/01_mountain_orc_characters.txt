@@ -266,19 +266,19 @@ lineofazog16 = {
 }
 
 lineofazog16wife = {
-	name = Drurgru
+	name = Gradum
 	female = yes
 	
 	religion = way_of_strength
 	culture = worauthai_madur
 	
-	trait = ambitious
+	trait = wrathful
 	trait = deceitful
 	trait = sadistic
 	
 	trait = education_stewardship_2
 	
-	6954.3.9 = {
+	6959.3.9 = {
 		birth = yes
 	}
 	7189.4.1 = {
