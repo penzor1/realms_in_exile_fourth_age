@@ -11903,7 +11903,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				mode = add
 				gene = hairstyles
 				template = all_hairstyles
-				accessory = bald
+				accessory = male_hair_balding_01
 			}
 			accessory = {
 				mode = add
@@ -11929,7 +11929,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				mode = add
 				gene = hairstyles
 				template = all_hairstyles
-				accessory = bald
+				accessory = male_hair_balding_01
 			}
 			accessory = {
 				mode = add
@@ -11955,7 +11955,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				mode = add
 				gene = hairstyles
 				template = all_hairstyles
-				accessory = bald
+				accessory = male_hair_balding_01
 			}
 			accessory = {
 				mode = add
