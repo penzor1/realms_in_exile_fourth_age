@@ -36,10 +36,10 @@ dynasty_karazaz = {
 #### TROLL ####
 ####################
 
-dynasty_shaq = {
-	name = "dynn_shaq"
+dynasty_yagmuz = {
+	name = "dynn_yagmuz"
 	culture = "black_troll"
-	motto = dynn_shaq_motto
+	motto = dynn_yagmuz_motto
 }
 
 ####################

@@ -1081,7 +1081,7 @@ bm_120_fourth_age_04 = {
 	# Shagdush, the Troll
 	character = {
 		name = "bookmark_fa_04_shagdush"
-		dynasty = dynasty_shaq
+		dynasty = dynasty_yagmuz
 		dynasty_splendor_level = 10
 		type = male
 		birth = 7089.12.30
@@ -1090,9 +1090,19 @@ bm_120_fourth_age_04 = {
 		religion = sons_of_sauron
 		culture = black_troll
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = lineofshaq2
+		history_id = lineofyagmuz2
 		position = { 1200 600 }
-		animation = personality_irrational
+		animation = personality_vengeful
+	}
+	# Uglag, brother of Shagdush
+		character = {
+			name = "bookmark_fa_04_uglag"
+		dynasty = dynasty_yagmuz
+		type = male
+		birth = 7105.6.8
+		religion = sons_of_sauron
+		culture = black_troll
+		history_id = lineofyagmuz3
 	}
 	
 #	# Gharsh, the Rat

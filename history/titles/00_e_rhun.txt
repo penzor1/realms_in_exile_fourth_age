@@ -2627,12 +2627,12 @@ c_lant_glawar = {
 		government = wastelands_government
 	}
 	7100.1.1 = { # Arrival of Orcs
-		holder = lineofshaq1 # Shaq
+		holder = lineofyagmuz1 # Yagmuz
 		change_development_level = 4
 		government = tribal_government
 	}
 	7156.6.20 = {
-		holder = lineofshaq2 # Shagdush
+		holder = lineofyagmuz2 # Shagdush
 	}
 }
 

@@ -336,20 +336,27 @@ lineofkarazaz3 = {
 }
 
 ### Olog Hai
-### Line of Shaq
-lineofshaq1 = {
-	name = Shaq
-	dynasty = dynasty_shaq
+### Line of Yagmuz
+lineofyagmuz1 = {
+	name = Yagmuz
+	dynasty = dynasty_yagmuz
 	religion = sons_of_sauron
 	culture = black_troll
 	#father = 
 	#mother = 
+
+	diplomacy = 3
+	martial = 10
+	stewardship = 4
+	intrigue = 2
+	learning = 4
+	prowess = 12
 	
 	trait = stubborn
 	trait = impatient
 	trait = gluttonous
 	
-	trait = education_martial_3
+	trait = education_martial_4
 	trait = giant
 	
 	7040.2.25 = {
@@ -361,26 +368,48 @@ lineofshaq1 = {
 	}
 }
 
-lineofshaq2 = {
-	name = Shagdush
-	dynasty = dynasty_shaq
+lineofyagmuz1wife = {
+	name = Garghira
+	female = yes
+
 	religion = sons_of_sauron
 	culture = black_troll
-	father = lineofshaq1 # Shaq
-	#mother = 
+
+	trait = eccentric
+	trait = wrathful
+	trait = deceitful
+	
+	trait = education_diplomacy_1
+	
+	7044.2.25 = {
+		birth = yes
+	}
+	7136.6.20 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofyagmuz2 = {
+	name = Shagdush
+	dynasty = dynasty_yagmuz
+	religion = sons_of_sauron
+	culture = black_troll
+	father = lineofyagmuz1 # Yagmuz
+	mother = lineofyagmuz1wife
 	
 	diplomacy = 8
 	martial = 10
-	stewardship = 4
+	stewardship = 6
 	intrigue = 3
-	learning = 5
-	prowess = 5
+	learning = 4
+	prowess = 8
 	
-	trait = calm
+	trait = wrathful
 	trait = vengeful
 	trait = brave
 	
 	trait = education_martial_3
+	trait = physique_good_2
 	trait = strong
 	trait = intellect_good_1
 	trait = lisping
@@ -393,6 +422,40 @@ lineofshaq2 = {
 		death = { death_reason = death_duel } 
 	}
 }
+
+lineofyagmuz3 = {
+	name = Uglag
+	dynasty = dynasty_yagmuz
+	religion = sons_of_sauron
+	culture = black_troll
+	father = lineofyagmuz1 # Yagmuz
+	mother = lineofyagmuz1wife
+	
+	diplomacy = 3
+	martial = 11
+	stewardship = 5
+	intrigue = 2
+	learning = 3
+	prowess = 7
+	
+	trait = brave
+	trait = deceitful
+	trait = sadistic
+	
+	trait = education_martial_2
+	trait = physique_good_1
+	trait = hunchbacked
+	trait = stuttering
+	
+	7105.6.8 = {
+		birth = yes
+	}
+	7236.2.9 = {
+		trait = maimed
+		death = { death_reason = death_duel } 
+	}
+}
+
 
 ### Burgul Hai
 ### Line of Rob
