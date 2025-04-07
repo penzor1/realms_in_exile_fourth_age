@@ -168,12 +168,19 @@ lineofgoblinking2 = {
 
 	father = lineofgoblinking1 # Gorkil
 	#mother = 
+
+	diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 6
+    learning = 7
+    prowess = 6
 	
 	trait = gluttonous
 	trait = lustful
 	trait = cynical
 
-	trait = education_stewardship_2
+	trait = education_learning_2
 
 	trait = comfort_eater
 	trait = seducer
@@ -219,6 +226,13 @@ lineofgoblinking3 = {
 	father = lineofgoblinking2 # Wedegog
 	mother = lineofgoblinking2wife # Stula
 	dna = golmog_the_humongous_dna
+
+	diplomacy = 4
+    martial = 8
+    stewardship = 6
+    intrigue = 4
+    learning = 6
+    prowess = 9
 	
 	trait = gluttonous
 	trait = vengeful
@@ -283,10 +297,19 @@ lineofgoblinking4 = {
 	father = lineofgoblinking3 # Golmog
 	mother = lineofgoblinking3wife # Mogsharlob
 	dna = unglob_the_blubbering_dna
+
+	diplomacy = 2
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 7
 	
 	trait = gluttonous
 	trait = lazy
 	trait = lustful
+
+	trait = education_stewardship_3
 	
 	trait = comfort_eater
 	
@@ -315,6 +338,15 @@ lineofgoblinking5 = {
 	culture = towndweller_goblin
 	father = lineofgoblinking3 # Golmog
 	mother = lineofgoblinking3wife # Mogsharlob
+
+	diplomacy = 4
+    martial = 6
+    stewardship = 1
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+	education_diplomacy_1
 
 	trait = eccentric
 	trait = wrathful
