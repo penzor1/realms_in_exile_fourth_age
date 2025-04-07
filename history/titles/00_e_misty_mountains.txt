@@ -1173,6 +1173,9 @@ c_west_hall = {
 	7080.1.1 = {
 		holder = linehallroamer3 # Garg
 	}
+	7150.1.1 = { # Cave Troll takes over from puny goblins
+		holder = lineoftrollking1 # Zagbug
+	}
 }
 
 c_central_halls = {
@@ -1264,6 +1267,9 @@ c_central_halls = {
 	}
 	7080.1.1 = {
 		holder = linehallroamer3 # Garg
+	}
+	7150.1.1 = { # Cave Troll takes over from puny goblins
+		holder = lineoftrollking1 # Zagbug
 	}
 }
 
@@ -1441,6 +1447,9 @@ c_zirin_kuk = {
 	}
 	7080.1.1 = {
 		holder = linehallroamer3 # Garg
+	}
+	7150.1.1 = { # Cave Troll takes over from puny goblins
+		holder = lineoftrollking1 # Zagbug
 	}
 }
 
@@ -5275,6 +5284,9 @@ d_hallroamer = {
 	}
 	7080.1.1 = {
 		holder = linehallroamer3 # Garg
+	}
+	7150.1.1 = { # Cave Troll takes over from puny goblins
+		holder = lineoftrollking1 # Zagbug
 	}
 }
 # d_deepwalker = {

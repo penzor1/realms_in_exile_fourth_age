@@ -11917,6 +11917,12 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				template = uruk_war_headgear
 				accessory = male_headgear_uruk_isengard_2
 			}
+			morph = {
+				mode = add
+				gene = gene_hunchbacked
+				template = hunchbacked
+				range = { 0.2 0.4 }
+			}
 		}
 		weight = {
 			base = 0
@@ -11949,6 +11955,12 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				template = uruk_war_headgear
 				accessory = male_headgear_uruk_isengard_1
 			}
+			morph = {
+				mode = add
+				gene = gene_hunchbacked
+				template = hunchbacked
+				range = { 0.2 0.4 }
+			}
 		}
 		weight = {
 			base = 0
@@ -11957,9 +11969,9 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				exists = this
 				exists = character:lineofyagmuz2
 				this = character:lineofyagmuz2
+				}
 			}
 		}
-	}
 
 	uglag_portrait = {
 		dna_modifiers = {
@@ -11981,6 +11993,12 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				template = uruk_war_headgear
 				accessory = male_headgear_uruk_isengard_2
 			}
+			morph = {
+				mode = add
+				gene = gene_hunchbacked
+				template = hunchbacked
+				range = { 0.2 0.4 }
+			}
 		}
 		weight = {
 			base = 0
@@ -11989,6 +12007,45 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				exists = this
 				exists = character:lineofyagmuz3
 				this = character:lineofyagmuz3
+			}
+		}
+	}
+
+	# Fictional Cave Troll - Troll King 
+
+	zagbug_portrait = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_balding_01
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				accessory = 0.0
+			}
+			accessory = {
+				mode = add	
+				gene = headgear
+				template = dwarf_high_headgear
+				accessory = male_headgear_dwarven_crown_01
+			}
+			morph = {
+				mode = add
+				gene = gene_hunchbacked
+				template = hunchbacked
+				range = { 0.5 1.0 }	
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineoftrollking1
+				this = character:lineoftrollking1
 			}
 		}
 	}

@@ -116,7 +116,7 @@ linehallroamer3 = {
 # Cave Troll - Troll King
 
 lineoftrollking1 = {
-	name = Garg
+	name = Zagbug
 
 	religion = faith_balrog_cult
 	culture = cave_troll
@@ -125,9 +125,6 @@ lineoftrollking1 = {
 		birth = yes
 	}
 
-	7078.5.3 = {
-		employer = linehallroamer3
-	}
 	7201.3.11 = {
 		death = { death_reason = death_battle }
 	}
