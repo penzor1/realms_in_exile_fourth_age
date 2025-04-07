@@ -22,9 +22,9 @@ bm_120_fourth_age_02 = {
 		culture = broadbeams
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofdwalin99
-		position = { 250 200 }
+		position = { 300 200 }
 		animation = personality_compassionate
-	#add family
+		# Dwalin VII, the Last
 		character = {
 			 name = "bookmark_fa_02_dwalinVII"
 			 relation = "BOOKMARK_RELATION_GRANDSON"
@@ -92,7 +92,7 @@ bm_120_fourth_age_02 = {
 		culture = hobbit
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoftook83
-		position = { 400 600 }
+		position = { 500 600 }
 		animation = personality_coward
 		# Marmaduke, the Buck
 		character = {
@@ -178,7 +178,7 @@ bm_120_fourth_age_02 = {
 		culture = worauthai_madur
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoftharzog2
-		position = { 800 150 }
+		position = { 850 150 }
 		animation = personality_honorable
 		# Tharzog, the Blade
 		character = {
@@ -225,7 +225,7 @@ bm_120_fourth_age_02 = {
 		culture = hillmen
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = linecaradoc14
-		position = { 1100 200 }
+		position = { 1100 300 }
 		animation = schadenfreude
 		# Tadg, Lefthand
 		character = {
@@ -968,7 +968,7 @@ bm_120_fourth_age_04 = {
 		culture = noldor
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoflenwe6
-		position = { 900 400 }
+		position = { 850 400 }
 		animation = personality_dishonorable
 		# Thranduil, High King of Lasgalen
 		character = {
@@ -1015,7 +1015,6 @@ bm_120_fourth_age_04 = {
 #		}
 #	}
 	# kingdom of rhovanion
-	# add south rhovanion
 	# add dale
 	
 	# Aramagor, Prince of Cinders
@@ -1553,7 +1552,7 @@ bm_120_fourth_age_06 = {
 	
 	# Goblin, dorwinion roofsleeper clan
 #	character = {
-#		name = "bookmark_fa_06_gharsh"
+#		name = "bookmark_fa_06_goblin"
 #		dynasty = dynasty_rob
 #		dynasty_splendor_level = 10
 #		type = male
@@ -1561,7 +1560,7 @@ bm_120_fourth_age_06 = {
 #		title = c_rovlarand
 #		government = tribal_government
 #		religion = sons_of_sauron
-#		culture = burgulhai
+#		culture = roofsleeper_goblin
 #		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 #		history_id = lineofrob2
 #		position = { 1100 850 }

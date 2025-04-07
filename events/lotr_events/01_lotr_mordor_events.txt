@@ -500,15 +500,13 @@
 				add_courtier = scope:local_soldier
 				add_courtier = scope:local_soldier2
 				add_courtier = scope:wise_woman
+				remove_trait = temperate
+				add_trait = eccentric
 			}
 		}
 		hidden_effect = {
 			scope:ranger = { # RNG Ranger
 				death = { killer = character:lineisildur49 death_reason = death_sacrificed_to_foreign_gods } # Eldarion kill them
-			}
-			character:lineisildur49 = { # Eldacar
-				add_trait = disloyal
-				add_trait = murderer
 			}
 		}
 		ai_chance = {

@@ -152,8 +152,10 @@
  bookmark_fa_03_gharsh_desc:0 "$bookmark_fa_04_gharsh_desc$"
  bookmark_fa_03_zauglob:0 "$bookmark_fa_04_zauglob$"
  bookmark_fa_03_zauglob_desc:0 "$bookmark_fa_04_zauglob_desc$"
- bookmark_fa_03_orc2:0 ", the Cornered Rat" # orc in west nurn
- bookmark_fa_03_orc2_desc:0 ""
+ bookmark_fa_03_arhuna:0 "$bookmark_fa_06_arhuna$"
+ bookmark_fa_03_arhuna_desc:0 "$bookmark_fa_06_arhuna_desc$"
+ bookmark_fa_03_ugmuz:0 "$bookmark_fa_06_ugmuz$"
+ bookmark_fa_03_ugmuz_desc:0 "$bookmark_fa_06_ugmuz_desc$"
  bookmark_fa_03_harondor:0 ", the Orchard Lord" # gondor vassal
  bookmark_fa_03_harondor_desc:0 ""
  bookmark_fa_03_umbar:0 ", the Admiral" # client state
@@ -198,6 +200,8 @@
  bookmark_fa_04_legolas_desc:0 "$bookmark_fa_01_legolas_desc$"
  bookmark_fa_04_carangileth:0 "Carangileth, the Beggar"
  bookmark_fa_04_carangileth_desc:0 ""
+ bookmark_fa_04_moriel:0 "Moriel, the Tutor"
+ bookmark_fa_04_moriel_desc:0 ""
  bookmark_fa_04_korg:0 "$bookmark_fa_04_korg$"
  bookmark_fa_04_korg_desc:0 "$bookmark_fa_04_korg_desc$"
  bookmark_fa_04_ukorg:0 "$bookmark_fa_04_ukorg$"
@@ -209,7 +213,7 @@
  bookmark_fa_04_aramagor:0 "Aramagor, Prince of Cinders"
  bookmark_fa_04_aramagor_desc:0 ""
  bookmark_fa_04_shagdush:0 "Shagdush, the Troll"
- bookmark_fa_04_shagdush_desc:0 ""
+ bookmark_fa_04_shagdush_desc:0 "an orcish confederation fled mordor after the battle of morannon and the sudden death of sauron. the orcs tried to flee to dol guldur but it was already destroyed by elves. so they went east following easterlings, but were harrassed by pursuers and even the rhunites. so they continued until they found a dark forest. the orcs went berserk thirsty for blood, literally perhaps, on the elves dwelling there. ravaged the woods. the elves have hunted the leaders, shaqdush father troll was a core leader and now the confederation shattered. the orc host of mordor desintegrated and is on its last leg."
  bookmark_fa_04_gharsh:0 "$bookmark_fa_06_gharsh$"
  bookmark_fa_04_gharsh_desc:0 "$bookmark_fa_04_gharsh_desc$"
  bookmark_fa_04_zauglob:0 "$bookmark_fa_04_zauglob$"

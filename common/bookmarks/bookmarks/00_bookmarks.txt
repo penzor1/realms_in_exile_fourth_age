@@ -9,47 +9,47 @@ bm_120_fourth_age_01 = {
 		value = 0
 	}
 		
-	# Anárion, Regent of Arnor
-	character = {
-		name = "bookmark_fa_01_anarion"
-		dynasty_house = house_anarioni
-		dynasty_splendor_level = 10
-		type = male
-		birth = 7121.1.1
-		title = d_northern_dunedain
-		government = feudal_government
-		religion = faith_edain
-		culture = arnorian
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = lineisildur48
-		position = { 400 200 }
-		animation = personality_bold
-		# Eärnur, Heir of Arnor
-		character = {
-			name = "bookmark_fa_01_earnur"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty_house = house_anarioni
-			type = male
-			birth = 7158.1.1
-			government = feudal_government
-			religion = faith_edain
-			culture = arnorian
-			history_id = lineisildur51
-		}
-		# Elladan, King of Imladris
-		character = {
-			name = "bookmark_fa_01_elladan"
-			relation = "BOOKMARK_RELATION_UNCLE"
-			dynasty_house = house_elrond
-			type = male
-			birth = 4163.1.1
-			title = k_imladris
-			government = elven_government
-			religion = faith_eldar
-			culture = noldor
-			history_id = linefinwe28
-		}
-	}
+#	# Anárion, Regent of Arnor
+#	character = {
+#		name = "bookmark_fa_01_anarion"
+#		dynasty_house = house_anarioni
+#		dynasty_splendor_level = 10
+#		type = male
+#		birth = 7121.1.1
+#		title = d_northern_dunedain
+#		government = feudal_government
+#		religion = faith_edain
+#		culture = arnorian
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+#		history_id = lineisildur48
+#		position = { 400 200 }
+#		animation = personality_bold
+#		# Eärnur, Heir of Arnor
+#		character = {
+#			name = "bookmark_fa_01_earnur"
+#			relation = "BOOKMARK_RELATION_SON"
+#			dynasty_house = house_anarioni
+#			type = male
+#			birth = 7158.1.1
+#			government = feudal_government
+#			religion = faith_edain
+#			culture = arnorian
+#			history_id = lineisildur51
+#		}
+#		# Elladan, King of Imladris
+#		character = {
+#			name = "bookmark_fa_01_elladan"
+#			relation = "BOOKMARK_RELATION_UNCLE"
+#			dynasty_house = house_elrond
+#			type = male
+#			birth = 4163.1.1
+#			title = k_imladris
+#			government = elven_government
+#			religion = faith_eldar
+#			culture = noldor
+#			history_id = linefinwe28
+#		}
+#	}
 		
 #	# Éobrand, Prince of Rohan #replace with erkenbrand
 #	character = {
@@ -94,7 +94,7 @@ bm_120_fourth_age_01 = {
 		culture = rohirrim
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofeofor20
-		position = { 400 800 }
+		position = { 400 600 }
 		animation = personality_honorable
 		# Éobrand, Prince of Rohan
 		character = {
@@ -124,7 +124,7 @@ bm_120_fourth_age_01 = {
 		culture = dunedain
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineisildur43
-		position = { 800 600 }
+		position = { 900 600 }
 		animation = schadenfreude
 		# Elendil, Heir of RK
 		character = {
@@ -148,7 +148,7 @@ bm_120_fourth_age_01 = {
 			government = feudal_government
 			religion = faith_edain
 			culture = gondorian
-			history_id = lineisildur51
+			history_id = linesteward51
 		}
 	}
 	
@@ -236,7 +236,7 @@ bm_120_fourth_age_01 = {
 			government = feudal_government
 			religion = faith_edain
 			culture = gondorian
-			history_id = lineisildur51
+			history_id = linesteward51
 		}
 	}
 	# add pelargir
