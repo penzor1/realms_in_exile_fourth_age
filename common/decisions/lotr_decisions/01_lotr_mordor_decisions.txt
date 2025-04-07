@@ -1,4 +1,9 @@
 ﻿### MORDOR DECISIONS ###
+
+########################
+### ELDACAR DECISIONS ###
+########################
+
 decision_follow_the_voices = {
 	sort_order = 25
 	title = decision_follow_the_voices
@@ -54,12 +59,16 @@ decision_follow_the_voices = {
 			id = 01_mordor.1001
 			days = { 30 120 }
 		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_followed
+		}
 	}
 	
 	ai_potential = {
 		always = yes
 	}
-
+	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
@@ -99,10 +108,14 @@ decision_leave_the_watch = {
 	is_shown = {
 		has_character_flag = is_eldacar
 		has_title = title:d_watch_on_mordor
-		NOT = {
+		NOR = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:voices_shutdown
+			}
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:deserted_watch
 			}
 		}
 		is_target_in_global_variable_list = {
@@ -128,16 +141,52 @@ decision_leave_the_watch = {
 	
 	effect = {
 		custom_tooltip = decision_leave_the_watch.tt
-		trigger_event = {
-			id = 01_mordor.1003
-			days = 1
+		character:lineisildur49 = { # Eldacar
+			save_scope_as = adventurer
+			liege = {
+				save_scope_as = laamp_liege
+				save_scope_as = laamp_inheritor
+			}
+		}
+		if = {
+			limit = { character:dynasty_dor_giril92 = { is_alive = yes } }
+			character:dynasty_dor_giril92 = {
+				save_scope_as = laamp_heir
+				custom_tooltip = become_landless_adventurer_decision_title_scope_tt
+			}
+		}
+		else = {
+			custom_tooltip = become_landless_adventurer_decision_title_created_tt
+			if = {
+				limit = {
+					NOT = { exists = scope:laamp_inheritor }
+				}
+				hidden_effect_new_object = {
+					create_character = {
+						template = laamp_inheritor_template
+						culture = root.capital_county.culture
+						faith = root.capital_county.faith
+						dynasty = generate
+						location = root.capital_province
+						after_creation = {
+							save_scope_as = laamp_inheritor
+							add_character_flag = new_laamp_inheritor
+						}
+					}
+				}
+			}
+		}
+		trigger_event = { id = 01_mordor.1003 }
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:deserted_watch
 		}
 	}
 	
 	ai_potential = {
 		always = yes
 	}
-
+	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
@@ -177,11 +226,14 @@ decision_seek_places_of_power = {
 	
 	is_shown = {
 		has_character_flag = is_eldacar
-		is_landless_adventurer = yes
-		NOT = {
+		NOR = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:voices_shutdown
+			}
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_found
 			}
 		}
 		is_target_in_global_variable_list = {
@@ -191,6 +243,7 @@ decision_seek_places_of_power = {
 	}
 
 	is_valid = {
+		is_landless_adventurer = yes
 		prestige_level >= 1
 		piety_level >= 1
 	}
@@ -203,8 +256,12 @@ decision_seek_places_of_power = {
 	
 	effect = {
 		custom_tooltip = decision_seek_places_of_power.tt
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_found
+		}
 		trigger_event = {
-			id = 01_mordor.1005
+			id = 01_mordor.1006
 			days = { 30 90 }
 		}
 	}
@@ -212,7 +269,91 @@ decision_seek_places_of_power = {
 	ai_potential = {
 		always = yes
 	}
+	ai_check_interval = 60
+	ai_will_do = {
+		base = 0
+		modifier = { # Game Rule
+			has_game_rule = default_ai_behavior
+			add = 50
+		}
+		modifier = { # Game Rule
+			has_game_rule = weighted_ai_behavior
+			add = 25
+		}
+		modifier = { # Game Rule
+			has_game_rule = random_ai_behavior
+			add = 10
+		}
+	}
+}
 
+decision_seek_places_of_power_2 = { # temp
+	sort_order = 25
+	title = decision_seek_places_of_power_2
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
+	}
+	
+	ai_goal = yes
+	selection_tooltip = decision_seek_places_of_power_2_tooltip
+	desc = decision_seek_places_of_power_2_desc
+	confirm_text = decision_seek_places_of_power_2_confirm
+	
+	cost = {
+		gold = 50
+		prestige = 250
+		piety = 250
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		has_character_flag = is_eldacar
+		NOR = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_shutdown
+			}
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_found_2
+			}
+		}
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_found
+		}
+		always = no
+	}
+
+	is_valid = {
+		is_landless_adventurer = yes
+		prestige_level >= 1
+		piety_level >= 1
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_at_war = no
+	}
+	
+	effect = {
+		custom_tooltip = decision_seek_places_of_power_2.tt
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_found_2
+		}
+		trigger_event = {
+			id = 01_mordor.1009
+			days = { 30 90 }
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
@@ -245,21 +386,26 @@ decision_commit_to_darkness = {
 	cost = {
 		gold = 100
 		prestige = 500
+		piety = 250
 	}
 
 	decision_group_type = realms_in_exile_major
 	
 	is_shown = {
 		has_character_flag = is_eldacar
-		NOT = {
+		NOR = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:voices_shutdown
 			}
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_converted
+			}
 		}
 		is_target_in_global_variable_list = {
 			name = unavailable_unique_decisions
-			target = flag:deserted_watch
+			target = flag:voices_found_2
 		}
 	}
 
@@ -276,16 +422,20 @@ decision_commit_to_darkness = {
 	
 	effect = {
 		custom_tooltip = decision_commit_to_darkness.tt
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_converted
+		}
 		trigger_event = {
 			id = 01_mordor.1010
-			days = 1
+			days = { 30 90 }
 		}
 	}
 	
 	ai_potential = {
 		always = yes
 	}
-
+	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
@@ -316,8 +466,9 @@ decision_commune_in_darkness = {
 	confirm_text = decision_commune_in_darkness_confirm
 	
 	cost = {
-		gold = 100
+		gold = 200
 		prestige = 500
+		piety = 250
 	}
 
 	decision_group_type = realms_in_exile_major
@@ -325,15 +476,19 @@ decision_commune_in_darkness = {
 	is_shown = {
 		has_character_flag = is_eldacar
 		faith_is_evil = yes
-		NOT = {
+		NOR = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:voices_shutdown
 			}
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_indulged
+			}
 		}
 		is_target_in_global_variable_list = {
 			name = unavailable_unique_decisions
-			target = flag:deserted_watch
+			target = flag:voices_converted
 		}
 		NOR = {
 			has_trait = sorcerer_1
@@ -355,16 +510,20 @@ decision_commune_in_darkness = {
 	
 	effect = {
 		custom_tooltip = decision_commune_in_darkness.tt
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_indulged
+		}
 		trigger_event = {
 			id = 01_mordor.1011
-			days = 1
+			days = { 30 90 }
 		}
 	}
 	
 	ai_potential = {
 		always = yes
 	}
-
+	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule
@@ -395,8 +554,9 @@ decision_commune_in_darkness_2 = {
 	confirm_text = decision_commune_in_darkness_2_confirm
 	
 	cost = {
-		gold = 100
+		gold = 200
 		prestige = 500
+		piety = 500
 	}
 
 	decision_group_type = realms_in_exile_major
@@ -404,15 +564,19 @@ decision_commune_in_darkness_2 = {
 	is_shown = {
 		has_character_flag = is_eldacar
 		faith_is_evil = yes
-		NOT = {
+		NOR = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:voices_shutdown
 			}
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_inside
+			}
 		}
 		is_target_in_global_variable_list = {
 			name = unavailable_unique_decisions
-			target = flag:deserted_watch
+			target = flag:voices_indulged
 		}
 		has_trait = sorcerer_1
 		NOR = {
@@ -434,16 +598,20 @@ decision_commune_in_darkness_2 = {
 	
 	effect = {
 		custom_tooltip = decision_commune_in_darkness_2.tt
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_inside
+		}
 		trigger_event = {
 			id = 01_mordor.1012
-			days = 1
+			days = { 30 90 }
 		}
 	}
 	
 	ai_potential = {
 		always = yes
 	}
-
+	ai_check_interval = 60
 	ai_will_do = {
 		base = 0
 		modifier = { # Game Rule

@@ -1,0 +1,98 @@
+﻿#################################################
+################ Elven Decisions ################
+#################################################
+
+
+##################################################
+# Legolas Decision
+##################################################
+
+decision_build_a_grey_ship = {
+	title = decision_build_a_grey_ship
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_mithlond_01.dds"
+	}
+	
+	sort_order = 1000
+
+	ai_goal = yes
+	selection_tooltip = decision_build_a_grey_ship_tooltip
+	desc = decision_build_a_grey_ship_desc
+	confirm_text = decision_build_a_grey_ship_confirm
+	
+	cost = {
+		gold = 100
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		is_elf = yes
+		is_in_valinor = no
+		NOT = { 
+			has_trait = sailed_west
+		}
+		has_title = title:d_ithillond
+		title:d_ithillond.holder = character:lineoforopher6 # Legolas
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_build_grey_ship
+			}
+		}
+		current_year >= 7052
+	}
+	
+	is_valid = {
+		is_at_war = no		
+		NOT = { 
+			has_character_modifier = elf_childraising_modifier
+		}
+		NOT = { 
+			has_character_modifier = valar_ban_modifier
+		}
+		character:lineisildur42 = { is_alive = no } # Aragorn ded
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+	}
+	
+	effect = {
+		custom_tooltip = {
+			text = sail_to_valinor
+			# set_employer = title:k_tirion.holder
+		}
+		trigger_event = {
+			id = 01_elven.0036
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_build_grey_ship
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+	ai_check_interval = 60
+	ai_will_do = {
+		base = 0
+		modifier = { # Game Rule
+			has_game_rule = default_ai_behavior
+			add = 100
+			current_year >= 7175
+		}
+		modifier = { # Game Rule
+		has_game_rule = weighted_ai_behavior
+			add = 50
+			current_year >= 7175
+		}
+		modifier = { # Game Rule
+			has_game_rule = random_ai_behavior
+			add = 10
+			current_year >= 7175
+		}
+	}
+}

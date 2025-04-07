@@ -102,17 +102,17 @@ fire_intro_events_0120 = {
 	#	}
 	#}
 	
-	character:lineoforopher6 = { # Legolas Intro
-		if = {
-			limit = {
-				is_alive = yes
-			}
-			trigger_event = {
-				id = ns_lotr_intro_events.0036
-				days = { 2 5 }
-			}
-		}
-	}
+	#character:lineoforopher6 = { # Legolas Intro
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.0036
+	#			days = { 2 5 }
+	#		}
+	#	}
+	#}
 	
 	#character:lineoflanthir3 = { # Carangileth Intro
 	#	if = {
@@ -140,17 +140,17 @@ fire_intro_events_0120 = {
 	
 	# Dwarves
 	# WHITE MOUNTAINS
-	#character:lineofdurin100 = { # Gimli Intro # handled by legolas
-	#	if = {
-	#		limit = {
-	#			is_alive = yes
-	#		}
-	#		trigger_event = {
-	#			id = ns_lotr_intro_events.2001
-	#			days = { 5 10 }
-	#		}
-	#	}
-	#}
+	character:lineofdurin100 = { # Gimli Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.2001
+				days = { 2 5 }
+			}
+		}
+	}
 	
 	#character:linefrar7 = { # Wirwir Intro # handled by legolas
 	#	if = {
@@ -357,7 +357,7 @@ fire_intro_events_0120 = {
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.6001
-				days = { 2 5 }
+				days = { 5 10 }
 			}
 		}
 	}

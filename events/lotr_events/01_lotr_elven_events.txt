@@ -1,0 +1,521 @@
+﻿namespace = 01_elven
+
+#################################
+
+01_elven.0036 = { # Legolas intro # BFFs sail west event chain
+	content_source = realms_dlc
+	type = character_event
+	title = 01_elven.0036.t
+	desc = 01_elven.0036.desc
+	theme = travel
+	override_background = {
+		reference = throne_room_thranduils_halls
+	}
+	lower_left_portrait = {
+		character = character:lineofdurin100 # Gimli
+		animation = worry
+	}
+	right_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = 01_elven.0036.a
+		custom_tooltip = 01_elven.0036.a.tt # Leave
+		character:lineoforopher6 = { # Legolas
+			trigger_event = {
+				id = 01_elven.0037
+				days = 30 
+			}
+		}
+		character:lineoforopher3 = { # Thranduil
+			trigger_event = {
+				id = 01_elven.0037
+				days = 30
+			}
+		}
+		character:lineofdurin100 = { # Gimli
+			trigger_event = {
+				id = 01_elven.0037
+				days = 30
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 15
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 25
+			}
+		}
+	}
+	option = {
+		name = 01_elven.0036.b
+		custom_tooltip = 01_elven.0036.b.tt # Leave with Gimli
+		character:lineofdurin100 = { # Gimli
+			trigger_event = {
+				id = 01_elven.0038
+				days = 30			
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	option = {
+		name = 01_elven.0036.c
+		custom_tooltip = 01_elven.0036.c.tt # Stay
+		character:lineoforopher6 = { # Legolas
+			trigger_event = {
+				id = 01_elven.0040
+				days = { 10 90 }
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 15
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 25
+			}
+		}
+	}
+}
+
+01_elven.0037 = { # Legolas leaves alone
+	content_source = realms_dlc
+	type = character_event
+	title = 01_elven.0037.t
+	desc = 01_elven.0037.desc
+	theme = travel_sea
+	override_background = {
+		reference = docks_elven
+	}
+	right_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = survey
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_erebor
+		character:lineoforopher6 = { # Legolas
+			#start_travel_plan = { #Travel to Valinor # NO TRAVEL PATH
+			#	destination = province:3900 # b_valinor_1
+			#	return_trip = no
+			#	players_use_planner = yes
+			#	on_arrival_destinations = all
+			#}
+		}
+		hidden_effect_new_object = {
+			# Create a commander for the troops.
+			create_character = {
+				template = knight
+				culture = character:lineoforopher6.culture
+				faith = character:lineoforopher6.faith
+				dynasty = generate
+				location = character:lineoforopher6.location
+				gender_female_chance = 0
+				save_scope_as = successor
+			}
+		}
+	}
+	
+	option = {
+		name = 01_elven.0037.a
+		custom_tooltip = 01_elven.0037.a.tt # Play as Thranduil
+		hidden_effect = {
+			character:lineoforopher6 = { # Legolas
+				add_courtier = scope:successor
+			}
+			scope:successor = { # RNG Successor
+				get_title = title:d_ithillond
+				get_title = title:c_coruvegil
+				get_title = title:c_asgaril
+				get_title = title:d_ithillond
+			}
+			character:lineoforopher6 = { # Legolas
+				set_player_character = character:lineoforopher3 # Thranduil
+				every_character_artifact = {
+					set_owner = character:lineoforopher3 # Thranduil
+				}
+				add_trait = sailed_west
+				set_employer = character:linefinwe6
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	option = {
+		name = 01_elven.0037.b
+		custom_tooltip = 01_elven.0037.b.tt # Play as RNG Elf
+		hidden_effect = {
+			character:lineoforopher6 = { # Legolas
+				add_courtier = scope:successor
+			}
+			scope:successor = { # RNG Successor
+				get_title = title:d_ithillond
+				get_title = title:c_coruvegil
+				get_title = title:c_asgaril
+				get_title = title:d_ithillond
+			}
+			character:lineoforopher6 = { # Legolas
+				set_player_character = scope:successor # RNG Elf
+				add_trait = sailed_west
+				set_employer = character:linefinwe6
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+01_elven.0038 = { # Gimli receives a letter
+	content_source = realms_dlc
+	type = character_event
+	title = 01_elven.0038.t
+	desc = 01_elven.0038.desc
+	theme = travel
+	override_background = {
+		reference = underground_caverns_01
+	}
+	lower_left_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = worry
+	}
+	left_portrait = {
+		character = character:linefrar7 # Wirwir
+		animation = worry
+	}
+	right_portrait = {
+		character = character:lineofdurin100 # Gimli
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_durins_folk
+	}
+	
+	option = {
+		name = 01_elven.0038.a
+		custom_tooltip = 01_elven.0038.a.tt # Leave
+		character:lineoforopher6 = { # Legolas
+			trigger_event = {
+				id = 01_elven.0039
+				days = 30
+			}
+		}
+		hidden_effect = {
+			character:linefrar7 = { # Wirwir
+				trigger_event = {
+					id = 01_elven.0039
+					days = 30			
+				}
+				get_title = title:d_glittering_caves
+				get_title = title:c_glittering_caves
+				get_title = title:d_glittering_caves
+				trigger_event = {
+					id = 01_elven.2006
+					days = { 40 60 }
+				}
+				make_tributary = {
+					TYPE = tributary_protectorate
+					SUZERAIN = title:k_rohan.holder # Eofara or any king
+					TRIBUTARY = this # Wirwir
+				}
+			}
+			character:lineofdurin100 = { # Gimli
+				trigger_event = {
+					id = 01_elven.0039
+					days = 30
+				}
+				primary_spouse ?= {
+					divorce_effect = {
+						DIVORCER = character:lineofdurin100 # Gimli
+						DIVORCEE = this
+					}
+				}
+				every_character_artifact = {
+					set_owner = character:linefrar7 # Wirwir
+				}
+				set_player_character = character:linefrar7 # Wirwir
+#				start_travel_plan = { # Travel to Ithilien
+#					destination = province:236 # b_emyn_arnen
+#					return_trip = no
+#					players_use_planner = no
+#					on_arrival_destinations = all
+#				}
+#			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	option = {
+		name = 01_elven.0038.b
+		custom_tooltip = 01_elven.0038.b.tt # Stay
+		character:lineoforopher6 = { # Legolas
+			trigger_event = {
+				id = 01_elven.0037
+				days = 30
+			}
+		}
+		character:lineofdurin100 = { # Gimli
+			trigger_event = {
+				id = 01_elven.0037
+				days = 30
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+}
+
+01_elven.0039 = { # Gimli and Legolas leave
+	content_source = realms_dlc
+	type = character_event
+	title = 01_elven.0039.t
+	desc = 01_elven.0039.desc
+	theme = travel_sea
+	override_background = {
+		reference = docks_elven
+	}
+	lower_left_portrait = {
+		character = character:linefrar7 # Wirwir
+		animation = worry
+	}
+	left_portrait = {
+		character = character:lineofdurin100 # Gimli
+		animation = worry
+	}
+	right_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = survey
+	}
+	
+	immediate = {
+		play_music_cue = hobbit_erebor
+		character:lineoforopher6 = { # Legolas
+			#start_travel_plan = { # Travel to Valinor # NO TRAVEL PATH
+			#	destination = province:3900 # b_valinor_1
+			#	return_trip = no
+			#	players_use_planner = yes
+			#	on_arrival_destinations = all
+			#}
+		}
+		character:lineofdurin100 = { # Gimli
+			#start_travel_plan = { # Travel to Valinor # NO TRAVEL PATH
+			#	destination = province:3900 # b_valinor_1
+			#	return_trip = no
+			#	players_use_planner = yes
+			#	on_arrival_destinations = all
+			#}
+		}
+		hidden_effect_new_object = {
+			# Create a commander for the troops.
+			create_character = {
+				template = knight
+				culture = character:lineoforopher6.culture
+				faith = character:lineoforopher6.faith
+				dynasty = generate
+				age = 1984
+				location = character:lineoforopher6.location
+				gender_female_chance = 0
+				save_scope_as = successor
+			}
+		}
+	}
+	
+	option = {
+		name = 01_elven.0039.a
+		custom_tooltip = 01_elven.0039.a.tt # Leave
+		hidden_effect = {
+#			character:lineoforopher6 = { # Legolas
+#				add_courtier = scope:successor
+#			}
+			scope:successor = { # RNG Successo
+				get_title = title:d_ithillond
+				get_title = title:c_coruvegil
+				get_title = title:c_asgaril
+				get_title = title:d_ithillond
+			}
+			character:lineoforopher6 = { # Legolas
+				set_player_character = character:lineoforopher3 # Thranduil
+				every_character_artifact = {
+					set_owner = character:lineoforopher3 # Thranduil
+				}
+				add_trait = sailed_west
+#				set_employer = character:linefinwe6
+			}
+			character:lineofdurin100 = { # Gimli
+				set_player_character = character:linefrar7 # Wirwir
+				add_trait = sailed_west
+#				set_employer = character:linefinwe6
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 100
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 70
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+	option = {
+		name = 01_elven.0039.b
+		custom_tooltip = 01_elven.0039.b.tt # Play as RNG Elf
+		hidden_effect = {
+#			character:lineoforopher6 = { # Legolas
+#				add_courtier = scope:successor
+#			}
+			scope:successor = { # RNG Successor
+				get_title = title:d_ithillond
+				get_title = title:c_coruvegil
+				get_title = title:c_asgaril
+				get_title = title:d_ithillond
+			}
+			character:lineoforopher6 = { # Legolas
+				set_player_character = scope:successor # RNG Elf
+				every_character_artifact = {
+					set_owner = character:lineoforopher3 # Thranduil
+				}
+				add_trait = sailed_west
+				set_employer = character:linefinwe6
+			}
+			character:lineofdurin100 = { # Gimli
+				set_player_character = character:linefrar7 # Wirwir
+				add_trait = sailed_west
+#				set_employer = character:linefinwe6
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = { # Game Rule
+				has_game_rule = default_ai_behavior
+				add = 0
+			}
+			modifier = { # Game Rule
+				has_game_rule = weighted_ai_behavior
+				add = 30
+			}
+			modifier = { # Game Rule
+				has_game_rule = random_ai_behavior
+				add = 50
+			}
+		}
+	}
+
+}
+
+01_elven.0040 = { # Stay
+	content_source = realms_dlc
+	type = character_event
+	title = 01_elven.0040.t
+	desc = 01_elven.0040.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = throne_room_thranduils_halls
+	}
+
+	right_portrait = {
+		character = character:lineoforopher6 # Legolas
+		animation = interested
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+	}
+	
+	option = {
+		name = 01_elven.0040.a
+	}
+}

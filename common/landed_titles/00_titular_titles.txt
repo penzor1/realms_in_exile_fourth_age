@@ -219,7 +219,6 @@ e_arthedain = {
 
 d_watch_on_mordor = {
 	color = { 11 45 79 }
-	landless = yes
 	destroy_if_invalid_heir = yes
 	de_jure_drift_disabled = no
 	always_follows_primary_heir = yes
