@@ -1093,16 +1093,16 @@ bm_120_fourth_age_04 = {
 		history_id = lineofyagmuz2
 		position = { 1200 600 }
 		animation = personality_vengeful
-	}
-	# Uglag, brother of Shagdush
+		# Uglag, brother of Shagdush
 		character = {
 			name = "bookmark_fa_04_uglag"
-		dynasty = dynasty_yagmuz
-		type = male
-		birth = 7105.6.8
-		religion = sons_of_sauron
-		culture = black_troll
-		history_id = lineofyagmuz3
+			dynasty = dynasty_yagmuz
+			type = male
+			birth = 7105.6.8
+			religion = sons_of_sauron
+			culture = black_troll
+			history_id = lineofyagmuz3
+		}
 	}
 	
 #	# Gharsh, the Rat
