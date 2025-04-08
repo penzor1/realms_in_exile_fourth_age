@@ -70,7 +70,7 @@ mouthofsauron = {
 		give_nickname = nick_the_old_shadow
 	}
 	7174.1.1 = {
-		domicile ?= { move_domicile = province:700 # b_sturlurza_nurn }
+		domicile ?= { move_domicile = province:700 } # b_sturlurza_nur
 	}
 }			
 				
