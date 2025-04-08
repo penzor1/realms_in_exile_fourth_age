@@ -59,6 +59,7 @@ lineofugluk2 = {
 	trait = brave
 	trait = calm
 	
+	trait = gallowsbait
 	trait = education_intrigue_3
 	trait = torturer
 	
@@ -71,6 +72,9 @@ lineofugluk2 = {
 	
 	7051.2.20 = {
 		birth = yes
+	}
+	7174.1.1 = {
+		domicile ?= { move_domicile = province:528 # b_balorn }
 	}
 	7189.12.5 = {
 		death = { death_reason = death_battle }  
@@ -87,6 +91,7 @@ lineofkurtuk1 = {
 	trait = stubborn
 	trait = wrathful
 	
+	trait = gallowsbait
 	trait = education_martial_2
 	trait = rough_terrain_expert
 	trait = strategist
@@ -121,6 +126,7 @@ lineofsharkey1 = {
 	trait = impatient
 	trait = ambitious
 	
+	trait = gallowsbait
 	trait = education_martial_2
 	trait = aggressive_attacker
 	
@@ -157,6 +163,7 @@ lineofsharkey2 = {
 	trait = vengeful
 	trait = patient
 	
+	trait = gallowsbait
 	trait = education_intrigue_2
 	trait = reaver
 	
@@ -176,6 +183,9 @@ lineofsharkey2 = {
 			}
 		}
 	}
+	7174.1.1 = {
+		domicile ?= { move_domicile = province:4774 # b_barad_thoron }
+	}
 	7180.4.9 = {
 		death = { death_reason = death_battle }  
 	}
@@ -191,6 +201,7 @@ lineofpendor1 = { # Lieutenant of old Sharkey
 	trait = paranoid
 	trait = arrogant
 	
+	trait = gallowsbait
 	trait = bastard
 	trait = education_martial_1
 	trait = reaver
@@ -221,6 +232,7 @@ lineofpendor2 = {
 	trait = content
 	trait = gregarious
 	
+	trait = gallowsbait
 	trait = bastard
 	trait = education_stewardship_1
 	
@@ -256,6 +268,7 @@ lineofpendor3 = {
 	trait = content
 	trait = gregarious
 	
+	trait = gallowsbait
 	trait = bastard
 	trait = education_stewardship_1
 	
@@ -285,6 +298,7 @@ lineofpendor4 = {
 	trait = calm
 	trait = brave
 	
+	trait = gallowsbait
 	trait = bastard
 	trait = education_martial_3
 	
