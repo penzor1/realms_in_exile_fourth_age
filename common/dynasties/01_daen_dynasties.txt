@@ -43,3 +43,9 @@ dynasty_mekud = {
 	culture = "nurnoth"
 	motto = dynn_mekud_motto
 }
+
+dynasty_themion = {
+	name = "dynn_themion"
+	culture = "nurnoth"
+	motto = dynn_themion_motto
+}
