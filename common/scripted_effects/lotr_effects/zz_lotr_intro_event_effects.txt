@@ -1,0 +1,124 @@
+﻿### Intro Events and Chain Initialisation on Game Start for Key Characters ###
+fire_intro_events = {
+	if = { 
+		limit = { 
+			game_start_date = 7033.1.1
+		}
+		fire_intro_events_3000 = yes
+	}
+	else_if = {
+		limit = { 
+			game_start_date = 5382.5.1 
+		}
+		fire_intro_events_1349 = yes
+	}
+	else_if = {
+		limit = { 
+			game_start_date = 6787.1.1 
+		}
+		fire_intro_events_2754 = yes
+	}
+	else_if = {
+		limit = { 
+			game_start_date = 7174.3.2
+		}
+		fire_intro_events_0120 = yes
+	}
+
+	### Every Start Date ###
+
+	# Saruman
+	character:lineofsaruman ?= {
+		if = {
+			limit = { is_alive = yes }
+			trigger_event = { #### starting race setup
+				id = race.0001
+				days = 2
+			}
+			# LotR: set Saruman to Istari culture on game start to remove random Istari characters in his court.
+			set_global_variable = {
+				name = saruman
+				value = this
+			}
+			set_immortal_age = 60
+			add_character_flag = {
+				flag = had_nickname_event
+				flag = immune_to_disease
+			}
+		}
+	}
+	#Gandalf
+	character:lineofgandalf ?= {
+		if = {
+			limit = { is_alive = yes }
+			every_courtier = {
+				limit = {
+					culture = culture:istari
+					NOT = { has_trait = istari }
+				}
+				set_culture = culture:breemen
+			}
+		}
+	}
+
+	#Radagast
+	character:lineofradagast ?= {
+		if = {
+			limit = { is_alive = yes }
+			every_courtier = {
+				limit = {
+					culture = culture:istari
+					NOT = { has_trait = istari }
+				}
+				set_culture = culture:woodmen
+			}
+		}
+	}
+
+	# Sauron
+	character:lineofsauron ?= {
+		if = {
+			limit = { is_alive = yes }
+			set_global_variable = {
+				name = sauron
+				value = this
+			}
+			trigger_event = sauron.0501 #Culture Setup
+			add_dread = 100
+		}
+		if = { # Gamerule Buffs
+			limit = {
+				is_alive = yes
+				is_landed = yes
+				has_title = title:c_barad_dur
+			}
+			trigger_event = {
+				id = sauron.4000
+				years = 19
+			}
+		}
+	}
+
+	# Witch-King
+	character:nazgul1 = {
+		if = {
+			limit = { is_alive = yes }
+			set_global_variable = {
+				name = witchking
+				value = this
+			}
+		}
+	}
+	
+	# Nazgul Culture Conversion
+	every_nazgul = {
+		limit = { NOT = { culture = culture:ringwraith } }
+		set_culture = culture:ringwraith
+	}
+
+	# Istari Culture Conversion
+	every_istari = {
+		limit = { NOT = { culture = culture:istari } }
+		set_culture = culture:istari
+	}
+}
