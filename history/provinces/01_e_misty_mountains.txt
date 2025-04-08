@@ -156,6 +156,11 @@
 		religion = way_of_strength
 		holding = dwarven_holding
 	}
+	7150.1.1= { # Troll-King settles with Drumstriker goblins
+		culture = drumstriker_goblin
+		religion = faith_deep_cult
+		holding = dwarven_holding
+	}
 }
 
 ##	Hall of a Thousand Pillars (c_hall_of_a_thousand_pillars)
@@ -301,6 +306,11 @@
 			stale_air
 			collapsed_ceiling
 		}
+	}
+	7140.1.1= { # Troll-King settles with Drumstriker goblins
+		culture = drumstriker_goblin
+		religion = faith_deep_cult
+		holding = dwarven_holding
 	}
 }
 
