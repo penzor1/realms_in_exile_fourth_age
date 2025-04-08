@@ -245,6 +245,7 @@ lineofkidjunagim7 = {
 ### Line of Sonun
 lineofsonun1 = {
 	name = Sonun
+	dynasty = dynasty_vel_o_
 	religion = faith_nurn_good
 	culture = nurnoth
 	#father = 
@@ -282,6 +283,7 @@ lineofsonun1wife = {
 
 lineofsonun2 = {
 	name = Nil_u_n
+	dynasty = dynasty_vel_o_
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofsonun1 # Sonun
@@ -297,6 +299,7 @@ lineofsonun2 = {
 
 lineofsonun3 = {
 	name = Brev
+	dynasty = dynasty_vel_o_
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofsonun2 # Nilun
@@ -312,6 +315,7 @@ lineofsonun3 = {
 
 lineofsonun4 = {
 	name = Keran
+	dynasty = dynasty_vel_o_
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofsonun3 # Brev
@@ -343,6 +347,7 @@ lineofsonun4sis = {
 
 lineofsonun5 = {
 	name = Kadjon
+	dynasty = dynasty_vel_o_
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofsonun4 # Keran
@@ -457,6 +462,9 @@ lineofvoko5 = {
 	7115.6.24 = {
 		birth = yes
 	}
+	7147.2.3 = {
+		add_spouse = lineofsonun4sis # Ronah
+	}
 	7195.9.4 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -467,9 +475,9 @@ lineofvoko6 = {
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofvoko5 # Adjun
-	#mother = 
+	mother = lineofsonun4sis # Ronah
 	
-	7141.1.29 = {
+	7148.1.29 = {
 		birth = yes
 	}
 	7211.2.14 = {
@@ -482,7 +490,7 @@ lineofvoko7 = {
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofvoko5 # Adjun
-	#mother = 
+	mother = lineofsonun4sis # Ronah
 	
 	7149.3.1 = {
 		birth = yes
