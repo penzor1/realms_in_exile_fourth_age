@@ -39,7 +39,7 @@
  nick_the_queen_of_hearts:0 "the Queen of Hearts" # Nessanie
  nick_the_queen_of_hearts_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so beloved by [CharYourHerHis(CHARACTER)] subjects that they proclaimed [CharYouHerHim(CHARACTER)] '[CHARACTER.GetNicknameNoTooltip]'."
  nick_the_spurned_orc:0 "the Spurned" # Mazog II
- nick_the_spurned_orc_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nicknamed after Bolgakh 'the Hammer' claimed Old Moria in battle through the death of Mazog 'the Exile', forcing [CharYouHerHim(CHARACTER)] to flee."
+ nick_the_spurned_orc_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname after Bolgakh 'the Hammer' claimed Old Moria in battle through the death of Mazog 'the Exile', forcing [CharYouHerHim(CHARACTER)] to flee."
  nick_the_tormentor_orc:0 "the Tormentor"  # Hurog the Tormentor, son of Gorgol the Proud
  nick_the_tormentor_orc_desc:0 "Known even among [orcs|E] for [CharYourHerHis(CHARACTER)] vile cruelty, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname through acts of brutality that made lesser creatures flinch."
  nick_the_manipulator_orc:0 "the Manipulator" # Unassigned

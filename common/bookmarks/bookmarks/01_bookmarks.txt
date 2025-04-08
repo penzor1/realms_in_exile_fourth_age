@@ -93,7 +93,7 @@ bm_120_fourth_age_02 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoftook83
 		position = { 500 600 }
-		animation = personality_coward
+		animation = personality_compassionate
 		# Marmaduke, the Buck
 		character = {
 			name = "bookmark_fa_02_marmaduke"
@@ -179,7 +179,7 @@ bm_120_fourth_age_02 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoftharzog2
 		position = { 850 150 }
-		animation = personality_honorable
+		animation = personality_vengeful
 		# Tharzog, the Blade
 		character = {
 			name = "bookmark_fa_02_bozog"
@@ -300,7 +300,7 @@ bm_120_fourth_age_02 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofglorfindel
 		position = { 1050 550 }
-		animation = personality_rational
+		animation = personality_zealous
 		# Elladan, King of Imladris
 		character = {
 			name = "bookmark_fa_02_elladan"
@@ -330,7 +330,7 @@ bm_120_fourth_age_02 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofeofor21
 		position = { 1100 800 }
-		animation = personality_zealous
+		animation = personality_honorable
 		# Eofara, King of Rohan
 		character = {
 			name = "bookmark_fa_01_eofara"
