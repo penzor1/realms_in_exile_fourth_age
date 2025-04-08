@@ -42,13 +42,26 @@ lineofthelorII = {
 	religion = faith_khazad
 	culture = ironfists
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	father = lineofthelor1
 =======
+=======
+>>>>>>> Stashed changes
 
 	dna = dorfdad_sindri_dna
 
 	father = lineofthelorI
 >>>>>>> Stashed changes
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
 
 	trait = brave
 	trait = stubborn
