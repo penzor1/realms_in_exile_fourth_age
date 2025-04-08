@@ -10921,7 +10921,7 @@ c_bree = {
 		holder = lineofbutterbur13 # Cory
 	}
 	#fiction
-	7001.4.5 = {
+	7107.5.12 = {
 		holder = lineofbutterbur15 # Caradoc
 	}
 	7120.6.27 = {
