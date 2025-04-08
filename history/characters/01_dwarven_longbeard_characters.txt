@@ -20,6 +20,9 @@ lineofdurin117 = {
 	
 	6912.11.12 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7033.1.2 = { #TA 2994 # Battle of Khazad Dum #canon7027.11.5
 		death = { death_reason = death_battle }
@@ -54,6 +57,9 @@ lineofdurinVII = {
 	
 	7075.1.7 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7119.1.7 = {
 		give_nickname = nick_the_last_dorfdad_durin
@@ -125,6 +131,9 @@ lineofdurin116 = {
 
 	7081.3.24 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7222.2.2 = {
 		death = { death_reason = death_vanished }
@@ -175,6 +184,9 @@ lineofdurin108 = {
 	
 	7085.1.14 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7174.1.1 = {
             set_relation_friend = { 
@@ -251,6 +263,9 @@ lineofdurin110 = {
 	
 	7047.1.11 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7109.5.5 = {
 		add_spouse = lineofmorthain114 # Freydis
@@ -299,6 +314,9 @@ lineofdurin111 = { # Grandson of Dwalin
 	
 	7110.11.03 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7260.5.18 = {
 		death = { death_reason = death_natural_causes }
@@ -323,6 +341,9 @@ lineofdurin112 = {
 	
 	7036.6.30 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7117.3.18 = {
 		add_spouse = lineofhunduzir86 # Wife of Fili, son of Dori
@@ -348,6 +369,9 @@ lineofdurin113 = {
 	
 	7119.2.12 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7199.4.4 = {
 		death = { death_reason = death_natural_causes }
@@ -371,6 +395,9 @@ lineofdurin114 = {
 	
 	7040.6.29 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7115.3.18 = {
 		add_spouse = lineofhunduzir87
@@ -417,6 +444,9 @@ lineofdurin115 = {
 	
 	7115.10.18 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7301.5.10 = {
 		death = { death_reason = death_natural_causes }
@@ -460,6 +490,9 @@ lineofbifur2 = { # Son of Bifur
 					
 	7035.4.15 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7087.11.23 = {
 		employer = lineofdurin114 # Kili
@@ -505,6 +538,9 @@ lineofbifur3 = { # Grandson of Bifur
 					
 	7111.6.7 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7087.11.23 = {
 		employer = lineofdurin114 # Kili
@@ -550,6 +586,9 @@ lineofbomfur3 = { # Son of Bofur
   			
 	7038.9.10 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7087.11.23 = {
 		employer = lineofdurin114 # Kili
@@ -595,6 +634,9 @@ lineofbomfur4 = { # Grandson of Bofur
   			
 	7110.4.5 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7087.11.23 = {
 		employer = lineofdurin114 # Kili

@@ -1,151 +1,152 @@
 ﻿lineofdwalinVII = { # Dwalin VII the Last, grandson of Hreithmar the Unexpected
-    name = Virinehtar
+	name = Virinehtar
 
-    dynasty = dynasty_dwalin
-    religion = faith_broadbeams
-    culture = broadbeams
+	dynasty = dynasty_dwalin
+	religion = faith_broadbeams
+	culture = broadbeams
 
-    dna = dorfdad_dwalin_dna
+	dna = dorfdad_dwalin_dna
 
-    father = lineofdwalinVIIfather
-    mother = lineofdwalinVIImother
+	father = lineofdwalinVIIfather
+	mother = lineofdwalinVIImother
 
-    trait = diligent
-    trait = patient
-    trait = content
+	trait = diligent
+	trait = patient
+	trait = content
 
-    trait = education_stewardship_5
+	trait = education_stewardship_5
 
-    diplomacy = 5
-    martial = 5
-    stewardship = 9
-    intrigue = 2
-    learning = 7
-    prowess = 6
+	diplomacy = 5
+	martial = 5
+	stewardship = 9
+	intrigue = 2
+	learning = 7
+	prowess = 6
 
-    7139.5.21 = {
-        birth = yes
-        effect = {
-            # Add "reflection of" modifier
-            add_character_modifier = reflection_of_dwalin
-        }
-    }
+	7139.5.21 = {
+		birth = yes
+		effect = {
+			# Add "reflection of" modifier
+			add_character_modifier = reflection_of_dwalin
+			add_character_flag = has_scripted_appearance
+		}
+	}
 
-    7157.5.21 = {
-        name = Dw_alin # VII
-        remove_character_modifier = reflection_of_dwalin
-        trait = dwarf_father
-        give_nickname = nick_the_last_dorfdad_dwalin
-        effect = {
-            add_character_flag = {
-                flag = had_nickname_event
-            }
-        }
+	7157.5.21 = {
+		name = Dw_alin # VII
+		remove_character_modifier = reflection_of_dwalin
+		trait = dwarf_father
+		give_nickname = nick_the_last_dorfdad_dwalin
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
 		# Confirmed as reincarnation
-    }
+	}
 
-    7442.5.17 = {
-        death = { death_reason = death_natural_causes }
-    }
+	7442.5.17 = {
+		death = { death_reason = death_natural_causes }
+	}
 }
 
 lineofdwalin99wife = { # Wife of Hreithmar the Unexpected
-    name = Galadwen
-    female = yes
+	name = Galadwen
+	female = yes
 
-    religion = faith_broadbeams
-    culture = broadbeams
+	religion = faith_broadbeams
+	culture = broadbeams
 
-    trait = brave
-    trait = gregarious
-    trait = gluttonous
+	trait = brave
+	trait = gregarious
+	trait = gluttonous
 
-    diplomacy = 5
-    martial = 6
-    stewardship = 8
-    intrigue = 2
-    learning = 5
-    prowess = 4
+	diplomacy = 5
+	martial = 6
+	stewardship = 8
+	intrigue = 2
+	learning = 5
+	prowess = 4
 
-    trait = education_stewardship_3
+	trait = education_stewardship_3
 
-    6953.3.10 = {
-        birth = yes
-    }
+	6953.3.10 = {
+		birth = yes
+	}
 
-    7053.3.10 = {
-        add_spouse = lineofdwalin99
-    }
+	7053.3.10 = {
+		add_spouse = lineofdwalin99
+	}
 
-    7212.5.14 = {
-        death = { death_reason = death_natural_causes }
-    }
+	7212.5.14 = {
+		death = { death_reason = death_natural_causes }
+	}
 }
 
 lineofdwalinVIIfather = { # Son of Hreithmar the Unexpected and father of Dwalin VII
-    name = Fror
+	name = Fror
 
-    dynasty = dynasty_dwalin
-    religion = faith_broadbeams
-    culture = broadbeams
+	dynasty = dynasty_dwalin
+	religion = faith_broadbeams
+	culture = broadbeams
 
-    dna = dorfdad_dwalin_dna
+	dna = dorfdad_dwalin_dna
 
-    father = lineofdwalin99
-    mother = lineofdwalin99wife
+	father = lineofdwalin99
+	mother = lineofdwalin99wife
 
-    trait = diligent
-    trait = calm
-    trait = compassionate
+	trait = diligent
+	trait = calm
+	trait = compassionate
 
-    trait = education_martial_3
+	trait = education_martial_3
 
-    diplomacy = 3
-    martial = 2
-    stewardship = 2
-    intrigue = 9
-    learning = 4
-    prowess = 7
+	diplomacy = 3
+	martial = 2
+	stewardship = 2
+	intrigue = 9
+	learning = 4
+	prowess = 7
 
-    7064.4.8 = {
-        birth = yes
-    }
+	7064.4.8 = {
+		birth = yes
+	}
 
-    7135.5.21 = {
-        add_spouse = lineofdwalinVIImother
-    }
+	7135.5.21 = {
+		add_spouse = lineofdwalinVIImother
+	}
 
-    7304.6.6 = {
-        death = { death_reason = death_natural_causes }
-    }
+	7304.6.6 = {
+		death = { death_reason = death_natural_causes }
+	}
 }
 
 lineofdwalinVIImother = { # Mother of Dwalin VII
-    name = Morlime
-    female = yes
+	name = Morlime
+	female = yes
 
-    religion = faith_broadbeams
-    culture = broadbeams
+	religion = faith_broadbeams
+	culture = broadbeams
 
-    trait = gregarious
-    trait = greedy
-    trait = stubborn
+	trait = gregarious
+	trait = greedy
+	trait = stubborn
 
-    trait = education_diplomacy_2
+	trait = education_diplomacy_2
 
-    diplomacy = 4
-    martial = 5
-    stewardship = 2
-    intrigue = 6
-    learning = 5
-    prowess = 2
+	diplomacy = 4
+	martial = 5
+	stewardship = 2
+	intrigue = 6
+	learning = 5
+	prowess = 2
 
-    7062.9.2  = {
-        birth = yes
-    }
+	7062.9.2  = {
+		birth = yes
+	}
 
-    7293.10.9  = {
-        death = { death_reason = death_natural_causes }
-    }
+	7293.10.9  = {
+		death = { death_reason = death_natural_causes }
+	}
 }
 

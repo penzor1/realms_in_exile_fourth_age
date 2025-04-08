@@ -87,9 +87,8 @@ lineofazog14 = {
 		birth = yes
 		give_nickname = nick_the_tyrant
 		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
+			add_character_flag = has_scripted_appearance
+			add_character_flag = had_nickname_event
 		}
 	}
 	7174.1.1 = {
@@ -148,9 +147,8 @@ lineofazog15 = {
 		birth = yes
 		give_nickname = nick_the_tormentor_orc
 		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
+			add_character_flag = has_scripted_appearance
+			add_character_flag = had_nickname_event
 		}
 	}
 	7174.1.1 = {
@@ -208,7 +206,7 @@ lineofazog16 = {
 	culture = worauthai_madur
 
 	father = lineofazog7 # Bolg the lesser
-	mother = lineofazog7wife
+	mother = lineofazog7wife # Huriga
 
 	diplomacy = 4
 	martial = 8
@@ -229,17 +227,16 @@ lineofazog16 = {
 	
 	6935.6.17 = {
 		birth = yes
-		employer = nazgul2 # Bolg's spawn fled south after the war of dwarves and orcs
+		employer = nazgul2 # Bolg's spawn fled to Dol Guldur after the war of dwarves and orcs
 		give_nickname = nick_the_hammer
 		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
+			add_character_flag = has_scripted_appearance
+			add_character_flag = had_nickname_event
 		}
 	}
 	7045.5.5 = {
-		add_spouse = lineofazog16wife
-		}
+		add_spouse = lineofazog16wife # Gradum
+	}
 	7174.1.1 = {
 		add_character_modifier = {
 			modifier = orc_challenge_win_modifier
@@ -296,7 +293,7 @@ lineofazog20 = {
 	culture = worauthai_madur
 
 	father = lineofazog16 # Bolgakh I
-	mother = lineofazog16wife
+	mother = lineofazog16wife # Gradum
 
 	diplomacy = 5
 	martial = 4
@@ -316,6 +313,12 @@ lineofazog20 = {
 	
 	7046.6.7 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	7097.6.2 = {
+		add_spouse = lineofazog20wife # Baulwayaz
 	}
 	7174.1.1 = { # FO174 # Died in the battle against Mazog II the Spurned for the claim of Old Moria
 		death = {  death_reason = death_battle killer = lineofazog17 }
@@ -351,7 +354,7 @@ lineofazog21 = {
 	culture = worauthai_madur
 
 	father = lineofazog20 # Burthrakh
-	mother = lineofazog20wife
+	mother = lineofazog20wife # Baulwayaz
 
 	diplomacy = 3
 	martial = 5
@@ -374,9 +377,8 @@ lineofazog21 = {
 		birth = yes
 		give_nickname = nick_the_younger
 		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
+			add_character_flag = has_scripted_appearance
+			add_character_flag = had_nickname_event
 		}
 	}
 	7174.1.1 = {
@@ -433,7 +435,7 @@ lineofazog17 = {
 	culture = ghrazim
 
 	father = lineofazog10 # Mazog the Outcast
-	mother = lineofazog10wife
+	mother = lineofazog10wife # Shelurg
 	
 	trait = gregarious
 	trait = content
@@ -449,9 +451,8 @@ lineofazog17 = {
 	7051.5.1 = { # Bolgakh Defeats Mazog
 		give_nickname = nick_the_spurned_orc
 		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
+			add_character_flag = has_scripted_appearance
+			add_character_flag = had_nickname_event
 			set_relation_nemesis = character:lineofazog16 # Bolgakh
 			house_feud_start_effect = {
 				# Feuding House Head
@@ -468,7 +469,7 @@ lineofazog17 = {
 		}
 	}
 	7063.2.4 = {
-		add_spouse = lineofazog17wife
+		add_spouse = lineofazog17wife # Akhuth
 	}
 	7174.1.1 = {
 		add_character_modifier = {
@@ -520,7 +521,7 @@ lineofazog18 = {
 	culture = ghrazim
 
 	father = lineofazog17 # Mazog II the spurned
-	mother = lineofazog17wife 
+	mother = lineofazog17wife # Akhuth
 	
 	trait = brave
 	
@@ -530,9 +531,12 @@ lineofazog18 = {
 	
 	7087.7.11 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7119.2.4 = {
-		add_spouse = lineofazog18wife
+		add_spouse = lineofazog18wife # Rugfand
 	}
 	7174.1.1 = {
 		add_character_modifier = {
@@ -584,7 +588,7 @@ lineofazog19 = {
 	culture = ghrazim
 
 	father = lineofazog18 # Urzog
-	mother = lineofazog18wife
+	mother = lineofazog18wife # Rugfand
 	
 	trait = sadistic
 	trait = wrathful
@@ -596,6 +600,9 @@ lineofazog19 = {
 	
 	7123.3.16 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7174.1.1 = {
 		add_character_modifier = {
@@ -754,7 +761,7 @@ lineghrazbul1 = {
 		birth = yes
 	}
 	7030.6.15 = {
-		add_spouse = lineghrazbul1wife
+		add_spouse = lineghrazbul1wife # Radnu
 	}
 	7174.1.1 = {
 		add_character_modifier = {
@@ -830,6 +837,31 @@ linehrekker3 = {
 			add_character_flag = had_nickname_event
 		}
 	}
+	7079.1.2 = {
+		add_spouse = linehrekker3wife # Radnu
+	}
+	7174.1.1 = {
+		add_character_modifier = {
+			modifier = orc_challenge_win_modifier
+			years = 5
+		}
+	}
+	7191.1.20 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+linehrekker3wife = {
+	name = Radnu
+	religion = dragon_cult
+	culture = worauthai_madur
+	#father = 
+	#mother = 
+	female = yes
+	
+	7043.2.11 = {
+		birth = yes
+	}
 	7174.1.1 = {
 		add_character_modifier = {
 			modifier = orc_challenge_win_modifier
@@ -847,7 +879,7 @@ linehrekker4 = {
 	religion = dragon_cult
 	culture = worauthai_madur
 	father = linehrekker3 # Akth
-	#mother = 
+	mother = linehrekker3wife # Radnu
 	
 	trait = brave
 	trait = diligent
@@ -896,7 +928,7 @@ lineukorg6 = {
 		}
 	}
 	7081.2.4 = {
-		add_spouse = lineukorg6wife
+		add_spouse = lineukorg6wife # Gruza
 	}
 	7174.3.1 = {
 		add_character_modifier = {

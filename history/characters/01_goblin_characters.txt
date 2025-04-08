@@ -204,6 +204,9 @@ lineofgoblinking2 = {
 	
 	7040.2.25 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	7083.9.15 = {
 		add_spouse = lineofgoblinking2wife # Stula
@@ -258,7 +261,6 @@ lineofgoblinking3 = {
 	
 	trait = comfort_eater
 	trait = confider
-
 	trait = education_martial_3
 	
 	7064.10.3 = {
@@ -266,6 +268,7 @@ lineofgoblinking3 = {
 		give_nickname = nick_the_humongous
 		effect = {
 			add_character_flag = had_nickname_event
+			add_character_flag = has_scripted_appearance
 		}
 	}
 	7110.2.27 = {
@@ -336,6 +339,7 @@ lineofgoblinking4 = {
 		give_nickname = nick_the_blubbering
 		effect = {
 			add_character_flag = had_nickname_event
+			add_character_flag = has_scripted_appearance
 		}
 	}
 	7174.1.1 = {
@@ -633,6 +637,7 @@ lineofoz1 = {
 		birth = yes
 		give_nickname = nick_the_dragon
 		effect = {
+			add_character_flag = has_scripted_appearance
 			add_character_flag = had_nickname_event
 		}
 	}

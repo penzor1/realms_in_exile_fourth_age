@@ -204,6 +204,9 @@ lineofthelor904 = {
 
 	7050.1.1 = {
 		birth = yes
+		effect = {
+			#add_character_modifier = reflection_of_thelor # possible thelor VII
+		}
 	}
 	7174.1.1 = {
 		effect = {
@@ -248,6 +251,7 @@ lineofvarya1 = {
 		give_nickname = nick_the_wanderer
 		effect = {
 			add_character_flag = had_nickname_event
+			add_character_flag = has_scripted_appearance
 		}
 	}
 	7213.10.21 = {
