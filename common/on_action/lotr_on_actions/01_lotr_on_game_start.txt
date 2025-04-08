@@ -1,0 +1,12 @@
+﻿
+on_game_start = {
+	on_actions = {
+		01_lotr_setup_on_actions
+	}
+}
+
+01_lotr_setup_on_actions = {
+	effect = {
+		01_lotr_setup_on_actions_effect = yes
+	}
+}
