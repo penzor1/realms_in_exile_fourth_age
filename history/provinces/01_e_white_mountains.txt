@@ -72,6 +72,12 @@
 	culture = wastelands		
 	religion = faith_wastelands_pagan		
 	holding = wastelands_holding		
+	#canon
+	7080.1.1 = { # TA 3019 # Gimli settles Aglarond
+		culture = longbeards
+		religion = faith_khazad
+		holding = dwarven_holding
+	}
 }
 
 # Crystal Depths
@@ -81,6 +87,12 @@
 	holding = wastelands_holding
 	buildings = {
 		stale_air
+	}
+	#canon
+	7100.1.1 = { # TA 3019 # Gimli settles Aglarond
+		culture = longbeards
+		religion = faith_khazad
+		holding = dwarven_holding
 	}
 }
 
