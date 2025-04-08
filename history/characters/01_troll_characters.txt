@@ -32,10 +32,11 @@ lineoftrollking1 = {
 	7140.1.1 = {
 		give_nickname = nick_troll_king
 		effect = {
-			add_character_flag = had_nickname_event
+			add_character_flag = {
+				flag = had_nickname_event
+			}
 		}
 	}
-
 	7201.3.11 = {
 		death = { death_reason = death_battle }
 	}
