@@ -1,5 +1,6 @@
 ﻿l_english:
  # DAEN names
+ Nil_u_n: "Nilûn" # Male
  Pendor: "Pendor" # Male
  Rus: "Rus" # Male
  Cogan: "Cogan" # Male
@@ -8,7 +9,7 @@
  Joly: "Joly" # Female
  # ORC names
  Arhuna: "Arhuna" # Male
- Karl_uk: "karlúk" # Male
+ Karl_uk: "Karlúk" # Male
  Gorgor: "Gorgor" # Male
  Karazaz: "Karazaz" # Male
  Tarkmor: "Tarkmor" # Male
