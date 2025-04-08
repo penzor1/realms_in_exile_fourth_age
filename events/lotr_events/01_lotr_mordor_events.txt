@@ -996,6 +996,42 @@
 
 	immediate = {
 		play_music_cue = hobbit_an_ancient_enemy
+		if = {
+			limit = {
+				scope:wise_woman = {
+					OR = {
+						is_alive = no
+						exists = no
+					}
+				}
+			}
+			# Create a wise woman.
+			create_character = { #massive bait
+				template = wise_woman_character
+				location = character:lineisildur49.location
+				culture = culture:old_umbarean
+				faith = faith:melkorite
+				dynasty = none
+				gender_female_chance = 100
+				save_scope_as = wise_woman
+				trait = zealous
+				trait = intellect_good_1
+				trait = blood_of_numenor_1
+				trait = witch
+				trait = lifestyle_mystic
+				after_creation = {
+					learn_language = language_westron
+					learn_language = language_black_speech
+					add_opinion = {
+						target = character:lineisildur49 # Eldacar
+						modifier = loyalty_opinion
+						opinion = 200
+					}
+				}
+			}
+			## Give 'em a nickname.
+			scope:wise_woman = { assign_random_nickname_effect = yes }
+		}
 	}
 	
 	option = {
@@ -1083,6 +1119,42 @@
 
 	immediate = {
 		play_music_cue = hobbit_an_ancient_enemy
+		if = {
+			limit = {
+				scope:wise_woman = {
+					OR = {
+						is_alive = no
+						exists = no
+					}
+				}
+			}
+			# Create a wise woman.
+			create_character = { #massive bait
+				template = wise_woman_character
+				location = character:lineisildur49.location
+				culture = culture:old_umbarean
+				faith = faith:melkorite
+				dynasty = none
+				gender_female_chance = 100
+				save_scope_as = wise_woman
+				trait = zealous
+				trait = intellect_good_1
+				trait = blood_of_numenor_1
+				trait = witch
+				trait = lifestyle_mystic
+				after_creation = {
+					learn_language = language_westron
+					learn_language = language_black_speech
+					add_opinion = {
+						target = character:lineisildur49 # Eldacar
+						modifier = loyalty_opinion
+						opinion = 200
+					}
+				}
+			}
+			## Give 'em a nickname.
+			scope:wise_woman = { assign_random_nickname_effect = yes }
+		}
 	}
 	
 	option = {
