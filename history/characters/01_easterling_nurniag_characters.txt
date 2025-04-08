@@ -245,7 +245,7 @@ lineofkidjunagim7 = {
 ### Line of Sonun
 lineofsonun1 = {
 	name = Sonun
-	dynasty = dynasty_vel_o_
+	dynasty = dynasty_velo
 	religion = faith_nurn_good
 	culture = nurnoth
 	#father = 
@@ -283,7 +283,7 @@ lineofsonun1wife = {
 
 lineofsonun2 = {
 	name = Nil_u_n
-	dynasty = dynasty_vel_o_
+	dynasty = dynasty_velo
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofsonun1 # Sonun
@@ -299,7 +299,7 @@ lineofsonun2 = {
 
 lineofsonun3 = {
 	name = Brev
-	dynasty = dynasty_vel_o_
+	dynasty = dynasty_velo
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofsonun2 # Nilun
@@ -315,7 +315,7 @@ lineofsonun3 = {
 
 lineofsonun4 = {
 	name = Keran
-	dynasty = dynasty_vel_o_
+	dynasty = dynasty_velo
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofsonun3 # Brev
@@ -347,7 +347,7 @@ lineofsonun4sis = {
 
 lineofsonun5 = {
 	name = Kadjon
-	dynasty = dynasty_vel_o_
+	dynasty = dynasty_velo
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofsonun4 # Keran
@@ -364,6 +364,7 @@ lineofsonun5 = {
 ### Line of Brennen
 lineofbrennen1 = {
 	name = Brennen
+	dynasty = dynasty_mekud
 	religion = faith_nurn_good
 	culture = nurnoth
 	#father = 
@@ -371,6 +372,7 @@ lineofbrennen1 = {
 	
 	trait = brave
 	
+	trait = strong
 	trait = education_martial_3
 	trait = loyal
 	
@@ -385,6 +387,7 @@ lineofbrennen1 = {
 ### Line of Voko
 lineofvoko1 = {
 	name = Voko
+	dynasty = dynasty_medu
 	religion = faith_nurn_good
 	culture = nurnoth
 	#father = 
@@ -409,6 +412,7 @@ lineofvoko1 = {
 
 lineofvoko2 = {
 	name = Voko
+	dynasty = dynasty_medu
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofvoko1 # Voko
@@ -424,6 +428,7 @@ lineofvoko2 = {
 
 lineofvoko3 = {
 	name = Elan
+	dynasty = dynasty_medu
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofvoko2 # Voko
@@ -439,6 +444,7 @@ lineofvoko3 = {
 
 lineofvoko4 = {
 	name = Orah
+	dynasty = dynasty_medu
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofvoko3 # Elan
@@ -454,6 +460,7 @@ lineofvoko4 = {
 
 lineofvoko5 = {
 	name = Adjun
+	dynasty = dynasty_medu
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofvoko4 # Orah
@@ -472,6 +479,7 @@ lineofvoko5 = {
 
 lineofvoko6 = {
 	name = Elan
+	dynasty = dynasty_medu
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofvoko5 # Adjun
@@ -487,6 +495,7 @@ lineofvoko6 = {
 
 lineofvoko7 = {
 	name = Voko
+	dynasty = dynasty_medu
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofvoko5 # Adjun
@@ -499,3 +508,117 @@ lineofvoko7 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
+### Line of Azen
+lineofazen1 = {
+	name = Azen
+	#dynasty = dynasty_
+	religion = faith_nurn_good
+	culture = nurnoth
+	#father = 
+	#mother = 
+	
+	trait = brave
+	trait = peasant_leader
+	
+	7025.12.2 = {
+		birth = yes
+	}
+	7093.6.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofazen2 = {
+	name = S_a_l
+	#dynasty = dynasty_
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofazen1 # Azen
+	#mother = 
+	
+	trait = brave
+	trait = peasant_leader
+	
+	7056.5.1 = {
+		birth = yes
+	}
+	7125.4.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofazen3 = {
+	name = D_a_ll_u_z
+	#dynasty = dynasty_
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofazen2 # Sal
+	#mother = 
+	
+	trait = brave
+	trait = peasant_leader
+	
+	7088.4.29 = {
+		birth = yes
+	}
+	7162.1.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofazen4 = {
+	name = Azen
+	#dynasty = dynasty_
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofazen3 # Dalluz
+	#mother = 
+	
+	trait = brave
+	trait = peasant_leader
+	
+	7114.7.6 = {
+		birth = yes
+	}
+	7176.8.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofazen5 = {
+	name = Kon
+	#dynasty = dynasty_
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofazen4 # AzenTurennon
+	#mother = 
+	
+	trait = brave
+	trait = peasant_leader
+	
+	7150.1.27 = {
+		birth = yes
+	}
+	7239.4.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Line of Turennon
+lineofturennon1 = {
+	name = Turennon
+	#dynasty = dynasty_
+	religion = faith_nurn_good
+	culture = nurnoth
+	#father = 
+	#mother = 
+	
+	7151.1.27 = {
+		birth = yes
+	}
+	7225.4.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
