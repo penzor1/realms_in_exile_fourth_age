@@ -277,7 +277,7 @@
 				get_title = title:c_glittering_caves
 				get_title = title:d_glittering_caves
 				trigger_event = {
-					id = 01_elven.2006
+					id = ns_lotr_intro_events.2006
 					days = { 40 60 }
 				}
 				make_tributary = {
