@@ -26,8 +26,20 @@ dynasty_oloch = {
 	motto = dynn_oloch_motto
 }
 
-dynasty_vel_o_ = {
-	name = "dynn_vel_o_"
+dynasty_velo = {
+	name = "dynn_velo"
 	culture = "nurnoth"
-	motto = dynn_vel_o__motto
+	motto = dynn_velo_motto
+}
+
+dynasty_medu = {
+	name = "dynn_medu"
+	culture = "nurnoth"
+	motto = dynn_medu_motto
+}
+
+dynasty_mekud = {
+	name = "dynn_mekud"
+	culture = "nurnoth"
+	motto = dynn_mekud_motto
 }
