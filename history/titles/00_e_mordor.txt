@@ -1307,7 +1307,7 @@ k_nurn = {
     7052.3.25 = {
         holder = lineofkidjunagim1 #Kidjun 'the Liberator'
         government = oligarchy_government
-		title_succession_laws = { oligarchic_elective_succession_law }
+		succession_laws = { oligarchic_elective_succession_law }
     }
 	#fiction
 	7068.6.20 = {
