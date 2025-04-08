@@ -5550,6 +5550,7 @@ lineovon60 = {
     name = Uvatruth
     female = yes
 
+    dynasty_house = house_ovon
     religion = faith_nurniag
     culture = nurniag
 
@@ -5569,6 +5570,7 @@ lineovon61 = {
     name = Omini
     female = yes
 
+    dynasty_house = house_ovon
     religion = faith_nurniag
     culture = nurniag
 
@@ -7670,7 +7672,9 @@ lineudo52 = {
     7016.11.18 = {
         birth = yes
     }
-
+	7040.6.20 = {
+		add_spouse = lineibo77 # Khundai Ibo
+	}
     7092.1.23 = {
         death = { death_reason = death_natural_causes }
     }
@@ -8467,7 +8471,9 @@ lineikhon13 = {
     7020.3.16 = {
         birth = yes
     }
-
+	7041.1.26 = {
+		add_spouse = lineovon61 # Omini
+	}
     7101.9.12 = {
         death = { death_reason = death_natural_causes }
     }
