@@ -4181,6 +4181,7 @@ c_burkh_nurn = {
 	}
 	7170.6.10 = {
 		holder = lineofvoko7 # Elan
+		liege = d_caran
 	}
 }
 b_sadetar = {
@@ -4339,6 +4340,7 @@ c_morlith = {
 		holder = lineudo52 # Akvoth
 		government = clan_government
 		change_development_level = 3
+		liege = d_lithlad
 	}
 	7092.1.23 = {
 		holder = lineudo73 # Akvoth
