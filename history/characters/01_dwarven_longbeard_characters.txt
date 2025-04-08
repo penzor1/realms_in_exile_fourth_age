@@ -189,6 +189,13 @@ lineofdurin108 = {
 		}
 	}
 	7174.1.1 = {
+		give_nickname = nick_the_brave
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
             set_relation_friend = { 
                 reason = contemplated_life_and_death_together 
                 target = character:lineofdurinVII 
