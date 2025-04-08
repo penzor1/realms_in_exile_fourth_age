@@ -1,7 +1,7 @@
 ﻿### ALL FICTION
 
 ### Line of Sindri
-lineofthelorI = {
+lineofthelor1 = {
 	name = Sindri
 	dynasty = dynasty_thelor
 	religion = faith_khazad
@@ -39,7 +39,7 @@ lineofthelorII = {
 	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
-	father = lineofthelorI
+	father = lineofthelor1
 
 	1000.1.1 = {
 		birth = yes
