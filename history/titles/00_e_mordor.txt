@@ -2477,10 +2477,10 @@ c_duath = {
 	7052.3.25 = {
 		holder = lineofzaguf1
 		government = feudal_government
+		liege = 0
 	}
 	7137.10.1 = {
 		holder = lineofzaguf2
-		government = feudal_government
 	}
 }			
 #Nan Ungol							
@@ -2518,11 +2518,9 @@ c_nan_ungol = {
 	#fiction
 	7052.3.25 = {
 		holder = lineofzaguf1
-		government = feudal_government
 	}
 	7137.10.1 = {
 		holder = lineofzaguf2
-		government = feudal_government
 	}
 }
 #Maghak							
@@ -2544,7 +2542,6 @@ c_maghak = {
 	#fiction
 	7052.3.25 = {
 		holder = lineofzaguf1
-		government = feudal_government
 	}
 	7137.10.1 = {
 		holder = lineofzaguf3
