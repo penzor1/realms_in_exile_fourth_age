@@ -25,7 +25,7 @@
  nick_the_old_shadow_desc:0 ""
  ### Generic Nicknames ###
  nick_troll_king:0 "Troll-King"
- nick_troll_king_desc:0 ""
+ nick_troll_king_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat] proclaimed [CharYourHerHimself(CHARACTER)] "Troll-King". The denizens under [CharYourHerHis(CHARACTER)] rule obey — not out of loyalty, but because they remember what happened to the ones who did not."
  nick_the_wanderer:0 "the Wanderer"
  nick_the_wanderer_desc:0 "$DEFAULT_NICKNAME_DESC$"
  nick_the_humongous:0 "the Humongous"

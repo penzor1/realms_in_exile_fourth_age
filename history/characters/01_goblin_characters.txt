@@ -113,23 +113,6 @@ linehallroamer3 = {
 	}
 }
 
-# Cave Troll - Troll King
-
-lineoftrollking1 = {
-	name = Zagbug
-
-	religion = faith_balrog_cult
-	culture = cave_troll
-
-	7078.5.3 = {
-		birth = yes
-	}
-
-	7201.3.11 = {
-		death = { death_reason = death_battle }
-	}
-}
-
 # Bell Breakers
 linebellbreakerwife = {
 	name = Aglush

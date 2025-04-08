@@ -1,4 +1,4 @@
-### THE EMPIRE OF MISTY MOUNTAINS ###
+﻿### THE EMPIRE OF MISTY MOUNTAINS ###
 
 #### Empire of misty mountains
 #### e_misty_mountains
@@ -909,9 +909,12 @@ c_chamber_of_mazarbul = {
 		liege = 0
 	}
 	#fiction
-	7052.5.1 = { #TA3019 # Bolgakh arrives after the Fellowship and death of Durin's Bain
+	7052.5.1 = { #TA3019 # Bolgakh arrives after the Fellowship and death of Durin's Bane
 		holder = lineofazog16 # Bolgakh
 		change_development_level = 5
+	}
+	7150.1.1 = { # The county is lost to Troll-King Zagbug and his goblin subjects
+		holder = lineoftrollking1 # Zagbug
 	}
 }
 
@@ -1173,9 +1176,6 @@ c_west_hall = {
 	7080.1.1 = {
 		holder = linehallroamer3 # Garg
 	}
-	7150.1.1 = { # Cave Troll takes over from puny goblins
-		holder = lineoftrollking1 # Zagbug
-	}
 }
 
 c_central_halls = {
@@ -1268,9 +1268,6 @@ c_central_halls = {
 	7080.1.1 = {
 		holder = linehallroamer3 # Garg
 	}
-	7150.1.1 = { # Cave Troll takes over from puny goblins
-		holder = lineoftrollking1 # Zagbug
-	}
 }
 
 c_great_mines = {
@@ -1352,6 +1349,11 @@ c_great_mines = {
 		change_development_level = -100
 		government = wastelands_government
 		liege = 0
+	}
+	7140.1.1 = { # Troll-King Zagbug settles with his goblin subjects
+		holder = lineoftrollking1 # Zagbug
+		change_development_level = 4
+		government = tribal_government
 	}
 }
 
@@ -1447,9 +1449,6 @@ c_zirin_kuk = {
 	}
 	7080.1.1 = {
 		holder = linehallroamer3 # Garg
-	}
-	7150.1.1 = { # Cave Troll takes over from puny goblins
-		holder = lineoftrollking1 # Zagbug
 	}
 }
 
@@ -5284,9 +5283,6 @@ d_hallroamer = {
 	}
 	7080.1.1 = {
 		holder = linehallroamer3 # Garg
-	}
-	7150.1.1 = { # Cave Troll takes over from puny goblins
-		holder = lineoftrollking1 # Zagbug
 	}
 }
 # d_deepwalker = {
