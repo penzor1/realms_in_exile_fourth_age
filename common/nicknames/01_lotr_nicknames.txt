@@ -1,5 +1,6 @@
 ﻿
 	# Special
+	nick_sharkey = { is_prefix = yes }
 	nick_sharkey_saruman = { is_prefix = yes } # Saruman
 	nick_the_old_shadow = {}
 
