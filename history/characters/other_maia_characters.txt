@@ -6,7 +6,7 @@ lineofsaruman = { # Saruman the White, aka Curumo
 	religion = faith_ainur				
 	culture = istari
 
-	sexuality = asexual
+	sexuality = heterosexual
 	
 	trait = just
 	trait = ambitious
@@ -143,7 +143,7 @@ lineofgandalf = { # Gandalf the Grey, aka Curumo
 	religion = faith_ainur
 	culture = istari
 
-	sexuality = asexual
+	sexuality = heterosexual
 	
 	trait = compassionate
 	trait = content
@@ -245,7 +245,7 @@ lineofradagast = { # Radagast the Brown
 	religion = faith_woodmen
 	culture = woodmen # Switched on game start. This is to populate his holdings with Woodmen.
 
-	sexuality = asexual
+	sexuality = heterosexual
 
 	trait = trusting
 	trait = honest				
@@ -348,7 +348,7 @@ lineofsauron = {
 	religion = lidless_eye				
 	culture = maiar_fallen
 
-	sexuality = asexual
+	sexuality = heterosexual
 	
 	disallow_random_traits = yes
 
