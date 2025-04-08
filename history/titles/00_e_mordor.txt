@@ -1307,6 +1307,7 @@ k_nurn = {
     7052.3.25 = {
         holder = lineofkidjunagim1 #Kidjun 'the Liberator'
         government = oligarchy_government
+		title_succession_laws = { oligarchic_elective_succession_law }
     }
 	#fiction
 	7068.6.20 = {
@@ -1978,20 +1979,21 @@ d_caran = {
 #    }
 	#fiction
 	7052.3.25 = {
-		holder = lineofkidjunagim1 #Kidjun 'the Liberator'
-		government = oligarchy_government
+		holder = lineofvoko1 # Voko
+		government = clan_government
+		liege = k_nurn
 	}
-	7068.6.20 = {
-		holder = lineofkidjunagim3 # Turah
+	7112.8.20 = {
+		holder = lineofvoko3 # Elan
 	}
-	7138.1.29 = {
-		holder = lineofkidjunagim4 # Kadbhad
+	7126.6.2 = {
+		holder = lineofvoko4 # Orah
 	}
-	7148.10.1 = {
-		holder = lineofkidjunagim5 # Kidjun
+	7159.7.10 = {
+		holder = lineofvoko5 # Adjun
 	}
-	7191.6.12 = {
-		holder = lineofkidjunagim6 # Kan
+	7195.9.4 = {
+		holder = lineofvoko6 # Elan
 	}
 }
 #Núrgost							
@@ -2091,20 +2093,19 @@ c_nurgost = {
 #    }						
 	#fiction
 	7052.3.25 = {
-		holder = lineofkidjunagim1 #Kidjun 'the Liberator'
-		government = oligarchy_government
+		holder = lineofvoko1 # Voko
 	}
-	7068.6.20 = {
-		holder = lineofkidjunagim3 # Turah
+	7112.8.20 = {
+		holder = lineofvoko3 # Elan
 	}
-	7138.1.29 = {
-		holder = lineofkidjunagim4 # Kadbhad
+	7126.6.2 = {
+		holder = lineofvoko4 # Orah
 	}
-	7148.10.1 = {
-		holder = lineofkidjunagim5 # Kidjun
+	7159.7.10 = {
+		holder = lineofvoko5 # Adjun
 	}
-	7191.6.12 = {
-		holder = lineofkidjunagim6 # Kan
+	7195.9.4 = {
+		holder = lineofvoko6 # Elan
 	}
 }
 b_ruinond = {
@@ -2224,20 +2225,19 @@ c_caran = {
 #    }					
 	#fiction
 	7052.3.25 = {
-		holder = lineofkidjunagim1 #Kidjun 'the Liberator'
-		government = oligarchy_government
+		holder = lineofvoko1 # Voko
 	}
-	7068.6.20 = {
-		holder = lineofkidjunagim3 # Turah
+	7112.8.20 = {
+		holder = lineofvoko3 # Elan
 	}
-	7138.1.29 = {
-		holder = lineofkidjunagim4 # Kadbhad
+	7126.6.2 = {
+		holder = lineofvoko4 # Orah
 	}
-	7148.10.1 = {
-		holder = lineofkidjunagim5 # Kidjun
+	7159.7.10 = {
+		holder = lineofvoko5 # Adjun
 	}
-	7191.6.12 = {
-		holder = lineofkidjunagim6 # Kan
+	7195.9.4 = {
+		holder = lineofvoko6 # Elan
 	}
 }
 b_thrakan = {
@@ -2305,7 +2305,21 @@ d_maegond = {
     }
 	#fiction
 	7052.3.25 = {
-		holder = 0
+		holder = lineofsonun1 # Sonun
+		government = clan_government
+		liege = k_nurn
+	}
+	7112.4.20 = {
+		holder = lineofsonun2 # Nilun
+	}
+	7145.9.10 = {
+		holder = lineofsonun3 # Brev
+	}
+	7170.1.9 = {
+		holder = lineofsonun4 # Keran
+	}
+	7198.8.17 = {
+		holder = lineofsonun5 # Kadjon
 	}
 }
 #Nurumurl							
@@ -2376,20 +2390,19 @@ c_nurumurl = {
     }		
 	#fiction
 	7052.3.25 = {
-		holder = lineofkidjunagim1 #Kidjun 'the Liberator'
-		government = oligarchy_government
+		holder = lineofsonun1 # Sonun
 	}
-	7068.6.20 = {
-		holder = lineofkidjunagim3 # Turah
+	7112.4.20 = {
+		holder = lineofsonun2 # Nilun
 	}
-	7138.1.29 = {
-		holder = lineofkidjunagim4 # Kadbhad
+	7145.9.10 = {
+		holder = lineofsonun3 # Brev
 	}
-	7148.10.1 = {
-		holder = lineofkidjunagim5 # Kidjun
+	7170.1.9 = {
+		holder = lineofsonun4 # Keran
 	}
-	7191.6.12 = {
-		holder = lineofkidjunagim6 # Kan
+	7198.8.17 = {
+		holder = lineofsonun5 # Kadjon
 	}
 }					
 #Wrasfotak							
@@ -2414,6 +2427,22 @@ c_wrasfotak = {
 		liege = d_maegond
 		change_development_level = 5
 	}						
+	#fiction
+	7052.3.25 = {
+		holder = lineofsonun1 # Sonun
+	}
+	7112.4.20 = {
+		holder = lineofsonun2 # Nilun
+	}
+	7145.9.10 = {
+		holder = lineofsonun3 # Brev
+	}
+	7170.1.9 = {
+		holder = lineofsonun4 # Keran
+	}
+	7198.8.17 = {
+		holder = lineofsonun5 # Kadjon
+	}
 }
 #Dúath					
 c_duath = {
@@ -2649,9 +2678,9 @@ d_nargil = {
     7012.6.11 = {
         holder = lineibo70 
     }
-    7070.1.7 = {
-        holder = lineibo76 
-    }
+#    7070.1.7 = {
+#        holder = lineibo76 
+#    }
     7052.3.25 = {
         holder = lineofkidjunagim1 #Kidjun 'the Liberator'
         government = oligarchy_government
@@ -2666,8 +2695,10 @@ d_nargil = {
 	7148.10.1 = {
 		holder = lineofkidjunagim5 # Kidjun
 	}
-	7191.6.12 = {
+	7170.4.1 = {
 		holder = lineofkidjunagim6 # Kan
+		liege = k_nurn
+		government = clan_government
 	}
 }
 #Nargil							
@@ -2809,7 +2840,7 @@ c_nargil = {
 	7148.10.1 = {
 		holder = lineofkidjunagim5 # Kidjun
 	}
-	7191.6.12 = {
+	7170.4.1 = {
 		holder = lineofkidjunagim6 # Kan
 	}
 }
@@ -2841,8 +2872,13 @@ c_tarkorul = {
 	7148.10.1 = {
 		holder = lineofkidjunagim5 # Kidjun
 	}
-	7191.6.12 = {
+	7170.4.1 = {
 		holder = lineofkidjunagim6 # Kan
+	}
+	7170.9.10 = {
+		holder = lineofbrennen1 # Brennen
+		liege = d_nargil
+		government = clan_government
 	}
 }
 #Nurnen							
@@ -2967,9 +3003,9 @@ c_nurnen = {
     7012.6.11 = {
         holder = lineibo70 
     }
-    7070.1.7 = {
-        holder = lineibo76 
-    }				
+#    7070.1.7 = {
+#        holder = lineibo76 
+#    }				
 	#fiction
 	7052.3.25 = {
 		holder = lineofkidjunagim1 #Kidjun 'the Liberator'
@@ -2984,7 +3020,7 @@ c_nurnen = {
 	7148.10.1 = {
 		holder = lineofkidjunagim5 # Kidjun
 	}
-	7191.6.12 = {
+	7170.4.1 = {
 		holder = lineofkidjunagim6 # Kan
 	}
 }
@@ -3110,9 +3146,9 @@ c_luglurak = {
     7012.6.11 = {
         holder = lineibo70 
     }
-    7070.1.7 = {
-        holder = lineibo76 
-    }					
+#    7070.1.7 = {
+#        holder = lineibo76 
+#    }					
 	#fiction
 	7052.3.25 = {
 		holder = lineofkidjunagim1 #Kidjun 'the Liberator'
@@ -3127,7 +3163,7 @@ c_luglurak = {
 	7148.10.1 = {
 		holder = lineofkidjunagim5 # Kidjun
 	}
-	7191.6.12 = {
+	7170.4.1 = {
 		holder = lineofkidjunagim6 # Kan
 	}
 }
@@ -3159,8 +3195,13 @@ c_cirith_nargil = {
 	7148.10.1 = {
 		holder = lineofkidjunagim5 # Kidjun
 	}
-	7191.6.12 = {
+	7170.4.1 = {
 		holder = lineofkidjunagim6 # Kan
+	}
+	7170.9.10 = {
+		holder = lineofbrennen1 # Brennen
+		liege = d_nargil
+		government = clan_government
 	}
 }
 
@@ -4050,9 +4091,26 @@ c_burkh_nurn = {
     7033.11.22 = {
         holder = lineikhon11
     }
-    7061.1.7 = {
-        holder = lineikhon13
-    }
+#    7061.1.7 = {
+#        holder = lineikhon13
+#    }
+	#fiction
+	7052.3.25 = {
+		holder = lineofvoko1 # Voko
+		government = clan_government
+	}
+	7112.8.20 = {
+		holder = lineofvoko3 # Elan
+	}
+	7126.6.2 = {
+		holder = lineofvoko4 # Orah
+	}
+	7159.7.10 = {
+		holder = lineofvoko5 # Adjun
+	}
+	7195.9.4 = {
+		holder = lineofvoko6 # Elan
+	}
 }
 b_sadetar = {
 	6987.3.21 = {
