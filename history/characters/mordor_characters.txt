@@ -59,16 +59,13 @@ mouthofsauron = {
 		#	death_reason = death_battle	
 		#}		
 		name = "Herumor"
-		remove_nickname = yes
+		give_nickname = nick_the_old_shadow
 		dynasty = dynasty_herumori
 		effect = {
 			add_trait = maimed
    			add_character_modifier = ringbearer_health_modifier
 		}
 	}			
-	7052.5.2 = {
-		give_nickname = nick_the_old_shadow
-	}
 	7174.1.1 = {
 		domicile ?= { move_domicile = province:700 } # b_sturlurza_nur
 	}
