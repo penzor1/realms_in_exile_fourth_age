@@ -1,7 +1,8 @@
 ﻿###############
 ### Nurnoth ###
 ###############
-	
+
+### Line of Kidjun
 lineofkidjunagim1wife = {
 	name = Marwen
 	religion = faith_nurn_good
@@ -237,6 +238,256 @@ lineofkidjunagim7 = {
 		birth = yes
 	}
 	7212.4.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Line of Sonun
+lineofsonun1 = {
+	name = Sonun
+	religion = faith_nurn_good
+	culture = nurnoth
+	#father = 
+	#mother = 
+	
+	trait = brave
+	trait = peasant_leader
+	
+	7041.6.12 = {
+		birth = yes
+	}
+	7067.5.1 = {
+		add_spouse = lineofsonun1wife # Nivi
+	}
+	7112.4.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsonun1wife = {
+	name = Nivi
+	religion = faith_nurn_good
+	culture = nurnoth
+	#father = 
+	#mother = 
+	female = yes
+	
+	7041.6.12 = {
+		birth = yes
+	}
+	7112.4.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsonun2 = {
+	name = Nil_u_n
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofsonun1 # Sonun
+	mother = lineofsonun1wife # Nivi
+	
+	7068.2.26 = {
+		birth = yes
+	}
+	7145.9.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsonun3 = {
+	name = Brev
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofsonun2 # Nilun
+	#mother = 
+	
+	7090.12.25 = {
+		birth = yes
+	}
+	7170.1.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsonun4 = {
+	name = Keran
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofsonun3 # Brev
+	#mother = 
+	
+	7121.1.3 = {
+		birth = yes
+	}
+	7198.8.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsonun4sis = {
+	name = Ronah
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofsonun3 # Brev
+	#mother = 
+	female = yes
+	
+	7127.3.11 = {
+		birth = yes
+	}
+	7199.7.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsonun5 = {
+	name = Kadjon
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofsonun4 # Keran
+	#mother = 
+	
+	7155.7.16 = {
+		birth = yes
+	}
+	7231.4.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Line of Brennen
+lineofbrennen1 = {
+	name = Brennen
+	religion = faith_nurn_good
+	culture = nurnoth
+	#father = 
+	#mother = 
+	
+	trait = brave
+	
+	trait = education_martial_3
+	trait = loyal
+	
+	7153.1.29 = {
+		birth = yes
+	}
+	7212.6.22 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+### Line of Voko
+lineofvoko1 = {
+	name = Voko
+	religion = faith_nurn_good
+	culture = nurnoth
+	#father = 
+	#mother = 
+	
+	trait = brave
+	trait = peasant_leader
+	
+	7001.2.1 = {
+		birth = yes
+	}
+	7100.1.1 = {
+		give_nickname = nick_the_old
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7112.8.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvoko2 = {
+	name = Voko
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofvoko1 # Voko
+	#mother = 
+	
+	7036.1.12 = {
+		birth = yes
+	}
+	7098.4.13 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofvoko3 = {
+	name = Elan
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofvoko2 # Voko
+	#mother = 
+	
+	7058.3.30 = {
+		birth = yes
+	}
+	7126.6.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvoko4 = {
+	name = Orah
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofvoko3 # Elan
+	#mother = 
+	
+	7091.4.17 = {
+		birth = yes
+	}
+	7159.7.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvoko5 = {
+	name = Adjun
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofvoko4 # Orah
+	#mother = 
+	
+	7115.6.24 = {
+		birth = yes
+	}
+	7195.9.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvoko6 = {
+	name = Elan
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofvoko5 # Adjun
+	#mother = 
+	
+	7141.1.29 = {
+		birth = yes
+	}
+	7211.2.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvoko7 = {
+	name = Voko
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofvoko5 # Adjun
+	#mother = 
+	
+	7149.3.1 = {
+		birth = yes
+	}
+	7220.11.11 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
