@@ -7,6 +7,8 @@ lineoftrollking1 = {
 	religion = faith_deep_cult
 	culture = cave_troll
 
+    dna = troll_king_dna
+
     diplomacy = 3
 	martial = 8
 	stewardship = 5
@@ -22,13 +24,15 @@ lineoftrollking1 = {
 
 	7078.5.3 = {
 		birth = yes
+        effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 
 	7140.1.1 = {
 		give_nickname = nick_troll_king
 		effect = {
 			add_character_flag = had_nickname_event
-			# add_character_flag = has_scripted_appearance
 		}
 	}
 
