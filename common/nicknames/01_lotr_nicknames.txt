@@ -15,6 +15,7 @@
 	nick_the_spurned_orc = {} # Mazog II the Spurned son of Mazog I the Exile
 	nick_the_manipulator_orc = {} # Now uassigned
 	nick_the_tormentor_orc = {} # Hurog the Manipulator, son of Gorgol the Proud
+	nick_troll_king = {} # Troll-King Zagbug the Cave Troll
 
 	# Hobbit
 	nick_of_the_towers = {} # Fairbairns

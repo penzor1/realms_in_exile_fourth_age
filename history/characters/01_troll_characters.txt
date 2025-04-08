@@ -3,21 +3,40 @@
 lineoftrollking1 = {
 	name = Zagbug
 
+    dynasty = dynasty_troll_king
 	religion = faith_deep_cult
 	culture = cave_troll
 
+    dna = troll_king_dna
+
+    diplomacy = 3
+	martial = 8
+	stewardship = 5
+	intrigue = 2
+	learning = 4
+	prowess = 16
+
+    trait = stubborn
+	trait = vengeful
+	trait = impatient
+
+    trait = education_martial_2
+
 	7078.5.3 = {
 		birth = yes
-	}
-
-	7064.10.3 = {
-		give_nickname = nick_troll_king
-		effect = {
-			add_character_flag = had_nickname_event
-			# add_character_flag = has_scripted_appearance
+        effect = {
+			add_character_flag = has_scripted_appearance
 		}
 	}
 
+	7140.1.1 = {
+		give_nickname = nick_troll_king
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
 	7201.3.11 = {
 		death = { death_reason = death_battle }
 	}

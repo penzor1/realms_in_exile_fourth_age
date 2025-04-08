@@ -42,6 +42,12 @@ dynasty_yagmuz = {
 	motto = dynn_yagmuz_motto
 }
 
+dynasty_troll_king = {
+	name = "dynn_troll_king"
+	culture = "cave_troll"
+	motto = dynn_troll_king_motto
+}
+
 ####################
 #### Goblin ####
 ####################

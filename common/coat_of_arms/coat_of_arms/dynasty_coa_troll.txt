@@ -1,0 +1,31 @@
+﻿dynasty_troll_king={
+	pattern="pattern_solid.dds"
+	color1=rust_brown
+	color2=black
+	color3=yellow
+	color4=white
+	colored_emblem={
+		color1=rust_brown
+		texture="ce_texture_uruk_1.dds"
+	}
+
+	colored_emblem={
+		color1=black
+		color2=yellow
+		color3=black
+		texture="ce_pattern_uruk_1.dds"
+	}
+
+	colored_emblem={
+		color1=white
+		color2=bone_white
+		color3=red
+		texture="ce_mordor_01.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.500000 0.500000 }
+		}
+
+	}
+
+}
