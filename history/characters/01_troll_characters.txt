@@ -49,6 +49,9 @@ lineofyagmuz1 = {
 	dynasty = dynasty_yagmuz
 	religion = sons_of_sauron
 	culture = black_troll
+
+	dna = yagmuz_dna
+
 	#father = 
 	#mother = 
 
@@ -101,6 +104,9 @@ lineofyagmuz2 = {
 	dynasty = dynasty_yagmuz
 	religion = sons_of_sauron
 	culture = black_troll
+
+	dna = shagdush_dna
+
 	father = lineofyagmuz1 # Yagmuz
 	mother = lineofyagmuz1wife
 	
@@ -135,6 +141,9 @@ lineofyagmuz3 = {
 	dynasty = dynasty_yagmuz
 	religion = sons_of_sauron
 	culture = black_troll
+
+	dna = uglag_dna
+
 	father = lineofyagmuz1 # Yagmuz
 	mother = lineofyagmuz1wife
 	
