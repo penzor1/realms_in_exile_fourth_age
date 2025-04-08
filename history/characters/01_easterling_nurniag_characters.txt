@@ -13,7 +13,7 @@ lineikhon15 = {
 
 	7042.2.12 = {
 		birth = yes
-	}
+	
 	7124.11.28 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -89,7 +89,7 @@ lineudo74 = {
 	dynasty = dynasty_udo
 	religion = faith_nurniag
 	culture = nurniag
-	father = lineikhon73 # Akvoth
+	father = lineudo73 # Akvoth
 	#mother = 
 
 	7061.4.2 = {
@@ -105,7 +105,7 @@ lineudo75 = {
 	dynasty = dynasty_udo
 	religion = faith_nurniag
 	culture = nurniag
-	father = lineikhon74 # Bondin
+	father = lineudo74 # Bondin
 	#mother = 
 
 	7090.9.27 = {
@@ -121,7 +121,7 @@ lineudo76 = {
 	dynasty = dynasty_udo
 	religion = faith_nurniag
 	culture = nurniag
-	father = lineikhon75 # Karm
+	father = lineudo75 # Karm
 	#mother = 
 
 	7130.4.12 = {
@@ -647,7 +647,7 @@ lineofvoko7 = {
 ### Line of Azen
 lineofazen1 = {
 	name = Azen
-	#dynasty = dynasty_
+	dynasty = dynasty_themion
 	religion = faith_nurn_good
 	culture = nurnoth
 	#father = 
@@ -666,7 +666,7 @@ lineofazen1 = {
 
 lineofazen2 = {
 	name = S_a_l
-	#dynasty = dynasty_
+	dynasty = dynasty_themion
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofazen1 # Azen
@@ -685,7 +685,7 @@ lineofazen2 = {
 
 lineofazen3 = {
 	name = D_a_ll_u_z
-	#dynasty = dynasty_
+	dynasty = dynasty_themion
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofazen2 # Sal
@@ -704,7 +704,7 @@ lineofazen3 = {
 
 lineofazen4 = {
 	name = Azen
-	#dynasty = dynasty_
+	dynasty = dynasty_themion
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofazen3 # Dalluz
@@ -723,10 +723,10 @@ lineofazen4 = {
 
 lineofazen5 = {
 	name = Kon
-	#dynasty = dynasty_
+	dynasty = dynasty_themion
 	religion = faith_nurn_good
 	culture = nurnoth
-	father = lineofazen4 # AzenTurennon
+	father = lineofazen4 # Azen
 	#mother = 
 	
 	trait = brave
