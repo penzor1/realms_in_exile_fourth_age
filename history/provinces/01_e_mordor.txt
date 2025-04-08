@@ -2239,6 +2239,11 @@
 		religion = sons_of_sauron
 		holding = castle_holding
 	}
+	#fiction
+	7053.1.2 = {
+		culture = nurnoth
+		religion = faith_nurn_good
+	}
 }
 
 689 = { #Nadakhond (b_nadakhond)
