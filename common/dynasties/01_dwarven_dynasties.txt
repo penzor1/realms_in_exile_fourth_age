@@ -25,3 +25,9 @@ dynasty_thelor = {
 	culture = "ironfists"
 	motto = dynn_thelor_motto
 }
+
+dynasty_varya = {
+	name = "dynn_varya"
+	culture = "ironfists"
+	motto = dynn_varya_motto
+}
