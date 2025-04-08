@@ -4,23 +4,60 @@ d_laamp_rangers_of_mordor = {
 		government = landless_adventurer_government
 		succession_laws = { landless_adventurer_succession_law }
 		effect = {
+			if = {
+				limit = {
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = { destroy_title = prev }
+			}
 			create_landless_adventurer_title_history_effect = yes
 			set_variable = { name = adventurer_creation_reason value = flag:historical }
-			destroy_landless_title_no_dlc_effect = { DATE = 7052.5.1 }
 		}
 	}
 }
 
 d_laamp_uruk_band = {
-	7174.3.1 = {
-		holder = lineofugluk2 # Karluk
+	7051.7.10 = { # Treachery of Isengard revealed
+		holder = lineofugluk1 # Ugluk
 		government = landless_adventurer_government
 		succession_laws = { landless_adventurer_succession_law }
 		effect = {
+			if = {
+				limit = {
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = { destroy_title = prev }
+			}
 			create_landless_adventurer_title_history_effect = yes
 			set_variable = { name = adventurer_creation_reason value = flag:historical }
-			destroy_landless_title_no_dlc_effect = { DATE = 7052.5.1 }
 		}
+	}
+	7052.2.28 = { # Battle of Eaves of Fangorn
+		holder = lineofugluk2 # Karluk
+	}
+}
+
+d_laamp_sharkey_band = {
+	7052.8.15 = { # Flight from Isengard
+		holder = lineofsaruman # Saruman
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = { destroy_title = prev }
+			}
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	7052.11.3 = { # Battle of Bywater
+		holder = lineofsharkey1 # Sharku
+	}
+	7110.4.9 = {
+		holder = lineofsharkey2 # Shardakh
 	}
 }
 
@@ -30,22 +67,32 @@ d_laamp_troll_band = {
 		government = landless_adventurer_government
 		succession_laws = { landless_adventurer_succession_law }
 		effect = {
+			if = {
+				limit = {
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = { destroy_title = prev }
+			}
 			create_landless_adventurer_title_history_effect = yes
 			set_variable = { name = adventurer_creation_reason value = flag:historical }
-			destroy_landless_title_no_dlc_effect = { DATE = 7052.5.1 }
 		}
 	}
 }
 
 d_laamp_mahud_marauders = {
 	7174.3.1 = {
-		holder = 0 # 
+		holder = 0 #
 		government = landless_adventurer_government
 		succession_laws = { landless_adventurer_succession_law }
 		effect = {
+			if = {
+				limit = {
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = { destroy_title = prev }
+			}
 			create_landless_adventurer_title_history_effect = yes
 			set_variable = { name = adventurer_creation_reason value = flag:historical }
-			destroy_landless_title_no_dlc_effect = { DATE = 7052.5.1 }
 		}
 	}
 }

@@ -1,4 +1,6 @@
-﻿lineofugluk1 = {
+﻿### Isengarders
+### Line of Ugluk
+lineofugluk1 = { # the orc leader that took merry and pippin
 	name = Ugl_uk
 	religion = white_hand_cult
 	culture = isengard_urukhai
@@ -21,8 +23,28 @@
 	7010.1.1 = {
 		birth = yes
 	}
+	7033.1.1 = {
+		employer = lineofsaruman # Saruman
+	}
+	7050.2.11 = {
+		add_spouse = lineofugluk1wife # Draka
+	}
 	7052.2.28 = {
 		death = { death_reason = death_battle killer = lineofeofor17 } # Battle of the Eaves of Fangorn
+	}
+}
+
+lineofugluk1wife = {
+	name = Draka
+	religion = white_hand_cult
+	culture = isengard_urukhai
+	female = yes
+	
+	7045.3.20 = {
+		birth = yes
+	}
+	7189.12.5 = {
+		death = { death_reason = death_battle }  
 	}
 }
 
@@ -30,13 +52,15 @@ lineofugluk2 = {
 	name = Karl_uk
 	religion = white_hand_cult
 	culture = isengard_urukhai
+	father = lineofugluk1 # Ugluk
+	mother = lineofugluk1wife # Draka
 	
 	trait = callous
 	trait = brave
 	trait = calm
 	
 	trait = education_intrigue_3
-	trait = rough_terrain_expert
+	trait = torturer
 	
 	martial = 8
 	diplomacy = 3
@@ -45,10 +69,239 @@ lineofugluk2 = {
 	learning = 5
 	prowess = 10
 	
-	7045.3.20 = {
+	7051.2.20 = {
 		birth = yes
 	}
 	7189.12.5 = {
 		death = { death_reason = death_battle }  
+	}
+}
+
+### Line of Kurtuk
+lineofkurtuk1 = {
+	name = Kurtuk
+	religion = white_hand_cult
+	culture = isengard_urukhai
+	
+	trait = sadistic
+	trait = stubborn
+	trait = wrathful
+	
+	trait = education_martial_2
+	trait = rough_terrain_expert
+	trait = strategist
+	
+	martial = 7
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 8
+	learning = 7
+	prowess = 9
+	
+	7070.1.2 = {
+		birth = yes
+	}
+	7174.1.1 = {
+		employer = lineofugluk2 # Karluk
+	}
+	7199.6.14 = {
+		death = { death_reason = death_battle }  
+	}
+}
+
+### Line of Sharkey
+lineofsharkey1 = {
+	name = Sharku
+	religion = white_hand_cult
+	culture = isengard_urukhai
+	#father = 
+	#mother = 
+	
+	trait = lustful
+	trait = impatient
+	trait = ambitious
+	
+	trait = education_martial_2
+	trait = aggressive_attacker
+	
+	martial = 10
+	diplomacy = 3
+	intrigue = 4
+	stewardship = 2
+	learning = 4
+	prowess = 10
+	
+	7034.5.16 = {
+		birth = yes
+		give_nickname = nick_sharkey
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7110.4.9 = {
+		death = { death_reason = death_battle }  
+	}
+}
+
+lineofsharkey2 = {
+	name = Shardakh
+	religion = white_hand_cult
+	culture = isengard_urukhai
+	father = lineofsharkey1 # Sharku
+	#father = 
+	#mother = 
+	
+	trait = arbitrary
+	trait = vengeful
+	trait = patient
+	
+	trait = education_intrigue_2
+	trait = reaver
+	
+	martial = 8
+	diplomacy = 2
+	intrigue = 6
+	stewardship = 3
+	learning = 4
+	prowess = 7
+	
+	7082.5.16 = {
+		birth = yes
+		give_nickname = nick_sharkey
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7180.4.9 = {
+		death = { death_reason = death_battle }  
+	}
+}
+
+### Line of Pendor
+lineofpendor1 = { # Lieutenant of old Sharkey
+	name = Pendor
+	religion = faith_dunlending_khrabnazerh
+	culture = dunlending
+	
+	trait = greedy
+	trait = paranoid
+	trait = arrogant
+	
+	trait = bastard
+	trait = education_martial_1
+	trait = reaver
+	
+	martial = 3
+	diplomacy = 3
+	intrigue = 5
+	stewardship = 3
+	learning = 3
+	prowess = 8
+	
+	7021.3.1 = {
+		birth = yes
+	}
+	7052.11.3 = {
+		death = { death_reason = death_battle } # Battle of Bywater
+	}
+}
+
+lineofpendor2 = {
+	name = Pafrand
+	religion = faith_dunlending_khrabnazerh
+	culture = dunlending
+	father = lineofpendor1 # Pendor
+	#mother = 
+	
+	trait = wrathful
+	trait = content
+	trait = gregarious
+	
+	trait = bastard
+	trait = education_stewardship_1
+	
+	martial = 3
+	diplomacy = 3
+	intrigue = 5
+	stewardship = 3
+	learning = 3
+	prowess = 8
+	
+	7049.10.30 = {
+		birth = yes
+		give_nickname = nick_the_butcher
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+	7112.2.26 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofpendor3 = {
+	name = Penridd
+	religion = faith_dunlending_khrabnazerh
+	culture = dunlending
+	father = lineofpendor2 # Pafrand
+	#mother = 
+	
+	trait = wrathful
+	trait = content
+	trait = gregarious
+	
+	trait = bastard
+	trait = education_stewardship_1
+	
+	martial = 3
+	diplomacy = 3
+	intrigue = 5
+	stewardship = 3
+	learning = 3
+	prowess = 8
+	
+	7085.7.27 = {
+		birth = yes
+	}
+	7152.3.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofpendor4 = {
+	name = Pendor
+	religion = faith_dunlending_khrabnazerh
+	culture = dunlending
+	father = lineofpendor3 # Penridd
+	#mother = 
+	
+	trait = ambitious
+	trait = calm
+	trait = brave
+	
+	trait = bastard
+	trait = education_martial_3
+	
+	martial = 8
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 4
+	learning = 4
+	prowess = 10
+	
+	7139.9.12 = {
+		birth = yes
+	}
+	7174.1.1 = {
+		employer = lineofsharkey2 # Shardakh
+	}
+	7180.3.1 = {
+		death = { death_reason = death_battle }
 	}
 }
