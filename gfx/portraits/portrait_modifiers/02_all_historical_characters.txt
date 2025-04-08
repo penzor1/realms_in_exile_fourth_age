@@ -12038,6 +12038,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				gene = gene_hunchbacked
 				template = hunchbacked
 				range = { 0.5 1.0 }	
+			}
 		}
 		weight = {
 			base = 0
