@@ -1,0 +1,6 @@
+﻿01_lotr_setup_on_actions_effect = {
+	every_culture_global = {
+		limit = { has_cultural_pillar = heritage_troll }
+		get_all_innovations_from = culture:generic_goblin
+	}
+}
