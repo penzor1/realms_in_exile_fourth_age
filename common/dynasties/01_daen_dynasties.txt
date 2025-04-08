@@ -1,5 +1,5 @@
 ﻿########################################
-################ GONDOR ################
+################ DAENS ################
 ########################################
 
 dynasty_mananach = {
@@ -24,4 +24,10 @@ dynasty_oloch = {
 	name = "dynn_oloch"
 	culture = "hillmen"
 	motto = dynn_oloch_motto
+}
+
+dynasty_vel_o_ = {
+	name = "dynn_vel_o_"
+	culture = "nurnoth"
+	motto = dynn_vel_o__motto
 }
