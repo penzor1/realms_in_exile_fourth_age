@@ -43,14 +43,14 @@ DECISIONS/EVENTS
 -come up with ideas for decisions/rp content
 -CREATE decisions
 add decision to establish glitterbeard culture for aglarond
-add decision to build tomb of arwen in lorien
+add decision to build tomb of arwen in lorien?
 add decision tomb of boromir in amon hen?
 add decision to launch glorfindel like a rocket to ost in edhil with a fully created colony
 decision for galion to join edhellond?
 add decision to make kingdom of tharbad, remove/rename cardolan
 remove adventurer watch on mordor, instead create decision for eldacar to leave and join an adventurer band
 found shadow of war celebrimborn's ring of power linked to morgoth?
-add last intro event to become sorcerer and start dark tree worship
+add become sorcerer and start dark tree worship
 event making rohirrim become caledharnonrim?
 
 HISTORY
@@ -69,7 +69,7 @@ move nurniag refugges in north khand
 add angmarrim men?
 add angmar orcs?
 add resurgent tharbad
-add barrowfells (however spelt) the witchking-nazgul's dungeon from hobbits
+add High Fells of Rhudaur (however spelt) the witchking-nazgul's dungeon from hobbits
 
 GFX
 -create custom dynasty/house coa
