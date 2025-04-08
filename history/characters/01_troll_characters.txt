@@ -3,28 +3,28 @@
 lineoftrollking1 = {
 	name = Zagbug
 
-    dynasty = dynasty_troll_king
+	dynasty = dynasty_troll_king
 	religion = faith_deep_cult
 	culture = cave_troll
 
-    dna = troll_king_dna
+	dna = troll_king_dna
 
-    diplomacy = 3
+	diplomacy = 3
 	martial = 8
 	stewardship = 5
 	intrigue = 2
 	learning = 4
 	prowess = 16
 
-    trait = stubborn
+	trait = stubborn
 	trait = vengeful
 	trait = impatient
 
-    trait = education_martial_2
+	trait = education_martial_2
 
 	7078.5.3 = {
 		birth = yes
-        effect = {
+		effect = {
 			add_character_flag = has_scripted_appearance
 		}
 	}
@@ -45,7 +45,7 @@ lineoftrollking1 = {
 # Olog-hai - Line of Yagmuz
 
 lineofyagmuz1 = {
-	name = Yagmuz
+	name = Yagm_u_z
 	dynasty = dynasty_yagmuz
 	religion = sons_of_sauron
 	culture = black_troll
