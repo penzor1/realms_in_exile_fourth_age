@@ -3876,7 +3876,21 @@ d_lithlad = {
     }
     7061.1.7 = {
         holder = lineikhon13
+	liege = 0
     }
+	#fiction
+	7101.9.12 = {
+		holder = lineikhon15 # Yursal
+	}
+	7124.11.28 = {
+		holder = lineikhon16 # Vedat
+	}
+	7149.6.19 = {
+		holder = lineikhon17 # Akhev
+	}
+	7169.1.11 = {
+		holder = lineikhon18 # Sakun
+	}
 }
 #Amnash							
 c_amnash = {							
@@ -4042,6 +4056,19 @@ c_sturlurza_nurn = {
     7061.1.7 = {
         holder = lineikhon13
     }
+	#fiction
+	7101.9.12 = {
+		holder = lineikhon15 # Yursal
+	}
+	7124.11.28 = {
+		holder = lineikhon16 # Vedat
+	}
+	7149.6.19 = {
+		holder = lineikhon17 # Akhev
+	}
+	7169.1.11 = {
+		holder = lineikhon18 # Sakun
+	}
 }
 #Burkh Nurn							
 c_burkh_nurn = {							
@@ -4258,6 +4285,19 @@ c_khenanak = {
     7061.1.7 = {
         holder = lineikhon13
     }
+	#fiction
+	7101.9.12 = {
+		holder = lineikhon15 # Yursal
+	}
+	7124.11.28 = {
+		holder = lineikhon16 # Vedat
+	}
+	7149.6.19 = {
+		holder = lineikhon17 # Akhev
+	}
+	7169.1.11 = {
+		holder = lineikhon18 # Sakun
+	}
 }
 
 ## Duchy of Ghúrzun
@@ -4294,6 +4334,24 @@ c_morlith = {
 	7033.1.1 = {							
 		liege = k_nurn
 	}		
+	#fiction
+	7052.3.25 = {
+		holder = lineudo52 # Akvoth
+		government = clan_government
+		change_development_level = 3
+	}
+	7092.1.23 = {
+		holder = lineudo73 # Akvoth
+	}
+	7131.4.27 = {
+		holder = lineudo74 # Bondin
+	}
+	7150.1.12 = {
+		holder = lineudo75 # Karm
+	}
+	7169.4.20 = {
+		holder = lineudo76 # Akvoth
+	}
 }
 #Nilorur							
 c_nilorur = {
