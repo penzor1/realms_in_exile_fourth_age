@@ -7,6 +7,8 @@ lineofthelor1 = {
 	religion = faith_khazad
 	culture = ironfists
 	
+	dna = dorfdad_sindri_dna
+
 	trait = brave
 	trait = stubborn
 	trait = ambitious
@@ -39,7 +41,24 @@ lineofthelorII = {
 	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
+<<<<<<< Updated upstream
 	father = lineofthelor1
+=======
+
+	dna = dorfdad_sindri_dna
+
+	father = lineofthelorI
+>>>>>>> Stashed changes
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
 
 	1000.1.1 = {
 		birth = yes
@@ -58,7 +77,20 @@ lineofthelorIII = {
 	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
+
+	dna = dorfdad_sindri_dna
+
 	father = lineofthelorII
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
 
 	2000.1.1 = {
 		birth = yes
@@ -77,7 +109,20 @@ lineofthelorIV = {
 	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
+
+	dna = dorfdad_sindri_dna
+
 	father = lineofthelorIII
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
 
 	3000.1.1 = {
 		birth = yes
@@ -96,7 +141,20 @@ lineofthelorV = {
 	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
+
+	dna = dorfdad_sindri_dna
+
 	father = lineofthelorIV
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
 
 	4000.1.1 = {
 		birth = yes
@@ -115,7 +173,20 @@ lineofthelorVI = {
 	dynasty = dynasty_thelor
 	religion = faith_khazad
 	culture = ironfists
+
+	dna = dorfdad_sindri_dna
+
 	father = lineofthelorV
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
 
 	6000.1.1 = {
 		birth = yes
