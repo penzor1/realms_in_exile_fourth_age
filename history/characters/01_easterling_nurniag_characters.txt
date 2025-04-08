@@ -1,4 +1,139 @@
 ﻿###############
+### Nurniag ###
+###############
+
+### Line of Ikhon
+lineikhon15 = {
+	name = Yursal
+	dynasty_house = house_ikhon
+	religion = faith_nurniag
+	culture = nurniag
+	father = lineikhon13 # Uvathar
+	mother = lineovon61 # Omini Ovon
+
+	7042.2.12 = {
+		birth = yes
+	}
+	7124.11.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineikhon16 = {
+	name = Vedat
+	dynasty_house = house_ikhon
+	religion = faith_nurniag
+	culture = nurniag
+	father = lineikhon15 # Yursal
+	#mother = 
+
+	7068.7.5 = {
+		birth = yes
+	}
+	7149.6.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineikhon17 = {
+	name = Akhev
+	dynasty_house = house_ikhon
+	religion = faith_nurniag
+	culture = nurniag
+	father = lineikhon16 # Vedat
+	#mother = 
+
+	7101.4.17 = {
+		birth = yes
+	}
+	7169.1.11 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineikhon18 = {
+	name = Sakun
+	dynasty_house = house_ikhon
+	religion = faith_nurniag
+	culture = nurniag
+	father = lineikhon16 # Akhev
+	#mother = 
+
+	7130.9.6 = {
+		birth = yes
+	}
+	7209.6.26 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+### Line of Arki
+lineudo73 = {
+	name = Akvoth
+	dynasty = dynasty_udo
+	religion = faith_nurniag
+	culture = nurniag
+	father = lineudo52 # Akvoth
+	mother = lineibo77 # Khundai Ibo
+
+	7043.5.23 = {
+		birth = yes
+	}
+	7131.4.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineudo74 = {
+	name = Bondin
+	dynasty = dynasty_udo
+	religion = faith_nurniag
+	culture = nurniag
+	father = lineikhon73 # Akvoth
+	#mother = 
+
+	7061.4.2 = {
+		birth = yes
+	}
+	7150.1.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineudo75 = {
+	name = Karm
+	dynasty = dynasty_udo
+	religion = faith_nurniag
+	culture = nurniag
+	father = lineikhon74 # Bondin
+	#mother = 
+
+	7090.9.27 = {
+		birth = yes
+	}
+	7169.4.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineudo76 = {
+	name = Akvoth
+	dynasty = dynasty_udo
+	religion = faith_nurniag
+	culture = nurniag
+	father = lineikhon75 # Karm
+	#mother = 
+
+	7130.4.12 = {
+		birth = yes
+	}
+	7200.7.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+###############
 ### Nurnoth ###
 ###############
 
