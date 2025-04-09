@@ -463,6 +463,10 @@
 		religion = faith_balrog_cult
 		holding = dwarven_holding
 	}
+	#fiction
+	7052.5.1 = {
+		religion = faith_deep_cult
+	}
 }
 
 ##	Athkushmur (c_athkushmur)
@@ -559,6 +563,10 @@
 		religion = faith_balrog_cult
 		holding = dwarven_holding
 	}
+	#fiction
+	7052.5.1 = {
+		religion = faith_deep_cult
+	}
 }
 
 ##	Dufhumul Agâr (c_dufhumul_agar)
@@ -625,6 +633,10 @@
 		culture = bellbreaker_goblin
 		religion = faith_balrog_cult
 		holding = dwarven_holding
+	}
+	#fiction
+	7052.5.1 = {
+		religion = faith_deep_cult
 	}
 }
 
@@ -719,6 +731,10 @@
 		culture = gloomdrinker_goblin
 		religion = faith_balrog_cult
 		holding = dwarven_holding
+	}
+	#fiction
+	7052.5.1 = {
+		religion = faith_deep_cult
 	}
 }
 
@@ -852,6 +868,10 @@
 		religion = faith_balrog_cult
 		holding = dwarven_holding
 	}
+	#fiction
+	7052.5.1 = {
+		religion = faith_deep_cult
+	}
 }
 
 ##	Falnâ um (c_falna_um)
@@ -887,6 +907,10 @@
 		culture = gloomdrinker_goblin
 		religion = faith_balrog_cult
 		holding = dwarven_holding
+	}
+	#fiction
+	7052.5.1 = {
+		religion = faith_deep_cult
 	}
 }
 
