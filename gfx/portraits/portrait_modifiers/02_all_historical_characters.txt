@@ -3699,8 +3699,6 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				exists = character:lineofthelorVI
 				this = character:lineofthelorVI
 			}
-		}
-	}
 			# Add other incarnations once added to history!
 		}
 	}
