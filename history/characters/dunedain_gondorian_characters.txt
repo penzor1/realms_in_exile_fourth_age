@@ -14793,6 +14793,148 @@ lebennin31 = {
 	}
 }	
 
+# Generated this ruler and below, correct later
+
+lebennin32 = {
+    name = Vingidur
+
+    dynasty = dynasty_lebennin
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7081.9.2 = {
+        birth = yes
+    }
+
+    7105.8.7 = {
+        add_spouse = lebennin33
+    }
+
+    7159.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lebennin33 = {
+    name = Baraniel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7088.3.13 = {
+        birth = yes
+    }
+
+    7164.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lebennin34 = {
+    name = Turendil
+
+    dynasty = dynasty_lebennin
+    religion = faith_edain
+    culture = gondorian
+
+    father = lebennin32
+    mother = lebennin33
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7139.5.26 = {
+        birth = yes
+    }
+
+    7175.1.12 = {
+        add_spouse = lebennin35
+    }
+
+    7228.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lebennin35 = {
+    name = Finduilas
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7140.9.18 = {
+        birth = yes
+    }
+
+    7217.3.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lebennin36 = {
+    name = Meneldur
+
+    dynasty = dynasty_lebennin
+    religion = faith_edain
+    culture = gondorian
+
+    father = lebennin34
+    mother = lebennin35
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7180.6.16 = {
+        birth = yes
+    }
+
+    7224.10.7 = {
+        add_spouse = lebennin37
+    }
+
+    7259.8.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lebennin37 = {
+    name = Emelisse
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7183.1.15 = {
+        birth = yes
+    }
+
+    7256.6.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+
+
 ##################################
 ##### The Lords of Lossarnach ####
 ##################################
@@ -15672,6 +15814,28 @@ lossarnach29 = {
 			learn_language = language_sindarin	
 		}			
 	}
+    7043.1.1 = {
+		add_spouse = lossarnach29wife			
+	}
+	7113.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+lossarnach29wife = {
+	name = Palurien
+
+	religion = faith_edain
+	culture = gondorian
+
+	trait = blood_of_numenor_1
+	7006.1.1 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
 
 	7113.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -15844,12 +16008,16 @@ lossarnach35 = {
 	}
 }	
 
+# Generated this ruler and below, correct later
+
 lossarnach36 = {
     name = Halboron
 
     dynasty = dynasty_lossarnach
     religion = faith_edain
     culture = gondorian
+
+    father = lossarnach29
 
     sexuality = heterosexual
 
@@ -21649,6 +21817,8 @@ lineminadir23 = {
 	}
 }	
 
+# Generated this ruler and below, correct later
+
 lineminadir25 = {
     name = Ortollote
 
@@ -25695,11 +25865,34 @@ lineyrchdaugnir11 = {
 		effect = {
 			learn_language = language_sindarin	
 		}			
+    7040.1.1 = {
+		add_spouse = lineyrchdaugnir11wife				
+	}
 	}
 	7134.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
-}	
+}
+
+lineyrchdaugnir11wife = {
+	name = Veaniel
+
+	religion = faith_edain
+	culture = gondorian
+
+	female = yes
+
+	trait = blood_of_numenor_1
+	7012.5.3 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
+	7132.6.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
 
 lineyrchdaugnir12 = {
 	name = Vingintur 
@@ -25819,12 +26012,18 @@ lineyrchdaugnir16 = {
     religion = faith_edain
     culture = gondorian
 
+    father = lineyrchdaugnir11
+    mother = lineyrchdaugnir11wife
+
     sexuality = heterosexual
 
     trait = blood_of_numenor_1
 
     7081.2.27 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
     }
 
     7102.11.23 = {
@@ -25849,6 +26048,9 @@ lineyrchdaugnir17 = {
 
     7085.5.25 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
     }
 
     7178.7.6 = {
@@ -25872,6 +26074,9 @@ lineyrchdaugnir18 = {
 
     7106.11.23 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
     }
 
     7136.10.5 = {
@@ -25896,6 +26101,9 @@ lineyrchdaugnir19 = {
 
     7109.7.22 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
     }
 
     7185.4.17 = {
@@ -25919,6 +26127,9 @@ lineyrchdaugnir20 = {
 
     7156.4.22 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
     }
 
     7195.11.13 = {
@@ -25943,6 +26154,9 @@ lineyrchdaugnir21 = {
 
     7157.10.24 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
     }
 
     7250.9.18 = {
@@ -26640,6 +26854,164 @@ linelinnarion23 = {
 	}
 }	
 
+# Generated this ruler and below, correct later
+
+linelinnarion24 = {
+    name = Arantar
+
+    dynasty = dynasty_celosien
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7081.1.6 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7122.7.7 = {
+        add_spouse = linelinnarion25
+    }
+
+    7146.11.18 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+linelinnarion25 = {
+    name = Estelien
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7105.11.28 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7199.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linelinnarion26 = {
+    name = Anarion
+
+    dynasty = dynasty_celosien
+    religion = faith_edain
+    culture = gondorian
+
+    father = linelinnarion24
+    mother = linelinnarion25
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7141.4.7 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7162.11.18 = {
+        add_spouse = linelinnarion27
+    }
+
+    7246.9.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linelinnarion27 = {
+    name = Lindamel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7138.7.15 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7214.1.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linelinnarion28 = {
+    name = Baramir
+
+    dynasty = dynasty_celosien
+    religion = faith_edain
+    culture = gondorian
+
+    father = linelinnarion26
+    mother = linelinnarion27
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7178.6.25 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7211.7.17 = {
+        add_spouse = linelinnarion29
+    }
+
+    7272.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linelinnarion29 = {
+    name = Lorwend
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7175.4.1 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7261.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 ##################################
 ##### The Lords of Lebennivet ####
 ##################################
@@ -26997,8 +27369,31 @@ linearphenian11 = {
 			learn_language = language_sindarin	
 		}			
 	}
-
+    7067.1.1={
+		add_spouse = linearphenian11wife					
+	}
 	7090.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+linearphenian11wife = {
+	name = Araphant
+    female = yes
+
+	religion = faith_edain
+	culture = gondorian
+
+	trait = blood_of_numenor_1
+	
+	7047.5.7 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
+
+	7120.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
@@ -27579,6 +27974,167 @@ linearphenian30 = {
 	}
 }	
 
+# Generated this ruler and below, correct later
+
+linearphenian31 = {
+    name = Arassuil
+
+    dynasty = house_lebennivet
+    religion = faith_edain
+    culture = gondorian
+
+    father = linearphenian11
+    mother = linearphenian11wife
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7081.6.11 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
+    }
+
+    7124.7.26 = {
+        add_spouse = linearphenian32
+    }
+
+    7191.10.27 = {
+        death = { death_reason = death_beaten }
+    }
+}
+
+linearphenian32 = {
+    name = Yavien
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7107.4.14 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
+    }
+
+    7188.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linearphenian33 = {
+    name = Tarciryan
+
+    dynasty = house_lebennivet
+    religion = faith_edain
+    culture = gondorian
+
+    father = linearphenian31
+    mother = linearphenian32
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7132.8.27 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
+    }
+
+    7183.3.17 = {
+        add_spouse = linearphenian34
+    }
+
+    7216.8.12 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+linearphenian34 = {
+    name = Malrunya
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7131.8.19 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
+    }
+
+    7219.6.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linearphenian35 = {
+    name = Atanaher
+
+    dynasty = house_lebennivet
+    religion = faith_edain
+    culture = gondorian
+
+    father = linearphenian33
+    mother = linearphenian34
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7186.1.21 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
+    }
+
+    7217.8.21 = {
+        add_spouse = linearphenian36
+    }
+
+    7286.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linearphenian36 = {
+    name = Beruthiel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7185.10.28 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}	
+    }
+
+    7269.12.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 ##############################
 ##### The Lords of Arnach ####
 ##############################
@@ -28074,10 +28630,37 @@ linecelebhatol17 = {
 		}			
 	}
 
+    7006.1.1 = {
+		add_spouse = linecelebhatol17wife				
+	}
+
 	7080.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
+
+linecelebhatol17wife = {
+	name = Saelind
+	female = yes
+	
+	religion = faith_edain
+	culture = gondorian
+
+	trait = beauty_good_2
+
+
+	trait = blood_of_numenor_1
+	6981.1.1 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
+
+	7082.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
 
 linecelebhatol18 = {
 	name = Belegorn 
@@ -28193,6 +28776,164 @@ linecelebhatol20 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
+
+# Generated this ruler and below, correct later
+
+linecelebhatol21 = {
+    name = Falandur
+
+    dynasty = dynasty_gilrain
+    religion = faith_edain
+    culture = gondorian
+
+    father = linecelebhatol17
+    mother = linecelebhatol17wife
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7081.5.14 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7103.4.20 = {
+        add_spouse = linecelebhatol22
+    }
+
+    7170.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linecelebhatol22 = {
+    name = Telenisse
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7086.7.10 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7181.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linecelebhatol23 = {
+    name = Edhelion
+
+    dynasty = dynasty_gilrain
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7081.5.14 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7103.4.20 = {
+        add_spouse = linecelebhatol22
+    }
+
+    7170.4.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linecelebhatol24 = {
+    name = Firiel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7086.7.10 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7181.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linecelebhatol25 = {
+    name = Belegorn
+
+    dynasty = dynasty_gilrain
+    religion = faith_edain
+    culture = gondorian
+
+    father = linecelebhatol21
+    mother = linecelebhatol22
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7137.6.21 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7157.6.25 = {
+        add_spouse = linecelebhatol24
+    }
+
+    7240.9.4 = {
+        death = { death_reason = death_training_accident  }
+    }
+}
+
+linecelebhatol26 = {
+    name = Eraniel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7136.8.22 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7241.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
 
 ################################
 ##### The Lords of Edhelion ####
