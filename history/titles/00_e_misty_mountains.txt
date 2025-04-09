@@ -577,7 +577,7 @@ c_durins_hall = {
 	#fiction
 	7052.5.1 = { #TA3019 # Bolgakh arrives after the Fellowship and death of Durin's Bain
 		holder = lineofazog16 # Bolgakh
-		change_development_level = 5
+		change_development_level = 3
 	}
 }
 
@@ -659,7 +659,7 @@ c_east_hall = {
 	#fiction
 	7052.5.1 = { #TA3019 # Bolgakh arrives after the Fellowship and death of Durin's Bain
 		holder = lineofazog16 # Bolgakh
-		change_development_level = 5
+		change_development_level = 3
 	}
 }
 
@@ -911,7 +911,7 @@ c_chamber_of_mazarbul = {
 	#fiction
 	7052.5.1 = { #TA3019 # Bolgakh arrives after the Fellowship and death of Durin's Bane
 		holder = lineofazog16 # Bolgakh
-		change_development_level = 5
+		change_development_level = 3
 	}
 	7150.1.1 = { # The county is lost to Troll-King Zagbug and his goblin subjects
 		holder = lineoftrollking1 # Zagbug
@@ -1091,7 +1091,7 @@ c_hall_of_a_thousand_pillars = {
 	#fiction
 	7052.5.1 = { #TA3019 # Bolgakh arrives after the Fellowship and death of Durin's Bain
 		holder = lineofazog16 # Bolgakh
-		change_development_level = 5
+		change_development_level = 3
 	}
 }
 
@@ -1170,11 +1170,10 @@ c_west_hall = {
 	#fiction
 	7052.5.1 = { #TA3019 # Bolgakh arrives in Moria after the fellowship and death of During's Bane
 		holder = linehallroamer2 # Bruka
-		liege = d_zirakzigil
-		government = feudal_government
 	}
 	7080.1.1 = {
 		holder = linehallroamer3 # Garg
+		change_development_level = 3
 	}
 }
 
@@ -1267,6 +1266,7 @@ c_central_halls = {
 	}
 	7080.1.1 = {
 		holder = linehallroamer3 # Garg
+		change_development_level = 3
 	}
 }
 
@@ -1449,6 +1449,7 @@ c_zirin_kuk = {
 	}
 	7080.1.1 = {
 		holder = linehallroamer3 # Garg
+		change_development_level = 3
 	}
 }
 
@@ -3969,6 +3970,20 @@ k_gundabad = {
 		#holder = lineofazog6
 		holder = 0
 	}
+	#fiction
+	7100.1.1 = { # Boldog Claims the Ulukai
+		holder = lineofazog14 # Boldog	
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_revive_gundabad
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_gundabad_ignite_the_forges
+			}
+		}
+	}
 }
 
 d_gundabad = {
@@ -4102,6 +4117,9 @@ d_gundabad = {
 		holder = lineofazog6
 	}
 	#fiction
+	7070.1.1 = { # First Longbeard Expedition to Gundabad
+		holder = lineofazog14 # Boldog
+	}
 	7174.1.1 = { # FO120 # LOTRO Durin's Expedition
 		holder = lineofdurinVII
 		liege = k_erebor
@@ -4166,9 +4184,8 @@ d_ulukai = { # "Ashdurbúk" of Cult of the Ulûkai
 		holder = 0
 	}
 	#fiction
-	7174.1.1 = { # FO120 # LOTRO Durin's Expedition # Boldog Claims the Ulukai
+	7100.1.1 = { # Boldog Claims the Ulukai
 		holder = lineofazog14 # Boldog
-		liege = k_gundabad
 	}
 }
 
@@ -4629,15 +4646,9 @@ c_ibdekh_buzru = {
 		liege = 0
     }
 	#fiction
-	7041.1.1 = {
-		holder = lineghrazbul1 # Drisnak
+	7061.1.1 = {
+		holder = lineofleegrash1 # Leegrash
 		liege = k_gundabad
-	}
-	7174.1.1 = { # FO120 # Boldog Claims the Ulukai
-		liege = d_ulukai
-	}
-	7180.2.3 = {
-		holder = lineghrazbul2 # Krusnak
 	}
 }
 
