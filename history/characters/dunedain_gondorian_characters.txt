@@ -15844,6 +15844,143 @@ lossarnach35 = {
 	}
 }	
 
+lossarnach36 = {
+    name = Halboron
+
+    dynasty = dynasty_lossarnach
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7081.5.1 = {
+        birth = yes
+    }
+
+    7131.4.2 = {
+        add_spouse = lossarnach37
+    }
+
+    7169.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lossarnach37 = {
+    name = Ivorwen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7114.4.12 = {
+        birth = yes
+    }
+
+    7196.1.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lossarnach38 = {
+    name = Emeryondo
+
+    dynasty = dynasty_lossarnach
+    religion = faith_edain
+    culture = gondorian
+
+    father = lossarnach36
+    mother = lossarnach37
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7134.8.25 = {
+        birth = yes
+    }
+
+    7156.11.5 = {
+        add_spouse = lossarnach39
+    }
+
+    7211.6.6 = {
+        death = { death_reason = death_great_pox }
+    }
+}
+
+lossarnach39 = {
+    name = Tindomiel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7133.2.11 = {
+        birth = yes
+    }
+
+    7235.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lossarnach40 = {
+    name = Olurin
+
+    dynasty = dynasty_lossarnach
+    religion = faith_edain
+    culture = gondorian
+
+    father = lossarnach38
+    mother = lossarnach39
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7177.4.25 = {
+        birth = yes
+    }
+
+    7232.2.14 = {
+        add_spouse = lossarnach41
+    }
+
+    7242.8.26 = {
+        death = { death_reason = death_crushed  }
+    }
+}
+
+lossarnach41 = {
+    name = Firien
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7177.10.27 = {
+        birth = yes
+    }
+
+    7264.7.24 = {
+        death = { death_reason = death_typhus }
+    }
+}
 
 ###########################
 ##### Lords of Lamedon ####
@@ -21512,6 +21649,144 @@ lineminadir23 = {
 	}
 }	
 
+lineminadir25 = {
+    name = Ortollote
+
+    dynasty = house_borondirionath
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7081.12.11 = {
+        birth = yes
+    }
+
+    7101.1.21 = {
+        add_spouse = lineminadir26
+    }
+
+    7173.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineminadir26 = {
+    name = Boromis
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7084.4.11 = {
+        birth = yes
+    }
+
+    7193.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineminadir27 = {
+    name = Falmandil
+
+    dynasty = house_borondirionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineminadir25
+    mother = lineminadir26
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7113.12.11 = {
+        birth = yes
+    }
+
+    7160.1.24 = {
+        add_spouse = lineminadir28
+    }
+
+    7190.2.16 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineminadir28 = {
+    name = Melyanna
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7111.2.7 = {
+        birth = yes
+    }
+
+    7194.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineminadir29 = {
+    name = Minadir
+
+    dynasty = house_borondirionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineminadir27
+    mother = lineminadir28
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7166.8.18 = {
+        birth = yes
+    }
+
+    7211.9.17 = {
+        add_spouse = lineminadir30
+    }
+
+    7258.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineminadir30 = {
+    name = Maewiel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7165.5.3 = {
+        birth = yes
+    }
+
+    7275.1.6 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
 ###################################
 #### The Lords of Gardhon Fuir ####
 ###################################
@@ -25536,6 +25811,144 @@ lineyrchdaugnir15 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
+
+lineyrchdaugnir16 = {
+    name = Aerennel
+
+    dynasty = dynasty_doranorien
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7081.2.27 = {
+        birth = yes
+    }
+
+    7102.11.23 = {
+        add_spouse = lineyrchdaugnir17
+    }
+
+    7174.6.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineyrchdaugnir17 = {
+    name = Aranwinga
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7085.5.25 = {
+        birth = yes
+    }
+
+    7178.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineyrchdaugnir18 = {
+    name = Alcarnir
+
+    dynasty = dynasty_doranorien
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineyrchdaugnir16
+    mother = lineyrchdaugnir17
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7106.11.23 = {
+        birth = yes
+    }
+
+    7136.10.5 = {
+        add_spouse = lineyrchdaugnir19
+    }
+
+    7189.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineyrchdaugnir19 = {
+    name = Parawen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7109.7.22 = {
+        birth = yes
+    }
+
+    7185.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineyrchdaugnir20 = {
+    name = Salmandil
+
+    dynasty = dynasty_doranorien
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineyrchdaugnir18
+    mother = lineyrchdaugnir19
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7156.4.22 = {
+        birth = yes
+    }
+
+    7195.11.13 = {
+        add_spouse = lineyrchdaugnir21
+    }
+
+    7242.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineyrchdaugnir21 = {
+    name = Nildawen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7157.10.24 = {
+        birth = yes
+    }
+
+    7250.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
 
 #################################
 ##### The Lords of Gilrain	 ####

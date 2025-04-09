@@ -1179,6 +1179,17 @@ d_doranorien = { # Doranórien
 	7033.1.1 = {		
 		holder = lineyrchdaugnir8 # Istion 
 	}
+    7081.2.27 = {
+        holder = lineyrchdaugnir16 #Aerennel
+        liege = e_reunitedkingdom
+    }
+    7174.6.5 = {
+        holder = lineyrchdaugnir18 #Alcarnir
+    }
+    7189.3.27 = {
+        holder = lineyrchdaugnir20 #Salmandil
+    }
+
 }	
 c_aranelaith = { #Arenelaith	
 	6745.1.1 = {
@@ -1207,6 +1218,16 @@ c_aranelaith = { #Arenelaith
 	7033.1.1 = {		
 		holder = lineyrchdaugnir8 # Istion 
 	}
+    7081.2.27 = {
+        holder = lineyrchdaugnir16 #Aerennel
+        liege = e_reunitedkingdom
+    }
+    7174.6.5 = {
+        holder = lineyrchdaugnir18 #Alcarnir
+    }
+    7189.3.27 = {
+        holder = lineyrchdaugnir20 #Salmandil
+    }
 }	
 c_elena = { #Elena
 	6660.1.1 = {
@@ -1279,6 +1300,16 @@ c_herenyand = { #Herenyand
 	7033.1.1 = {		
 		holder = lineyrchdaugnir8 # Istion 
 	}
+    7081.2.27 = {
+        holder = lineyrchdaugnir16 #Aerennel
+        liege = e_reunitedkingdom
+    }
+    7174.6.5 = {
+        holder = lineyrchdaugnir18 #Alcarnir
+    }
+    7189.3.27 = {
+        holder = lineyrchdaugnir20 #Salmandil
+    }
 }	
 
 ## Duchy of Entyn-i-Onodlo ##		
@@ -1330,6 +1361,17 @@ d_entyn_i_onodlo = { # Entyn-i-Onodlo
 	7070.1.1 = {		
 		holder = lineminadir15 # Ondoher 
 	}
+    7081.12.11 = {
+        holder = lineminadir25 #Ortollote
+		liege = e_reunitedkingdom
+    }
+    7173.11.20 = {
+        holder = lineminadir27 #Falmandil
+    }
+    7190.2.16 = {
+        holder = lineminadir29 #Minadir
+    }
+
 }
 c_dunmardo = { #Dummardh
 	6660.1.1 = {
@@ -1367,6 +1409,17 @@ c_dunmardo = { #Dummardh
 	7070.1.1 = {		
 		holder = lineminadir15 # Ondoher 
 	}
+    7081.12.11 = {
+        holder = lineminadir25 #Ortollote
+		liege = e_reunitedkingdom
+    }
+    7173.11.20 = {
+        holder = lineminadir27 #Falmandil
+    }
+    7190.2.16 = {
+        holder = lineminadir29 #Minadir
+    }
+
 }	
 c_astirian = { #Astirian
 	6543.4.15 = {
@@ -1413,6 +1466,16 @@ c_astirian = { #Astirian
 	7070.1.1 = {		
 		holder = lineminadir15 # Ondoher 
 	}
+	7081.12.11 = {
+        holder = lineminadir25 #Ortollote
+		liege = e_reunitedkingdom
+    }
+    7173.11.20 = {
+        holder = lineminadir27 #Falmandil
+    }
+    7190.2.16 = {
+        holder = lineminadir29 #Minadir
+    }
 }	
 c_nardol = { #Nardol
 	6660.1.1 = {
@@ -1462,6 +1525,16 @@ c_nardol = { #Nardol
 	7070.1.1 = {		
 		holder = lineminadir15 # Ondoher 
 	}
+	7081.12.11 = {
+        holder = lineminadir25 #Ortollote
+		liege = e_reunitedkingdom
+    }
+    7173.11.20 = {
+        holder = lineminadir27 #Falmandil
+    }
+    7190.2.16 = {
+        holder = lineminadir29 #Minadir
+    }
 }
 
 ## Duchy of Gardhon Fuir ##
@@ -1894,6 +1967,16 @@ d_lossarnach = { # Lossarnach
 	7005.1.1 = {
 		holder = lossarnach28 # Forlong III, the Fat 
 	}
+	7081.5.1 = {
+        holder = lossarnach36 #Halboron
+        liege = e_reunitedkingdom
+    }
+    7169.10.27 = {
+        holder = lossarnach38 #Emeryondo
+    }
+    7211.6.6 = {
+        holder = lossarnach40 #Olurin
+    }
 }	
 c_arthor = { #Arthor
 	5973.1.1 = {
@@ -1983,6 +2066,16 @@ c_arthor = { #Arthor
 	7005.1.1 = {
 		holder = lossarnach28 # Forlong III, the Fat 
 	}
+	7081.5.1 = {
+        holder = lossarnach36 #Halboron
+        liege = e_reunitedkingdom
+    }
+    7169.10.27 = {
+        holder = lossarnach38 #Emeryondo
+    }
+    7211.6.6 = {
+        holder = lossarnach40 #Olurin
+    }
 }	
 c_celerdain = { #Celerdain
 	6054.1.1 = {
@@ -2067,6 +2160,16 @@ c_celerdain = { #Celerdain
 	7005.1.1 = {
 		holder = lossarnach28 # Forlong III, the Fat 
 	}
+	7081.5.1 = {
+        holder = lossarnach36 #Halboron
+        liege = e_reunitedkingdom
+    }
+    7169.10.27 = {
+        holder = lossarnach38 #Emeryondo
+    }
+    7211.6.6 = {
+        holder = lossarnach40 #Olurin
+    }
 }
 b_beleganor = {
 	6931.1.1 = {
@@ -2163,6 +2266,16 @@ c_telumendil = { #Telumendil
 	7005.1.1 = {
 		holder = lossarnach28 # Forlong III, the Fat 
 	}
+	7081.5.1 = {
+        holder = lossarnach36 #Halboron
+        liege = e_reunitedkingdom
+    }
+    7169.10.27 = {
+        holder = lossarnach38 #Emeryondo
+    }
+    7211.6.6 = {
+        holder = lossarnach40 #Olurin
+    }
 }	
 
 ## Duchy of the Drúadan Forest ##		
@@ -5752,6 +5865,7 @@ c_tyliand = { #Tyliand
     }
     7139.10.15 = {
         holder = lineofulrad79 #Gaeraglar
+		liege = e_reunitedkingdom
     }
 }				
 c_eregost = { #Eregost
@@ -5868,6 +5982,7 @@ c_eregost = { #Eregost
     }
     7152.11.25 = {
         holder = lineofsaeros73 #Tiliondur
+		liege = e_reunitedkingdom
     }
     7205.2.16 = {
         holder = lineofsaeros75 #Gundor
@@ -5989,6 +6104,7 @@ c_dudhrandur = { #Dudhrandur
     }
     7124.3.18 = {
         holder = lineofegalmoth76 #Silmardur
+		liege = e_reunitedkingdom
     }
     7201.12.15 = {
         holder = lineofegalmoth80 #Malvegil
@@ -6166,6 +6282,7 @@ c_tarnost = { #Tarnost
     }
     7171.12.18 = {
         holder = lineofedalote78 #Elatan
+		liege = e_reunitedkingdom
     }	
 }	
 c_anghabar = { #Anghabar
@@ -8023,6 +8140,7 @@ c_emyn_morthond = { # Emyn Morthond
     }
     7129.3.3 = {
         holder = lineofulmondur75 #Mallor
+		liege = e_reunitedkingdom
     }	
 }	
 c_rendul = { #Rendûl
@@ -8501,7 +8619,8 @@ c_iantras = { #Iantras
     }
     7152.2.18 = {
         holder = lineofmanwedur76 #Enthor
-    }
+		liege = e_reunitedkingdom
+    }	
 }	
 
 ## Duchy of Edhellond ##
