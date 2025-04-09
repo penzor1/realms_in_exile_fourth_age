@@ -4158,6 +4158,99 @@ c_bilakh_anut = {
 		change_development_level = -100
 		government = wastelands_government
 	}
+    2853.12.15 = {
+        holder = lineofmetalheart1 #Thornur
+		change_development_level = 5
+		government = feudal_government
+    }
+    3051.9.4 = {
+        holder = lineofmetalheart3 #Regi
+    }
+    3317.9.12 = {
+        holder = lineofmetalheart5 #Nucumna
+    }
+    3379.9.23 = {
+        holder = lineofmetalheart7 #Cirion
+    }
+    3650.9.8 = {
+        holder = lineofmetalheart9 #H_uni
+    }
+    3818.2.5 = {
+        holder = lineofmetalheart11 #Elured
+    }
+    3983.2.23 = {
+        holder = lineofmetalheart13 #Valandur
+    }
+    4063.3.20 = {
+        holder = lineofmetalheart15 #Ginni
+    }
+    4194.8.22 = {
+        holder = lineofmetalheart17 #Ardamin
+    }
+    4400.8.15 = {
+        holder = lineofmetalheart19 #Suththrasir
+    }
+    4391.6.3 = {
+        holder = lineofmetalheart21 #Borondir
+    }
+    4555.4.26 = {
+        holder = lineofmetalheart23 #Steinmundur
+    }
+    4728.4.11 = {
+        holder = lineofmetalheart25 #Patti
+    }
+    4930.4.15 = {
+        holder = lineofmetalheart27 #Jallgr_imur
+    }
+    4967.3.6 = {
+        holder = lineofmetalheart29 #Jarskjald
+    }
+    5125.3.7 = {
+        holder = lineofmetalheart31 #Regin
+    }
+    5231.5.18 = {
+        holder = lineofmetalheart33 #Aurgurminir
+    }
+    5494.10.17 = {
+        holder = lineofmetalheart35 #Bjarngr_imur
+    }
+    5680.10.22 = {
+        holder = lineofmetalheart37 #Aritur
+    }
+    5744.2.17 = {
+        holder = lineofmetalheart39 #Saksi
+    }
+    5886.11.15 = {
+        holder = lineofmetalheart41 #Nithin
+    }
+    5996.5.19 = {
+        holder = lineofmetalheart43 #Nildondur
+    }
+    6136.9.27 = {
+        holder = lineofmetalheart45 #Bergleivur
+    }
+    6317.4.3 = {
+        holder = lineofmetalheart47 #Villi
+    }
+    6392.7.1 = {
+        holder = lineofmetalheart49 #Fr_ithur
+    }
+    6545.7.12 = {
+        holder = lineofmetalheart51 #Motsognir
+    }
+    6737.10.17 = {
+        holder = lineofmetalheart53 #Aranuir
+    }
+    6953.1.23 = {
+        holder = lineofmetalheart55 #Amandil
+    }
+    7044.10.16 = {
+        holder = lineofmetalheart58 #Heimurin
+    }
+    7115.9.10 = {
+        holder = lineofmetalheart60 #Bombskjald
+    }
+
 }
 c_aflutab = {
 	2008.1.1 = { # 

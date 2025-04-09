@@ -1,0 +1,7 @@
+c_bilakh_anut = {
+    2008.1.1 = { # Metalhearts settle
+		culture = firebeards
+		religion = faith_khazad
+		holding = dwarven_holding
+    }
+}

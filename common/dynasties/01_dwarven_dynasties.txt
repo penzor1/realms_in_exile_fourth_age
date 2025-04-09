@@ -31,3 +31,13 @@ dynasty_varya = {
 	culture = "ironfists"
 	motto = dynn_varya_motto
 }
+
+####################
+#### Firebeards ####
+####################
+
+dynasty_metalheart = {
+	name = "dynn_metalheart"
+	culture = "longbeards"
+	motto = dynn_metalheart_motto
+}

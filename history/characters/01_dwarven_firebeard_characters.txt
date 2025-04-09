@@ -1,0 +1,2207 @@
+lineofmetalheart1 = {
+    name = Benrin
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = bisexual
+
+    trait = impatient
+    trait = chaste
+    trait = cynical
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    2853.2.21 = {
+        birth = yes
+    }
+
+    2894.7.13 = {
+        add_spouse = lineofmetalheart2
+    }
+
+    3051.9.4 = {
+        death = { death_reason = death_duel }
+    }
+}
+
+lineofmetalheart2 = {
+    name = Elsuba
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = craven
+    trait = wrathful
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    2877.8.7 = {
+        birth = yes
+    }
+
+    3114.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart3 = {
+    name = Regi
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart1
+    mother = lineofmetalheart2
+
+    sexuality = heterosexual
+
+    trait = zealous
+    trait = gregarious
+    trait = lazy
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 3
+    intrigue = 8
+    learning = 3
+    prowess = 2
+
+    trait = education_intrigue_1
+
+    3035.10.18 = {
+        birth = yes
+    }
+
+    3201.9.21 = {
+        add_spouse = lineofmetalheart4
+    }
+
+    3317.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart4 = {
+    name = Rivil
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = deceitful
+    trait = lustful
+    trait = zealous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 3
+    intrigue = 3
+    learning = 5
+    prowess = 9
+
+    trait = education_diplomacy_2
+
+    3033.2.28 = {
+        birth = yes
+    }
+
+    3211.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart5 = {
+    name = Nucumna
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart3
+    mother = lineofmetalheart4
+
+    sexuality = asexual
+
+    trait = lustful
+    trait = diligent
+    trait = sadistic
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 2
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_2
+
+    3201.11.3 = {
+        birth = yes
+    }
+
+    3332.3.8 = {
+        add_spouse = lineofmetalheart6
+    }
+
+    3379.9.23 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofmetalheart6 = {
+    name = Elfriniel
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = deceitful
+    trait = arrogant
+    trait = just
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 1
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    3198.11.23 = {
+        birth = yes
+    }
+
+    3448.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart7 = {
+    name = Cirion
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart5
+    mother = lineofmetalheart6
+
+    sexuality = heterosexual
+
+    trait = impatient
+    trait = temperate
+    trait = content
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_learning_4
+
+    3349.5.9 = {
+        birth = yes
+    }
+
+    3455.10.21 = {
+        add_spouse = lineofmetalheart8
+    }
+
+    3650.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart8 = {
+    name = Elring
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = zealous
+    trait = fickle
+    trait = trusting
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 1
+    prowess = 8
+
+    trait = education_martial_3
+
+    3352.1.23 = {
+        birth = yes
+    }
+
+    3546.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart9 = {
+    name = H_uni
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart7
+    mother = lineofmetalheart8
+
+    sexuality = heterosexual
+
+    trait = calm
+    trait = deceitful
+    trait = greedy
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 7
+    intrigue = 11
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    3539.8.15 = {
+        birth = yes
+    }
+
+    3645.8.24 = {
+        add_spouse = lineofmetalheart10
+    }
+
+    3818.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart10 = {
+    name = Galadwen
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = gregarious
+    trait = paranoid
+    trait = just
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 6
+    intrigue = 4
+    learning = 4
+    prowess = 1
+
+    trait = education_diplomacy_4
+
+    3540.4.19 = {
+        birth = yes
+    }
+
+    3832.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart11 = {
+    name = Elured
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart9
+    mother = lineofmetalheart10
+
+    sexuality = heterosexual
+
+    trait = patient
+    trait = craven
+    trait = arbitrary
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 1
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    3673.7.21 = {
+        birth = yes
+    }
+
+    3777.7.19 = {
+        add_spouse = lineofmetalheart12
+    }
+
+    3983.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart12 = {
+    name = Idhril
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = trusting
+    trait = wrathful
+    trait = deceitful
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_4
+
+    3676.7.23 = {
+        birth = yes
+    }
+
+    3875.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart13 = {
+    name = Valandur
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart11
+    mother = lineofmetalheart12
+
+    sexuality = heterosexual
+
+    trait = cynical
+    trait = forgiving
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 5
+    intrigue = 6
+    learning = 1
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    3791.6.3 = {
+        birth = yes
+    }
+
+    3923.1.23 = {
+        add_spouse = lineofmetalheart14
+    }
+
+    4063.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart14 = {
+    name = L_ona
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = deceitful
+    trait = sadistic
+    trait = chaste
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    3794.3.5 = {
+        birth = yes
+    }
+
+    3999.8.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart15 = {
+    name = Ginni
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart13
+    mother = lineofmetalheart14
+
+    sexuality = heterosexual
+
+    trait = patient
+    trait = gregarious
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 2
+    stewardship = 5
+    intrigue = 8
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    3965.11.27 = {
+        birth = yes
+    }
+
+    4060.5.7 = {
+        add_spouse = lineofmetalheart16
+    }
+
+    4194.8.22 = {
+        death = { death_reason = death_horse_riding_accident  }
+    }
+}
+
+lineofmetalheart16 = {
+    name = Anglalaith
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = deceitful
+    trait = paranoid
+    trait = just
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 2
+    learning = 6
+    prowess = 3
+
+    trait = education_learning_2
+
+    3967.2.19 = {
+        birth = yes
+    }
+
+    4200.5.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart17 = {
+    name = Ardamin
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart15
+    mother = lineofmetalheart16
+
+    sexuality = heterosexual
+
+    trait = generous
+    trait = content
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    4120.3.2 = {
+        birth = yes
+    }
+
+    4272.7.8 = {
+        add_spouse = lineofmetalheart18
+    }
+
+    4400.8.15 = {
+        death = { death_reason = death_siege }
+    }
+}
+
+lineofmetalheart18 = {
+    name = Celwen
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = patient
+    trait = stubborn
+    trait = lazy
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 3
+    intrigue = 3
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    4120.6.10 = {
+        birth = yes
+    }
+
+    4306.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart19 = {
+    name = Suththrasir
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart17
+    mother = lineofmetalheart18
+
+    sexuality = heterosexual
+
+    trait = zealous
+    trait = fickle
+    trait = gluttonous
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 7
+    intrigue = 3
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    4286.1.20 = {
+        birth = yes
+    }
+
+    4340.2.25 = {
+        add_spouse = lineofmetalheart20
+    }
+
+    4391.6.3 = {
+        death = { death_reason = death_cloven_in_half }
+    }
+}
+
+lineofmetalheart20 = {
+    name = Billa
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = lustful
+    trait = brave
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    4284.11.20 = {
+        birth = yes
+    }
+
+    4544.12.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart21 = {
+    name = Borondir
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart19
+    mother = lineofmetalheart20
+
+    sexuality = heterosexual
+
+    trait = impatient
+    trait = fickle
+    trait = deceitful
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 2
+    intrigue = 6
+    learning = 2
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    4376.2.14 = {
+        birth = yes
+    }
+
+    4471.8.3 = {
+        add_spouse = lineofmetalheart22
+    }
+
+    4555.4.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart22 = {
+    name = Oiv_or
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = impatient
+    trait = chaste
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 1
+    stewardship = 4
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_diplomacy_4
+
+    4376.2.4 = {
+        birth = yes
+    }
+
+    4619.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart23 = {
+    name = Steinmundur
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart21
+    mother = lineofmetalheart22
+
+    sexuality = asexual
+
+    trait = sadistic
+    trait = humble
+    trait = diligent
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 3
+    prowess = 2
+
+    trait = education_martial_2
+
+    4535.1.18 = {
+        birth = yes
+    }
+
+    4683.5.24 = {
+        add_spouse = lineofmetalheart24
+    }
+
+    4728.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart24 = {
+    name = Lavaneth
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = arrogant
+    trait = lazy
+    trait = honest
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 4
+    intrigue = 2
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    4534.9.24 = {
+        birth = yes
+    }
+
+    4760.6.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart25 = {
+    name = Patti
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart23
+    mother = lineofmetalheart24
+
+    sexuality = heterosexual
+
+    trait = honest
+    trait = lazy
+    trait = trusting
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_4
+
+    4690.12.10 = {
+        birth = yes
+    }
+
+    4779.10.14 = {
+        add_spouse = lineofmetalheart26
+    }
+
+    4930.4.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart26 = {
+    name = Ailwing
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = bisexual
+
+    trait = gregarious
+    trait = honest
+    trait = patient
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 3
+    intrigue = 4
+    learning = 1
+    prowess = 3
+
+    trait = education_diplomacy_1
+
+    4692.12.16 = {
+        birth = yes
+    }
+
+    4789.1.6 = {
+        death = { death_reason = death_poison  }
+    }
+}
+
+lineofmetalheart27 = {
+    name = Jallgr_imur
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart25
+    mother = lineofmetalheart26
+
+    sexuality = heterosexual
+
+    trait = trusting
+    trait = sadistic
+    trait = humble
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_2
+
+    4783.1.24 = {
+        birth = yes
+    }
+
+    4918.10.21 = {
+        add_spouse = lineofmetalheart28
+    }
+
+    4967.3.6 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lineofmetalheart28 = {
+    name = Unanwen
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = callous
+    trait = arrogant
+    trait = wrathful
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 3
+    intrigue = 4
+    learning = 8
+    prowess = 2
+
+    trait = education_learning_2
+
+    4784.3.12 = {
+        birth = yes
+    }
+
+    5005.8.16 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lineofmetalheart29 = {
+    name = Jarskjald
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart27
+    mother = lineofmetalheart28
+
+    sexuality = homosexual
+
+    trait = calm
+    trait = lustful
+    trait = generous
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 1
+    intrigue = 3
+    learning = 3
+    prowess = 9
+
+    trait = education_martial_1
+
+    4924.5.26 = {
+        birth = yes
+    }
+
+    5025.1.12 = {
+        add_spouse = lineofmetalheart30
+    }
+
+    5125.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart30 = {
+    name = Jov_ina
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = patient
+    trait = craven
+    trait = callous
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 2
+    learning = 4
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    4927.6.11 = {
+        birth = yes
+    }
+
+    5192.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart31 = {
+    name = Regin
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart29
+    mother = lineofmetalheart30
+
+    sexuality = asexual
+
+    trait = wrathful
+    trait = cynical
+    trait = deceitful
+
+    diplomacy = 9
+    martial = 3
+    stewardship = 10
+    intrigue = 8
+    learning = 3
+    prowess = 8
+
+    trait = education_stewardship_4
+
+    5056.2.10 = {
+        birth = yes
+    }
+
+    5176.7.11 = {
+        add_spouse = lineofmetalheart32
+    }
+
+    5231.5.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart32 = {
+    name = J_usta
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = ambitious
+    trait = cynical
+    trait = sadistic
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_2
+
+    5058.4.26 = {
+        birth = yes
+    }
+
+    5317.10.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart33 = {
+    name = Aurgurminir
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart31
+    mother = lineofmetalheart32
+
+    sexuality = homosexual
+
+    trait = patient
+    trait = vengeful
+    trait = generous
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 9
+
+    trait = education_martial_3
+
+    5216.4.27 = {
+        birth = yes
+    }
+
+    5320.12.9 = {
+        add_spouse = lineofmetalheart34
+    }
+
+    5494.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart34 = {
+    name = �Astoreth
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = temperate
+    trait = lazy
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 3
+    stewardship = 1
+    intrigue = 5
+    learning = 2
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5218.1.1 = {
+        birth = yes
+    }
+
+    5505.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart35 = {
+    name = Bjarngr_imur
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart33
+    mother = lineofmetalheart34
+
+    sexuality = heterosexual
+
+    trait = trusting
+    trait = lazy
+    trait = forgiving
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    5371.6.17 = {
+        birth = yes
+    }
+
+    5439.7.16 = {
+        add_spouse = lineofmetalheart36
+    }
+
+    5680.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart36 = {
+    name = Miniel
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = just
+    trait = shy
+    trait = vengeful
+
+    diplomacy = 1
+    martial = 1
+    stewardship = 3
+    intrigue = 3
+    learning = 4
+    prowess = 4
+
+    trait = education_learning_2
+
+    5374.1.21 = {
+        birth = yes
+    }
+
+    5608.11.24 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lineofmetalheart37 = {
+    name = Aritur
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart35
+    mother = lineofmetalheart36
+
+    sexuality = heterosexual
+
+    trait = content
+    trait = honest
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 4
+    intrigue = 7
+    learning = 5
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    5557.8.17 = {
+        birth = yes
+    }
+
+    5656.9.28 = {
+        add_spouse = lineofmetalheart38
+    }
+
+    5744.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart38 = {
+    name = Jarnd_is
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = callous
+    trait = chaste
+    trait = wrathful
+
+    diplomacy = 1
+    martial = 3
+    stewardship = 6
+    intrigue = 9
+    learning = 10
+    prowess = 4
+
+    trait = education_learning_2
+
+    5559.12.23 = {
+        birth = yes
+    }
+
+    5737.3.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart39 = {
+    name = Saksi
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart37
+    mother = lineofmetalheart38
+
+    sexuality = heterosexual
+
+    trait = shy
+    trait = deceitful
+    trait = temperate
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    5663.2.28 = {
+        birth = yes
+    }
+
+    5707.12.6 = {
+        add_spouse = lineofmetalheart40
+    }
+
+    5886.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart40 = {
+    name = Hiraew
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = forgiving
+    trait = paranoid
+    trait = impatient
+
+    diplomacy = 7
+    martial = 4
+    stewardship = 3
+    intrigue = 2
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    5664.11.26 = {
+        birth = yes
+    }
+
+    5784.2.7 = {
+        death = { death_reason = death_dungeon  }
+    }
+}
+
+lineofmetalheart41 = {
+    name = Nithin
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart39
+    mother = lineofmetalheart40
+
+    sexuality = heterosexual
+
+    trait = diligent
+    trait = ambitious
+    trait = temperate
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_3
+
+    5750.2.19 = {
+        birth = yes
+    }
+
+    5812.2.18 = {
+        add_spouse = lineofmetalheart42
+    }
+
+    5996.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart42 = {
+    name = Moriel
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = impatient
+    trait = zealous
+    trait = callous
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 1
+    intrigue = 3
+    learning = 1
+    prowess = 6
+
+    trait = education_martial_4
+
+    5752.3.11 = {
+        birth = yes
+    }
+
+    6049.11.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart43 = {
+    name = Nildondur
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart41
+    mother = lineofmetalheart42
+
+    sexuality = heterosexual
+
+    trait = brave
+    trait = diligent
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 3
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    5879.7.21 = {
+        birth = yes
+    }
+
+    6000.2.19 = {
+        add_spouse = lineofmetalheart44
+    }
+
+    6136.9.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart44 = {
+    name = Nimphelos
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = just
+    trait = fickle
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    5876.1.5 = {
+        birth = yes
+    }
+
+    6051.7.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart45 = {
+    name = Bergleivur
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart43
+    mother = lineofmetalheart44
+
+    sexuality = heterosexual
+
+    trait = forgiving
+    trait = chaste
+    trait = lazy
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 3
+    intrigue = 3
+    learning = 4
+    prowess = 8
+
+    trait = education_martial_1
+
+    6040.9.13 = {
+        birth = yes
+    }
+
+    6145.12.18 = {
+        add_spouse = lineofmetalheart46
+    }
+
+    6317.4.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart46 = {
+    name = Fr_oia
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = chaste
+    trait = arrogant
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 3
+    intrigue = 4
+    learning = 4
+    prowess = 6
+
+    trait = education_martial_3
+
+    6037.10.1 = {
+        birth = yes
+    }
+
+    6257.6.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart47 = {
+    name = Villi
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart45
+    mother = lineofmetalheart46
+
+    sexuality = heterosexual
+
+    trait = generous
+    trait = chaste
+    trait = fickle
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    6151.5.28 = {
+        birth = yes
+    }
+
+    6295.5.2 = {
+        add_spouse = lineofmetalheart48
+    }
+
+    6392.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart48 = {
+    name = Caranel
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = chaste
+    trait = deceitful
+    trait = just
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 6
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    6154.11.3 = {
+        birth = yes
+    }
+
+    6450.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart49 = {
+    name = Fr_ithur
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart47
+    mother = lineofmetalheart48
+
+    sexuality = heterosexual
+
+    trait = lustful
+    trait = arrogant
+    trait = gregarious
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 6
+    intrigue = 7
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_1
+
+    6319.10.23 = {
+        birth = yes
+    }
+
+    6471.5.27 = {
+        add_spouse = lineofmetalheart50
+    }
+
+    6545.7.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart50 = {
+    name = Vigd_is
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = cynical
+    trait = greedy
+    trait = arrogant
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6316.11.18 = {
+        birth = yes
+    }
+
+    6560.12.15 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lineofmetalheart51 = {
+    name = Motsognir
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart49
+    mother = lineofmetalheart50
+
+    sexuality = heterosexual
+
+    trait = patient
+    trait = temperate
+    trait = lustful
+
+    diplomacy = 7
+    martial = 6
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 10
+
+    trait = education_diplomacy_3
+
+    6479.4.3 = {
+        birth = yes
+    }
+
+    6591.11.10 = {
+        add_spouse = lineofmetalheart52
+    }
+
+    6737.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart52 = {
+    name = Mar_i
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = gregarious
+    trait = greedy
+    trait = brave
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 4
+    intrigue = 3
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    6481.2.21 = {
+        birth = yes
+    }
+
+    6785.9.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart53 = {
+    name = Aranuir
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart51
+    mother = lineofmetalheart52
+
+    sexuality = heterosexual
+
+    trait = compassionate
+    trait = lazy
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 2
+    intrigue = 6
+    learning = 3
+    prowess = 1
+
+    trait = education_diplomacy_4
+
+    6651.8.24 = {
+        birth = yes
+    }
+
+    6769.7.8 = {
+        add_spouse = lineofmetalheart54
+    }
+
+    6953.1.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart54 = {
+    name = L_Uthien
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = arbitrary
+    trait = wrathful
+    trait = stubborn
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_diplomacy_1
+
+    6648.10.22 = {
+        birth = yes
+    }
+
+    6859.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart55 = {
+    name = Amandil
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart53
+    mother = lineofmetalheart54
+
+    sexuality = heterosexual
+
+    trait = arbitrary
+    trait = wrathful
+    trait = paranoid
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 1
+
+    trait = education_martial_1
+
+    6822.5.9 = {
+        birth = yes
+    }
+
+    6862.5.28 = {
+        add_spouse = lineofmetalheart56
+    }
+
+    7044.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart56 = {
+    name = Feiniel
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = paranoid
+    trait = patient
+    trait = greedy
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_1
+
+    6825.4.3 = {
+        birth = yes
+    }
+
+    7001.9.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart57 = {
+    name = Edenithil
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart55
+    mother = lineofmetalheart56
+
+    sexuality = heterosexual
+
+    trait = impatient
+    trait = craven
+    trait = deceitful
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_1
+
+    6921.11.8 = {
+        birth = yes
+    }
+
+    7094.12.9 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lineofmetalheart58 = {
+    name = Heimurin
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart55
+    mother = lineofmetalheart56
+
+    sexuality = asexual
+
+    trait = paranoid
+    trait = calm
+    trait = brave
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 4
+    intrigue = 4
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    6935.4.23 = {
+        birth = yes
+    }
+
+    6988.5.20 = {
+        add_spouse = lineofmetalheart59
+    }
+
+    7115.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart59 = {
+    name = Erla
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = forgiving
+    trait = lustful
+    trait = just
+
+    diplomacy = 8
+    martial = 4
+    stewardship = 1
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_diplomacy_2
+
+    6933.7.1 = {
+        birth = yes
+    }
+
+    7152.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart60 = {
+    name = Bombskjald
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart58
+    mother = lineofmetalheart59
+
+    sexuality = heterosexual
+
+    7069.11.17 = {
+        birth = yes
+    }
+
+    7125.5.1 = {
+        add_spouse = lineofmetalheart61
+    }
+
+    7328.10.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart61 = {
+    name = Morloth
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    7068.5.20 = {
+        birth = yes
+    }
+
+    7295.8.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart62 = {
+    name = Draupar
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart55
+    mother = lineofmetalheart56
+
+    sexuality = heterosexual
+
+    trait = calm
+    trait = compassionate
+    trait = gluttonous
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 7
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_stewardship_1
+
+    6938.12.12 = {
+        birth = yes
+    }
+
+    7084.11.7 = {
+        add_spouse = lineofmetalheart63
+    }
+
+    7245.2.22 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+lineofmetalheart63 = {
+    name = Miriel
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    trait = honest
+    trait = humble
+    trait = calm
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    6939.5.14 = {
+        birth = yes
+    }
+
+    7228.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart64 = {
+    name = Jarthrasir
+
+    dynasty = dynasty_metalheart
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart62
+    mother = lineofmetalheart63
+
+    sexuality = heterosexual
+
+    7103.10.4 = {
+        birth = yes
+    }
+
+    7153.7.24 = {
+        add_spouse = lineofmetalheart65
+    }
+
+    7316.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart65 = {
+    name = Sulimith
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    sexuality = heterosexual
+
+    7101.4.9 = {
+        birth = yes
+    }
+
+    7402.12.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmetalheart66 = {
+    name = Arnv_or
+    female = yes
+
+    religion = faith_khazad
+    culture = firebeards
+
+    father = lineofmetalheart62
+    mother = lineofmetalheart63
+
+    sexuality = heterosexual
+
+    7105.9.11 = {
+        birth = yes
+    }
+
+    7300.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
