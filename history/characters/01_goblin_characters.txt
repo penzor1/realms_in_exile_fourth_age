@@ -34,10 +34,12 @@ lineofleegrash1 = {
 	#dynasty = dynasty_leegrash
 	religion = cult_of_the_ulukai
 	culture = bonesnapper_goblin
-	#father = 
+	father = lineofbonesnapper1
 	#mother = 
 	
-	7060.12.13 = {
+	trait = dwarf
+	
+	7050.12.13 = {
 		birth = yes
 	}
 	7199.4.24 = {
@@ -55,6 +57,8 @@ lineofrugru = {
 	#mother = 
 	
 	trait = brave
+	trait = deceitful
+	trait = patient
 	
 	trait = disloyal
 	trait = diplomat
@@ -97,6 +101,10 @@ linehallroamer3 = {
 	father = linehallroamer2 # Bruka
 	mother = linehallroamer2wife # Luguin
 	
+	trait = zealous
+	trait = brave
+	trait = patient
+	
 	trait = giant
 	
 	7060.1.17 = {
@@ -125,7 +133,7 @@ linebellbreakerwife = {
 	7012.2.25 = {
 		birth = yes
 	}
-	7042.1.12 = {
+	7039.1.12 = {
 		add_spouse = linebellbreaker # Ulthug
 	}
 	7161.6.19 = {
@@ -141,7 +149,7 @@ linebellbreaker1 = {
 	father = linebellbreaker # Ulthug
 	mother = linebellbreakerwife # Aglush
 	
-	7042.10.15 = {
+	7040.10.15 = {
 		birth = yes
 	}
 	7174.1.1 = {
