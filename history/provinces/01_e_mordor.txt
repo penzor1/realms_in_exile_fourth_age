@@ -66,9 +66,6 @@
 		culture = gondorian
 		religion = faith_edain
 		holding = castle_holding
-		buildings = {
-			castle_03
-		}
 	}
 }
 
@@ -107,6 +104,12 @@
 			hill_forts_04
 		}
 	}
+	#fiction
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+		buildings = {
+			castle_01
+		}
+	}
 }
 
 612 = { #Narchost (b_narchost)
@@ -142,6 +145,12 @@
 		buildings = {
 			castle_04
 			hill_forts_04
+		}
+	}
+	#fiction
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+		buildings = {
+			castle_01
 		}
 	}
 }
@@ -212,7 +221,7 @@
 		religion = faith_nurn_good
 		holding = castle_holding
 		buildings = {
-			castle_03
+			castle_01
 		}
 	}
 }
@@ -319,7 +328,7 @@
 		religion = faith_edain
 		holding = castle_holding
 		buildings = {
-			castle_03
+			castle_01
 		}
 	}
 }
@@ -738,9 +747,6 @@
 		culture = nurnoth
 		religion = faith_nurn_good
 		holding = castle_holding
-		buildings = {
-			castle_03
-		}
 	}
 }
 
@@ -801,7 +807,7 @@
 			furnaces_02
 		}
 	}
-	#fiction
+	#canon
 	7052.3.25 = {
 		culture = wastelands
 		religion = faith_wastelands_pagan
@@ -809,6 +815,15 @@
 		buildings = {
 			wild_orcs
 			shadow_of_mordor
+		}
+	}
+	#fiction
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+		culture = gondorian
+		religion = faith_edain
+		holding = castle_holding
+		buildings = {
+			castle_01
 		}
 	}
 }
