@@ -1179,7 +1179,7 @@ d_doranorien = { # Doranórien
 	7033.1.1 = {		
 		holder = lineyrchdaugnir8 # Istion 
 	}
-	7052.1.1 = {		
+	7080.1.1 = {		
 		holder = lineyrchdaugnir11 # Talion
 	}
     7134.1.1 = {
@@ -1221,7 +1221,7 @@ c_aranelaith = { #Arenelaith
 	7033.1.1 = {		
 		holder = lineyrchdaugnir8 # Istion 
 	}
-	7052.1.1 = {		
+	7080.1.1 = {		
 		holder = lineyrchdaugnir11 # Talion
 	}
     7134.1.1 = {
@@ -1306,7 +1306,7 @@ c_herenyand = { #Herenyand
 	7033.1.1 = {		
 		holder = lineyrchdaugnir8 # Istion 
 	}
-	7052.1.1 = {		
+	7080.1.1 = {		
 		holder = lineyrchdaugnir11 # Talion
 	}
     7134.1.1 = {
@@ -4496,6 +4496,9 @@ d_lebennivet = { # Lebennivet
 	7030.1.1 = {		
 		holder = linearphenian10 # Alquatir 
 	}
+	7070.1.1 = {		
+		holder = linearphenian11 # Araphant 
+	}
 	7090.1.1 = {
         holder = linearphenian31 #Arassuil
         liege = e_reunitedkingdom
@@ -4555,6 +4558,9 @@ c_serni = { #Serni
 	}
 	7030.1.1 = {		
 		holder = linearphenian10 # Alquatir 
+	}
+	7070.1.1 = {		
+		holder = linearphenian11 # Araphant 
 	}
 	7090.1.1 = {
         holder = linearphenian31 #Arassuil
@@ -4665,11 +4671,14 @@ d_gilrain = { # Gilrain
 	7040.1.1 = {		
 		holder = linelinnarion15 # Gelmir 
 	}
-	7081.1.6 = { # Generated this ruler and below, correct later
-        holder = linelinnarion24 #Arantar
+	7092.1.1 = { 
+        holder = linelinnarion23 # Gwaihir
         liege = e_reunitedkingdom
     }
-    7146.11.18 = {
+	7154.1.1 = { 
+        holder = linelinnarion24 #Arantar
+    }
+    7177.11.18 = {
         holder = linelinnarion26 #Anarion
     }
     7246.9.19 = {
@@ -4721,11 +4730,14 @@ c_gilrain = { #Gilrain
 	7040.1.1 = {		
 		holder = linelinnarion15 # Gelmir 
 	}
-	7081.1.6 = {
-        holder = linelinnarion24 #Arantar
+	7092.1.1 = { 
+        holder = linelinnarion23 # Gwaihir
         liege = e_reunitedkingdom
     }
-    7146.11.18 = {
+	7154.1.1 = { 
+        holder = linelinnarion24 #Arantar
+    }
+    7177.11.18 = {
         holder = linelinnarion26 #Anarion
     }
     7246.9.19 = {
@@ -4799,11 +4811,14 @@ c_gilbin = { #Gilbin
 	7040.1.1 = {		
 		holder = linelinnarion15 # Gelmir 
 	}
-	7081.1.6 = {
-        holder = linelinnarion24 #Arantar
+	7092.1.1 = { 
+        holder = linelinnarion23 # Gwaihir
         liege = e_reunitedkingdom
     }
-    7146.11.18 = {
+	7154.1.1 = { 
+        holder = linelinnarion24 #Arantar
+    }
+    7177.11.18 = {
         holder = linelinnarion26 #Anarion
     }
     7246.9.19 = {
@@ -4858,14 +4873,14 @@ d_celosien = { # Celosien
 		holder = linecelebhatol17 # Belatar 
 	}
 	7080.1.1 = {
-        holder = linecelebhatol21 #Edhelion
+        holder = linecelebhatol21 # Falandur
         liege = e_reunitedkingdom
     }
-    7170.4.24 = {
-        holder = linecelebhatol23 #Belegorn
+    7120.4.24 = {
+        holder = linecelebhatol23 # Elegost
     }
-    7240.9.4 = {
-        holder = linecelebhatol25 #Dirhavel
+	7170.6.19 = {
+        holder = linecelebhatol25 # Belegorn
     }
 }		
 c_tumladen = { #Tumladen	
@@ -4894,16 +4909,16 @@ c_tumladen = { #Tumladen
 	}
 	7020.1.1 = {		
 		holder = linecelebhatol17 # Belatar 
-	}	
+	}
 	7080.1.1 = {
-        holder = linecelebhatol21 #Edhelion
+        holder = linecelebhatol21 # Falandur
         liege = e_reunitedkingdom
     }
-    7170.4.24 = {
-        holder = linecelebhatol23 #Belegorn
+    7120.4.24 = {
+        holder = linecelebhatol23 # Elegost
     }
-    7240.9.4 = {
-        holder = linecelebhatol25 #Dirhavel
+	7170.6.19 = {
+        holder = linecelebhatol25 # Belegorn
     }
 }	
 c_orchaldor = { #Orchaldor
@@ -4934,14 +4949,14 @@ c_orchaldor = { #Orchaldor
 		holder = linecelebhatol17 # Belatar 
 	}
 	7080.1.1 = {
-        holder = linecelebhatol21 #Edhelion
+        holder = linecelebhatol21 # Falandur
         liege = e_reunitedkingdom
     }
-    7170.4.24 = {
-        holder = linecelebhatol23 #Belegorn
+    7120.4.24 = {
+        holder = linecelebhatol23 # Elegost
     }
-    7240.9.4 = {
-        holder = linecelebhatol25 #Dirhavel
+	7170.6.19 = {
+        holder = linecelebhatol25 # Belegorn
     }
 }	 			
 c_enedhir = { #Enedhir
@@ -4972,14 +4987,14 @@ c_enedhir = { #Enedhir
 		holder = linecelebhatol17 # Belatar 
 	}
 	7080.1.1 = {
-        holder = linecelebhatol21 #Edhelion
+        holder = linecelebhatol21 # Falandur
         liege = e_reunitedkingdom
     }
-    7170.4.24 = {
-        holder = linecelebhatol23 #Belegorn
+    7120.4.24 = {
+        holder = linecelebhatol23 # Elegost
     }
-    7240.9.4 = {
-        holder = linecelebhatol25 #Dirhavel
+	7170.6.19 = {
+        holder = linecelebhatol25 # Belegorn
     }
 }
 c_caragost = { #Caragost	

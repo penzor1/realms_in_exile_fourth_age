@@ -14490,10 +14490,40 @@ lebennin20 = {
 		}			
 	}
 
+    7045.7.7 = {
+		add_spouse = lebennin20wife
+	}
+
 	7110.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
+
+lebennin20wife = {
+	name = Serinde 
+    female = yes
+
+	dynasty = dynasty_lebennin
+	religion = faith_edain
+	culture = gondorian
+
+	father = lebennin19
+	mother = lebennin25
+
+	trait = blood_of_numenor_1
+	trait = lifestyle_mariner
+
+	7006.4.2 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
+
+	7108.5.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
 
 lebennin21 = {
 	name = Belecthor 
@@ -14802,12 +14832,18 @@ lebennin32 = {
     religion = faith_edain
     culture = gondorian
 
+    father = lebennin20
+    mother = lebennin20wife
+
     sexuality = heterosexual
 
     trait = blood_of_numenor_1
 
     7081.9.2 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
     }
 
     7105.8.7 = {
@@ -14832,6 +14868,9 @@ lebennin33 = {
 
     7088.3.13 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
     }
 
     7164.6.8 = {
@@ -14855,6 +14894,9 @@ lebennin34 = {
 
     7139.5.26 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
     }
 
     7175.1.12 = {
@@ -14879,6 +14921,9 @@ lebennin35 = {
 
     7140.9.18 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
     }
 
     7217.3.13 = {
@@ -14902,6 +14947,9 @@ lebennin36 = {
 
     7180.6.16 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
     }
 
     7224.10.7 = {
@@ -14926,6 +14974,9 @@ lebennin37 = {
 
     7183.1.15 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
     }
 
     7256.6.12 = {
@@ -26854,6 +26905,26 @@ linelinnarion23 = {
 	}
 }	
 
+linelinnarion23wife = {
+	name = Morlime
+    female = yes
+
+	religion = faith_edain
+	culture = gondorian
+
+
+	trait = blood_of_numenor_1
+	7020.1.1 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
+	7124.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
 # Generated this ruler and below, correct later
 
 linelinnarion24 = {
@@ -26862,6 +26933,9 @@ linelinnarion24 = {
     dynasty = dynasty_celosien
     religion = faith_edain
     culture = gondorian
+
+    father = linelinnarion23
+    mother = linelinnarion23wife
 
     sexuality = heterosexual
 
@@ -26878,7 +26952,7 @@ linelinnarion24 = {
         add_spouse = linelinnarion25
     }
 
-    7146.11.18 = {
+    7177.11.18 = {
         death = { death_reason = death_horse_riding_accident  }
     }
 }
@@ -27979,7 +28053,7 @@ linearphenian30 = {
 linearphenian31 = {
     name = Arassuil
 
-    dynasty = house_lebennivet
+    dynasty_house = house_lebennivet
     religion = faith_edain
     culture = gondorian
 
@@ -28032,7 +28106,7 @@ linearphenian32 = {
 linearphenian33 = {
     name = Tarciryan
 
-    dynasty = house_lebennivet
+    dynasty_house = house_lebennivet
     religion = faith_edain
     culture = gondorian
 
@@ -28085,7 +28159,7 @@ linearphenian34 = {
 linearphenian35 = {
     name = Atanaher
 
-    dynasty = house_lebennivet
+    dynasty_house = house_lebennivet
     religion = faith_edain
     culture = gondorian
 
@@ -28793,18 +28867,18 @@ linecelebhatol21 = {
 
     trait = blood_of_numenor_1
 
-    7081.5.14 = {
+    7031.5.14 = {
         birth = yes
         effect = {
 			learn_language = language_sindarin	
 		}
     }
 
-    7103.4.20 = {
+    7053.4.20 = {
         add_spouse = linecelebhatol22
     }
 
-    7170.4.24 = {
+    7120.4.24 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -28820,24 +28894,27 @@ linecelebhatol22 = {
 
     trait = blood_of_numenor_1
 
-    7086.7.10 = {
+    7036.7.10 = {
         birth = yes
         effect = {
 			learn_language = language_sindarin	
 		}
     }
 
-    7181.9.1 = {
+    7131.9.1 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
 linecelebhatol23 = {
-    name = Edhelion
+    name = Elegost
 
     dynasty = dynasty_gilrain
     religion = faith_edain
     culture = gondorian
+
+    father = linecelebhatol17
+    mother = linecelebhatol17wife
 
     sexuality = heterosexual
 
@@ -28851,16 +28928,17 @@ linecelebhatol23 = {
     }
 
     7103.4.20 = {
-        add_spouse = linecelebhatol22
+        add_spouse = linecelebhatol24
     }
 
-    7170.4.24 = {
+    7170.6.19 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
 linecelebhatol24 = {
-    name = Firiel
+    name = Narniel
+    
     female = yes
 
     religion = faith_edain
@@ -28882,7 +28960,7 @@ linecelebhatol24 = {
     }
 }
 
-linecelebhatol25 = {
+linecelebhatol27 = {
     name = Belegorn
 
     dynasty = dynasty_gilrain
@@ -28904,7 +28982,7 @@ linecelebhatol25 = {
     }
 
     7157.6.25 = {
-        add_spouse = linecelebhatol24
+        add_spouse = linecelebhatol27
     }
 
     7240.9.4 = {
@@ -28912,7 +28990,7 @@ linecelebhatol25 = {
     }
 }
 
-linecelebhatol26 = {
+linecelebhatol28 = {
     name = Eraniel
     female = yes
 
