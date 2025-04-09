@@ -2480,10 +2480,11 @@ c_duath = {
 		change_development_level = 5
 	}											
 	#fiction
-	7052.3.25 = {
+	7052.1.1 = {
 		holder = lineofzaguf1
-		government = feudal_government
 		liege = 0
+		government = feudal_government
+		change_development_level = 3
 	}
 	7137.10.1 = {
 		holder = lineofzaguf2
@@ -2551,8 +2552,9 @@ c_maghak = {
 	}
 	7137.10.1 = {
 		holder = lineofzaguf3
-		government = feudal_government
 		liege = 0
+		government = feudal_government
+		change_development_level = 3
 	}
 							
 }
@@ -3192,6 +3194,7 @@ c_cirith_nargil = {
 	7052.3.25 = {
 		holder = lineofkidjunagim1 #Kidjun 'the Liberator'
 		government = oligarchy_government
+		change_development_level = 3
 	}
 	7068.6.20 = {
 		holder = lineofkidjunagim3 # Turah
@@ -3676,6 +3679,21 @@ c_ioriag = {
 		liege = k_nurn
 		government = clan_government
     }						
+	#fiction
+	7101.9.12 = {
+		holder = lineikhon15 # Yursal
+		liege = d_lithlad
+		change_development_level = 8
+	}
+	7124.11.28 = {
+		holder = lineikhon16 # Vedat
+	}
+	7149.6.19 = {
+		holder = lineikhon17 # Akhev
+	}
+	7169.1.11 = {
+		holder = lineikhon18 # Sakun
+	}
 }
 #Zarok							
 c_zarok = {							
@@ -3776,6 +3794,20 @@ c_zarok = {
 		liege = k_nurn
 		government = clan_government
     }						
+	#fiction
+	7101.9.12 = {
+		holder = lineikhon15 # Yursal
+		change_development_level = 6
+	}
+	7124.11.28 = {
+		holder = lineikhon16 # Vedat
+	}
+	7149.6.19 = {
+		holder = lineikhon17 # Akhev
+	}
+	7169.1.11 = {
+		holder = lineikhon18 # Sakun
+	}
 }
 
 ## Duchy of Lithlad							
@@ -3962,6 +3994,21 @@ c_amnash = {
     7057.8.3 = {
         holder = lineaketh34 
     }
+	#fiction
+	7101.9.12 = {
+		holder = lineikhon15 # Yursal
+		liege = d_lithlad
+		change_development_level = 5
+	}
+	7124.11.28 = {
+		holder = lineikhon16 # Vedat
+	}
+	7149.6.19 = {
+		holder = lineikhon17 # Akhev
+	}
+	7169.1.11 = {
+		holder = lineikhon18 # Sakun
+	}
 }
 #Sturlurza Nurn							
 c_sturlurza_nurn = {							
@@ -4430,6 +4477,16 @@ c_friyar = {
 	7033.1.1 = {							
 		liege = k_nurn
 	}						
+	#fiction
+	7052.1.1 = {
+		holder = lineofuglur1 # Uglur
+		government = tribal_government
+		change_development_level = 3
+		liege = 0
+	}
+	7110.5.2 = {
+		holder = lineofuglur2 # Gornag
+	}
 }
 #Uzha							
 c_uzha = {							
@@ -4501,4 +4558,19 @@ c_uzha = {
     7057.8.3 = {
         holder = lineaketh34 
     }											
+	#fiction
+	7101.9.12 = {
+		holder = lineikhon15 # Yursal
+		liege = d_lithlad
+		change_development_level = 6
+	}
+	7124.11.28 = {
+		holder = lineikhon16 # Vedat
+	}
+	7149.6.19 = {
+		holder = lineikhon17 # Akhev
+	}
+	7169.1.11 = {
+		holder = lineikhon18 # Sakun
+	}
 }
