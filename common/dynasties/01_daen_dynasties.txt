@@ -44,8 +44,14 @@ dynasty_mekud = {
 	motto = dynn_mekud_motto
 }
 
-dynasty_themion = {
-	name = "dynn_themion"
+dynasty_oran = {
+	name = "dynn_oran"
 	culture = "nurnoth"
-	motto = dynn_themion_motto
+	motto = dynn_oran_motto
+}
+
+dynasty_bondin = {
+	name = "dynn_bondin"
+	culture = "nurnoth"
+	motto = dynn_bondin_motto
 }
