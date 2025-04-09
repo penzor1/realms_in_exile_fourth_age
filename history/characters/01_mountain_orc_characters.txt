@@ -23,7 +23,6 @@ lineoftharzog2 = {
 
 lineoftharzog2wife = {
 	name = Gralug
-	dynasty = dynasty_tharzog
 	religion = way_of_strength
 	culture = worauthai_madur
 	#father = 
@@ -65,8 +64,8 @@ lineofazog14 = {
 	religion = cult_of_the_ulukai
 	culture = ghrazim
 
-	father = lineofazog6 #Gorgol
-	mother = lineofazog6wife
+	father = lineofazog6 # Gorgol
+	mother = lineofazog6wife # Bogag
 
 	diplomacy = 2
 	martial = 8
@@ -96,6 +95,14 @@ lineofazog14 = {
 			modifier = orc_challenge_win_modifier
 			years = 5
 		}
+		add_character_modifier = {
+			modifier = gundabad_rising_character_modifier
+			years = 5
+		}
+		add_character_modifier = {
+			modifier = gundabad_war_forges_character_modifier
+			years = 10
+		}
 		effect = {
 			house_feud_start_effect = {
 				# Feuding House Head
@@ -109,6 +116,7 @@ lineofazog14 = {
 				# House Member victim if relevant
 				VICTIM = character:lineofdurinVII # DurinVII
 			}
+			create_artifact_ulukai_effect = { OWNER = root }
 		}
 	}
 	7270.2.21 = {
@@ -698,7 +706,7 @@ linemorgmolwife = {
 	6991.4.20 = {
 		birth = yes
 	}
-	6991.4.20 = {
+	7000.6.1 = {
 		effect = {
 			set_relation_lover = {
 				target = character:linemorgmol
@@ -717,6 +725,10 @@ linemorgmol1 = {
 	culture = ghrazim
 	father = linemorgmol # Ognor
 	mother = linemorgmolwife # Shemat
+	
+	trait = wrathful
+	trait = impatient
+	trait = paranoid
 	
 	trait = education_martial_2
 	trait = overseer
@@ -754,7 +766,12 @@ lineghrazbul1 = {
 	
 	trait = impatient
 	trait = arrogant
+	trait = ambitious
 	
+	trait = education_intrigue_3
+
+	trait = irritable
+	trait = reckless
 	trait = beauty_bad_1
 	
 	6985.11.7 = {
