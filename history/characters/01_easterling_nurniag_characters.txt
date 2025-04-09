@@ -647,7 +647,7 @@ lineofvoko7 = {
 ### Line of Azen
 lineofazen1 = {
 	name = Azen
-	dynasty = dynasty_themion
+	dynasty = dynasty_oran
 	religion = faith_nurn_good
 	culture = nurnoth
 	#father = 
@@ -666,7 +666,7 @@ lineofazen1 = {
 
 lineofazen2 = {
 	name = S_a_l
-	dynasty = dynasty_themion
+	dynasty = dynasty_oran
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofazen1 # Azen
@@ -685,7 +685,7 @@ lineofazen2 = {
 
 lineofazen3 = {
 	name = D_a_ll_u_z
-	dynasty = dynasty_themion
+	dynasty = dynasty_oran
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofazen2 # Sal
@@ -704,7 +704,7 @@ lineofazen3 = {
 
 lineofazen4 = {
 	name = Azen
-	dynasty = dynasty_themion
+	dynasty = dynasty_oran
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofazen3 # Dalluz
@@ -723,7 +723,7 @@ lineofazen4 = {
 
 lineofazen5 = {
 	name = Kon
-	dynasty = dynasty_themion
+	dynasty = dynasty_oran
 	religion = faith_nurn_good
 	culture = nurnoth
 	father = lineofazen4 # Azen
@@ -743,7 +743,7 @@ lineofazen5 = {
 ### Line of Turennon
 lineofturennon1 = {
 	name = Turennon
-	#dynasty = dynasty_
+	dynasty = dynasty_bondin
 	religion = faith_nurn_good
 	culture = nurnoth
 	#father = 
