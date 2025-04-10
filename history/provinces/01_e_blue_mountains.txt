@@ -1026,6 +1026,7 @@
 			flooded_tunnels
 #			stale_air
 		}
+	}
 }
 
 ##	Sigibab (c_sigibab)
