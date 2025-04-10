@@ -11945,7 +11945,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				mode = add	
 				gene = headgear
 				template = uruk_war_headgear
-				accessory = male_headgear_uruk_isengard_2
+				accessory = male_headgear_uruk_isengard_1
 			}
 			morph = {
 				mode = add
@@ -12021,7 +12021,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 				mode = add	
 				gene = headgear
 				template = uruk_war_headgear
-				accessory = male_headgear_uruk_isengard_2
+				accessory = male_headgear_uruk_isengard_1
 			}
 			morph = {
 				mode = add
