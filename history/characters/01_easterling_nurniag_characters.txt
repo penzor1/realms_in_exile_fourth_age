@@ -132,6 +132,135 @@ lineudo76 = {
 	}
 }
 
+### Vrakhara Clan
+linevrakhara54 = {
+	name = Caior
+	dynasty_house = house_vrakhara
+	religion = faith_nurniag
+	culture = nurniag
+	father = linevrakhara53 # Yursal
+	mother = lineibo75 # Odaven Ibo
+
+	7039.2.6 = {
+		birth = yes
+	}
+	7061.7.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+linevrakhara55 = {
+	name = Nomid
+	dynasty_house = house_vrakhara
+	religion = faith_nurniag
+	culture = nurniag
+	father = linevrakhara54 # Caior
+	#mother = 
+
+	7059.10.20 = {
+		birth = yes
+	}
+	7120.6.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevrakhara56 = {
+	name = Mashak
+	dynasty_house = house_vrakhara
+	religion = faith_nurniag
+	culture = nurniag
+	father = linevrakhara55 # Nomid
+	#mother = 
+
+	7079.4.2 = {
+		birth = yes
+	}
+	7150.1.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevrakhara57 = {
+	name = Yursal
+	dynasty_house = house_vrakhara
+	religion = faith_nurniag
+	culture = nurniag
+	father = linevrakhara56 # Mashak
+	#mother = 
+
+	7100.9.3 = {
+		birth = yes
+	}
+	7175.2.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevrakhara58 = {
+	name = _Orag
+	dynasty_house = house_vrakhara
+	religion = faith_nurniag
+	culture = nurniag
+	father = linevrakhara57 # Yursal
+	#mother = 
+
+	7131.11.30 = {
+		birth = yes
+	}
+	7201.11.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Akheth Clan
+lineaketh35 = {
+	name = Sakun
+	dynasty_house = house_akheth
+	religion = faith_nurniag
+	culture = nurniag
+	father = lineaketh34 # Sakun
+	mother = lineikhon14 # Nounith Ihkon
+
+	7060.7.26 = {
+		birth = yes
+	}
+	7131.1.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineaketh36 = {
+	name = Yotaen
+	dynasty_house = house_akheth
+	religion = faith_nurniag
+	culture = nurniag
+	father = lineaketh35 # Sakun
+	#mother = 
+
+	7095.4.12 = {
+		birth = yes
+	}
+	7181.7.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineaketh37 = {
+	name = Akul
+	dynasty_house = house_akheth
+	religion = faith_nurniag
+	culture = nurniag
+	father = lineaketh36 # Yotaen
+	#mother = 
+
+	7131.4.6 = {
+		birth = yes
+	}
+	7201.12.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
 
 ###############
 ### Nurnoth ###
@@ -672,9 +801,6 @@ lineofazen2 = {
 	father = lineofazen1 # Azen
 	#mother = 
 	
-	trait = brave
-	trait = peasant_leader
-	
 	7056.5.1 = {
 		birth = yes
 	}
@@ -690,9 +816,6 @@ lineofazen3 = {
 	culture = nurnoth
 	father = lineofazen2 # Sal
 	#mother = 
-	
-	trait = brave
-	trait = peasant_leader
 	
 	7088.4.29 = {
 		birth = yes
@@ -710,9 +833,6 @@ lineofazen4 = {
 	father = lineofazen3 # Dalluz
 	#mother = 
 	
-	trait = brave
-	trait = peasant_leader
-	
 	7114.7.6 = {
 		birth = yes
 	}
@@ -728,9 +848,6 @@ lineofazen5 = {
 	culture = nurnoth
 	father = lineofazen4 # Azen
 	#mother = 
-	
-	trait = brave
-	trait = peasant_leader
 	
 	7150.1.27 = {
 		birth = yes
@@ -753,6 +870,90 @@ lineofturennon1 = {
 		birth = yes
 	}
 	7225.4.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### Line of Aduz
+lineofaduz1 = {
+	name = Ad_u_z
+	dynasty = dynasty_ruinond
+	religion = faith_nurn_good
+	culture = nurnoth
+	#father = 
+	#mother = 
+	
+	trait = brave
+	trait = peasant_leader
+	
+	7036.7.15 = {
+		birth = yes
+	}
+	7101.9.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofaduz2 = {
+	name = Krennon
+	dynasty = dynasty_ruinond
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofaduz1 # Aduz
+	#mother = 
+	
+	7061.1.21 = {
+		birth = yes
+	}
+	7142.6.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofaduz3 = {
+	name = Edor
+	dynasty = dynasty_ruinond
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofaduz2 # Krennon
+	#mother = 
+	
+	7089.12.2 = {
+		birth = yes
+	}
+	7169.2.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofaduz4 = {
+	name = Omun
+	dynasty = dynasty_ruinond
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofaduz3 # Edor
+	#mother = 
+	
+	7111.8.16 = {
+		birth = yes
+	}
+	7176.3.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofaduz5 = {
+	name = Krennon
+	dynasty = dynasty_ruinond
+	religion = faith_nurn_good
+	culture = nurnoth
+	father = lineofaduz4 # aduz
+	#mother = 
+	
+	7148.11.7 = {
+		birth = yes
+	}
+	7230.5.25 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
