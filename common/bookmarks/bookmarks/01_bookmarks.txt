@@ -433,23 +433,50 @@ bm_120_fourth_age_03 = {
 	# add harondor
 	# add legolas?
 	
-#	# Nurn
-#	character = {
-#		name = "bookmark_fa_03_nurn"
-#		dynasty_house = house_telcontar
-#		dynasty_splendor_level = 10
-#		type = male
-#		birth = 7139.1.1
-#		title = k_nurn
-#		government = clan_government
-#		religion = faith_ivannic
-#		culture = nurnoth
-#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-#		history_id = lineisildur49
-#		position = { 900 400 }
-#		animation = personality_honorable
-#	}
-	
+	# Kidjun, Sons of Liberty
+	character = {
+		name = "bookmark_fa_03_kidjun"
+		dynasty = dynasty_kidjunagim
+		dynasty_splendor_level = 10
+		type = male
+		birth = 7106.9.30
+		title = k_nurn
+		government = clan_government
+		religion = faith_nurn_good
+		culture = nurnoth
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = lineofkidjunagim5
+		position = { 900 400 }
+		animation = personality_honorable
+		# Kan,
+		character = {
+			name = "bookmark_fa_03_kan"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = dynasty_kidjunagim
+			type = female
+			birth = 7137.1.30
+			title = k_nurn
+			government = clan_government
+			religion = faith_nurn_good
+			culture = nurnoth
+			history_id = lineofkidjunagim6
+		}
+		# Marwen,
+		character = {
+			name = "bookmark_fa_03_marwen"
+			relation = "BOOKMARK_RELATION_DAUGHTER"
+			dynasty = dynasty_kidjunagim
+			type = female
+			birth = 7140.11.16
+			title = k_nurn
+			government = clan_government
+			religion = faith_nurn_good
+			culture = nurnoth
+			history_id = lineofkidjunagim7
+		}
+	}
+		
+	# add nurn orc
 #	# Harad
 #	character = {
 #		name = "bookmark_fa_03_harad"
@@ -466,8 +493,7 @@ bm_120_fourth_age_03 = {
 #		position = { 900 800 }
 #		animation = personality_honorable
 #	}
-	
-	# add nurn orc
+
 	# add chelkar
 	
 #	# Nurniag
