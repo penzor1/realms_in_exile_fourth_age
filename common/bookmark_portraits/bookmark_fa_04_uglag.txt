@@ -2,7 +2,7 @@
 # History database id:lineofyagmuz3
 bookmark_fa_04_uglag={
 	type=male
-	id=34452
+	id=34539
 	random_seed=2532697012
 	age=0.680000
 	genes={ 		hair_color={ 6 249 0 255 }
@@ -97,7 +97,7 @@ bookmark_fa_04_uglag={
  		expression_other={ "cheek_wrinkles_both_01" 255 "cheek_wrinkles_both_01" 227 }
  		complexion={ "complexion_no_face" 255 "complexion_no_face" 255 }
  		gene_height={ "giant_height" 238 "giant_height" 249 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 143 "body_fat_head_fat_full" 192 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 162 "body_fat_head_fat_full" 192 }
  		gene_bs_body_shape={ "body_shape_hourglass_full" 255 "body_shape_hourglass_full" 251 }
  		gene_bs_bust={ "bust_clothes" 52 "bust_default" 164 }
  		gene_age={ "old_1" 68 "old_1" 68 }
@@ -126,7 +126,7 @@ bookmark_fa_04_uglag={
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		clothes={ "uruk_berserker_clothes" 246 "" 0 }
- 		headgear={ "uruk_war_headgear" 80 "no_headgear" 0 }
+ 		headgear={ "uruk_war_headgear" 150 "no_headgear" 0 }
  		gene_hunchbacked={ "hunchbacked" 81 "hunchbacked" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
