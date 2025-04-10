@@ -14503,15 +14503,10 @@ lebennin20wife = {
 	name = Serinde 
     female = yes
 
-	dynasty = dynasty_lebennin
 	religion = faith_edain
 	culture = gondorian
 
-	father = lebennin19
-	mother = lebennin25
-
 	trait = blood_of_numenor_1
-	trait = lifestyle_mariner
 
 	7006.4.2 = {
 		birth = yes
