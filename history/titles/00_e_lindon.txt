@@ -1210,7 +1210,6 @@ d_thargelion = {
 	#fiction
 	7052.5.1 = { # Cirdan and the Lindon elves sail west
 		holder = lineoflauriel
-		liege = k_mithlond
 	}
 }
 c_helevorn = {
@@ -1234,6 +1233,7 @@ c_helevorn = {
 	#fiction
 	7052.5.1 = { # Feanorians moves in Lindon
 		change_development_level = 1
+		liege = k_mithlond
 	}
 }
 c_rhumbad = {
@@ -1296,6 +1296,7 @@ c_dor_maglor = {
 	}
 	#fiction
 	7052.5.1 = { # Feanorians moves in Lindon
+		holder = lineoflauriel
 		change_development_level = 1
 	}
 }
