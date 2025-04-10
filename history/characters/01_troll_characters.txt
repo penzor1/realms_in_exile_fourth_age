@@ -9,11 +9,11 @@ lineoftrollking1 = {
 
 	dna = troll_king_dna
 
-	diplomacy = 0
-	martial = 7
-	stewardship = 0
-	intrigue = 0
-	learning = 0
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
 	prowess = 16
 
 	trait = stubborn
@@ -55,11 +55,11 @@ lineofyagmuz1 = {
 	#father = 
 	#mother = 
 
-	diplomacy = 0
-	martial = 8
-	stewardship = 0
-	intrigue = 0
-	learning = 0
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
 	prowess = 12
 	
 	trait = stubborn
@@ -110,11 +110,11 @@ lineofyagmuz2 = {
 	father = lineofyagmuz1 # Yagmuz
 	mother = lineofyagmuz1wife
 	
-	diplomacy = 0
-	martial = 10
-	stewardship = 0
-	intrigue = 0
-	learning = 0
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
 	prowess = 13
 	
 	trait = wrathful
@@ -147,12 +147,12 @@ lineofyagmuz3 = {
 	father = lineofyagmuz1 # Yagmuz
 	mother = lineofyagmuz1wife
 	
-	diplomacy = 0
-	martial = 8
-	stewardship = 0
-	intrigue = 0
-	learning = 0
-	prowess = 9
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 10
 	
 	trait = brave
 	trait = deceitful
