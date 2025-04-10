@@ -1,4 +1,3 @@
-
 House of the Black Snake
 Suladân I of Harad(104FA-183FA-190FA), great-grandson of the Black Snake, leader of the Haradrim during the War of the Ring
     Conquers Umbar from Eldarion of the Reunited Kingdom in 183FA
@@ -16,7 +15,7 @@ Malik I of Harad(231FA-270FA-310FA), son of the previous ruler
 Razi I of Harad(272FA-310FA-337FA), 3rd son of the previous ruler
 Mutamid II of Harad(301FA-337FA-365FA), son of the previous ruler
     Captures the Island of Tolfalas in 354FA
-
+Harad: have a young Sûladan playable with a goal to conquer Umbar and make it the center of a Haradrim Empire. Maybe push for a revolt in the Reunited Kingdom via decisions to make it easier to conquer Umbar
 
 House of Targon
 Targon of Tharbad(2984TA-11FA-34FA)
@@ -33,7 +32,7 @@ Iorhael II of Tharbad(227FA-251FA-312FA), brother of Belegund, son of Iorhael
     Became King of Tharbad in 297FA almost 20 years after the start of civil war in the Reunited Kingdom
 Elatan I of Tharbad(278FA-312FA-339FA), son of Iorhael II
 Camlost II of Tharbad(303FA-339FA-374FA), son of Elatan I
-
+Tharbad: have Camlost and his heirs have decisions to rebuild Lond Daer and become you own kingdom. Maybe even have a decision to create a mix culture between Dunedanic and Dunlending, with an ounce of Rohirric
 
 for Eriador(Bree + the Shire and the lands just south of it):
 House of the Charging Stag
@@ -52,12 +51,8 @@ Oswyn of Eriador(280-313-342), son of Fordwin
     Concluded the Alliance of the Hills with the Hobbits in 338, crowned Prince of Eriador as a result.
 Osfrid of Eriador(302-342-370), son of Oswyn
 
-Harad: have a young Sûladan playable with a goal to conquer Umbar and make it the center of a Haradrim Empire. Maybe push for a revolt in the Reunited Kingdom via decisions to make it easier to conquer Umbar
-Tharbad: have Camlost and his heirs have decisions to rebuild Lond Daer and become you own kingdom. Maybe even have a decision to create a mix culture between Dunedanic and Dunlending, with an ounce of Rohirric
-
 
 **Northern Bellekar Timeline:**
-
 TA
 3005: Aglarin steals the Lonely Isles and Pelican Isles from her brother, he dies in the process.
 3006: Ayal dies in late winter.
