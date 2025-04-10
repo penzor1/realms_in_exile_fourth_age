@@ -1990,6 +1990,12 @@
 	culture = noldor
 	religion = faith_eldar
 	holding = elven_holding
+	#test
+	100.1.1 = {
+	culture = noldor
+	religion = faith_eldar
+	holding = elven_holding
+	}
 }
 
 4254 = {	#Forgelion (b_forgelion)
