@@ -2314,7 +2314,9 @@ linevrakhara53 = {
     7019.4.3 = {
         birth = yes
     }
-
+	7038.4.3 = {
+		add_spouse = lineibo75 # Odaven Ibo
+	}
     7086.9.5 = {
         death = { death_reason = death_natural_causes }
     }
@@ -6411,7 +6413,9 @@ lineaketh34 = {
     7028.1.11 = {
         birth = yes
     }
-
+	7059.2.3 = {
+		add_spouse = lineikhon14 # Nounith Ihkon
+	}
     7088.6.24 = {
         death = { death_reason = death_natural_causes }
     }
