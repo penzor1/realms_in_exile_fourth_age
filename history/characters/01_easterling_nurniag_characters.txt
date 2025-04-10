@@ -311,8 +311,8 @@ lineofkidjunagim5 = {
 		effect = {
 			make_tributary = {
 				TYPE = tributary_permanent
-				SUZERAIN = character:lineisildur43
-				TRIBUTARY = character:lineofvronkhar42
+				SUZERAIN = character:lineisildur43 # Aragorn
+				TRIBUTARY = character:lineofkidjunagim5 # Kidjun
 			}
 		}
 	}
