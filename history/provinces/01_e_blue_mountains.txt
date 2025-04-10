@@ -56,9 +56,9 @@
 	}
 }
 
-##	Nuid-athâk (c_nuid_athak)
+##	Nuid-athï¿½k (c_nuid_athak)
 
-4844 = {	#Nuid-athâk (b_nuid_athak)
+4844 = {	#Nuid-athï¿½k (b_nuid_athak)
 	culture = broadbeams
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -210,7 +210,7 @@
 		dwarven_vaults_02
 		dwarven_crafts_02
 	}
-	2033.1.1 = { # Abandoned as many Broadbeams move to Khazad-dûm
+	2033.1.1 = { # Abandoned as many Broadbeams move to Khazad-dï¿½m
 		culture = wastelands
 	 	holding = wastelands_holding
 		religion = faith_wastelands_pagan
@@ -422,9 +422,9 @@
 
 ####	Nogrod (k_nogrod)
 ###	Nogrod (d_nogrod)
-##	Luznâkuz (c_luznakuz)
+##	Luznï¿½kuz (c_luznakuz)
 
-4869 = {	#Luznâkuz (b_luznakuz)
+4869 = {	#Luznï¿½kuz (b_luznakuz)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -444,9 +444,9 @@
 }
 
 
-##	Zillînakhur (c_zillinakhur)
+##	Zillï¿½nakhur (c_zillinakhur)
 
-4870 = {	#Zillînakhur (b_zillinakhur)
+4870 = {	#Zillï¿½nakhur (b_zillinakhur)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -489,9 +489,9 @@
 	}
 }
 
-##	Zarnâi'lizi (c_zarnailizi)
+##	Zarnï¿½i'lizi (c_zarnailizi)
 
-4872 = {	#Zarnâi'lizi (b_zarnailizi)
+4872 = {	#Zarnï¿½i'lizi (b_zarnailizi)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -505,9 +505,9 @@
 	}
 }
 
-##	Nussâthmiri (c_nussathmiri)
+##	Nussï¿½thmiri (c_nussathmiri)
 
-4873 = {	#Nussâthmiri (b_nussathmiri)
+4873 = {	#Nussï¿½thmiri (b_nussathmiri)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -522,9 +522,9 @@
 	}
 }
 
-##	Marfrolâkhbu (c_marfrolakhbu)
+##	Marfrolï¿½khbu (c_marfrolakhbu)
 
-4874 = {	#Marfrolâkhbu (b_marfrolakhbu)
+4874 = {	#Marfrolï¿½khbu (b_marfrolakhbu)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -556,9 +556,9 @@
 	}
 }
 
-##	Zukhmêngairul (c_zukhmengairul)
+##	Zukhmï¿½ngairul (c_zukhmengairul)
 
-4876 = {	#Zukhmêngairul (b_zukhmengairul)
+4876 = {	#Zukhmï¿½ngairul (b_zukhmengairul)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -572,8 +572,8 @@
 	}
 }
 
-###	Hadnul dûm (d_hadnul_dum)
-##	Hadnul dûm (c_hadnul_dum)
+###	Hadnul dï¿½m (d_hadnul_dum)
+##	Hadnul dï¿½m (c_hadnul_dum)
 
 4877 = {	#Amuhadnul (b_amuhadnul)
 	culture = firebeards
@@ -589,9 +589,9 @@
 	}
 }
 
-##	Farakgirâ (c_farakgira)
+##	Farakgirï¿½ (c_farakgira)
 
-4878 = {	#Farakgirâ (b_farakgira)
+4878 = {	#Farakgirï¿½ (b_farakgira)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -606,9 +606,9 @@
 	}
 }
 
-##	Asruj-azhâr (c_asruj_azhar)
+##	Asruj-azhï¿½r (c_asruj_azhar)
 
-4879 = {	#Asruj-azhâr (b_asruj_azhar)
+4879 = {	#Asruj-azhï¿½r (b_asruj_azhar)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -624,9 +624,9 @@
 }
 
 ###	Mount Dolmed (d_mount_dolmed)
-##	Lugnâ'urdsir (c_lugnaurdsir)
+##	Lugnï¿½'urdsir (c_lugnaurdsir)
 
-4880 = {	#Lugnâ'urdsir (b_lugnaurdsir)
+4880 = {	#Lugnï¿½'urdsir (b_lugnaurdsir)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -647,9 +647,9 @@
 	}
 }
 
-##	Askubênâd (c_askubenad)
+##	Askubï¿½nï¿½d (c_askubenad)
 
-4881 = {	#Askubênâd (b_askubenad)
+4881 = {	#Askubï¿½nï¿½d (b_askubenad)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -664,9 +664,9 @@
 	}
 }
 
-##	Úribênâd (c_uribenad)
+##	ï¿½ribï¿½nï¿½d (c_uribenad)
 
-4882 = {	#Úribênâd (b_uribenad)
+4882 = {	#ï¿½ribï¿½nï¿½d (b_uribenad)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -681,9 +681,9 @@
 	}
 }
 
-##	Dwálinâd (c_dwalinad)
+##	Dwï¿½linï¿½d (c_dwalinad)
 
-4883 = {	#Dwálinâd (b_dwalinad)
+4883 = {	#Dwï¿½linï¿½d (b_dwalinad)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -716,9 +716,9 @@
 	}
 }
 
-##	Zê'gunûd (c_zegunud)
+##	Zï¿½'gunï¿½d (c_zegunud)
 
-4885 = {	#Zê'gunûd (b_zegunud)
+4885 = {	#Zï¿½'gunï¿½d (b_zegunud)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -733,10 +733,10 @@
 	}
 }
 
-###	Khaglâkhjuruk (d_khaglakhjuruk)
+###	Khaglï¿½khjuruk (d_khaglakhjuruk)
 ##	Khagmekh (c_khagmekh)
 
-4886 = {	#Amlâksulmâ (b_amlaksulma)
+4886 = {	#Amlï¿½ksulmï¿½ (b_amlaksulma)
 	culture = firebeards
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -751,13 +751,13 @@
 	}
 }
 
-4887 = {	#Nâlazelem (b_nalazelem)
+4887 = {	#Nï¿½lazelem (b_nalazelem)
 	culture = broadbeams
 	religion = faith_broadbeams
 	holding = none
 }
 
-4888 = {	#Ingutênâd (b_ingutenad)
+4888 = {	#Ingutï¿½nï¿½d (b_ingutenad)
 	culture = broadbeams
 	religion = faith_broadbeams
 	holding = none
@@ -765,7 +765,7 @@
 
 ##	Ursmekh (c_ursmekh)
 
-4889 = {	#Amlâkisrij (b_amlakisrij)
+4889 = {	#Amlï¿½kisrij (b_amlakisrij)
 	culture = broadbeams
 	religion = faith_broadbeams
 	holding = dwarven_holding
@@ -784,17 +784,17 @@
 	}
 }
 
-4890 = {	#Nâlanud (b_nalanud)
+4890 = {	#Nï¿½lanud (b_nalanud)
 	culture = broadbeams
 	religion = faith_broadbeams
 	holding = none
 }
 
-####	Buzrâ dûm (k_buzra_dum)
-###	Ursêl Zabad (d_ursel_zabad)
-##	Ursêl Zabad (c_ursel_zabad)
+####	Buzrï¿½ dï¿½m (k_buzra_dum)
+###	Ursï¿½l Zabad (d_ursel_zabad)
+##	Ursï¿½l Zabad (c_ursel_zabad)
 
-4891 = {	#Ursêl Zabad (b_ursel_zabad)
+4891 = {	#Ursï¿½l Zabad (b_ursel_zabad)
 	culture = firebeards
 	religion = faith_khazad
 	holding = dwarven_holding
@@ -809,9 +809,9 @@
 	}
 }
 
-##	Mekhem Ursêl (c_mekhem_ursel)
+##	Mekhem Ursï¿½l (c_mekhem_ursel)
 
-4892 = {	#Mekhem Ursêl (b_mekhem_ursel)
+4892 = {	#Mekhem Ursï¿½l (b_mekhem_ursel)
 	culture = firebeards
 	religion = faith_khazad
 	holding = dwarven_holding
@@ -825,9 +825,9 @@
 	}
 }
 
-##	Akhurstarâg (c_akhurstarag)
+##	Akhurstarï¿½g (c_akhurstarag)
 
-4893 = {	#Akhurstarâg (b_akhurstarag)
+4893 = {	#Akhurstarï¿½g (b_akhurstarag)
 	culture = firebeards
 	religion = faith_khazad
 	holding = dwarven_holding
@@ -841,9 +841,9 @@
 	}
 }
 
-##	Girâzirîn (c_girazirin)
+##	Girï¿½zirï¿½n (c_girazirin)
 
-4894 = {	#Girâzirîn (b_girazirin)
+4894 = {	#Girï¿½zirï¿½n (b_girazirin)
 	culture = firebeards
 	religion = faith_khazad
 	holding = dwarven_holding
@@ -857,9 +857,9 @@
 	}
 }
 
-##	Rînkhalt (c_rinkhalt)
+##	Rï¿½nkhalt (c_rinkhalt)
 
-4895 = {	#Rînkhalt (b_rinkhalt)
+4895 = {	#Rï¿½nkhalt (b_rinkhalt)
 	culture = firebeards
 	religion = faith_khazad
 	holding = dwarven_holding
@@ -874,9 +874,9 @@
 	}
 }
 
-##	Buzrâikîl (c_buzraikil)
+##	Buzrï¿½ikï¿½l (c_buzraikil)
 
-4896 = {	#Buzrâikîl (b_buzraikil)
+4896 = {	#Buzrï¿½ikï¿½l (b_buzraikil)
 	culture = firebeards
 	religion = faith_khazad
 	holding = dwarven_holding
@@ -904,9 +904,9 @@
 	}
 }
 
-##	Mikîl Ashmur (c_mikil_ashmur)
+##	Mikï¿½l Ashmur (c_mikil_ashmur)
 
-4898 = {	#Mikîl Ashmur (b_mikil_ashmur)
+4898 = {	#Mikï¿½l Ashmur (b_mikil_ashmur)
 	culture = firebeards
 	religion = faith_khazad
 	holding = dwarven_holding
@@ -942,7 +942,7 @@
 }
 
 
-4900 = {	#Zê'Shumr (b_zeshumr)
+4900 = {	#Zï¿½'Shumr (b_zeshumr)
 	culture = firebeards
 	religion = faith_khazad
 	holding = castle_holding
@@ -957,7 +957,7 @@
 	}
 }
 
-###	A'Mâkh 'Arasi (d_amakharasi)
+###	A'Mï¿½kh 'Arasi (d_amakharasi)
 ##	Amallost (c_amallost)
 
 4901 = {	#Amallost (b_amallost)
@@ -972,9 +972,9 @@
 	}
 }
 
-##	Agzârasi (c_agzarasi)
+##	Agzï¿½rasi (c_agzarasi)
 
-4902 = {	#Agzârasi (b_agzarasi)
+4902 = {	#Agzï¿½rasi (b_agzarasi)
 	culture = firebeards
 	religion = faith_khazad
 	holding = dwarven_holding
@@ -1010,7 +1010,7 @@
 	holding = dwarven_holding
 }
 
-###	Dronûn-Dûm (d_dronun_dum)
+###	Dronï¿½n-Dï¿½m (d_dronun_dum)
 ##	Bilakh Anut (c_bilakh_anut)
 
 4905 = {	#Bilakh Anut (b_bilakh_anut)
@@ -1026,12 +1026,6 @@
 			flooded_tunnels
 #			stale_air
 		}
-	}
-    2080.1.1 = { # Metalhearts settle
-		culture = firebeards
-		religion = faith_khazad
-		holding = dwarven_holding
-    }
 }
 
 ##	Sigibab (c_sigibab)
