@@ -3159,21 +3159,22 @@ c_luglurak = {
 #    }					
 	#fiction
 	7052.3.25 = {
-		holder = lineofkidjunagim1 #Kidjun 'the Liberator'
-		government = oligarchy_government
+		holder = lineofaduz1 # Aduz
+		government = clan_government
 		change_development_level = 5
+		liege = d_nargil
 	}
-	7068.6.20 = {
-		holder = lineofkidjunagim3 # Turah
+	7101.9.10 = {
+		holder = lineofaduz2 # Krennon
 	}
-	7138.1.29 = {
-		holder = lineofkidjunagim4 # Kadbhad
+	7142.6.30 = {
+		holder = lineofaduz3 # Edor
 	}
-	7148.10.1 = {
-		holder = lineofkidjunagim5 # Kidjun
+	7169.2.1 = {
+		holder = lineofaduz4 # Omun
 	}
-	7170.4.1 = {
-		holder = lineofkidjunagim6 # Kan
+	7176.3.11 = {
+		holder = lineofaduz5 # Krennon
 	}
 }
 #Cirith Nargil							
@@ -3317,6 +3318,20 @@ d_glamhoth = {
     7053.8.13 = {
         holder = linevrakhara53 					
     }					
+	#fiction
+	7086.9.5 = {
+		holder = linevrakhara55 # Nomid
+		liege = 0
+	}
+	7120.6.12 = {
+		holder = linevrakhara56 # Mashak
+	}
+	7150.1.20 = {
+		holder = linevrakhara57 # Yursal
+	}
+	7175.2.3 = {
+		holder = linevrakhara58 # Orag
+	}
 }
 #Culduin							
 c_culduin = {							
@@ -3564,20 +3579,22 @@ c_ulgath = {
 #    }					
 	#fiction
 	7052.3.25 = {
-		holder = lineofazen1 # Azen
+		holder = lineofaduz1 # Aduz
+		government = clan_government
 		change_development_level = 5
+		liege = k_nurn
 	}
-	7093.6.12 = {
-		holder = lineofazen2 # Sal
+	7101.9.10 = {
+		holder = lineofaduz2 # Krennon
 	}
-	7125.4.29 = {
-		holder = lineofazen3 # Dalluz
+	7142.6.30 = {
+		holder = lineofaduz3 # Edor
 	}
-	7162.1.20 = {
-		holder = lineofazen4 # Azen
+	7169.2.1 = {
+		holder = lineofaduz4 # Omun
 	}
-	7176.8.11 = {
-		holder = lineofazen5 # Kon
+	7176.3.11 = {
+		holder = lineofaduz5 # Krennon
 	}
 }
 #Ioriag							
@@ -3680,19 +3697,18 @@ c_ioriag = {
 		government = clan_government
     }						
 	#fiction
-	7101.9.12 = {
-		holder = lineikhon15 # Yursal
-		liege = d_lithlad
+	7086.9.5 = {
+		holder = linevrakhara55 # Nomid
 		change_development_level = 8
 	}
-	7124.11.28 = {
-		holder = lineikhon16 # Vedat
+	7120.6.12 = {
+		holder = linevrakhara56 # Mashak
 	}
-	7149.6.19 = {
-		holder = lineikhon17 # Akhev
+	7150.1.20 = {
+		holder = linevrakhara57 # Yursal
 	}
-	7169.1.11 = {
-		holder = lineikhon18 # Sakun
+	7175.2.3 = {
+		holder = linevrakhara58 # Orag
 	}
 }
 #Zarok							
@@ -3795,18 +3811,18 @@ c_zarok = {
 		government = clan_government
     }						
 	#fiction
-	7101.9.12 = {
-		holder = lineikhon15 # Yursal
-		change_development_level = 6
+	7086.9.5 = {
+		holder = linevrakhara55 # Nomid
+		change_development_level = 66
 	}
-	7124.11.28 = {
-		holder = lineikhon16 # Vedat
+	7120.6.12 = {
+		holder = linevrakhara56 # Mashak
 	}
-	7149.6.19 = {
-		holder = lineikhon17 # Akhev
+	7150.1.20 = {
+		holder = linevrakhara57 # Yursal
 	}
-	7169.1.11 = {
-		holder = lineikhon18 # Sakun
+	7175.2.3 = {
+		holder = linevrakhara58 # Orag
 	}
 }
 
@@ -3993,21 +4009,23 @@ c_amnash = {
     }
     7057.8.3 = {
         holder = lineaketh34 
-    }
+    
 	#fiction
-	7101.9.12 = {
-		holder = lineikhon15 # Yursal
-		liege = d_lithlad
+	7052.3.25 = {
+		holder = lineudo52 # Akvoth
 		change_development_level = 5
 	}
-	7124.11.28 = {
-		holder = lineikhon16 # Vedat
+	7092.1.23 = {
+		holder = lineudo73 # Akvoth
 	}
-	7149.6.19 = {
-		holder = lineikhon17 # Akhev
+	7131.4.27 = {
+		holder = lineudo74 # Bondin
 	}
-	7169.1.11 = {
-		holder = lineikhon18 # Sakun
+	7150.1.12 = {
+		holder = lineudo75 # Karm
+	}
+	7169.4.20 = {
+		holder = lineudo76 # Akvoth
 	}
 }
 #Sturlurza Nurn							
@@ -4364,6 +4382,23 @@ d_ghurzun = {
             set_de_jure_liege_title = title:k_nurn
         }
 	}
+	7052.3.25 = {
+		holder = lineudo52 # Akvoth
+		government = clan_government
+		liege = 0
+	}
+	7092.1.23 = {
+		holder = lineudo73 # Akvoth
+	}
+	7131.4.27 = {
+		holder = lineudo74 # Bondin
+	}
+	7150.1.12 = {
+		holder = lineudo75 # Karm
+	}
+	7169.4.20 = {
+		holder = lineudo76 # Akvoth
+	}
 }
 #Morlith							
 c_morlith = {
@@ -4385,9 +4420,7 @@ c_morlith = {
 	#fiction
 	7052.3.25 = {
 		holder = lineudo52 # Akvoth
-		government = clan_government
 		change_development_level = 3
-		liege = d_lithlad
 	}
 	7092.1.23 = {
 		holder = lineudo73 # Akvoth
@@ -4559,18 +4592,15 @@ c_uzha = {
         holder = lineaketh34 
     }											
 	#fiction
-	7101.9.12 = {
-		holder = lineikhon15 # Yursal
-		liege = d_lithlad
+	7088.6.24 = {
+		holder = lineaketh35 # Sakun
+		liege = d_ghurzun
 		change_development_level = 6
 	}
-	7124.11.28 = {
-		holder = lineikhon16 # Vedat
+	7131.1.19 = {
+		holder = lineaketh36 # Yotaen
 	}
-	7149.6.19 = {
-		holder = lineikhon17 # Akhev
-	}
-	7169.1.11 = {
-		holder = lineikhon18 # Sakun
+	7181.7.17 = {
+		holder = lineaketh37 # Akul
 	}
 }
