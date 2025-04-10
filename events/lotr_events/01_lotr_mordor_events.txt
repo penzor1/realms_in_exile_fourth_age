@@ -885,7 +885,7 @@
 			}
 		}
 		hidden_effect = {
-			scope:wise_woman = { # RNG Wisewoman
+			scope:wise_woman ?= { # RNG Wisewoman
 				add_trait = sorcerer_1
 				set_character_faith_with_conversion = faith:melkorite
 			}
@@ -919,7 +919,7 @@
 			}
 		}
 		hidden_effect = {
-			scope:wise_woman = { # RNG Wisewoman
+			scope:wise_woman ?= { # RNG Wisewoman
 				add_trait = sorcerer_1
 				set_character_faith_with_conversion = faith:cult_of_zigur
 			}
@@ -945,7 +945,7 @@
 		name = 01_mordor.1010.c
 		custom_tooltip = 01_mordor.1010.c.tt # No
 		hidden_effect = {
-			scope:wise_woman = {
+			scope:wise_woman ?= {
 				death = { death_reason = death_vanished }
 			}
 		}
@@ -998,7 +998,7 @@
 		play_music_cue = hobbit_an_ancient_enemy
 		if = {
 			limit = {
-				scope:wise_woman = {
+				scope:wise_woman ?= {
 					OR = {
 						is_alive = no
 						exists = no
@@ -1068,7 +1068,7 @@
 			character:lineisildur49 = { # Eldacar
 				death = { killer = scope:wise_woman death_reason = death_sacrificed_to_foreign_gods } # Killed
 			}
-			scope:wise_woman = {
+			scope:wise_woman ?= {
 				death = { death_reason = death_vanished }
 			}
 		}
