@@ -9526,11 +9526,30 @@ d_hairavercien = { # Hairavercien
 	6927.1.1 = {
 		holder =  lineofarelaidh5 # Sernorn 
 	}
-	6927.1.1 = {
-		holder =  lineofarelaidh5 # Sernorn 
-	}
 	6947.1.1 = {
 		holder = 0
+	}
+	#fiction
+	7068.1.1 = {
+		holder =  lineofhundarion7 # Ermorn 
+	}
+	7070.1.1 = {
+		de_jure_liege = k_eredrim
+	}
+	7099.1.1 = {
+		holder =  lineofhundarion8 # Kodiz
+	}
+	7126.7.2 = {
+		holder =  lineofhundarion9 # Karak
+	}
+	7151.8.2 = {
+		holder =  lineofhundarion10 # Odroz
+	}
+	7171.1.3 = {
+		holder =  lineofhundarion11 # Ermorn
+	}
+	7191.8.23 = {
+		holder =  lineofhundarion12 # Hundar
 	}
 }
 c_cirith_nimrais = { #Cirith Nimrais
@@ -9564,6 +9583,25 @@ c_cirith_nimrais = { #Cirith Nimrais
 	7027.1.1 = {
 		holder =  lineofhundarion4 # Kazerok 
 	}
+	#fiction #temp
+	7068.1.1 = {
+		holder =  lineofhundarion7 # Ermorn 
+	}
+	7099.1.1 = {
+		holder =  lineofhundarion8 # Kodiz
+	}
+	7126.7.2 = {
+		holder =  lineofhundarion9 # Karak
+	}
+	7151.8.2 = {
+		holder =  lineofhundarion10 # Odroz
+	}
+	7171.1.3 = {
+		holder =  lineofhundarion11 # Ermorn
+	}
+	7191.8.23 = {
+		holder =  lineofhundarion12 # Hundar
+	}
 }	
 c_pinnornost = { #Pinnornost	
 	6785.1.1 = {
@@ -9590,6 +9628,28 @@ c_pinnornost = { #Pinnornost
 	}
 	7030.1.1 = {
 		holder =  lineofeleca5 # Armadoyôz 
+	}
+	#fiction #temp
+	7052.1.1 = {
+		holder =  lineofhundarion7 # Ermorn 
+	}
+	7060.1.1 = {
+		holder =  lineofhundarion11 # Larnen #real
+	}
+	7099.1.1 = {
+		holder =  lineofhundarion8 # Kodiz
+	}
+	7126.7.2 = {
+		holder =  lineofhundarion9 # Karak
+	}
+	7151.8.2 = {
+		holder =  lineofhundarion10 # Odroz
+	}
+	7171.1.3 = {
+		holder =  lineofhundarion11 # Ermorn
+	}
+	7191.8.23 = {
+		holder =  lineofhundarion12 # Hundar
 	}
 }	
 c_thorod = { #Thórod
@@ -9645,6 +9705,25 @@ c_thorod = { #Thórod
 	7029.1.1 = {
 		holder =  lineofeleca17 # Rûralharn 
 	}
+	#fiction
+	7052.1.1 = {
+		holder =  lineofhundarion7 # Ermorn 
+	}
+	7099.1.1 = {
+		holder =  lineofhundarion8 # Kodiz
+	}
+	7126.7.2 = {
+		holder =  lineofhundarion9 # Karak
+	}
+	7151.8.2 = {
+		holder =  lineofhundarion10 # Odroz
+	}
+	7171.1.3 = {
+		holder =  lineofhundarion11 # Ermorn
+	}
+	7191.8.23 = {
+		holder =  lineofhundarion12 # Hundar
+	}
 	
 }	
 c_eryn_druin = { #Cirith Dru
@@ -9675,6 +9754,10 @@ c_eryn_druin = { #Cirith Dru
 	}
 	7027.1.1 = {
 		holder =  lineofhundarion9 # Sondvild
+	}
+	#fiction
+	7040.1.1 = {
+		holder =  lineofhundarion11 # Larnen 
 	}
 }	
 c_tirith_menel = { #Tirith Menel
@@ -9730,6 +9813,25 @@ c_tirith_menel = { #Tirith Menel
 	}
 	7029.1.1 = {
 		holder =  lineofeleca17 # Rûralharn 
+	}
+	#fiction
+	7052.1.1 = {
+		holder =  lineofhundarion7 # Ermorn
+	}
+	7099.1.1 = {
+		holder =  lineofhundarion8 # Kodiz
+	}
+	7126.7.2 = {
+		holder =  lineofhundarion9 # Karak
+	}
+	7151.8.2 = {
+		holder =  lineofhundarion10 # Odroz
+	}
+	7171.1.3 = {
+		holder =  lineofhundarion11 # Ermorn
+	}
+	7191.8.23 = {
+		holder =  lineofhundarion12 # Hundar
 	}
 }	
 			
@@ -9839,6 +9941,28 @@ d_nan_i_feryn = { # Nan-i-Feryn
 	7030.1.1 = {
 		holder =  lineofeleca5 # Armadoyôz 
 	}
+	#fiction
+	7052.1.1 = {
+		holder =  lineofhundarion7 # Ermorn
+	}
+	7070.1.1 = {
+		de_jure_liege = k_eredrim
+	}
+	7099.1.1 = {
+		holder =  lineofhundarion8 # Kodiz
+	}
+	7126.7.2 = {
+		holder =  lineofhundarion9 # Karak
+	}
+	7151.8.2 = {
+		holder =  lineofhundarion10 # Odroz
+	}
+	7171.1.3 = {
+		holder =  lineofhundarion11 # Ermorn
+	}
+	7191.8.23 = {
+		holder =  lineofhundarion12 # Hundar
+	}
 }		
 c_nan_i_feryth = { #Nan i Feryth
 	6564.1.1 = {
@@ -9879,6 +10003,25 @@ c_nan_i_feryth = { #Nan i Feryth
 	}
 	7030.1.1 = {
 		holder =  lineofeleca5 # Armadoyôz 
+	}
+	#fiction
+	7052.1.1 = {
+		holder =  lineofhundarion7 # Ermorn 
+	}
+	7099.1.1 = {
+		holder =  lineofhundarion8 # Kodiz
+	}
+	7126.7.2 = {
+		holder =  lineofhundarion9 # Karak
+	}
+	7151.8.2 = {
+		holder =  lineofhundarion10 # Odroz
+	}
+	7171.1.3 = {
+		holder =  lineofhundarion11 # Ermorn
+	}
+	7191.8.23 = {
+		holder =  lineofhundarion12 # Hundar
 	}
 }	
 c_torrant = { #Torrant 
@@ -9947,6 +10090,25 @@ c_imrathion = { #Imrathion
 	}
 	7030.1.1 = {
 		holder =  lineofeleca5 # Armadoyôz 
+	}
+	#fiction
+	7052.1.1 = {
+		holder =  lineofhundarion7 # Ermorn 
+	}
+	7099.1.1 = {
+		holder =  lineofhundarion8 # Kodiz
+	}
+	7126.7.2 = {
+		holder =  lineofhundarion9 # Karak
+	}
+	7151.8.2 = {
+		holder =  lineofhundarion10 # Odroz
+	}
+	7171.1.3 = {
+		holder =  lineofhundarion11 # Ermorn
+	}
+	7191.8.23 = {
+		holder =  lineofhundarion12 # Hundar
 	}
 }	
 
