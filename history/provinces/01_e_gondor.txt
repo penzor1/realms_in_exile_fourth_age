@@ -1822,6 +1822,10 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+		culture = gondorian
+		holding = city_holding
+	}
 }
 
 ##			Drinbar (c_drinbar)
@@ -1844,6 +1848,7 @@
 			wild_orcs
 		}
 	}
+
 }
 
 603 = {	   #Tirith Malbor (b_tirith_malbor)
@@ -1858,6 +1863,10 @@
 	  	religion = faith_wastelands_pagan
 	  	holding = none
 	}		
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+		culture = gondorian
+		holding = city_holding
+	}
 }
 
 606 = {	   #Tol Malbor (b_tol_malbor)

@@ -1754,7 +1754,6 @@ linelamedon43 = {
         death = { death_reason = death_natural_causes }
     }
 }
-<<<<<<< HEAD
 
 # Line of Durthoron
 
@@ -2357,5 +2356,3 @@ dolamroth40 = {
 }
 
 
-=======
->>>>>>> parent of e0c8d33 (Some more FOR GONDOR! changes)
