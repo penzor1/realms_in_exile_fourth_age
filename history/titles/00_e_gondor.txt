@@ -5955,6 +5955,7 @@ d_methrast = { # Methrast
 	7123.1.1 = {
         holder = linecelebharn11 #Lintoron
     }
+}
 
 c_methrast = { #Methrast
 3950.11.12 = {
