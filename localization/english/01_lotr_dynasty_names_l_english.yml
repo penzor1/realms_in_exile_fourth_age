@@ -7,8 +7,9 @@
  dynn_velo:0 "Velô"
  dynn_medu:0 "Medû"
  dynn_mekud:0 "Mekûd"
- dynn_bondin:0 "Bondin"
  dynn_oran:0 "Oran"
+ dynn_bondin:0 "Bondin"
+ dynn_ruinond:0 "Ruinond"
  ### DWARF
  dynn_bofur:0 "Bofur"
  dynn_bifur:0 "Bifur"
