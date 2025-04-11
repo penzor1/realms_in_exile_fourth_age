@@ -10,4 +10,19 @@ k_eredrim = {
 			}
 		}
 	}
+	7099.1.1 = {
+		holder =  lineofhundarion17 # Kodiz
+	}
+	7126.7.2 = {
+		holder =  lineofhundarion18 # Karak
+	}
+	7151.8.2 = {
+		holder =  lineofhundarion19 # Odroz
+	}
+	7171.1.3 = {
+		holder =  lineofhundarion20 # Ermorn
+	}
+	7191.8.23 = {
+		holder =  lineofhundarion21 # Hundar
+	}
 }
