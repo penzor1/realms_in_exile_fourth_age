@@ -4402,7 +4402,7 @@ lineofdurin100 = { #Gimli of the Nine Walkers
 		effect = {
 			make_tributary = {
 				TYPE = tributary_protectorate
-				SUZERAIN = character:lineofeofor10 # Eofara
+				SUZERAIN = character:lineofeofor20 # Eofara
 				TRIBUTARY = character:lineofdurin100 # Gimli
 			}
 		}
