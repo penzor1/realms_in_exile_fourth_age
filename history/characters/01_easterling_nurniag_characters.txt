@@ -214,7 +214,7 @@ linevrakhara58 = {
 }
 
 ### Akheth Clan
-lineaketh35 = {
+lineaketh36 = {
 	name = Sakun
 	dynasty_house = house_akheth
 	religion = faith_nurniag
@@ -230,12 +230,12 @@ lineaketh35 = {
 	}
 }
 
-lineaketh36 = {
+lineaketh37 = {
 	name = Yotaen
 	dynasty_house = house_akheth
 	religion = faith_nurniag
 	culture = nurniag
-	father = lineaketh35 # Sakun
+	father = lineaketh36 # Sakun
 	#mother = 
 
 	7095.4.12 = {
@@ -246,12 +246,12 @@ lineaketh36 = {
 	}
 }
 
-lineaketh37 = {
+lineaketh38 = {
 	name = Akul
 	dynasty_house = house_akheth
 	religion = faith_nurniag
 	culture = nurniag
-	father = lineaketh36 # Yotaen
+	father = lineaketh37 # Yotaen
 	#mother = 
 
 	7131.4.6 = {
