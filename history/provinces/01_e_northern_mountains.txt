@@ -298,6 +298,7 @@
 	7052.5.1 = { # LOTRO Nori's Expedition
 		culture = longbeards
 		religion = faith_khazad
+		special_building_slot = wonder_thakalgund
 	}
 }
 
