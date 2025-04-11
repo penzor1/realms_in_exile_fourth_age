@@ -1919,7 +1919,7 @@ linedurthoron29 = {
 
 # line of Celebharn
 
-linecelebharn5wife= {
+linecelebharn5wife = {
 	name = Gwaewen
     female = yes
 	religion = faith_edain
