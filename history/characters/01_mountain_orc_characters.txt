@@ -243,7 +243,7 @@ lineofazog16 = {
 		}
 	}
 	7045.5.5 = {
-		add_spouse = lineofazog16wife # Gradum
+		add_spouse = lineofazog16wifer # Gradum
 	}
 	7174.1.1 = {
 		add_character_modifier = {
@@ -270,7 +270,7 @@ lineofazog16 = {
 	}
 }
 
-lineofazog16wife = {
+lineofazog16wifer = {
 	name = Gradum
 	female = yes
 	
@@ -301,7 +301,7 @@ lineofazog20 = {
 	culture = worauthai_madur
 
 	father = lineofazog16 # Bolgakh I
-	mother = lineofazog16wife # Gradum
+	mother = lineofazog16wifer # Gradum
 
 	diplomacy = 5
 	martial = 4
