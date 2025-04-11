@@ -1530,6 +1530,14 @@ c_sarand = {
     7030.2.14 = {
         holder = lineofvazevian7 #Vrangi
     }
+	#fiction
+	7149.7.14 = {
+		holder = lineofvronkhar43 # Hoshkar
+	}
+	7174.3.1 = {
+		holder = lineofvronkhar46 # Bountig
+		liege = d_surubeki
+	}
 }
 
 c_luts = {
@@ -1585,6 +1593,14 @@ c_luts = {
     7030.2.14 = {
         holder = lineofvazevian7 #Vrangi
     }
+	#fiction
+	7149.7.14 = {
+		holder = lineofvronkhar43 # Hoshkar
+	}
+	7174.3.1 = {
+		holder = lineofvronkhar46 # Bountig
+		liege = d_surubeki
+	}
 }
 
 c_crispa = {
@@ -1751,10 +1767,10 @@ d_surubeki = {
         holder = lineofzorian17 #Neida
     }
 	#fiction
-    7149.7.14 = {
-        holder = lineofvronkhar43
-        liege = k_usrievar
-    }
+	7149.7.14 = {
+		holder = lineofvronkhar43 # Hoshkar
+		liege = k_usrievar
+	}
 }
 
 c_mithana = {
@@ -1784,6 +1800,11 @@ c_mithana = {
     6994.3.18 = {
         holder = lineofzorian17 #Neida
     }
+	#fiction
+	7149.7.14 = {
+		holder = lineofvronkhar43 # Hoshkar
+		liege = k_usrievar
+	}
 }
 
 c_zaferkend = {
@@ -1813,6 +1834,10 @@ c_zaferkend = {
     6994.3.18 = {
         holder = lineofzorian17 #Neida
     }
+	#fiction
+	7149.7.14 = {
+		holder = lineofvronkhar43 # Hoshkar
+	}
 }
 
 c_parakh = {
@@ -1863,6 +1888,14 @@ c_parakh = {
     7030.2.14 = {
         holder = lineofvazevian7 #Vrangi
     }
+	#fiction
+	7149.7.14 = {
+		holder = lineofvronkhar43 # Hoshkar
+	}
+	7174.3.1 = {
+		holder = lineofvronkhar46 # Bountig
+		liege = d_surubeki
+	}
 }
 
 c_mavishad = {
@@ -1892,6 +1925,10 @@ c_mavishad = {
     6994.3.18 = {
         holder = lineofzorian17 #Neida
     }
+	#fiction
+	7149.7.14 = {
+		holder = lineofvronkhar43 # Hoshkar
+	}
 }
 
 # Duchy of Gathod
