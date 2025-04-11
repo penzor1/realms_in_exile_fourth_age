@@ -424,6 +424,16 @@ d_thakalgund = {
 	7052.5.1 = { #LOTRO Nori's Expedition
 		holder = lineofdurin105 # Nori
 		liege = k_erebor
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:nordinbad_contact_erebor_sent
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:thakalgund_restored
+			}
+		}
 	}
 	7087.11.23 = {
 		holder = lineofdurin114 # Kili
