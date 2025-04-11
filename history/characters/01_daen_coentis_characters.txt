@@ -1,6 +1,6 @@
 ﻿
 ### House of Hundarion, Lords of Hairavercien# Bastard dynasty, continuing senior branch
-lineofhundarion8 = {
+lineofhundarion17 = {
 	name = Kodiz
 	dynasty = dynasty_hairavercien
 	religion = faith_daen_coentis
@@ -18,12 +18,12 @@ lineofhundarion8 = {
 	}
 }
 
-lineofhundarion9 = {
+lineofhundarion18 = {
 	name = Karak
 	dynasty = dynasty_hairavercien
 	religion = faith_daen_coentis
 	culture = eredrim
-	father = lineofhundarion8 # Kodiz
+	father = lineofhundarion17 # Kodiz
 	#mother = 
 
 	7069.6.30 = {
@@ -34,12 +34,12 @@ lineofhundarion9 = {
 	}
 }
 
-lineofhundarion10 = {
+lineofhundarion19 = {
 	name = Odro_o_z
 	dynasty = dynasty_hairavercien
 	religion = faith_daen_coentis
 	culture = eredrim
-	father = lineofhundarion9 # Karak
+	father = lineofhundarion18 # Karak
 	#mother = 
 
 	7100.10.9 = {
@@ -50,12 +50,12 @@ lineofhundarion10 = {
 	}
 }
 
-lineofhundarion11 = {
+lineofhundarion20 = {
 	name = Ermorn
 	dynasty = dynasty_hairavercien
 	religion = faith_daen_coentis
 	culture = eredrim
-	father = lineofhundarion10 # Odroz
+	father = lineofhundarion19 # Odroz
 	#mother = 
 
 	7125.12.6 = {
@@ -75,12 +75,12 @@ lineofhundarion11 = {
 	}
 }
 
-lineofhundarion12 = {
+lineofhundarion21 = {
 	name = Hundar
 	dynasty = dynasty_hairavercien
 	religion = faith_daen_coentis
 	culture = eredrim
-	father = lineofhundarion11 # Ermorn
+	father = lineofhundarion20 # Ermorn
 	#mother = 
 
 	trait = intellect_good_1
