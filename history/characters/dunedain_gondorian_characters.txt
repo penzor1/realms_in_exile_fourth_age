@@ -17190,6 +17190,9 @@ linelamedon41 = {
 			learn_language = language_sindarin
 		}			
 	}
+    7076.5.24 = {
+        add_spouse = linelamedon41wife
+    }
 	7146.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -21518,146 +21521,6 @@ lineminadir23 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
-
-# Generated this ruler and below, correct later
-
-lineminadir25 = {
-    name = Ortollote
-
-    dynasty = house_borondirionath
-    religion = faith_edain
-    culture = gondorian
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7081.12.11 = {
-        birth = yes
-    }
-
-    7101.1.21 = {
-        add_spouse = lineminadir26
-    }
-
-    7173.11.20 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineminadir26 = {
-    name = Boromis
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7084.4.11 = {
-        birth = yes
-    }
-
-    7193.2.28 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineminadir27 = {
-    name = Falmandil
-
-    dynasty = house_borondirionath
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineminadir25
-    mother = lineminadir26
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7113.12.11 = {
-        birth = yes
-    }
-
-    7160.1.24 = {
-        add_spouse = lineminadir28
-    }
-
-    7190.2.16 = {
-        death = { death_reason = death_battle }
-    }
-}
-
-lineminadir28 = {
-    name = Melyanna
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7111.2.7 = {
-        birth = yes
-    }
-
-    7194.1.12 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineminadir29 = {
-    name = Minadir
-
-    dynasty = house_borondirionath
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineminadir27
-    mother = lineminadir28
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7166.8.18 = {
-        birth = yes
-    }
-
-    7211.9.17 = {
-        add_spouse = lineminadir30
-    }
-
-    7258.10.13 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineminadir30 = {
-    name = Maewiel
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7165.5.3 = {
-        birth = yes
-    }
-
-    7275.1.6 = {
-        death = { death_reason = death_smallpox }
-    }
-}
 
 ###################################
 #### The Lords of Gardhon Fuir ####

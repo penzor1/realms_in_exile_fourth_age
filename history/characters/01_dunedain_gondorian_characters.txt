@@ -1473,3 +1473,307 @@ linelinnarion29 = {
         death = { death_reason = death_natural_causes }
     }
 }
+
+# Line of Minadir
+
+lineminadir15son = {
+	name = Farandur
+
+	dynasty_house = house_borondirionath
+	religion = faith_edain
+	culture = gondorian
+
+	father = lineminadir15
+    mother = linebenrodir82daughter
+	
+	trait = lifestyle_blademaster
+
+	trait = blood_of_numenor_1
+	7000.7.8={
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
+
+	7095.9.9={
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineminadir15sonwife = {
+	name = Suriel
+    female = yes 
+
+	religion = faith_edain
+	culture = gondorian
+
+	trait = blood_of_numenor_1
+	7002.5.2={
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
+
+	7085.1.1={
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineminadir25 = {
+    name = Ortollote
+
+    dynasty_house = house_borondirionath
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    father = lineminadir15son
+    mother = lineminadir15sonwife
+
+    trait = blood_of_numenor_1
+
+    7031.12.11 = {
+        birth = yes
+    }
+
+    7101.1.21 = {
+        add_spouse = lineminadir26
+    }
+
+    7133.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineminadir26 = {
+    name = Boromis
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7034.4.11 = {
+        birth = yes
+    }
+
+    7133.2.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineminadir27 = {
+    name = Falmandil
+
+    dynasty_house = house_borondirionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineminadir25
+    mother = lineminadir26
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7113.12.11 = {
+        birth = yes
+    }
+
+    7160.1.24 = {
+        add_spouse = lineminadir28
+    }
+
+    7190.2.16 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineminadir28 = {
+    name = Melyanna
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7111.2.7 = {
+        birth = yes
+    }
+
+    7194.1.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineminadir29 = {
+    name = Minadir
+
+    dynasty_house = house_borondirionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineminadir27
+    mother = lineminadir28
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7166.8.18 = {
+        birth = yes
+    }
+
+    7211.9.17 = {
+        add_spouse = lineminadir30
+    }
+
+    7258.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineminadir30 = {
+    name = Maewiel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7165.5.3 = {
+        birth = yes
+    }
+
+    7275.1.6 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+# Line of Borlach, Line of Rodirath dies out, Borlach takes the duchy of Gardhon Fuir
+
+lineofborlach89 = {
+    name = Egalmoth
+
+    dynasty = dynasty_borlachionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofborlach68
+    mother = lineofborlach69
+
+	trait = blood_of_numenor_1
+    7123.4.5 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7209.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofborlach89 = {
+    name = Elboron
+
+    dynasty = dynasty_borlachionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofborlach70
+    mother = lineofborlach71
+
+	trait = blood_of_numenor_1
+    7131.9.7 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7220.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+# Line of Lamedon
+
+linelamedon41wife = {
+    name = Tiliel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7037.9.3 = {
+        birth = yes
+    }
+
+    7132.6.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linelamedon42 = {
+    name = Neithan
+
+    dynasty = dynasty_lamedon
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    father = linelamedon41
+
+    trait = blood_of_numenor_1
+
+    7085.9.3 = {
+        birth = yes
+    }
+
+    7126.5.24 = {
+        add_spouse = linelamedon43
+    }
+
+    7192.4.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linelamedon43 = {
+    name = Beleth
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7109.7.27 = {
+        birth = yes
+    }
+
+    7195.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
