@@ -4398,6 +4398,15 @@ lineofdurin100 = { #Gimli of the Nine Walkers
 			learn_language = language_sindarin
 		}
 	}
+	7173.3.2 = {
+		effect = {
+			make_tributary = {
+				TYPE = tributary_protectorate
+				SUZERAIN = character:lineofeofor10 # Eofara
+				TRIBUTARY = character:lineofdurin100 # Gimli
+			}
+		}
+	}
 	7174.3.3 = { # FO120 # On Aragorn's death Legolas builds a grey ship in Ithilien and sails west with Gimli
 		#add_trait = doom_sundered
 		employer = linefinwe6
