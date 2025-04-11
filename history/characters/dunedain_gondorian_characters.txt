@@ -25433,10 +25433,10 @@ lineyrchdaugnir11 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin	
-		}	
-    }		
+		}			
     7040.1.1 = {
 		add_spouse = lineyrchdaugnir11wife				
+	}
 	}
 	7134.1.1 = {
 		death = { death_reason = death_natural_causes }

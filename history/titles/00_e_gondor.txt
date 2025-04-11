@@ -5958,7 +5958,7 @@ d_methrast = { # Methrast
 }
 
 c_methrast = { #Methrast
-	3950.11.12 = {
+3950.11.12 = {
         holder = lineofulrad1 #Ulrad
 		#liege = d_methrast
 		liege = k_belfalas
@@ -6213,6 +6213,7 @@ c_tyliand = { #Tyliand
     }
     7139.10.15 = {
         holder = lineofulrad79 #Gaeraglar
+		liege = k_
 		de_jure_liege = e_reunitedkingdom
     }
 }				
