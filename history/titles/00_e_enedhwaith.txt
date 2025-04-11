@@ -3520,6 +3520,18 @@ d_nan_enqui = {
 		holder = 0	# Remnant Gondorian authority in Tharagrondost looses its foothold
 		liege = 0
 	}
+	7057.1.1 = {
+        holder = lineohtarion9 #Handir
+		liege = k_andrast
+		de_jure_liege = e_reunitedkingdom
+    }
+    7101.9.14 = {
+        holder = lineohtarion11 #Olurin
+    }
+    7170.7.13 = {
+        holder = lineohtarion13 #Manwendil
+    }
+
 }
 c_tharagrondost = {
 	1000.1.1 = {
@@ -3589,6 +3601,18 @@ c_tharagrondost = {
 	7021.1.1 = {			
 		holder = lineohtarion8 # Atanalcar	
 	}			
+	7057.1.1 = {
+        holder = lineohtarion9 #Handir
+		liege = k_andrast
+		de_jure_liege = e_reunitedkingdom
+    }
+    7101.9.14 = {
+        holder = lineohtarion11 #Olurin
+    }
+    7170.7.13 = {
+        holder = lineohtarion13 #Manwendil
+    }
+
 }
 c_rast_hwarin = {
 	3000.1.1 = {
@@ -3715,7 +3739,18 @@ c_nornin = {
 	}			
 	7021.1.1 = {			
 		holder = lineohtarion8 # Atanalcar	
-	}			
+	}
+	7057.1.1 = {
+        holder = lineohtarion9 #Handir
+		liege = k_andrast
+		de_jure_liege = e_reunitedkingdom
+    }
+    7101.9.14 = {
+        holder = lineohtarion11 #Olurin
+    }
+    7170.7.13 = {
+        holder = lineohtarion13 #Manwendil
+    }	
 }
 
 ## Duchy of Ras Morthil

@@ -4874,3 +4874,191 @@ lineastandur26 = {
     }
 }
 
+# Line of Ohtarion
+
+lineohtarion8wife = {
+	name = Tarandis
+    female = yes
+
+	religion = faith_edain
+	culture = gondorian
+
+	6983.1.1 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin		
+		}				
+	}
+	7030.1.1 = {
+		effect = {
+			set_relation_rival = character:lineeruholion11
+		}
+	}
+
+	7057.1.1 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}	
+
+lineohtarion9 = {
+    name = Handir
+
+    dynasty = dynasty_ohtarion
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7025.11.21 = {
+        birth = yes
+    }
+
+    7058.10.20 = {
+        add_spouse = lineohtarion10
+    }
+
+    7101.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineohtarion10 = {
+    name = Boriel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7041.7.27 = {
+        birth = yes
+    }
+
+    7143.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineohtarion11 = {
+    name = Olurin
+
+    dynasty = dynasty_ohtarion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineohtarion9
+    mother = lineohtarion10
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7062.1.22 = {
+        birth = yes
+    }
+
+    7095.4.24 = {
+        add_spouse = lineohtarion12
+    }
+
+    7170.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineohtarion12 = {
+    name = Undomiel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7059.4.8 = {
+        birth = yes
+    }
+
+    7154.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineohtarion13 = {
+    name = Manwendil
+
+    dynasty = dynasty_ohtarion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineohtarion11
+    mother = lineohtarion12
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7106.12.3 = {
+        birth = yes
+    }
+
+    7127.4.1 = {
+        add_spouse = lineohtarion14
+    }
+
+    7185.9.3 = {
+        death = { death_reason = death_treatment }
+    }
+}
+
+lineohtarion14 = {
+    name = Tindome
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7109.7.20 = {
+        birth = yes
+    }
+
+    7217.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineohtarion15 = {
+    name = Nuneth
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineohtarion9
+    mother = lineohtarion10
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7068.10.12 = {
+        birth = yes
+    }
+
+    7161.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
