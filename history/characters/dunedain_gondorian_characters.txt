@@ -13450,10 +13450,6 @@ dolamroth28 = {
 		}			
 	}
 
-    7070.2.3 = {
-		add_spouse = dolamroth28wife				
-	}
-
 	7121.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -28947,9 +28943,6 @@ linedurthoron9 = {
 			}
 		}
 	}
-    7050.3.21 = {
-        add_spouse = linedurthoron9wife
-    }
 
 	7120.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -29483,15 +29476,15 @@ linecelebharn5 = {
 	father = linecelebharn3
 	mother = linedurthoron12
 
+	
+
+
 	trait = blood_of_numenor_1
 	7019.1.1 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}			
-	}
-    7061.1.1 = {
-		add_spouse = linecelebharn5wife				
 	}
 	7123.1.1 = {
 		death = { death_reason = death_natural_causes }
