@@ -4308,6 +4308,7 @@ b_bar_sirith = { #Another domain for the Sealords
 	}
     7110.1.1 = {
         holder = lebennin32 #Vingidur
+        liege = e_reunitedkingdom
     }
     7159.6.24 = {
         holder = lebennin34 #Turendil
