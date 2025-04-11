@@ -4009,7 +4009,7 @@ c_amnash = {
     }
     7057.8.3 = {
         holder = lineaketh34 
-    
+    }
 	#fiction
 	7052.3.25 = {
 		holder = lineudo52 # Akvoth
@@ -4593,14 +4593,14 @@ c_uzha = {
     }											
 	#fiction
 	7088.6.24 = {
-		holder = lineaketh35 # Sakun
+		holder = lineaketh36 # Sakun
 		liege = d_ghurzun
 		change_development_level = 6
 	}
 	7131.1.19 = {
-		holder = lineaketh36 # Yotaen
+		holder = lineaketh37 # Yotaen
 	}
 	7181.7.17 = {
-		holder = lineaketh37 # Akul
+		holder = lineaketh38 # Akul
 	}
 }
