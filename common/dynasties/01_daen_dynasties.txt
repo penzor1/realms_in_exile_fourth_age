@@ -55,3 +55,9 @@ dynasty_bondin = {
 	culture = "nurnoth"
 	motto = dynn_bondin_motto
 }
+
+dynasty_ruinond = {
+	name = "dynn_ruinond"
+	culture = "nurnoth"
+	motto = dynn_ruinond_motto
+}
