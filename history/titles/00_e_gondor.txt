@@ -3966,7 +3966,14 @@ c_faedur = { # Faedur
 }	
 
 ## Duchy of Cormalthen ##
-#d_cormalthen = {} # Cormalthen
+d_cormalthen = {
+
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+		holder = lineofcaran2 # Cirion
+		liege = k_ithilien
+		de_jure_liege = e_reunitedkingdom
+	}
+}
 c_arandal = { #Arandal
 	# House Arandal
 	#6976.1.1 = {
@@ -3980,12 +3987,17 @@ c_arandal = { #Arandal
 		change_development_level = -100			
 		government = wastelands_government
 	}
-	#fiction
-	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
-		holder = lineofcaran2 # Cirion
-		liege = k_ithilien
-		government = feudal_government
-		change_development_level = 2
+	#fiction	
+	7052.5.1 = {
+		holder = linesteward40 # Faramir again
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7090.1.1 = {
+		holder = linesteward43 # Elboron
+	}
+	7142.1.1 = {
+		holder = linesteward47 # Hurin
 	}
 }
 c_nindalf = { #Nindalf	
@@ -3994,6 +4006,14 @@ c_nindalf = { #Nindalf
 		holder = k_wastelands_holder
 		change_development_level = -100			
 		government = wastelands_government
+	}
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+		holder = lineofcaran2 # Cirion
+		change_development_level = 2
+		government = feudal_government
+		liege = k_ithilien
+		de_jure_liege = e_reunitedkingdom
+		
 	}
 }
 c_drinbar = { #Drinbar
@@ -4009,6 +4029,14 @@ c_drinbar = { #Drinbar
 	    change_development_level = -100			
 	    government = wastelands_government
     }
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+		holder = lineofcaran2 # Cirion
+		change_development_level = 2
+		government = feudal_government
+		liege = k_ithilien
+		de_jure_liege = e_reunitedkingdom
+		
+	}
 }
 
 ### Kingdom of Lebennin ###
@@ -5272,6 +5300,15 @@ k_belfalas = { # Principality of Dol Amroth
 		liege = e_reunitedkingdom
 		de_jure_liege = e_reunitedkingdom
 	}
+	7088.1.1 = {
+		holder = dolamroth28 # Elphir
+	}
+	7121.1.1 = {
+		holder = dolamroth37 #Agathor
+	}
+    7158.6.10 = {
+        holder = dolamroth39 #Siriondil
+    }
 }	
 			
 ## Duchy of Lond Ernil ##		
@@ -5434,6 +5471,19 @@ d_lond_ernil = { # Lond Ernil
 	7043.1.1 = {
 		holder = dolamroth27 # Imrahil the Fair 
 	}
+	7052.5.1 = {
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7088.1.1 = {
+		holder = dolamroth28 # Elphir
+	}
+	7121.1.1 = {
+		holder = dolamroth37 #Agathor
+	}
+    7158.6.10 = {
+        holder = dolamroth39 #Siriondil
+    }
 }			
 c_dol_amroth = { #Dol Amroth
 	1.1.1 = {
@@ -5595,6 +5645,19 @@ c_dol_amroth = { #Dol Amroth
 	7043.1.1 = {
 		holder = dolamroth27 # Imrahil the Fair 
 	}
+	7052.5.1 = {
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7088.1.1 = {
+		holder = dolamroth28 # Elphir
+	}
+	7121.1.1 = {
+		holder = dolamroth37 #Agathor
+	}
+    7158.6.10 = {
+        holder = dolamroth39 #Siriondil
+    }
 }				
 c_nargond = { #Nargond
 	3890.1.1 = {
@@ -5749,6 +5812,19 @@ c_nargond = { #Nargond
 	7043.1.1 = {
 		holder = dolamroth27 # Imrahil the Fair 
 	}
+	7052.5.1 = {
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7088.1.1 = {
+		holder = dolamroth28 # Elphir
+	}
+	7121.1.1 = {
+		holder = dolamroth37 #Agathor
+	}
+    7158.6.10 = {
+        holder = dolamroth39 #Siriondil
+    }
 }	
 
 ## Duchy of Methrast ##		
@@ -5873,7 +5949,16 @@ d_methrast = { # Methrast
 	7024.1.1 = {		
 		holder = linecelebharn3 # Castamir 
 	}
-}				
+	7089.1.1 = {		
+		holder = linecelebharn5 # Isildil
+	}
+	7123.1.1 = {
+        holder = linecelebharn11 #Lintoron
+    }
+	7123.1.1 = {
+        holder = linecelebharn11 #Lintoron
+    }
+
 c_methrast = { #Methrast
 3950.11.12 = {
         holder = lineofulrad1 #Ulrad
@@ -5997,6 +6082,12 @@ c_methrast = { #Methrast
 	7024.1.1 = {		
 		holder = linecelebharn3 # Castamir 
 	}
+	7089.1.1 = {		
+		holder = linecelebharn5 # Isildil
+	}
+	7123.1.1 = {
+        holder = linecelebharn11 #Lintoron
+    }
 }			
 c_tyliand = { #Tyliand
 	3950.11.12 = {
@@ -6124,7 +6215,7 @@ c_tyliand = { #Tyliand
     }
     7139.10.15 = {
         holder = lineofulrad79 #Gaeraglar
-		liege = e_reunitedkingdom
+		liege = k_
 		de_jure_liege = e_reunitedkingdom
     }
 }				
@@ -6401,6 +6492,17 @@ d_dor_en_ernil = { # Dor-en-Ernil
 	7033.1.1 = {		
 		holder = linedurthoron8 # Herion 
 	}
+	7089.1.1 = {		
+		holder = linedurthoron9 # Belecthor
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7120.1.1 = {
+        holder = linedurthoron24 #Valandil
+    }
+    7172.9.15 = {
+        holder = linedurthoron26 #Imlach
+    }
 }
 c_linhir = { #Linhir
 	6730.1.1 = {
@@ -6429,6 +6531,17 @@ c_linhir = { #Linhir
 	7033.1.1 = {		
 		holder = linedurthoron8 # Herion 
 	}
+	7089.1.1 = {		
+		holder = linedurthoron9 # Belecthor
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7120.1.1 = {
+        holder = linedurthoron24 #Valandil
+    }
+    7172.9.15 = {
+        holder = linedurthoron26 #Imlach
+    }
 }		
 c_tarnost = { #Tarnost		
 	3950.7.23 = {
@@ -6575,6 +6688,17 @@ c_anghabar = { #Anghabar
 	7033.1.1 = {		
 		holder = linedurthoron8 # Herion 
 	}
+	7089.1.1 = {		
+		holder = linedurthoron9 # Belecthor
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7120.1.1 = {
+        holder = linedurthoron24 #Valandil
+    }
+    7172.9.15 = {
+        holder = linedurthoron26 #Imlach
+    }
 }		
 c_naur_amrun = { #Naur Amrûn
 	6730.1.1 = {
@@ -6603,6 +6727,17 @@ c_naur_amrun = { #Naur Amrûn
 	7033.1.1 = {		
 		holder = linedurthoron8 # Herion 
 	}
+	7089.1.1 = {		
+		holder = linedurthoron9 # Belecthor
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7120.1.1 = {
+        holder = linedurthoron24 #Valandil
+    }
+    7172.9.15 = {
+        holder = linedurthoron26 #Imlach
+    }
 }	
 c_bar_erib = { #Bar-Erib	
 	4000.3.20 = {
@@ -6781,6 +6916,9 @@ d_edhelion = { # Edhelion
 	7024.1.1 = {		
 		holder = lineimloth32 # Thingol 
 	}
+	7043.1.1 = {
+		holder = lineimloth34 # Eldacar
+	}
 }		
 c_edhelion = { #Edhelion
 	2860.1.1 = {		
@@ -6835,6 +6973,9 @@ c_edhelion = { #Edhelion
 	7024.1.1 = {		
 		holder = lineimloth32 # Thingol 
 	}
+	7043.1.1 = {
+		holder = lineimloth34 # Eldacar
+	}
 }		
 c_cathlond = { #Cathlond
 	4873.1.1 = {		
@@ -6887,6 +7028,9 @@ c_cathlond = { #Cathlond
 	7024.1.1 = {		
 		holder = lineimloth32 # Thingol 
 	}
+	7043.1.1 = {
+		holder = lineimloth34 # Eldacar
+	}
 }	
 c_taur_en_ernil = { # Taur-en-Ernil	
 	4873.1.1 = {		
@@ -6938,6 +7082,9 @@ c_taur_en_ernil = { # Taur-en-Ernil
 	}
 	7024.1.1 = {		
 		holder = lineimloth32 # Thingol 
+	}
+	7043.1.1 = {
+		holder = lineimloth34 # Eldacar
 	}
 }
 c_south_ringlo = { #South Ringló
@@ -6993,9 +7140,8 @@ c_south_ringlo = { #South Ringló
 	7024.1.1 = {		
 		holder = lineimloth32 # Thingol 
 	}
-	7032.12.9 = { #Why is she landed here? should be lineimloth34 or 39
-		holder = lineimloth40 # Súrien
-		liege = d_edhelion
+	7043.1.1 = {
+		holder = lineimloth34 # Eldacar
 	}
 }
 
@@ -8450,7 +8596,7 @@ c_emyn_morthond = { # Emyn Morthond
     }
     7129.3.3 = {
         holder = lineofulmondur75 #Mallor
-		liege = e_reunitedkingdom
+		liege = k_lamedon
 		de_jure_liege = e_reunitedkingdom
     }	
 }	
