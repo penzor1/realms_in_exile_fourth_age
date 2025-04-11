@@ -500,6 +500,15 @@ lineoffreca16 = { # Brant Wulfgarsson
 	
 #	7036.3.10 = {} # In AotR he is born on this date.
 	7032.3.10 = { birth = yes }
+	7174.3.2 = {
+		effect = {
+			make_tributary = {
+				TYPE = tributary_permanent
+				SUZERAIN = character:lineofeofor20 #Éofara
+				TRIBUTARY = character:lineoffreca16 # Brant
+			}
+		}
+	}
 }
 
 # Wulfdening Kings
