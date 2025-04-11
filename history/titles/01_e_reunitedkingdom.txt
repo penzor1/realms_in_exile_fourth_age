@@ -29,7 +29,7 @@ e_reunitedkingdom = {
 		holder = lineisildur43 # Eldarion
 	}
 	7274.1.1 = { #FO220
-		holder = lineisildur47 # Elendil #assasinated
+		holder = lineisildur47 # Elendil #assassinated
 		effect = {
 			title:e_reunitedkingdom.holder ?= {
 				set_realm_capital = title:c_osgiliath
