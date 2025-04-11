@@ -61,11 +61,11 @@ lineofhundarion20 = {
 	7125.12.6 = {
 		birth = yes
 	}
-	7173.3.2 = {
+	7174.3.2 = {
 		effect = {
 			make_tributary = {
 				TYPE = tributary_permanent
-				SUZERAIN = character:lineisildur43 # Aragorn
+				SUZERAIN = character:lineisildur43 # Eldarion
 				TRIBUTARY = character:lineofkidjunagim5 # Kidjun
 			}
 		}
