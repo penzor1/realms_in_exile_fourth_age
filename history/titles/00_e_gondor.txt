@@ -10054,6 +10054,10 @@ c_torrant = { #Torrant
 	7023.1.1 = {
 		holder =  linevingintur6 # Vorondil 
 	}
+	#temp until history is added just to fix border
+	7055.1.1 = {
+		holder =  lineisildur43
+	}
 }			
 c_imrathion = { #Imrathion	
 	6564.1.1 = {
