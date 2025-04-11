@@ -1687,29 +1687,6 @@ lineofborlach89 = {
     }
 }
 
-lineofborlach89 = {
-    name = Elboron
-
-    dynasty = dynasty_borlachionath
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineofborlach70
-    mother = lineofborlach71
-
-	trait = blood_of_numenor_1
-    7131.9.7 = {
-        birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7220.8.15 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
 # Line of Lamedon
 
 linelamedon41wife = {
