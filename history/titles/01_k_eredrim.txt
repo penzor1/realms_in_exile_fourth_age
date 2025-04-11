@@ -1,0 +1,13 @@
+k_eredrim = {
+	7070.1.1 = { # Foundation of the reunited kingdoms of gondor and arnor
+		holder = lineofhundarion7 # Ermorn
+		de_jure_liege = e_reunitedkingdom
+		liege = 0
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_eredrim_kingdom
+			}
+		}
+	}
+}
