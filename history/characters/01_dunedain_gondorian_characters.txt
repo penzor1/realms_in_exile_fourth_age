@@ -3367,3 +3367,1510 @@ lineaxantur35 = {
         death = { death_reason = death_natural_causes }
     }
 }
+
+# Line of Hathor
+
+linehathor36 = {
+    name = Bregolas
+
+    dynasty = dynasty_rhandir
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_1
+
+    7055.3.9 = {
+        birth = yes
+    }
+
+    7105.7.21 = {
+        add_spouse = linehathor37
+    }
+
+    7125.6.6 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+linehathor37 = {
+    name = Nessiel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7088.3.9 = {
+        birth = yes
+    }
+
+    7187.10.13 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+linehathor38 = {
+    name = Hareth
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = linehathor36
+    mother = linehathor37
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7113.7.5 = {
+        birth = yes
+    }
+
+    7219.11.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linehathor39 = {
+    name = Adrahil
+
+    dynasty = dynasty_rhandir
+    religion = faith_edain
+    culture = gondorian
+
+    father = linehathor36
+    mother = linehathor37
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7117.1.19 = {
+        birth = yes
+    }
+
+    7161.12.20 = {
+        add_spouse = linehathor40
+    }
+
+    7196.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linehathor40 = {
+    name = Nildawen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = homosexual
+
+    trait = blood_of_numenor_1
+
+    7115.6.24 = {
+        birth = yes
+    }
+
+    7210.7.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linehathor41 = {
+    name = Ragnir
+
+    dynasty = dynasty_rhandir
+    religion = faith_edain
+    culture = gondorian
+
+    father = linehathor39
+    mother = linehathor40
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7163.3.26 = {
+        birth = yes
+    }
+
+    7201.11.4 = {
+        add_spouse = linehathor42
+    }
+
+    7257.7.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linehathor42 = {
+    name = Boromis
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7166.12.23 = {
+        birth = yes
+    }
+
+    7276.12.13 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+linehathor43 = {
+    name = Belegund
+
+    dynasty = dynasty_rhandir
+    religion = faith_edain
+    culture = gondorian
+
+    father = linehathor39
+    mother = linehathor40
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7167.1.18 = {
+        birth = yes
+    }
+
+    7197.3.2 = {
+        add_spouse = linehathor44
+    }
+
+    7246.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linehathor44 = {
+    name = Miryaiel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7166.1.15 = {
+        birth = yes
+    }
+
+    7243.8.8 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+# Line of Vingitur
+
+linevingintur6wife  = {
+	name = Irime
+    female = yes
+
+	religion = faith_edain
+	culture = orodbedhrim
+
+	trait = blood_of_numenor_1
+	6993.2.6={
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}			
+	}
+	7090.4.3={
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+linevingintur9wife  = {
+	name = Mirwen
+    female = yes
+
+	religion = faith_edain
+	culture = orodbedhrim
+
+	trait = blood_of_numenor_1
+	6953.3.4={
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}			
+	}
+	7060.1.1={
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevingitur20 = {
+    name = Vinyaran
+
+    dynasty = dynasty_arlefnui
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = linevingitur9
+    mother = linevingitur9wife
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7045.5.25 = {
+        birth = yes
+    }
+
+    7072.12.5 = {
+        add_spouse = linevingitur21
+    }
+
+    7148.11.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linevingitur21 = {
+    name = Elwing
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7055.7.14 = {
+        birth = yes
+    }
+
+    7130.10.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linevingitur22 = {
+    name = Vardamir
+
+    dynasty = dynasty_arlefnui
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = linevingitur20
+    mother = linevingitur21
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7091.9.8 = {
+        birth = yes
+    }
+
+    7121.6.24 = {
+        add_spouse = linevingitur23
+    }
+
+    7135.8.10 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+linevingitur23 = {
+    name = Vana
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7094.11.14 = {
+        birth = yes
+    }
+
+    7200.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linevingitur24 = {
+    name = Veaher
+
+    dynasty = dynasty_arlefnui
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = linevingitur22
+    mother = linevingitur23
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7129.1.9 = {
+        birth = yes
+    }
+
+    7181.11.17 = {
+        add_spouse = linevingitur25
+    }
+
+    7214.7.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linevingitur25 = {
+    name = Vana
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7127.10.19 = {
+        birth = yes
+    }
+
+    7226.6.25 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+linevingitur26 = {
+    name = Virinehtar
+
+    dynasty = dynasty_arlefnui
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = linevingitur20
+    mother = linevingitur21
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7096.8.15 = {
+        birth = yes
+    }
+
+    7151.6.20 = {
+        add_spouse = linevingitur27
+    }
+
+    7172.4.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linevingitur27 = {
+    name = Lloteien
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7096.1.24 = {
+        birth = yes
+    }
+
+    7190.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linevingitur28 = {
+    name = Voromir
+
+    dynasty = dynasty_arlefnui
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = linevingitur26
+    mother = linevingitur27
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7151.8.20 = {
+        birth = yes
+    }
+
+    7182.11.27 = {
+        add_spouse = linevingitur29
+    }
+
+    7224.10.3 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+linevingitur29 = {
+    name = Aragiliel
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7151.5.15 = {
+        birth = yes
+    }
+
+    7227.9.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+# Line of Pinnath Gelin
+
+1519wife = {
+	name = Surien
+    female = yes
+	
+	religion = faith_edain
+	culture = orodbedhrim
+
+	trait = blood_of_numenor_1
+	7013.1.1={
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}			
+	}
+    7045.3.8 = {
+        add_spouse = 1519
+    }
+	7100.1.1={
+		death = yes					
+	}
+}
+
+linepinnathgelin40 = {
+    name = Soronto
+
+    dynasty = dynasty_pinnath_gelin
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = 1519
+    mother = 1519wife
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7065.4.11 = {
+        birth = yes
+    }
+
+    7085.10.25 = {
+        add_spouse = linepinnathgelin41
+    }
+
+    7167.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepinnathgelin41 = {
+    name = Lothwing
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7068.7.17 = {
+        birth = yes
+    }
+
+    7175.2.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepinnathgelin42 = {
+    name = Gwelwen
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = linepinnathgelin40
+    mother = linepinnathgelin41
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7101.9.21 = {
+        birth = yes
+    }
+
+    7206.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepinnathgelin43 = {
+    name = Vinyaher
+
+    dynasty = dynasty_pinnath_gelin
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = linepinnathgelin40
+    mother = linepinnathgelin41
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7112.2.12 = {
+        birth = yes
+    }
+
+    7134.7.23 = {
+        add_spouse = linepinnathgelin44
+    }
+
+    7200.12.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepinnathgelin44 = {
+    name = Luthien
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7114.5.21 = {
+        birth = yes
+    }
+
+    7189.8.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepinnathgelin45 = {
+    name = Cuthalion
+
+    dynasty = dynasty_pinnath_gelin
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = linepinnathgelin43
+    mother = linepinnathgelin44
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7144.4.28 = {
+        birth = yes
+    }
+
+    7173.1.26 = {
+        add_spouse = linepinnathgelin46
+    }
+
+    7228.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepinnathgelin46 = {
+    name = Elenwing
+    female = yes
+
+    religion = faith_edain
+    culture = orodbedhrim
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7143.8.22 = {
+        birth = yes
+    }
+
+    7225.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+# Line of Anfalas
+
+lineanfalas29 = {
+    name = Veandil
+
+    dynasty = dynasty_anfalas
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    father = lineanfalas20
+    mother = lineimloth36
+
+    trait = blood_of_numenor_1
+
+    7042.5.3 = {
+        birth = yes
+    }
+
+    7067.1.12 = {
+        add_spouse = lineanfalas30
+    }
+
+    7150.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineanfalas30 = {
+    name = Aredhel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7050.8.3 = {
+        birth = yes
+    }
+
+    7125.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineanfalas31 = {
+    name = Elnith
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineanfalas29
+    mother = lineanfalas30
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7075.8.4 = {
+        birth = yes
+    }
+
+    7149.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineanfalas32 = {
+    name = Andreth
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineanfalas29
+    mother = lineanfalas30
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7079.2.5 = {
+        birth = yes
+    }
+
+    7158.1.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineanfalas33 = {
+    name = Feandil
+
+    dynasty = dynasty_anfalas
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineanfalas29
+    mother = lineanfalas30
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7083.5.22 = {
+        birth = yes
+    }
+
+    7125.12.25 = {
+        add_spouse = lineanfalas34
+    }
+
+    7171.4.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineanfalas34 = {
+    name = Narniel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7081.9.9 = {
+        birth = yes
+    }
+
+    7165.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineanfalas35 = {
+    name = Beldir
+
+    dynasty = dynasty_anfalas
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineanfalas33
+    mother = lineanfalas34
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7125.4.21 = {
+        birth = yes
+    }
+
+    7161.8.5 = {
+        add_spouse = lineanfalas36
+    }
+
+    7216.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineanfalas36 = {
+    name = Forowen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7127.6.17 = {
+        birth = yes
+    }
+
+    7232.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineanfalas37 = {
+    name = Orophin
+
+    dynasty = dynasty_anfalas
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineanfalas33
+    mother = lineanfalas34
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7129.1.19 = {
+        birth = yes
+    }
+
+    7159.8.1 = {
+        add_spouse = lineanfalas38
+    }
+
+    7222.2.28 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineanfalas38 = {
+    name = Narime
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7127.4.6 = {
+        birth = yes
+    }
+
+    7218.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineanfalas39 = {
+    name = Calimawen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineanfalas33
+    mother = lineanfalas34
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7132.4.14 = {
+        birth = yes
+    }
+
+    7223.4.25 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+# Line of Nos Palantir
+
+linepalantir7sonwife = {
+	name = Alcarin
+    female = yes
+
+	religion = faith_edain
+	culture = gondorian
+
+	trait = blood_of_numenor_1
+	7024.2.6 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}	
+	}
+	7095.3.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linepalantir28 = {
+    name = Isildur
+
+    dynasty = dynasty_serelond
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    father = linepalantir7son
+    mother = linepalantir7sonwife
+
+    trait = blood_of_numenor_1
+
+    7070.6.3 = {
+        birth = yes
+    }
+
+    7104.8.23 = {
+        add_spouse = linepalantir29
+    }
+
+    7156.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepalantir29 = {
+    name = Idril
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7087.12.12 = {
+        birth = yes
+    }
+
+    7187.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepalantir30 = {
+    name = Edhetariel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = linepalantir28
+    mother = linepalantir29
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7117.8.24 = {
+        birth = yes
+    }
+
+    7220.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepalantir31 = {
+    name = Ivrindil
+
+    dynasty = dynasty_serelond
+    religion = faith_edain
+    culture = gondorian
+
+    father = linepalantir28
+    mother = linepalantir29
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7129.5.25 = {
+        birth = yes
+    }
+
+    7171.3.5 = {
+        add_spouse = linepalantir32
+    }
+
+    7216.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepalantir32 = {
+    name = Gilmith
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7126.10.5 = {
+        birth = yes
+    }
+
+    7218.4.3 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+linepalantir33 = {
+    name = Elanor
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = linepalantir31
+    mother = linepalantir32
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7174.3.10 = {
+        birth = yes
+    }
+
+    7260.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepalantir34 = {
+    name = Ingoldo
+
+    dynasty = dynasty_serelond
+    religion = faith_edain
+    culture = gondorian
+
+    father = linepalantir31
+    mother = linepalantir32
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7177.9.1 = {
+        birth = yes
+    }
+
+    7199.10.15 = {
+        add_spouse = linepalantir35
+    }
+
+    7280.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linepalantir35 = {
+    name = Parawen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7179.2.8 = {
+        birth = yes
+    }
+
+    7259.9.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+# Line of Astandur
+
+lineastandur7wife = {
+	name = Vaire
+    female = yes
+
+	religion = faith_edain
+	culture = gondorian
+
+	trait = blood_of_numenor_1
+	6989.4.7={
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
+	7090.2.3={
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineastandur10wife = {
+	name = Nessiel
+
+	religion = faith_edain
+	culture = gondorian
+
+	trait = blood_of_numenor_1
+	7012.3.8={
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
+	7101.4.2={
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineastandur13 = {
+    name = Gundor
+
+    dynasty = dynasty_harithilien
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    father = lineastandur10
+    mother = linastanur10wife
+
+    trait = blood_of_numenor_1
+
+    7059.9.8 = {
+        birth = yes
+    }
+
+    7102.4.17 = {
+        add_spouse = lineastandur14
+    }
+
+    7155.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur14 = {
+    name = Lossie
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7085.5.1 = {
+        birth = yes
+    }
+
+    7174.2.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur15 = {
+    name = Elegost
+
+    dynasty = dynasty_harithilien
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineastandur13
+    mother = lineastandur14
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7110.6.20 = {
+        birth = yes
+    }
+
+    7165.10.3 = {
+        add_spouse = lineastandur16
+    }
+
+    7204.3.11 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+lineastandur16 = {
+    name = Lindamel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7112.3.13 = {
+        birth = yes
+    }
+
+    7200.10.7 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+lineastandur17 = {
+    name = Emerwen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineastandur15
+    mother = lineastandur16
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7165.2.22 = {
+        birth = yes
+    }
+
+    7273.2.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur18 = {
+    name = Eledhwen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineastandur15
+    mother = lineastandur16
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7166.6.21 = {
+        birth = yes
+    }
+
+    7271.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur19 = {
+    name = Anborn
+
+    dynasty = dynasty_harithilien
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineastandur15
+    mother = lineastandur16
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7167.1.27 = {
+        birth = yes
+    }
+
+    7220.11.19 = {
+        add_spouse = lineastandur20
+    }
+
+    7241.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur20 = {
+    name = Siliel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7170.3.20 = {
+        birth = yes
+    }
+
+    7263.9.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur21 = {
+    name = Siriondil
+
+    dynasty = dynasty_harithilien
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineastandur13
+    mother = lineastandur14
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7112.12.27 = {
+        birth = yes
+    }
+
+    7148.9.15 = {
+        add_spouse = lineastandur22
+    }
+
+    7210.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur22 = {
+    name = Andriel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7110.6.12 = {
+        birth = yes
+    }
+
+    7193.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur23 = {
+    name = Brithwen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineastandur21
+    mother = lineastandur22
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7150.9.23 = {
+        birth = yes
+    }
+
+    7230.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur24 = {
+    name = Elemmacil
+
+    dynasty = dynasty_harithilien
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineastandur21
+    mother = lineastandur22
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7153.5.28 = {
+        birth = yes
+    }
+
+    7193.7.19 = {
+        add_spouse = lineastandur25
+    }
+
+    7236.8.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur25 = {
+    name = Aragiliel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7155.10.20 = {
+        birth = yes
+    }
+
+    7252.7.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur26 = {
+    name = Ainarauta
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineastandur13
+    mother = lineastandur14
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7117.10.23 = {
+        birth = yes
+    }
+
+    7222.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+

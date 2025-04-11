@@ -871,7 +871,7 @@
 	}			  
 	#canon
 	7052.5.1 = { # Cleansing of Ithil
-		holding = none
+		holding = castle_holding
 	}
 }	
 
@@ -893,7 +893,7 @@
 	}
 	#canon
 	7052.5.1 = { # Cleansing of Ithil
-		holding = none
+		holding = castle_holding
 	}
 }
 						
@@ -1792,7 +1792,7 @@
 			flooded_lands
 			bandits
 		}
-	}		   
+	}	   
 }
 
 600 = {	   #Nindalf (b_nindalf)
@@ -1807,6 +1807,11 @@
 	  	religion = faith_wastelands_pagan
 	  	holding = none
 	}  
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+	culture = gondorian					
+	religion = faith_edain	
+	holding = castle_holding
+	}	  
 }
 
 601 = {	   #Tel Verenaer (b_tel_verenaer)
@@ -1844,6 +1849,11 @@
 			wild_orcs
 		}
 	}
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+	culture = gondorian					
+	religion = faith_edain	
+	holding = castle_holding
+	}
 }
 
 603 = {	   #Tirith Malbor (b_tirith_malbor)
@@ -1857,7 +1867,7 @@
 		culture = wastelands
 	  	religion = faith_wastelands_pagan
 	  	holding = none
-	}		
+	}			  
 }
 
 606 = {	   #Tol Malbor (b_tol_malbor)

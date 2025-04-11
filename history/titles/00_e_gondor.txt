@@ -3543,6 +3543,20 @@ d_harithilien = { # South Ithilien
 	7000.1.1 = {		
 		holder = lineastandur7 # Elurin
 	}
+	7088.1.1 = {
+        holder = lineastandur10 #Falassion
+		liege = k_ithilien
+		de_jure_liege = e_reunitedkingdom
+    }
+	7123.1.1 = {
+        holder = lineastandur13 #Gundor
+    }
+    7155.10.16 = {
+        holder = lineastandur15 #Elegost
+    }
+    7204.3.11 = { 
+        holder = lineastandur19 #Anborn
+    }
 }	
 c_alagdor = { #Alagdor
 	#Alagdor house
@@ -3597,6 +3611,20 @@ c_alagdor = { #Alagdor
 	7000.1.1 = {		
 		holder = lineastandur7 # Elurin
 	}
+	7088.1.1 = {
+        holder = lineastandur10 #Falassion
+		liege = k_ithilien
+		de_jure_liege = e_reunitedkingdom
+    }
+	7123.1.1 = {
+        holder = lineastandur13 #Gundor
+    }
+    7155.10.16 = {
+        holder = lineastandur15 #Elegost
+    }
+    7204.3.11 = { 
+        holder = lineastandur19 #Anborn
+    }
 }	
 c_glorel = { #Glorel
 	#Glorel House
@@ -3623,6 +3651,20 @@ c_glorel = { #Glorel
 	7000.1.1 = {		
 		holder = lineastandur7 # Elurin
 	}
+	7088.1.1 = {
+        holder = lineastandur10 #Falassion
+		liege = k_ithilien
+		de_jure_liege = e_reunitedkingdom
+    }
+	7123.1.1 = {
+        holder = lineastandur13 #Gundor
+    }
+    7155.10.16 = {
+        holder = lineastandur15 #Elegost
+    }
+    7204.3.11 = { 
+        holder = lineastandur19 #Anborn
+    }
 }
 c_morvegil = { #Morvegil
 	# Faron house 
@@ -3683,6 +3725,20 @@ c_morvegil = { #Morvegil
 	7000.1.1 = {		
 		holder = lineastandur7 # Elurin
 	}
+	7088.1.1 = {
+        holder = lineastandur10 #Falassion
+		liege = k_ithilien
+		de_jure_liege = e_reunitedkingdom
+    }
+	7123.1.1 = {
+        holder = lineastandur13 #Gundor
+    }
+    7155.10.16 = {
+        holder = lineastandur15 #Elegost
+    }
+    7204.3.11 = { 
+        holder = lineastandur19 #Anborn
+    }
 }	
 c_nethos = { #Nethos
 	# Nepos house 
@@ -3990,7 +4046,13 @@ c_faedur = { # Faedur
 }	
 
 ## Duchy of Cormalthen ##
-#d_cormalthen = {} # Cormalthen
+d_cormalthen = { # Cormalthen
+#fiction
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+		holder = lineofcaran2 # Cirion
+		liege = k_ithilien
+	}
+}
 c_arandal = { #Arandal
 	# House Arandal
 	#6976.1.1 = {
@@ -4008,6 +4070,7 @@ c_arandal = { #Arandal
 	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
 		holder = lineofcaran2 # Cirion
 		liege = k_ithilien
+		de_jure_liege = e_reunitedkingdom
 		government = feudal_government
 		change_development_level = 2
 	}
@@ -4018,6 +4081,14 @@ c_nindalf = { #Nindalf
 		holder = k_wastelands_holder
 		change_development_level = -100			
 		government = wastelands_government
+	}
+	#fiction
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+		holder = lineofcaran2 # Cirion
+		liege = k_ithilien
+		de_jure_liege = e_reunitedkingdom
+		government = feudal_government
+		change_development_level = 2
 	}
 }
 c_drinbar = { #Drinbar
@@ -4033,6 +4104,14 @@ c_drinbar = { #Drinbar
 	    change_development_level = -100			
 	    government = wastelands_government
     }
+	#fiction
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+		holder = lineofcaran2 # Cirion
+		liege = k_ithilien
+		de_jure_liege = e_reunitedkingdom
+		government = feudal_government
+		change_development_level = 2
+	}
 }
 
 ### Kingdom of Lebennin ###
@@ -4305,8 +4384,6 @@ b_bar_sirith = { #Another domain for the Sealords
 	}
     7110.1.1 = {
         holder = lebennin32 #Vingidur
-        liege = e_reunitedkingdom
-		de_jure_liege = e_reunitedkingdom
     }
     7159.6.24 = {
         holder = lebennin34 #Turendil
@@ -8965,10 +9042,17 @@ k_anfalas = { # Province of Anfalas
 		holder = lineanfalas20 # Golasgil 
 		liege = e_gondor_steward
 	}
-	7052.5.1 = {
+	7106.1.1 = {
+        holder = lineanfalas29 #Veandil
 		liege = e_reunitedkingdom
 		de_jure_liege = e_reunitedkingdom
-	}
+    }
+    7150.12.13 = {
+        holder = lineanfalas33 #Feandil
+    }
+    7171.4.17 = {
+        holder = lineanfalas35 #Beldir
+    }
 }	
 
 ## Duchy of Anfalas	##		
@@ -9037,6 +9121,17 @@ d_anfalas = { # Anfalas
 	7031.1.1 = {
 		holder = lineanfalas20 # Golasgil 
 	}
+	7106.1.1 = {
+        holder = lineanfalas29 #Veandil
+		liege = k_anfalas
+		de_jure_liege = e_reunitedkingdom
+    }
+    7150.12.13 = {
+        holder = lineanfalas33 #Feandil
+    }
+    7171.4.17 = {
+        holder = lineanfalas35 #Beldir
+    }
 }
 c_lond_galen = { #Lond Galen
 	6431.1.1 = {
@@ -9101,6 +9196,17 @@ c_lond_galen = { #Lond Galen
 	7031.1.1 = {
 		holder = lineanfalas20 # Golasgil 
 	}
+	7106.1.1 = {
+        holder = lineanfalas29 #Veandil
+		liege = d_anfalas
+		de_jure_liege = e_reunitedkingdom
+    }
+    7150.12.13 = {
+        holder = lineanfalas33 #Feandil
+    }
+    7171.4.17 = {
+        holder = lineanfalas35 #Beldir
+    }
 }		
 c_iantras = { #Iantras
 	3000.1.1 = {
@@ -9230,7 +9336,7 @@ c_iantras = { #Iantras
     }
     7152.2.18 = {
         holder = lineofmanwedur76 #Enthor
-		liege = e_reunitedkingdom
+		liege = d_anfalas
 		de_jure_liege = e_reunitedkingdom
     }	
 }	
@@ -9300,6 +9406,17 @@ c_edhellond = { #Edhellond
 	7031.1.1 = {
 		holder = lineanfalas20 # Golasgil 
 	}
+	7106.1.1 = {
+        holder = lineanfalas29 #Veandil
+		liege = k_anfalas
+		de_jure_liege = e_reunitedkingdom
+    }
+    7150.12.13 = {
+        holder = lineanfalas33 #Feandil
+    }
+    7171.4.17 = {
+        holder = lineanfalas35 #Beldir
+    }
 }				
 c_cobas = { #Cobas
 	3000.1.1 = {
@@ -9373,6 +9490,17 @@ c_cobas = { #Cobas
 	7031.1.1 = {
 		holder = lineanfalas20 # Golasgil 
 	}
+	7106.1.1 = {
+        holder = lineanfalas29 #Veandil
+		liege = k_anfalas
+		de_jure_liege = e_reunitedkingdom
+    }
+    7150.12.13 = {
+        holder = lineanfalas33 #Feandil
+    }
+    7171.4.17 = {
+        holder = lineanfalas35 #Beldir
+    }
 }	
 c_edhellond_2 = { #Ethir Morthond
 	3000.1.1 = {
@@ -9446,6 +9574,17 @@ c_edhellond_2 = { #Ethir Morthond
 	7031.1.1 = {
 		holder = lineanfalas20 # Golasgil 
 	}
+	7106.1.1 = {
+        holder = lineanfalas29 #Veandil
+		liege = k_anfalas
+		de_jure_liege = e_reunitedkingdom
+    }
+    7150.12.13 = {
+        holder = lineanfalas33 #Feandil
+    }
+    7171.4.17 = {
+        holder = lineanfalas35 #Beldir
+    }
 }
 c_pind_rusc = { #Pind Rusc
 	3000.1.1 = {
@@ -9519,6 +9658,17 @@ c_pind_rusc = { #Pind Rusc
 	7031.1.1 = {
 		holder = lineanfalas20 # Golasgil 
 	}
+	7106.1.1 = {
+        holder = lineanfalas29 #Veandil
+		liege = k_anfalas
+		de_jure_liege = e_reunitedkingdom
+    }
+    7150.12.13 = {
+        holder = lineanfalas33 #Feandil
+    }
+    7171.4.17 = {
+        holder = lineanfalas35 #Beldir
+    }
 }	
 
 ## Duchy of Serelond ##		
@@ -9548,7 +9698,21 @@ d_serelond = { # Serelond
 	7030.1.1 = {		
 		holder = linepalantir7 # Glormagil 
 	}
-}	
+	7090.1.1 = {		
+		holder = linepalantir7son # Glormagil
+		liege = k_anfalas
+		de_jure_liege = e_reunitedkingdom
+	}
+	7115.2.12 = {
+        holder = linepalantir28 #Isildur
+    }
+    7156.1.9 = {
+        holder = linepalantir31 #Ivrindil
+    }
+    7216.9.14 = {
+		holder = linepalantir34 #Ingoldo
+	}	
+}
 c_serelond = { #Serelond	
 	3912.1.1 = {
 		holder = lineofanarion1
@@ -9580,6 +9744,20 @@ c_serelond = { #Serelond
 	7030.1.1 = {		
 		holder = linepalantir7 # Glormagil 
 	}
+	7090.1.1 = {		
+		holder = linepalantir7son # Glormagil
+		liege = k_anfalas
+		de_jure_liege = e_reunitedkingdom
+	}
+	7115.2.12 = {
+        holder = linepalantir28 #Isildur
+    }
+    7156.1.9 = {
+        holder = linepalantir31 #Ivrindil
+    }
+    7216.9.14 = {
+		holder = linepalantir34 #Ingoldo
+	}	
 }		
 c_annodrun = { #Annodrûn	
 	3000.1.1 = {
@@ -9736,6 +9914,20 @@ c_annodrun = { #Annodrûn
 	7030.1.1 = {		
 		holder = linepalantir7 # Glormagil 
 	}
+	7090.1.1 = {		
+		holder = linepalantir7son # Glormagil
+		liege = k_anfalas
+		de_jure_liege = e_reunitedkingdom
+	}
+	7115.2.12 = {
+        holder = linepalantir28 #Isildur
+    }
+    7156.1.9 = {
+        holder = linepalantir31 #Ivrindil
+    }
+    7216.9.14 = {
+		holder = linepalantir34 #Ingoldo
+	}	
 }	
 c_eregmar = { #Eregmar
 	3000.1.1 = {
@@ -9770,6 +9962,20 @@ c_eregmar = { #Eregmar
 	7030.1.1 = {		
 		holder = linepalantir7 # Glormagil 
 	}
+	7090.1.1 = {		
+		holder = linepalantir7son # Glormagil
+		liege = k_anfalas
+		de_jure_liege = e_reunitedkingdom
+	}
+	7115.2.12 = {
+        holder = linepalantir28 #Isildur
+    }
+    7156.1.9 = {
+        holder = linepalantir31 #Ivrindil
+    }
+    7216.9.14 = {
+		holder = linepalantir34 #Ingoldo
+	}	
 }	
 
 ### Kingdom of the Pinnath Gelin ###		
@@ -9928,10 +10134,20 @@ k_pinnath_gelin = { # Province of the Pinnath Gelin
 		holder =  1518 # Hirluin 
 		liege = e_gondor_steward 
 	}
-	7052.5.1 = {
+	7052.3.15={
+		holder =  1519 # Araador
 		liege = e_reunitedkingdom
 		de_jure_liege = e_reunitedkingdom
 	}
+	7108.1.1 = {
+        holder = linepinnathgelin40 #Soronto
+    }
+    7167.10.28 = {
+        holder = linepinnathgelin43 #Vinyaher
+    }
+    7200.12.24 = {
+        holder = linepinnathgelin45 #Cuthalion
+    }
 }	
 
 ## Duchy of Hairavercien ##
@@ -10284,6 +10500,20 @@ d_arlefnui = { # Arlefnui
 	7023.1.1 = {
 		holder =  linevingintur6 # Vorondil 
 	}
+	7060.1.1 = {
+		holder =  linevingintur9 # Virinar
+		liege = k_pinnath_gelin
+		de_jure_liege = e_reunitedkingdom
+	}
+	7089.1.1 = {
+        holder = linevingitur20 #Maewhir
+    }
+    7148.11.10 = {
+        holder = linevingitur22 #Galador
+    }
+    7135.8.10 = {
+        holder = linevingitur24 #Daeron
+    }
 }	
 c_arlefnui = { #Arlefnui
 	6711.1.1 = {
@@ -10306,6 +10536,20 @@ c_arlefnui = { #Arlefnui
 	7023.1.1 = {
 		holder =  linevingintur6 # Vorondil 
 	}
+	7060.1.1 = {
+		holder =  linevingintur9 # Virinar
+		liege = k_pinnath_gelin
+		de_jure_liege = e_reunitedkingdom
+	}
+	7089.1.1 = {
+        holder = linevingitur20 #Maewhir
+    }
+    7148.11.10 = {
+        holder = linevingitur22 #Galador
+    }
+    7135.8.10 = {
+        holder = linevingitur24 #Daeron
+    }
 }			
 c_adavalinda = { #Adavalinda
 	3000.1.1 = {
@@ -10337,6 +10581,20 @@ c_adavalinda = { #Adavalinda
 	7023.1.1 = {
 		holder =  linevingintur6 # Vorondil 
 	}
+	7060.1.1 = {
+		holder =  linevingintur9 # Virinar
+		liege = k_pinnath_gelin
+		de_jure_liege = e_reunitedkingdom
+	}
+	7089.1.1 = {
+        holder = linevingitur20 #Maewhir
+    }
+    7148.11.10 = {
+        holder = linevingitur22 #Galador
+    }
+    7135.8.10 = {
+        holder = linevingitur24 #Daeron
+    }
 }	
 
 ## Duchy of Nan-i-Feryn	##		
@@ -10479,10 +10737,20 @@ c_torrant = { #Torrant
 	7023.1.1 = {
 		holder =  linevingintur6 # Vorondil 
 	}
-	#temp until history is added just to fix border
-	7055.1.1 = {
-		holder =  lineisildur43
+	7060.1.1 = {
+		holder =  linevingintur9 # Virinar
+		liege = k_pinnath_gelin
+		de_jure_liege = e_reunitedkingdom
 	}
+	7089.1.1 = {
+        holder = linevingitur20 #Maewhir
+    }
+    7148.11.10 = {
+        holder = linevingitur22 #Galador
+    }
+    7135.8.10 = {
+        holder = linevingitur24 #Daeron
+    }
 }			
 c_imrathion = { #Imrathion	
 	6564.1.1 = {
@@ -10667,6 +10935,20 @@ d_pinnath_gelin = { # The Pinnath Gelin
 	7030.1.1 = {
 		holder =  1518 # Hirluin 
 	}
+	7052.3.15={
+		holder =  1519 # Araador
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7108.1.1 = {
+        holder = linepinnathgelin40 #Soronto
+    }
+    7167.10.28 = {
+        holder = linepinnathgelin43 #Vinyaher
+    }
+    7200.12.24 = {
+        holder = linepinnathgelin45 #Cuthalion
+    }
 }	
 c_idhrilthaeg = { #Idhrilthaeg
 	3000.1.1 = {
@@ -10801,6 +11083,20 @@ c_idhrilthaeg = { #Idhrilthaeg
 	7030.1.1 = {
 		holder =  1518 # Hirluin 
 	}
+	7052.3.15={
+		holder =  1519 # Araador
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7108.1.1 = {
+        holder = linepinnathgelin40 #Soronto
+    }
+    7167.10.28 = {
+        holder = linepinnathgelin43 #Vinyaher
+    }
+    7200.12.24 = {
+        holder = linepinnathgelin45 #Cuthalion
+    }
 }	
 c_udul = { #Udul	
 	5008.1.1 = {
@@ -10925,6 +11221,20 @@ c_udul = { #Udul
 	7030.1.1 = {
 		holder =  1518 # Hirluin 
 	}
+	7052.3.15={
+		holder =  1519 # Araador
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7108.1.1 = {
+        holder = linepinnathgelin40 #Soronto
+    }
+    7167.10.28 = {
+        holder = linepinnathgelin43 #Vinyaher
+    }
+    7200.12.24 = {
+        holder = linepinnathgelin45 #Cuthalion
+    }
 }	
 c_glorfalch = { #Glorfalch
 	3000.1.1 = {
@@ -11059,6 +11369,20 @@ c_glorfalch = { #Glorfalch
 	7030.1.1 = {
 		holder =  1518 # Hirluin 
 	}
+	7052.3.15={
+		holder =  1519 # Araador
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7108.1.1 = {
+        holder = linepinnathgelin40 #Soronto
+    }
+    7167.10.28 = {
+        holder = linepinnathgelin43 #Vinyaher
+    }
+    7200.12.24 = {
+        holder = linepinnathgelin45 #Cuthalion
+    }
 }	
 			
 ## Duchy of Rhandir	##		
@@ -11127,6 +11451,20 @@ d_rhandir = { # Rhandir
 	7030.1.1 = {		
 		holder = linehathor16 # Dailir 
 	}
+	7059.1.1 = {		
+		holder = linehathor18 # Dervorin
+		liege = k_pinnath_gelin
+		de_jure_liege = e_reunitedkingdom
+	}
+	7099.1.1 = {
+        holder = linehathor36 #Bregolas
+    }
+    7125.6.6 = {
+        holder = linehathor39 #Adrahil
+    }
+    7196.8.7 = {
+        holder = linehathor41 #Ragnir
+    }
 }	
 c_rhandir = {#Rhandir
 	3000.1.1 = {
@@ -11185,6 +11523,20 @@ c_rhandir = {#Rhandir
 	7030.1.1 = {		
 		holder = linehathor16 # Dailir 
 	}
+	7059.1.1 = {		
+		holder = linehathor18 # Dervorin
+		liege = k_pinnath_gelin
+		de_jure_liege = e_reunitedkingdom
+	}
+	7099.1.1 = {
+        holder = linehathor36 #Bregolas
+    }
+    7125.6.6 = {
+        holder = linehathor39 #Adrahil
+    }
+    7196.8.7 = {
+        holder = linehathor41 #Ragnir
+    }
 }	
 c_imristo = { #Imristo		
 	3950.5.5 = {
@@ -11351,6 +11703,20 @@ c_tathrendalf = { #Tathrendalf
 	7030.1.1 = {		
 		holder = linehathor16 # Dailir 
 	}
+	7059.1.1 = {		
+		holder = linehathor18 # Dervorin
+		liege = k_pinnath_gelin
+		de_jure_liege = e_reunitedkingdom
+	}
+	7099.1.1 = {
+        holder = linehathor36 #Bregolas
+    }
+    7125.6.6 = {
+        holder = linehathor39 #Adrahil
+    }
+    7196.8.7 = {
+        holder = linehathor41 #Ragnir
+    }
 }	
 c_emyn_glaur = { #Emyn Glaur
 	6231.1.1 = {
@@ -11400,6 +11766,20 @@ c_emyn_glaur = { #Emyn Glaur
 	7030.1.1 = {		
 		holder = linehathor16 # Dailir 
 	}
+	7059.1.1 = {		
+		holder = linehathor18 # Dervorin
+		liege = k_pinnath_gelin
+		de_jure_liege = e_reunitedkingdom
+	}
+	7099.1.1 = {
+        holder = linehathor36 #Bregolas
+    }
+    7125.6.6 = {
+        holder = linehathor39 #Adrahil
+    }
+    7196.8.7 = {
+        holder = linehathor41 #Ragnir
+    }
 }	
 
 ### Kingdom of Harondor	###		
