@@ -122,9 +122,8 @@ lineofyagmuz2 = {
 	trait = brave
 	
 	trait = education_martial_3
-	trait = physique_good_2
+	trait = physique_good_3
 	trait = strong
-	trait = intellect_good_1
 	trait = lisping
 	
 	7089.12.30 = {
