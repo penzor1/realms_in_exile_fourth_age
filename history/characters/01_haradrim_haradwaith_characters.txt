@@ -1,0 +1,235 @@
+﻿# Line of Salomonin
+
+lineofsalomonin4 = {
+    name = Adjan
+
+    dynasty = dynasty_salomonin
+    religion = faith_edain
+    culture = haruze
+
+    sexuality = heterosexual
+
+    7020.4.14 = {
+        birth = yes
+    }
+
+    7042.1.17 = {
+        add_spouse = lineofsalomonin5
+    }
+
+    7096.1.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsalomonin5 = {
+    name = Nen
+    female = yes
+
+    religion = faith_edain
+    culture = haruze
+
+    sexuality = heterosexual
+
+    7025.11.9 = {
+        birth = yes
+    }
+
+    7108.5.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsalomonin6 = {
+    name = Ilked
+
+    dynasty = dynasty_salomonin
+    religion = faith_edain
+    culture = haruze
+
+    father = lineofsalomonin4
+    mother = lineofsalomonin5
+
+    sexuality = bisexual
+
+    7068.8.15 = {
+        birth = yes
+    }
+
+    7097.9.27 = {
+        add_spouse = lineofsalomonin7
+    }
+
+    7126.9.7 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofsalomonin7 = {
+    name = Ru_u_nez
+    female = yes
+
+    religion = faith_edain
+    culture = haruze
+
+    sexuality = heterosexual
+
+    7071.10.23 = {
+        birth = yes
+    }
+
+    7135.11.9 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lineofsalomonin8 = {
+    name = Ma_a_lmadjon
+
+    dynasty = dynasty_salomonin
+    religion = faith_edain
+    culture = haruze
+
+    father = lineofsalomonin6
+    mother = lineofsalomonin7
+
+    sexuality = heterosexual
+
+    7110.4.27 = {
+        birth = yes
+    }
+
+    7133.5.26 = {
+        add_spouse = lineofsalomonin9
+    }
+
+    7186.8.16 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lineofsalomonin9 = {
+    name = Kuraz
+    female = yes
+
+    religion = faith_edain
+    culture = haruze
+
+    sexuality = heterosexual
+
+    7112.10.6 = {
+        birth = yes
+    }
+
+    7201.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsalomonin10 = {
+    name = Vildjalah
+    female = yes
+
+    religion = faith_edain
+    culture = haruze
+
+    father = lineofsalomonin8
+    mother = lineofsalomonin9
+
+    sexuality = heterosexual
+
+    7137.3.22 = {
+        birth = yes
+    }
+
+    7204.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsalomonin11 = {
+    name = Wan
+
+    dynasty = dynasty_salomonin
+    religion = faith_edain
+    culture = haruze
+
+    father = lineofsalomonin8
+    mother = lineofsalomonin9
+
+    sexuality = heterosexual
+
+    7138.7.2 = {
+        birth = yes
+    }
+
+    7164.3.3 = {
+        add_spouse = lineofsalomonin12
+    }
+
+    7215.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsalomonin12 = {
+    name = Ku_u_nez
+    female = yes
+
+    religion = faith_edain
+    culture = haruze
+
+    sexuality = heterosexual
+
+    7137.2.18 = {
+        birth = yes
+    }
+
+    7223.7.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsalomonin13 = {
+    name = Vinko
+
+    dynasty = dynasty_salomonin
+    religion = faith_edain
+    culture = haruze
+
+    father = lineofsalomonin8
+    mother = lineofsalomonin9
+
+    sexuality = heterosexual
+
+    7140.4.14 = {
+        birth = yes
+    }
+
+    7160.9.3 = {
+        add_spouse = lineofsalomonin14
+    }
+
+    7221.9.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsalomonin14 = {
+    name = Aliz
+    female = yes
+
+    religion = faith_edain
+    culture = haruze
+
+    sexuality = heterosexual
+
+    7143.2.14 = {
+        birth = yes
+    }
+
+    7227.11.3 = {
+        death = { death_reason = death_typhus }
+    }
+}
+

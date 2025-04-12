@@ -560,7 +560,7 @@ line_tonredin16wife = {
 		mother = line_tonredin37
 	
 		sexuality = heterosexual
-	
+
 		7099.1.19 = {
 			birth = yes
 		}
@@ -570,4 +570,419 @@ line_tonredin16wife = {
 		}
 	}
 	
+	# Line of Naron
+
+	lineofnaron10 = {
+		name = Maldu_u_n
 	
+		dynasty = dynasty_naron
+		religion = faith_donan
+		culture = donan
+	
+		sexuality = heterosexual
+
+		father = lineofnaron5
+
+		trait = physique_bad_1
+		trait = dwarf
+	
+		7040.1.1 = {
+			birth = yes
+		}
+	
+		7067.12.13 = {
+			add_spouse = lineofnaron11
+		}
+	
+		7119.10.17 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	lineofnaron11 = {
+		name = Nivi
+		female = yes
+	
+		religion = faith_donan
+		culture = donan
+	
+		sexuality = heterosexual
+	
+		7050.10.4 = {
+			birth = yes
+		}
+	
+		7128.9.21 = {
+			death = { death_reason = death_treatment }
+		}
+	}
+	
+	lineofnaron12 = {
+		name = Aldrin
+	
+		dynasty = dynasty_naron
+		religion = faith_donan
+		culture = donan
+	
+		father = lineofnaron10
+		mother = lineofnaron11
+	
+		sexuality = heterosexual
+
+		trait = physique_bad_1
+		trait = dwarf
+	
+		7078.3.18 = {
+			birth = yes
+		}
+	
+		7108.8.15 = {
+			add_spouse = lineofnaron13
+		}
+	
+		7155.9.26 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	lineofnaron13 = {
+		name = Bariz
+		female = yes
+	
+		religion = faith_donan
+		culture = donan
+	
+		sexuality = heterosexual
+	
+		7077.5.15 = {
+			birth = yes
+		}
+	
+		7153.3.3 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	lineofnaron14 = {
+		name = Nu_u_z
+	
+		dynasty = dynasty_naron
+		religion = faith_donan
+		culture = donan
+	
+		father = lineofnaron12
+		mother = lineofnaron13
+	
+		sexuality = heterosexual
+
+		trait = physique_bad_1
+		trait = dwarf
+		trait = twin
+	
+		7119.12.13 = {
+			birth = yes
+		}
+	
+		7146.2.21 = {
+			add_spouse = lineofnaron15
+		}
+	
+		7196.10.12 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	lineofnaron15 = {
+		name = Notan
+		female = yes
+	
+		religion = faith_donan
+		culture = donan
+	
+		sexuality = heterosexual
+	
+		7122.4.12 = {
+			birth = yes
+		}
+	
+		7184.5.2 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+
+	lineofnaron14brother = {
+		name = Do_o_z
+	
+		dynasty = dynasty_naron
+		religion = faith_donan
+		culture = donan
+	
+		father = lineofnaron12
+		mother = lineofnaron13
+	
+		sexuality = heterosexual
+
+		trait = physique_bad_1
+		trait = dwarf
+		trait = twin
+	
+		7119.12.13 = {
+			birth = yes
+		}
+	
+		7195.11.11 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+
+	lineofnaron16 = {
+		name = Vu_u_d
+	
+		dynasty = dynasty_naron
+		religion = faith_donan
+		culture = donan
+
+		father = lineofnaron12
+		mother = lineofnaron13
+	
+		sexuality = heterosexual
+
+		trait = physique_bad_1
+		trait = dwarf
+	
+		7124.2.2 = {
+			birth = yes
+		}
+	
+		7194.3.22 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+# Line of Ban
+
+lineofban7 = {
+    name = Ku_u_klaz
+
+    dynasty = dynasty_ban
+    religion = faith_edain
+    culture = donan
+
+    sexuality = heterosexual
+
+	father = lineofban5
+
+	trait = intellect_bad_1			
+
+    7020.11.16 = {
+        birth = yes
+    }
+
+    7050.5.4 = {
+        add_spouse = lineofban8
+    }
+
+    7095.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofban8 = {
+    name = Djelu_u_n
+    female = yes
+
+    religion = faith_edain
+    culture = donan
+
+    sexuality = heterosexual
+
+    7033.6.1 = {
+        birth = yes
+    }
+
+    7100.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofban9 = {
+    name = Ban
+
+    dynasty = dynasty_ban
+    religion = faith_edain
+    culture = donan
+
+    father = lineofban6
+    mother = lineofban7
+
+    sexuality = heterosexual
+
+	trait = intellect_bad_2
+
+    7072.7.26 = {
+        birth = yes
+    }
+
+    7095.7.18 = {
+        add_spouse = lineofban10
+    }
+
+    7150.2.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofban10 = {
+    name = Elu_u_nen
+    female = yes
+
+    religion = faith_edain
+    culture = donan
+
+    sexuality = heterosexual
+
+    7075.3.9 = {
+        birth = yes
+    }
+
+    7165.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofban11 = {
+    name = Lotan
+    female = yes
+
+    religion = faith_edain
+    culture = donan
+
+    father = lineofban9
+    mother = lineofban10
+
+    sexuality = heterosexual
+
+	trait = intellect_bad_1	
+
+    7096.8.1 = {
+        birth = yes
+    }
+
+    7159.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofban12 = {
+    name = Rammah
+
+    dynasty = dynasty_ban
+    religion = faith_edain
+    culture = donan
+
+    father = lineofban9
+    mother = lineofban10
+
+    sexuality = heterosexual
+
+	trait = intellect_bad_1
+
+    7101.8.12 = {
+        birth = yes
+    }
+
+    7125.9.21 = {
+        add_spouse = lineofban13
+    }
+
+    7191.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofban13 = {
+    name = Djen
+    female = yes
+
+    religion = faith_edain
+    culture = donan
+
+    sexuality = heterosexual
+
+    7103.11.9 = {
+        birth = yes
+    }
+
+    7181.10.28 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+lineofban14 = {
+    name = Leyan
+
+    dynasty = dynasty_ban
+    religion = faith_edain
+    culture = donan
+
+    father = lineofban12
+    mother = lineofban13
+
+    sexuality = heterosexual
+
+	trait = intellect_bad_1	
+
+    7134.2.4 = {
+        birth = yes
+    }
+
+    7158.11.7 = {
+        add_spouse = lineofban15
+    }
+
+    7198.1.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofban15 = {
+    name = Djalah
+    female = yes
+
+    religion = faith_edain
+    culture = donan
+
+    sexuality = heterosexual
+
+    7131.4.24 = {
+        birth = yes
+    }
+
+    7193.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofban16 = {
+    name = Elu_u_nen
+    female = yes
+
+    religion = faith_edain
+    culture = donan
+
+    father = lineofban9
+    mother = lineofban10
+
+    sexuality = heterosexual
+
+	trait = intellect_bad_1	
+
+    7107.10.3 = {
+        birth = yes
+    }
+
+    7177.7.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+

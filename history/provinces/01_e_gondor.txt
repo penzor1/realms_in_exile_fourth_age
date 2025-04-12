@@ -4924,12 +4924,18 @@
 	culture = donan
 	religion = faith_donan
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 1268 = {	  #Iant Menost (b_iant_menost)						
 	culture = donan
 	religion = faith_donan
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 ###		   Harfalas (d_harfalas)						
@@ -5232,6 +5238,9 @@
 	culture = donan
 	religion = faith_donan
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 
 1274 = {	  #Pend Poros (b_pend_poros)						
@@ -5256,6 +5265,9 @@
 			tribe_02
 		}
 	}
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 
 249 = {	   #Harphoros (b_harphoros)
@@ -5275,7 +5287,11 @@
 	7033.1.1 = {
 	 	culture = ungurhai
 	  	religion = lidless_eye
-	}	
+	}
+	7052.5.1 = {
+		culture = donan
+		religion = faith_edain
+	}
 }
 
 964 = {	   #Caras Othari (b_caras_othari)						
@@ -5314,24 +5330,40 @@
 		culture = haruze
 		religion = faith_haruze
 	}
+	7052.5.1 = {
+		culture = donan
+		religion = faith_edain
+	}
 }
 
 960 = {	   #Ethraid Poros (b_ethraid_poros)						
 	culture = gondorian
 	religion = faith_edain
 	holding = none
+	7052.5.1 = {
+		culture = donan
+		religion = faith_edain
+	}
 }
 
 959 = {	   #Amonmál (b_amonmal)						
 	culture = gondorian
 	religion = faith_edain
 	holding = none
+	7052.5.1 = {
+		culture = donan
+		religion = faith_edain
+	}
 }
 
 986 = {	   #Iant Hyarmen (b_iant_hyarmen)						
 	culture = gondorian
 	religion = faith_edain
 	holding = none
+	7052.5.1 = {
+		culture = donan
+		religion = faith_edain
+	}
 }
 
 ##			Ered Eryn (c_ered_eryn)						
@@ -5346,18 +5378,27 @@
 			tribe_02
 		}
 	}
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 966 = {	   #Glamorbel (b_glamorbel)						
 	culture = donan
 	religion = faith_donan
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 965 = {	   #Glameryn (b_glameryn)						
 	culture = donan
 	religion = faith_donan
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 ##			Dirnen (c_dirnen)						
@@ -5366,18 +5407,27 @@
 	culture = donan						
 	religion = faith_donan						
 	holding = castle_holding
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 967 = {	   #Iant Dirnen (b_iant_dirnen)						
 	culture = donan
 	religion = faith_donan
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 969 = {	   #Hyargardh (b_hyargardh)						
 	culture = donan
 	religion = faith_donan
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 
 ###		   Aegardh (d_aegardh)						
@@ -5398,6 +5448,10 @@
 			barracks_02
 			plantations_03
 		}
+	}
+	7052.5.1 = {
+		culture = harondorim
+		religion = faith_edain
 	}
 }
 						
@@ -5444,6 +5498,10 @@
 			plantations_02
 		}
 	}
+	7052.5.1 = {
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 1006 = {	  #Neledhnín (b_neledhnin)						
@@ -5453,24 +5511,40 @@
 	6850.1.1 = {
 		holding = church_holding
 	}
+	7052.5.1 = {
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 984 = {	   #Cabed Malduin (b_cabed_malduin)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 1001 = {	  #Harmaka (b_harmaka)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 1005 = {	  #Yânêt (b_yanet)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 ##			Imladrim (c_imladrim)						
@@ -5489,18 +5563,30 @@
 			hill_forts_01
 		}
 	}
+	7052.5.1 = {
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 
 998 = {	   #Barad Harmaka (b_barad_harmaka)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 1009 = {	  #Ausk Harmaka (b_ausk_harmaka)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 
 ##	Laer (c_laer)
@@ -5526,6 +5612,10 @@
 			hill_farms_01
 		}
 	}
+	7052.5.1 = {
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 
 996 = {	   #Barad Laer (b_barad_laer)
@@ -5535,6 +5625,10 @@
 	buildings = {
 		castle_01
 		plantations_02
+	}
+	7052.5.1 = {
+		culture = harondorim
+		religion = faith_edain
 	}
 }
 
@@ -5557,24 +5651,36 @@
 		culture = haruze
 		religion = faith_haruze
 	}
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 1277 = {	  #Aint Harnen (b_aint_harnen)						
 	culture = haruze
 	religion = faith_haruze
 	holding = city_holding
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 1017 = {	  #Kas Marzuk (b_kas_marzuk)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 1276 = {	  #Barad Marzuk (b_barad_marzuk)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 ##			Marzuk (c_marzuk)						
@@ -5591,18 +5697,27 @@
 		culture = haruze
 		religion = faith_haruze
 	}
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 1008 = {	  #Barad Born (b_barad_born)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 1007 = {	  #Garborn (b_garborn)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 ##			Kêthimi (c_kethimi)						
@@ -5619,18 +5734,27 @@
 		culture = haruze
 		religion = faith_haruze
 	}
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 1275 = {	  #Hallath (b_hallath)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 1016 = {	  #Garhereb (b_garhereb)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		religion = faith_edain
+	}
 }
 						
 ###		   Carnentir (d_carnentir)						
@@ -5648,18 +5772,30 @@
 		culture = haruze
 		religion = faith_haruze
 	}
+	7052.5.1 = {
+		culture = donan
+		religion = faith_donan
+	}
 }
 						
 1284 = {	  #Iant Carnen (b_iant_carnen)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		culture = donan
+		faith = faith_donan
+	}
 }
 						
 1283 = {	  #Bar Carnen (b_bar_carnen)						
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		culture = donan
+		religion = faith_donan
+	}
 }
 						
 ##			Malduin (c_malduin)						
@@ -5672,18 +5808,30 @@
 		culture = haruze
 		religion = faith_haruze
 	}
+	7052.5.1 = {
+		culture = donan
+		religion = faith_donan
+	}
 }
 						
 999 = {	   #Tallath Brann (b_tallath_brann)						
 	culture = donan
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		culture = donan
+		religion = faith_donan
+	}
 }
 						
 981 = {	   #Iant Brann (b_iant_brann)						
 	culture = donan
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = {
+		culture = donan
+		religion = faith_donan
+	}
 }
 						
 ##			Forcarnen (c_forcarnen)						
