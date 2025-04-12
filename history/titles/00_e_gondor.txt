@@ -251,20 +251,20 @@ k_anorien = { # Province of Anórien
 	6083.1.1 = {
 		de_jure_liege = e_gondor_steward
 	}
-	7052.5.1 = { # Founder of the reunited kingdoms of gondor and arnor
-		holder = lineisildur42 # Elessar
-		de_jure_liege = e_reunitedkingdom
+	7052.5.1 = { # Prince of Anórien
+		holder = linebenrodirfinal
 		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
 	}
-	7174.3.2 = { #FO120
-		holder = lineisildur43 # Eldarion
-	}
-	7274.1.1 = { #FO220
-		holder = lineisildur47 # Elendil #assassinatedas
-	}
-	7273.1.2 = {
-		holder = lineisildur50 # Esthel
-	}
+	7104.2.3 = {
+        holder = linebenrodir90 #Malvegil
+    }
+    7164.3.22 = {
+        holder = linebenrodir93 #Valandur
+    }
+    7197.8.23 = {
+        holder = linebenrodir95 #Baragond
+    }
 }
 
 ## Duchy of Minas Tirith ##			
@@ -1671,14 +1671,20 @@ d_gardhon_fuir = { #Gardhon Fuir
 	7030.11.27 = {
 		holder = linebenrodirfinal
 	}
-	7104.2.3 = { # Line of Rodirath dies out, Line of Borlach takes neighbouring realms
-        holder = lineofborlach68 #Meneldil
+	7052.5.1 = {
 		liege = k_anorien
 		de_jure_liege = e_reunitedkingdom
 	}
-	7153.5.17 = {
-		holder = lineofborlach89
-	}
+	7104.2.3 = {
+        holder = linebenrodir90 #Malvegil
+    }
+    7164.3.22 = {
+        holder = linebenrodir93 #Valandur
+    }
+    7197.8.23 = {
+        holder = linebenrodir95 #Baragond
+    }
+
 } 
 c_min_rimmon = { #Min-Rimmon
 	5618.10.11 = {
@@ -1783,14 +1789,17 @@ c_min_rimmon = { #Min-Rimmon
 	7030.11.27 = {
 		holder = linebenrodirfinal
 	}
-	7104.2.3 = { # Line of Rodirath dies out, Line of Borlach takes neighbouring realms
-        holder = lineofborlach68 #Meneldil
-		liege = e_reunitedkingdom
+	7104.2.3 = {
+        holder = linebenrodir90 #Malvegil
+		liege = d_gardhon_fuir
 		de_jure_liege = e_reunitedkingdom
-	}
-	7153.5.17 = {
-		holder = lineofborlach89
-	}
+    }
+    7164.3.22 = {
+        holder = linebenrodir93 #Valandur
+    }
+    7197.8.23 = {
+        holder = linebenrodir95 #Baragond
+    }
 }	
 c_araglas = { #Araglas
 	6620.1.1 = {
@@ -1925,14 +1934,17 @@ c_eryn_fuir = { # Eryn Fuir
 	7030.11.27 = {
 		holder = linebenrodirfinal
 	}
-	7104.2.3 = { # Line of Rodirath dies out, Line of Borlach takes neighbouring realms
-        holder = lineofborlach68 #Meneldil
-		liege = e_reunitedkingdom
+	7104.2.3 = {
+        holder = linebenrodir90 #Malvegil
+		liege = d_gardhon_fuir
 		de_jure_liege = e_reunitedkingdom
-	}
-	7153.5.17 = {
-		holder = lineofborlach89
-	}
+    }
+    7164.3.22 = {
+        holder = linebenrodir93 #Valandur
+    }
+    7197.8.23 = {
+        holder = linebenrodir95 #Baragond
+    }
 }
 
 ## Duchy of Lossarnach ##

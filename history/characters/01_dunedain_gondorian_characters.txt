@@ -1738,7 +1738,7 @@ lineminadir30 = {
     }
 }
 
-# Line of Borlach, Line of Rodirath dies out, Borlach takes the duchy of Gardhon Fuir
+# Line of Borlach
 
 lineofborlach89 = {
     name = Egalmoth
@@ -1782,6 +1782,268 @@ lineofborlach89 = {
     }
 
     7220.8.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+# line of Rodirath
+
+linebenrodirfinalwife = {
+	name = Borien
+    female = yes
+
+	religion = faith_edain
+	culture = gondorian
+	sexuality = heterosexual
+
+	trait = blood_of_numenor_1
+
+	7025.6.1 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
+
+    7049.3.17 = {
+        add_spouse = linebenrodirfinal
+    }
+
+	7104.2.3 = { #102
+		death = { death_reason = death_old_age }
+	}
+}
+
+linebenrodir90 = {
+    name = Malvegil
+
+    dynasty = dynasty_benrodir
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    father = linebenrodirfinal
+    mother = linebenrodirfinalwife
+
+    trait = blood_of_numenor_1
+
+    7060.7.27 = {
+        birth = yes
+    }
+
+    7089.8.5 = {
+        add_spouse = linebenrodir91
+    }
+
+    7164.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linebenrodir91 = {
+    name = Baraniel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7072.7.10 = {
+        birth = yes
+    }
+
+    7180.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linebenrodir92 = {
+    name = Ardien
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = linebenrodir90
+    mother = linebenrodir91
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7094.8.13 = {
+        birth = yes
+    }
+
+    7186.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linebenrodir93 = {
+    name = Valandur
+
+    dynasty = dynasty_benrodir
+    religion = faith_edain
+    culture = gondorian
+
+    father = linebenrodir90
+    mother = linebenrodir91
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7111.12.27 = {
+        birth = yes
+    }
+
+    7157.2.17 = {
+        add_spouse = linebenrodir94
+    }
+
+    7197.8.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linebenrodir94 = {
+    name = Hunleth
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7112.8.28 = {
+        birth = yes
+    }
+
+    7209.8.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linebenrodir95 = {
+    name = Baragond
+
+    dynasty = dynasty_benrodir
+    religion = faith_edain
+    culture = gondorian
+
+    father = linebenrodir93
+    mother = linebenrodir94
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7158.4.16 = {
+        birth = yes
+    }
+
+    7204.12.12 = {
+        add_spouse = linebenrodir96
+    }
+
+    7260.10.21 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+linebenrodir96 = {
+    name = Baraniel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7161.3.21 = {
+        birth = yes
+    }
+
+    7260.8.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linebenrodir97 = {
+    name = Morien
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = linebenrodir93
+    mother = linebenrodir94
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7161.5.15 = {
+        birth = yes
+    }
+
+    7244.3.11 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+linebenrodir98 = {
+    name = Elured
+
+    dynasty = dynasty_benrodir
+    religion = faith_edain
+    culture = gondorian
+
+    father = linebenrodir93
+    mother = linebenrodir94
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7163.8.27 = {
+        birth = yes
+    }
+
+    7197.5.26 = {
+        add_spouse = linebenrodir99
+    }
+
+    7263.7.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linebenrodir99 = {
+    name = Itarilde
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7164.2.25 = {
+        birth = yes
+    }
+
+    7253.12.4 = {
         death = { death_reason = death_natural_causes }
     }
 }
