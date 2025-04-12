@@ -127,7 +127,7 @@ lineisildur48 = {
 	name = An_arion # Anarion Regent of Arnor
 	dynasty_house = house_telcontar #house_anarioni later
 	religion = faith_edain
-	culture = dunedain_ranger #dunedain #for npc gen purposes
+	culture = gondorian
 	father = lineisildur43 # Eldarion
 	mother = linesteward51 # Nessanie
 	
@@ -168,7 +168,7 @@ lineisildur49 = {
 	name = Eldacar # Chief of Watch on Mordor
 	dynasty_house = house_telcontar #house_herumori
 	religion = faith_edain
-	culture = dunedain_ranger #dunedain #for npc gen purposes
+	culture = gondorian
 	father = lineisildur43 # Eldarion
 	mother = linesteward51 # Nessanie
 	
