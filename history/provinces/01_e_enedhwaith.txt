@@ -2134,6 +2134,10 @@
 		religion = faith_daen_gaoth
 		holding = tribal_holding	
 	}
+	7085.5.16 = {
+		religion = faith_edain
+	}
+	
 }
 						
 488 = {	   #Lond Rhaen (b_lond_rhaen)						
@@ -2264,6 +2268,11 @@
 		religion = faith_daen_gaoth
 		holding = tribal_holding	
 	}
+	7052.5.1 = {
+        culture = gondorian
+		religion = faith_edain
+		holding = castle_holding	
+    }
 }
 						
 507 = {	   #Perth Maiwin (b_perth_maiwin)						
@@ -2298,6 +2307,10 @@
 		religion = faith_daen_gaoth
 		holding = tribal_holding	
 	}
+	7088.5.26 = {
+		religion = faith_edain
+	}
+	
 }
 						
 510 = {	   #Bar Mellainendë (b_bar_mellainende)						
@@ -2331,6 +2344,11 @@
 		religion = faith_daen_gaoth
 		holding = tribal_holding
 	}
+	7088.5.26 = {
+        culture = gondorian
+		religion = faith_edain
+		holding = castle_holding	
+    }
 }
 						
 508 = {	   #Rast Nimrais (b_rast_nimrais)						
@@ -2350,6 +2368,11 @@
 		culture = andrastrim
 		religion = faith_daen_gaoth
 		holding = tribal_holding	
+	}
+	7052.5.1 = {
+		culture = orodbedhrim					
+		religion = faith_edain						
+		holding = castle_holding
 	}
 }
 						
@@ -2377,6 +2400,11 @@
 		culture = andrastrim
 		religion = faith_daen_gaoth
 		holding = tribal_holding	
+	}
+	7052.5.1 = {
+		culture = orodbedhrim					
+		religion = faith_edain						
+		holding = castle_holding
 	}
 }
 496 = {	   #Cirith Iaur (b_cirith_iaur)
@@ -2407,6 +2435,11 @@
 		culture = andrastrim
 		religion = faith_daen_gaoth
 		holding = tribal_holding	
+	}
+	7052.5.1 = {
+		culture = orodbedhrim					
+		religion = faith_edain						
+		holding = castle_holding
 	}
 }
 						

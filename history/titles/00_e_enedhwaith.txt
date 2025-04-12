@@ -4035,16 +4035,19 @@ d_parth_i_certemar = {
 		holder = 0
 		liege = 0
 	}
-    7111.4.28 = {
-        holder = line_tonredin38 #Aru_u_ndi_i_rd
+    7088.5.26  = {
+        holder = lineeaudur14 #Hallas
 		liege = k_andrast
 		de_jure_liege = e_reunitedkingdom
     }
-    7154.10.14 = {
-        holder = line_tonredin41 #Sorot
+	7105.1.7 = {
+        holder = lineeaudur15 #Hostamir
     }
-    7206.7.2 = {
-        holder = line_tonredin43 #Kadu_u_n
+    7127.5.10 = {
+        holder = lineeaudur17 #Falmandur
+    }
+    7188.11.14 = {
+        holder = lineeaudur19 #Nolimon
     }
 }
 c_aralanthir = {
@@ -4114,7 +4117,7 @@ c_aralanthir = {
     }
     7111.4.28 = {
         holder = line_tonredin38 #Aru_u_ndi_i_rd
-		liege = k_andrast
+		liege = d_parth_i_certemar
 		de_jure_liege = e_reunitedkingdom
     }
     7154.10.14 = {
@@ -4159,19 +4162,19 @@ c_nannthorod = {
 	7059.2.23 = {
         holder = line_tonredin16 #Ate_e_n
     }
-	7088.5.26 = {
-        holder = line_tonredin36 #Larnen
-    }
-    7111.4.28 = {
-        holder = line_tonredin38 #Aru_u_ndi_i_rd
-		liege = k_andrast
+    7088.5.26  = {
+        holder = lineeaudur14 #Hallas
+		liege = d_parth_i_certemar
 		de_jure_liege = e_reunitedkingdom
     }
-    7154.10.14 = {
-        holder = line_tonredin41 #Sorot
+	7105.1.7 = {
+        holder = lineeaudur15 #Hostamir
     }
-    7206.7.2 = {
-        holder = line_tonredin43 #Kadu_u_n
+    7127.5.10 = {
+        holder = lineeaudur17 #Falmandur
+    }
+    7188.11.14 = {
+        holder = lineeaudur19 #Nolimon
     }
 }
 

@@ -1792,7 +1792,12 @@
 			flooded_lands
 			bandits
 		}
-	}	   
+	}	  
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+	culture = gondorian					
+	religion = faith_edain	
+	holding = castle_holding
+	}	
 }
 
 600 = {	   #Nindalf (b_nindalf)
@@ -1810,7 +1815,7 @@
 	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
 	culture = gondorian					
 	religion = faith_edain	
-	holding = castle_holding
+	holding = none
 	}	  
 }
 
@@ -1827,6 +1832,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7075.3.1 = { #RK waypost castle on the way to Rhovanion established
+	culture = gondorian					
+	religion = faith_edain	
+	holding = none
+	}	
 }
 
 ##			Drinbar (c_drinbar)
