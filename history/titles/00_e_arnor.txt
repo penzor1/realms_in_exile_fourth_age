@@ -7051,6 +7051,10 @@ k_arthedain = {
 			set_capital_county = title:c_annuminas
 		}
 	}
+	7174.3.2 = { 
+		holder = lineisildur48 # Anarion settles in the lands of Arnor
+		liege = e_reunitedkingdom
+	}
 }	
 
 ## d_hyarromenya
