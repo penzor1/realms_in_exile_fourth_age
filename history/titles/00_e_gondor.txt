@@ -2043,7 +2043,7 @@ d_lossarnach = { # Lossarnach
 	}
 	7113.1.1 = { 
         holder = lossarnach36 #Halboron
-        liege = k_anorien
+        liege = e_reunitedkingdom
 		de_jure_liege = e_reunitedkingdom
     }
     7169.10.27 = {
