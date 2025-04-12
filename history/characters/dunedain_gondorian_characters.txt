@@ -26183,9 +26183,6 @@ linelinnarion21 = {
 			learn_language = language_sindarin	
 		}			
 	}
-	7026.1.1 = {
-		add_spouse = linecelebhatol9					
-	}
 	7107.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -40303,7 +40300,7 @@ lineorontorion11 = {
 		}			
 	}
 
-	7063.1.1 = {
+	7084.1.1 = {
 		death = {				
 			death_reason = death_natural_causes				
 		}

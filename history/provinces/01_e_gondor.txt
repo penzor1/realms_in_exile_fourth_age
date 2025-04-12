@@ -4775,24 +4775,40 @@
 		culture = umbarean
 		religion = faith_kings_men_castamir
 		}
+		7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 936 = {	   #Ras Arish (b_ras_arish)						
 	culture = umbarean
 	religion = faith_kings_men_castamir
 	holding = city_holding
+	7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 1264 = {	  #Gobel Mirlond (b_gobel_mirlond)						
 	culture = umbarean
 	religion = faith_kings_men_castamir
 	holding = city_holding
+	7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 1265 = {	  #Kazranzân (b_kazranzan)						
 	culture = umbarean
 	religion = faith_kings_men_castamir
 	holding = none
+	7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 ##			Harthalond (c_harthalond)						
@@ -4809,24 +4825,40 @@
 		culture = haruze
 		religion = faith_haruze
 	}
+	7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 938 = {	   #Has Yayb (b_has_yayb)						
 	culture = umbarean
 	religion = faith_kings_men_castamir
 	holding = city_holding
+	7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 
 2817 = {	  #Bilaris (b_bilaris)
 	culture = umbarean
 	religion = faith_kings_men_castamir
 	holding = city_holding
+	7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 1014 = {	  #Arphôth (b_arphoth)						
 	culture = umbarean
 	religion = faith_kings_men_castamir
 	holding = none
+	7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 ##			Korb Ugarta (c_korb_ugarta)						
@@ -4843,18 +4875,30 @@
 		culture = haruze
 		religion = faith_haruze
 	}
+	7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 1267 = {	  #Kadar-Karab (b_kadar_karab)						
 	culture = haruze
 	religion = faith_haruze
 	holding = city_holding
+	7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 
 2889 = {	  #Râgan (b_ragan)
 	culture = haruze
 	religion = faith_haruze
 	holding = none
+	7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 ##			Menost (c_menost)						
@@ -4868,6 +4912,11 @@
 		buildings = {		
 			tribe_02
 		}
+	}
+	7052.5.1 = { # RK retakes Mirlond
+		culture = harondorim
+		religion = faith_edain
+		holding = castle_holding
 	}
 }
 						
@@ -4935,18 +4984,30 @@
 			tribe_02
 		}
 	}
+	7052.5.1 = { # RK retakes Harfalas
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 1012 = {	  #Eryn Falas (b_eryn_falas)						
 	culture = donan
 	religion = faith_donan
 	holding = none
+	7052.5.1 = { # RK retakes Harfalas
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 1270 = {	  #Adôrutha (b_adorutha)						
 	culture = donan
 	religion = faith_donan
 	holding = none
+	7052.5.1 = { # RK retakes Harfalas
+		culture = harondorim
+		religion = faith_edain
+	}
 }
 						
 ##			Tirfalas (c_tirfalas)						

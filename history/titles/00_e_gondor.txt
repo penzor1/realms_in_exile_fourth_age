@@ -11991,6 +11991,17 @@ d_forethir = { # Forethir
 	7022.1.1 = {
 		holder = lineofcalmacil14 # Belzagar			
 	}
+	7052.5.1 = { # RK retakes Mirlond
+        holder = linecalionath33 #Romendur
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+    }
+    7150.9.13 = {
+        holder = linecalionath36 #Earendur
+    }
+    7176.3.28 = {
+        holder = linecalionath38 #Bregolas
+    }
 }	
 c_mirlond = { #Mirlond
 	3911.1.1 = {
@@ -12084,6 +12095,17 @@ c_mirlond = { #Mirlond
 	7022.1.1 = {
 		holder = lineofcalmacil14 # Belzagar			
 	}
+	7052.5.1 = { # RK retakes Mirlond
+        holder = linecalionath33 #Romendur
+		liege = d_forethir
+		de_jure_liege = e_reunitedkingdom
+    }
+    7150.9.13 = {
+        holder = linecalionath36 #Earendur
+    }
+    7176.3.28 = {
+        holder = linecalionath38 #Bregolas
+    }
 }	
 c_harthalond = { #Harthalond	
 	3911.1.1 = {
@@ -12183,6 +12205,17 @@ c_harthalond = { #Harthalond
 	7022.1.1 = {
 		holder = lineofcalmacil14 # Belzagar			
 	}
+	7052.5.1 = { # RK retakes Mirlond
+        holder = linecalionath33 #Romendur
+		liege = d_forethir
+		de_jure_liege = e_reunitedkingdom
+    }
+    7150.9.13 = {
+        holder = linecalionath36 #Earendur
+    }
+    7176.3.28 = {
+        holder = linecalionath38 #Bregolas
+    }
 }	
 c_korb_ugarta = { #Korb Ugarta
     6705.1.1 = { # Haruzan conquers Mirlond
@@ -12212,6 +12245,17 @@ c_korb_ugarta = { #Korb Ugarta
 		holder = lineofkussika5 # Uzza	
 		liege = d_doriant
 	}
+	7052.5.1 = { # RK retakes Mirlond
+        holder = linecalionath33 #Romendur
+		liege = d_forethir
+		de_jure_liege = e_reunitedkingdom
+    }
+    7150.9.13 = {
+        holder = linecalionath36 #Earendur
+    }
+    7176.3.28 = {
+        holder = linecalionath38 #Bregolas
+    }
 }
 c_menost = { #Menost	
     6705.1.1 = { # Haruzan conquers Mirlond
@@ -12242,7 +12286,18 @@ c_menost = { #Menost
 	7023.1.1 = {
 		holder = lineofbedu4 # Konnen 
 	}
-}	
+	7052.5.1 = { # RK retakes Mirlond
+        holder = linecalionath33 #Romendur
+		liege = d_forethir
+		de_jure_liege = e_reunitedkingdom
+    }
+    7150.9.13 = {
+        holder = linecalionath36 #Earendur
+    }
+    7176.3.28 = {
+        holder = linecalionath38 #Bregolas
+    }
+}
 
 ## Duchy of Harfalas ##			
 d_harfalas = { # Harfalas
@@ -12344,7 +12399,21 @@ d_harfalas = { # Harfalas
 	}
 	7018.1.1 = {			
 		holder = linecalionath20 # Lintoron	
-	}			
+	}
+	7081.1.1 = {			
+		holder = linecalionath21 # Calion
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7090.2.17 = {
+        holder = linecalionath24 #Estel
+    }
+    7111.6.23 = {
+        holder = linecalionath27 #Amrothor
+    }
+    7187.3.19 = {
+        holder = linecalionath30 #Veandur
+    }	
 }		
 c_harfalas = { #Harfalas
 	3911.1.1 = { # The Downfall causes heavy damage
@@ -12435,7 +12504,21 @@ c_harfalas = { #Harfalas
 	}
 	7018.1.1 = {			
 		holder = linecalionath20 # Lintoron	
-	}			
+	}
+	7081.1.1 = {			
+		holder = linecalionath21 # Calion
+		liege = d_harfalas
+		de_jure_liege = e_reunitedkingdom
+	}
+	7090.2.17 = {
+        holder = linecalionath24 #Estel
+    }
+    7111.6.23 = {
+        holder = linecalionath27 #Amrothor
+    }
+    7187.3.19 = {
+        holder = linecalionath30 #Veandur
+    }
 }	
 c_winion = { #Winion	
 	6392.1.1 = {			
@@ -12472,6 +12555,20 @@ c_winion = { #Winion
 	7023.1.1 = {
 		holder = lineofbedu4 # Konnen 
 	}
+	7081.1.1 = {			
+		holder = linecalionath21 # Calion
+		liege = d_harfalas
+		de_jure_liege = e_reunitedkingdom
+	}
+	7090.2.17 = {
+        holder = linecalionath24 #Estel
+    }
+    7111.6.23 = {
+        holder = linecalionath27 #Amrothor
+    }
+    7187.3.19 = {
+        holder = linecalionath30 #Veandur
+    }
 }	
 c_tirfalas = { #Tirfalas
 	5301.1.1 = {			
@@ -12550,7 +12647,21 @@ c_tirfalas = { #Tirfalas
 	}
 	7018.1.1 = {			
 	holder = linecalionath20 # Lintoron	
-	}			
+	}
+	7081.1.1 = {			
+		holder = linecalionath21 # Calion
+		liege = d_harfalas
+		de_jure_liege = e_reunitedkingdom
+	}
+	7090.2.17 = {
+        holder = linecalionath24 #Estel
+    }
+    7111.6.23 = {
+        holder = linecalionath27 #Amrothor
+    }
+    7187.3.19 = {
+        holder = linecalionath30 #Veandur
+    }
 }
 
 ## Duchy of Annún ##			
@@ -12676,6 +12787,20 @@ d_annun = { #Annún
 	7032.1.1 = { # Was destroyed after The Battle Of Narthan. A Peace Treaty Was Signed And Lótu And His Family Was Allowed To Keep The County Of Narthan.		
 		holder = 0	
 	}
+	7052.5.1 = { # RK claims Calambar
+		holder = lineofchief9 # Lótu III
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7109.8.30 = {
+		holder = lineofchief12 # Lóto
+	}
+	7140.1.1 = {
+        holder = lineofchief24 #Minalcar
+    }
+    7170.1.6 = {
+        holder = lineofchief26 #Sulendil
+    }
 }		
 			
 #Annun			
@@ -12794,6 +12919,20 @@ c_annun = {
 	7032.1.1 = { # Took over after treaty was signed			
 		holder = lineseregonir12 # Olurin	
 	}			
+	7052.5.1 = { # RK claims Calambar
+		holder = lineofchief9 # Lótu III
+		liege = d_annun
+		de_jure_liege = e_reunitedkingdom
+	}
+	7109.8.30 = {
+		holder = lineofchief12 # Lóto
+	}
+	7140.1.1 = {
+        holder = lineofchief24 #Minalcar
+    }
+    7170.1.6 = {
+        holder = lineofchief26 #Sulendil
+    }
 }	
 			
 #Harn			
@@ -12922,6 +13061,20 @@ c_harn = {
 	7032.1.1 = { # Took over after treaty was signed		
 		holder = lineseregonir12 # Olurin	
 	}			
+	7052.5.1 = { # RK claims Calambar
+		holder = lineofchief9 # Lótu III
+		liege = d_annun
+		de_jure_liege = e_reunitedkingdom
+	}
+	7109.8.30 = {
+		holder = lineofchief12 # Lóto
+	}
+	7140.1.1 = {
+        holder = lineofchief24 #Minalcar
+    }
+    7170.1.6 = {
+        holder = lineofchief26 #Sulendil
+    }
 }	
 			
 #Narthan			
@@ -13026,6 +13179,20 @@ c_narthan = {
 	7031.1.1 = { # Lótu III inherited Narthan after his father Turcomund Was Slain in battle during a rebellion led by Olurin.
 		holder = lineofchief9 # Lótu III
 	}
+	7052.5.1 = { # RK claims Calambar
+		holder = lineofchief9 # Lótu III
+		liege = d_annun
+		de_jure_liege = e_reunitedkingdom
+	}
+	7109.8.30 = {
+		holder = lineofchief12 # Lóto
+	}
+	7140.1.1 = {
+        holder = lineofchief24 #Minalcar
+    }
+    7170.1.6 = {
+        holder = lineofchief26 #Sulendil
+    }
 }								
 
 ## Duchy of Laergaldrin ##
@@ -13045,6 +13212,20 @@ d_laergaladrin = { # Laergaldrin
 	5842.1.1 = { # Title relinquished as calionath return to Harfalas
 		holder = 0
 	}
+	7063.1.1 = {			
+		holder = lineorontorion11 # Raimon
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7084.1.11 = {
+        holder = lineorontorion13 #Miryanar
+    }
+    7121.11.2 = {
+        holder = lineorontorion17 #Herendur
+    }
+    7187.11.12 = {
+        holder = lineorontorion19 #Manthor
+    }
 }
 c_methir = { #Methir	
 	5300.1.1 = {
@@ -13091,6 +13272,20 @@ c_methir = { #Methir
 	7007.1.1 = {			
 		holder = lineorontorion10 # Lintoron	
 	}
+	7063.1.1 = {			
+		holder = lineorontorion11 # Raimon
+		liege = d_laergaladrin
+		de_jure_liege = e_reunitedkingdom
+	}
+	7084.1.11 = {
+        holder = lineorontorion13 #Miryanar
+    }
+    7121.11.2 = {
+        holder = lineorontorion17 #Herendur
+    }
+    7187.11.12 = {
+        holder = lineorontorion19 #Manthor
+    }
 		
 }	
 c_lothsir = { #Lothsir
@@ -13136,7 +13331,21 @@ c_lothsir = { #Lothsir
 	}
 	7007.1.1 = {			
 		holder = lineorontorion10 # Lintoron	
-	}			
+	}
+	7063.1.1 = {			
+		holder = lineorontorion11 # Raimon
+		liege = d_laergaladrin
+		de_jure_liege = e_reunitedkingdom
+	}
+	7084.1.11 = {
+        holder = lineorontorion13 #Miryanar
+    }
+    7121.11.2 = {
+        holder = lineorontorion17 #Herendur
+    }
+    7187.11.12 = {
+        holder = lineorontorion19 #Manthor
+    }	
 }	
 c_neporos = { #Neporos
 	# Nepos house 
@@ -13185,7 +13394,20 @@ c_neporos = { #Neporos
 	}
 	7002.1.1 = {			
 		holder = linesurionath7 # Eadacil	
-	}			
+	}
+	7051.1.1 = {
+        holder = linesurionath8 #Amrothos
+    }
+	7052.5.1 = {
+        liege = d_laergaladrin
+		de_jure_liege = e_reunitedkingdom
+    }
+    7122.10.13 = {
+        holder = linesurionath10 #Ulrad
+    }
+    7157.12.24 = {
+        holder = linesurionath12 #Indor
+    }
 }	
 
 ## Duchy of Eredir ##
