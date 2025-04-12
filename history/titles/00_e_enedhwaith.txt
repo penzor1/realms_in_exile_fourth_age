@@ -4172,7 +4172,7 @@ c_nannthorod = {
     }
     7206.7.2 = {
         holder = line_tonredin43 #Kadu_u_n
-    }d
+    }
 }
 
 ## Duchy of Annúlefnui
@@ -4209,6 +4209,15 @@ d_annulefnui = {
 	}
 	6845.4.15 = {
 		holder = 0 
+	}
+	7052.5.1 = { # War against local Andrathrim
+		holder = linevingintur9 #Virinar
+		liege = k_pinnath_gelin
+		de_jure_liege = e_reunitedkingdom
+
+	}
+	7089.1.1={
+		holder = linevingintur20 #Vinyaran
 	}
 	7148.11.10 = {
 		holder = linevingintur26 #Virinehtar
@@ -4279,6 +4288,15 @@ c_cereg = {
 	7022.1.17 = {			
 		holder = line_norn_vudrin12
 	}
+	7052.5.1 = { # War against local Andrathrim
+		holder = linevingintur9 #Virinar
+		liege = d_arlefnui
+		de_jure_liege = e_reunitedkingdom
+
+	}
+	7089.1.1={
+		holder = linevingintur20 #Vinyaran
+	}
 	7148.11.10 = {
 		holder = linevingintur26 #Virinehtar
 		liege = d_annulefnui
@@ -4339,10 +4357,18 @@ c_tawartelch = {
 	7015.11.20 = {			
 		holder = line_argedrin19
 	}
+	7052.5.1 = { # War against local Andrathrim
+		holder = linevingintur9 #Virinar
+		liege = d_annulefnui
+		de_jure_liege = e_reunitedkingdom
+
+	}
+	7089.1.1={
+		holder = linevingintur20 #Vinyaran
+	}
 	7148.11.10 = {
 		holder = linevingintur26 #Virinehtar
 		liege = d_annulefnui
-		de_jure_liege = e_reunitedkingdom
     }
     7178.4.20 = {
         holder = linevingintur28 #Voromir
@@ -4417,10 +4443,18 @@ c_adarubar = {
 	7030.4.5 = {			
 		holder = line_norn_vudrin35
 	}
+	7052.5.1 = { # War against local Andrathrim
+		holder = linevingintur9 #Virinar
+		liege = d_annulefnui
+		de_jure_liege = e_reunitedkingdom
+
+	}
+	7089.1.1={
+		holder = linevingintur20 #Vinyaran
+	}
 	7148.11.10 = {
 		holder = linevingintur26 #Virinehtar
 		liege = d_annulefnui
-		de_jure_liege = e_reunitedkingdom
     }
     7178.4.20 = {
         holder = linevingintur28 #Voromir

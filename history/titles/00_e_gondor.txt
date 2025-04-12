@@ -4933,6 +4933,23 @@ c_brethil = { #Brethil
 	6942.11.26 = {
         holder = lineofmiryanar62
     }
+	7037.8.8 = {		
+		holder = linelinnarion15 # Gelmir 
+	}
+	7092.1.1 = { 
+        holder = linelinnarion23 # Gwaihir
+        liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+    }
+	7154.1.1 = { 
+        holder = linelinnarion24 #Arantar
+    }
+    7177.11.18 = {
+        holder = linelinnarion26 #Anarion
+    }
+    7246.9.19 = {
+        holder = linelinnarion28 #Baramir
+    }
 }	
 c_gilbin = { #Gilbin	
 	6005.1.1 = {
@@ -5191,6 +5208,19 @@ c_caragost = { #Caragost
 	6942.11.26 = {
         holder = lineofmiryanar62
     }
+	7037.8.8 = {
+        holder = lineofmiryanar64
+    }
+	7065.12.21 = {
+        holder = lineofmiryanar67
+    }
+	7091.9.13 = {
+        holder = lineofmiryanar69
+    }
+	7189.3.11 = {
+        holder = lineofmiryanar107
+    }
+
 }
 
 ### Kingdom of Belfalas ###
@@ -8100,6 +8130,19 @@ c_ringnen = { #Ringnen
 	6952.3.18 = {
 		holder = lineofangranc15 # Borhador
 	}
+	7035.1.1 = {
+		holder = lineofangranc17 # Dervorin
+	}
+	7091.4.2 = {
+        holder = lineofangranc19 #Amandur
+		de_jure_liege = e_reunitedkingdom
+    }
+    7101.8.17 = {
+        holder = lineofangranc22 #Baran
+    }
+    7174.12.20 = {
+		holder = lineofangranc25 #Calimehtar
+	}
 	
 }	
 c_ethring = { #Ethring
@@ -8191,6 +8234,19 @@ c_ethring = { #Ethring
 	}
 	6952.3.18 = {
 		holder = lineofangranc15 # Borhador
+	}
+	7035.1.1 = {
+		holder = lineofangranc17 # Dervorin
+	}
+	7091.4.2 = {
+        holder = lineofangranc19 #Amandur
+		de_jure_liege = e_reunitedkingdom
+    }
+    7101.8.17 = {
+        holder = lineofangranc22 #Baran
+    }
+    7174.12.20 = {
+		holder = lineofangranc25 #Calimehtar
 	}
 }	
 			
@@ -10511,7 +10567,7 @@ d_arlefnui = { # Arlefnui
     7148.11.10 = {
         holder = linevingintur22 #Galador
     }
-    7135.8.10 = {
+    7167.8.10 = {
         holder = linevingintur24 #Daeron
     }
 }	
@@ -10547,7 +10603,7 @@ c_arlefnui = { #Arlefnui
     7148.11.10 = {
         holder = linevingintur22 #Galador
     }
-    7135.8.10 = {
+    7167.8.10 = {
         holder = linevingintur24 #Daeron
     }
 }			
@@ -10583,7 +10639,7 @@ c_adavalinda = { #Adavalinda
 	}
 	7060.1.1 = {
 		holder =  linevingintur9 # Virinar
-		liege = liege = d_arlefnui
+		liege = d_arlefnui
 		de_jure_liege = e_reunitedkingdom
 	}
 	7089.1.1 = {
@@ -10592,7 +10648,7 @@ c_adavalinda = { #Adavalinda
     7148.11.10 = {
         holder = linevingintur22 #Galador
     }
-    7135.8.10 = {
+    7167.8.10 = {
         holder = linevingintur24 #Daeron
     }
 }	
@@ -11637,6 +11693,18 @@ c_imristo = { #Imristo
     }
     7005.3.10 = {
         holder = lineofcunamir77 #Ausir
+    }
+	7046.8.22 = {
+        holder = lineofcunamir107 #Alquandur
+    }
+    7070.4.14 = {
+        holder = lineofcunamir109 #Amlaith
+    }
+    7148.12.23 = {
+        holder = lineofcunamir112 #Amlaith
+    }
+    7180.4.9 = {
+        holder = lineofcunamir114 #Orrostar
     }
 			
 }	
