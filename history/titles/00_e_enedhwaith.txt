@@ -3464,8 +3464,19 @@ k_andrast = {
 		liege = 0				
 	}			
 	7052.5.1 = {
+        holder = lineeaudur14 #Hallas
+		liege = e_reunitedkingdom
 		de_jure_liege = e_reunitedkingdom
-	}
+    }
+	7105.1.7 = {
+        holder = lineeaudur15 #Hostamir
+    }
+    7127.5.10 = {
+        holder = lineeaudur17 #Falmandur
+    }
+    7188.11.14 = {
+        holder = lineeaudur19 #Nolimon
+    }
 }			
 
 ## Duchy of Nan Enqui
@@ -3693,6 +3704,17 @@ c_rast_hwarin = {
     7081.4.14 = {
         holder = line_norn_vudrin50 #Boyarn
     }
+	7085.5.16 = {
+        holder = line_norn_vudrin53 #Aru_u_ndi_i_rd
+		liege = d_nan_enqui
+		de_jure_liege = e_reunitedkingdom
+    }
+    7135.12.9 = {
+        holder = line_norn_vudrin57 #Hila_a_t
+    }
+    7165.11.16 = {
+        holder = line_norn_vudrin59 #Ilhgard
+    }
 }
 c_nornin = {
 	5218.10.19 = {
@@ -3793,6 +3815,20 @@ d_perth_maiwin = {
 		holder = 0
 		liege = 0
 	}
+	7052.5.1 = {
+        holder = lineeaudur14 #Hallas
+		liege = k_andrast
+		de_jure_liege = e_reunitedkingdom
+    }
+	7105.1.7 = {
+        holder = lineeaudur15 #Hostamir
+    }
+    7127.5.10 = {
+        holder = lineeaudur17 #Falmandur
+    }
+    7188.11.14 = {
+        holder = lineeaudur19 #Nolimon
+    }
 }
 c_ulond = {
 	4900.12.9 = { #Granted by the King of Gondor
@@ -3857,6 +3893,20 @@ c_ulond = {
 		holder = lineeruholion11	#corsair count in andrast
 		government = feudal_government	
 	}
+	7052.5.1 = {
+        holder = lineeaudur14 #Hallas
+		liege = k_andrast
+		de_jure_liege = e_reunitedkingdom
+    }
+	7105.1.7 = {
+        holder = lineeaudur15 #Hostamir
+    }
+    7127.5.10 = {
+        holder = lineeaudur17 #Falmandur
+    }
+    7188.11.14 = {
+        holder = lineeaudur19 #Nolimon
+    }
 }
 c_rafinfalas = {
 	3000.1.1 = {
@@ -3934,14 +3984,28 @@ c_rafinfalas = {
     7028.2.21 = {
         holder = line_tonredin31 #Gere
     }
-    7068.5.14 = {
-        holder = line_tonredin33 #Ermorn
-    }
-    7106.5.22 = {
-        holder = line_tonredin34 #Eri_i_rbarn
-    }
     7059.6.17 = {
         holder = line_tonredin35 #Garnok
+    }
+	7068.5.14 = {
+        holder = line_tonredin33 #Ermorn
+    }
+	7106.5.22 = {
+        holder = line_tonredin34 #Eri_i_rbarn
+    }
+	7052.5.1 = {
+        holder = lineeaudur14 #Hallas
+		liege = k_andrast
+		de_jure_liege = e_reunitedkingdom
+    }
+	7105.1.7 = {
+        holder = lineeaudur15 #Hostamir
+    }
+    7127.5.10 = {
+        holder = lineeaudur17 #Falmandur
+    }
+    7188.11.14 = {
+        holder = lineeaudur19 #Nolimon
     }
 }
 
@@ -3971,6 +4035,17 @@ d_parth_i_certemar = {
 		holder = 0
 		liege = 0
 	}
+    7111.4.28 = {
+        holder = line_tonredin38 #Aru_u_ndi_i_rd
+		liege = k_andrast
+		de_jure_liege = e_reunitedkingdom
+    }
+    7154.10.14 = {
+        holder = line_tonredin41 #Sorot
+    }
+    7206.7.2 = {
+        holder = line_tonredin43 #Kadu_u_n
+    }
 }
 c_aralanthir = {
 	3000.1.1 = {
@@ -4031,6 +4106,23 @@ c_aralanthir = {
 	7029.3.15 = {			
 		holder = line_tonredin14
 	}
+	7059.2.23 = {
+        holder = line_tonredin16 #Ate_e_n
+    }
+	7088.5.26 = {
+        holder = line_tonredin36 #Larnen
+    }
+    7111.4.28 = {
+        holder = line_tonredin38 #Aru_u_ndi_i_rd
+		liege = k_andrast
+		de_jure_liege = e_reunitedkingdom
+    }
+    7154.10.14 = {
+        holder = line_tonredin41 #Sorot
+    }
+    7206.7.2 = {
+        holder = line_tonredin43 #Kadu_u_n
+    }
 }
 c_nannthorod = {
 	1000.1.1 = {
@@ -4064,6 +4156,23 @@ c_nannthorod = {
 	7017.11.18 = {			
 		holder = line_tonredin19	
 	}
+	7059.2.23 = {
+        holder = line_tonredin16 #Ate_e_n
+    }
+	7088.5.26 = {
+        holder = line_tonredin36 #Larnen
+    }
+    7111.4.28 = {
+        holder = line_tonredin38 #Aru_u_ndi_i_rd
+		liege = k_andrast
+		de_jure_liege = e_reunitedkingdom
+    }
+    7154.10.14 = {
+        holder = line_tonredin41 #Sorot
+    }
+    7206.7.2 = {
+        holder = line_tonredin43 #Kadu_u_n
+    }d
 }
 
 ## Duchy of Annúlefnui
@@ -4101,6 +4210,14 @@ d_annulefnui = {
 	6845.4.15 = {
 		holder = 0 
 	}
+	7148.11.10 = {
+		holder = linevingintur26 #Virinehtar
+		liege = k_andrast
+		de_jure_liege = e_reunitedkingdom
+    }
+    7178.4.20 = {
+        holder = linevingintur28 #Voromir
+    }
 }
 c_cereg = {
 	3000.1.1 = {
@@ -4162,6 +4279,14 @@ c_cereg = {
 	7022.1.17 = {			
 		holder = line_norn_vudrin12
 	}
+	7148.11.10 = {
+		holder = linevingintur26 #Virinehtar
+		liege = d_annulefnui
+		de_jure_liege = e_reunitedkingdom
+    }
+    7178.4.20 = {
+        holder = linevingintur28 #Voromir
+    }
 }
 c_tawartelch = {
 	5262.12.19 = {
@@ -4214,6 +4339,14 @@ c_tawartelch = {
 	7015.11.20 = {			
 		holder = line_argedrin19
 	}
+	7148.11.10 = {
+		holder = linevingintur26 #Virinehtar
+		liege = d_annulefnui
+		de_jure_liege = e_reunitedkingdom
+    }
+    7178.4.20 = {
+        holder = linevingintur28 #Voromir
+    }
 }
 c_adarubar = {
 	3000.1.1 = {
@@ -4284,6 +4417,14 @@ c_adarubar = {
 	7030.4.5 = {			
 		holder = line_norn_vudrin35
 	}
+	7148.11.10 = {
+		holder = linevingintur26 #Virinehtar
+		liege = d_annulefnui
+		de_jure_liege = e_reunitedkingdom
+    }
+    7178.4.20 = {
+        holder = linevingintur28 #Voromir
+    }
 }
 
 #### Titular Titles ####

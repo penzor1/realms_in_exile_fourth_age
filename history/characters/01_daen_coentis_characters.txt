@@ -95,3 +95,479 @@ lineofhundarion21 = {
 
 # House of Norn Vudrin
 
+line_norn_vudrin50wife = {
+    name = Nevirn
+	female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+
+    trait = sadistic
+    trait = generous
+    trait = patient
+
+    7028.3.7 = {
+        birth = yes
+    }
+
+	7048.2.23 = {
+        add_spouse = line_norn_vudrin50
+    }
+
+    7099.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_norn_vudrin53 = {
+    name = Aru_u_ndi_i_rd
+
+    dynasty = dynasty_norn_vudrin
+    religion = faith_edain
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+	father = line_norn_vudrin50
+	mother = line_norn_vudrin50wife
+
+    7050.1.8 = {
+        birth = yes
+    }
+
+    7076.3.25 = {
+        add_spouse = line_norn_vudrin54
+    }
+
+    7135.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_norn_vudrin54 = {
+    name = Razora
+    female = yes
+
+    religion = faith_edain
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7059.7.9 = {
+        birth = yes
+    }
+
+    7134.5.8 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+line_norn_vudrin55 = {
+    name = Ru_u_rnet
+    female = yes
+
+    religion = faith_edain
+    culture = andrastrim
+
+    father = line_norn_vudrin53
+    mother = line_norn_vudrin54
+
+    sexuality = heterosexual
+
+    7079.10.18 = {
+        birth = yes
+    }
+
+    7150.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_norn_vudrin56 = {
+    name = Gu_u_ra
+    female = yes
+
+    religion = faith_edain
+    culture = andrastrim
+
+    father = line_norn_vudrin53
+    mother = line_norn_vudrin54
+
+    sexuality = heterosexual
+
+    7082.4.19 = {
+        birth = yes
+    }
+
+    7166.11.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_norn_vudrin57 = {
+    name = Hila_a_t
+
+    dynasty = dynasty_norn_vudrin
+    religion = faith_edain
+    culture = andrastrim
+
+    father = line_norn_vudrin53
+    mother = line_norn_vudrin54
+
+    sexuality = asexual
+
+    7087.3.3 = {
+        birth = yes
+    }
+
+    7115.2.27 = {
+        add_spouse = line_norn_vudrin58
+    }
+
+    7165.11.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_norn_vudrin58 = {
+    name = Ga_a_no
+    female = yes
+
+    religion = faith_edain
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7085.7.12 = {
+        birth = yes
+    }
+
+    7155.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_norn_vudrin59 = {
+    name = Ilhgard
+
+    dynasty = dynasty_norn_vudrin
+    religion = faith_edain
+    culture = andrastrim
+
+    father = line_norn_vudrin57
+    mother = line_norn_vudrin58
+
+    sexuality = heterosexual
+
+    7119.1.10 = {
+        birth = yes
+    }
+
+    7147.2.28 = {
+        add_spouse = line_norn_vudrin60
+    }
+
+    7187.12.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_norn_vudrin60 = {
+    name = Beru_u_rn
+    female = yes
+
+    religion = faith_edain
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7120.10.6 = {
+        birth = yes
+    }
+
+    7181.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_norn_vudrin61 = {
+    name = Radu_u_
+
+    dynasty = dynasty_norn_vudrin
+    religion = faith_edain
+    culture = andrastrim
+
+    father = line_norn_vudrin57
+    mother = line_norn_vudrin58
+
+    sexuality = heterosexual
+
+    7122.11.17 = {
+        birth = yes
+    }
+
+    7151.2.28 = {
+        add_spouse = line_norn_vudrin62
+    }
+
+    7212.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_norn_vudrin62 = {
+    name = Eru_u_rn
+    female = yes
+
+    religion = faith_edain
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7120.3.18 = {
+        birth = yes
+    }
+
+    7195.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+# Line of Tonredin
+
+line_tonredin16wife = {
+    name = Iza
+	female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    7026.4.2 = {
+        birth = yes
+    }
+
+	7046.8.16 = {
+        add_spouse = line_tonredin16
+    }
+
+    7086.4.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+	line_tonredin36 = {
+		name = Larnen
+	
+		dynasty = dynasty_tonredin
+		religion = faith_edain
+		culture = andrastrim
+	
+		sexuality = heterosexual
+
+		father = line_tonredin16
+		mother = line_tonredin16wife
+	
+		7050.4.23 = {
+			birth = yes
+		}
+	
+		7079.5.14 = {
+			add_spouse = line_tonredin37
+		}
+	
+		7111.4.28 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	line_tonredin37 = {
+		name = Dala
+		female = yes
+	
+		religion = faith_edain
+		culture = andrastrim
+	
+		sexuality = heterosexual
+	
+		7062.5.16 = {
+			birth = yes
+		}
+	
+		7139.9.22 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	line_tonredin38 = {
+		name = Aru_u_ndi_i_rd
+	
+		dynasty = dynasty_tonredin
+		religion = faith_edain
+		culture = andrastrim
+	
+		father = line_tonredin36
+		mother = line_tonredin37
+	
+		sexuality = heterosexual
+	
+		7092.12.11 = {
+			birth = yes
+		}
+	
+		7116.1.5 = {
+			add_spouse = line_tonredin39
+		}
+	
+		7154.10.14 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	line_tonredin39 = {
+		name = Glerniz
+		female = yes
+	
+		religion = faith_edain
+		culture = andrastrim
+	
+		sexuality = heterosexual
+	
+		7093.1.13 = {
+			birth = yes
+		}
+	
+		7181.12.15 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	line_tonredin40 = {
+		name = Gu_u_rn
+		female = yes
+	
+		religion = faith_edain
+		culture = andrastrim
+	
+		father = line_tonredin38
+		mother = line_tonredin39
+	
+		sexuality = heterosexual
+	
+		7117.1.24 = {
+			birth = yes
+		}
+	
+		7193.5.25 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	line_tonredin41 = {
+		name = Sorot
+	
+		dynasty = dynasty_tonredin
+		religion = faith_edain
+		culture = andrastrim
+	
+		father = line_tonredin38
+		mother = line_tonredin39
+	
+		sexuality = heterosexual
+	
+		7122.1.20 = {
+			birth = yes
+		}
+	
+		7152.3.15 = {
+			add_spouse = line_tonredin42
+		}
+	
+		7206.7.2 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	line_tonredin42 = {
+		name = Gu_u_lirn
+		female = yes
+	
+		religion = faith_edain
+		culture = andrastrim
+	
+		sexuality = heterosexual
+	
+		7123.10.15 = {
+			birth = yes
+		}
+	
+		7205.8.13 = {
+			death = { death_reason = death_consumption }
+		}
+	}
+	
+	line_tonredin43 = {
+		name = Kadu_u_n
+	
+		dynasty = dynasty_tonredin
+		religion = faith_edain
+		culture = andrastrim
+	
+		father = line_tonredin41
+		mother = line_tonredin42
+	
+		sexuality = heterosexual
+	
+		7164.3.22 = {
+			birth = yes
+		}
+	
+		7185.7.21 = {
+			add_spouse = line_tonredin44
+		}
+	
+		7224.6.8 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	line_tonredin44 = {
+		name = Razora
+		female = yes
+	
+		religion = faith_edain
+		culture = andrastrim
+	
+		sexuality = heterosexual
+	
+		7164.7.13 = {
+			birth = yes
+		}
+	
+		7246.7.18 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	line_tonredin45 = {
+		name = Salu_u_zi
+		female = yes
+	
+		religion = faith_edain
+		culture = andrastrim
+	
+		father = line_tonredin36
+		mother = line_tonredin37
+	
+		sexuality = heterosexual
+	
+		7099.1.19 = {
+			birth = yes
+		}
+	
+		7175.2.16 = {
+			death = { death_reason = death_natural_causes }
+		}
+	}
+	
+	

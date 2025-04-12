@@ -10506,13 +10506,13 @@ d_arlefnui = { # Arlefnui
 		de_jure_liege = e_reunitedkingdom
 	}
 	7089.1.1 = {
-        holder = linevingitur20 #Maewhir
+        holder = linevingintur20 #Maewhir
     }
     7148.11.10 = {
-        holder = linevingitur22 #Galador
+        holder = linevingintur22 #Galador
     }
     7135.8.10 = {
-        holder = linevingitur24 #Daeron
+        holder = linevingintur24 #Daeron
     }
 }	
 c_arlefnui = { #Arlefnui
@@ -10538,17 +10538,17 @@ c_arlefnui = { #Arlefnui
 	}
 	7060.1.1 = {
 		holder =  linevingintur9 # Virinar
-		liege = k_pinnath_gelin
+		liege = d_arlefnui
 		de_jure_liege = e_reunitedkingdom
 	}
 	7089.1.1 = {
-        holder = linevingitur20 #Maewhir
+        holder = linevingintur20 #Maewhir
     }
     7148.11.10 = {
-        holder = linevingitur22 #Galador
+        holder = linevingintur22 #Galador
     }
     7135.8.10 = {
-        holder = linevingitur24 #Daeron
+        holder = linevingintur24 #Daeron
     }
 }			
 c_adavalinda = { #Adavalinda
@@ -10583,17 +10583,17 @@ c_adavalinda = { #Adavalinda
 	}
 	7060.1.1 = {
 		holder =  linevingintur9 # Virinar
-		liege = k_pinnath_gelin
+		liege = liege = d_arlefnui
 		de_jure_liege = e_reunitedkingdom
 	}
 	7089.1.1 = {
-        holder = linevingitur20 #Maewhir
+        holder = linevingintur20 #Maewhir
     }
     7148.11.10 = {
-        holder = linevingitur22 #Galador
+        holder = linevingintur22 #Galador
     }
     7135.8.10 = {
-        holder = linevingitur24 #Daeron
+        holder = linevingintur24 #Daeron
     }
 }	
 
