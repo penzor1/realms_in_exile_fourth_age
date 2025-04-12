@@ -68,16 +68,8 @@ d_northern_dunedain = { # Line of the Chieftans of the Dúnedain
 		holder = lineisildur42 # Aragorn II, Eventual King of the Reunited Kingdoms
 	}	
 	#fiction
-	7174.3.1 = { # F0120
-		holder = lineisildur43 # Eldarion
-		liege = e_reunitedkingdom
-	}
-	7174.3.2 = {
-		holder = lineisildur48 # Anarion
-		liege = e_reunitedkingdom
-	}
-	7174.3.3 = {
-		holder = 0 # Disbanding of the rangers and Regency of Arnor
+	7052.5.1 = { # Reunited Kingdom is formed and the title of the Dunedain is dissolved
+		holder = 0
 	}
 }
 
