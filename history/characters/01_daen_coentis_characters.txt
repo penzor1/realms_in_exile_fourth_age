@@ -66,7 +66,7 @@ lineofhundarion20 = {
 			make_tributary = {
 				TYPE = tributary_permanent
 				SUZERAIN = character:lineisildur43 # Eldarion
-				TRIBUTARY = character:lineofkidjunagim5 # Kidjun
+				TRIBUTARY = character:lineofhundarion20 # Ermon
 			}
 		}
 	}

@@ -10626,26 +10626,19 @@ d_nan_i_feryn = { # Nan-i-Feryn
 	}
 	#fiction
 	7052.1.1 = {
-		holder =  lineofhundarion7 # Ermorn
+		holder =  lineeredor9 # Eredor
+		liege = k_eredrim
+		de_jure_liege = e_reunitedkingdom
 	}
-	7070.1.1 = {
-		de_jure_liege = k_eredrim
+	7101.1.1 = {
+		holder =  lineeredor9b1 # Orodreth
 	}
-	7099.1.1 = {
-		holder =  lineofhundarion17 # Kodiz
-	}
-	7126.7.2 = {
-		holder =  lineofhundarion18 # Karak
-	}
-	7151.8.2 = {
-		holder =  lineofhundarion19 # Odroz
-	}
-	7171.1.3 = {
-		holder =  lineofhundarion20 # Ermorn
-	}
-	7191.8.23 = {
-		holder =  lineofhundarion21 # Hundar
-	}
+	7133.12.25 = {
+        holder = lineeredor11 #Gwathir
+    }
+    7165.9.15 = {
+        holder = lineeredor14 #Ingoldo
+    }
 }		
 c_nan_i_feryth = { #Nan i Feryth
 	6564.1.1 = {
@@ -10689,23 +10682,19 @@ c_nan_i_feryth = { #Nan i Feryth
 	}
 	#fiction
 	7052.1.1 = {
-		holder =  lineofhundarion7 # Ermorn 
+		holder =  lineeredor9 # Eredor
+		liege = k_eredrim
+		de_jure_liege = e_reunitedkingdom
 	}
-	7099.1.1 = {
-		holder =  lineofhundarion17 # Kodiz
+	7101.1.1 = {
+		holder =  lineeredor9b1 # Orodreth
 	}
-	7126.7.2 = {
-		holder =  lineofhundarion18 # Karak
-	}
-	7151.8.2 = {
-		holder =  lineofhundarion19 # Odroz
-	}
-	7171.1.3 = {
-		holder =  lineofhundarion20 # Ermorn
-	}
-	7191.8.23 = {
-		holder =  lineofhundarion21 # Hundar
-	}
+	7133.12.25 = {
+        holder = lineeredor11 #Gwathir
+    }
+    7165.9.15 = {
+        holder = lineeredor14 #Ingoldo
+    }
 }	
 c_torrant = { #Torrant 
 	3000.1.1 = {
@@ -10738,18 +10727,18 @@ c_torrant = { #Torrant
 		holder =  linevingintur6 # Vorondil 
 	}
 	7060.1.1 = {
-		holder =  linevingintur9 # Virinar
-		liege = k_pinnath_gelin
+		holder =  lineeredor8a1 # Orodor
+		liege = d_nan_i_feryn
 		de_jure_liege = e_reunitedkingdom
 	}
-	7089.1.1 = {
-        holder = linevingitur20 #Maewhir
+	7101.1.1 = {
+		holder = lineeredor18 #Falandil
+	}
+    7155.3.12 = {
+        holder = lineeredor21 #Elurin
     }
-    7148.11.10 = {
-        holder = linevingitur22 #Galador
-    }
-    7135.8.10 = {
-        holder = linevingitur24 #Daeron
+    7213.11.25 = {
+        holder = lineeredor23 #Eldamir
     }
 }			
 c_imrathion = { #Imrathion	
@@ -10790,23 +10779,19 @@ c_imrathion = { #Imrathion
 	}
 	#fiction
 	7052.1.1 = {
-		holder =  lineofhundarion7 # Ermorn 
+		holder =  lineeredor9 # Eredor
+		liege = k_eredrim
+		de_jure_liege = e_reunitedkingdom
 	}
-	7099.1.1 = {
-		holder =  lineofhundarion17 # Kodiz
+	7101.1.1 = {
+		holder =  lineeredor9b1 # Orodreth
 	}
-	7126.7.2 = {
-		holder =  lineofhundarion18 # Karak
-	}
-	7151.8.2 = {
-		holder =  lineofhundarion19 # Odroz
-	}
-	7171.1.3 = {
-		holder =  lineofhundarion20 # Ermorn
-	}
-	7191.8.23 = {
-		holder =  lineofhundarion21 # Hundar
-	}
+	7133.12.25 = {
+        holder = lineeredor11 #Gwathir
+    }
+    7165.9.15 = {
+        holder = lineeredor14 #Ingoldo
+    }
 }	
 
 ## Duchy of the Pinnath Gelin ##		
