@@ -2,6 +2,7 @@
 ### Line of Ugluk
 lineofugluk1 = { # the orc leader that took merry and pippin
 	name = Ugl_uk
+	dynasty = dynasty_ugluk
 	religion = white_hand_cult
 	culture = isengard_urukhai
 	
@@ -50,6 +51,7 @@ lineofugluk1wife = {
 
 lineofugluk2 = {
 	name = Karl_uk
+	dynasty = dynasty_ugluk
 	religion = white_hand_cult
 	culture = isengard_urukhai
 	father = lineofugluk1 # Ugluk
@@ -117,6 +119,7 @@ lineofkurtuk1 = {
 ### Line of Sharkey
 lineofsharkey1 = {
 	name = Sharku
+	dynasty = dynasty_sharkey
 	religion = white_hand_cult
 	culture = isengard_urukhai
 	#father = 
@@ -153,6 +156,7 @@ lineofsharkey1 = {
 
 lineofsharkey2 = {
 	name = Shardakh
+	dynasty = dynasty_sharkey
 	religion = white_hand_cult
 	culture = isengard_urukhai
 	father = lineofsharkey1 # Sharku
@@ -312,7 +316,7 @@ lineofpendor4 = {
 	7139.9.12 = {
 		birth = yes
 	}
-	7174.1.1 = {
+	7174.3.2 = {
 		employer = lineofsharkey2 # Shardakh
 	}
 	7180.3.1 = {
