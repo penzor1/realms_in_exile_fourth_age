@@ -475,7 +475,7 @@ linelomear48 = {
 	name = Valadimir
 	dynasty = dynasty_lomear
 	religion = faith_edain
-	culture = dunedain_ranger
+	culture = arnorian
 	father = linelomear33 # Valacar
 	#mother = 
 	
@@ -513,7 +513,7 @@ lineoforodhos68 = {
 	name = Mirendil
 	dynasty = dynasty_tarmea
 	religion = faith_edain
-	culture = dunedain_ranger
+	culture = arnorian
 	father = lineoftarmea695 # Aldarion
 	mother = linemelosse51 # Vanimelde Melosse
 	

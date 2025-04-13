@@ -6101,6 +6101,10 @@ lineoftarmea69 = {
         add_spouse = lineforovarne64
     }
 
+    7052.5.1 = { # Reconstruction of Arnor
+        culture = arnorian
+    }
+
     7090.10.4 = {
         death = { death_reason = death_natural_causes }
     }
@@ -6142,6 +6146,9 @@ lineoftarmea695 = {
 	7040.3.10 = {
 		add_spouse = linemelosse51 # Vanimelde Melosse
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+        culture = arnorian
+    }
     7143.10.3 = {
         death = { death_reason = death_natural_causes }
     }
@@ -93143,6 +93150,9 @@ linelomear33 = {
     7006.11.13 = {
         add_spouse = lineoftarmea691
     }
+    7052.5.1 = { # Reconstruction of Arnor
+        culture = arnorian
+    }
 
     7109.6.27 = {
         death = { death_reason = death_natural_causes }
@@ -93259,6 +93269,9 @@ linelomear35 = {
 	trait = blood_of_numenor_3
 	7025.11.3 = {
         birth = yes
+    }
+    7052.5.1 = { # Reconstruction of Arnor
+        culture = arnorian
     }
 
     7164.10.2 = {

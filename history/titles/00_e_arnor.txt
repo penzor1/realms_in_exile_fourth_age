@@ -10803,6 +10803,17 @@ d_nan_turath = {
 		holder = 0 # Arvedui drowns in the Ice-bay of Forochel, Kingdom of Arthedain destroyed
 		liege = 0
 	}
+	7052.5.1 = { # Reconstruction of Arnor
+		holder = linelomear33
+		liege = k_arthedain
+	}
+	7109.6.27 = {
+		holder = linelomear35 # Elatan
+	}
+	#fiction
+	7164.10.2 = {
+		holder = linelomear48 # Valadimir
+	}
 }
 
 c_fornost = {
@@ -11018,6 +11029,18 @@ c_cardhbain = {
 		change_development_level = -100
 		government = wastelands_government
 	}
+	#canon
+	7052.5.1 = { # Reconstruction of Arnor
+		holder = linelomear33
+		liege = k_arthedain
+	}
+	7109.6.27 = {
+		holder = linelomear35 # Elatan
+	}
+	#fiction
+	7164.10.2 = {
+		holder = linelomear48 # Valadimir
+	}
 }
 c_athilin = {
 	4908.3.25 = {
@@ -11057,12 +11080,34 @@ c_athilin = {
 		change_development_level = -100
 		government = wastelands_government
 	}
+	7052.5.1 = { # Reconstruction of Arnor
+		holder = linelomear33
+		liege = k_arthedain
+	}
+	7109.6.27 = {
+		holder = linelomear35 # Elatan
+	}
+	#fiction
+	7164.10.2 = {
+		holder = linelomear48 # Valadimir
+	}
 }
 c_endroth = {
 	6008.1.1 = { # Arthedain is disbanded after battle at Fornost
 		holder = k_wastelands_holder
 		change_development_level = -100
 		government = wastelands_government
+	}
+	7052.5.1 = { # Reconstruction of Arnor
+		holder = linelomear33
+		liege = k_arthedain
+	}
+	7109.6.27 = {
+		holder = linelomear35 # Elatan
+	}
+	#fiction
+	7164.10.2 = {
+		holder = linelomear48 # Valadimir
 	}
 }
 c_rhunlest = {
@@ -11113,6 +11158,17 @@ c_fenddim = {
 		holder = k_wastelands_holder
 		change_development_level = -100
 		government = wastelands_government
+	}
+	7052.5.1 = { # Reconstruction of Arnor
+		holder = linelomear33
+		liege = k_arthedain
+	}
+	7109.6.27 = {
+		holder = linelomear35 # Elatan
+	}
+	#fiction
+	7164.10.2 = {
+		holder = linelomear48 # Valadimir
 	}
 }
 
