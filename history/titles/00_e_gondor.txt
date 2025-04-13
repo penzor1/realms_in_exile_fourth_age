@@ -2596,7 +2596,7 @@ k_ithilien = { # Province of Ithilien
 			}
 		}
 	}
-	7126.4.13 = {
+	7136.4.13 = {
 		holder = linesteward43 # Elboron
 	}
 	#fiction
@@ -2643,7 +2643,7 @@ d_minas_ithil = { # Minas Ithil
 			}
 		}
 	}
-	7126.4.13 = {
+	7136.4.13 = {
 		holder = linesteward43 # Elboron
 	}
 	7142.1.1 = {
@@ -2674,7 +2674,7 @@ c_minas_ithil = { #Minas Ithil
 		holder = linesteward40 # Faramir
 		change_development_level = 3
 	}
-	7126.4.13 = {
+	7136.4.13 = {
 		holder = linesteward43 # Elboron
 		change_development_level = 5
 	}
@@ -2855,7 +2855,7 @@ d_emyn_arnen = { # Emyn Arnen
 	7052.5.1 = {
 		holder = linesteward40 #faramir
 	}
-	7126.4.13 = {
+	7136.4.13 = {
 		holder = linesteward43 # Elboron
 	}
 	#fiction
@@ -3061,7 +3061,7 @@ c_emyn_arnen = { #Emyn Arnen
 	7052.5.1 = {
 		holder = linesteward40 # Faramir
 	}
-	7126.4.13 = {
+	7136.4.13 = {
 		holder = linesteward43 # Elboron
 	}
 	#fiction
@@ -3194,7 +3194,7 @@ c_curedain = { #Curedain
 	7052.5.1 = {
 		holder = linesteward40 # Faramir
 	}
-	7126.4.13 = {
+	7136.4.13 = {
 		holder = linesteward43 # Elboron
 	}
 	#fiction
@@ -14513,7 +14513,7 @@ k_gondor_steward = {
 		liege = e_reunitedkingdom
 		holder = linesteward40 #Faramir
 	}
-	7126.4.13 = {
+	7136.4.13 = {
 		holder = linesteward43 # Elboron
 	}
 	#fiction
