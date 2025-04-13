@@ -73597,8 +73597,7 @@ lineofatanatar79 = {
     mother = lineofatanatar78
 
     
-
-	trait = twin
+    trait = twin
 	trait = blood_of_numenor_2
     7031.7.5 = {
         birth = yes
@@ -73619,7 +73618,8 @@ lineofatanatar80 = {
     religion = faith_edain
     culture = belfalathrim
 
-    
+    father = lineofatanatar77
+    mother = lineofatanatar78   
 
 	trait = twin
 	trait = blood_of_numenor_2

@@ -3789,7 +3789,23 @@ c_nethos = { #Nethos
 	}
 	6980.1.1 = {			
 		holder = lineisilmonir10 # Ancalimon		
-	}			
+	}
+	7035.1.1 = {
+        holder = lineisilmonir11 #Hirgon
+    }
+	7052.5.1 = {
+        liege = d_harithilien
+		de_jure_liege = e_reunitedkingdom
+    }
+    7109.9.18 = {
+        holder = lineisilmonir13 #Marmacil
+    }
+    7156.2.3 = {
+        holder = lineisilmonir17 #Nucumna
+    }
+    7199.5.21 = {
+        holder = lineisilmonir19 #Bergil
+    }
 }	
 c_tiridon = { #Tiridon
 	#House Telengaur
@@ -3827,6 +3843,20 @@ c_tiridon = { #Tiridon
 	7033.1.1 = {
 		liege = k_morgul
 	}
+	7052.5.1 = {
+		holder = lineisilmonir11 #Hirgon
+        liege = d_harithilien
+		de_jure_liege = e_reunitedkingdom
+    }
+    7109.9.18 = {
+        holder = lineisilmonir13 #Marmacil
+    }
+    7156.2.3 = {
+        holder = lineisilmonir17 #Nucumna
+    }
+    7199.5.21 = {
+        holder = lineisilmonir19 #Bergil
+    }
 }
 c_telengaur = { #Telengaur	
 	# House Telengaur
@@ -3862,6 +3892,20 @@ c_telengaur = { #Telengaur
 		government = feudal_government
 		liege = k_morgul
 	}
+	7052.5.1 = {
+		holder = lineisilmonir11 #Hirgon
+        liege = d_harithilien
+		de_jure_liege = e_reunitedkingdom
+    }
+    7109.9.18 = {
+        holder = lineisilmonir13 #Marmacil
+    }
+    7156.2.3 = {
+        holder = lineisilmonir17 #Nucumna
+    }
+    7199.5.21 = {
+        holder = lineisilmonir19 #Bergil
+    }
 }	
 
 ## Duchy of Forithilien	##		
@@ -3978,7 +4022,7 @@ c_coruvegil = { #Coruvegil
 	}
 	7052.5.2 = { # Ithilien settled by Elves
 		holder = lineoforopher6 # Legolas
-		liege = k_ithilien
+		liege = d_forithilien
 		de_jure_liege = e_reunitedkingdom
 	}
 }
@@ -4022,7 +4066,7 @@ c_asgaril = { # Asgaril
 	}
 	7052.5.2 = { # Ithilien settled by Elves
 		holder = lineoforopher6 # Legolas
-		liege = k_ithilien
+		liege = d_forithilien
 		de_jure_liege = e_reunitedkingdom
 	}
 }
@@ -5034,7 +5078,19 @@ c_lameduin = { #Lameduin
     }
 	6992.7.12 = {
         holder = lineofamroth63
-    }		
+    }	
+	7060.9.9 = {
+        holder = lineofamroth65 #Alcarin
+    }
+	7131.5.22 = {
+        holder = lineofamroth68 #Herucalmo
+    }
+	7181.7.28 = {
+        holder = lineofamroth85 #Daeron
+    }
+    7195.9.10 = {
+        holder = lineofamroth87 #Ulfang
+    }
 }
 	
 ## Duchy of Celosien ##		
@@ -6969,14 +7025,26 @@ c_bar_erib = { #Bar-Erib
         holder = lineofatanatar72 #Halmir
     }
     6966.10.25 = {
-        holder = lineofatanatar75 #Laurefindil
+        holder = lineofatanatar75 #Laurefindiler
     }
     7023.8.10 = {
         holder = lineofatanatar77 #Herenion
     }
+	7052.5.1 = {
+        holder = lineofatanatar77 #Herenion
+		liege = d_dor_en_ernil
+		de_jure_liege = e_reunitedkingdom
+    }
     7115.9.21 = {
         holder = lineofatanatar79 #Ohtar
-    }	
+    }
+	7127.4.11 = {
+        holder = lineofatanatar84 #Ornendil
+    }
+    7148.1.3 = {
+		holder = lineofatanatar87 #Hunthor
+	}
+	
 }	
 			
 ## Duchy of Edhelion ##			
