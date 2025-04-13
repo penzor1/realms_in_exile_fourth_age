@@ -2886,6 +2886,9 @@ linehalbarad10 = {
 		add_spouse = linehalbarad13
 		set_relation_soulmate = character:linehalbarad13
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+        culture = arnorian
+    }
 	7159.1.1 = {
 		death = { death_reason = death_natural_causes } 
 	}
@@ -3051,6 +3054,9 @@ linehalbarad14 = {
 			}
 		}			
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+        culture = arnorian
+    }
 	7158.1.1 = {
 		death = { death_reason = death_battle }	
 	}
@@ -39125,7 +39131,7 @@ linemelosse501 = {
 	7021.10.21 = {
 		birth = yes
 	}
-    
+
     7052.5.1 = {
         culture = arnorian
     }
