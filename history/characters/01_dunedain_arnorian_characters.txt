@@ -136,7 +136,7 @@ lineisildur47 = {
 }
 
 lineisildur48 = {
-	name = Earendur # Eärendur Regent of Arnor
+	name = Eaarendur # Eärendur Regent of Arnor
 	dynasty_house = house_telcontar #house_anarioni later
 	religion = faith_edain
 	culture = gondorian
