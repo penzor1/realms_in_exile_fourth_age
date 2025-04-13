@@ -20,10 +20,10 @@ dynasty_bifur = {
 	motto = dynn_bifur_motto
 }
 
-dynasty_thelor = {
-	name = "dynn_thelor"
+dynasty_sindri = {
+	name = "dynn_sindri"
 	culture = "ironfists"
-	motto = dynn_thelor_motto
+	motto = dynn_sindri_motto
 }
 
 dynasty_varya = {

@@ -118,7 +118,7 @@
 	enabled = yes
 }
 
-dorfdad_sindri_dna = {
+dorfdad_sindri_dna = { # Credit to Zurah
 	portrait_info = {
 		genes={ 		
 				hair_color={ 87 59 170 253 }

@@ -715,3 +715,138 @@ k_blacklocks = {
 		holder = thirdlineofthrar89 #Go_o_dratho_o_r
 	}
 }
+
+k_ironfists = {
+	1.1.16 = {
+        holder = lineofsindriI #Sindri II
+    }
+    367.12.27 = {
+        holder = lineofsindri5 #Fo_o_rwi
+    }
+    625.10.17 = {
+        holder = lineofsindri7 #R_athspakr
+    }
+    828.11.22 = {
+        holder = lineofsindri9 #Eil_ifr
+    }
+    851.9.22 = {
+        holder = lineofsindri11 #Fundin
+    }
+    1008.3.8 = {
+        holder = lineofsindri13 #L_oni
+    }
+    1223.3.7 = {
+        holder = lineofsindri15 #N_ori
+    }
+    1260.1.9 = {
+        holder = lineofsindri17 #Thy_or
+    }
+    1415.7.7 = {
+        holder = lineofsindri19 #Aurwangur
+    }
+    1472.9.22 = {
+        holder = lineofsindriII #Sindri II
+    }
+    1658.6.15 = {
+        holder = lineofsindri23 #R_athspakr
+    }
+    1689.12.23 = {
+        holder = lineofsindri25 #Fafnir
+    }
+    1863.8.12 = {
+        holder = lineofsindri27 #Eitri
+    }
+    1948.7.6 = {
+        holder = lineofsindri29 #Brokkr
+    }
+    2169.8.20 = {
+        holder = lineofsindriIII #Sindri III
+    }
+    2291.9.5 = {
+        holder = lineofsindri33 #Ly_omi
+    }
+    2523.5.22 = {
+        holder = lineofsindri35 #Fror
+    }
+    2616.3.6 = {
+        holder = lineofsindri37 #L_oin
+    }
+    2738.5.22 = {
+        holder = lineofsindri39 #Br_uni
+    }
+    2918.9.6 = {
+        holder = lineofsindri41 #Br_uni
+    }
+    3094.9.4 = {
+        holder = lineofsindri43 #Bl_ain
+    }
+    3137.5.17 = {
+        holder = lineofsindri45 #Gloni
+    }
+    3313.12.28 = {
+        holder = lineofsindri47 #Skirfir
+    }
+    3496.4.7 = {
+        holder = lineofsindri49 #Tigwi
+    }
+    3522.6.6 = {
+        holder = lineofsindriIV #Sindri IV
+    }
+    3680.12.5 = {
+        holder = lineofsindri53 #Wigur
+    }
+    3827.11.27 = {
+        holder = lineofsindri55 #Uni
+    }
+    4005.6.26 = {
+        holder = lineofsindri57 #Mithwith
+    }
+    4162.10.27 = {
+        holder = lineofsindri59 #Thur_ain
+    }
+    4358.6.15 = {
+        holder = lineofsindri61 #_Ori
+    }
+    4444.8.22 = {
+        holder = lineofsindri63 #Aurgurminir
+    }
+    4725.6.18 = {
+        holder = lineofsindri65 #Fyalar
+    }
+    4750.2.23 = {
+        holder = lineofsindriV #Sindri V
+    }
+    4967.11.19 = {
+        holder = lineofsindri69 #Westri
+    }
+    5107.8.22 = {
+        holder = lineofsindri71 #Nali
+    }
+    5277.11.18 = {
+        holder = lineofsindri73 #T_oki
+    }
+    5321.12.16 = {
+        holder = lineofsindri75 #Gud
+    }
+    5583.7.16 = {
+        holder = lineofsindri77 #Uni
+    }
+    5727.6.21 = {
+        holder = lineofsindri79 #Siar
+    }
+    5932.2.10 = {
+        holder = lineofsindri81 #Yaki
+    }
+    6048.10.12 = {
+        holder = lineofsindri83 #Andwari
+    }
+    6244.12.23 = {
+        holder = lineofsindri85 #D_ain
+    }
+    6333.12.1 = {
+        holder = lineofsindriVI #Sindri VI
+    }
+    6510.9.20 = {
+        holder = 0
+    }
+}

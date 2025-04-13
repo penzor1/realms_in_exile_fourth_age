@@ -3693,7 +3693,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 			# Add other incarnations once added to history!
 		}
 	}
-	dorfdad_sindri_portrait = { # Juke note: Placeholder hair and beard, same as Thorin. Please add!
+	dorfdad_sindri_portrait = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -3718,38 +3718,38 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 			modifier = { # Sindri I
 				add = 999
 				exists = this
-				exists = character:lineofthelorI
-				this = character:lineofthelorI
+				exists = character:lineofsindriI
+				this = character:lineofsindriI
 			}
 			modifier = { # Sindri II
 				add = 999
 				exists = this
-				exists = character:lineofthelorII
-				this = character:lineofthelorII
+				exists = character:lineofsindriII
+				this = character:lineofsindriII
 			}
 			modifier = { # Sindri III
 				add = 999
 				exists = this
-				exists = character:lineofthelorIII
-				this = character:lineofthelorIII
+				exists = character:lineofsindriIII
+				this = character:lineofsindriIII
 			}
 			modifier = { # Sindri IV
 				add = 999
 				exists = this
-				exists = character:lineofthelorIV
-				this = character:lineofthelorIV
+				exists = character:lineofsindriIV
+				this = character:lineofsindriIV
 			}
 			modifier = { # Sindri V
 				add = 999
 				exists = this
-				exists = character:lineofthelorV
-				this = character:lineofthelorV
+				exists = character:lineofsindriV
+				this = character:lineofsindriV
 			}
 			modifier = { # Sindri VI
 				add = 999
 				exists = this
-				exists = character:lineofthelorVI
-				this = character:lineofthelorVI
+				exists = character:lineofsindriVI
+				this = character:lineofsindriVI
 			}
 			# Add other incarnations once added to history!
 		}

@@ -4871,7 +4871,7 @@ c_gundalok = {
 	}
 	#fiction
 	7174.1.1 = {
-		holder = lineofthelor904 # Ingor
+		holder = lineofsindriIngor # Ingor
 		change_development_level = 3
 		government = feudal_government
 		liege = 0

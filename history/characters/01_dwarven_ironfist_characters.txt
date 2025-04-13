@@ -1,303 +1,5 @@
 ﻿### ALL FICTION
 
-### Line of Sindri
-lineofthelorI = {
-	name = Sindri
-	dynasty = dynasty_thelor
-	religion = faith_khazad
-	culture = ironfists
-	
-	dna = dorfdad_sindri_dna
-
-	trait = brave
-	trait = stubborn
-	trait = ambitious
-	trait = diligent
-
-	trait = intellect_good_3
-	trait = dwarf_father
-	
-	trait = education_stewardship_5
-	trait = administrator
-	
-	1.1.1 = {
-		birth = yes
-		name = "Thelor I"
-		give_nickname = nick_the_rich_dwarf
-		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
-			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
-		}
-	}
-	1000.1.2 = { # just to fill the timeline
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofthelorII = {
-	name = Sindri
-	dynasty = dynasty_thelor
-	religion = faith_khazad
-	culture = ironfists
-
-	dna = dorfdad_sindri_dna
-
-	father = lineofthelorI
-
-	trait = brave
-	trait = stubborn
-	trait = ambitious
-	trait = diligent
-
-	trait = intellect_good_3
-	trait = dwarf_father
-	
-	trait = education_stewardship_5
-
-	1000.1.1 = {
-		birth = yes
-		name = "Thelor II"
-		effect = {
-			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
-		}
-	}
-	2000.1.2 = { # just to fill the timeline
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofthelorIII = {
-	name = Sindri
-	dynasty = dynasty_thelor
-	religion = faith_khazad
-	culture = ironfists
-
-	dna = dorfdad_sindri_dna
-
-	father = lineofthelorII
-
-	trait = brave
-	trait = stubborn
-	trait = ambitious
-	trait = diligent
-
-	trait = intellect_good_3
-	trait = dwarf_father
-	
-	trait = education_stewardship_5
-
-	2000.1.1 = {
-		birth = yes
-		name = "Thelor III"
-		effect = {
-			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
-		}
-	}
-	3000.1.2 = { # just to fill the timeline
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofthelorIV = {
-	name = Sindri
-	dynasty = dynasty_thelor
-	religion = faith_khazad
-	culture = ironfists
-
-	dna = dorfdad_sindri_dna
-
-	father = lineofthelorIII
-
-	trait = brave
-	trait = stubborn
-	trait = ambitious
-	trait = diligent
-
-	trait = intellect_good_3
-	trait = dwarf_father
-	
-	trait = education_stewardship_5
-
-	3000.1.1 = {
-		birth = yes
-		name = "Thelor IV"
-		effect = {
-			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
-		}
-	}
-	4000.1.2 = { # just to fill the timeline
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofthelorV = {
-	name = Sindri
-	dynasty = dynasty_thelor
-	religion = faith_khazad
-	culture = ironfists
-
-	dna = dorfdad_sindri_dna
-
-	father = lineofthelorIV
-
-	trait = brave
-	trait = stubborn
-	trait = ambitious
-	trait = diligent
-
-	trait = intellect_good_3
-	trait = dwarf_father
-	
-	trait = education_stewardship_5
-
-	4000.1.1 = {
-		birth = yes
-		name = "Thelor V"
-		effect = {
-			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
-		}
-	}
-	5000.1.2 = { # just to fill the timeline
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofthelorVI = {
-	name = Sindri
-	dynasty = dynasty_thelor
-	religion = faith_khazad
-	culture = ironfists
-
-	dna = dorfdad_sindri_dna
-
-	father = lineofthelorV
-
-	trait = brave
-	trait = stubborn
-	trait = ambitious
-	trait = diligent
-
-	trait = intellect_good_3
-	trait = dwarf_father
-	
-	trait = education_stewardship_5
-
-	6000.1.1 = {
-		birth = yes
-		name = "Thelor VI"
-		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
-			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
-		}
-	}
-	6500.1.2 = { # just to fill the timeline
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofthelor900 = {
-	name = V_ekun # I
-	dynasty = dynasty_thelor
-	religion = faith_khazad
-	culture = ironfists
-	father = lineofthelorVI
-
-	6500.1.1 = {
-		birth = yes
-	}
-	6750.1.2 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofthelor901 = {
-	name = V_elat
-	dynasty = dynasty_thelor
-	religion = faith_khazad
-	culture = ironfists
-	father = lineofthelor900 # Vekun I
-
-	6750.1.1 = {
-		birth = yes
-	}
-	6950.1.2 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofthelor902 = {
-	name = V_ekun # II
-	dynasty = dynasty_thelor
-	religion = faith_khazad
-	culture = ironfists
-	father = lineofthelor901 # Velat
-
-	6900.1.1 = {
-		birth = yes
-		effect = {
-			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
-		}
-	}
-	7250.10.21 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofthelor903 = {
-	name = _Otek #VII
-	dynasty = dynasty_thelor
-	religion = faith_khazad
-	culture = ironfists
-	father = lineofthelor902 # Velat
-
-	7000.1.1 = {
-		birth = yes
-	}
-	7250.10.21 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofthelor904 = {
-	name = Ing_or
-	dynasty = dynasty_thelor
-	religion = faith_khazad
-	culture = ironfists
-	father = lineofthelor902 # Velat
-
-	7050.1.1 = {
-		birth = yes
-		effect = {
-			#add_character_modifier = reflection_of_thelor # possible thelor VII
-		}
-	}
-	7174.1.1 = {
-		effect = {
-			set_relation_friend = { 
-				reason = contemplated_life_and_death_together 
-				target = character:lineofdurinVII # Durin VII
-			}
-			make_tributary = {
-				TYPE = tributary_permanent
-				SUZERAIN = character:lineofdurin91 # Thorin III
-				TRIBUTARY = character:lineofthelor904 # Ingor
-			}
-			create_alliance = {
-				target = character:lineofdurinVII # Durin VII
-				allied_through_owner = character:lineofthelor904 # Ingor
-				allied_through_target = character:lineofdurinVII # Durin VII
-			}
-		}
-	}
-	7350.10.21 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
 ### Line of Varya
 lineofvarya1 = {
 	name = Varya
@@ -324,4 +26,3663 @@ lineofvarya1 = {
 	7213.10.21 = {
 		death = { death_reason = death_natural_causes }
 	}
+}
+
+### Line of Sindri
+
+lineofsindri900 = {
+	name = V_ekun # I
+	dynasty = dynasty_sindri
+	religion = faith_khazad
+	culture = ironfists
+
+	father = lineofsindri89
+    mother = lineofsindri90
+
+	6500.1.1 = {
+		birth = yes
+	}
+	6750.1.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri901 = {
+	name = V_elat
+	dynasty = dynasty_sindri
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofsindri900 # Vekun I
+
+	6750.1.1 = {
+		birth = yes
+	}
+	6950.1.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri902 = {
+	name = V_ekun # II
+	dynasty = dynasty_sindri
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofsindri901 # Velat
+
+	6900.1.1 = {
+		birth = yes
+	}
+	7250.10.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri903 = {
+	name = _Otek #VII
+	dynasty = dynasty_sindri
+	religion = faith_khazad
+	culture = ironfists
+	father = lineofsindri902 # Velat
+
+	7000.1.1 = {
+		birth = yes
+	}
+	7250.10.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindriIngor= { # Sindri VI's grandson
+	name = Ing_or
+	dynasty = dynasty_sindri
+	religion = faith_khazad
+	culture = ironfists
+
+    father = lineofsindri902 # Velat
+
+	7050.1.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = reflection_of_sindri # possible Sindri VII
+		}
+	}
+	7174.1.1 = {
+		effect = {
+			set_relation_friend = { 
+				reason = contemplated_life_and_death_together 
+				target = character:lineofdurinVII # Durin VII
+			}
+			make_tributary = {
+				TYPE = tributary_permanent
+				SUZERAIN = character:lineofdurin91 # Thorin III
+				TRIBUTARY = character:lineofsindri904 # Ingor
+			}
+			create_alliance = {
+				target = character:lineofdurinVII # Durin VII
+				allied_through_owner = character:lineofsindri904 # Ingor
+				allied_through_target = character:lineofdurinVII # Durin VII
+			}
+		}
+	}
+	7350.10.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindriI = {
+    name = Sindri # I
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    dna = dorfdad_sindri_dna
+
+    sexuality = heterosexual
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
+	trait = administrator
+	
+	1.1.16 = {
+		birth = yes
+		give_nickname = nick_the_rich_dwarf
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+	}
+
+    126.2.24 = {
+        add_spouse = lineofsindri2
+    }
+
+    367.12.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+	
+	}
+
+lineofsindri2 = {
+    name = B_ari
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = cynical
+    trait = vengeful
+    trait = paranoid
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 5
+    intrigue = 1
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    59.9.11 = {
+        birth = yes
+    }
+
+    296.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri3 = {
+    name = Aurgurminir
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindriI
+    mother = lineofsindri2
+
+    sexuality = heterosexual
+
+    trait = paranoid
+    trait = calm
+    trait = content
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    95.10.22 = {
+        birth = yes
+    }
+
+    321.2.13 = {
+        add_spouse = lineofsindri4
+    }
+
+    354.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri4 = {
+    name = L_oin
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = wrathful
+    trait = vengeful
+    trait = just
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 6
+    intrigue = 3
+    learning = 3
+    prowess = 2
+
+    trait = education_stewardship_2
+
+    194.9.6 = {
+        birth = yes
+    }
+
+    501.10.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri5 = {
+    name = Fo_o_rwi
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri3
+    mother = lineofsindri4
+
+    sexuality = heterosexual
+
+    trait = arrogant
+    trait = forgiving
+    trait = generous
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 2
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_learning_2
+
+    364.1.4 = {
+        birth = yes
+    }
+
+    517.7.23 = {
+        add_spouse = lineofsindri6
+    }
+
+    625.10.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri6 = {
+    name = Bifur
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = callous
+    trait = gregarious
+    trait = arbitrary
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 2
+    intrigue = 4
+    learning = 2
+    prowess = 1
+
+    trait = education_diplomacy_2
+
+    366.2.12 = {
+        birth = yes
+    }
+
+    541.3.13 = {
+        death = { death_reason = death_leper }
+    }
+}
+
+lineofsindri7 = {
+    name = R_athspakr
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri5
+    mother = lineofsindri6
+
+    sexuality = heterosexual
+
+    trait = diligent
+    trait = vengeful
+    trait = wrathful
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_1
+
+    532.1.25 = {
+        birth = yes
+    }
+
+    611.8.2 = {
+        add_spouse = lineofsindri8
+    }
+
+    828.11.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri8 = {
+    name = Iri
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = compassionate
+    trait = generous
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_2
+
+    531.6.24 = {
+        birth = yes
+    }
+
+    706.11.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri9 = {
+    name = Eil_ifr
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri7
+    mother = lineofsindri8
+
+    sexuality = asexual
+
+    trait = diligent
+    trait = impatient
+    trait = calm
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 1
+    intrigue = 8
+    learning = 4
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    637.10.8 = {
+        birth = yes
+    }
+
+    804.9.23 = {
+        add_spouse = lineofsindri10
+    }
+
+    851.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri10 = {
+    name = Skafithur
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = gregarious
+    trait = generous
+    trait = craven
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    639.3.27 = {
+        birth = yes
+    }
+
+    930.4.5 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+lineofsindri11 = {
+    name = Fundin
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri9
+    mother = lineofsindri10
+
+    sexuality = heterosexual
+
+    trait = impatient
+    trait = content
+    trait = chaste
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 1
+    intrigue = 3
+    learning = 5
+    prowess = 3
+
+    trait = education_learning_3
+
+    807.4.11 = {
+        birth = yes
+    }
+
+    862.9.15 = {
+        add_spouse = lineofsindri12
+    }
+
+    1008.3.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri12 = {
+    name = Hreithmar
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = arrogant
+    trait = calm
+    trait = sadistic
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    805.5.13 = {
+        birth = yes
+    }
+
+    983.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri13 = {
+    name = L_oni
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri11
+    mother = lineofsindri12
+
+    sexuality = heterosexual
+
+    trait = gregarious
+    trait = just
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 2
+    intrigue = 4
+    learning = 4
+    prowess = 1
+
+    trait = education_martial_4
+
+    975.5.24 = {
+        birth = yes
+    }
+
+    1050.5.4 = {
+        add_spouse = lineofsindri14
+    }
+
+    1223.3.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri14 = {
+    name = Gurer
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = lazy
+    trait = generous
+    trait = just
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 3
+    intrigue = 6
+    learning = 2
+    prowess = 3
+
+    trait = education_martial_2
+
+    973.2.27 = {
+        birth = yes
+    }
+
+    1199.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri15 = {
+    name = N_ori
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri13
+    mother = lineofsindri14
+
+    sexuality = heterosexual
+
+    trait = craven
+    trait = lustful
+    trait = zealous
+
+    diplomacy = 3
+    martial = 2
+    stewardship = 3
+    intrigue = 7
+    learning = 2
+    prowess = 4
+
+    trait = education_intrigue_1
+
+    1057.4.15 = {
+        birth = yes
+    }
+
+    1159.7.9 = {
+        add_spouse = lineofsindri16
+    }
+
+    1260.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri16 = {
+    name = N_ithho_o_ggur
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = fickle
+    trait = ambitious
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 5
+    intrigue = 4
+    learning = 6
+    prowess = 6
+
+    trait = education_martial_2
+
+    1060.9.9 = {
+        birth = yes
+    }
+
+    1249.5.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri17 = {
+    name = Thy_or
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri15
+    mother = lineofsindri16
+
+    sexuality = heterosexual
+
+    trait = zealous
+    trait = gregarious
+    trait = content
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 6
+    intrigue = 1
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_4
+
+    1164.2.20 = {
+        birth = yes
+    }
+
+    1205.2.16 = {
+        add_spouse = lineofsindri18
+    }
+
+    1415.7.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri18 = {
+    name = Hildingur
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = honest
+    trait = greedy
+    trait = temperate
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 2
+    intrigue = 5
+    learning = 2
+    prowess = 4
+
+    trait = education_martial_2
+
+    1166.3.8 = {
+        birth = yes
+    }
+
+    1420.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri19 = {
+    name = Aurwangur
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri17
+    mother = lineofsindri18
+
+    sexuality = heterosexual
+
+    trait = vengeful
+    trait = shy
+    trait = sadistic
+
+    diplomacy = 6
+    martial = 9
+    stewardship = 2
+    intrigue = 8
+    learning = 7
+    prowess = 6
+
+    trait = education_martial_2
+
+    1236.5.4 = {
+        birth = yes
+		effect = {
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+    }
+
+    1360.9.28 = {
+        add_spouse = lineofsindri20
+    }
+
+    1472.9.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri20 = {
+    name = Hildingur
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = vengeful
+    trait = stubborn
+    trait = just
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    1237.12.17 = {
+        birth = yes
+    }
+
+    1429.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindriII = {
+    name = Sindri # II
+
+	dynasty = dynasty_sindri
+	religion = faith_khazad
+	culture = ironfists
+
+    sexuality = heterosexual
+
+	dna = dorfdad_sindri_dna
+
+	father = lineofsindri19
+	mother = lineofsindri20
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
+
+    1413.3.11 = {
+        birth = yes
+    }
+
+    1464.1.26 = {
+        add_spouse = lineofsindri22
+    }
+
+    1658.6.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri22 = {
+    name = _Anar
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = gluttonous
+    trait = fickle
+    trait = content
+
+    diplomacy = 1
+    martial = 4
+    stewardship = 3
+    intrigue = 2
+    learning = 2
+    prowess = 9
+
+    trait = education_martial_2
+
+    1410.1.27 = {
+        birth = yes
+    }
+
+    1611.5.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri23 = {
+    name = R_athspakr
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindriII
+    mother = lineofsindri22
+
+    sexuality = heterosexual
+
+    trait = paranoid
+    trait = lazy
+    trait = deceitful
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_1
+
+    1482.9.24 = {
+        birth = yes
+    }
+
+    1596.10.10 = {
+        add_spouse = lineofsindri24
+    }
+
+    1689.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri24 = {
+    name = Gl_oi
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = craven
+    trait = content
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 7
+    intrigue = 3
+    learning = 3
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    1484.1.16 = {
+        birth = yes
+    }
+
+    1746.9.6 = {
+        death = { death_reason = death_stress }
+    }
+}
+
+lineofsindri25 = {
+    name = Fafnir
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri23
+    mother = lineofsindri24
+
+    sexuality = heterosexual
+
+    trait = impatient
+    trait = lustful
+    trait = callous
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 2
+    intrigue = 7
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    1637.10.2 = {
+        birth = yes
+    }
+
+    1717.12.28 = {
+        add_spouse = lineofsindri26
+    }
+
+    1863.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri26 = {
+    name = Nefi
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = compassionate
+    trait = patient
+    trait = humble
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_3
+
+    1635.4.23 = {
+        birth = yes
+    }
+
+    1924.10.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri27 = {
+    name = Eitri
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri25
+    mother = lineofsindri26
+
+    sexuality = asexual
+
+    trait = sadistic
+    trait = craven
+    trait = zealous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 6
+    intrigue = 9
+    learning = 7
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    1766.9.19 = {
+        birth = yes
+    }
+
+    1870.11.23 = {
+        add_spouse = lineofsindri28
+    }
+
+    1948.7.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri28 = {
+    name = N_ain
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = cynical
+    trait = arrogant
+    trait = gregarious
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 7
+    prowess = 3
+
+    trait = education_learning_4
+
+    1768.2.18 = {
+        birth = yes
+    }
+
+    2045.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri29 = {
+    name = Brokkr
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri27
+    mother = lineofsindri28
+
+    sexuality = heterosexual
+
+    trait = cynical
+    trait = humble
+    trait = gregarious
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 1
+    intrigue = 6
+    learning = 5
+    prowess = 8
+
+    trait = education_martial_4
+
+    1899.12.25 = {
+        birth = yes
+		effect = {
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+    }
+
+    2055.6.27 = {
+        add_spouse = lineofsindri30
+    }
+
+    2169.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri30 = {
+    name = Nyr_athur
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = wrathful
+    trait = compassionate
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 3
+    intrigue = 4
+    learning = 3
+    prowess = 8
+
+    trait = education_diplomacy_3
+
+    1901.12.11 = {
+        birth = yes
+    }
+
+    2168.6.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindriIII = {
+    name = Sindri # III
+
+	dynasty = dynasty_sindri
+	religion = faith_khazad
+	culture = ironfists
+
+    sexuality = heterosexual
+
+	dna = dorfdad_sindri_dna
+
+	father = lineofsindri29
+	mother = lineofsindri30
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
+
+    2072.9.12 = {
+        birth = yes
+    }
+
+    2212.2.9 = {
+        add_spouse = lineofsindri32
+    }
+
+    2291.9.5 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lineofsindri32 = {
+    name = Gimli
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = lustful
+    trait = trusting
+    trait = zealous
+
+    diplomacy = 2
+    martial = 8
+    stewardship = 7
+    intrigue = 2
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_4
+
+    2073.4.2 = {
+        birth = yes
+    }
+
+    2270.9.14 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+lineofsindri33 = {
+    name = Ly_omi
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindriIII
+    mother = lineofsindri32
+
+    sexuality = heterosexual
+
+    trait = just
+    trait = compassionate
+    trait = lazy
+
+    diplomacy = 6
+    martial = 2
+    stewardship = 5
+    intrigue = 5
+    learning = 1
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    2232.9.7 = {
+        birth = yes
+    }
+
+    2394.11.20 = {
+        add_spouse = lineofsindri34
+    }
+
+    2523.5.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri34 = {
+    name = Borin
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = impatient
+    trait = callous
+    trait = temperate
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    2233.5.20 = {
+        birth = yes
+    }
+
+    2434.7.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri35 = {
+    name = Fror
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri33
+    mother = lineofsindri34
+
+    sexuality = heterosexual
+
+    trait = patient
+    trait = honest
+    trait = shy
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 4
+    intrigue = 3
+    learning = 7
+    prowess = 5
+
+    trait = education_learning_2
+
+    2403.1.3 = {
+        birth = yes
+    }
+
+    2480.10.11 = {
+        add_spouse = lineofsindri36
+    }
+
+    2616.3.6 = {
+        death = { death_reason = death_raid }
+    }
+}
+
+lineofsindri36 = {
+    name = Gorin
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = chaste
+    trait = arrogant
+    trait = fickle
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_3
+
+    2403.5.28 = {
+        birth = yes
+    }
+
+    2692.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri37 = {
+    name = L_oin
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri35
+    mother = lineofsindri36
+
+    sexuality = heterosexual
+
+    trait = ambitious
+    trait = calm
+    trait = brave
+
+    diplomacy = 6
+    martial = 15
+    stewardship = 8
+    intrigue = 10
+    learning = 13
+    prowess = 14
+
+    trait = education_martial_4
+
+    2509.6.12 = {
+        birth = yes
+    }
+
+    2665.4.15 = {
+        add_spouse = lineofsindri38
+    }
+
+    2738.5.22 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofsindri38 = {
+    name = Bilingur
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = impatient
+    trait = temperate
+    trait = lazy
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 4
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    2510.10.23 = {
+        birth = yes
+    }
+
+    2699.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri39 = {
+    name = Br_uni
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri37
+    mother = lineofsindri38
+
+    sexuality = heterosexual
+
+    trait = patient
+    trait = sadistic
+    trait = craven
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    2683.10.16 = {
+        birth = yes
+    }
+
+    2764.3.8 = {
+        add_spouse = lineofsindri40
+    }
+
+    2918.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri40 = {
+    name = Eil_ifr
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = homosexual
+
+    trait = lazy
+    trait = content
+    trait = deceitful
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 2
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    2686.5.9 = {
+        birth = yes
+    }
+
+    2875.3.18 = {
+        death = { death_reason = death_torture  }
+    }
+}
+
+lineofsindri41 = {
+    name = Br_uni
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri39
+    mother = lineofsindri40
+
+    sexuality = heterosexual
+
+    trait = honest
+    trait = gluttonous
+    trait = content
+
+    diplomacy = 10
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+    prowess = 6
+
+    trait = education_diplomacy_2
+
+    2796.2.3 = {
+        birth = yes
+    }
+
+    2836.3.23 = {
+        add_spouse = lineofsindri42
+    }
+
+    3094.9.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri42 = {
+    name = Br_isingur
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = just
+    trait = trusting
+    trait = gluttonous
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 7
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    2799.1.21 = {
+        birth = yes
+    }
+
+    3097.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri43 = {
+    name = Bl_ain
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri41
+    mother = lineofsindri42
+
+    sexuality = heterosexual
+
+    trait = temperate
+    trait = shy
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 1
+    intrigue = 4
+    learning = 6
+    prowess = 7
+
+    trait = education_martial_3
+
+    2871.7.25 = {
+        birth = yes
+    }
+
+    2931.7.8 = {
+        add_spouse = lineofsindri44
+    }
+
+    3137.5.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri44 = {
+    name = B_ari
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = content
+    trait = impatient
+    trait = wrathful
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 5
+    intrigue = 4
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    2873.2.23 = {
+        birth = yes
+    }
+
+    3115.12.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri45 = {
+    name = Gloni
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri43
+    mother = lineofsindri44
+
+    sexuality = heterosexual
+
+    trait = arbitrary
+    trait = cynical
+    trait = patient
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 2
+    intrigue = 5
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_2
+
+    3045.11.20 = {
+        birth = yes
+    }
+
+    3108.7.2 = {
+        add_spouse = lineofsindri46
+    }
+
+    3313.12.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri46 = {
+    name = Buri
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = compassionate
+    trait = patient
+    trait = trusting
+
+    diplomacy = 7
+    martial = 3
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 2
+
+    trait = education_diplomacy_1
+
+    3043.12.8 = {
+        birth = yes
+    }
+
+    3228.12.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri47 = {
+    name = Skirfir
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri45
+    mother = lineofsindri46
+
+    sexuality = heterosexual
+
+    trait = arrogant
+    trait = just
+    trait = lazy
+
+    diplomacy = 6
+    martial = 11
+    stewardship = 3
+    intrigue = 7
+    learning = 1
+    prowess = 3
+
+    trait = education_martial_2
+
+    3192.4.26 = {
+        birth = yes
+    }
+
+    3266.12.11 = {
+        add_spouse = lineofsindri48
+    }
+
+    3496.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri48 = {
+    name = A_i
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = brave
+    trait = trusting
+    trait = shy
+
+    diplomacy = 3
+    martial = 4
+    stewardship = 2
+    intrigue = 4
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_2
+
+    3193.9.24 = {
+        birth = yes
+    }
+
+    3425.8.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri49 = {
+    name = Tigwi
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri47
+    mother = lineofsindri48
+
+    sexuality = heterosexual
+
+    trait = temperate
+    trait = shy
+    trait = diligent
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 7
+    learning = 2
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    3312.1.14 = {
+        birth = yes
+		effect = {
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+    }
+
+    3433.8.13 = {
+        add_spouse = lineofsindri50
+    }
+
+    3522.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri50 = {
+    name = Nabbi
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = callous
+    trait = just
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    3315.12.11 = {
+        birth = yes
+    }
+
+    3575.10.15 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lineofsindriIV = { # Sindri IV
+    name = Sindri # IV
+
+	dynasty = dynasty_sindri
+	religion = faith_khazad
+	culture = ironfists
+
+    sexuality = heterosexual
+
+	dna = dorfdad_sindri_dna
+
+	father = lineofsindri49
+	mother = lineofsindri50
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
+
+    3451.4.22 = {
+        birth = yes
+    }
+
+    3561.4.9 = {
+        add_spouse = lineofsindri52
+    }
+
+    3680.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri52 = {
+    name = Nabbi
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = trusting
+    trait = brave
+    trait = humble
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 4
+    intrigue = 6
+    learning = 2
+    prowess = 4
+
+    trait = education_martial_3
+
+    3453.5.13 = {
+        birth = yes
+    }
+
+    3709.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri53 = {
+    name = Wigur
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindriIV
+    mother = lineofsindri52
+
+    sexuality = heterosexual
+
+    trait = trusting
+    trait = impatient
+    trait = lustful
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 6
+    intrigue = 9
+    learning = 6
+    prowess = 1
+
+    trait = education_intrigue_2
+
+    3601.8.10 = {
+        birth = yes
+    }
+
+    3716.11.10 = {
+        add_spouse = lineofsindri54
+    }
+
+    3827.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri54 = {
+    name = T_oki
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = ambitious
+    trait = wrathful
+    trait = diligent
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 7
+    learning = 8
+    prowess = 4
+
+    trait = education_martial_2
+
+    3603.10.19 = {
+        birth = yes
+    }
+
+    3839.10.11 = {
+        death = { death_reason = death_fall  }
+    }
+}
+
+lineofsindri55 = {
+    name = Uni
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri53
+    mother = lineofsindri54
+
+    sexuality = heterosexual
+
+    trait = diligent
+    trait = paranoid
+    trait = generous
+
+    diplomacy = 1
+    martial = 4
+    stewardship = 4
+    intrigue = 6
+    learning = 7
+    prowess = 10
+
+    trait = education_learning_3
+
+    3719.12.2 = {
+        birth = yes
+    }
+
+    3815.6.7 = {
+        add_spouse = lineofsindri56
+    }
+
+    4005.6.26 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+lineofsindri56 = {
+    name = Hildingur
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = arrogant
+    trait = content
+    trait = calm
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 4
+    intrigue = 6
+    learning = 10
+    prowess = 5
+
+    trait = education_learning_2
+
+    3722.10.10 = {
+        birth = yes
+    }
+
+    4000.3.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri57 = {
+    name = Mithwith
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri55
+    mother = lineofsindri56
+
+    sexuality = heterosexual
+
+    trait = compassionate
+    trait = wrathful
+    trait = lazy
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 1
+
+    trait = education_intrigue_2
+
+    3898.9.26 = {
+        birth = yes
+    }
+
+    4058.3.21 = {
+        add_spouse = lineofsindri58
+    }
+
+    4162.10.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri58 = {
+    name = W_ifir
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = stubborn
+    trait = vengeful
+    trait = temperate
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 9
+    intrigue = 7
+    learning = 3
+    prowess = 2
+
+    trait = education_stewardship_1
+
+    3896.11.12 = {
+        birth = yes
+    }
+
+    4199.1.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri59 = {
+    name = Thur_ain
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri57
+    mother = lineofsindri58
+
+    sexuality = heterosexual
+
+    trait = cynical
+    trait = patient
+    trait = calm
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 6
+    intrigue = 8
+    learning = 3
+    prowess = 2
+
+    trait = education_intrigue_2
+
+    4083.6.14 = {
+        birth = yes
+    }
+
+    4196.2.6 = {
+        add_spouse = lineofsindri60
+    }
+
+    4358.6.15 = {
+        death = { death_reason = death_stress }
+    }
+}
+
+lineofsindri60 = {
+    name = Frosti
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = gregarious
+    trait = just
+    trait = arrogant
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 3
+    intrigue = 3
+    learning = 7
+    prowess = 6
+
+    trait = education_learning_2
+
+    4083.2.4 = {
+        birth = yes
+    }
+
+    4374.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri61 = {
+    name = _Ori
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri59
+    mother = lineofsindri60
+
+    sexuality = heterosexual
+
+    trait = arrogant
+    trait = ambitious
+    trait = greedy
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 3
+    intrigue = 6
+    learning = 5
+    prowess = 7
+
+    trait = education_intrigue_3
+
+    4256.6.6 = {
+        birth = yes
+    }
+
+    4369.9.27 = {
+        add_spouse = lineofsindri62
+    }
+
+    4444.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri62 = {
+    name = Austri
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = arbitrary
+    trait = zealous
+    trait = chaste
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 2
+    intrigue = 2
+    learning = 5
+    prowess = 7
+
+    trait = education_martial_2
+
+    4255.1.25 = {
+        birth = yes
+    }
+
+    4452.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri63 = {
+    name = Aurgurminir
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri61
+    mother = lineofsindri62
+
+    sexuality = heterosexual
+
+    trait = gluttonous
+    trait = generous
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 3
+    intrigue = 8
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    4421.6.18 = {
+        birth = yes
+    }
+
+    4553.5.28 = {
+        add_spouse = lineofsindri64
+    }
+
+    4725.6.18 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+lineofsindri64 = {
+    name = Morgrim
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = gluttonous
+    trait = patient
+    trait = humble
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_intrigue_2
+
+    4421.9.28 = {
+        birth = yes
+    }
+
+    4633.7.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri65 = {
+    name = Fyalar
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri63
+    mother = lineofsindri64
+
+    sexuality = heterosexual
+
+    trait = compassionate
+    trait = lazy
+    trait = craven
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 6
+
+    trait = education_learning_3
+
+    4565.12.21 = {
+        birth = yes
+		effect = {
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+    }
+
+    4695.11.22 = {
+        add_spouse = lineofsindri66
+    }
+
+    4750.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri66 = {
+    name = Dari
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = zealous
+    trait = patient
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_4
+
+    4566.7.27 = {
+        birth = yes
+    }
+
+    4790.2.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindriV = {
+    name = Sindri # V
+
+	dynasty = dynasty_sindri
+	religion = faith_khazad
+	culture = ironfists
+
+    sexuality = heterosexual
+
+	dna = dorfdad_sindri_dna
+
+	father = lineofsindri65
+	mother = lineofsindri66
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
+
+    4726.2.5 = {
+        birth = yes
+    }
+
+    4786.3.6 = {
+        add_spouse = lineofsindri68
+    }
+
+    4967.11.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri68 = {
+    name = Moin
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = deceitful
+    trait = wrathful
+    trait = chaste
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 5
+    intrigue = 3
+    learning = 3
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    4723.10.7 = {
+        birth = yes
+    }
+
+    4936.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri69 = {
+    name = Westri
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindriV
+    mother = lineofsindri68
+
+    sexuality = heterosexual
+
+    trait = patient
+    trait = arrogant
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_1
+
+    4798.10.24 = {
+        birth = yes
+    }
+
+    4968.9.9 = {
+        add_spouse = lineofsindri70
+    }
+
+    5107.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri70 = {
+    name = Nyr_athur
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = zealous
+    trait = sadistic
+    trait = lustful
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 4
+    intrigue = 3
+    learning = 5
+    prowess = 4
+
+    trait = education_learning_1
+
+    4797.7.25 = {
+        birth = yes
+    }
+
+    5009.9.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri71 = {
+    name = Nali
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri69
+    mother = lineofsindri70
+
+    sexuality = heterosexual
+
+    trait = calm
+    trait = arrogant
+    trait = fickle
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 7
+    intrigue = 5
+    learning = 2
+    prowess = 7
+
+    trait = education_stewardship_4
+
+    4974.1.23 = {
+        birth = yes
+    }
+
+    5052.11.2 = {
+        add_spouse = lineofsindri72
+    }
+
+    5277.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri72 = {
+    name = Fl_oi
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = sadistic
+    trait = deceitful
+    trait = lustful
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 1
+    prowess = 7
+
+    trait = education_martial_3
+
+    4973.5.6 = {
+        birth = yes
+    }
+
+    5280.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri73 = {
+    name = T_oki
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri71
+    mother = lineofsindri72
+
+    sexuality = heterosexual
+
+    trait = gluttonous
+    trait = paranoid
+    trait = generous
+
+    diplomacy = 8
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    5139.4.24 = {
+        birth = yes
+    }
+
+    5228.6.11 = {
+        add_spouse = lineofsindri74
+    }
+
+    5321.12.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri74 = {
+    name = L_oin
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = wrathful
+    trait = cynical
+    trait = gluttonous
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 2
+    intrigue = 6
+    learning = 5
+    prowess = 2
+
+    trait = education_diplomacy_2
+
+    5140.5.10 = {
+        birth = yes
+    }
+
+    5430.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri75 = {
+    name = Gud
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri73
+    mother = lineofsindri74
+
+    sexuality = heterosexual
+
+    trait = vengeful
+    trait = craven
+    trait = gluttonous
+
+    diplomacy = 5
+    martial = 2
+    stewardship = 6
+    intrigue = 5
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    5316.4.28 = {
+        birth = yes
+    }
+
+    5484.7.4 = {
+        add_spouse = lineofsindri76
+    }
+
+    5583.7.16 = {
+        death = { death_reason = death_feast_accident  }
+    }
+}
+
+lineofsindri76 = {
+    name = Fundin
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = gluttonous
+    trait = forgiving
+    trait = fickle
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 1
+    intrigue = 6
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_1
+
+    5318.4.25 = {
+        birth = yes
+    }
+
+    5528.9.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri77 = {
+    name = Uni
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri75
+    mother = lineofsindri76
+
+    sexuality = bisexual
+
+    trait = honest
+    trait = gregarious
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 2
+    intrigue = 6
+    learning = 6
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5490.4.9 = {
+        birth = yes
+    }
+
+    5538.10.5 = {
+        add_spouse = lineofsindri78
+    }
+
+    5727.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri78 = {
+    name = Hugstari
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = content
+    trait = zealous
+    trait = gluttonous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 3
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_4
+
+    5491.12.22 = {
+        birth = yes
+    }
+
+    5775.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri79 = {
+    name = Siar
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri77
+    mother = lineofsindri78
+
+    sexuality = heterosexual
+
+    trait = compassionate
+    trait = greedy
+    trait = just
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 5
+    intrigue = 3
+    learning = 8
+    prowess = 3
+
+    trait = education_learning_2
+
+    5652.8.20 = {
+        birth = yes
+    }
+
+    5802.2.26 = {
+        add_spouse = lineofsindri80
+    }
+
+    5932.2.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri80 = {
+    name = Morgrim
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = calm
+    trait = deceitful
+    trait = trusting
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 1
+    intrigue = 2
+    learning = 1
+    prowess = 10
+
+    trait = education_martial_3
+
+    5649.9.7 = {
+        birth = yes
+    }
+
+    5901.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri81 = {
+    name = Yaki
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri79
+    mother = lineofsindri80
+
+    sexuality = heterosexual
+
+    trait = sadistic
+    trait = temperate
+    trait = paranoid
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 5
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_martial_3
+
+    5802.7.7 = {
+        birth = yes
+    }
+
+    5940.12.7 = {
+        add_spouse = lineofsindri82
+    }
+
+    6048.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri82 = {
+    name = Mondul
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = paranoid
+    trait = honest
+    trait = calm
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 2
+    intrigue = 8
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_3
+
+    5802.10.2 = {
+        birth = yes
+    }
+
+    6009.1.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri83 = {
+    name = Andwari
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri81
+    mother = lineofsindri82
+
+    sexuality = heterosexual
+
+    trait = paranoid
+    trait = deceitful
+    trait = brave
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 8
+    prowess = 1
+
+    trait = education_learning_2
+
+    5951.8.7 = {
+        birth = yes
+    }
+
+    6110.3.12 = {
+        add_spouse = lineofsindri84
+    }
+
+    6244.12.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri84 = {
+    name = Munin
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = brave
+    trait = compassionate
+    trait = ambitious
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_1
+
+    5953.2.13 = {
+        birth = yes 
+    }
+
+    6163.6.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri85 = {
+    name = D_ain
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri83
+    mother = lineofsindri84
+
+    sexuality = heterosexual
+
+    trait = wrathful
+    trait = ambitious
+    trait = generous
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 6
+    intrigue = 6
+    learning = 6
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    6120.12.2 = {
+        birth = yes
+    }
+
+    6245.1.2 = {
+        add_spouse = lineofsindri86
+    }
+
+    6333.12.1 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+lineofsindri86 = {
+    name = Lofar
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = lazy
+    trait = generous
+    trait = fickle
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 10
+    intrigue = 5
+    learning = 3
+    prowess = 9
+
+    trait = education_stewardship_1
+
+    6120.9.12 = {
+        birth = yes
+        effect = {
+			add_character_flag = historically_conceived_dorfdad # Much more likely to sire dwarven father
+		}
+    }
+
+    6317.11.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindriVI = {
+    name = Sindri # VI
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+	dna = dorfdad_sindri_dna
+
+	father = lineofsindri85
+	mother = lineofsindri86
+
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+
+	trait = intellect_good_3
+	trait = dwarf_father
+	
+	trait = education_stewardship_5
+
+    6273.7.2 = {
+        birth = yes
+    }
+
+    6362.3.28 = {
+        add_spouse = lineofsindri88
+    }
+
+    6510.9.20 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lineofsindri88 = {
+    name = D_ain
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = asexual
+
+    trait = trusting
+    trait = forgiving
+    trait = calm
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 3
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_2
+
+    6271.6.20 = {
+        birth = yes
+    }
+
+    6523.7.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri89 = {
+    name = Nyr_athur
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindriVI
+    mother = lineofsindri88
+
+    sexuality = heterosexual
+
+    trait = ambitious
+    trait = calm
+    trait = brave
+
+    diplomacy = 6
+    martial = 15
+    stewardship = 8
+    intrigue = 10
+    learning = 13
+    prowess = 14
+
+    trait = education_martial_4
+
+    6425.10.6 = {
+        birth = yes
+    }
+
+    6478.4.6 = {
+        add_spouse = lineofsindri90
+    }
+
+    6724.2.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri90 = {
+    name = Kili
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = compassionate
+    trait = brave
+    trait = forgiving
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 1
+    intrigue = 2
+    learning = 2
+    prowess = 1
+
+    trait = education_diplomacy_4
+
+    6428.4.20 = {
+        birth = yes
+    }
+
+    6617.1.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri91 = {
+    name = Eggm_oin
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri89
+    mother = lineofsindri90
+
+    sexuality = heterosexual
+
+    trait = impatient
+    trait = ambitious
+    trait = shy
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 2
+    prowess = 2
+
+    trait = education_martial_3
+
+    6541.11.25 = {
+        birth = yes
+    }
+
+    6709.11.19 = {
+        add_spouse = lineofsindri92
+    }
+
+    6719.7.4 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+lineofsindri92 = {
+    name = _An
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = shy
+    trait = honest
+    trait = just
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 3
+    intrigue = 4
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    6539.7.23 = {
+        birth = yes
+    }
+
+    6810.8.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri93 = {
+    name = Gl_oin
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri91
+    mother = lineofsindri92
+
+    sexuality = heterosexual
+
+    trait = greedy
+    trait = brave
+    trait = sadistic
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 7
+    intrigue = 8
+    learning = 7
+    prowess = 2
+
+    trait = education_intrigue_3
+
+    6710.12.25 = {
+        birth = yes
+    }
+
+    6872.5.23 = {
+        add_spouse = lineofsindri94
+    }
+
+    6921.9.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri94 = {
+    name = Fyalar
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = chaste
+    trait = greedy
+    trait = paranoid
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 1
+    intrigue = 9
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_1
+
+    6711.5.2 = {
+        birth = yes
+    }
+
+    6895.4.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri95 = {
+    name = _Oin
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri93
+    mother = lineofsindri94
+
+    sexuality = heterosexual
+
+    trait = honest
+    trait = callous
+    trait = generous
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 6
+    intrigue = 3
+    learning = 4
+    prowess = 8
+
+    trait = education_stewardship_2
+
+    6877.10.27 = {
+        birth = yes
+    }
+
+    7015.5.24 = {
+        add_spouse = lineofsindri96
+    }
+
+    7146.9.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri96 = {
+    name = Fr_ar
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    trait = vengeful
+    trait = shy
+    trait = ambitious
+
+    diplomacy = 1
+    martial = 3
+    stewardship = 4
+    intrigue = 9
+    learning = 5
+    prowess = 3
+
+    trait = education_intrigue_3
+
+    6879.7.15 = {
+        birth = yes
+    }
+
+    7160.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri97 = {
+    name = Gl_oin
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri95
+    mother = lineofsindri96
+
+    sexuality = asexual
+
+    7018.8.10 = {
+        birth = yes
+    }
+
+    7114.5.20 = {
+        add_spouse = lineofsindri98
+    }
+
+    7261.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri98 = {
+    name = Morgrim
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    7021.1.7 = {
+        birth = yes
+    }
+
+    7289.2.1 = {
+        death = { death_reason = death_smallpox }
+    }
+}
+
+lineofsindri99 = {
+    name = Aurgurminir
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri97
+    mother = lineofsindri98
+
+    sexuality = heterosexual
+
+    7134.7.11 = {
+        birth = yes
+    }
+
+    7271.10.3 = {
+        add_spouse = lineofsindri100
+    }
+
+    7366.5.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri100 = {
+    name = Wigur
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    7132.8.11 = {
+        birth = yes
+    }
+
+    7369.6.2 = {
+        death = { death_reason = death_cancer }
+    }
+}
+
+lineofsindri102 = {
+    name = Thrain
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    7152.5.11 = {
+        birth = yes
+    }
+
+    7461.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri104 = {
+    name = Fyo_o_lswithur
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri95
+    mother = lineofsindri96
+
+    sexuality = heterosexual
+
+    7041.8.2 = {
+        birth = yes
+    }
+
+    7093.12.19 = {
+        add_spouse = lineofsindri105
+    }
+
+    7317.11.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri105 = {
+    name = Aurgurminir
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = bisexual
+
+    7039.7.15 = {
+        birth = yes
+    }
+
+    7289.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri106 = {
+    name = Gur_imr
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri104
+    mother = lineofsindri105
+
+    sexuality = heterosexual
+
+    7135.10.13 = {
+        birth = yes
+    }
+
+    7191.1.25 = {
+        add_spouse = lineofsindri107
+    }
+
+    7314.5.7 = {
+        death = { death_reason = death_maimed }
+    }
+}
+
+lineofsindri107 = {
+    name = Thorin
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    7132.6.11 = {
+        birth = yes
+    }
+
+    7419.2.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri108 = {
+    name = Fafnir
+    female = yes
+
+    dynasty = dynasty_sindri
+    religion = faith_khazad
+    culture = ironfists
+
+    father = lineofsindri104
+    mother = lineofsindri105
+
+    sexuality = heterosexual
+
+    7137.2.3 = {
+        birth = yes
+    }
+
+    7260.4.13 = {
+        add_spouse = lineofsindri109
+    }
+
+    7416.4.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofsindri109 = {
+    name = M_otsognir
+    female = yes
+
+    religion = faith_khazad
+    culture = ironfists
+
+    sexuality = heterosexual
+
+    7138.9.6 = {
+        birth = yes
+    }
+
+    7356.3.9 = {
+        death = { death_reason = death_natural_causes }
+    }
 }
