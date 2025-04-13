@@ -3380,10 +3380,10 @@ c_emyndunendor = {
 	}
 	7173.5.6 = {
 		holder = lineofwulfdening13
+		liege = d_westmarches
 	}
 	7214.3.2 = {
 		holder = lineofwulfdening15
-		liege = d_westmarches
 	}
 }
 c_valesoftheadorn = {
@@ -3439,10 +3439,10 @@ c_valesoftheadorn = {
 	}
 	7173.5.6 = {
 		holder = lineofwulfdening13
+		liege = d_westmarches
 	}
 	7214.3.2 = {
 		holder = lineofwulfdening15
-		liege = d_westmarches
 	}
 }
 c_gaetir = {
