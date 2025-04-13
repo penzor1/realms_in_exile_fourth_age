@@ -2,7 +2,7 @@
 # History database id:lineofdurin108
 bookmark_fa_05_dain={
 	type=male
-	id=34425
+	id=34446
 	random_seed=233367542
 	age=0.372553
 	genes={ 		hair_color={ 223 109 250 20 }
@@ -91,7 +91,7 @@ bookmark_fa_05_dain={
  		face_detail_nose_ridge_def={ "nose_ridge_def_pos" 205 "nose_ridge_def_pos" 193 }
  		face_detail_nose_tip_def={ "nose_tip_def" 152 "nose_tip_def" 227 }
  		face_detail_temple_def={ "temple_def" 177 "temple_def" 147 }
- 		expression_brow_wrinkles={ "brow_wrinkles_04" 153 "brow_wrinkles_04" 53 }
+ 		expression_brow_wrinkles={ "brow_wrinkles_04" 182 "brow_wrinkles_04" 53 }
  		expression_eye_wrinkles={ "eye_wrinkles_01" 224 "eye_wrinkles_01" 59 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_02" 239 "forehead_wrinkles_01" 61 }
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
@@ -127,8 +127,9 @@ bookmark_fa_05_dain={
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		clothes={ "dwarf_war_steel" 183 "" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
+ 		gene_cloak={ "cloak_additive" 255 "cloak_additive" 0 }
  }
-	entity={ 616600735 616600735 }
+	entity={ 1863162561 1863162561 }
 	tags={ {
 			hash=2125534279
 			invert=no

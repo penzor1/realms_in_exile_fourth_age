@@ -2,7 +2,7 @@
 # History database id:lineofdurin114
 bookmark_fa_05_kili={
 	type=male
-	id=33796
+	id=33801
 	random_seed=121819652
 	age=0.456809
 	genes={ 		hair_color={ 241 110 216 2 }

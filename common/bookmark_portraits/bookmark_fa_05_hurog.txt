@@ -2,7 +2,7 @@
 # History database id:lineofazog15
 bookmark_fa_05_hurog={
 	type=male
-	id=33968
+	id=33973
 	random_seed=2010453684
 	age=0.520000
 	genes={ 		hair_color={ 0 0 0 0 }

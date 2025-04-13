@@ -2,7 +2,7 @@
 # History database id:lineofdwalinVII
 bookmark_fa_02_dwalinVII={
 	type=male
-	id=34969
+	id=35029
 	random_seed=622760464
 	age=0.265882
 	genes={ 		hair_color={ 4 207 221 12 }

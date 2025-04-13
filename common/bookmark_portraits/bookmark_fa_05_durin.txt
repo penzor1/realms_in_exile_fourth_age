@@ -2,7 +2,7 @@
 # History database id:lineofdurinVII
 bookmark_fa_05_durin={
 	type=male
-	id=34316
+	id=34333
 	random_seed=698447962
 	age=0.371091
 	genes={ 		hair_color={ 157 205 157 205 }

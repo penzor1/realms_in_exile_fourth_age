@@ -2,7 +2,7 @@
 # History database id:lineofgoblinking4
 bookmark_fa_04_unglob={
 	type=male
-	id=34716
+	id=34752
 	random_seed=3822034051
 	age=0.350909
 	genes={ 		hair_color={ 81 238 0 252 }
@@ -117,7 +117,7 @@ bookmark_fa_04_unglob={
  		eyelashes_accessory={ "no_eyelashes" 255 "no_eyelashes" 255 }
  		race_head_accessory={ "uruk" 255 "uruk" 255 }
  		race_body_accessory={ "uruk" 255 "uruk" 255 }
- 		gene_hunchbacked={ "hunchbacked" 3 "hunchbacked" 0 }
+ 		gene_hunchbacked={ "hunchbacked" 2 "hunchbacked" 0 }
  		cloaks={ "no_cloak" 108 "no_cloak" 0 }
  		hairstyles={ "no_hairstyles" 15 "all_hairstyles" 0 }
  		special_clothing_accessory={ "male_uruk_berserker_legwear" 11 "male_uruk_berserker_legwear" 0 }

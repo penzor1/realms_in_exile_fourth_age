@@ -2,7 +2,7 @@
 # History database id:lineofbomfur3
 bookmark_fa_05_brogur={
 	type=male
-	id=33753
+	id=33757
 	random_seed=3657977885
 	age=0.460638
 	genes={ 		hair_color={ 76 229 234 54 }

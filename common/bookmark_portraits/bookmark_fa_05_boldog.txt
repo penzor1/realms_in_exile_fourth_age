@@ -2,7 +2,7 @@
 # History database id:lineofazog14
 bookmark_fa_05_boldog={
 	type=male
-	id=33823
+	id=33828
 	random_seed=1532588771
 	age=0.541818
 	genes={ 		hair_color={ 0 0 0 0 }
