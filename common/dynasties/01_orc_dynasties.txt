@@ -33,6 +33,22 @@ dynasty_karazaz = {
 }
 
 ####################
+#### URUK ####
+####################
+
+dynasty_ugluk = {
+	name = "dynn_ugluk"
+	culture = "isengard_urukhai"
+	motto = dynn_ugluk_motto
+}
+
+dynasty_sharkey = {
+	name = "dynn_sharkey"
+	culture = "isengard_urukhai"
+	motto = dynn_sharkey_motto
+}
+
+####################
 #### TROLL ####
 ####################
 
