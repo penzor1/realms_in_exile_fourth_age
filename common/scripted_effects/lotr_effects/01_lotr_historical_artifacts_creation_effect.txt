@@ -101,7 +101,7 @@ create_artifact_cleft_horn_gondor_effect = {
 
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
-		set_variable = cleft_horn_gondor
+		#set_variable = cleft_horn_gondor
 		set_variable = relic 
 		set_variable = {
 			name = heirloom_of_title
