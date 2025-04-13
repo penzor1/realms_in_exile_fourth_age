@@ -1603,6 +1603,56 @@ bm_120_fourth_age_06 = {
 #		animation = personality_honorable
 #	}
 	
+	# Shardakh, the Scion
+	character = {
+		name = "bookmark_fa_06_shardakh"
+		dynasty = dynasty_sharkey
+		dynasty_splendor_level = 10
+		type = male
+		birth = 7082.5.16
+		title = d_laamp_sharkey_band
+		government = landless_adventurer_government
+		religion = lidless_eye			
+		culture = black_numenorean
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lineofsharkey2
+		position = { 400 300 }
+		animation = personality_dishonorable
+	}
+	
+	# Karluk, the Lost
+	character = {
+		name = "bookmark_fa_06_karluk"
+		dynasty = dynasty_ugluk
+		dynasty_splendor_level = 10
+		type = male
+		birth = 7052.2.20
+		title = d_laamp_uruk_band
+		government = landless_adventurer_government
+		religion = white_hand_cult
+		culture = isengard_urukhai
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lineofugluk2
+		position = { 400 600 }
+		animation = personality_dishonorable
+	}
+	
+	# Zagbug, the Troll-King
+	character = {
+		name = "bookmark_fa_06_zagbug"
+		dynasty = dynasty_troll_king
+		dynasty_splendor_level = 10
+		type = male
+		birth = 7078.5.3
+		title = c_chamber_of_mazarbul
+		government = tribal_government
+		religion = faith_deep_cult
+		culture = cave_troll
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lineoftrollking1
+		position = { 600 200 }
+	}
+	
 	# Korg, the Hidden
 	character = {
 		name = "bookmark_fa_06_korg"
@@ -1616,7 +1666,7 @@ bm_120_fourth_age_06 = {
 		culture = kazgumhoth
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineukorg6
-		position = { 650 450 }
+		position = { 800 400 }
 		animation = personality_vengeful
 		# Ukorg, 
 		character = {
@@ -1631,7 +1681,7 @@ bm_120_fourth_age_06 = {
 			culture = kazgumhoth
 			history_id = lineukorg7
 		}
-		# Akoth, the Scion
+		# Akoth, 
 		character = {
 			name = "bookmark_fa_06_akoth"
 			relation = "BOOKMARK_RELATION_SON"
@@ -1659,9 +1709,9 @@ bm_120_fourth_age_06 = {
 		culture = burgulhai
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofrob2
-		position = { 1000 700 }
+		position = { 1000 400 }
 		animation = personality_dishonorable
-		# Zauglob, the Hidden
+		# Zauglob, 
 		character = {
 			name = "bookmark_fa_06_zauglob"
 			relation = "BOOKMARK_RELATION_SON"
@@ -1674,5 +1724,22 @@ bm_120_fourth_age_06 = {
 			culture = burgulhai
 			history_id = lineofrob3
 		}
+	}
+	
+	# Herumor, the Old Shadow
+	character = {
+		name = "bookmark_fa_06_herumor"
+		dynasty = dynasty_herumori
+		dynasty_splendor_level = 10
+		type = male
+		birth = 6958.1.1
+		title = k_dark_lord
+		government = landless_adventurer_government
+		religion = lidless_eye			
+		culture = black_numenorean
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = mouthofsauron
+		position = { 1000 800 }
+		animation = personality_dishonorable
 	}
 }
