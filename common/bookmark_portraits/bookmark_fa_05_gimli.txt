@@ -2,7 +2,7 @@
 # History database id:lineofdurin100
 bookmark_fa_05_gimli={
 	type=male
-	id=25884
+	id=25823
 	random_seed=745942782
 	age=0.710000
 	genes={ 		hair_color={ 204 129 204 129 }
@@ -97,7 +97,7 @@ bookmark_fa_05_gimli={
  		expression_other={ "cheek_wrinkles_both_01" 255 "nose_wrinkles_01" 255 }
  		complexion={ "complexion_2" 227 "complexion_2" 227 }
  		gene_height={ "normal_height" 55 "normal_height" 55 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 140 "body_fat_head_fat_medium" 152 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 154 "body_fat_head_fat_medium" 152 }
  		gene_bs_body_shape={ "body_shape_triangle_half" 255 "body_shape_triangle_half" 225 }
  		gene_bs_bust={ "bust_clothes" 160 "bust_shape_3_full" 200 }
  		gene_age={ "old_1" 107 "old_1" 107 }

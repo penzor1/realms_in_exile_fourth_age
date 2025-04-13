@@ -2,7 +2,7 @@
 # History database id:lineofvarya1
 bookmark_fa_05_varya={
 	type=male
-	id=31066
+	id=31000
 	random_seed=2733584498
 	age=0.561860
 	genes={ 		hair_color={ 143 251 170 253 }

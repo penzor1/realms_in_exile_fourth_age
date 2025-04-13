@@ -3452,7 +3452,7 @@ lineaxantur28 = {
     sexuality = heterosexual
 
     father = lineaxantur16
-    mother = linaxantur16wife
+    mother = lineaxantur16wife
 
     trait = blood_of_numenor_1
 
@@ -3765,18 +3765,19 @@ linehathor40 = {
     name = Nildawen
     female = yes
 
+    7118.3.27 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
+    }
+
     religion = faith_edain
     culture = gondorian
 
     sexuality = homosexual
 
     trait = blood_of_numenor_1
-
-    7115.6.24 = {
-        effect = {
-			learn_language = language_sindarin
-		}
-    }
 
     7210.7.24 = {
         death = { death_reason = death_natural_causes }
@@ -4999,7 +5000,7 @@ lineastandur13 = {
     sexuality = heterosexual
 
     father = lineastandur10
-    mother = linastanur10wife
+    mother = lineastandur10wife
 
     trait = blood_of_numenor_1
 
@@ -5030,7 +5031,7 @@ lineastandur13sister = {
     sexuality = heterosexual
 
     father = lineastandur10
-    mother = linastanur10wife
+    mother = lineastandur10wife
 
     trait = blood_of_numenor_1
 
@@ -5841,9 +5842,6 @@ lineeredor18 = {
     father = lineeredor8a1
     mother = lineeredor8a1wife
 
-    father = lineeredor9
-    mother = line
-
     trait = blood_of_numenor_1
 
     7050.6.11 = {
@@ -6394,7 +6392,6 @@ lineofangranc19 = {
     sexuality = heterosexual
 
     father = lineofangranc17
-    mother = lineofangranc18
 
     trait = blood_of_numenor_1
 
@@ -9340,7 +9337,7 @@ lineofduneglan129 = {
     sexuality = heterosexual
 
     father = lineofduneglan69
-    mother = lineefduneglan70
+    mother = lineofduneglan70
 
     trait = blood_of_numenor_1
 

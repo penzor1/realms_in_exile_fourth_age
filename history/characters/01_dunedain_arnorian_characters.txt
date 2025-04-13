@@ -110,6 +110,8 @@ lineisildur47 = {
 	father = lineisildur43 # Eldarion
 	mother = linesteward48 # Dineth
 
+	dna = elendur_dna
+
 	sexuality = heterosexual
 
 	trait = content
@@ -142,6 +144,8 @@ lineisildur48 = {
 	culture = gondorian
 	father = lineisildur43 # Eldarion
 	mother = linesteward48 # Dineth
+
+	dna = earendur_dna
 
 	sexuality = heterosexual
 
@@ -189,6 +193,8 @@ lineisildur49 = {
 	culture = gondorian
 	father = lineisildur43 # Eldarion
 	mother = linesteward48 # Dineth
+
+	dna = eldacar_dna
 
 	sexuality = heterosexual
 	

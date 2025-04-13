@@ -812,8 +812,8 @@ lineofban9 = {
     religion = faith_edain
     culture = donan
 
-    father = lineofban6
-    mother = lineofban7
+    father = lineofban7
+    mother = lineofban8
 
     sexuality = heterosexual
 

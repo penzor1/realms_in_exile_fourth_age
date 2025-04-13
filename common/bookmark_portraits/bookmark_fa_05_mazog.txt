@@ -2,7 +2,7 @@
 # History database id:lineofazog17
 bookmark_fa_05_mazog={
 	type=male
-	id=33771
+	id=33703
 	random_seed=941654398
 	age=0.558182
 	genes={ 		hair_color={ 0 0 0 0 }

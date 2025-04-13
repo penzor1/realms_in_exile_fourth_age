@@ -2,7 +2,7 @@
 # History database id:lineofazog16
 bookmark_fa_04_bolgakh={
 	type=male
-	id=26840
+	id=26779
 	random_seed=2862003865
 	age=1.000000
 	genes={ 		hair_color={ 0 0 0 0 }
