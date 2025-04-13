@@ -81,8 +81,8 @@ create_artifact_cleft_horn_gondor_effect = {
 
 	# Create the artifact
 	create_artifact = {
-		name = cleft_horn_gondor_name
-		description = cleft_horn_gondor_description
+		name = cleft_horn_gondor
+		description = cleft_horn_gondor_desc
 		type = pedestal
 		template = horn_gondor_template
 		visuals = horn_gondor
