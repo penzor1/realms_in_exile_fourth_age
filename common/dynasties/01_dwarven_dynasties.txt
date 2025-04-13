@@ -38,6 +38,6 @@ dynasty_varya = {
 
 #dynasty_metalheart = {
 #	name = "dynn_metalheart"
-#	culture = "longbeards"
+#	culture = "firebeards"
 #	motto = dynn_metalheart_motto
 #}
