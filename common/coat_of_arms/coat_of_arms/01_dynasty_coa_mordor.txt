@@ -1,0 +1,10 @@
+﻿dynasty_herumori={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=evil_gold
+	colored_emblem={
+		color1=red
+		texture="ce_dol_guldur.dds"
+	}
+
+}
