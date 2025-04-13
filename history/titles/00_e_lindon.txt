@@ -1210,6 +1210,7 @@ d_thargelion = {
 	#fiction
 	7052.5.1 = { # Cirdan and the Lindon elves sail west
 		holder = lineoflauriel
+		liege = k_mithlond
 	}
 }
 c_helevorn = {
