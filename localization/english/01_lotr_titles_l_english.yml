@@ -10,8 +10,8 @@
  cn_mordor_southlands:0 "Southlands"
  cn_mordor_southlands_adj:0 "Southlandic"
  ### Other ### (Titular Arnor)
- d_ithillond: "Ithillond"
- d_ithillond_adj: "Ithillondrim"
+ d_ithillond: "Nan Nisilmë"
+ d_ithillond_adj: "Nisilmerim"
  d_ingors_expedition: "Ingór's Expedition"
  d_ingors_expedition_adj: "Ironfists"
  ### LAAMPS ### (Titular Arnor)
@@ -21,7 +21,7 @@
  d_laamp_uruk_band_adj: "Uruks"
  d_laamp_troll_band: "Trolls Underbridge"
  d_laamp_troll_band_adj: "Trolls"
- d_laamp_sharkey_band: "Sharkey's Band"
+ d_laamp_sharkey_band: "Sharkey's Company"
  d_laamp_sharkey_band_adj: "Sharkey"
  d_laamp_bridge_dwellers: "the Bridge Dwellers"
  d_laamp_bridge_dwellers_adj: "Trollish"
