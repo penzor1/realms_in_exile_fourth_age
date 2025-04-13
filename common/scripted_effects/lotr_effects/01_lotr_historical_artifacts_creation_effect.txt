@@ -72,3 +72,216 @@ create_artifact_banner_of_elendil_effect = {
 		save_scope_as = epic
 	}
 }
+
+create_artifact_cleft_horn_gondor_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = cleft_horn_gondor_name
+		description = cleft_horn_gondor_description
+		type = pedestal
+		template = horn_gondor_template
+		visuals = horn_gondor
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 6000.1.1
+			recipient = character:linesteward3 # Vorondil the Hunter
+			location = province:202 # Osgiliath
+		}
+		modifier = horn_gondor_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = cleft_horn_gondor
+		set_variable = relic 
+		set_variable = {
+			name = heirloom_of_title
+			value = title:k_gondor_steward
+		}
+		save_scope_as = epic
+
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6083.1.1
+			RECIPIENT = character:linesteward5 # Eradan
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6113.1.1
+			RECIPIENT = character:linesteward6 # Herion
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6149.1.1
+			RECIPIENT = character:linesteward7 # Belegorn
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6181.1.1
+			RECIPIENT = character:linesteward8 # Húrin
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6237.1.1
+			RECIPIENT = character:linesteward11 # Túrin
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6277.1.1
+			RECIPIENT = character:linesteward15 # Hador
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6311.1.1
+			RECIPIENT = character:linesteward16 # Barahir
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6428.1.1
+			RECIPIENT = character:linesteward17 # Dior
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6445.1.1
+			RECIPIENT = character:linesteward19 # Denethor
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6468.1.1
+			RECIPIENT = character:linesteward22 # Boromir
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6510.1.1
+			RECIPIENT = character:linesteward23 # Cirion
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6522.1.1
+			RECIPIENT = character:linesteward24 # Hallas
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6600.1.1
+			RECIPIENT = character:linesteward50 # Húrin II
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6638.1.1
+			RECIPIENT = character:linesteward25 # Belecthor
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6661.1.1
+			RECIPIENT = character:linesteward26 # Orodreth
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6688.1.1
+			RECIPIENT = character:linesteward27 # Ecthelion I
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6718.1.1
+			RECIPIENT = character:linesteward30 # Egalmoth
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6731.1.1
+			RECIPIENT = character:linesteward31 # Beren
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6776.1.1
+			RECIPIENT = character:linesteward32 # Beregond
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6796.1.1
+			RECIPIENT = character:linesteward33 # Belecthor II
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6844.1.1
+			RECIPIENT = character:linesteward34 # Thorondir
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6905.1.1
+			RECIPIENT = character:linesteward35 # Túrin II
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6915.1.1
+			RECIPIENT = character:linesteward36 # Turgon
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6947.1.1
+			RECIPIENT = character:linesteward37 # Ecthelion II
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 6986.1.1
+			RECIPIENT = character:linesteward38 # Denethor II
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 7017.1.1
+			RECIPIENT = character:linesteward39 #Boromir
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 7017.1.1
+			RECIPIENT = character:linesteward39 #Boromir
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 7019.1.1
+			RECIPIENT = character:linesteward40 #Faramir
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 7050.1.1
+			RECIPIENT = character:linesteward43 #Elboron
+		}
+	}
+}
