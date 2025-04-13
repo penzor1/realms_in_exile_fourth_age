@@ -9,13 +9,13 @@
  dynn_mekud_motto:0 "Cherish Freedom"
  dynn_oran_motto:0 ""
  dynn_bondin_motto:0 ""
- dynn_ruinond_motto:0 "Ruinond"
+ dynn_ruinond_motto:0 "Bondage Broken"
  ### DWARF
  dynn_bombur_motto:0 "Feast, Fight, and Forge Ahead"
  dynn_bofur_motto:0 "We Must Away, Ere Break of Day"
  dynn_bifur_motto:0 "To Dungeons Deep and Caverns Old"
- dynn_thelor_motto:0 "Enmities Avenged"
- dynn_varya_motto:0 ""
+ dynn_thelor_motto:0 "Enmities will be Avenged"
+ dynn_varya_motto:0 "Rock and Stone"
  dynn_metalheart_motto:0 "Stonebound, Ironwilled, Eternal"
  ### RHOVANION ###
  dynn_gauzberto_motto:0 "To Woads Flourishing"
@@ -31,6 +31,9 @@
  dynn_karazaz_motto:0 "The Taste of Blood"
  dynn_tarkmor_motto:0 "Memory of Power"
  dynn_rob_motto:0 "Quick Feet, Quick Blades"
+ ### URUK
+ dynn_ugluk_motto:0 "Seek Horsemeat"
+ dynn_sharkey_motto:0 "Remember old Sharkey"
  ### TROLL
  dynn_yagmuz_motto:0 "Tall as the Towers of the Teeth"
  dynn_troll_king_motto:0 "Big Fist, No Mercy"
