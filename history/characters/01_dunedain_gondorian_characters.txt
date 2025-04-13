@@ -9499,7 +9499,7 @@ lineoflauremacil69wife = {
 lineoflauremacil76 = {
     name = Arciryas
 
-    dynasty = dynasty_duneglan
+    dynasty = dynasty_lauremacilionath
     religion = faith_edain
     culture = gondorian
 
@@ -9592,7 +9592,7 @@ lineoflauremacil79 = {
 lineoflauremacil80 = {
     name = Hurin
 
-    dynasty = dynasty_duneglan
+    dynasty = dynasty_lauremacilionath
     religion = faith_edain
     culture = gondorian
 
