@@ -511,6 +511,24 @@ c_iarond = {
 		change_development_level = -3
 		government = wastelands_government
 	}
+	#canon
+	7052.5.1 = { # Arnor Reconstruction
+		liege = k_arthedain
+		holder = linehalbarad14 # Halbaron
+		change_development_level = 2
+		government = feudal_government
+		de_jure_liege = e_reunitedkingdom
+	}
+	#fiction
+	7158.1.1 = {
+		holder = linehalbarad10 # Elegost
+	}
+	7159.1.1 = {
+        holder = linehalbarad17 #Romendur
+    }
+    7220.5.5 = {
+        holder = linehalbarad19 #Belatar
+    }
 }
 c_andrath = {
 	3922.7.12 = { # Hirgond is appointed castellan of the Barrow-downs by Elendil
@@ -589,6 +607,23 @@ c_andrath = {
 		change_development_level = -3
 		government = wastelands_government
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		liege = k_arthedain
+		holder = linehalbarad14 # Halbaron
+		change_development_level = 2
+		government = feudal_government
+		de_jure_liege = e_reunitedkingdom
+	}
+	#fiction
+	7158.1.1 = {
+		holder = linehalbarad10 # Elegost
+	}
+	7159.1.1 = {
+        holder = linehalbarad17 #Romendur
+    }
+    7220.5.5 = {
+        holder = linehalbarad19 #Belatar
+    }
 }
 c_dol_daergorthad = {
 	3922.7.12 = { # Hirgond is appointed castellan of the Barrow-downs by Elendil
@@ -930,6 +965,21 @@ d_minhiriath = {
 	5669.1.1 = { # The great plague
 		holder = 0
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		liege = k_arthedain
+		holder = linehalbarad14 # Halbaron
+		de_jure_liege = e_reunitedkingdom
+	}
+	#fiction
+	7158.1.1 = {
+		holder = linehalbarad10 # Elegost
+	}
+	7159.1.1 = {
+        holder = linehalbarad17 #Romendur
+    }
+    7220.5.5 = {
+        holder = linehalbarad19 #Belatar
+    }
 }   
 
 c_thalion = {
@@ -1018,6 +1068,23 @@ c_thalion = {
 		change_development_level = -12
 		government = wastelands_government
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		liege = k_arthedain
+		holder = linehalbarad14 # Halbaron
+		change_development_level = 2
+		government = feudal_government
+		de_jure_liege = e_reunitedkingdom
+	}
+	#fiction
+	7158.1.1 = {
+		holder = linehalbarad10 # Elegost
+	}
+	7159.1.1 = {
+        holder = linehalbarad17 #Romendur
+    }
+    7220.5.5 = {
+        holder = linehalbarad19 #Belatar
+    }
 }
 c_tharbad = {
 	2927.1.1 = {
@@ -1118,6 +1185,23 @@ c_tharbad = {
 		change_development_level = -100
 		government = wastelands_government
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		liege = k_arthedain
+		holder = linehalbarad14 # Halbaron
+		change_development_level = 2
+		government = feudal_government
+		de_jure_liege = e_reunitedkingdom
+	}
+	#fiction
+	7158.1.1 = {
+		holder = linehalbarad10 # Elegost
+	}
+	7159.1.1 = {
+        holder = linehalbarad17 #Romendur
+    }
+    7220.5.5 = {
+        holder = linehalbarad19 #Belatar
+    }
 }
 
 d_tharbad_titular = {
@@ -1244,6 +1328,23 @@ c_dol_tinereb = {
 		change_development_level = -100
 		government = wastelands_government
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		liege = k_arthedain
+		holder = linehalbarad14 # Halbaron
+		change_development_level = 2
+		government = feudal_government
+		de_jure_liege = e_reunitedkingdom
+	}
+	#fiction
+	7158.1.1 = {
+		holder = linehalbarad10 # Elegost
+	}
+	7159.1.1 = {
+        holder = linehalbarad17 #Romendur
+    }
+    7220.5.5 = {
+        holder = linehalbarad19 #Belatar
+    }
 }
 c_maerndor = { # Trig TODO : add more history
 	5336.1.1 = {
@@ -1259,6 +1360,23 @@ c_maerndor = { # Trig TODO : add more history
 		change_development_level = -6
 		government = wastelands_government
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		liege = k_arthedain
+		holder = linehalbarad14 # Halbaron
+		change_development_level = 2
+		government = feudal_government
+		de_jure_liege = e_reunitedkingdom
+	}
+	#fiction
+	7158.1.1 = {
+		holder = linehalbarad10 # Elegost
+	}
+	7159.1.1 = {
+        holder = linehalbarad17 #Romendur
+    }
+    7220.5.5 = {
+        holder = linehalbarad19 #Belatar
+    }
 }
 c_dolbarad = { # Trig TODO : add more history
 	5336.1.1 = {
@@ -1664,6 +1782,23 @@ c_dinach = {
 		change_development_level = -8
 		government = wastelands_government
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		liege = k_arthedain
+		holder = linehalbarad14 # Halbaron
+		change_development_level = 2
+		government = feudal_government
+		de_jure_liege = e_reunitedkingdom
+	}
+	#fiction
+	7158.1.1 = {
+		holder = linehalbarad10 # Elegost
+	}
+	7159.1.1 = {
+        holder = linehalbarad17 #Romendur
+    }
+    7220.5.5 = {
+        holder = linehalbarad19 #Belatar
+    }
 }
 
 # d_girithlin
