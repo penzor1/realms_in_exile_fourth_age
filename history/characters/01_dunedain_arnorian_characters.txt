@@ -169,7 +169,6 @@ lineisildur48 = {
 		effect = {
 			add_character_flag = is_earendur
 			add_character_flag = ai_immune_to_mental_breaks
-			set_culture = culture:dunedain
 			learn_language = language_sindarin
 			learn_language = language_westron
 		}
@@ -218,7 +217,6 @@ lineisildur49 = {
 		effect = {
 			add_character_flag = is_eldacar
 			add_character_flag = ai_immune_to_mental_breaks
-			set_culture = culture:dunedain
 			learn_language = language_sindarin
 			learn_language = language_westron
 		}
