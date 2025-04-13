@@ -2998,6 +2998,11 @@
 			bandits
 		}
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+	}
 }
 
 4533 = {	#Brilost (b_brilost)
@@ -3010,6 +3015,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -3026,6 +3036,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4535 = {	#Metraith (b_metraith)
@@ -3040,6 +3055,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4536 = {	#Redhel (b_redhel)
@@ -3052,6 +3072,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -3093,6 +3118,11 @@
 			flooded_lands
 		}
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+	}
 }
 	
 4538 = {	#Tharaman (b_tharaman)
@@ -3105,6 +3135,11 @@
 	6945.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -3121,6 +3156,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4540 = {	#Silanir (b_silanir)
@@ -3135,6 +3175,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4541 = {	#Althil (b_althil)
@@ -3147,6 +3192,11 @@
 	6945.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -3187,6 +3237,11 @@
 			wolf_den
 		}
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+	}
 }
 
 4542 = {	#Seren (b_seren)
@@ -3199,6 +3254,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -3215,6 +3275,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4545 = {	#Hithrenmoth (b_hithrenmoth)
@@ -3227,6 +3292,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -3250,6 +3320,11 @@
 			ghosts
 		}
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+	}
 }
 
 4547 = {	#Maerian  (b_maerian )
@@ -3262,6 +3337,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -3278,6 +3358,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4549 = {	#Desscûm (b_desscum)
@@ -3290,6 +3375,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -4599,6 +4689,11 @@
 			bandits
 		}
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+	}
 }
 
 4636 = {	#Andrathost (b_andrathost)
@@ -4611,6 +4706,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -4627,6 +4727,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4638 = {	#Iaurmoth (b_iaurmoth)
@@ -4639,6 +4744,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -4661,6 +4771,11 @@
 			strange_creatures
 		}
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+	}
 }
 
 4640 = {	#Nilenel (b_nilenel)
@@ -4675,6 +4790,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4641 = {	#Gamuthill (b_gamuthill)
@@ -4687,6 +4807,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -5230,6 +5355,11 @@
 			bandits
 		}
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+	}
 }
 
 4678 = {	#Caras Gwanoth (b_caras_gwanoth)
@@ -5242,6 +5372,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -5258,6 +5393,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4680 = {	#Edras (b_edras)
@@ -5270,6 +5410,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = { # Arnor Reconstruction
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
