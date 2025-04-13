@@ -3767,6 +3767,8 @@ linehathor39 = {
 linehathor40 = {
     name = Nildawen
     female = yes
+    religion = faith_edain
+    culture = gondorian
 
     7118.3.27 = {
         birth = yes
@@ -3775,8 +3777,7 @@ linehathor40 = {
 		}
     }
 
-    religion = faith_edain
-    culture = gondorian
+
 
     sexuality = homosexual
 
