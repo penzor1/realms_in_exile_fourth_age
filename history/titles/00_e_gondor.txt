@@ -4517,6 +4517,18 @@ c_landor = { #Landor
 	7024.10.20 = {
         holder = lineoftinnubar59
     }
+	7052.5.1 = {
+        de_jure_liege = e_reunitedkingdom
+    }
+	7062.11.6 = {
+        holder = lineoftinnubar61
+    }
+	7144.2.16 = {
+        holder = lineoftinnubar63
+    }
+	7189.6.23 = {
+        holder = lineoftinnubar66
+    }
 }
 c_calimir = { #Calimir
 	5340.1.1 = {
@@ -7031,7 +7043,6 @@ c_bar_erib = { #Bar-Erib
         holder = lineofatanatar77 #Herenion
     }
 	7052.5.1 = {
-        holder = lineofatanatar77 #Herenion
 		liege = d_dor_en_ernil
 		de_jure_liege = e_reunitedkingdom
     }
