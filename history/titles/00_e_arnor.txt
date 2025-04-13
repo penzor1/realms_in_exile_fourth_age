@@ -7190,7 +7190,7 @@ k_arthedain = {
 	7052.5.1 = { #TA 3019 # Reconstruction of Annuminas, title of the Dunedain is dissolved
 		holder = lineisildur42
 		effect = {
-			set_capital_county = title:c_annuminaseffect = {
+			set_capital_county = title:c_annuminas
 			set_title_name = cn_arthedain_arnor
 		}
 	}
