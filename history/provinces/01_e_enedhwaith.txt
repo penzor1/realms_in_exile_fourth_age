@@ -1517,6 +1517,11 @@
 			flooded_lands
 		}
 	}
+	7052.5.1 = { # RK forces Argedrin north from Parth Iaur
+		culture = andrastrim
+		religion = faith_daen_gaoth
+		holding = tribal_holding	
+	}
 }
 520 = {		 #An Côsa Brâs (b_an_cosa_bras)
 	holding = none

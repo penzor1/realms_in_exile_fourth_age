@@ -2576,6 +2576,21 @@ c_parth_iaur = {
 	7026.11.6	 = {			
 		holder = line_argedrin27
 	}
+	7052.5.1 = { # RK drives Argedrin from Tawartelch
+		holder = line_argedrin19
+	}
+	7068.12.18 = { # RK drives Argedrin from Tawartelch
+		holder = line_argedrin21
+	}
+	7088.4.22 = {
+		holder = line_argedrin45 #Reca
+    }
+    7144.4.9 = {
+        holder = line_argedrin48 #Enoyo_o_z
+    }
+    7187.7.8 = {
+        holder = line_argedrin50 #Timak
+    }
 }	
 c_an_cosa_bras = {
 	4000.1.1 = { #druedain retreat
@@ -2583,6 +2598,21 @@ c_an_cosa_bras = {
 		change_development_level = -100
 		government = wastelands_government
 	}
+	7052.5.1 = { # Argedrin brethren move north to accommodate Tawartelch refugees
+		holder = line_argedrin27
+	}
+	7062.1.25 = {
+        holder = line_argedin32
+    }
+	7100.12.8 = {
+		holder = line_argedrin54 #Rini_i_d
+    }
+    7150.8.8 = {
+        holder = line_argedrin56 #Ontaz
+    }
+    7162.3.14 = {
+        holder = line_argedrin58 #Leran
+    }
 }			
 c_odharn = {
 	4000.1.1 = { # the Drúedain retreat deeper into the forests

@@ -986,3 +986,431 @@ lineofban16 = {
     }
 }
 
+# Line of Argedrin
+
+line_argedrin45 = {
+    name = Reca
+
+    dynasty = dynasty_argedrin
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    father = line_argedrin21
+
+    sexuality = heterosexual
+
+    7060.4.6 = {
+        birth = yes
+    }
+
+    7090.5.26 = {
+        add_spouse = line_argedrin46
+    }
+
+    7144.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin46 = {
+    name = Ma_a_lad
+    female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7073.8.6 = {
+        birth = yes
+    }
+
+    7136.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin47 = {
+    name = Anid
+    female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    father = line_argedrin45
+    mother = line_argedrin46
+
+    sexuality = heterosexual
+
+    7094.11.9 = {
+        birth = yes
+    }
+
+    7166.5.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin48 = {
+    name = Enoyo_o_z
+
+    dynasty = dynasty_argedrin
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    father = line_argedrin45
+    mother = line_argedrin46
+
+    sexuality = heterosexual
+
+    7099.10.22 = {
+        birth = yes
+    }
+
+    7126.4.12 = {
+        add_spouse = line_argedrin49
+    }
+
+    7187.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin49 = {
+    name = Canon
+    female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7100.4.15 = {
+        birth = yes
+    }
+
+    7170.1.28 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+line_argedrin50 = {
+    name = Timak
+
+    dynasty = dynasty_argedrin
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    father = line_argedrin48
+    mother = line_argedrin49
+
+    sexuality = bisexual
+
+    7127.3.13 = {
+        birth = yes
+    }
+
+    7150.8.15 = {
+        add_spouse = line_argedrin51
+    }
+
+    7213.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin51 = {
+    name = Nin
+    female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7125.5.20 = {
+        birth = yes
+    }
+
+    7199.12.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin52 = {
+    name = Lugan
+
+    dynasty = dynasty_argedrin
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    father = line_argedrin48
+    mother = line_argedrin49
+
+    sexuality = heterosexual
+
+    7131.9.10 = {
+        birth = yes
+    }
+
+    7161.1.10 = {
+        add_spouse = line_argedrin53
+    }
+
+    7220.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin53 = {
+    name = Atolan
+    female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7129.10.17 = {
+        birth = yes
+    }
+
+    7197.2.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin54 = {
+    name = Rini_i_d
+
+    dynasty = dynasty_argedrin
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    father = line_argedrin32
+
+    7060.8.3 = {
+        birth = yes
+    }
+
+    7081.11.20 = {
+        add_spouse = line_argedrin55
+    }
+
+    7150.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin55 = {
+    name = Sinna
+    female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7064.10.5 = {
+        birth = yes
+    }
+
+    7152.10.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin56 = {
+    name = Ontaz
+
+    dynasty = dynasty_argedrin
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    father = line_argedrin54
+    mother = line_argedrin55
+
+    sexuality = heterosexual
+
+    7085.7.20 = {
+        birth = yes
+    }
+
+    7114.1.19 = {
+        add_spouse = line_argedrin57
+    }
+
+    7162.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin57 = {
+    name = Goned
+    female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7087.7.28 = {
+        birth = yes
+    }
+
+    7154.8.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin58 = {
+    name = Leran
+
+    dynasty = dynasty_argedrin
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    father = line_argedrin56
+    mother = line_argedrin57
+
+    sexuality = heterosexual
+
+    7116.2.9 = {
+        birth = yes
+    }
+
+    7138.9.13 = {
+        add_spouse = line_argedrin59
+    }
+
+    7177.12.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin59 = {
+    name = Golerid
+    female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7119.12.15 = {
+        birth = yes
+    }
+
+    7180.8.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin60 = {
+    name = Sa_a_l
+
+    dynasty = dynasty_argedrin
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    father = line_argedrin54
+    mother = line_argedrin55
+
+    sexuality = heterosexual
+
+    7089.11.13 = {
+        birth = yes
+    }
+
+    7117.8.18 = {
+        add_spouse = line_argedrin61
+    }
+
+    7175.6.11 = {
+        death = { death_reason = death_poison  }
+    }
+}
+
+line_argedrin61 = {
+    name = Heled
+    female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7092.7.23 = {
+        birth = yes
+    }
+
+    7167.10.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin62 = {
+    name = Siga
+    female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    father = line_argedrin60
+    mother = line_argedrin61
+
+    sexuality = heterosexual
+
+    7117.10.22 = {
+        birth = yes
+    }
+
+    7203.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin63 = {
+    name = Sorod
+
+    dynasty = dynasty_argedrin
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    father = line_argedrin60
+    mother = line_argedrin61
+
+    sexuality = heterosexual
+
+    7120.3.21 = {
+        birth = yes
+    }
+
+    7140.4.26 = {
+        add_spouse = line_argedrin64
+    }
+
+    7195.3.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+line_argedrin64 = {
+    name = A_A_sa
+    female = yes
+
+    religion = faith_daen_gaoth
+    culture = andrastrim
+
+    sexuality = heterosexual
+
+    7117.1.11 = {
+        birth = yes
+    }
+
+    7204.12.22 = {
+        death = { death_reason = death_typhus }
+    }
+}
