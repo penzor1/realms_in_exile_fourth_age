@@ -2,7 +2,7 @@
 # History database id:linefinwe29
 bookmark_fa_04_elrohir={
 	type=male
-	id=2852
+	id=2870
 	random_seed=3204199013
 	age=0.297912
 	genes={ 		hair_color={ 194 227 178 133 }

@@ -24,7 +24,7 @@ bm_120_fourth_age_02 = {
 		history_id = lineofdwalin99
 		position = { 300 200 }
 		animation = personality_compassionate
-		# Dwalin VII, the Last
+		# Dwálin VII, the Last
 		character = {
 			 name = "bookmark_fa_02_dwalinVII"
 			 relation = "BOOKMARK_RELATION_GRANDSON"
@@ -37,9 +37,9 @@ bm_120_fourth_age_02 = {
 		}
 	}
 
-	# Anárion, Regent Restorator
+	# Eärendur, Regent Restorator
 	character = {
-		name = "bookmark_fa_02_anarion"
+		name = "bookmark_fa_02_earendur"
 		dynasty_house = house_anarioni
 		dynasty_splendor_level = 10
 		type = male

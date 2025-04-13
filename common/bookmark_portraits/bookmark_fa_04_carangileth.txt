@@ -118,14 +118,14 @@ bookmark_fa_04_carangileth={
  		race_head_accessory={ "man" 0 "man" 0 }
  		race_body_accessory={ "man" 0 "man" 0 }
  		beards={ "no_beard" 250 "no_beard" 0 }
- 		cloaks={ "elven_war_cloaks_silvan" 74 "no_cloak" 0 }
+ 		cloaks={ "no_cloak" 250 "no_cloak" 0 }
  		hairstyles={ "low_elvish_hairstyles" 132 "all_hairstyles" 0 }
- 		legwear={ "elven_war_silvan_legwear" 74 "all_legwear" 0 }
+ 		legwear={ "western_common_legwear" 118 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "elven_war_silvan_clothes" 46 "" 0 }
+ 		clothes={ "elven_high_clothes" 44 "" 0 }
  		headgear={ "elven_high_headgear" 77 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  		gene_cloak={ "cloak_additive" 255 "cloak_additive" 0 }
@@ -141,10 +141,6 @@ bookmark_fa_04_carangileth={
 		}
  {
 			hash=681013727
-			invert=no
-		}
- {
-			hash=1563190100
 			invert=no
 		}
  }

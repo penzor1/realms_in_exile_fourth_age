@@ -2,7 +2,7 @@
 # History database id:lineofdurin114
 bookmark_fa_05_kili={
 	type=male
-	id=33801
+	id=33870
 	random_seed=121819652
 	age=0.456809
 	genes={ 		hair_color={ 241 110 216 2 }
@@ -54,7 +54,7 @@ bookmark_fa_05_kili={
  		gene_bs_eye_upper_lid_size={ "eye_upper_lid_size_neg" 17 "eye_upper_lid_size_pos" 45 }
  		gene_bs_forehead_brow_curve={ "forehead_brow_curve_neg" 185 "forehead_brow_curve_neg" 173 }
  		gene_bs_forehead_brow_forward={ "forehead_brow_forward_pos" 176 "forehead_brow_forward_pos" 173 }
- 		gene_bs_forehead_brow_inner_height={ "forehead_brow_inner_height_pos" 102 "forehead_brow_inner_height_pos" 9 }
+ 		gene_bs_forehead_brow_inner_height={ "forehead_brow_inner_height_pos" 35 "forehead_brow_inner_height_pos" 9 }
  		gene_bs_forehead_brow_outer_height={ "forehead_brow_outer_height_neg" 40 "forehead_brow_outer_height_pos" 17 }
  		gene_bs_forehead_brow_width={ "forehead_brow_width_pos" 219 "forehead_brow_width_pos" 112 }
  		gene_bs_jaw_def={ "jaw_def_pos" 163 "jaw_def_pos" 120 }
@@ -91,10 +91,10 @@ bookmark_fa_05_kili={
  		face_detail_nose_ridge_def={ "nose_ridge_def_pos" 160 "nose_ridge_def_pos" 112 }
  		face_detail_nose_tip_def={ "nose_tip_def" 223 "nose_tip_def" 155 }
  		face_detail_temple_def={ "temple_def" 114 "temple_def" 179 }
- 		expression_brow_wrinkles={ "brow_wrinkles_01" 163 "brow_wrinkles_04" 63 }
- 		expression_eye_wrinkles={ "eye_wrinkles_03" 189 "eye_wrinkles_01" 21 }
+ 		expression_brow_wrinkles={ "brow_wrinkles_01" 173 "brow_wrinkles_04" 63 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_03" 144 "eye_wrinkles_01" 21 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_03" 238 "forehead_wrinkles_01" 31 }
- 		expression_other={ "cheek_wrinkles_both_01" 30 "cheek_wrinkles_both_01" 0 }
+ 		expression_other={ "cheek_wrinkles_both_01" 28 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_5" 146 "complexion_6" 84 }
  		gene_height={ "normal_height" 39 "normal_height" 54 }
  		gene_bs_body_type={ "body_fat_head_fat_medium" 144 "body_fat_head_fat_medium" 163 }
@@ -129,7 +129,7 @@ bookmark_fa_05_kili={
  		headgear={ "dwarf_high_headgear" 68 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 2268070609 2268070609 }
+	entity={ 807438772 807438772 }
 	tags={ {
 			hash=2125534279
 			invert=no

@@ -2,7 +2,7 @@
 # History database id:lineofbomfur3
 bookmark_fa_05_brogur={
 	type=male
-	id=33757
+	id=33825
 	random_seed=3657977885
 	age=0.460638
 	genes={ 		hair_color={ 76 229 234 54 }
@@ -91,10 +91,10 @@ bookmark_fa_05_brogur={
  		face_detail_nose_ridge_def={ "nose_ridge_def_pos" 123 "nose_ridge_def_pos" 171 }
  		face_detail_nose_tip_def={ "nose_tip_def" 255 "nose_tip_def" 208 }
  		face_detail_temple_def={ "temple_def" 149 "temple_def" 146 }
- 		expression_brow_wrinkles={ "brow_wrinkles_01" 206 "brow_wrinkles_02" 156 }
+ 		expression_brow_wrinkles={ "brow_wrinkles_01" 167 "brow_wrinkles_02" 156 }
  		expression_eye_wrinkles={ "eye_wrinkles_03" 134 "eye_wrinkles_01" 200 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 150 "forehead_wrinkles_03" 160 }
- 		expression_other={ "cheek_wrinkles_both_01" 26 "cheek_wrinkles_both_01" 110 }
+ 		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 110 }
  		complexion={ "complexion_4" 124 "complexion_1" 163 }
  		gene_height={ "normal_height" 55 "normal_height" 54 }
  		gene_bs_body_type={ "body_fat_head_fat_medium" 130 "body_fat_head_fat_medium" 148 }
@@ -129,7 +129,7 @@ bookmark_fa_05_brogur={
  		headgear={ "dwarf_low_headgear" 70 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 807438772 807438772 }
+	entity={ 3942081117 3942081117 }
 	tags={ {
 			hash=2125534279
 			invert=no

@@ -9,7 +9,7 @@ bm_120_fourth_age_01 = {
 		value = 0
 	}
 		
-#	# Anárion, Regent of Arnor
+#	# Eärendur, Regent of Arnor
 #	character = {
 #		name = "bookmark_fa_01_anarion"
 #		dynasty_house = house_anarioni

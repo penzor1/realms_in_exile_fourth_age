@@ -136,7 +136,7 @@ lineisildur47 = {
 }
 
 lineisildur48 = {
-	name = An_arion # Anarion Regent of Arnor
+	name = Earendur # Eärendur Regent of Arnor
 	dynasty_house = house_telcontar #house_anarioni later
 	religion = faith_edain
 	culture = gondorian
@@ -159,7 +159,7 @@ lineisildur48 = {
 	7121.1.1 = { # Fourth Age 67
 		birth = yes
 		effect = {
-			add_character_flag = is_anarion
+			add_character_flag = is_earendur
 			add_character_flag = ai_immune_to_mental_breaks
 			set_culture = culture:dunedain
 		}
@@ -267,13 +267,13 @@ lineisildur50 = {
 	}
 }
 
-## Children of Anarion and ? ##
+## Children of Eärendur and ? ##
 lineisildur51 = {
 	name = E_a_arnur # Earnur 2nd King of restored Arnor
 	dynasty_house = house_telcontar #house_anarioni later
 	religion = faith_edain
 	culture = arnorian
-	father = lineisildur48 # Anarion
+	father = lineisildur48 # Eärendur
 	#mother = #princess of tharbad
 
 	sexuality = heterosexual
@@ -300,7 +300,7 @@ lineisildur52 = {
 	religion = faith_edain
 	culture = arnorian
 	female = yes
-	father = lineisildur48 # Anarion
+	father = lineisildur48 # Eärendur
 	#mother = #princess of tharbad
 
 	sexuality = heterosexual
@@ -327,7 +327,7 @@ lineisildur53 = {
 	religion = faith_edain
 	culture = arnorian
 	female = yes
-	father = lineisildur48 # Anarion
+	father = lineisildur48 # Eärendur
 	#mother = #princess of tharbad
 
 	sexuality = heterosexual
@@ -354,7 +354,7 @@ lineisildur54 = {
 	dynasty_house = house_telcontar #house_anarioni later
 	religion = faith_edain
 	culture = arnorian
-	father = lineisildur48 # Anarion
+	father = lineisildur48 # Eärendur
 	#mother = #princess of tharbad
 
 	sexuality = heterosexual

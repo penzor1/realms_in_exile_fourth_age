@@ -2,7 +2,7 @@
 # History database id:lineofgoblinking3
 bookmark_fa_04_golmog={
 	type=male
-	id=34204
+	id=34274
 	random_seed=1523950567
 	age=0.479091
 	genes={ 		hair_color={ 104 249 104 249 }
@@ -117,7 +117,7 @@ bookmark_fa_04_golmog={
  		eyelashes_accessory={ "no_eyelashes" 255 "no_eyelashes" 255 }
  		race_head_accessory={ "uruk" 255 "uruk" 255 }
  		race_body_accessory={ "uruk" 255 "uruk" 255 }
- 		gene_hunchbacked={ "hunchbacked" 2 "hunchbacked" 0 }
+ 		gene_hunchbacked={ "hunchbacked" 5 "hunchbacked" 0 }
  		cloaks={ "fp1_cloak" 242 "no_cloak" 0 }
  		hairstyles={ "no_hairstyles" 153 "all_hairstyles" 0 }
  		special_clothing_accessory={ "male_uruk_berserker_legwear" 40 "male_uruk_berserker_legwear" 0 }

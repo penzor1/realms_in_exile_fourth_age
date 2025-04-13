@@ -350,7 +350,7 @@ fire_intro_events_0120 = {
 	
 	### HUMANS INTRO EVENTS ###
 	# ARNOR
-	character:lineisildur48 = { # Anarion Intro
+	character:lineisildur48 = { # Eärendur Intro
 		if = {
 			limit = {
 				is_alive = yes
