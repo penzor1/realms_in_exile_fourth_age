@@ -9328,3 +9328,311 @@ lineofatanatar88 = {
     }
 }
 
+# Line of Duneglan
+
+lineofduneglan129 = {
+    name = Bregolas
+
+    dynasty = dynasty_duneglan
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    father = lineofduneglan69
+    mother = lineefduneglan70
+
+    trait = blood_of_numenor_1
+
+    7115.4.27 = {
+        birth = yes
+    }
+
+    7170.10.6 = {
+        add_spouse = lineofduneglan130
+    }
+
+    7187.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofduneglan130 = {
+    name = Forowen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7153.3.22 = {
+        birth = yes
+    }
+
+    7223.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofduneglan131 = {
+    name = Silmerano
+
+    dynasty = dynasty_duneglan
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofduneglan129
+    mother = lineofduneglan130
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7176.5.22 = {
+        birth = yes
+    }
+
+    7211.1.22 = {
+        add_spouse = lineofduneglan132
+    }
+
+    7252.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofduneglan132 = {
+    name = Estendilme
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7174.5.11 = {
+        birth = yes
+    }
+
+    7257.3.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofduneglan133 = {
+    name = Lothwen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofduneglan129
+    mother = lineofduneglan130
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7177.12.16 = {
+        birth = yes
+    }
+
+    7253.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofduneglan134 = {
+    name = Galenil
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofduneglan129
+    mother = lineofduneglan130
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7181.7.21 = {
+        birth = yes
+    }
+
+    7257.3.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+# Line of Lauremacil
+
+lineoflauremacil69wife = {
+    name = Nellas
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian    
+
+	trait = blood_of_numenor_1
+    7033.5.1 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7070.1.22 = {
+        add_spouse = lineoflauremacil69
+    }
+
+    7136.12.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoflauremacil76 = {
+    name = Arciryas
+
+    dynasty = dynasty_duneglan
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    father = lineoflauremacil69
+    mother = lineoflauremacil69wife
+
+    trait = blood_of_numenor_1
+
+    7076.3.19 = {
+        birth = yes
+    }
+
+    7119.7.3 = {
+        add_spouse = lineoflauremacil77
+    }
+
+    7129.2.14 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+lineoflauremacil77 = {
+    name = Nedhwen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7102.2.17 = {
+        birth = yes
+    }
+
+    7172.2.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoflauremacil78 = {
+    name = Calisse
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoflauremacil76
+    mother = lineoflauremacil77
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7122.7.18 = {
+        birth = yes
+    }
+
+    7195.3.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoflauremacil79 = {
+    name = Ilweranta
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoflauremacil76
+    mother = lineoflauremacil77
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7123.8.16 = {
+        birth = yes
+    }
+
+    7216.2.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoflauremacil80 = {
+    name = Hurin
+
+    dynasty = dynasty_duneglan
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoflauremacil76
+    mother = lineoflauremacil77
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7125.9.6 = {
+        birth = yes
+    }
+
+    7178.4.24 = {
+        add_spouse = lineoflauremacil81
+    }
+
+    7208.9.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoflauremacil81 = {
+    name = Parawen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7124.9.17 = {
+        birth = yes
+    }
+
+    7231.4.3 = {
+        death = { death_reason = death_leper }
+    }
+}
+

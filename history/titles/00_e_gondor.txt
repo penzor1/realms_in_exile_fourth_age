@@ -4684,6 +4684,16 @@ c_erui = { #Erui
 	6979.3.2 = {
         holder = lineoflauremacil67		
     }
+	7052.5.1 = {
+		liege = d_pelargir
+        de_jure_liege = e_reunitedkingdom
+    }
+	7074.3.2 = {
+        holder = lineoflauremacil69
+    }
+	7146.4.5 = {
+        holder = lineoflauremacil76 #Arciryas
+    }
 }	
 
 #Duchy of Lebennivet			
@@ -4751,6 +4761,21 @@ c_fanuilond = { #Fanuilond
     }
 	6961.11.16 = {
         holder = lineofduneglan63
+    }
+	7052.5.1 = {
+        de_jure_liege = e_reunitedkingdom
+    }
+	7055.10.24 = {
+        holder = lineofduneglan66
+    }
+	7080.10.5 = {
+        holder = lineofduneglan69
+    }
+	7155.5.5 = {
+        holder = lineofduneglan129 #Bregolas
+    }
+    7187.2.20 = {
+        holder = lineofduneglan131 #Silmerano
     }
 }	
 c_serni = { #Serni	
@@ -4848,6 +4873,21 @@ c_ethir_anduin = { #The Ethir Anduin
     }
 	6961.11.16 = {
         holder = lineofduneglan63
+    }
+	7052.5.1 = {
+        de_jure_liege = e_reunitedkingdom
+    }
+	7055.10.24 = {
+        holder = lineofduneglan66
+    }
+	7080.10.5 = {
+        holder = lineofduneglan69
+    }
+	7155.5.5 = {
+        holder = lineofduneglan129 #Bregolas
+    }
+    7187.2.20 = {
+        holder = lineofduneglan131 #Silmerano
     }
 }
 
