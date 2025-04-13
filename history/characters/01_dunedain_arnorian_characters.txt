@@ -24,7 +24,6 @@ lineisildur44 = {
 	7056.1.1 = { # Fourth Age 3
 		birth = yes
 		effect = {
-			learn_language = language_westron
 			learn_language = language_sindarin
 		}
 	}
@@ -60,7 +59,6 @@ lineisildur45 = {
 	7059.1.1 = { # Fourth Age 6
 		birth = yes
 		effect = {
-			learn_language = language_westron
 			learn_language = language_sindarin
 		}
 	}
@@ -94,7 +92,6 @@ lineisildur46 = {
 	7065.1.1 = { # Fourth Age 12
 		birth = yes
 		effect = {
-			learn_language = language_westron
 			learn_language = language_sindarin
 		}
 	}
@@ -133,7 +130,6 @@ lineisildur47 = {
 			add_character_flag = is_elendur
 			add_character_flag = ai_immune_to_mental_breaks
 			learn_language = language_sindarin
-			learn_language = language_westron
 		}
 	}
 	7275.1.1 = { # Fourth Age 222
@@ -170,7 +166,6 @@ lineisildur48 = {
 			add_character_flag = is_earendur
 			add_character_flag = ai_immune_to_mental_breaks
 			learn_language = language_sindarin
-			learn_language = language_westron
 		}
 	}
 	7156.1.1 = {
@@ -218,7 +213,6 @@ lineisildur49 = {
 			add_character_flag = is_eldacar
 			add_character_flag = ai_immune_to_mental_breaks
 			learn_language = language_sindarin
-			learn_language = language_westron
 		}
 	}
 	7170.1.1 = { # Fourth Age 116 # Sent to Watch
@@ -243,6 +237,8 @@ lineisildur49 = {
 			learn_language = language_westron_orc
 			learn_language = language_black_speech
 			remove_trait = calm
+			remove_trait = temperate
+			add_trait = eccentric
 			add_trait = cynical
 		}
 	}
