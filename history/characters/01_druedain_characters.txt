@@ -1,4 +1,4 @@
-# Line of Aghanghu
+﻿# Line of Aghanghu
 
 lineofaghanghu20wife = {						
 	name = Diga_a_r				
