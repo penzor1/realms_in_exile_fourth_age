@@ -8817,6 +8817,13 @@ d_eketya = {
 	6008.1.1 = {
 		holder = 0 #Aranbor, younger brother of Aranarth, becomes chief of the Uialdain, new titular title d_emyn_uialdain
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+		holder = lineofaranbor19 #Oromendil
+		government = feudal_government
+    }
+	7118.3.26 = {
+		holder = lineofaranbor21 #Turlong
+	}
 }
 
 c_nothrimos = {
@@ -8954,6 +8961,14 @@ c_nothrimos = {
 		holder = k_wastelands_holder
 		change_development_level = -5
 		government = wastelands_government
+	}
+    7052.5.1 = { # Reconstruction of Arnor
+		holder = lineofaranbor19 #Oromendil
+    	change_development_level = 2
+		government = feudal_government
+    }
+	7118.3.26 = {
+		holder = lineofaranbor21 #Turlong
 	}
 }
 c_edledhcirbann = {
@@ -9491,6 +9506,14 @@ c_felemgil = {
 		change_development_level = -5
 		government = wastelands_government
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+		holder = lineofaranbor19 #Oromendil
+    	change_development_level = 2
+		government = feudal_government
+    }
+	7118.3.26 = {
+		holder = lineofaranbor21 #Turlong
+	}
 }
 c_celadleitha = {
 	2180.11.23 = {
@@ -9627,6 +9650,14 @@ c_celadleitha = {
 		holder = k_wastelands_holder
 		change_development_level = -5
 		government = wastelands_government
+	}
+    7052.5.1 = { # Reconstruction of Arnor
+		holder = lineofaranbor19 #Oromendil
+    	change_development_level = 2
+		government = feudal_government
+    }
+	7118.3.26 = {
+		holder = lineofaranbor21 #Turlong
 	}
 }
 c_foromenya = {
@@ -9810,7 +9841,22 @@ c_foromenya = {
 		change_development_level = -100
 		government = wastelands_government
 	}
-
+    7052.5.1 = { # Reconstruction of Arnor
+		holder = lineofciryon59
+    	change_development_level = 2
+		government = feudal_government
+		liege = d_emyn_uial
+    }
+	7102.4.2 = {
+		holder = lineofciryon61 # Belemir
+	}
+	#fiction
+	7110.11.3 = {
+		holder = lineofciryon62 # Beledar
+	}
+	7171.1.28 = {
+		holder = lineofciryon63 # Cirion
+	}
 }
 
 
@@ -11040,6 +11086,8 @@ c_cardhbain = {
 	#canon
 	7052.5.1 = { # Reconstruction of Arnor
 		holder = linelomear33
+		change_development_level = 2
+		government = feudal_government
 		liege = k_arthedain
 	}
 	7109.6.27 = {
@@ -11090,6 +11138,8 @@ c_athilin = {
 	}
 	7052.5.1 = { # Reconstruction of Arnor
 		holder = linelomear33
+		change_development_level = 2
+		government = feudal_government
 		liege = k_arthedain
 	}
 	7109.6.27 = {
@@ -11108,6 +11158,8 @@ c_endroth = {
 	}
 	7052.5.1 = { # Reconstruction of Arnor
 		holder = linelomear33
+		change_development_level = 2
+		government = feudal_government
 		liege = k_arthedain
 	}
 	7109.6.27 = {
@@ -11169,6 +11221,8 @@ c_fenddim = {
 	}
 	7052.5.1 = { # Reconstruction of Arnor
 		holder = linelomear33
+		change_development_level = 2
+		government = feudal_government
 		liege = k_arthedain
 	}
 	7109.6.27 = {

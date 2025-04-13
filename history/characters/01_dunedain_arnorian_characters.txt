@@ -391,6 +391,9 @@ lineofciryon62 = {
 	7015.3.11 = {
 		birth = yes
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 	7171.1.28 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -400,7 +403,7 @@ lineofciryon63 = {
 	name = Cirion
 	dynasty_house = house_ciryon
 	religion = faith_edain
-	culture = uialdain
+	culture = arnorian
 	father = lineofciryon62
 	#mother = 
 	
@@ -428,6 +431,9 @@ lineofbraigcerch97 = {
 	7048.5.14 = {
 		birth = yes
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 	7210.1.20 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -447,6 +453,9 @@ lineofsilivnir60 = {
 	7051.3.16 = {
 		birth = yes
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 	7173.9.27 = {
 		death = { death_reason = death_battle }
 	}
@@ -456,7 +465,7 @@ lineofsilivnir61 = {
 	name = Arranel
 	dynasty = dynasty_silivnir
 	religion = faith_edain
-	culture = uialdain
+	culture = arnorian
 	father = lineofsilivnir60
 	#mother = 
 	
@@ -532,7 +541,7 @@ lineofaranbor22 = {
 	name = Seregon
 	dynasty = dynasty_aranbor
 	religion = faith_edain
-	culture = dunedain_ranger
+	culture = arnorian
 	father = lineofaranbor21 # Turlong
 	mother = linehalbarad16 # Lorniel Eldacarionath
 	

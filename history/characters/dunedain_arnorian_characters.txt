@@ -70233,6 +70233,9 @@ lineofaranbor19 = {
     6965.10.5 = {
         add_spouse = lineforovarne63
     }
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 
     7118.3.26 = {
         death = { death_reason = death_natural_causes }
@@ -70307,6 +70310,9 @@ lineofaranbor21 = {
 	7050.10.2 = {
 		add_spouse = linehalbarad16 # Lorniel Eldacarionath
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 
     7191.4.22 = {
         death = { death_reason = death_natural_causes }
@@ -76111,6 +76117,10 @@ lineofciryon59 = {
         add_spouse = lineofsilivnir58
     }
 
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
+
     7102.4.2 = {
         death = { death_reason = death_natural_causes }
     }
@@ -76218,6 +76228,10 @@ lineofciryon61 = {
 	trait = blood_of_numenor_3
     6984.9.28 = {
         birth = yes
+    }
+
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
     }
 
     7110.11.3 = {
@@ -79672,6 +79686,10 @@ lineofbraigcerch93 = {
         add_spouse = lineofbraigcerch94
     }
 
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
+
     7116.5.13 = {
         death = { death_reason = death_natural_causes }
     }
@@ -79742,6 +79760,9 @@ lineofbraigcerch95 = {
 	7002.6.4 = {
 		birth = yes
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 	
 	7167.8.23 = {
 		death = { death_reason = death_natural_causes }
@@ -85148,6 +85169,10 @@ lineofsilivnir57 = {
         add_spouse = lineofaranbor20
     }
 
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
+
     7075.6.18 = {
         death = { death_reason = death_natural_causes }
     }
@@ -85219,6 +85244,10 @@ lineofsilivnir59 = {
 	trait = blood_of_numenor_3
     7015.2.26 = {
         birth = yes
+    }
+
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
     }
 	
     7171.7.14 = {

@@ -410,6 +410,11 @@
 			bandits
 		}
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+    }
 }
 
 4728 = {	#Eryn Nenuial (b_eryn_nenuial)
@@ -424,6 +429,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		religion = faith_edain
+		holding = none
+    }
 }
 
 4729 = {	#Bareketta (b_bareketta)
@@ -438,6 +448,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		religion = faith_edain
+		holding = none
+    }
 }
 
 4730 = {	#Aradhang (b_aradhang)
@@ -452,6 +467,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		religion = faith_edain
+		holding = none
+    }
 }
 
 ##	Baraduial (c_baraduial)
@@ -471,6 +491,9 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = uialdain
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 }
 
 4732 = {	#Amon Môth (b_amon_moth)
@@ -485,6 +508,10 @@
 		culture = uialdain
 		holding = none
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		holding = none
+    }
 }
 
 4733 = {	#Anglas (b_anglas)
@@ -499,6 +526,10 @@
 		culture = uialdain
 		holding = none
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		holding = none
+    }
 }
 
 ##	Edledhcírbann (c_edledhcirbann)
@@ -518,6 +549,9 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = uialdain
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 }
 
 4735 = {	#Alphimrath (b_alphimrath)
@@ -531,8 +565,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = uialdain
 		holding = none
-
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		holding = none
+    }
 }
 
 4736 = {	#Lumranlad (b_lumranlad)
@@ -544,8 +581,10 @@
 	}
 	6008.1.1 = { # Arthedain is disbanded
 		culture = uialdain
-
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 }
 
 ##	Foromenya (c_foromenya)
@@ -570,6 +609,11 @@
 			wolf_den
 		}
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+    }
 }
 
 4738 = {	#Maentiros (b_maentiros)
@@ -587,6 +631,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		religion = faith_edain
+		holding = none
+    }
 }
 
 ##	Nelvorin (c_nelvorin)
@@ -610,6 +659,9 @@
 			outposts_02
 		}
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 }
 
 4739 = {	#Faranel (b_faranel)
@@ -626,6 +678,9 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = uialdain
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 }
 
 4740 = {	#Laegimrath (b_laegimrath)
@@ -640,6 +695,10 @@
 		culture = uialdain
 		holding = none
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		holding = none
+    }
 }
 
 ##	Celadleitha (c_celadleitha)
@@ -661,6 +720,11 @@
 			wild_orcs
 		}
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+    }
 }
 
 4742 = {	#Dol Bellas (b_dol_bellas)
@@ -675,6 +739,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		religion = faith_edain
+		holding = none
+    }
 }
 
 ##	Nothrimos (c_nothrimos)
@@ -696,6 +765,11 @@
 			wolf_den
 		}
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		religion = faith_edain
+		holding = none
+    }
 }
 
 4744 = {	#Bârnur (b_barnur)
@@ -710,6 +784,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		religion = faith_edain
+		holding = none
+    }
 }
 
 ###	Nan Túrath (d_nan_turath)
@@ -2107,6 +2186,9 @@
 			peat_quarries_02
 		}
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+    }
 }
 
 4816 = {	#Cerlairprlan (b_cerlairprlan)
@@ -2121,6 +2203,10 @@
 		culture = uialdain
 		holding = none
 	}
+    7052.5.1 = { # Reconstruction of Arnor
+    	culture = arnorian
+		holding = none
+    }
 }
 
 ##	Dúnglân (Westmarch) (c_dunglan)
