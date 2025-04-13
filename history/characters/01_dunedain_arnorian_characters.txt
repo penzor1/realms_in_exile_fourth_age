@@ -667,7 +667,7 @@ linehalbarad19 = {
 
     trait = blood_of_numenor_4
 
-    7177.10.11 = {
+    7151.10.11 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
@@ -720,7 +720,7 @@ linehalbarad21 = {
 
     trait = blood_of_numenor_4
 
-    7180.12.2 = {
+    7155.12.2 = {
         birth = yes
 		effect = {
 			learn_language = language_sindarin
