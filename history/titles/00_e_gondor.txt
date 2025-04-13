@@ -14309,10 +14309,7 @@ c_tharven = { #Tharven
 	7021.1.1 = {		
 		holder = lineofkussika3 # Suggût	
 	}	
-	7048.1.1 = {
-        holder = 0
-    }
-	7052.5.1 = { # Line of Salomonin gets the duchy of Doriant from RK after conversion
+	7048.1.1 = { # Line of Salomonin gets the duchy of Doriant from RK after conversion #7052.5.1, cant have destroyed/empty county titles
 	holder = lineofsalomonin4 #Adjan
         liege = d_doriant
 		de_jure_liege = e_reunitedkingdom
