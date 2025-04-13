@@ -9986,15 +9986,15 @@ c_annuminas = {
 	}
 	#canon
 	7052.5.1 = { # Reconstruction of Arnor
-		liege = k_arthedain
+		holder = lineisildur42 # Aragorn
 		change_development_level = 15
 	}
-	7090.10.4 = {
-		holder = lineoftarmea695 # Aldarion
+	7174.3.1 = { #FO120
+		holder = lineisildur43 # Eldarion
 	}
 	#fiction
-	7143.10.3 = {
-		holder = lineoforodhos68 # Aldarion
+	7174.3.2 = { #FO120 # Regency of Arnor
+		holder = lineisildur48 # Anarion
 	}
 }
 c_tarmabar = {
@@ -10064,6 +10064,18 @@ c_tarmabar = {
 		holder = k_wastelands_holder
 		change_development_level = -5
 		government = wastelands_government
+	}
+	7052.5.1 = { # Reconstruction of Arnor
+		holder = lineoftarmea69 # Mireatan
+		change_development_level = 3
+		government = feudal_government
+		liege = k_arthedain
+	}
+	7090.10.4 = {
+		holder = lineoftarmea695 # Aldarion
+	}
+	7143.10.3 = {
+		holder = lineoforodhos68 # Mirendil
 	}
 }
 c_rhovanduin = {
@@ -10136,6 +10148,18 @@ c_rhovanduin = {
 		holder = k_wastelands_holder
 		change_development_level = -5
 		government = wastelands_government
+	}
+	7052.5.1 = { # Reconstruction of Arnor
+		holder = lineoftarmea69 # Mireatan
+		change_development_level = 3
+		government = feudal_government
+		liege = k_arthedain
+	}
+	7090.10.4 = {
+		holder = lineoftarmea695 # Aldarion
+	}
+	7143.10.3 = {
+		holder = lineoforodhos68 # Mirendil
 	}
 }
 c_cargilin = {
@@ -10223,6 +10247,18 @@ c_cargilin = {
 		change_development_level = -6
 		government = wastelands_government
 	}
+	7052.5.1 = { # Reconstruction of Arnor
+		holder = lineoftarmea69 # Mireatan
+		change_development_level = 3
+		government = feudal_government
+		liege = k_arthedain
+	}
+	7090.10.4 = {
+		holder = lineoftarmea695 # Aldarion
+	}
+	7143.10.3 = {
+		holder = lineoforodhos68 # Mirendil
+	}
 }
 c_laegsant = {
 	3912.1.1 = { # Time of Akallabeth
@@ -10307,6 +10343,18 @@ c_laegsant = {
 		holder = k_wastelands_holder
 		change_development_level = -6
 		government = wastelands_government
+	}
+	7052.5.1 = { # Reconstruction of Arnor
+		holder = lineoftarmea69 # Mireatan
+		change_development_level = 3
+		government = feudal_government
+		liege = k_arthedain
+	}
+	7090.10.4 = {
+		holder = lineoftarmea695 # Aldarion
+	}
+	7143.10.3 = {
+		holder = lineoforodhos68 # Mirendil
 	}
 }
 

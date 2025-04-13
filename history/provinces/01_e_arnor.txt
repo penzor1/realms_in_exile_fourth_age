@@ -24,6 +24,9 @@
 			curtain_walls_01
 		}
 	}
+	7052.5.1 = {
+		culture = arnorian
+	}
 }
 
 4709 = {	#Archamdun (b_archamdun)
@@ -37,6 +40,9 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = dunedain_ranger
 		holding = none
+	}
+	7052.5.1 = {
+		culture = arnorian
 	}
 }
 
@@ -52,6 +58,9 @@
 		culture = dunedain_ranger
 		holding = none
 	}
+	7052.5.1 = {
+		culture = arnorian
+	}
 }
 
 4711 = {	#Mar Tarmëaron (b_mar_tarmearon)
@@ -65,6 +74,9 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = dunedain_ranger
 		holding = none
+	}
+	7052.5.1 = {
+		culture = arnorian
 	}
 }
 
@@ -80,6 +92,9 @@
 		culture = dunedain_ranger
 		holding = none
 	}
+	7052.5.1 = {
+		culture = arnorian
+	}
 }
 
 4713 = {	#Dunhirion (b_dunhirion)
@@ -93,6 +108,9 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = dunedain_ranger
 		holding = none
+	}
+	7052.5.1 = {
+		culture = arnorian
 	}
 }
 
@@ -115,6 +133,11 @@
 			bandits
 		}
 	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+	}
 }
 
 4715 = {	#Fainthanc (b_fainthanc)
@@ -128,6 +151,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -144,6 +172,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4717 = {	#Dúragar (b_duragar)
@@ -156,6 +189,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -179,6 +217,11 @@
 			wolf_den
 		}
 	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+	}
 }
 
 4719 = {	#Enerond (b_enerond)
@@ -191,6 +234,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -207,6 +255,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4721 = {	#Fêrarphen (b_ferarphen)
@@ -219,6 +272,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -242,6 +300,11 @@
 			wolf_den
 		}
 	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+	}
 }
 
 4723 = {	#Orchelor (b_orchelor)
@@ -256,6 +319,11 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
+		holding = none
+	}
 }
 
 4724 = {	#Laegpâd (b_laegpad)
@@ -268,6 +336,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
@@ -291,6 +364,11 @@
 			wolf_den
 		}
 	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
+		holding = castle_holding
+	}
 }
 
 4726 = {	#Sîdhbâr (b_sidhbar)
@@ -303,6 +381,11 @@
 	6008.1.1 = { # Arthedain is disbanded
 		culture = wastelands
 		religion = faith_wastelands_pagan
+		holding = none
+	}
+	7052.5.1 = {
+		culture = arnorian
+		religion = faith_edain
 		holding = none
 	}
 }
