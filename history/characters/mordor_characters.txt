@@ -31,7 +31,6 @@ mouthofsauron = {
 	trait = logistician			
 	 # A Gondorian Renegade of high lineage and descent, but not of blood unmingled or undiminished
 	trait = sorcerer_1
-	trait = cannot_marry
 
 	6958.1.1 = {			
 		birth = yes		
@@ -42,6 +41,7 @@ mouthofsauron = {
 			add_character_flag = no_auto_family
 			learn_language = language_westron
 			add_trait = blood_of_numenor_2
+			add_trait = cannot_marry
 		}	
 	}			
 				
@@ -63,6 +63,9 @@ mouthofsauron = {
 		dynasty = dynasty_herumori
 		effect = {
 			add_trait = maimed
+			add_trait = whole_of_body
+			add_trait = theologian
+			remove_trait = cannot_marry
    			add_character_modifier = ringbearer_health_modifier
 		}
 	}			
