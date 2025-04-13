@@ -350,17 +350,17 @@ fire_intro_events_0120 = {
 	
 	### HUMANS INTRO EVENTS ###
 	# ARNOR
-	character:lineisildur48 = { # Eärendur Intro
-		if = {
-			limit = {
-				is_alive = yes
-			}
-			trigger_event = {
-				id = ns_lotr_intro_events.6001
-				days = { 5 10 }
-			}
-		}
-	}
+	#character:lineisildur48 = { # Eärendur Intro # temp
+	#	if = {
+	#		limit = {
+	#			is_alive = yes
+	#		}
+	#		trigger_event = {
+	#			id = ns_lotr_intro_events.6001
+	#			days = { 5 10 }
+	#		}
+	#	}
+	#}
 	
 	# GONDOR
 	every_ruler = { # Death of Aragorn
