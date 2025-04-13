@@ -9406,7 +9406,10 @@ c_iantras = { #Iantras
         holder = lineofmanwedur76 #Enthor
 		liege = d_anfalas
 		de_jure_liege = e_reunitedkingdom
-    }	
+    }
+	7183.1.6 = {
+        holder = lineofmanwedur112 #Elentir
+    }
 }	
 
 ## Duchy of Edhellond ##

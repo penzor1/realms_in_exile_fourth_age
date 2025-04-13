@@ -4917,6 +4917,28 @@ lineanfalas39 = {
     }
 }
 
+# Line of Manwedur
+
+lineofmanwedur112 = {
+    name = Elentir
+
+    dynasty = dynasty_nos_elmo
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofmanwedur76
+    mother = lineofmanwedur77
+
+	trait = blood_of_numenor_1
+    7111.3.5 = {
+        birth = yes
+    }
+
+    7209.6.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 # Line of Nos Palantir
 
 linepalantir7sonwife = {
