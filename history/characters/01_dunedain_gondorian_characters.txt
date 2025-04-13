@@ -6397,6 +6397,9 @@ lineofangranc19 = {
 
     7035.5.27 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7086.3.14 = {
@@ -6421,6 +6424,9 @@ lineofangranc20 = {
 
     7069.6.27 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7163.12.17 = {
@@ -6444,6 +6450,9 @@ lineofangranc21 = {
 
     7092.1.18 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7164.1.11 = {
@@ -6467,6 +6476,9 @@ lineofangranc22 = {
 
     7095.2.16 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7121.3.17 = {
@@ -6491,6 +6503,9 @@ lineofangranc23 = {
 
     7095.4.16 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7205.9.21 = {
@@ -6514,6 +6529,9 @@ lineofangranc24 = {
 
     7128.12.2 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7228.8.21 = {
@@ -6537,6 +6555,9 @@ lineofangranc25 = {
 
     7135.4.14 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7162.8.26 = {
@@ -6561,6 +6582,9 @@ lineofangranc26 = {
 
     7133.3.4 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7220.2.20 = {
@@ -6599,6 +6623,9 @@ lineofcunamir107 = {
 
     7000.8.1 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7041.12.21 = {
@@ -6623,6 +6650,9 @@ lineofcunamir108 = {
 
     7024.6.25 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7098.11.27 = {
@@ -6646,6 +6676,9 @@ lineofcunamir109 = {
 
     7047.9.22 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7075.12.15 = {
@@ -6670,6 +6703,9 @@ lineofcunamir110 = {
 
     7047.12.23 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7123.6.10 = {
@@ -6693,6 +6729,9 @@ lineofcunamir111 = {
 
     7082.10.1 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7173.2.5 = {
@@ -6715,7 +6754,9 @@ lineofcunamir112 = {
     trait = blood_of_numenor_1
 
     7090.11.14 = {
-        birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7139.6.7 = {
@@ -6740,6 +6781,9 @@ lineofcunamir113 = {
 
     7093.7.7 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7165.2.20 = {
@@ -6763,6 +6807,9 @@ lineofcunamir114 = {
 
     7140.3.18 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7172.3.4 = {
@@ -6787,6 +6834,9 @@ lineofcunamir115 = {
 
     7139.11.18 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7237.10.21 = {
@@ -6810,6 +6860,9 @@ lineofcunamir116 = {
 
     7142.11.10 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7214.1.27 = {
@@ -6833,6 +6886,9 @@ lineofcunamir117 = {
 
     7055.7.28 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7134.11.17 = {
@@ -6856,6 +6912,9 @@ lineofcunamir118 = {
 
     7059.10.12 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7163.5.2 = {
@@ -6933,6 +6992,9 @@ linecalionath24 = {
 
     7040.10.28 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7068.11.22 = {
@@ -6957,6 +7019,9 @@ linecalionath25 = {
 
     7051.10.17 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7127.11.14 = {
@@ -6980,6 +7045,9 @@ linecalionath26 = {
 
     7081.4.3 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7189.10.6 = {
@@ -7003,6 +7071,9 @@ linecalionath27 = {
 
     7090.3.3 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7129.6.22 = {
@@ -7027,6 +7098,9 @@ linecalionath28 = {
 
     7087.12.4 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7180.9.14 = {
@@ -7050,6 +7124,9 @@ linecalionath29 = {
 
     7132.4.10 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7205.11.11 = {
@@ -7073,6 +7150,9 @@ linecalionath30 = {
 
     7136.10.11 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7180.4.12 = {
@@ -7097,6 +7177,9 @@ linecalionath31 = {
 
     7133.6.8 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7218.11.15 = {
@@ -7120,6 +7203,9 @@ linecalionath32 = {
 
     7091.5.21 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7190.6.2 = {
@@ -7143,6 +7229,9 @@ linecalionath33 = {
 
     7040.1.9 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7082.6.10 = {
@@ -7167,6 +7256,9 @@ linecalionath34 = {
 
     7065.10.1 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7162.4.16 = {
@@ -7190,6 +7282,9 @@ linecalionath35 = {
 
     7101.1.13 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7174.12.22 = {
@@ -7213,6 +7308,9 @@ linecalionath36 = {
 
     7102.3.12 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7123.7.17 = {
@@ -7237,6 +7335,9 @@ linecalionath37 = {
 
     7100.7.23 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7175.8.10 = {
@@ -7260,6 +7361,9 @@ linecalionath38 = {
 
     7148.4.10 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7199.7.23 = {
@@ -7284,6 +7388,9 @@ linecalionath39 = {
 
     7151.10.17 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7231.1.6 = {
@@ -7332,6 +7439,9 @@ lineofchief24 = {
 
     7090.2.3 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7137.4.19 = {
@@ -7356,6 +7466,9 @@ lineofchief25 = {
 
     7120.5.10 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7190.12.11 = {
@@ -7379,6 +7492,9 @@ lineofchief26 = {
 
     7150.6.7 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7200.9.1 = {
@@ -7403,6 +7519,9 @@ lineofchief27 = {
 
     7149.4.2 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7237.6.6 = {
@@ -7451,6 +7570,9 @@ linesurionath8 = {
 
     7025.1.24 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7061.12.20 = {
@@ -7475,6 +7597,9 @@ linesurionath9 = {
 
     7044.6.27 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7131.3.14 = {
@@ -7498,6 +7623,9 @@ linesurionath10 = {
 
     7074.12.5 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7110.5.12 = {
@@ -7522,6 +7650,9 @@ linesurionath11 = {
 
     7076.4.27 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7179.9.12 = {
@@ -7545,6 +7676,9 @@ linesurionath12 = {
 
     7110.10.22 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7151.9.8 = {
@@ -7569,6 +7703,9 @@ linesurionath13 = {
 
     7110.4.26 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7164.6.1 = {
@@ -7592,6 +7729,9 @@ linesurionath14 = {
 
     7120.6.23 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7181.10.7 = {
@@ -7615,6 +7755,9 @@ linesurionath15 = {
 
     7078.7.15 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7111.3.11 = {
@@ -7639,6 +7782,9 @@ linesurionath16 = {
 
     7080.11.19 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7176.12.24 = {
@@ -7662,6 +7808,9 @@ linesurionath17 = {
 
     7114.2.11 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7156.5.7 = {
@@ -7686,6 +7835,9 @@ linesurionath18 = {
 
     7112.6.19 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7198.6.9 = {
@@ -7709,6 +7861,9 @@ linesurionath19 = {
 
     7115.8.8 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7143.5.22 = {
@@ -7733,6 +7888,9 @@ linesurionath20 = {
 
     7114.3.5 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7221.4.16 = {
@@ -7756,6 +7914,9 @@ linesurionath21 = {
 
     7120.2.1 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7168.9.12 = {
@@ -7780,6 +7941,9 @@ linesurionath22 = {
 
     7123.9.19 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7209.8.9 = {
@@ -7803,6 +7967,9 @@ linesurionath23 = {
 
     7080.5.25 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7162.2.24 = {
@@ -7850,6 +8017,9 @@ lineorontorion13 = {
 
     7040.4.18 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7070.9.4 = {
@@ -7874,6 +8044,9 @@ lineorontorion14 = {
 
     7053.9.24 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7144.2.16 = {
@@ -7897,6 +8070,9 @@ lineorontorion15 = {
 
     7078.12.13 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7175.8.24 = {
@@ -7920,6 +8096,9 @@ lineorontorion16 = {
 
     7083.1.15 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7162.3.28 = {
@@ -7943,6 +8122,9 @@ lineorontorion17 = {
 
     7084.7.27 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7110.5.22 = {
@@ -7967,6 +8149,9 @@ lineorontorion18 = {
 
     7084.12.22 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7159.10.2 = {
@@ -7990,6 +8175,9 @@ lineorontorion19 = {
 
     7119.10.22 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7159.1.3 = {
@@ -8014,6 +8202,9 @@ lineorontorion20 = {
 
     7116.6.5 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7209.8.5 = {
@@ -8037,6 +8228,9 @@ lineorontorion21 = {
 
     7123.4.20 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7155.4.25 = {
@@ -8061,6 +8255,9 @@ lineorontorion22 = {
 
     7122.9.10 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7231.11.12 = {
@@ -8084,6 +8281,9 @@ lineorontorion23 = {
 
     7126.11.2 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7207.1.17 = {
@@ -8119,6 +8319,9 @@ lineciryaloth1 = {
 
     6994.2.7 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7014.10.16 = {
@@ -8156,6 +8359,9 @@ lineciryaloth2 = {
 
     6997.2.1 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7073.2.18 = {
@@ -8179,6 +8385,9 @@ lineciryaloth3 = {
 
     7027.7.15 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7048.2.26 = {
@@ -8203,6 +8412,9 @@ lineciryaloth4 = {
 
     7027.9.13 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7108.11.10 = {
@@ -8226,6 +8438,9 @@ lineciryaloth5 = {
 
     7054.12.25 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7085.11.16 = {
@@ -8250,6 +8465,9 @@ lineciryaloth6 = {
 
     7054.2.6 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7164.9.19 = {
@@ -8273,6 +8491,9 @@ lineciryaloth7 = {
 
     7086.12.1 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7175.11.5 = {
@@ -8296,6 +8517,9 @@ lineciryaloth8 = {
 
     7091.4.17 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7181.9.28 = {
@@ -8319,6 +8543,9 @@ lineciryaloth9 = {
 
     7095.10.2 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7131.12.28 = {
@@ -8343,6 +8570,9 @@ lineciryaloth10 = {
 
     7097.11.19 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7168.6.19 = {
@@ -8366,6 +8596,9 @@ lineciryaloth11 = {
 
     7068.11.8 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7178.6.25 = {
@@ -8389,6 +8622,9 @@ lineciryaloth12 = {
 
     7031.5.25 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7140.4.14 = {
@@ -8412,6 +8648,9 @@ lineciryaloth13 = {
 
     7034.11.13 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7068.5.2 = {
@@ -8436,6 +8675,9 @@ lineciryaloth14 = {
 
     7031.10.5 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7140.11.18 = {
@@ -8459,6 +8701,9 @@ lineciryaloth15 = {
 
     7075.10.11 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7121.7.1 = {
@@ -8483,6 +8728,9 @@ lineciryaloth16 = {
 
     7078.6.18 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7177.1.6 = {
@@ -8506,6 +8754,9 @@ lineciryaloth17 = {
 
     7125.9.19 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7223.9.24 = {
@@ -8529,6 +8780,9 @@ lineciryaloth18 = {
 
     7126.4.7 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7214.6.6 = {
@@ -8552,6 +8806,9 @@ lineciryaloth19 = {
 
     7129.3.8 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7170.4.20 = {
@@ -8576,6 +8833,9 @@ lineciryaloth20 = {
 
     7127.6.14 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7199.9.6 = {
@@ -8613,6 +8873,9 @@ lineisilmonir11 = {
 
     7000.3.24 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7050.6.9 = {
@@ -8637,6 +8900,9 @@ lineisilmonir12 = {
 
     7033.5.12 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7119.12.12 = {
@@ -8660,6 +8926,9 @@ lineisilmonir13 = {
 
     7064.3.20 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7094.7.9 = {
@@ -8684,6 +8953,9 @@ lineisilmonir14 = {
 
     7067.7.3 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7149.9.4 = {
@@ -8707,6 +8979,9 @@ lineisilmonir15 = {
 
     7097.6.28 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7193.6.11 = {
@@ -8730,6 +9005,9 @@ lineisilmonir16 = {
 
     7105.11.28 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7211.3.26 = {
@@ -8753,6 +9031,9 @@ lineisilmonir17 = {
 
     7107.11.17 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7162.5.28 = {
@@ -8777,6 +9058,9 @@ lineisilmonir18 = {
 
     7108.12.16 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7217.6.10 = {
@@ -8800,6 +9084,9 @@ lineisilmonir19 = {
 
     7162.5.28 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7196.2.18 = {
@@ -8824,6 +9111,9 @@ lineisilmonir20 = {
 
     7165.9.5 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7248.4.25 = {
@@ -8847,6 +9137,9 @@ lineisilmonir21 = {
 
     7069.1.8 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7173.10.15 = {
@@ -8870,6 +9163,9 @@ lineisilmonir22 = {
 
     7074.9.9 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7103.11.11 = {
@@ -8894,6 +9190,9 @@ lineisilmonir23 = {
 
     7073.9.17 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7169.8.18 = {
@@ -8917,6 +9216,9 @@ lineisilmonir24 = {
 
     7107.12.18 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7189.6.23 = {
@@ -8940,6 +9242,9 @@ lineisilmonir25 = {
 
     7114.1.13 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7217.2.25 = {
@@ -8963,6 +9268,9 @@ lineisilmonir26 = {
 
     7119.10.26 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7173.9.24 = {
@@ -8987,6 +9295,9 @@ lineisilmonir27 = {
 
     7121.10.18 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7218.4.7 = {
@@ -9010,6 +9321,9 @@ lineisilmonir28 = {
 
     7174.3.28 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7197.3.23 = {
@@ -9034,6 +9348,9 @@ lineisilmonir29 = {
 
     7171.3.19 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7247.8.10 = {
@@ -9059,6 +9376,9 @@ lineofamroth85 = {
 
     7120.7.8 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7155.7.10 = {
@@ -9083,6 +9403,9 @@ lineofamroth86 = {
 
     7138.1.1 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7223.7.27 = {
@@ -9106,6 +9429,9 @@ lineofamroth87 = {
 
     7168.9.1 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7201.1.11 = {
@@ -9130,6 +9456,9 @@ lineofamroth88 = {
 
     7171.12.7 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7270.12.8 = {
@@ -9153,6 +9482,9 @@ lineofamroth89 = {
 
     7173.6.6 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7283.2.27 = {
@@ -9176,6 +9508,9 @@ lineofamroth90 = {
 
     7178.3.22 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7211.2.25 = {
@@ -9200,6 +9535,9 @@ lineofamroth91 = {
 
     7179.6.21 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7258.11.6 = {
@@ -9224,6 +9562,9 @@ lineofatanatar84 = {
 
     7050.3.8 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7100.9.6 = {
@@ -9248,6 +9589,9 @@ lineofatanatar85 = {
 
     7083.2.4 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7176.4.5 = {
@@ -9271,6 +9615,9 @@ lineofatanatar86 = {
 
     7119.6.6 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7189.2.16 = {
@@ -9294,6 +9641,9 @@ lineofatanatar87 = {
 
     7129.1.27 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7149.4.12 = {
@@ -9318,6 +9668,9 @@ lineofatanatar88 = {
 
     7129.9.4 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7224.10.1 = {
@@ -9343,6 +9696,9 @@ lineofduneglan129 = {
 
     7115.4.27 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7170.10.6 = {
@@ -9367,6 +9723,9 @@ lineofduneglan130 = {
 
     7153.3.22 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7223.10.28 = {
@@ -9390,6 +9749,9 @@ lineofduneglan131 = {
 
     7176.5.22 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7211.1.22 = {
@@ -9414,6 +9776,9 @@ lineofduneglan132 = {
 
     7174.5.11 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7257.3.16 = {
@@ -9437,6 +9802,9 @@ lineofduneglan133 = {
 
     7177.12.16 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7253.10.19 = {
@@ -9460,6 +9828,9 @@ lineofduneglan134 = {
 
     7181.7.21 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7257.3.14 = {
@@ -9509,6 +9880,9 @@ lineoflauremacil76 = {
 
     7076.3.19 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7119.7.3 = {
@@ -9533,6 +9907,9 @@ lineoflauremacil77 = {
 
     7102.2.17 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7172.2.3 = {
@@ -9556,6 +9933,9 @@ lineoflauremacil78 = {
 
     7122.7.18 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7195.3.18 = {
@@ -9579,6 +9959,9 @@ lineoflauremacil79 = {
 
     7123.8.16 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7216.2.27 = {
@@ -9602,6 +9985,9 @@ lineoflauremacil80 = {
 
     7125.9.6 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7178.4.24 = {
@@ -9626,6 +10012,9 @@ lineoflauremacil81 = {
 
     7124.9.17 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7231.4.3 = {

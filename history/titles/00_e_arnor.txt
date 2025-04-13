@@ -1295,21 +1295,18 @@ c_adandor = {
 	}
 	7052.5.1 = {
 		liege = k_arthedain
+		de_jure_liege = e_reunitedkingdom
 	}
 	#fiction
 	7158.1.1 = {
 		holder = linehalbarad10 # Elegost
-		liege = e_reunitedkingdom
 	}
 	7159.1.1 = {
-		holder = lineisildur42 # Aragorn
-	}
-	7174.3.1 = {
-		holder = lineisildur43 # Eldarion
-	}
-	7174.3.2 = { #FO120 # Regency of Arnor
-		holder = lineisildur48 # Anarion
-	}
+        holder = linehalbarad17 #Romendur
+    }
+    7220.5.5 = {
+        holder = linehalbarad19 #Belatar
+    }
 }
 
 ## d_faerdor
