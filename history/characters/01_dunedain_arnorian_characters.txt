@@ -494,7 +494,7 @@ linemelosse60 = {
 	name = Astandil
 	dynasty = dynasty_melosse
 	religion = faith_edain
-	culture = dunedain_ranger
+	culture = arnorian
 	father = linemelosse501 # Dagnir
 	#mother = 
 	

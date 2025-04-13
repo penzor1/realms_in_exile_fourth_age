@@ -3285,6 +3285,9 @@
 			hunting_grounds_01
 		}
 	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
+	}
 }
 
 4554 = {	#Tithenglavrol (b_tithenglavrol)
@@ -3300,6 +3303,9 @@
 		religion = faith_edain
 		holding = none
 	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
+	}
 }
 
 4555 = {	#Lalvenlant (b_lalvenlant)
@@ -3314,6 +3320,9 @@
 		culture = dunedain_ranger
 		religion = faith_edain
 		holding = none
+	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
 	}
 }
 
@@ -5662,6 +5671,9 @@
 			regimental_grounds_01
 		}
 	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
+	}
 }
 
 4445 = {	#Glaenengobel (b_glaenengobel)
@@ -5675,6 +5687,9 @@
 		culture = dunedain_ranger
 		religion = faith_edain
 		holding = none
+	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
 	}
 }
 
@@ -5690,6 +5705,9 @@
 		religion = faith_edain
 		holding = none
 	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
+	}
 }
 
 4447 = {	#Enedhnass (b_enedhnass)
@@ -5703,6 +5721,9 @@
 		culture = dunedain_ranger
 		religion = faith_edain
 		holding = none
+	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
 	}
 }
 
@@ -5732,6 +5753,9 @@
 			outposts_02
 		}
 	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
+	}
 }
 
 4449 = {	#Maehwest (b_maehwest)
@@ -5752,6 +5776,9 @@
 		culture = dunedain_ranger
 		religion = faith_edain
 		holding = none
+	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
 	}
 }
 
@@ -5774,6 +5801,9 @@
 		religion = faith_edain
 		holding = none
 	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
+	}
 }
 
 ##	Hargwaeron (c_hargwaeron)
@@ -5795,6 +5825,9 @@
 			workshops_01
 		}
 	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
+	}
 }
 
 4452 = {	#Eryn Elmir (b_eryn_elmir)
@@ -5809,6 +5842,9 @@
 		religion = faith_edain
 		holding = none
 	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
+	}
 }
 
 4453 = {	#Creagacháite (b_creagachaite)
@@ -5822,6 +5858,9 @@
 		culture = dunedain_ranger
 		religion = faith_edain
 		holding = none
+	}
+	7052.5.1 = { # Reconstruction of Arnor
+		culture = arnorian
 	}
 }
 
