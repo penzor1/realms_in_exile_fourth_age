@@ -65,10 +65,13 @@ linesteward46 = {
 		add_spouse = lineastandur13sister # Luindis
 	}
 	7174.3.2 = {
-		give_council_position = councillor_steward
-		vassal_contract_set_obligation_level = {
-			type = council_rights 
-			level = 1
+		effect = {
+			give_council_position = councillor_steward
+			vassal_contract_set_obligation_level = {
+				type = council_rights 
+				level = 1
+			}
+			create_artifact_cleft_horn_gondor_effect = { OWNER = root }
 		}
 	}
 	7197.1.1 = { #FO145
@@ -6754,6 +6757,7 @@ lineofcunamir112 = {
     trait = blood_of_numenor_1
 
     7090.11.14 = {
+        birth = yes
         effect = {
 			learn_language = language_sindarin
 		}
