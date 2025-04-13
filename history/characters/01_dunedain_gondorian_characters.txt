@@ -6,23 +6,6 @@
 ## Children of faramir and eowyn ##
 #fiction
 
-linesteward44wife = {
-	name = Rodwen
-	religion = faith_edain
-	culture = gondorian
-	female = yes
-	
-	7085.3.5 = {
-		birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
-	}
-	7156.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
 linesteward45 = {
 	name = Morwen
 	dynasty_house = house_gondorstewards
@@ -49,14 +32,14 @@ linesteward45 = {
 	}
 }
 
-## Children of Elboron and Almariel ##
+## Children of Elboron and Itarildú ##
 linesteward46 = {
 	name = Dior # Prince of Ithilien
 	dynasty_house = house_gondorstewards
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward43 # Elboron
-	mother = linelamedon38 # Almariel
+	mother = linelamedon38 # Itarildú
 	
 	trait = diligent
 	trait = greedy
@@ -79,7 +62,7 @@ linesteward46 = {
 		}
 	}
 	7100.1.1 = {
-		add_spouse = linesteward46wife # Eirien
+		add_spouse = lineastandur13sister # Luindis
 	}
 	7174.3.2 = {
 		give_council_position = councillor_steward
@@ -93,33 +76,13 @@ linesteward46 = {
 	}
 }
 
-linesteward46wife = {
-	name = Eirien
-	religion = faith_edain
-	culture = gondorian
-	female = yes
-	
-	trait = intellect_good_1
-	trait = blood_of_numenor_2
-
-	7089.1.1 = {
-		birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
-	}
-	7170.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
 linesteward47 = { # Duke of Forithilien
 	name = H_urin
 	dynasty_house = house_gondorstewards
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward43 # Elboron
-	mother = linelamedon38 # Almariel
+	mother = linelamedon38 # Itarildú
 	
 	trait = education_stewardship_4
 	trait = blood_of_numenor_2
@@ -161,7 +124,7 @@ linesteward48 = {
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward43 # Elboron
-	mother = linelamedon38 # Almariel
+	mother = linelamedon38 # Itarildú
 	female = yes
 	
 	trait = patient
@@ -201,7 +164,7 @@ linesteward49 = {
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward43 # Elboron
-	mother = linelamedon38 # Almariel
+	mother = linelamedon38 # Itarildú
 	female = yes
 	
 	trait = education_learning_3
@@ -218,7 +181,7 @@ linesteward49 = {
 	}
 }
 
-## Children of Dior and ? ##
+## Children of Dior and Luindis ##
 #canon
 linesteward53 = {
 	name = Barahir # Authored The Tale of Aragorn and Arwen
@@ -226,7 +189,7 @@ linesteward53 = {
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward46 # Dior
-	mother = linesteward46wife # Eirien
+	mother = lineastandur13sister # Luindis
 	
 	trait = calm
 	trait = diligent
@@ -254,7 +217,7 @@ linesteward53 = {
 	}
 }
 
-## Children of Denethor II and Rodwen ##
+## Children of Denethor II and Emelisse ##
 #fiction
 linesteward51 = {
     name = Elariel
@@ -262,7 +225,7 @@ linesteward51 = {
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward44 # Denethor II
-	mother = linesteward44wife # Rodwen
+	mother = lebennin32sister # Emelisse
 	female = yes
 	
 	trait = beauty_good_1
@@ -286,7 +249,7 @@ linesteward52 = {
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward44 # Denethor II
-	mother = linesteward44wife # Rodwen
+	mother = lebennin32sister # Emelisse
 	
 	trait = education_martial_2
 	trait = blood_of_numenor_2
@@ -805,6 +768,37 @@ lebennin20wife = {
 
 lebennin32 = {
     name = Vingidur
+
+    dynasty = dynasty_lebennin
+    religion = faith_edain
+    culture = gondorian
+
+    father = lebennin20
+    mother = lebennin20wife
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7081.9.2 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin	
+		}
+    }
+
+    7105.8.7 = {
+        add_spouse = lebennin33
+    }
+
+    7159.6.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lebennin32sister = {
+    name = Emelisse
+    female = yes
 
     dynasty = dynasty_lebennin
     religion = faith_edain
@@ -5021,6 +5015,33 @@ lineastandur13 = {
     }
 
     7155.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineastandur13sister = {
+    name = Luindis
+    female = yes
+
+    dynasty = dynasty_harithilien
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    father = lineastandur10
+    mother = linastanur10wife
+
+    trait = blood_of_numenor_1
+
+    7084.12.9 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7191.10.16 = {
         death = { death_reason = death_natural_causes }
     }
 }
