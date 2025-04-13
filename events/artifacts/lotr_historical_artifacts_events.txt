@@ -710,33 +710,20 @@ lotr_historical_artifacts.0001 = {
 		}
 		
 		if = {
-			limit = { title:e_gondor_steward.holder.player_heir ?= { is_human = yes } }
+			limit = {
+				title:e_gondor_steward.holder.player_heir ?= { is_human = yes }
+				current_date < 7052.5.1
+			}
 			title:e_gondor_steward.holder.player_heir = { #The Steward's heir receives the Horn of Gondor
 				create_artifact_horn_gondor_effect = { OWNER = this }
 			}
 		}
 		else_if = {
-			limit = { title:e_gondor_steward.holder ?= { is_human = yes } }
+			limit = {
+				title:e_gondor_steward.holder ?= { is_human = yes }
+				current_date < 7052.5.1
+			}
 			title:e_gondor_steward.holder = { #The Steward receives the Horn of Gondor if he has no heir
-				create_artifact_horn_gondor_effect = { OWNER = this }
-			}
-		}
-		
-		if = {
-			limit = {
-				title:k_ithilien.holder.player_heir ?= { is_human = yes }
-				current_date > 7052.5.1
-			}
-			title:k_ithilien.holder.player_heir = { #The ruler of Ithilien's heir receives the Horn of Gondor
-				create_artifact_horn_gondor_effect = { OWNER = this }
-			}
-		}
-		else_if = {
-			limit = {
-				title:k_ithilien.holder ?= { is_human = yes }
-				current_date > 7052.5.1
-			}
-			title:k_ithilien.holder = { #The Prince of Ithilien receives the Horn of Gondor if he has no heir
 				create_artifact_horn_gondor_effect = { OWNER = this }
 			}
 		}
