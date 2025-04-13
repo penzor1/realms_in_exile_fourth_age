@@ -9518,8 +9518,8 @@ lineoflauremacil76 = {
         add_spouse = lineoflauremacil77
     }
 
-    7129.2.14 = {
-        death = { death_reason = death_wounds }
+    7171.2.14 = {
+        death = { death_reason = death_natural_causes}
     }
 }
 

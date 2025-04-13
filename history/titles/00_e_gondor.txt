@@ -4694,6 +4694,9 @@ c_erui = { #Erui
 	7146.4.5 = {
         holder = lineoflauremacil76 #Arciryas
     }
+	7171.2.14 = {
+        holder = lineoflauremacil80 #Hurin
+    }
 }	
 
 #Duchy of Lebennivet			
