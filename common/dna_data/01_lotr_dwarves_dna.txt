@@ -121,7 +121,7 @@
 dorfdad_sindri_dna = { # Credit to Zurah
 	portrait_info = {
 		genes={ 		
-				hair_color={ 87 59 170 253 }
+			hair_color={ 87 59 170 253 }
 			skin_color={ 179 55 32 34 }
 			eye_color={ 146 37 245 166 }
 			gene_chin_forward={ "chin_forward_neg" 135 "chin_forward_neg" 135 }
