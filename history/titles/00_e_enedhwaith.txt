@@ -2653,6 +2653,21 @@ d_druwaith_iaur = {
 	6817.1.1 = {			
 		holder = 0
 	}
+	7038.1.1={			
+		holder =  lineofwaghanghu16 # Zi_i_ghi		
+	}
+	7058.1.1 = {
+        holder = lineofwaghanghu36 #Ru_u_be_e_r
+    }
+    7079.7.15 = {
+        holder = lineofwaghanghu38 #Dru_u_nu
+    }
+    7118.5.27 = {
+        holder = lineofwaghanghu42 #Bra_a_mbu
+    }
+    7151.6.21 = {
+		holder = lineofwaghanghu46 #Mo_o_rghu
+	}
 }			
 c_dunlogan = {
 	5142.1.1 = { #Gwaithurim settlers trickle in
@@ -2721,6 +2736,18 @@ c_dunlogan = {
 	7012.1.1={			
 		holder =  lineofwaghanghu16 # Zîghi
 	}
+	7058.1.1 = {
+        holder = lineofwaghanghu36 #Ru_u_be_e_r
+    }
+    7079.7.15 = {
+        holder = lineofwaghanghu38 #Dru_u_nu
+    }
+    7118.5.27 = {
+        holder = lineofwaghanghu42 #Bra_a_mbu
+    }
+    7151.6.21 = {
+		holder = lineofwaghanghu46 #Mo_o_rghu
+	}
 }
 c_an_khorgan = {
 	5271.12.5 = {
@@ -2781,7 +2808,22 @@ c_an_khorgan = {
 	}			
 	7012.1.1={			
 		holder =  lineofwaghanghu15 # Pôn		
-	}			
+	}
+	7038.1.1={			
+		holder =  lineofwaghanghu16 # Zi_i_ghi		
+	}
+	7058.1.1 = {
+        holder = lineofwaghanghu36 #Ru_u_be_e_r
+    }
+    7079.7.15 = {
+        holder = lineofwaghanghu38 #Dru_u_nu
+    }
+    7118.5.27 = {
+        holder = lineofwaghanghu42 #Bra_a_mbu
+    }
+    7151.6.21 = {
+		holder = lineofwaghanghu46 #Mo_o_rghu
+	}
 }			
 c_byrig = {	
 	5244.9.18 = {
@@ -2835,7 +2877,22 @@ c_byrig = {
     }
     7008.6.21 = {
         holder = fillerbyrig3 #Valandur
-    }		
+    }
+	7038.1.1={			
+		holder =  lineofwaghanghu16 # Zi_i_ghi		
+	}
+	7058.1.1 = {
+        holder = lineofwaghanghu36 #Ru_u_be_e_r
+    }
+    7079.7.15 = {
+        holder = lineofwaghanghu38 #Dru_u_nu
+    }
+    7118.5.27 = {
+        holder = lineofwaghanghu42 #Bra_a_mbu
+    }
+    7151.6.21 = {
+		holder = lineofwaghanghu46 #Mo_o_rghu
+	}
 }
 
 ## Duchy of Drûlad

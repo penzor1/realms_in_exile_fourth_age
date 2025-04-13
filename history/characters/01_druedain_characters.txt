@@ -241,3 +241,292 @@ lineofaghangu38 = {
         death = { death_reason = death_natural_causes }
     }
 }
+
+# Line of Waghanghu
+
+lineofwaghanghu36 = {
+    name = Ru_u_be_e_r
+
+    dynasty = dynasty_waghanghu
+    religion = faith_druedain
+    culture = druedain
+
+    sexuality = heterosexual
+
+    father = lineofwaghanghu16
+    mother = lineofwaghanghu21
+
+    7032.1.19 = {
+        birth = yes
+    }
+
+    7057.11.6 = {
+        add_spouse = lineofwaghanghu37
+    }
+
+    7079.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofwaghanghu37 = {
+    name = O_O_gi
+    female = yes
+
+    religion = faith_druedain
+    culture = druedain
+
+    sexuality = heterosexual
+
+    7040.1.9 = {
+        birth = yes
+    }
+
+    7091.5.23 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofwaghanghu38 = {
+    name = Dru_u_nu
+
+    dynasty = dynasty_waghanghu
+    religion = faith_druedain
+    culture = druedain
+
+    father = lineofwaghanghu36
+    mother = lineofwaghanghu37
+
+    sexuality = asexual
+
+    7062.9.2 = {
+        birth = yes
+    }
+
+    7087.6.3 = {
+        add_spouse = lineofwaghanghu39
+    }
+
+    7118.5.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofwaghanghu39 = {
+    name = De_e_rdri
+    female = yes
+
+    religion = faith_druedain
+    culture = druedain
+
+    sexuality = heterosexual
+
+    7065.1.4 = {
+        birth = yes
+    }
+
+    7114.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofwaghanghu40 = {
+    name = Dru_u_na
+    female = yes
+
+    religion = faith_druedain
+    culture = druedain
+
+    father = lineofwaghanghu38
+    mother = lineofwaghanghu39
+
+    sexuality = heterosexual
+
+    7094.10.28 = {
+        birth = yes
+    }
+
+    7145.12.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofwaghanghu41 = {
+    name = Awa_a_b
+    female = yes
+
+    religion = faith_druedain
+    culture = druedain
+
+    father = lineofwaghanghu38
+    mother = lineofwaghanghu39
+
+    sexuality = heterosexual
+
+    7099.12.17 = {
+        birth = yes
+    }
+
+    7144.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofwaghanghu42 = {
+    name = Bra_a_mbu
+
+    dynasty = dynasty_waghanghu
+    religion = faith_druedain
+    culture = druedain
+
+    father = lineofwaghanghu38
+    mother = lineofwaghanghu39
+
+    sexuality = heterosexual
+
+    7101.5.9 = {
+        birth = yes
+    }
+
+    7121.7.10 = {
+        add_spouse = lineofwaghanghu43
+    }
+
+    7151.6.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofwaghanghu43 = {
+    name = Gri_i_ga
+    female = yes
+
+    religion = faith_druedain
+    culture = druedain
+
+    sexuality = heterosexual
+
+    7104.5.16 = {
+        birth = yes
+    }
+
+    7160.11.6 = {
+        death = { death_reason = death_typhus }
+    }
+}
+
+lineofwaghanghu44 = {
+    name = Wa_a_
+    female = yes
+
+    religion = faith_druedain
+    culture = druedain
+
+    father = lineofwaghanghu42
+    mother = lineofwaghanghu43
+
+    sexuality = bisexual
+
+    7129.4.27 = {
+        birth = yes
+    }
+
+    7177.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofwaghanghu45 = {
+    name = Sari_i_gha
+    female = yes
+
+    religion = faith_druedain
+    culture = druedain
+
+    father = lineofwaghanghu42
+    mother = lineofwaghanghu43
+
+    sexuality = heterosexual
+
+    7135.10.9 = {
+        birth = yes
+    }
+
+    7190.10.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofwaghanghu46 = {
+    name = Mo_o_rghu
+
+    dynasty = dynasty_waghanghu
+    religion = faith_druedain
+    culture = druedain
+
+    father = lineofwaghanghu42
+    mother = lineofwaghanghu43
+
+    sexuality = heterosexual
+
+    7140.11.28 = {
+        birth = yes
+    }
+
+    7161.11.15 = {
+        add_spouse = lineofwaghanghu47
+    }
+
+    7171.1.1 = {							
+		effect = {				
+			make_tributary = {
+					TYPE = tributary_protectorate
+					SUZERAIN = character:lineisildur43
+					TRIBUTARY = character:lineofwaghanghu46
+			}		
+		}				
+	}
+
+    7193.8.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofwaghanghu47 = {
+    name = Gri_i_
+    female = yes
+
+    religion = faith_druedain
+    culture = druedain
+
+    sexuality = heterosexual
+
+    7140.1.22 = {
+        birth = yes
+    }
+
+    7189.4.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofwaghanghu48 = {
+    name = Ru_u_ghi
+
+    dynasty = dynasty_waghanghu
+    religion = faith_druedain
+    culture = druedain
+
+    father = lineofwaghanghu46
+    mother = lineofwaghanghu47
+
+    sexuality = heterosexual
+
+    7165.10.25 = {
+        birth = yes
+    }
+
+    7218.4.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
