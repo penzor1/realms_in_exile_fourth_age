@@ -1,9 +1,0 @@
-﻿########################################
-################ GONDOR ################
-########################################
-
-house_herumori = {
-	name = "dynn_herumori"
-	dynasty = dynasty_elendil
-	motto = dynn_herumori_motto
-}
