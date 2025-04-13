@@ -129,6 +129,8 @@ linesteward48 = {
 	father = linesteward43 # Elboron
 	mother = linelamedon38 # Itarildú
 	female = yes
+
+    dna = dineth_dna
 	
 	trait = patient
 	trait = calm
