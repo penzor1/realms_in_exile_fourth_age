@@ -2,7 +2,7 @@
 # History database id:lineofdurin108
 bookmark_fa_05_dain={
 	type=male
-	id=34254
+	id=34425
 	random_seed=233367542
 	age=0.372553
 	genes={ 		hair_color={ 223 109 250 20 }
@@ -97,8 +97,8 @@ bookmark_fa_05_dain={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_7" 126 "complexion_5" 252 }
  		gene_height={ "normal_height" 60 "normal_height" 73 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 113 "body_fat_head_fat_medium" 158 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 131 "body_shape_rectangle_half" 234 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 107 "body_fat_head_fat_medium" 158 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 121 "body_shape_rectangle_half" 234 }
  		gene_bs_bust={ "bust_clothes" 88 "bust_clothes" 84 }
  		gene_age={ "old_3" 23 "old_1" 1 }
  		gene_eyebrows_shape={ "avg_spacing_high_thickness" 244 "far_spacing_high_thickness" 149 }
@@ -125,16 +125,11 @@ bookmark_fa_05_dain={
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "northmen_low_clothes" 224 "" 0 }
- 		headgear={ "dwarf_low_headgear" 171 "no_headgear" 0 }
+ 		clothes={ "dwarf_war_steel" 183 "" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 3267808479 3267808479 }
+	entity={ 616600735 616600735 }
 	tags={ {
-			hash=1989892411
-			invert=no
-		}
- {
 			hash=2125534279
 			invert=no
 		}
@@ -151,7 +146,7 @@ bookmark_fa_05_dain={
 			invert=no
 		}
  {
-			hash=3672171019
+			hash=1563190100
 			invert=no
 		}
  }

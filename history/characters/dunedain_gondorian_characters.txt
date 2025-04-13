@@ -11206,7 +11206,7 @@ linesteward40 = { # Faramir, Prince of Ithilien
         add_spouse = lineofeofor18 #Éowyn
         remove_trait = cannot_marry
     }
-	7126.4.13 = {
+	7136.4.13 = {
 		death = { death_reason = death_natural_causes }
 	}
 }	
@@ -11318,8 +11318,8 @@ linesteward43 = {
 			}
         }
     }
-	7091.1.1 = {
-		add_spouse = linesteward43wife
+	7081.1.1 = {
+		add_spouse = linelamedon38
 	}
 	7142.1.1 = { #FO90
 		death = { death_reason = death_natural_causes }
@@ -17131,7 +17131,7 @@ linelamedon38 = {
 
 
 	trait = blood_of_numenor_2
-	7027.1.1 = {
+	7057.1.1 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin

@@ -2,7 +2,7 @@
 # History database id:lineofgoblinking4
 bookmark_fa_04_unglob={
 	type=male
-	id=34461
+	id=34716
 	random_seed=3822034051
 	age=0.350909
 	genes={ 		hair_color={ 81 238 0 252 }
@@ -92,13 +92,13 @@ bookmark_fa_04_unglob={
  		face_detail_nose_tip_def={ "nose_tip_def" 121 "nose_tip_def" 191 }
  		face_detail_temple_def={ "temple_def" 158 "temple_def" 255 }
  		expression_brow_wrinkles={ "brow_wrinkles_02" 25 "brow_wrinkles_04" 178 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 59 "eye_wrinkles_02" 173 }
- 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 43 "forehead_wrinkles_01" 182 }
- 		expression_other={ "cheek_wrinkles_both_01" 190 "cheek_wrinkles_both_01" 0 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 109 "eye_wrinkles_02" 173 }
+ 		expression_forehead_wrinkles={ "forehead_wrinkles_01" 76 "forehead_wrinkles_01" 182 }
+ 		expression_other={ "cheek_wrinkles_both_01" 228 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_no_face" 255 "complexion_no_face" 255 }
  		gene_height={ "normal_height" 95 "normal_height" 31 }
  		gene_bs_body_type={ "body_fat_head_fat_full" 255 "body_fat_head_fat_low" 20 }
- 		gene_bs_body_shape={ "body_shape_rectangle_full" 114 "body_shape_rectangle_half" 240 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_full" 84 "body_shape_rectangle_half" 240 }
  		gene_bs_bust={ "bust_clothes" 58 "bust_clothes" 50 }
  		gene_age={ "old_4" 211 "old_4" 11 }
  		gene_eyebrows_shape={ "no_eyebrows" 0 "far_spacing_lower_thickness" 175 }
@@ -117,8 +117,7 @@ bookmark_fa_04_unglob={
  		eyelashes_accessory={ "no_eyelashes" 255 "no_eyelashes" 255 }
  		race_head_accessory={ "uruk" 255 "uruk" 255 }
  		race_body_accessory={ "uruk" 255 "uruk" 255 }
- 		gene_hunchbacked={ "hunchbacked" 4 "hunchbacked" 0 }
- 		beards={ "isengard_urukhai_beards_curly" 214 "no_beard" 0 }
+ 		gene_hunchbacked={ "hunchbacked" 3 "hunchbacked" 0 }
  		cloaks={ "no_cloak" 108 "no_cloak" 0 }
  		hairstyles={ "no_hairstyles" 15 "all_hairstyles" 0 }
  		special_clothing_accessory={ "male_uruk_berserker_legwear" 11 "male_uruk_berserker_legwear" 0 }
@@ -129,7 +128,7 @@ bookmark_fa_04_unglob={
  		clothes={ "goblin_clothes" 126 "" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 616600735 616600735 }
+	entity={ 1903276529 1903276529 }
 	tags={ {
 			hash=1367985987
 			invert=no

@@ -2,7 +2,7 @@
 # History database id:lineofyagmuz2
 bookmark_fa_04_shagdush={
 	type=male
-	id=34413
+	id=34495
 	random_seed=75475945
 	age=0.840000
 	genes={ 		hair_color={ 5 216 0 255 }
@@ -97,7 +97,7 @@ bookmark_fa_04_shagdush={
  		expression_other={ "cheek_wrinkles_both_01" 227 "cheek_wrinkles_both_01" 227 }
  		complexion={ "complexion_no_face" 255 "complexion_no_face" 255 }
  		gene_height={ "giant_height" 249 "giant_height" 249 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 162 "body_fat_head_fat_full" 192 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 137 "body_fat_head_fat_full" 192 }
  		gene_bs_body_shape={ "body_shape_hourglass_full" 255 "body_shape_hourglass_full" 251 }
  		gene_bs_bust={ "bust_clothes" 52 "bust_default" 164 }
  		gene_age={ "old_1" 68 "old_1" 68 }

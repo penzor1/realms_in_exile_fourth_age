@@ -2,7 +2,7 @@
 # History database id:lineofdwalinVII
 bookmark_fa_02_dwalinVII={
 	type=male
-	id=34604
+	id=34969
 	random_seed=622760464
 	age=0.265882
 	genes={ 		hair_color={ 4 207 221 12 }
@@ -97,8 +97,8 @@ bookmark_fa_02_dwalinVII={
  		expression_other={ "cheek_wrinkles_both_01" 33 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_5" 86 "complexion_5" 86 }
  		gene_height={ "normal_height" 43 "normal_height" 43 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 135 "body_fat_head_fat_medium" 124 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 207 "body_shape_triangle_half" 143 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 124 "body_fat_head_fat_medium" 124 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 143 "body_shape_triangle_half" 143 }
  		gene_bs_bust={ "bust_clothes" 73 "bust_clothes" 92 }
  		gene_age={ "old_2" 39 "old_2" 39 }
  		gene_eyebrows_shape={ "close_spacing_high_thickness" 235 "close_spacing_high_thickness" 235 }

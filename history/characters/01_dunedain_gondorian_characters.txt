@@ -5,24 +5,6 @@
 
 ## Children of faramir and eowyn ##
 #fiction
-linesteward43wife = {
-	name = Almariel
-	religion = faith_edain
-	culture = gondorian
-	female = yes
-	
-	trait = blood_of_numenor_2
-	
-	7068.1.1 = {
-		birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
-	}
-	7145.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
 
 linesteward44wife = {
 	name = Rodwen
@@ -74,7 +56,7 @@ linesteward46 = {
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward43 # Elboron
-	mother = linesteward43wife # Almariel
+	mother = linelamedon38 # Almariel
 	
 	trait = diligent
 	trait = greedy
@@ -86,7 +68,7 @@ linesteward46 = {
 	trait = intellect_good_1
 	trait = blood_of_numenor_2
 
-	7095.1.1 = { #FO43
+	7085.1.1 = { #FO43
 		birth = yes
 		give_nickname = nick_the_golden
 		effect = {
@@ -120,7 +102,7 @@ linesteward46wife = {
 	trait = intellect_good_1
 	trait = blood_of_numenor_2
 
-	7099.1.1 = {
+	7089.1.1 = {
 		birth = yes
         effect = {
 			learn_language = language_sindarin
@@ -137,12 +119,12 @@ linesteward47 = { # Duke of Forithilien
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward43 # Elboron
-	mother = linesteward43wife # Almariel
+	mother = linelamedon38 # Almariel
 	
 	trait = education_stewardship_4
 	trait = blood_of_numenor_2
 
-	7099.3.10 = {
+	7089.3.10 = {
 		birth = yes
         effect = {
 			learn_language = language_sindarin
@@ -162,7 +144,7 @@ linesteward47wife = {
 	culture = harondorim
 	female = yes
 	
-	7109.11.2 = {
+	7099.11.2 = {
 		birth = yes
         effect = {
 			learn_language = language_sindarin
@@ -174,25 +156,41 @@ linesteward47wife = {
 }
 
 linesteward48 = {
-	name = Elariel
+	name = Dineth # Queen of RK
 	dynasty_house = house_gondorstewards
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward43 # Elboron
-	mother = linesteward43wife # Almariel
+	mother = linelamedon38 # Almariel
 	female = yes
 	
-	trait = beauty_good_1
-	trait = education_intrigue_3
+	trait = patient
+	trait = calm
+	trait = compassionate
+	trait = shrewd
+	
+	trait = education_diplomacy_3
+	trait = lifestyle_reveler
+	
+	trait = beauty_good_3
 	trait = blood_of_numenor_2
-
-	7100.1.1 = { #FO48
+	
+	7099.1.1 = { #FO42
 		birth = yes
-        effect = {
-			learn_language = language_sindarin
+		give_nickname = nick_the_queen_of_hearts
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
 		}
 	}
-	7188.1.1 = { #FO136
+	7119.1.1 = { #FO65
+		effect = {
+			learn_language = language_sindarin
+			learn_language = language_rohirric
+		}
+	}
+	7201.1.1 = { #FO149
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -203,7 +201,7 @@ linesteward49 = {
 	religion = faith_edain
 	culture = gondorian
 	father = linesteward43 # Elboron
-	mother = linesteward43wife # Almariel
+	mother = linelamedon38 # Almariel
 	female = yes
 	
 	trait = education_learning_3
@@ -259,7 +257,7 @@ linesteward53 = {
 ## Children of Denethor II and Rodwen ##
 #fiction
 linesteward51 = {
-	name = Nessanie # Queen of RK
+    name = Elariel
 	dynasty_house = house_gondorstewards
 	religion = faith_edain
 	culture = gondorian
@@ -267,33 +265,17 @@ linesteward51 = {
 	mother = linesteward44wife # Rodwen
 	female = yes
 	
-	trait = fickle
-	trait = calm
-	trait = compassionate
-	trait = shrewd
-	
+	trait = beauty_good_1
 	trait = education_intrigue_3
-	trait = lifestyle_reveler
-	
-	trait = beauty_good_3
 	trait = blood_of_numenor_2
-	
-	7094.1.1 = { #FO42
+
+	7100.1.1 = { #FO48
 		birth = yes
-		give_nickname = nick_the_queen_of_hearts
-		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
-		}
-	}
-	7119.1.1 = { #FO65
-		effect = {
+        effect = {
 			learn_language = language_sindarin
-			learn_language = language_rohirric
 		}
 	}
-	7201.1.1 = { #FO149
+	7188.1.1 = { #FO136
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -2996,262 +2978,65 @@ lineheledir37 = {
     }
 }
 
-# Line of Romatar
+# Line of Romatar dies out at Pelennor Fields
 
-lineromatar30wife = {
-	name = Beruthiel
-    female = yes
-	dynasty = dynasty_morthond_vale
-	religion = faith_edain
-	culture = orodbedhrim
+# Line of An Andhen
 
-	trait = blood_of_numenor_1
-
-	6992.3.6={
-		birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}			
-	}
-	7090.6.8={
-		death = yes					
-	}
-}	
-
-lineromatar49 = {
-    name = Umbardacil
-
-    dynasty = dynasty_morthond_vale
-    religion = faith_edain
-    culture = orodbedhrim
-
-    sexuality = heterosexual
-
-    father = lineromatar30
-    mother = lineromatar30wife
-
-    trait = blood_of_numenor_1
-
-    7040.7.11 = {
-        birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7091.9.4 = {
-        add_spouse = lineromatar50
-    }
-
-    7115.10.15 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineromatar50 = {
-    name = Eliane
+lineofulmondur75sister = {
+    name = Serinde
     female = yes
 
+    dynasty = dynasty_an_andhen
     religion = faith_edain
     culture = orodbedhrim
 
-    sexuality = heterosexual
+    father = lineofulmondur73
+    mother = lineofulmondur74
 
-    trait = blood_of_numenor_1
-
-    7074.12.27 = {
+    7099.3.11 = {
         birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
     }
 
-    7183.11.16 = {
+    7200.10.10 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-lineromatar51 = {
-    name = Orodreth
+lineofulmondur75a1 = {
+    name = Berelach
 
-    dynasty = dynasty_morthond_vale
+    dynasty = dynasty_an_andhen
     religion = faith_edain
     culture = orodbedhrim
 
-    father = lineromatar49
-    mother = lineromatar50
+    father = lineofulmondur75
+    mother = lineofulmondur76
 
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7098.8.7 = {
+    7132.4.20 = {
         birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
     }
 
-    7132.2.23 = {
-        add_spouse = lineromatar52
-    }
-
-    7188.1.21 = {
+    7242.11.8 = {
         death = { death_reason = death_natural_causes }
     }
 }
 
-lineromatar52 = {
-    name = Gilraen
-    female = yes
+lineofulmondur75a2 = {
+    name = Maeglin
 
+    dynasty = dynasty_an_andhen
     religion = faith_edain
     culture = orodbedhrim
 
-    sexuality = heterosexual
+    father = lineofulmondur75
+    mother = lineofulmondur76
 
-    trait = blood_of_numenor_1
-
-    7099.8.9 = {
+    7141.3.17 = {
         birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
     }
 
-    7183.6.28 = {
+    7239.11.7 = {
         death = { death_reason = death_natural_causes }
-    }
-}
-
-lineromatar53 = {
-    name = Galador
-
-    dynasty = dynasty_morthond_vale
-    religion = faith_edain
-    culture = orodbedhrim
-
-    father = lineromatar51
-    mother = lineromatar52
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7132.5.20 = {
-        birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7182.7.3 = {
-        add_spouse = lineromatar54
-    }
-
-    7215.1.18 = {
-        death = { death_reason = death_great_pox }
-    }
-}
-
-lineromatar54 = {
-    name = Sirioniel
-    female = yes
-
-    religion = faith_edain
-    culture = orodbedhrim
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7131.12.20 = {
-        birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7204.11.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineromatar55 = {
-    name = Thorondor
-
-    dynasty = dynasty_morthond_vale
-    religion = faith_edain
-    culture = orodbedhrim
-
-    father = lineromatar51
-    mother = lineromatar52
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7138.2.24 = {
-        effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7172.7.14 = {
-        add_spouse = lineromatar56
-    }
-
-    7210.4.16 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineromatar56 = {
-    name = Aranwinga
-    female = yes
-
-    religion = faith_edain
-    culture = orodbedhrim
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7136.9.18 = {
-        birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7219.1.2 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineromatar57 = {
-    name = Elnith
-    female = yes
-
-    religion = faith_edain
-    culture = orodbedhrim
-
-    father = lineromatar51
-    mother = lineromatar52
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7144.9.18 = {
-        birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7232.12.4 = {
-        death = { death_reason = death_typhus }
     }
 }
 

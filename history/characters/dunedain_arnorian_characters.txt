@@ -1862,10 +1862,10 @@ lineisildur43 = {
 		}	
 	}
 	7119.1.1 = {
-		add_spouse = linesteward51 #Nessanie
+		add_spouse = linesteward48 #Dineth
 		effect = {
 			set_relation_lover = {
-				target = character:linesteward51
+				target = character:linesteward48
 			}
 		}
 	}

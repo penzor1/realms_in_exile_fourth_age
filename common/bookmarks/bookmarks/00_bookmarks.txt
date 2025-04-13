@@ -126,9 +126,9 @@ bm_120_fourth_age_01 = {
 		history_id = lineisildur43
 		position = { 900 600 }
 		animation = schadenfreude
-		# Elendil, Heir of RK
+		# Elendur, Heir of RK
 		character = {
-			name = "bookmark_fa_01_elendil"
+			name = "bookmark_fa_01_elendur"
 			relation = "BOOKMARK_RELATION_SON"
 			dynasty_house = house_telcontar
 			type = male
@@ -138,9 +138,9 @@ bm_120_fourth_age_01 = {
 			culture = dunedain
 			history_id = lineisildur47
 		}
-		# Nessanie, Queen of RK
+		# Dineth, Queen of RK
 		character = {
-			name = "bookmark_fa_01_nessanie"
+			name = "bookmark_fa_01_dineth"
 			relation = "BOOKMARK_RELATION_WIFE"
 			dynasty_house = house_gondorstewards
 			type = female
@@ -148,7 +148,7 @@ bm_120_fourth_age_01 = {
 			government = feudal_government
 			religion = faith_edain
 			culture = gondorian
-			history_id = linesteward51
+			history_id = linesteward48
 		}
 	}
 	
@@ -226,9 +226,9 @@ bm_120_fourth_age_01 = {
 			culture = gondorian
 			history_id = linesteward53
 		}
-		# Nessanie, Queen of RK
+		# Dineth, Queen of RK
 		character = {
-			name = "bookmark_fa_01_nessanie"
+			name = "bookmark_fa_01_dineth"
 			relation = "BOOKMARK_RELATION_COUSIN"
 			dynasty_house = house_gondorstewards
 			type = female
@@ -236,7 +236,7 @@ bm_120_fourth_age_01 = {
 			government = feudal_government
 			religion = faith_edain
 			culture = gondorian
-			history_id = linesteward51
+			history_id = linesteward48
 		}
 	}
 	# add pelargir

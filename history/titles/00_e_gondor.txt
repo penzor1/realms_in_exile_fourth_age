@@ -251,20 +251,17 @@ k_anorien = { # Province of Anórien
 	6083.1.1 = {
 		de_jure_liege = e_gondor_steward
 	}
-	7052.5.1 = { # Prince of Anórien
-		holder = linebenrodirfinal
+	7052.5.1 = {
+		holder = lineisildur42 # Elessar
 		liege = e_reunitedkingdom
 		de_jure_liege = e_reunitedkingdom
 	}
-	7104.2.3 = {
-        holder = linebenrodir90 #Malvegil
-    }
-    7164.3.22 = {
-        holder = linebenrodir93 #Valandur
-    }
-    7197.8.23 = {
-        holder = linebenrodir95 #Baragond
-    }
+	7173.3.2 = {
+		holder = lineisildur47 # Elendur
+	}
+	7275.1.2 = {
+		holder = lineisildur50 # Esthel
+	}
 }
 
 ## Duchy of Minas Tirith ##			
@@ -466,7 +463,7 @@ d_minas_tirith = { # Minas Tirith (Minas Anor)
 		holder = lineisildur43 # Eldarion
 	}
 	7273.1.1 = {
-		holder = lineisildur47 # Elendil
+		holder = lineisildur47 # Elendur
 	}
 	7273.1.2 = {
 		holder = lineisildur50 # Esthel
@@ -668,7 +665,7 @@ c_minas_tirith = { #County of Minas Tirith
 		holder = lineisildur43 # Eldarion
 	}
 	7273.1.1 = {
-		holder = lineisildur47 # Elendil
+		holder = lineisildur47 # Elendur
 	}
 	7273.1.2 = {
 		holder = lineisildur50 # Esthel
@@ -760,7 +757,7 @@ b_pelannor = { #Pelennor
 		holder = lineisildur43 # Eldarion
 	}
 	7273.1.1 = {
-		holder = lineisildur47 # Elendil
+		holder = lineisildur47 # Elendur
 	}
 	7273.1.2 = {
 		holder = lineisildur50 # Esthel
@@ -956,7 +953,7 @@ c_osgiliath = { #Osgiliath
 		holder = lineisildur43 # Eldarion
 	}
 	7273.1.1 = {
-		holder = lineisildur47 # Elendil
+		holder = lineisildur47 # Elendur
 	}
 	7273.1.2 = {
 		holder = lineisildur50 # Esthel
@@ -1152,7 +1149,7 @@ c_malridh = { # Malridh
 		holder = lineisildur43 # Eldarion
 	}
 	7275.1.1 = {
-		holder = lineisildur47 # Elendil
+		holder = lineisildur47 # Elendur
 	}
 	7275.1.2 = {
 		holder = lineisildur50 # Esthel
@@ -1237,7 +1234,7 @@ c_aranelaith = { #Arenelaith
 	}
     7134.1.1 = {
         holder = lineyrchdaugnir16 #Aerennel
-        liege = e_reunitedkingdom
+        liege = d_doranorien
 		de_jure_liege = e_reunitedkingdom
     }
     7174.6.5 = {
@@ -1323,15 +1320,12 @@ c_herenyand = { #Herenyand
 	}
     7134.1.1 = {
         holder = lineyrchdaugnir16 #Aerennel
-        liege = e_reunitedkingdom
+        liege = d_doranorien
 		de_jure_liege = e_reunitedkingdom
     }
-    7174.6.5 = {
-        holder = lineyrchdaugnir18 #Alcarnir
-    }
-    7189.3.27 = {
-        holder = lineyrchdaugnir20 #Salmandil
-    }
+	7173.3.2 = {
+		holder = lineisildur47 # Elendur
+	}
 }	
 
 ## Duchy of Entyn-i-Onodlo ##		
@@ -8537,17 +8531,16 @@ d_morthond_vale = { # Morthond Vale
 	7044.1.1 = {		
 			holder = lineromatar30 # Duinhir
 	}
-	7040.7.11 = {
-        holder = lineromatar49 #Umbardacil
-		
+	7052.3.15 = { # Line of Romatar dies out at Pelennor Fields
+        holder = lineofulmondur73 #Marach
     }
-    7115.10.15 = {
-        holder = lineromatar51 #Orodreth
+    7129.3.3 = {
+        holder = lineofulmondur75 #Mallor
 		liege = k_lamedon
 		de_jure_liege = e_reunitedkingdom
-    }
-    7188.1.21 = {
-        holder = lineromatar53 #Galador
+    }	
+	7209.7.1 = {
+        holder = lineofulmondur75a1 #Berelach
     }
 
 }		
@@ -8644,17 +8637,16 @@ c_morthond = { #Morthond
 	7044.1.1 = {		
 			holder = lineromatar30 # Duinhir
 	}
-	7040.7.11 = {
-        holder = lineromatar49 #Umbardacil
-		
+	7052.3.15 = { # Line of Romatar dies out at Pelennor Fields
+        holder = lineofulmondur73 #Marach
     }
-    7115.10.15 = {
-        holder = lineromatar51 #Orodreth
-		liege = e_reunitedkingdom
+    7129.3.3 = {
+        holder = lineofulmondur75 #Mallor
+		liege = d_morthond_vale
 		de_jure_liege = e_reunitedkingdom
-    }
-    7188.1.21 = {
-        holder = lineromatar53 #Galador
+    }	
+	7209.7.1 = {
+        holder = lineofulmondur75a1 #Berelach
     }
 }	
 c_erech = { #Erech	
@@ -8750,17 +8742,16 @@ c_erech = { #Erech
 	7044.1.1 = {		
 			holder = lineromatar30 # Duinhir
 	}
-	7040.7.11 = {
-        holder = lineromatar49 #Umbardacil
-		
+	7052.3.15 = { # Line of Romatar dies out at Pelennor Fields
+        holder = lineofulmondur73 #Marach
     }
-    7115.10.15 = {
-        holder = lineromatar51 #Orodreth
-		liege = e_reunitedkingdom
+    7129.3.3 = {
+        holder = lineofulmondur75 #Mallor
+		liege = d_morthond_vale
 		de_jure_liege = e_reunitedkingdom
-    }
-    7188.1.21 = {
-        holder = lineromatar53 #Galador
+    }	
+	7209.7.1 = {
+        holder = lineofulmondur75a1 #Berelach
     }
 }			
 c_emyn_morthond = { # Emyn Morthond
@@ -8882,6 +8873,9 @@ c_emyn_morthond = { # Emyn Morthond
         holder = lineofulmondur75 #Mallor
 		liege = d_morthond_vale
 		de_jure_liege = e_reunitedkingdom
+    }	
+	7209.7.1 = {
+        holder = lineofulmondur75a1 #Berelach
     }	
 }	
 c_rendul = { #Rendûl
@@ -12573,7 +12567,7 @@ c_winion = { #Winion
         holder = linecalionath30 #Veandur
     }
 }	
-c_tirfalas = { #Tirfalas
+c_tirfalas = { #TirfalasEled
 	5301.1.1 = {			
 		holder = linecalionancestor # Calion
 		change_development_level = 14
@@ -13777,6 +13771,7 @@ d_aegardh = { # Aegardh
 	7052.5.1 = {
 		liege = e_reunitedkingdom
         de_jure_liege = e_reunitedkingdom
+		government = feudal_government
     }
     7071.3.19 = {
         holder = lineciryaloth3 #Salmandur

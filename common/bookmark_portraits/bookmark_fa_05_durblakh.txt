@@ -2,7 +2,7 @@
 # History database id:lineofoz1
 bookmark_fa_05_durblakh={
 	type=male
-	id=34379
+	id=34596
 	random_seed=955699234
 	age=0.383636
 	genes={ 		hair_color={ 81 255 81 255 }
@@ -97,8 +97,8 @@ bookmark_fa_05_durblakh={
  		expression_other={ "cheek_wrinkles_both_01" 243 "cheek_wrinkles_both_01" 243 }
  		complexion={ "complexion_no_face" 255 "complexion_no_face" 255 }
  		gene_height={ "normal_height" 92 "normal_height" 32 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 44 "body_fat_head_fat_low" 40 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 171 "body_shape_triangle_half" 23 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 62 "body_fat_head_fat_low" 40 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 83 "body_shape_triangle_half" 23 }
  		gene_bs_bust={ "bust_clothes" 61 "bust_shape_3_half" 122 }
  		gene_age={ "old_1" 222 "old_1" 222 }
  		gene_eyebrows_shape={ "no_eyebrows" 228 "avg_spacing_lower_thickness" 101 }
@@ -119,8 +119,7 @@ bookmark_fa_05_durblakh={
  		race_body_accessory={ "uruk" 255 "uruk" 255 }
  		gene_scaly={ "scaly" 255 "" 0 }
  		gene_hair_disease={ "hair_disease" 255 "hair_disease" 0 }
- 		gene_hunchbacked={ "hunchbacked" 2 "hunchbacked" 0 }
- 		beards={ "isengard_urukhai_beards_straight" 241 "no_beard" 0 }
+ 		gene_hunchbacked={ "hunchbacked" 3 "hunchbacked" 0 }
  		cloaks={ "no_cloak" 63 "no_cloak" 0 }
  		hairstyles={ "no_hairstyles" 104 "all_hairstyles" 0 }
  		special_clothing_accessory={ "male_uruk_berserker_legwear" 56 "male_uruk_berserker_legwear" 0 }

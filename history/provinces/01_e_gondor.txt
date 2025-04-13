@@ -4993,6 +4993,7 @@
 	7052.5.1 = { # RK retakes Harfalas
 		culture = harondorim
 		religion = faith_edain
+		holding = castle_holding
 	}
 }
 						

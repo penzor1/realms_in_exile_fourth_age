@@ -2,7 +2,7 @@
 # History database id:lineofazog17
 bookmark_fa_05_mazog={
 	type=male
-	id=33643
+	id=33699
 	random_seed=941654398
 	age=0.558182
 	genes={ 		hair_color={ 0 0 0 0 }
@@ -97,8 +97,8 @@ bookmark_fa_05_mazog={
  		expression_other={ "cheek_wrinkles_both_01" 232 "cheek_wrinkles_both_01" 184 }
  		complexion={ "complexion_no_face" 255 "complexion_no_face" 255 }
  		gene_height={ "normal_height" 134 "normal_height" 134 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 71 "body_fat_head_fat_medium" 59 }
- 		gene_bs_body_shape={ "body_shape_hourglass_half" 180 "body_shape_hourglass_half" 144 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 59 "body_fat_head_fat_medium" 59 }
+ 		gene_bs_body_shape={ "body_shape_hourglass_half" 160 "body_shape_hourglass_half" 144 }
  		gene_bs_bust={ "bust_clothes" 108 "bust_default" 170 }
  		gene_age={ "old_1" 40 "old_1" 40 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 118 "avg_spacing_lower_thickness" 118 }
@@ -118,7 +118,6 @@ bookmark_fa_05_mazog={
  		race_head_accessory={ "uruk" 255 "uruk" 255 }
  		race_body_accessory={ "uruk" 255 "uruk" 255 }
  		gene_hunchbacked={ "hunchbacked" 0 "hunchbacked" 0 }
- 		beards={ "all_beards" 79 "no_beard" 0 }
  		cloaks={ "mountain_orc_cloak" 6 "no_cloak" 0 }
  		hairstyles={ "all_hairstyles" 249 "all_hairstyles" 0 }
  		legwear={ "mountain_orc_legwear" 27 "all_legwear" 0 }
@@ -128,6 +127,7 @@ bookmark_fa_05_mazog={
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
  		clothes={ "mountain_orc_clothes" 191 "" 0 }
  		special_clothing_accessory={ "male_uruk_berserker_legwear" 28 "male_uruk_berserker_legwear" 0 }
+ 		beards={ "all_beards" 79 "no_beard" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 807438772 807438772 }

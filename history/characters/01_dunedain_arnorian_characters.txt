@@ -8,6 +8,8 @@ lineisildur44 = {
 	female = yes
 	father = lineisildur42 # Elessar
 	mother = linefinwe30 # Arwen
+
+	sexuality = heterosexual
 	
 	trait = compassionate
 	trait = shy
@@ -41,6 +43,8 @@ lineisildur45 = {
 	female = yes
 	father = lineisildur42 # Elessar
 	mother = linefinwe30 # Arwen
+
+	sexuality = heterosexual
 	
 	trait = eccentric
 	trait = calm
@@ -71,9 +75,11 @@ lineisildur46 = {
 	female = yes
 	father = lineisildur42 # Elessar
 	mother = linefinwe30 # Arwen
+
+	sexuality = heterosexual
 	
 	trait = compassionate
-	trait = lustful
+	trait = patient
 	trait = brave
 	
 	trait = education_stewardship_4
@@ -97,12 +103,18 @@ lineisildur46 = {
 #fiction
 ## Children of Eldarion and Nessanie ##
 lineisildur47 = {
-	name = Elendil #3rd king of the rk
+	name = Elendur #3rd king of the rk
 	dynasty_house = house_telcontar
 	religion = faith_edain
 	culture = gondorian
 	father = lineisildur43 # Eldarion
-	mother = linesteward51 # Nessanie
+	mother = linesteward48 # Dineth
+
+	sexuality = heterosexual
+
+	trait = content
+	trait = just
+	trait = compassionate
 	
 	trait = education_diplomacy_4
 	
@@ -113,7 +125,7 @@ lineisildur47 = {
 	7120.1.1 = { # Fourth Age 66
 		birth = yes
 		effect = {
-			add_character_flag = is_elendil
+			add_character_flag = is_elendur
 			add_character_flag = ai_immune_to_mental_breaks
 			learn_language = language_westron
 		}
@@ -129,7 +141,13 @@ lineisildur48 = {
 	religion = faith_edain
 	culture = gondorian
 	father = lineisildur43 # Eldarion
-	mother = linesteward51 # Nessanie
+	mother = linesteward48 # Dineth
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = brave
+	trait = just
 	
 	trait = education_martial_4
 	trait = lifestyle_blademaster
@@ -170,13 +188,15 @@ lineisildur49 = {
 	religion = faith_edain
 	culture = gondorian
 	father = lineisildur43 # Eldarion
-	mother = linesteward51 # Nessanie
+	mother = linesteward48 # Dineth
+
+	sexuality = heterosexual
 	
 	trait = brave
 	trait = temperate
 	trait = calm
 	
-	trait = education_learning_3
+	trait = education_learning_4
 	
 	trait = intellect_good_2
 	trait = blood_of_numenor_6
@@ -210,6 +230,8 @@ lineisildur49 = {
 			learn_language = language_quenya
 			learn_language = language_westron_orc
 			learn_language = language_black_speech
+			remove_trait = calm
+			add_trait = cynical
 		}
 	}
 	7354.1.1 = { # Fourth Age 300
@@ -217,14 +239,16 @@ lineisildur49 = {
 	}
 }
 
-## Children of Elendil and ? ##
+## Children of Elendur and ? ##
 lineisildur50 = {
 	name = Esthel # 4th High King of the RK
 	dynasty_house = house_telcontar
 	religion = faith_edain
 	culture = gondorian
-	father = lineisildur47 # Elendil
+	father = lineisildur47 # Elendur
 	#mother = #princess of rhovanion
+
+	sexuality = heterosexual
 	
 	trait = education_stewardship_3
 	
@@ -237,9 +261,6 @@ lineisildur50 = {
 		effect = {
 			learn_language = language_westron
 		}
-	}
-	7200.1.1 = {
-		#add_spouse = 
 	}
 	7364.1.1 = { # Fourth Age 311
 		death = { death_reason = death_natural_causes }
@@ -254,20 +275,19 @@ lineisildur51 = {
 	culture = arnorian
 	father = lineisildur48 # Anarion
 	#mother = #princess of tharbad
+
+	sexuality = heterosexual
 	
 	trait = education_martial_3
 	
 	trait = physique_good_2
 	trait = blood_of_numenor_5
 	
-	7158.1.1 = { # Fourth Age 104
+	7167.5.4 = { # Fourth Age 104
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
-	}
-	7200.1.1 = {
-		#add_spouse = 
 	}
 	7372.1.1 = { # Fourth Age 319
 		death = { death_reason = death_natural_causes }
@@ -282,13 +302,15 @@ lineisildur52 = {
 	female = yes
 	father = lineisildur48 # Anarion
 	#mother = #princess of tharbad
+
+	sexuality = heterosexual
 	
 	trait = education_intrigue_3
 	
 	trait = beauty_good_3
 	trait = blood_of_numenor_5
 	
-	7162.1.1 = { # Fourth Age 108
+	7169.3.2 = { # Fourth Age 108
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
@@ -307,6 +329,8 @@ lineisildur53 = {
 	female = yes
 	father = lineisildur48 # Anarion
 	#mother = #princess of tharbad
+
+	sexuality = heterosexual
 	
 	trait = education_learning_2
 	
@@ -314,7 +338,7 @@ lineisildur53 = {
 	trait = beauty_good_1
 	trait = blood_of_numenor_5
 	
-	7163.1.1 = { # Fourth Age 109
+	7170.12.12 = { # Fourth Age 109
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
@@ -332,20 +356,19 @@ lineisildur54 = {
 	culture = arnorian
 	father = lineisildur48 # Anarion
 	#mother = #princess of tharbad
+
+	sexuality = heterosexual
 	
 	trait = education_diplomacy_4
 	
 	trait = intellect_good_2
 	trait = blood_of_numenor_5
 	
-	7164.1.1 = { # Fourth Age 110
+	7172.3.12 = { # Fourth Age 110
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
 		}
-	}
-	7200.1.1 = {
-		#add_spouse = 
 	}
 	7361.1.1 = { # Fourth Age 308
 		death = { death_reason = death_natural_causes }
