@@ -4318,7 +4318,7 @@ d_pelargir = { # Pelargir
 	6988.1.1 = {
 		holder = lebennin18 # Eärnil 
 	}
-	7064.1.1 = {
+	7013.1.1 = {
 		holder = lebennin20 # Estelmo
 	}
     7110.1.1 = {

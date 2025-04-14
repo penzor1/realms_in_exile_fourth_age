@@ -4071,15 +4071,6 @@ c_rafinfalas = {
     7028.2.21 = {
         holder = line_tonredin31 #Gere
     }
-    7059.6.17 = {
-        holder = line_tonredin35 #Garnok
-    }
-	7068.5.14 = {
-        holder = line_tonredin33 #Ermorn
-    }
-	7106.5.22 = {
-        holder = line_tonredin34 #Eri_i_rbarn
-    }
 	7052.5.1 = {
         holder = lineeaudur14 #Hallas
 		liege = k_andrast
