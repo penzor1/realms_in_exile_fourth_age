@@ -10025,3 +10025,24 @@ lineoflauremacil81 = {
     }
 }
 
+# Line of Ulrad
+
+lineofulrad79a1 = {
+    name = Elentir 
+
+    dynasty = dynasty_an_morthond
+    religion = faith_edain
+    culture = belfalathrim
+
+    father = lineofulrad79
+    mother = lineofulrad780
+
+	trait = blood_of_numenor_1
+    7136.6.22 = {
+        birth = yes
+    }
+
+    7242.11.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
