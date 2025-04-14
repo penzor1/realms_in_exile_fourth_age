@@ -2973,9 +2973,86 @@ lineheledir37 = {
     }
 }
 
-# Line of Romatar dies out at Pelennor Fields
+# Male Line of Romatar dies out at Pelennor Fields
+
+lineromatar38 = {
+	name = Gilwen 
+	dynasty = dynasty_morthond_vale
+	religion = faith_edain
+	culture = orodbedhrim
+
+	female = yes
+
+	father = lineromatar35
+	mother = lineromatar36
+
+	trait = blood_of_numenor_1
+	7022.5.14={
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}			
+	}
+	7033.1.1 = {
+		employer = lineromatar29
+	}
+	7132.5.3={
+		death = { death_reason = death_natural_causes }
+	}
+}	
+
+lineromatar39 = {
+	name = Sirioniel 
+	dynasty = dynasty_morthond_vale
+	religion = faith_edain
+	culture = orodbedhrim
+
+	female = yes
+
+	father = lineromatar35
+	mother = lineromatar36
+
+	trait = blood_of_numenor_1
+	7024.9.17={
+		birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}			
+	}
+	7033.1.1 = {
+		employer = lineromatar29
+	}
+	7121.11.3={
+		death = { death_reason = death_natural_causes }
+	}
+}
 
 # Line of An Andhen
+
+lineofulmondur73 = {
+    name = Marach 
+
+    dynasty = dynasty_an_andhen
+    religion = faith_edain
+    culture = orodbedhrim
+
+    father = lineofulmondur71
+    mother = lineofulmondur72
+
+    
+
+    7016.2.11 = {
+        birth = yes
+    }
+
+    7057.7.16 = {
+        add_spouse = lineromatar38
+    }
+
+    7129.3.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
 
 lineofulmondur75sister = {
     name = Serinde
