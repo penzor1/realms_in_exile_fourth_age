@@ -3551,18 +3551,15 @@ k_andrast = {
 		liege = 0				
 	}			
 	7052.5.1 = {
-        holder = lineeaudur14 #Hallas
+		holder = lineohtarion9 #Handir
 		liege = e_reunitedkingdom
 		de_jure_liege = e_reunitedkingdom
     }
-	7105.1.7 = {
-        holder = lineeaudur15 #Hostamir
+    7101.9.14 = {
+        holder = lineohtarion11 #Olurin
     }
-    7127.5.10 = {
-        holder = lineeaudur17 #Falmandur
-    }
-    7188.11.14 = {
-        holder = lineeaudur19 #Nolimon
+    7170.7.13 = {
+        holder = lineohtarion13 #Manwendil
     }
 }			
 
