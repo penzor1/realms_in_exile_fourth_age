@@ -1,5 +1,1 @@
-﻿house_an_morthil = {
-	name = "dynn_an_morthil" 
-	dynasty = dynasty_anfalas
-	motto = "dynn_an_morthil_motto" 
-}
+﻿

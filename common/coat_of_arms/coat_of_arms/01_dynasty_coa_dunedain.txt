@@ -1,4 +1,4 @@
-﻿house_an_morthil={ # Made by Alrain, full credit
+﻿dynasty_an_morthil={ # Made by Alrain, full credit
     pattern="pattern_numenorean_base_02.dds"
     color1=white
     color2=rgb { 42 80 116 }
@@ -8,12 +8,12 @@
         texture="ce_edain_sun_rays_01.dds"
         instance={
             scale={ 0.925000 0.925000 }
-            depth=4.010000
+            depth=6.010000
         }
 
         instance={
             scale={ 0.925000 -0.925000 }
-            depth=5.010000
+            depth=7.010000
         }
 
     }
@@ -30,12 +30,27 @@
     }
 
     colored_emblem={
-        color1=rgb { 10 29 47 }
+        color1=rgb { 42 80 116 }
         color2=rgb { 42 80 116 }
-        texture="ce_cc_river_04.dds"
+        texture="cc_d_nannthorod_e_c.dds"
         instance={
-            scale={ 0.950000 0.950000 }
+            position={ 0.500000 0.425000 }
             depth=2.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 10 29 47 }
+        texture="cc_d_nannthorod_e_c.dds"
+        instance={
+            position={ 0.500000 0.450000 }
+            depth=3.010000
+        }
+
+        instance={
+            position={ 0.500000 0.465000 }
+            depth=4.010000
         }
 
     }
@@ -43,10 +58,10 @@
     colored_emblem={
         color1=white
         color2=white
-        texture="ce_cc_fort_05.dds"
+        texture="ce_lighthouse_00.dds"
         instance={
             scale={ 0.425000 0.425000 }
-            depth=3.010000
+            depth=5.010000
         }
 
     }

@@ -1,7 +1,5 @@
 ﻿l_english:
 
- ### GONDOR
- dynn_an_morthil:0 "An Morthil"
  ### DAEN
  dynn_mananach:0 "Mananach"
  dynn_devin:0 "Devin"
@@ -26,6 +24,7 @@
  dynn_herumori:0 "Herumori"
  dynn_anarioni:0 "Anárioni"
  dynn_ciryaloth:0 "Ciryaloth"
+ dynn_an_morthil:0 "An Morthil"
  ### ORC
  dynn_mazog:0 "Mazog"
  dynn_bolgakh:0 "Bolgakh"

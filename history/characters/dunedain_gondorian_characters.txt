@@ -18630,50 +18630,6 @@ lineeaudur13 = {
     }
 }
 
-lineeaudur14 = { # starts house of An Enedh
-    name = Hallas
-
-    dynasty_house = house_an_ulond
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineeaudur11
-    mother = lineeaudur12
-
-    
-	trait = physique_good_1
-
-    trait = patient
-	trait = gregarious
-	trait = wrathful
-	trait = education_martial_2
-	
-	trait = blood_of_numenor_1
-
-	7009.11.18 = {
-        birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}
-    }
-	7031.1.1 = {
-		employer = lineanfalas20
-		add_pressed_claim = title:c_ulond
-		effect = {
-			set_relation_rival = character:lineeruholion11
-			set_relation_friend = { reason = friend_generic_history target = character:lineanfalas20 }
-        }
-	}
-    7040.1.1 = {
-        add_spouse = linepalantir10
-        dynasty_house = house_an_morthil
-    }
-
-    7105.1.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
 
 #####################################
 ##### The Lords of Pinnath Gelin ####

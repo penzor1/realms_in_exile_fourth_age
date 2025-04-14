@@ -13,3 +13,9 @@ dynasty_ciryaloth = {
 	culture = "gondorian"
 	motto = dynn_ciryaloth_motto
 }
+
+dynasty_an_morthil = {
+	name = "dynn_an_morthil" 
+	culture = gondorian
+	motto = dynn_an_morthil_motto 
+}

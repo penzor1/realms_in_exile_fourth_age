@@ -1,7 +1,5 @@
 ﻿l_english:
 
- ### GONDOR
- dynn_an_morthil_motto:0 "Governors of Days Not Forgotten"
  ### DAEN
  dynn_mananach_motto:0 "We Carry the Yoke"
  dynn_devin_motto:0 "The Birds in the Bush"
@@ -25,7 +23,8 @@
  ### NÚMENOR, GONDOR & ARNOR ###
  dynn_herumori_motto:0 "Power Grasped"
  dynn_anarioni_motto:0 "Glory Renewed"
- dynn_ciryaloth_motto:0 ""
+ dynn_ciryaloth_motto:0 "Light Unyielding, Even in Drought"
+ dynn_an_morthil_motto:0 "The Flame Yet Burns"
  ### ORC
  dynn_mazog_motto:0 "Vengeance will Come"
  dynn_bolgakh_motto:0 "Stones will be Splittered"

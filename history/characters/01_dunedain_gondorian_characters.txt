@@ -6138,19 +6138,173 @@ lineeredor25 = {
     }
 }
 
-# Line of An Ulond becomes House of An Morthil after reclaiming Ulond from the Andrake
+# Line of An Ulond after Hallas son of the Last Castellan dies from his wounds after slaying the Andrake and retaking Ulond
 
-lineeaudur15 = {
+lineeaudur14 = { # final member of House an Ulond
+    name = Hallas
+
+    dynasty_house = house_an_ulond
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineeaudur11
+    mother = lineeaudur12
+
+    
+	trait = physique_good_1
+
+    trait = patient
+	trait = gregarious
+	trait = wrathful
+	trait = education_martial_2
+	
+	trait = blood_of_numenor_1
+
+	7009.11.18 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+	7031.1.1 = {
+		employer = lineanfalas20
+		add_pressed_claim = title:c_ulond
+		effect = {
+			set_relation_rival = character:lineeruholion11
+			set_relation_friend = { reason = friend_generic_history target = character:lineanfalas20 }
+            set_relation_friend = { reason = friend_generic_history target = character:lineofmorthil1 }
+        }
+	}
+    7040.1.1 = {
+        add_spouse = linepalantir10
+    }
+
+    7045.1.1 = {
+        death = { death_reason = death_wounds }
+    }
+}
+
+# Line of An Morthil, new holders of Ulond and the Duchy of Ras Morthil following the battle with the Andrake
+
+lineofmorthil1father = {
+    name = Herendil
+    
+    religion = faith_edain
+    culture = gondorian
+
+	trait = physique_good_1
+	
+	trait = blood_of_numenor_1
+
+	6963.6.15 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    6998.11.5 = {
+        add_spouse = lineofmorthil1mother
+    }
+
+    7056.5.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmorthil1mother = {
+    name = Telerien
+    female = yes
+    
+    religion = faith_edain
+    culture = gondorian
+	
+	trait = blood_of_numenor_1
+
+	6952.9.20 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7045.8.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmorthil1 = { # Friend and battle companion of Hallas, Hallas grants Ulond to his friend with his last dying breath following the victory over the Andrake
+    name = Elentur
+    
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofmorthil1father
+    mother = lineofmorthil1mother
+
+    trait = brave
+	trait = honest
+	trait = wrathful
+
+	trait = education_martial_3
+	
+	trait = blood_of_numenor_1
+    trait = physique_good_3
+
+	7011.10.9 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+	7031.1.1 = {
+		employer = lineanfalas20
+		effect = {
+            set_relation_friend = { reason = friend_generic_history target = character:lineeaudur14 }
+        }
+	}
+    7045.1.1 = {
+        dynasty = dynasty_an_morthil
+        add_spouse = lineofmorthil1wife
+    }
+
+    7105.1.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmorthil1wife = {
+    name = Tarandis
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+	
+	trait = blood_of_numenor_1
+
+	7011.10.9 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7099.4.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmorthil2 = {
     name = Hostamir
 
-    dynasty_house = house_an_morthil
+    dynasty = dynasty_an_morthil
     religion = faith_edain
     culture = gondorian
 
     sexuality = heterosexual
 
-    father = lineeaudur14
-    mother = linepalantir10
+    father = lineofmorthil1
+    mother = lineofmorthil1wife
 
     trait = blood_of_numenor_1
 
@@ -6162,7 +6316,7 @@ lineeaudur15 = {
     }
 
     7082.1.12 = {
-        add_spouse = lineeaudur16
+        add_spouse = lineofmorthil3
     }
 
     7127.5.10 = {
@@ -6170,7 +6324,7 @@ lineeaudur15 = {
     }
 }
 
-lineeaudur16 = {
+lineofmorthil3 = {
     name = Finvain
     female = yes
 
@@ -6193,15 +6347,15 @@ lineeaudur16 = {
     }
 }
 
-lineeaudur17 = {
+lineofmorthil4 = {
     name = Falmandur
 
-    dynasty_house = house_an_morthil
+    dynasty = dynasty_an_morthil
     religion = faith_edain
     culture = gondorian
 
-    father = lineeaudur15
-    mother = lineeaudur16
+    father = lineofmorthil2
+    mother = lineofmorthil3
 
     sexuality = heterosexual
 
@@ -6215,7 +6369,7 @@ lineeaudur17 = {
     }
 
     7127.6.5 = {
-        add_spouse = lineeaudur18
+        add_spouse = lineofmorthil5
     }
 
     7188.11.14 = {
@@ -6223,7 +6377,33 @@ lineeaudur17 = {
     }
 }
 
-lineeaudur18 = {
+lineofmorthil4a = {
+    name = Farawen
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofmorthil2
+    mother = lineofmorthil3
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7096.5.6 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7191.10.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofmorthil5 = {
     name = Meneloth
     female = yes
 
@@ -6246,15 +6426,15 @@ lineeaudur18 = {
     }
 }
 
-lineeaudur19 = {
+lineofmorthil6 = {
     name = Nolimon
 
-    dynasty_house = house_an_morthil
+    dynasty = dynasty_an_morthil
     religion = faith_edain
     culture = gondorian
 
-    father = lineeaudur17
-    mother = lineeaudur18
+    father = lineofmorthil4
+    mother = lineofmorthil5
 
     sexuality = heterosexual
 
@@ -6268,7 +6448,7 @@ lineeaudur19 = {
     }
 
     7154.7.21 = {
-        add_spouse = lineeaudur20
+        add_spouse = lineofmorthil7
     }
 
     7221.9.17 = {
@@ -6276,7 +6456,7 @@ lineeaudur19 = {
     }
 }
 
-lineeaudur20 = {
+lineofmorthil7 = {
     name = Borwen
     female = yes
 
@@ -6299,21 +6479,21 @@ lineeaudur20 = {
     }
 }
 
-lineeaudur21 = {
+lineofmorthil8 = {
     name = Castaher
 
-    dynasty_house = house_an_morthil
+    dynasty = dynasty_an_morthil
     religion = faith_edain
     culture = gondorian
 
-    father = lineeaudur17
-    mother = lineeaudur18
+    father = lineofmorthil4
+    mother = lineofmorthil5
 
     sexuality = heterosexual
 
     trait = blood_of_numenor_1
 
-    7133.8.15 = {
+    7138.8.15 = {
         birth = yes
         effect = {
 			learn_language = language_sindarin
@@ -6321,109 +6501,10 @@ lineeaudur21 = {
     }
 
     7160.1.9 = {
-        add_spouse = lineeaudur22
+        add_spouse = lineofmorthil9
     }
 
     7235.2.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineeaudur22 = {
-    name = Adanel
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7132.7.7 = {
-        birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7213.10.1 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineeaudur23 = {
-    name = Findemir
-
-    dynasty_house = house_an_morthil
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineeaudur17
-    mother = lineeaudur18
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7136.2.14 = {
-        birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7176.1.26 = {
-        add_spouse = lineeaudur24
-    }
-
-    7216.8.1 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineeaudur24 = {
-    name = Nimrodel
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    sexuality = heterosexual
-
-    trait = blood_of_numenor_1
-
-    7136.3.5 = {
-        birth = yes
-    }
-
-    7231.2.14 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineeaudur25 = {
-    name = Farawen
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineeaudur15
-    mother = lineeaudur16
-
-    sexuality = bisexual
-
-    trait = blood_of_numenor_1
-
-    7096.5.6 = {
-        birth = yes
-        effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7191.10.24 = {
         death = { death_reason = death_natural_causes }
     }
 }
