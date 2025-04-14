@@ -6043,43 +6043,19 @@ lineeredor25 = {
     }
 }
 
-# Line of An Ulond (dies out)
-
-lineeaudur14wife = {
-    name = Eraniel
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-	
-	trait = blood_of_numenor_1
-
-	7011.4.21 = {
-        birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}
-    }
-	7050.1.1 = {
-        add_spouse = lineeaudur14
-    }
-
-    7105.1.7 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
+# Line of An Ulond becomes House of An Enedh
 
 lineeaudur15 = {
     name = Hostamir
 
-    dynasty_house = house_an_ulond
+    dynasty_house = house_an_morthil
     religion = faith_edain
     culture = gondorian
 
     sexuality = heterosexual
 
     father = lineeaudur14
-    mother = lineeaudur14wife
+    mother = linepalantir10
 
     trait = blood_of_numenor_1
 
@@ -6125,7 +6101,7 @@ lineeaudur16 = {
 lineeaudur17 = {
     name = Falmandur
 
-    dynasty_house = house_an_ulond
+    dynasty_house = house_an_morthil
     religion = faith_edain
     culture = gondorian
 
@@ -6178,7 +6154,7 @@ lineeaudur18 = {
 lineeaudur19 = {
     name = Nolimon
 
-    dynasty_house = house_an_ulond
+    dynasty_house = house_an_morthil
     religion = faith_edain
     culture = gondorian
 
@@ -6231,7 +6207,7 @@ lineeaudur20 = {
 lineeaudur21 = {
     name = Castaher
 
-    dynasty_house = house_an_ulond
+    dynasty_house = house_an_morthil
     religion = faith_edain
     culture = gondorian
 
@@ -6284,7 +6260,7 @@ lineeaudur22 = {
 lineeaudur23 = {
     name = Findemir
 
-    dynasty_house = house_an_ulond
+    dynasty_house = house_an_morthil
     religion = faith_edain
     culture = gondorian
 

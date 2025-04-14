@@ -18630,7 +18630,7 @@ lineeaudur13 = {
     }
 }
 
-lineeaudur14 = {
+lineeaudur14 = { # starts house of An Enedh
     name = Hallas
 
     dynasty_house = house_an_ulond
@@ -18664,6 +18664,10 @@ lineeaudur14 = {
 			set_relation_friend = { reason = friend_generic_history target = character:lineanfalas20 }
         }
 	}
+    7040.1.1 = {
+        add_spouse = linepalantir10
+    }
+
     7105.1.7 = {
         death = { death_reason = death_natural_causes }
     }

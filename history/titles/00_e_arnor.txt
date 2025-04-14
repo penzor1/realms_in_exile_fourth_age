@@ -46,10 +46,10 @@ e_arnor = {
 		}
 	}
 	7173.3.2 = {
-		holder = lineisildur47 # Elendur
+		holder = lineisildur43 # Eldarion
 	}
 	7275.1.2 = {
-		holder = lineisildur50 # Esthel
+		holder = lineisildur47 # Elendur
 	}
 }	
 
