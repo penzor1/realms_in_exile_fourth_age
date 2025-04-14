@@ -6043,7 +6043,7 @@ lineeredor25 = {
     }
 }
 
-# Line of An Ulond
+# Line of An Ulond (dies out)
 
 lineeaudur14wife = {
     name = Eraniel
@@ -10046,3 +10046,242 @@ lineofulrad79a1 = {
         death = { death_reason = death_natural_causes }
     }
 }
+
+# Line of Hardang
+
+linehardang89 = {
+    name = Eargon
+
+    dynasty = dynasty_hardion
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    father = linehardang69
+    mother = linehardang70
+
+    trait = blood_of_numenor_1
+
+    7085.4.7 = {
+        birth = yes
+    }
+
+    7112.2.5 = {
+        add_spouse = linehardang90
+    }
+
+    7187.6.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linehardang90 = {
+    name = Feiniel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7095.2.9 = {
+        birth = yes
+    }
+
+    7198.2.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linehardang91 = {
+    name = Nariel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = linehardang89
+    mother = linehardang90
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7126.10.15 = {
+        birth = yes
+    }
+
+    7231.10.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linehardang92 = {
+    name = Telemnar
+
+    dynasty = dynasty_hardion
+    religion = faith_edain
+    culture = gondorian
+
+    father = linehardang89
+    mother = linehardang90
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7137.10.24 = {
+        birth = yes
+    }
+
+    7172.8.8 = {
+        add_spouse = linehardang93
+    }
+
+    7239.5.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+linehardang93 = {
+    name = Miryaiel
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7136.9.3 = {
+        birth = yes
+    }
+
+    7220.6.9 = {
+        death = { death_reason = death_consumption }
+    }
+}
+
+# Line of Tiliondil
+
+lineoftiliondil119 = {
+    name = Annael
+
+    dynasty = dynasty_tiliondilionath
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    father = lineoftiliondil69
+    mother = lineoftiliondil70
+
+    trait = blood_of_numenor_1
+
+    7057.7.3 = {
+        birth = yes
+    }
+
+    7095.7.15 = {
+        add_spouse = lineoftiliondil120
+    }
+
+    7150.6.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoftiliondil120 = {
+    name = Iricie
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7078.4.10 = {
+        birth = yes
+    }
+
+    7177.10.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoftiliondil121 = {
+    name = Luindis
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoftiliondil119
+    mother = lineoftiliondil120
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7108.3.1 = {
+        birth = yes
+    }
+
+    7201.10.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoftiliondil122 = {
+    name = Tarcil
+
+    dynasty = dynasty_tiliondilionath
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineoftiliondil119
+    mother = lineoftiliondil120
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7117.11.25 = {
+        birth = yes
+    }
+
+    7178.4.26 = {
+        add_spouse = lineoftiliondil123
+    }
+
+    7219.9.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineoftiliondil123 = {
+    name = Almarian
+    female = yes
+
+    religion = faith_edain
+    culture = gondorian
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_1
+
+    7114.6.3 = {
+        birth = yes
+    }
+
+    7214.10.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+

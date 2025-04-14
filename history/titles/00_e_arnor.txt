@@ -37,10 +37,19 @@ e_arnor = {
 	}
 	# Add Kings of Arthedain? - Argeleb I de-facto re-establishes the Kingdom
 	7052.5.1 = { #TA 3019 # Reconstruction of Annuminas
+		holder = lineisildur42 # Elessar
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
 		effect = {
 			set_capital_county = title:c_annuminas
 			set_title_name = cn_arnor_eriador
 		}
+	}
+	7173.3.2 = {
+		holder = lineisildur47 # Elendur
+	}
+	7275.1.2 = {
+		holder = lineisildur50 # Esthel
 	}
 }	
 
