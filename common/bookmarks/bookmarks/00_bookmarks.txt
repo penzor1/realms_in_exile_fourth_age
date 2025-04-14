@@ -212,7 +212,7 @@ bm_120_fourth_age_01 = {
 		culture = gondorian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = linesteward46
-		position = { 1200 800 }
+		position = { 1025 800 }
 		animation = personality_honorable
 		# Barahir, Heir of Ithilien
 		character = {

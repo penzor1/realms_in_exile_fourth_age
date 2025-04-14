@@ -1,54 +1,62 @@
-﻿house_an_morthil={ # Full credit to Xanadu-King from RiE Discord
-    pattern="pattern__solid_designer.dds"
-    color1=black
-    color2=white
-    color3=blue
+﻿house_an_morthil={ # Made by Alrain, full credit
+    pattern="pattern_numenorean_base_02.dds"
+    color1=white
+    color2=rgb { 42 80 116 }
+    color3=rgb { 10 29 47 }
     colored_emblem={
-        color1=yellow
-        texture="ce_edain_sunray.dds"
+        color1=white
+        texture="ce_edain_sun_rays_01.dds"
         instance={
-            depth=3.010000
+            scale={ 0.925000 0.925000 }
+            depth=4.010000
+        }
+
+        instance={
+            scale={ 0.925000 -0.925000 }
+            depth=5.010000
         }
 
     }
 
     colored_emblem={
-        color1=white
-        color2=black
-        texture="cc_d_nornin_e.dds"
+        color1=rgb { 42 80 116 }
+        color2=white
+        texture="cc_d_annulefnui_e_b.dds"
         instance={
-            scale={ 0.710000 0.710000 }
+            scale={ 0.625000 0.625000 }
             depth=1.010000
         }
 
     }
 
     colored_emblem={
-        color1=white
-        color2=black
-        texture="cc_d_parth_i_certemar_e.dds"
+        color1=rgb { 10 29 47 }
+        color2=rgb { 42 80 116 }
+        texture="ce_cc_river_04.dds"
         instance={
-            scale={ 0.390000 0.390000 }
-        }
-
-    }
-
-    colored_emblem={
-        color1=white
-        color2=roman_red
-        texture="ce_havens_of_numenor.dds"
-        instance={
-            depth=4.010000
-        }
-
-    }
-
-    colored_emblem={
-        color1=roman_gold
-        color2=black
-        texture="cc_c_gonbarod_e_a.dds"
-        instance={
+            scale={ 0.950000 0.950000 }
             depth=2.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=white
+        color2=white
+        texture="ce_cc_fort_05.dds"
+        instance={
+            scale={ 0.425000 0.425000 }
+            depth=3.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 42 80 116 }
+        color2=white
+        texture="ce_frame_circle_broa.dds"
+        instance={
+            scale={ 0.850000 0.850000 }
         }
 
     }
