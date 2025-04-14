@@ -18666,6 +18666,7 @@ lineeaudur14 = { # starts house of An Enedh
 	}
     7040.1.1 = {
         add_spouse = linepalantir10
+        dynasty_house = house_an_morthil
     }
 
     7105.1.7 = {

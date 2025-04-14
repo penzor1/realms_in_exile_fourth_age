@@ -3832,8 +3832,8 @@ lineeruholion11 = {	# Corsair count of Úlond in Andrast
         }
     }
 	
-	7037.1.1 = {
-		death = { death_reason = death_battle }
+	7045.1.1 = {
+		death = {  death_reason = death_battle killer = lineeaudur14 }
 	}
 }
 

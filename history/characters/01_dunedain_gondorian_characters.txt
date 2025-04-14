@@ -6043,7 +6043,7 @@ lineeredor25 = {
     }
 }
 
-# Line of An Ulond becomes House of An Enedh
+# Line of An Ulond becomes House of An Morthilaw
 
 lineeaudur15 = {
     name = Hostamir

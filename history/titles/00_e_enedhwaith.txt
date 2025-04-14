@@ -3980,8 +3980,11 @@ c_ulond = {
 		holder = lineeruholion11	#corsair count in andrast
 		government = feudal_government	
 	}
-	7052.5.1 = {
-        holder = lineeaudur14 #Hallas
+	7045.1.1 = { # The Heir to Ulond creates an alliance with house an Palantir through marriage to reclaim Ulond, starting the An Morthil dynasty house.	
+	holder = lineeaudur14 #Hallas
+	government = feudal_government
+	}
+	7052.5.1 = {   
 		liege = k_andrast
 		de_jure_liege = e_reunitedkingdom
     }
