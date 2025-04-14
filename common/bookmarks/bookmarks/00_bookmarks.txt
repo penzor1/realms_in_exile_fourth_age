@@ -94,7 +94,7 @@ bm_120_fourth_age_01 = {
 		culture = rohirrim
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofeofor20
-		position = { 400 600 }
+		position = { 750 400 }
 		animation = personality_honorable
 		# Éobrand, Prince of Rohan
 		character = {
@@ -124,7 +124,7 @@ bm_120_fourth_age_01 = {
 		culture = dunedain
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineisildur43
-		position = { 900 600 }
+		position = { 600 675 }
 		animation = schadenfreude
 		# Elendur, Heir of RK
 		character = {
@@ -165,7 +165,7 @@ bm_120_fourth_age_01 = {
 		culture = lasgalendrim
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoforopher6
-		position = { 800 800 }
+		position = { 1050 550 }
 		animation = personality_rational
 		# Eldarion, King of RK
 		character = {
