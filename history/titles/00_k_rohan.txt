@@ -4624,11 +4624,11 @@ c_northundeep = {
 	}
 	7018.9.2 = {
 		holder = linemorcargas6
-        liege = d_thewold
 	}
 	#fiction
     7041.2.1 = { # Morcar
 		holder = linemorcargas7
+        liege = d_thewold
 	}
     7087.1.12 = {
 		holder = linemorcargas17 #Wiglaf
