@@ -32155,8 +32155,8 @@ lineromatar37 = {
 	7033.1.1 = {
 		employer = lineromatar29
 	}
-	7091.1.1={
-		death = { death_reason = death_natural_causes }
+	7052.3.15={
+		death = { death_reason = death_battle }
 	}
 }	
 
@@ -32204,7 +32204,7 @@ lineromatar39 = {
 
 
 	trait = blood_of_numenor_1
-	7002.1.1={
+	7022.1.1={
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
@@ -32213,7 +32213,7 @@ lineromatar39 = {
 	7033.1.1 = {
 		employer = lineromatar29
 	}
-	7110.1.1={
+	7132.5.2={
 		death = { death_reason = death_natural_causes }
 	}
 }	
@@ -94568,7 +94568,7 @@ lineofulmondur73 = {
     }
 
     7057.7.16 = {
-        add_spouse = lineofulmondur74
+        add_spouse = lineromatar38
     }
 
     7129.3.3 = {
@@ -94576,23 +94576,23 @@ lineofulmondur73 = {
     }
 }
 
-lineofulmondur74 = {
-    name = Calwen 
-    female = yes
-
-    religion = faith_edain
-    culture = orodbedhrim
-
-    
-
-    7040.10.16 = {
-        birth = yes
-    }
-
-    7155.12.5 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
+#lineofulmondur74 = {
+#    name = Calwen 
+#    female = yes
+#
+#    religion = faith_edain
+#    culture = orodbedhrim
+#
+#    
+#
+#    7040.10.16 = {
+#        birth = yes
+#    }
+#
+#    7155.12.5 = {
+#        death = { death_reason = death_natural_causes }
+#    }
+#}
 
 lineofulmondur75 = {
     name = Mallor 
@@ -94602,7 +94602,7 @@ lineofulmondur75 = {
     culture = orodbedhrim
 
     father = lineofulmondur73
-    mother = lineofulmondur74
+    mother = lineromatar38
 
     
 

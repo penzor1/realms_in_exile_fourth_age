@@ -2986,7 +2986,7 @@ lineofulmondur75sister = {
     culture = orodbedhrim
 
     father = lineofulmondur73
-    mother = lineofulmondur74
+    mother = lineromatar38
 
     7099.3.11 = {
         birth = yes
@@ -10016,6 +10016,9 @@ lineofulrad79a1 = {
 	trait = blood_of_numenor_1
     7136.6.22 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7242.11.21 = {
@@ -10041,6 +10044,9 @@ linehardang89 = {
 
     7085.4.7 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7112.2.5 = {
@@ -10065,6 +10071,9 @@ linehardang90 = {
 
     7095.2.9 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7198.2.1 = {
@@ -10088,6 +10097,9 @@ linehardang91 = {
 
     7126.10.15 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7231.10.2 = {
@@ -10111,6 +10123,9 @@ linehardang92 = {
 
     7137.10.24 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7172.8.8 = {
@@ -10135,6 +10150,9 @@ linehardang93 = {
 
     7136.9.3 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7220.6.9 = {
@@ -10160,6 +10178,9 @@ lineoftiliondil119 = {
 
     7057.7.3 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7095.7.15 = {
@@ -10184,6 +10205,9 @@ lineoftiliondil120 = {
 
     7078.4.10 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7177.10.12 = {
@@ -10207,6 +10231,9 @@ lineoftiliondil121 = {
 
     7108.3.1 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7201.10.16 = {
@@ -10230,6 +10257,9 @@ lineoftiliondil122 = {
 
     7117.11.25 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7178.4.26 = {
@@ -10254,6 +10284,9 @@ lineoftiliondil123 = {
 
     7114.6.3 = {
         birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
     }
 
     7214.10.9 = {
