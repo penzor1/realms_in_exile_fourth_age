@@ -1,0 +1,17 @@
+
+### ERIADOR COA - Mod Added ###
+k_arnor_regent = { # Arnor Regency
+	pattern="pattern_solid.tga"
+	color1=white
+	color2=pitch_black
+	colored_emblem={
+		color1=pitch_black
+		color2=pitch_black
+		color3=pitch_black
+		texture="ce_k_arnor_1.dds"
+		instance={
+			position={ 0.490000 0.500000 }
+		}
+
+	}
+}

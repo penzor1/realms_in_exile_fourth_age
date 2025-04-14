@@ -34,4 +34,6 @@ k_arnor_regent = {
 	de_jure_drift_disabled = yes
 	always_follows_primary_heir = yes
 	ignore_titularity_for_title_weighting = yes
+
+	ai_primary_priority = { add = @always_primary_score }
 }

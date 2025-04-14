@@ -18,3 +18,10 @@ d_ingors_expedition = {
 		liege = 0
 	}
 }
+
+k_arnor_regent = {
+	7174.3.2 = { 
+		holder = lineisildur48 # Anarion settles in the lands of Arnor
+		liege = e_reunitedkingdom
+	}
+}

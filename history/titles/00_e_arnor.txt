@@ -42,7 +42,6 @@ e_arnor = {
 		de_jure_liege = e_reunitedkingdom
 		effect = {
 			set_capital_county = title:c_annuminas
-			set_title_name = cn_arnor_eriador
 		}
 	}
 	7173.3.2 = {
@@ -7200,7 +7199,6 @@ k_arthedain = {
 		holder = lineisildur42
 		effect = {
 			set_capital_county = title:c_annuminas
-			set_title_name = cn_arthedain_arnor
 		}
 	}
 	7174.3.2 = { 

@@ -1,10 +1,6 @@
 ﻿l_english:
  cn_isengard_treegarth:0 "Treegarth"
  cn_isengard_treegarth_adj:0 "Treegarther"
- cn_arthedain_arnor:0 "Arnor"
- cn_arthedain_arnor_adj:0 "Arnorian"
- cn_arnor_eriador:0 "Eriador"
- cn_arnor_eriador_adj:0 "Eriadorim"
  cn_mordor_kharatdor:0 "Kharatdor"
  cn_mordor_kharatdor_adj:0 "Kharatdorim"
  cn_mordor_southlands:0 "Southlands"
@@ -14,6 +10,8 @@
  d_ithillond_adj: "Nisilmerim"
  d_ingors_expedition: "Ingór's Expedition"
  d_ingors_expedition_adj: "Ironfists"
+ k_arnor_regent: "Arnor"
+ k_arnor_regent_adj: "Arnorian"
  ### LAAMPS ### (Titular Arnor)
  d_laamp_rangers_of_mordor: "the Rangers of Mordor"
  d_laamp_rangers_of_mordor_adj: "Rangers"
