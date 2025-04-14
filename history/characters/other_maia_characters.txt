@@ -333,6 +333,15 @@ lineofradagast = { # Radagast the Brown
 		}
 		save_scope_as = radagast	
 	}
+	7054.9.29 = { # Galadriel sails west
+		effect = {
+			make_tributary = {
+					TYPE = tributary_protectorate
+					SUZERAIN = character:linefinwe29 # Elrohir
+					TRIBUTARY = character:lineofradagast # Radagast
+			}
+		}
+	}
 }
 
 					
