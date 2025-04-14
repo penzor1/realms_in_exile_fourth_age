@@ -3054,6 +3054,24 @@ lineofulmondur73 = {
     }
 }
 
+#lineofulmondur74 = {
+#    name = Calwen 
+#    female = yes
+#
+#    religion = faith_edain
+#    culture = orodbedhrim
+#
+#    
+#
+#    7040.10.16 = {
+#        birth = yes
+#    }
+#
+#    7155.12.5 = {
+#        death = { death_reason = death_natural_causes }
+#    }
+#}
+
 lineofulmondur75sister = {
     name = Serinde
     female = yes
