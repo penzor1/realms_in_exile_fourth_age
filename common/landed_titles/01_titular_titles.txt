@@ -26,3 +26,12 @@ d_ingors_expedition = {
 
 	ai_primary_priority = { add = @never_primary_score }
 }
+
+k_arnor_regent = {
+	color = { 30 110 140 }
+	capital = c_annuminas
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	ignore_titularity_for_title_weighting = yes
+}
