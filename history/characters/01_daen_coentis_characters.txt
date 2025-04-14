@@ -770,7 +770,7 @@ lineofban7 = {
 
     sexuality = heterosexual
 
-	father = lineofban5
+	father = lineofban4
 
 	trait = intellect_bad_1			
 

@@ -13572,7 +13572,7 @@ d_eredir = { # Eredir
 	6957.1.1 = { # Harondorim revolt and assassinate the king - the kingdom collapses
 		holder = 0
 	}
-	7020.11.16 = {
+	7078.1.1 = {
         holder = lineofban7 #Ku_u_klaz
     }
     7095.2.10 = {
@@ -13630,7 +13630,7 @@ c_eredir = { #Eredir
 	7051.1.1 = {
 		holder = lineofban4 # Lenked 
 	}
-	7020.11.16 = {
+	7078.1.1 = {
         holder = lineofban7 #Ku_u_klaz
     }
     7095.2.10 = {
@@ -13701,10 +13701,10 @@ c_hyarmen = { #Hyarmen
 		holder = lineofsalomonin3 # Afûlay	
 		liege = d_aegardh	
 	}
-	7050.1.1 = {
+	7051.1.1 = {
 		holder = lineofban4 # Lenked 
 	}
-	7020.11.16 = {
+	7078.1.1 = {
         holder = lineofban7 #Ku_u_klaz
     }
     7095.2.10 = {
@@ -13720,7 +13720,7 @@ c_hyarmen = { #Hyarmen
     }
 }	
 c_ered_eryn = { #Ered Eryn
-	6419.4.6 = { # Took over after the previous Chieften died.
+	6419.4.6 = { # Took over after the previous Chieftain died.
 		holder = lineofleigim # Ibhalen 
 	}
 	6462.4.19  = {
@@ -13775,7 +13775,7 @@ c_ered_eryn = { #Ered Eryn
 	7051.1.1 = {
 		holder = lineofban4 # Lenked 
 	}
-	7020.11.16 = {
+	7078.1.1 = {
         holder = lineofban7 #Ku_u_klaz
     }
     7095.2.10 = {
@@ -13791,7 +13791,7 @@ c_ered_eryn = { #Ered Eryn
     }
 }	
 c_dirnen = { #Dirnen
-	6419.4.6 = { # Took over after the previous Chieften died.
+	6419.4.6 = { # Took over after the previous Chieftain died.
 		holder = lineofleigim # Ibhalen 
 	}
 	6462.4.19  = {
@@ -13843,7 +13843,10 @@ c_dirnen = { #Dirnen
 	7015.1.1 = {			
 	holder = lineofsalomonin3 # Afûlay	
 	}
-	7020.11.16 = {
+	7050.1.1 = {
+        holder = lineofban4 #Lenked
+    }
+	7078.1.1 = {
         holder = lineofban7 #Ku_u_klaz
     }
     7095.2.10 = {
