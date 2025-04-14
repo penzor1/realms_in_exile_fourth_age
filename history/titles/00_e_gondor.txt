@@ -4319,6 +4319,9 @@ d_pelargir = { # Pelargir
 		holder = lebennin18 # Eärnil 
 	}
 	7013.1.1 = {
+		holder = lebennin19 # Ciryandur
+	}
+	7064.1.1 = {
 		holder = lebennin20 # Estelmo
 	}
     7110.1.1 = {
@@ -4331,7 +4334,7 @@ d_pelargir = { # Pelargir
     }
     7228.8.15 = {
         holder = lebennin36 #Meneldur
-    }		  		
+    }	  		
 }	
 c_pelargir = { #Pelargir
 	5340.1.1 = {
