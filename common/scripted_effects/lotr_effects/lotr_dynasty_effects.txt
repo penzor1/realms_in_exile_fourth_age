@@ -30,7 +30,8 @@ dune_sea_witch_covens = {
 princely_houses_of_dunedain = {
 	dynasty:dynasty_dol_amroth ?= { add_dynasty_modifier = princely_house_of_dol_amroth }
 	dynasty:dynasty_caladir ?= { add_dynasty_modifier = princely_house_of_cardolan }
-	dynasty:dynasty_ostomir ?= { 
+	### Added by Fourth Age
+	dynasty:dynasty_ostomir ?= {
 		if = { 
 			limit = { 
 				current_date >= 7052.5.1 
