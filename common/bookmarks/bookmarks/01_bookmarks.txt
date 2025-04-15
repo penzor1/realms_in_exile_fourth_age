@@ -1147,6 +1147,7 @@ bm_120_fourth_age_06 = {
 	# add lossoth
 	# add angmar orcs
 	# add framling
+	# add new rhovanion
 	# add orc tribe in harad
 	
 	# Goblin, dorwinion roofsleeper clan
@@ -1213,7 +1214,7 @@ bm_120_fourth_age_06 = {
 		culture = cave_troll
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineoftrollking1
-		position = { 750 250 }
+		position = { 750 200 }
 	}
 	
 	# Korg, the Scion
@@ -1229,7 +1230,7 @@ bm_120_fourth_age_06 = {
 		culture = kazgumhoth
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineukorg6
-		position = { 800 600 }
+		position = { 800 500 }
 		animation = personality_vengeful
 		# Ukorg, 
 		character = {
@@ -1272,7 +1273,7 @@ bm_120_fourth_age_06 = {
 		culture = burgulhai
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofrob2
-		position = { 1100 400 }
+		position = { 1100 600 }
 		animation = personality_dishonorable
 		# Zauglob, 
 		character = {
@@ -1289,7 +1290,7 @@ bm_120_fourth_age_06 = {
 		}
 	}
 	
-	# Herumor, the Old Shadow
+	# Mordu, the Old Shadow
 	character = {
 		name = "bookmark_fa_06_herumor"
 		dynasty = dynasty_herumori
