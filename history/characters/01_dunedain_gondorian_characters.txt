@@ -7707,6 +7707,10 @@ lineofchief28 = {
 		}
     }
 
+    7078.6.1 = {
+        culture = hyarmenedain
+    }
+
     7196.4.7 = {
         death = { death_reason = death_natural_causes }
     }

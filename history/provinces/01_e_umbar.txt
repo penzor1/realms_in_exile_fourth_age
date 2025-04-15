@@ -30,7 +30,12 @@
 	6930.1.1 = {
 		culture = umbarean
 		religion = faith_kings_men_castamir
-		}
+	}
+	###fiction
+    7078.6.1 = { # RK Conquest of Umbar
+		culture = hyarmenedain
+		religion = faith_edain
+	}
 }
 
 820 = {	 	#Azarobroth (b_azarobroth)
@@ -51,6 +56,11 @@
 			temple_02
 			scriptorium_04
 		}
+	}
+	###fiction
+    7078.6.1 = { # RK Conquest of Umbar
+		culture = hyarmenedain
+		religion = faith_edain
 	}
 }
 
@@ -73,6 +83,11 @@
 		culture = umbarean
 		religion = faith_kings_men_castamir
 	}
+	###fiction
+    7078.6.1 = { # RK Conquest of Umbar
+		culture = hyarmenedain
+		religion = faith_edain
+	}
 }
 
 2301 = {	#  (b_minasthalion)
@@ -94,6 +109,11 @@
 		culture = umbarean
 		religion = faith_kings_men_castamir
 	}
+	###fiction
+    7078.6.1 = { # RK Conquest of Umbar
+		culture = hyarmenedain
+		religion = faith_edain
+	}
 }
 822 = {	 	#Kharatêth (b_kharateth)
 	culture = old_umbarean
@@ -113,6 +133,11 @@
 	5600.1.1 = {
 		culture = umbarean
 		religion = faith_kings_men_castamir
+	}
+	###fiction
+    7078.6.1 = { # RK Conquest of Umbar
+		culture = hyarmenedain
+		religion = faith_edain
 	}
 }
 
@@ -282,6 +307,11 @@
 		culture = umbarean
 		religion = faith_kings_men_castamir
 	}
+	###fiction
+    7078.6.1 = { # RK Conquest of Umbar
+		culture = hyarmenedain
+		religion = faith_edain
+	}
 }
 
 818 = {		#Zabthân (b_zabthan)
@@ -293,12 +323,22 @@
 		common_tradeport_05
 		# guild_halls_04 
 	}
+	###fiction
+    7078.6.1 = { # RK Conquest of Umbar
+		culture = hyarmenedain
+		religion = faith_edain
+	}
 }
 
 1296 = {	#Zanazûl (b_zanazul)
 	culture = umbarean
 	religion = faith_kings_men_castamir
 	holding = none
+	###fiction
+    7078.6.1 = { # RK Conquest of Umbar
+		culture = hyarmenedain
+		religion = faith_edain
+	}
 }
 
 1299 = {	#Cirith Umbar (b_cirith_umbar)
@@ -312,6 +352,11 @@
 			castle_02
 			hill_forts_04
 		}
+	}
+	###fiction
+    7078.6.1 = { # RK Conquest of Umbar
+		culture = hyarmenedain
+		religion = faith_edain
 	}
 }
 
