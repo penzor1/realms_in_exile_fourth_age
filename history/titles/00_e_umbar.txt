@@ -519,6 +519,7 @@ k_umbar = {
 	}
 	7078.6.1 = {
 		holder = lineofchief28
+		liege = e_reunitedkingdom
 	}
 }
 
