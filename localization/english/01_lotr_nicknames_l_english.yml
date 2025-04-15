@@ -22,7 +22,7 @@
  nick_sharkey_saruman:0 "Sharkey"
  nick_sharkey_saruman_desc:0 "$nick_the_bandit_king_desc$"
  nick_the_old_shadow:0 "the Old Shadow"
- nick_the_old_shadow_desc:0 ""
+ nick_the_old_shadow_desc:0 "$DEFAULT_NICKNAME_DESC$"
  ### Generic Nicknames ###
  nick_troll_king:0 "Troll-King"
  nick_troll_king_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] proclaimed [CharYourHerHimself(CHARACTER)] 'Troll-King'. The denizens under [CharYourHerHis(CHARACTER)] rule obey — not out of loyalty, but because they remember what happened to the ones who did not."
