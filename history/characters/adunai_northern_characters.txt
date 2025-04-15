@@ -3787,50 +3787,6 @@ lineeruholion10 = {
 	}
 }
 
-lineeruholion12 = {	# his lil baby
-	name = Ondoher
-
-	dynasty_house = house_andrakari 
-	religion = faith_corsair
-	culture = gondorian
-
-	father = lineeruholion11
-	mother = lineeaudur13
-	
-    trait = brave
-	trait = twin
-	trait = physique_good_1
-
-	7032.1.1 = {
-		birth = yes
-	}
-	
-	7089.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineeruholion13 = {	# his lil baby 2
-	name = Arnube_e_n
-
-	dynasty_house = house_andrakari 
-	religion = faith_corsair
-	culture = gondorian
-
-	father = lineeruholion11
-	mother = lineeaudur13
-	
-	trait = twin
-
-	7032.1.1 = {
-		birth = yes
-	}
-	
-	7094.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
 ###################################
 ##### THE HOUSE OF THROTHDANAS ####
 ###################################

@@ -3981,7 +3981,7 @@ c_ulond = {
 		holder = lineeruholion11	#corsair count in andrast
 		government = feudal_government	
 	}
-	7045.1.1 = { # The last member of House an Ulond Hallas, son of Alquandur the last Castellan dies in the siege for Ulond after slaying the Andrake, the title goes his friend and battle companion of the new house An Morthil
+	7050.5.12 = { # The last member of House an Ulond Hallas, son of Alquandur the last Castellan dies from his battle wounds in Ulond after slaying the Andrake, the title goes his friend and battle companion of the new house An Morthil
 	holder = lineofmorthil1 # Elentur
 	government = feudal_government
 	}
