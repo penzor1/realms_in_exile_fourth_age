@@ -871,7 +871,7 @@
 	}			  
 	#canon
 	7052.5.1 = { # Cleansing of Ithil
-		holding = castle_holding
+		holding = none
 	}
 }	
 
@@ -893,7 +893,7 @@
 	}
 	#canon
 	7052.5.1 = { # Cleansing of Ithil
-		holding = castle_holding
+		holding = none
 	}
 }
 						
