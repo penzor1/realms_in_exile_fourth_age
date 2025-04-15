@@ -3,6 +3,7 @@
 	nick_sharkey = { is_prefix = yes }
 	nick_sharkey_saruman = { is_prefix = yes } # Saruman
 	nick_the_old_shadow = {}
+	nick_the_last_flame = {}
 
 	# Generic
 	nick_the_humongous = { is_bad = yes } # Golmog

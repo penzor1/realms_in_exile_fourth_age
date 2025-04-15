@@ -17,69 +17,71 @@
  # remember to add |U at the end to capitalize the start of a sentence!
  
  ### Special Nicknames ###
- nick_sharkey:0 "Sharkey"
- nick_sharkey_desc:0 "$nick_the_bandit_king_desc$"
- nick_sharkey_saruman:0 "Sharkey"
- nick_sharkey_saruman_desc:0 "$nick_the_bandit_king_desc$"
- nick_the_old_shadow:0 "the Old Shadow"
- nick_the_old_shadow_desc:0 "$DEFAULT_NICKNAME_DESC$"
+ nick_sharkey: "Sharkey"
+ nick_sharkey_desc: "$nick_the_bandit_king_desc$"
+ nick_sharkey_saruman: "Sharkey"
+ nick_sharkey_saruman_desc: "$nick_the_bandit_king_desc$"
+ nick_the_old_shadow: "the Old Shadow"
+ nick_the_old_shadow_desc: "$DEFAULT_NICKNAME_DESC$"
+ nick_the_last_flame: "the Last Flame"
+ nick_the_last_flame_desc: "After the Andrake usurped the Last Castellan's rule of Úlond, his son Hallas sought refuge at the court of Anfalas, biding his time and eventually securing a political marriage to rally forces against his foe. Upon returning, he reclaimed the territory by defeating the Andrake in a duel but succumbed to his wounds soon after, thus extinguishing the final ember of the An Úlond house."
  ### Generic Nicknames ###
- nick_troll_king:0 "Troll-King"
- nick_troll_king_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] proclaimed [CharYourHerHimself(CHARACTER)] 'Troll-King'. The denizens under [CharYourHerHis(CHARACTER)] rule obey — not out of loyalty, but because they remember what happened to the ones who did not."
- nick_the_wanderer:0 "the Wanderer"
- nick_the_wanderer_desc:0 "$DEFAULT_NICKNAME_DESC$"
- nick_the_humongous:0 "the Humongous"
- nick_the_humongous_desc:0 "Bloated in body and blessed in belly, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] said to feast in honour of [CharYourHerHis(CHARACTER)] god with every disgusting breath taken."
- nick_the_blubbering:0 "the Blubbering"
- nick_the_blubbering_desc:0 "They say the Great Fat One shaped [CHARACTER.GetShortUINameNoTooltipNoFormat|U] in his own corpulent image – and kept on shaping."
- nick_the_steadfast:0 "the Steadfast" # Alt Boromir son of Denethor
- nick_the_steadfast_desc:0 "$nick_the_stalwart_desc$"
- nick_the_golden:0 "the Golden" # Dior son of Elboron
- nick_the_golden_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] vast wealth due to this realm's strategic situation, and an equality imposing amount of finery."
- nick_the_king_of_hearts:0 "the Queen of Hearts"
- nick_the_king_of_hearts_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so beloved by [CharYourHerHis(CHARACTER)] subjects that they proclaimed [CharYouHerHim(CHARACTER)] '[CHARACTER.GetNicknameNoTooltip]'."
- nick_the_queen_of_hearts:0 "the Queen of Hearts" # Nessanie
- nick_the_queen_of_hearts_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so beloved by [CharYourHerHis(CHARACTER)] subjects that they proclaimed [CharYouHerHim(CHARACTER)] '[CHARACTER.GetNicknameNoTooltip]'."
- nick_the_spurned_orc:0 "the Spurned" # Mazog II
- nick_the_spurned_orc_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname after Bolgakh 'the Hammer' claimed Old Moria in battle through the death of Mazog 'the Exile', forcing [CharYouHerHim(CHARACTER)] to flee."
- nick_the_tormentor_orc:0 "the Tormentor"  # Hurog the Tormentor, son of Gorgol the Proud
- nick_the_tormentor_orc_desc:0 "Known even among [orcs|E] for [CharYourHerHis(CHARACTER)] vile cruelty, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname through acts of brutality that made lesser creatures flinch."
- nick_the_manipulator_orc:0 "the Manipulator" # Unassigned
- nick_the_manipulator_orc_desc:0 "Fueled by a relentless desire for control and wealth, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] excels in deceit, using others to further [CharYourHerHis(CHARACTER)] own interests."
+ nick_troll_king: "Troll-King"
+ nick_troll_king_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] proclaimed [CharYourHerHimself(CHARACTER)] 'Troll-King'. The denizens under [CharYourHerHis(CHARACTER)] rule obey — not out of loyalty, but because they remember what happened to the ones who did not."
+ nick_the_wanderer: "the Wanderer"
+ nick_the_wanderer_desc: "$DEFAULT_NICKNAME_DESC$"
+ nick_the_humongous: "the Humongous"
+ nick_the_humongous_desc: "Bloated in body and blessed in belly, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] said to feast in honour of [CharYourHerHis(CHARACTER)] god with every disgusting breath taken."
+ nick_the_blubbering: "the Blubbering"
+ nick_the_blubbering_desc: "They say the Great Fat One shaped [CHARACTER.GetShortUINameNoTooltipNoFormat|U] in his own corpulent image – and kept on shaping."
+ nick_the_steadfast: "the Steadfast" # Alt Boromir son of Denethor
+ nick_the_steadfast_desc: "$nick_the_stalwart_desc$"
+ nick_the_golden: "the Golden" # Dior son of Elboron
+ nick_the_golden_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] vast wealth due to this realm's strategic situation, and an equality imposing amount of finery."
+ nick_the_king_of_hearts: "the Queen of Hearts"
+ nick_the_king_of_hearts_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so beloved by [CharYourHerHis(CHARACTER)] subjects that they proclaimed [CharYouHerHim(CHARACTER)] '[CHARACTER.GetNicknameNoTooltip]'."
+ nick_the_queen_of_hearts: "the Queen of Hearts" # Nessanie
+ nick_the_queen_of_hearts_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] so beloved by [CharYourHerHis(CHARACTER)] subjects that they proclaimed [CharYouHerHim(CHARACTER)] '[CHARACTER.GetNicknameNoTooltip]'."
+ nick_the_spurned_orc: "the Spurned" # Mazog II
+ nick_the_spurned_orc_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname after Bolgakh 'the Hammer' claimed Old Moria in battle through the death of Mazog 'the Exile', forcing [CharYouHerHim(CHARACTER)] to flee."
+ nick_the_tormentor_orc: "the Tormentor"  # Hurog the Tormentor, son of Gorgol the Proud
+ nick_the_tormentor_orc_desc: "Known even among [orcs|E] for [CharYourHerHis(CHARACTER)] vile cruelty, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname through acts of brutality that made lesser creatures flinch."
+ nick_the_manipulator_orc: "the Manipulator" # Unassigned
+ nick_the_manipulator_orc_desc: "Fueled by a relentless desire for control and wealth, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] excels in deceit, using others to further [CharYourHerHis(CHARACTER)] own interests."
  ### Hobbit Nicknames ###
- nick_of_the_towers:0 "of the Towers" # Fairbairns
- nick_of_the_towers_desc:0 "The [CHARACTER.GetHouse.GetName]|U] house seat was at Undertowers on the Tower Hills, so that the family are often referred to as the 'Fairbairns of the Towers'."
- nick_luckwearer:0 "Luckwearer" # Bilbo Baggins
- nick_luckwearer_desc:0 "#help 'I come from under the hill, and under the hills and over the hills my paths led. And through the air, I am he that walks unseen.\n\nI am the clue-finder, the web-cutter, the stinging fly. I was chosen for the lucky number.\n\nI am he that buries his friends alive and drowns them and draws them alive again from the water. I came from the end of a bag, but no bag went over me.\n\nI am the friend of bears and the guest of eagles. I am Ringwinner and Luckwearer; and I am Barrel-rider.'#!\n\n - Song by Bilbo Baggins of Hobbiton."
+ nick_of_the_towers: "of the Towers" # Fairbairns
+ nick_of_the_towers_desc: "The [CHARACTER.GetHouse.GetName]|U] house seat was at Undertowers on the Tower Hills, so that the family are often referred to as the 'Fairbairns of the Towers'."
+ nick_luckwearer: "Luckwearer" # Bilbo Baggins
+ nick_luckwearer_desc: "#help 'I come from under the hill, and under the hills and over the hills my paths led. And through the air, I am he that walks unseen.\n\nI am the clue-finder, the web-cutter, the stinging fly. I was chosen for the lucky number.\n\nI am he that buries his friends alive and drowns them and draws them alive again from the water. I came from the end of a bag, but no bag went over me.\n\nI am the friend of bears and the guest of eagles. I am Ringwinner and Luckwearer; and I am Barrel-rider.'#!\n\n - Song by Bilbo Baggins of Hobbiton."
  ### Dunedain Nicknames ###
- nick_envinyatar:0 "Envinyatar" # Elessar
- nick_envinyatar_desc:0 "Meaning 'Renewer' in Quenya. $nick_the_restorer_desc$"
- nick_andumire:0 "Andúmírë" # Eldarion
- nick_andumire_desc:0 "Meaning 'Jewel of the West' in Quenya. [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] a descendent of the [eldar|E]. A blood-tie as an echo to the prosperity of ages past and perhaps ages coming."
+ nick_envinyatar: "Envinyatar" # Elessar
+ nick_envinyatar_desc: "Meaning 'Renewer' in Quenya. $nick_the_restorer_desc$"
+ nick_andumire: "Andúmírë" # Eldarion
+ nick_andumire_desc: "Meaning 'Jewel of the West' in Quenya. [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] a descendent of the [eldar|E]. A blood-tie as an echo to the prosperity of ages past and perhaps ages coming."
  ### Dwarf Nicknames ###
- nick_the_unworthy_dwarf:0 "the Unworthy"
- nick_the_unworthy_dwarf_desc:0 "A failure of a [dwarf|E], [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] little more than a figurehead, controlled by unseen puppeteers."
- nick_glitterbeard:0 "Glitterbeard" # Wirwir of Aglarond
- nick_glitterbeard_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] has gem dust, crystal specks and bits of diamonds in his beard, like all dwarves who mine in the Glittering Caves."
- nick_orcsfoe:0 "Orcsfoe" # Nain I
- nick_orcsfoe_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname during the Battle of Azanulbizar, where he drove through the host of [orcs|E] up to the East-gate of Moria and bravely fought a deadly duel against Azog the Defiler."
- nick_the_slakeless:0 "the Slakeless" # Dwarf - Náin the Slakeless, son of Dáin 'Ironfoot'
- nick_the_slakeless_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname during the Battle of Five Armies, when neither wound nor foe could halt [CharYourHerHis(CHARACTER)] unquenchable thirst for battle."
+ nick_the_unworthy_dwarf: "the Unworthy"
+ nick_the_unworthy_dwarf_desc: "A failure of a [dwarf|E], [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] little more than a figurehead, controlled by unseen puppeteers."
+ nick_glitterbeard: "Glitterbeard" # Wirwir of Aglarond
+ nick_glitterbeard_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] has gem dust, crystal specks and bits of diamonds in his beard, like all dwarves who mine in the Glittering Caves."
+ nick_orcsfoe: "Orcsfoe" # Nain I
+ nick_orcsfoe_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname during the Battle of Azanulbizar, where he drove through the host of [orcs|E] up to the East-gate of Moria and bravely fought a deadly duel against Azog the Defiler."
+ nick_the_slakeless: "the Slakeless" # Dwarf - Náin the Slakeless, son of Dáin 'Ironfoot'
+ nick_the_slakeless_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] earned [CharYourHerHis(CHARACTER)] nickname during the Battle of Five Armies, when neither wound nor foe could halt [CharYourHerHis(CHARACTER)] unquenchable thirst for battle."
  # Dwarf-Father last reincarnation titles
- nick_the_last_dorfdad_durin:0 "the Last"
- nick_the_last_dorfdad_durin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of [durin|E] 'the Deathless', [dwarffather|E] of the [longbeards|E]." 
- nick_the_last_dorfdad_dwalin:0 "the Last"
- nick_the_last_dorfdad_dwalin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Dwálin 'the Wise', [dwarffather|E] of the [broadbeams|E]."
- nick_the_last_dorfdad_uri:0 "the Last"
- nick_the_last_dorfdad_uri_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Úri 'the Scarred', [dwarffather|E] of the [firebeards|E]."
- nick_the_last_dorfdad_thrar:0 "the Last"
- nick_the_last_dorfdad_thrar_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Thrár 'the Proud', [dwarffather|E] of the [blacklocks|E]."
- nick_the_last_dorfdad_thulin:0 "the Last"
- nick_the_last_dorfdad_thulin_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Thúlin 'the Swift', [dwarffather|E] of the [stiffbeards|E]."
- nick_the_last_dorfdad_sindri:0 "the Last"
- nick_the_last_dorfdad_sindri_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Sindri 'the Rich', [dwarffather|E] of the [ironfists|E]."
- nick_the_last_dorfdad_bavor:0 "the Last"
- nick_the_last_dorfdad_bavor_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Bavór 'the Cold', [dwarffather|E] of the [stonefoots|E]."
+ nick_the_last_dorfdad_durin: "the Last"
+ nick_the_last_dorfdad_durin_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of [durin|E] 'the Deathless', [dwarffather|E] of the [longbeards|E]." 
+ nick_the_last_dorfdad_dwalin: "the Last"
+ nick_the_last_dorfdad_dwalin_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Dwálin 'the Wise', [dwarffather|E] of the [broadbeams|E]."
+ nick_the_last_dorfdad_uri: "the Last"
+ nick_the_last_dorfdad_uri_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Úri 'the Scarred', [dwarffather|E] of the [firebeards|E]."
+ nick_the_last_dorfdad_thrar: "the Last"
+ nick_the_last_dorfdad_thrar_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Thrár 'the Proud', [dwarffather|E] of the [blacklocks|E]."
+ nick_the_last_dorfdad_thulin: "the Last"
+ nick_the_last_dorfdad_thulin_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Thúlin 'the Swift', [dwarffather|E] of the [stiffbeards|E]."
+ nick_the_last_dorfdad_sindri: "the Last"
+ nick_the_last_dorfdad_sindri_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Sindri 'the Rich', [dwarffather|E] of the [ironfists|E]."
+ nick_the_last_dorfdad_bavor: "the Last"
+ nick_the_last_dorfdad_bavor_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] acknowledged as the last reincarnation of Bavór 'the Cold', [dwarffather|E] of the [stonefoots|E]."
  # Gimli Elf Friend title
- nick_elf_friend_gimli:0 "Elf Friend"
- nick_elf_friend_gimli_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] a [dwarf|E] who befriended one of the [eldar|E]. [CharYourHerHis(CHARACTER)] bond was an echo of a rare and profound unity that once shone brightly in ages past."
+ nick_elf_friend_gimli: "Elf Friend"
+ nick_elf_friend_gimli_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] a [dwarf|E] who befriended one of the [eldar|E]. [CharYourHerHis(CHARACTER)] bond was an echo of a rare and profound unity that once shone brightly in ages past."
