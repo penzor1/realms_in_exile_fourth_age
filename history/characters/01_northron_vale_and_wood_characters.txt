@@ -15,7 +15,24 @@ lineofbeorn4 = {
 	7039.8.8 = {
 		birth = yes
 	}
+	7054.6.2 = {
+		add_spouse = lineofbeorn4wife # Flamula
+	}
 	7126.7.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn4wife = {
+	name = Flamula
+	religion = faith_woodmen
+	culture = valemen
+	female = yes
+	
+	7038.6.12 = {
+		birth = yes
+	}
+	7111.6.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -26,14 +43,31 @@ lineofbeorn5 = {
 	religion = faith_woodmen
 	culture = valemen
 	father = lineofbeorn4 # Odovacar
-	#mother = 
+	mother = lineofbeorn4wife # Flamula
 	
 	trait = skinchanger
 	
 	7055.3.20 = {
 		birth = yes
 	}
+	7086.7.10 = {
+		add_spouse = lineofbeorn5wife # Adelgundis
+	}
 	7159.11.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn5wife = {
+	name = Adelgundis
+	religion = faith_woodmen
+	culture = valemen
+	female = yes
+	
+	7066.2.2 = {
+		birth = yes
+	}
+	7136.8.11 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -44,14 +78,31 @@ lineofbeorn6 = {
 	religion = faith_woodmen
 	culture = valemen
 	father = lineofbeorn5 # Odulf
-	#mother = 
+	mother = lineofbeorn5wife # Adelgundis
 	
 	trait = skinchanger
 	
 	7088.6.30 = {
 		birth = yes
 	}
+	7105.3.30 = {
+		add_spouse = lineofbeorn6wife # Theodora
+	}
 	7173.9.25 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn6wife = {
+	name = Theodora
+	religion = faith_woodmen
+	culture = valemen
+	female = yes
+	
+	7089.12.4 = {
+		birth = yes
+	}
+	7180.7.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -62,14 +113,31 @@ lineofbeorn7 = {
 	religion = faith_woodmen
 	culture = valemen
 	father = lineofbeorn6 # Odulf II
-	#mother = 
+	mother = lineofbeorn6wife # Theodora
 	
 	trait = skinchanger
 	
 	7107.11.13 = {
 		birth = yes
 	}
+	7149.3.30 = {
+		add_spouse = lineofbeorn7wife # Fafinia
+	}
 	7201.2.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn7wife = {
+	name = Fafinia
+	religion = faith_woodmen
+	culture = woodmen
+	female = yes
+	
+	7115.4.24 = {
+		birth = yes
+	}
+	7190.2.11 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -80,7 +148,7 @@ lineofbeorn15 = {
 	religion = faith_woodmen
 	culture = valemen
 	father = lineofbeorn7 # Olbeorn II
-	#mother = 
+	mother = lineofbeorn7wife # Fafinia
 	
 	trait = skinchanger
 	trait = bleeder
@@ -108,7 +176,7 @@ lineofbeorn8 = {
 		birth = yes
 	}
 	7099.1.2 = {
-		add_spouse = lineofbeorn8wife
+		add_spouse = lineofbeorn8wife # Froiliuva
 	}
 	7189.6.30 = {
 		death = { death_reason = death_natural_causes }
@@ -119,8 +187,6 @@ lineofbeorn8wife = {
 	name = Froiliuva	
 	religion = faith_woodmen
 	culture = valemen
-	#father = 
-	#mother = 
 	female = yes
 	
 	7080.3.2 = {
@@ -145,7 +211,24 @@ lineofbeorn9 = {
 	7099.10.3 = {
 		birth = yes
 	}
+	7123.6.8 = {
+		add_spouse = lineofbeorn9wife # Monnia
+	}
 	7198.10.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn9wife = {
+	name = Monnia
+	religion = faith_woodmen
+	culture = woodmen
+	female = yes
+	
+	7101.1.17 = {
+		birth = yes
+	}
+	7183.6.2 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -156,7 +239,7 @@ lineofbeorn10 = {
 	religion = faith_woodmen
 	culture = valemen
 	father = lineofbeorn9 # Gunderic
-	#mother = 
+	mother = lineofbeorn9wife # Monnia
 	
 	7127.1.30 = {
 		birth = yes
@@ -188,7 +271,24 @@ lineofbeorn11 = {
 			add_character_flag = had_nickname_event
 		}
 	}
+	7078.8.1 = {
+		add_spouse = lineofbeorn11wife # Medulynn
+	}
 	7149.10.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn11wife = {
+	name = Medulynn
+	religion = faith_woodmen
+	culture = woodmen
+	female = yes
+	
+	7051.1.17 = {
+		birth = yes
+	}
+	7111.8.20 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -199,12 +299,29 @@ lineofbeorn12 = {
 	religion = faith_woodmen
 	culture = valemen
 	father = lineofbeorn11 # Torbeorn
-	#mother = 
+	mother = lineofbeorn11wife # Medulynn
 	
 	7079.6.17 = {
 		birth = yes
 	}
+	7105.2.11 = {
+		add_spouse = lineofbeorn12wife # Ingrid
+	}
 	7174.3.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn12wife = {
+	name = Ingrid
+	religion = faith_woodmen
+	culture = valemen
+	female = yes
+	
+	7081.3.1 = {
+		birth = yes
+	}
+	7151.6.21 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -215,12 +332,29 @@ lineofbeorn13 = {
 	religion = faith_woodmen
 	culture = valemen
 	father = lineofbeorn12 # Jarnrik
-	#mother = 
+	mother = lineofbeorn12wife # Ingrid
 	
 	7106.1.1 = {
 		birth = yes
 	}
+	7130.2.11 = {
+		add_spouse = lineofbeorn13wife # Helga
+	}
 	7189.4.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofbeorn13wife = {
+	name = Helga
+	religion = faith_woodmen
+	culture = valemen
+	female = yes
+	
+	7111.6.19 = {
+		birth = yes
+	}
+	7190.10.30 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -231,7 +365,7 @@ lineofbeorn14 = {
 	religion = faith_woodmen
 	culture = valemen
 	father = lineofbeorn13 # Beornwulf
-	#mother = 
+	mother = lineofbeorn13wife # Helga
 	
 	7136.8.29 = {
 		birth = yes
@@ -420,8 +554,6 @@ lineofolphang14wife = {
 	name = Eldonza
 	religion = faith_woodmen
 	culture = valemen
-	#father = 
-	#mother = 
 	female = yes
 	
 	7089.10.27 = {
@@ -494,8 +626,6 @@ lineofgudamar6wife = {
 	name = Leofwynn
 	religion = faith_framling
 	culture = framling
-	#father = 
-	#mother = 
 	female = yes
 	
 	trait = fecund
@@ -584,8 +714,6 @@ lineofgudamar8wife = {
 	name = Winidilda
 	religion = faith_woodmen
 	culture = valemen
-	#father = 
-	#mother = 
 	female = yes
 	
 	trait = giant
@@ -642,8 +770,6 @@ lineofgudamar9wife = {
 	name = Gaudiosa
 	religion = faith_woodmen
 	culture = valemen
-	#father = 
-	#mother = 
 	female = yes
 	
 	7101.12.9 = {
@@ -802,8 +928,6 @@ linefram49wife = {
 	name = Hungifu
 	religion = faith_woodmen
 	culture = woodmen
-	#father = 
-	#mother = 
 	female = yes
 	
 	trait = zealous
@@ -909,8 +1033,6 @@ linefram51wife = {
 	name = Ealdgyth
 	religion = faith_framling
 	culture = framling
-	#father = 
-	#mother = 
 	female = yes
 	
 	trait = cancer
@@ -1005,8 +1127,6 @@ lineofmelburg8wife = {
 	name = Adosinda
 	religion = faith_woodmen
 	culture = valemen
-	#father = 
-	#mother = 
 	female = yes
 	
 	7059.8.2 = {
@@ -1468,8 +1588,6 @@ lineofsairthiuda9 = {
 
 lineofsairthiuda9wife = {
 	name = Argilo
-	#father = 
-	#mother = 
 	religion = faith_woodmen
 	culture = woodmen
 	female = yes
@@ -1584,8 +1702,6 @@ lineofsairthiuda15 = {
 }
 lineofsairthiuda15wife = {
 	name = Ermengardis
-	#father = 
-	#mother = 
 	religion = faith_woodmen
 	culture = woodmen
 	female = yes
