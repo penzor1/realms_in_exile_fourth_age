@@ -1,4 +1,39 @@
-﻿
+﻿### Regent of Arnor ###
+
+kingdom_feudal_regent = {
+	type = title
+	tier = kingdom
+	titles = { k_arnor_regent }
+	priority = 160
+}
+
+king_feudal_male_regent = { 
+	type = character
+	gender = male
+	special = holder
+	priority = 160
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = no
+	}
+	heritages = { heritage_dunedain }
+	titles = { k_arnor_regent }
+}
+king_feudal_female_regent = { 
+	type = character
+	gender = female
+	special = holder
+	priority = 160
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	heritages = { heritage_dunedain }
+	titles = { k_arnor_regent }
+}
+
+
+# Sauron HOF
 kingdom_k_dark_lord = {
 	type = title
 	tier = kingdom
