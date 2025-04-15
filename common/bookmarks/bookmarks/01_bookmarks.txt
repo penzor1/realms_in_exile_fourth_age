@@ -1273,7 +1273,7 @@ bm_120_fourth_age_06 = {
 		culture = burgulhai
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofrob2
-		position = { 1100 600 }
+		position = { 1200 550 }
 		animation = personality_dishonorable
 		# Zauglob, 
 		character = {
