@@ -355,6 +355,15 @@ lineofdurin112 = {
 	7117.3.18 = {
 		add_spouse = lineofhunduzir86 # Wife of Fili, son of Dori
 	}
+	7173.3.2 = {
+		effect = {
+			make_tributary = {
+				TYPE = tributary_protectorate
+				SUZERAIN = character:lineisildur43 # Eldarion
+				TRIBUTARY = character:lineofdurin112 # Fili
+			}
+		}
+	}
 	7251.8.28 = {
 		death = { death_reason = death_natural_causes }
 	}
