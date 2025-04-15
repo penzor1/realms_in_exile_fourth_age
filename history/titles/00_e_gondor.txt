@@ -10524,6 +10524,7 @@ c_thorod = { #Thórod
 	7171.8.23 = {
 		holder =  lineofhundarion21 # Hundar
 		government = feudal_government
+		liege = k_eredrim
 	}
 	
 }	
