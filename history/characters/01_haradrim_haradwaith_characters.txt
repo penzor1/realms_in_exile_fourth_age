@@ -7,6 +7,8 @@ lineofsalomonin4 = {
     religion = faith_edain
     culture = haruze
 
+    father = lineofsalomonin3
+
     sexuality = heterosexual
 
     7020.4.14 = {
