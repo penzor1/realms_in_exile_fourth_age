@@ -1,0 +1,117 @@
+﻿
+kingdom_k_dark_lord = {
+	type = title
+	tier = kingdom
+	titles = { k_dark_lord k_dark_tree }
+	priority = 200
+}
+
+king_black_male_k_dark_lord = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 850
+	flavourization_rules = {
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { k_dark_lord k_dark_tree }
+	heritages = { heritage_ainur heritage_fallen_ainur heritage_undead heritage_orc heritage_goblin heritage_troll }
+}
+
+king_black_female_k_dark_lord = { #??
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 850
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { k_dark_lord k_dark_tree }
+	heritages = { heritage_ainur heritage_fallen_ainur heritage_undead heritage_orc heritage_goblin heritage_troll }
+}
+
+king_adunaic_male_k_dark_lord = { 
+	type = character
+	gender = female
+	special = male
+	tier = kingdom
+	priority = 800
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { k_dark_lord k_dark_tree }
+	heritages = { heritage_northern_adunaic heritage_southern_adunaic heritage_bellakari }
+}
+
+king_adunaic_female_k_dark_lord = { 
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 800
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { k_dark_lord k_dark_tree }
+	heritages = { heritage_northern_adunaic heritage_southern_adunaic heritage_bellakari }
+}
+
+king_edain_male_k_dark_lord = { 
+	type = character
+	gender = female
+	special = male
+	tier = kingdom
+	priority = 750
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { k_dark_lord k_dark_tree }
+	heritages = { heritage_dunedain heritage_northron }
+}
+
+king_edain_female_k_dark_lord = { 
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 750
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { k_dark_lord k_dark_tree }
+	heritages = { heritage_dunedain heritage_northron }
+}
+
+king_male_k_dark_lord = { 
+	type = character
+	gender = female
+	special = male
+	tier = kingdom
+	priority = 700
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { k_dark_lord k_dark_tree }
+}
+
+king_female_k_dark_lord = { 
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 700
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { k_dark_lord k_dark_tree }
+}
