@@ -58,7 +58,6 @@ mouthofsauron = {
 		#death = { 		
 		#	death_reason = death_battle	
 		#}		
-		name = "Herumor"
 		give_nickname = nick_the_old_shadow
 		dynasty = dynasty_herumori
 		effect = {
