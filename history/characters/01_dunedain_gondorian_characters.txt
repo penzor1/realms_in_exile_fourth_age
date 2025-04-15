@@ -6182,7 +6182,7 @@ lineeaudur14 = { # final member of House an Ulond
         add_spouse = linepalantir10
     }
 
-    7045.1.1 = {
+    7051.5.12 = {
         death = { death_reason = death_duel killer = lineeruholion11 }
     }
 }
