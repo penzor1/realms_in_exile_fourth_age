@@ -921,7 +921,7 @@ ns_lotr_intro_events.4056 = { # Shagdush, the Troll Intro
 ##########################
 
 ### Arnor
-ns_lotr_intro_events.6001 = { # Anarion Intro
+ns_lotr_intro_events.6001 = { # Earendur Intro
 	content_source = realms_dlc
 	type = character_event
 	title = ns_lotr_intro_events.6001.t
@@ -939,7 +939,7 @@ ns_lotr_intro_events.6001 = { # Anarion Intro
 		animation = personality_proud
 	}
 	right_portrait = {
-		character = character:lineisildur48 # Anarion
+		character = character:lineisildur48 # Earendur
 		animation = interested
 	}
 	
@@ -978,6 +978,9 @@ ns_lotr_intro_events.6001 = { # Anarion Intro
 	option = {
 		name = ns_lotr_intro_events.6001.b
 		custom_tooltip = ns_lotr_intro_events.6001.b.tt # Reject the Kingdom
+		character:lineisildur48 = {
+			add_stress = 100
+		}
 		ai_chance = {
 			base = 0
 			modifier = { # Game Rule
@@ -1018,7 +1021,7 @@ ns_lotr_intro_events.6002 = {
 		animation = personality_proud
 	}
 	right_portrait = {
-		character = character:lineisildur48 # Anarion
+		character = character:lineisildur48 # Earendur
 		animation = scepter
 	}
 	
@@ -1028,18 +1031,8 @@ ns_lotr_intro_events.6002 = {
 	
 	option = {
 		name = ns_lotr_intro_events.6002.a
-		custom_tooltip = ns_lotr_intro_events.6002.a.tt # Disbanding of the Rangers
-		hidden_effect = {
-			character:lineoforodhos68 = { get_title = title:c_adandor }
-			character:lineofaranbor21 = { # Turlong
-				destroy_title = title:d_emyn_uial
-				get_title = title:d_eketya
-			}
-			title:k_arthedain = { set_title_name = cn_arthedain_arnor }
-			title:e_arnor = { set_title_name = cn_arnor_eriador }
-		}
-		character:lineisildur48 = { # Anarion
-			set_culture = culture:arnorian
+		custom_tooltip = ns_lotr_intro_events.6002.a.tt
+		character:lineisildur48 = { # Earendur
 			spawn_army = {
 				men_at_arms = {
 					type = arnorian_soldiers
@@ -1064,24 +1057,10 @@ ns_lotr_intro_events.6002 = {
 				location = character:lineisildur48.location
 			}
 			hidden_effect = {
-				get_title = title:c_annuminas
-				set_realm_capital = title:c_annuminas
-				get_title = title:d_tarmea
 				set_nickname_effect = { NICKNAME = nick_the_restorer }
-				destroy_title = title:d_northern_dunedain
 				set_house = house:house_anarioni
 				every_child = { set_house = house:house_anarioni }
-				create_title_and_vassal_change = {
-					type = swear_fealty
-					save_scope_as = change0
-					add_claim_on_loss = no
-				}
-				change_liege = {
-					liege = character:lineisildur43 # Eldarion safety check
-					change = scope:change0
-				}
 			}
-			get_title = title:k_arthedain # stand-in for arnor
 		}
 		ai_chance = {
 			base = 0
@@ -1103,15 +1082,9 @@ ns_lotr_intro_events.6002 = {
 	option = {
 		name = ns_lotr_intro_events.6002.b
 		custom_tooltip = ns_lotr_intro_events.6002.b.tt # Go independent
-		hidden_effect = {
-			character:lineoforodhos68 = { get_title = title:c_adandor }
-			character:lineofaranbor21 = { # Turlong
-				destroy_title = title:d_emyn_uial
-				get_title = title:d_eketya
-			}
-		}
-		character:lineisildur48 = { # Anarion
-			set_culture = culture:arnorian
+		character:lineisildur48 = { # Earendur
+			get_title = title:e_arnor # independence
+			add_stress = 100
 			spawn_army = {
 				men_at_arms = {
 					type = arnorian_soldiers
@@ -1136,16 +1109,13 @@ ns_lotr_intro_events.6002 = {
 				location = character:lineisildur48.location
 			}
 			hidden_effect = {
-				get_title = title:c_annuminas
-				set_realm_capital = title:c_annuminas
-				get_title = title:d_tarmea
-				get_title = title:k_arthedain
 				set_nickname_effect = { NICKNAME = nick_the_restorer }
-				destroy_title = title:d_northern_dunedain
 				set_house = house:house_anarioni
 				every_child = { set_house = house:house_anarioni }
+				set_relation_rival = {
+					target = character:lineisildur48 # Eldarion
+				}
 			}
-			get_title = title:e_arnor
 		}
 		ai_chance = {
 			base = 0
@@ -1258,7 +1228,7 @@ ns_lotr_intro_events.6200 = { # Eldarion Intro
 		animation = grief
 	}
 	lower_center_portrait = {
-		character = character:lineisildur47 # Elendil
+		character = character:lineisildur47 # Elendur
 		animation = sadness
 	}
 	
@@ -1277,7 +1247,7 @@ ns_lotr_intro_events.6200 = { # Eldarion Intro
 				target = character:linesteward51 # Nessanie
 			}
 			set_relation_friend = {
-				target = character:lineisildur47 # Elendil
+				target = character:lineisildur47 # Elendur
 			}
 		}
 	}
@@ -1305,7 +1275,7 @@ ns_lotr_intro_events.6201 = { # Twilight of the King # Aragorn's death event cha
 		animation = prayer
 	}
 	lower_center_portrait = {
-		character = character:lineisildur47 # Elendil
+		character = character:lineisildur47 # Elendur
 		animation = sadness
 	}
 	lower_right_portrait = {
@@ -1410,7 +1380,7 @@ ns_lotr_intro_events.6203 = { # Dawn of the King
 		animation = prayer
 	}
 	lower_center_portrait = {
-		character = character:lineisildur47 # Elendil
+		character = character:lineisildur47 # Elendur
 		animation = happiness
 	}
 	lower_right_portrait = {
