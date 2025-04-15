@@ -5,6 +5,10 @@
  cn_mordor_kharatdor_adj:0 "Kharatdorim"
  cn_mordor_southlands:0 "Southlands"
  cn_mordor_southlands_adj:0 "Southlandic"
+ cn_rangers_of_molko:0 "Rangers of Mulkhêr"
+ cn_rangers_of_molko_adj:0 "Rangers"
+ cn_rangers_of_zigur:0 "the Rangers of Zigûrun"
+ cn_rangers_of_zigur_adj:0 "Rangers"
  ### Other ### (Titular Arnor)
  d_ithillond: "Nan Nisilmë"
  d_ithillond_adj: "Nisilmerim"
