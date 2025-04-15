@@ -155,8 +155,6 @@ e_gondor = {
 	}
 	7052.5.1 = {
 		holder = lineisildur42 # Elessar
-		liege = e_reunitedkingdom
-		de_jure_liege = e_reunitedkingdom
 	}
 	7173.3.2 = {
 		holder = lineisildur43 # Eldarion
