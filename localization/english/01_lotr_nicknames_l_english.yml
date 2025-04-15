@@ -25,6 +25,8 @@
  nick_the_old_shadow_desc: "$DEFAULT_NICKNAME_DESC$"
  nick_the_last_flame: "the Last Flame"
  nick_the_last_flame_desc: "After the Andrake usurped the Last Castellan's rule of Úlond, his son Hallas sought refuge at the court of Anfalas, biding his time and eventually securing a political marriage to rally forces against his foe. Upon returning, he reclaimed the territory by defeating the Andrake in a duel but succumbed to his wounds soon after, thus extinguishing the final ember of the An Úlond house."
+ nick_reaverbane: "Reaverbane"
+ nick_reaverbane_desc: "A renowned naval commander in the southern wars of unification under King Elessar, Falandur led Gondor’s fleets to decisive victory over the corsairs of Umbar. His triumphs at sea ended generations of piracy and secured Gondor’s rule along the southern coast."
  ### Generic Nicknames ###
  nick_troll_king: "Troll-King"
  nick_troll_king_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] proclaimed [CharYourHerHimself(CHARACTER)] 'Troll-King'. The denizens under [CharYourHerHis(CHARACTER)] rule obey — not out of loyalty, but because they remember what happened to the ones who did not."

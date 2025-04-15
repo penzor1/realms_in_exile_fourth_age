@@ -518,9 +518,15 @@ k_umbar = {
 		}
 	}
 	7078.6.1 = {
-		holder = lineofchief28
+		holder = lineofbelmoran1
 		liege = e_reunitedkingdom
 	}
+	7107.5.28 = {
+        holder = lineofbelmoran2
+    }
+	7176.3.20 = {
+        holder = lineofbelmoran5
+    }
 }
 
 #Umbar

@@ -9881,6 +9881,207 @@ lineofatanatar88 = {
     }
 }
 
+# Line of Belmoran, cadet branch of the Duneglan dynasty
+
+lineofbelmoran1 = { # Becomes the beneficiary of the kingdom of Umbar, granted by Elessar. Starts a cadet branch of the Duneglan dynasty
+    name = Falandur
+
+    dynasty = dynasty_duneglan
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineofduneglan63
+    mother = lineofduneglan64
+
+	trait = blood_of_numenor_1
+    7014.11.18 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    trait = honest
+    trait = brave
+    trait = wrathful
+
+    trait = education_martial_4
+    trait = lifestyle_mariner
+
+    7062.2.15 = { # Gets acquainted with a Harondorim noble woman during his travels and they fall in love
+        add_spouse = lineofchief10
+    }
+    7078.1.1 = { # Gains the Reaverbane nickname for his great contributions to the naval conquest of Umbar
+    give_nickname = nick_reaverbane
+		effect = {
+			add_character_flag = {
+				flag = had_nickname_event
+			}
+		}
+    }
+    7078.6.1 = { # Creates cadet branch of Duneglan line to signify a new begining in Umbar
+    dynasty_house = house_belmoran
+    }
+    7107.5.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofchief10 = { # Wife of Falandur, lineofbelmoran1
+	name = "Ristare"
+	
+	dynasty_house = house_calambar
+	religion = faith_edain
+	culture = harondorim
+	sexuality = heterosexual	
+	
+	father = lineofchief8
+	mother = turcomundwife 
+	
+	female = yes	
+	
+	trait = education_learning_4
+	trait = diligent
+	trait = honest
+	trait = compassionate
+	trait = beauty_good_3
+	trait = intellect_good_1
+	trait = lustful
+	
+
+	trait = blood_of_numenor_1
+	7025.1.23 = {
+		birth = yes
+		effect = {
+			learn_language = language_sindarin	
+		}			
+	}
+
+	7112.6.17 = {
+		death = {				
+			death_reason = death_natural_causes				
+		}
+	}
+}
+
+lineofbelmoran2 = {
+    name = Baranor
+
+    dynasty_house = house_belmoran
+    religion = faith_edain
+    culture = umbarrim
+
+    father = lineofbelmoran1
+    mother = lineofchief10
+
+	trait = blood_of_numenor_1
+    7083.9.12 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7116.7.21 = {
+        add_spouse = lineofbelmoran3
+    }
+
+    7176.3.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofbelmoran3 = {
+    name = Aranelaith
+    female = yes
+
+    religion = faith_edain
+    culture = umbarrim
+
+	trait = blood_of_numenor_1
+    7099.4.10 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7198.1.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofbelmoran4 = {
+    name = Belwen
+    female = yes
+
+    dynasty_house = house_belmoran
+    religion = faith_edain
+    culture = umbarrim
+
+    father = lineofbelmoran1
+    mother = lineofchief10
+
+	trait = blood_of_numenor_1
+    7061.11.6 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7178.1.16 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofbelmoran5 = {
+    name = Halbarad
+
+    dynasty_house = house_belmoran
+    religion = faith_edain
+    culture = umbarrim
+
+    father = lineofbelmoran2
+    mother = lineofbelmoran3
+
+	trait = blood_of_numenor_1
+    7123.8.21 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7230.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofbelmoran6 = {
+    name = Mithiel
+    female = yes
+
+    dynasty_house = house_belmoran
+    religion = faith_edain
+    culture = umbarrim
+
+    father = lineofbelmoran2
+    mother = lineofbelmoran3
+
+	trait = blood_of_numenor_1
+    7111.12.19 = {
+        birth = yes
+		effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7219.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 # Line of Duneglan
 
 lineofduneglan129 = {

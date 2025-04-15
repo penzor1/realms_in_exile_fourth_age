@@ -1,1 +1,5 @@
-﻿
+﻿house_belmoran = {
+	name = "dynn_belmoran"
+	dynasty = dynasty_duneglan
+	motto = dynn_belmoran_motto
+}

@@ -46620,43 +46620,6 @@ lotuwife = {
 	}
 }
 
-lineofchief10 = {
-	name = "Ristare"
-	
-	dynasty_house = house_calambar
-	religion = faith_edain
-	culture = harondorim
-	sexuality = heterosexual	
-	
-	father = lineofchief8
-	mother = turcomundwife 
-	
-	female = yes	
-	
-	trait = education_learning_4
-	trait = diligent
-	trait = honest
-	trait = compassionate
-	trait = beauty_good_3
-	trait = intellect_good_1
-	trait = lustful
-	
-
-	trait = blood_of_numenor_1
-	7011.1.23 = {
-		birth = yes
-		effect = {
-			learn_language = language_sindarin	
-		}			
-	}
-
-	7112.1.1 = {
-		death = {				
-			death_reason = death_natural_causes				
-		}
-	}
-}
-
 lineofchief11 = {
 	name = "Aramund" # "Dead Eye"
 
@@ -67321,36 +67284,6 @@ lineofduneglan71 = {
     }
 }
 
-lineofduneglan72 = {
-    name = Falandur
-
-    dynasty = dynasty_duneglan
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineofduneglan63
-    mother = lineofduneglan64
-
-    
-
-
-	trait = blood_of_numenor_1
-    7014.11.18 = {
-        birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7051.3.21 = {
-        add_spouse = lineofduneglan73
-    }
-
-    7107.5.28 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
 lineofduneglan73 = {
     name = Emelin
     female = yes
@@ -67370,85 +67303,6 @@ lineofduneglan73 = {
     }
 
     7138.11.21 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineofduneglan74 = {
-    name = Belwen
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineofduneglan72
-    mother = lineofduneglan73
-
-    
-
-
-	trait = blood_of_numenor_1
-    7061.11.6 = {
-        birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7178.1.16 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineofduneglan75 = {
-    name = Baranor
-
-    dynasty = dynasty_duneglan
-    religion = faith_edain
-    culture = gondorian
-
-    father = lineofduneglan72
-    mother = lineofduneglan73
-
-    
-
-
-	trait = blood_of_numenor_1
-    7083.9.12 = {
-        birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7116.7.21 = {
-        add_spouse = lineofduneglan76
-    }
-
-    7176.3.20 = {
-        death = { death_reason = death_natural_causes }
-    }
-}
-
-lineofduneglan76 = {
-    name = Aranelaith
-    female = yes
-
-    religion = faith_edain
-    culture = gondorian
-
-    
-
-
-	trait = blood_of_numenor_1
-    7099.4.10 = {
-        birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}
-    }
-
-    7198.1.5 = {
         death = { death_reason = death_natural_causes }
     }
 }
