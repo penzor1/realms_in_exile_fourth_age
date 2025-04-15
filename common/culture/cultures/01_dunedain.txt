@@ -1,0 +1,39 @@
+﻿# Dúnedain
+# heritage_dunedain
+#  Hyarmenedain
+
+hyarmenedain = { # The ruling class people of Umbar after Elessar's conquest
+	color = { 43 97 89 }
+	created = 7078.6.1 # First year of RK rule
+	parents = { gondorian umbarean }
+
+	ethos = ethos_stoic
+	heritage = heritage_dunedain
+	language = language_westron_south
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_gondorian_legacy
+		tradition_dunedain_of_umbar
+		tradition_castle_keepers
+		tradition_ruling_caste
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_state_ransoming
+		requires_dlc_flag = the_fate_of_iberia
+	}
+
+	name_list = name_list_dunedain
+
+	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx }
+	building_gfx = { numenorean_building_gfx mediterranean_building_gfx }
+	clothing_gfx = { harondorim_clothing_gfx } #replace to new mix of north_haradrim and gondorian
+	unit_gfx = { dunedain_unit_gfx }
+
+
+	ethnicities = {
+		55 = gondorian_ethnicity
+		45 = umbarean_ethnicity
+		15 = haradrim_ethnicity
+		5 = black_numenorean_ethnicity
+	}
+}
