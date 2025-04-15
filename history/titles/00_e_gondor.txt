@@ -3965,7 +3965,7 @@ d_forithilien = { # North Ithilien
 		holder = linesteward40 # Faramir, son of Denethor
 	}
 	#fiction
-	7052.0.1 = {
+	7052.1.1 = {
 		liege = 0
 		holder = 0 # invasion by Gothmog
 	}
