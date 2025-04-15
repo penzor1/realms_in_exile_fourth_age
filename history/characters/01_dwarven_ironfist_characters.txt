@@ -82,7 +82,7 @@ lineofsindri903 = {
 	dynasty = dynasty_sindri
 	religion = faith_khazad
 	culture = ironfists
-	father = lineofsindri902 # Velat
+	father = lineofsindri902 # Vekun II
 
 	7000.1.1 = {
 		birth = yes
@@ -92,13 +92,13 @@ lineofsindri903 = {
 	}
 }
 
-lineofsindriIngor= { # Sindri VI's grandson
+lineofsindriIngor = { # Sindri VI's grandson
 	name = Ing_or
 	dynasty = dynasty_sindri
 	religion = faith_khazad
 	culture = ironfists
 
-    father = lineofsindri902 # Velat
+    father = lineofsindri902 # Vekun II
 
 	7050.1.1 = {
 		birth = yes
@@ -115,11 +115,11 @@ lineofsindriIngor= { # Sindri VI's grandson
 			make_tributary = {
 				TYPE = tributary_permanent
 				SUZERAIN = character:lineofdurin91 # Thorin III
-				TRIBUTARY = character:lineofsindri904 # Ingor
+				TRIBUTARY = character:lineofsindriIngor # Ingor
 			}
 			create_alliance = {
 				target = character:lineofdurinVII # Durin VII
-				allied_through_owner = character:lineofsindri904 # Ingor
+				allied_through_owner = character:lineofsindriIngor # Ingor
 				allied_through_target = character:lineofdurinVII # Durin VII
 			}
 		}
