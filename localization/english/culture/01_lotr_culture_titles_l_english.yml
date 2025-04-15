@@ -9,3 +9,7 @@
  king_edain_female_k_dark_lord: "Herumor"
  king_male_k_dark_lord: "Dark Lord"
  king_female_k_dark_lord: "Dark Queen"
+ ## ARNORIAN - Mod Added ##
+ kingdom_feudal_regent: "Regents"
+ king_feudal_male_regent: "Regent"
+ king_feudal_female_regent: "Regent"
