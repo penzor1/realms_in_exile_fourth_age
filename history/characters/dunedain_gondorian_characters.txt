@@ -49133,6 +49133,11 @@ lineohtarion8 = {	# Count of Tharagrondost
 			learn_language = language_sindarin		
 		}				
 	}
+
+    7006.1.1 = {
+        add_spouse = lineohtarion8wife
+    }
+
 	7030.1.1 = {
 		effect = {
 			set_relation_rival = character:lineeruholion11

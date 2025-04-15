@@ -5517,6 +5517,8 @@ lineohtarion9 = {
     dynasty = dynasty_ohtarion
     religion = faith_edain
     culture = gondorian
+    father = lineohtarion8
+    mother = lineohtarion8wife
 
     sexuality = heterosexual
 
