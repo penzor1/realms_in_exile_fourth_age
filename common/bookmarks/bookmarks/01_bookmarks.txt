@@ -864,7 +864,21 @@ bm_120_fourth_age_05 = {
 			history_id = lineofazog16
 			animation = personality_vengeful
 		}
-		# Urzog
+		# Urzog, the Hopeful
+		character = {
+			name = "bookmark_fa_05_urzog"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty_house = house_mazog
+			dynasty_splendor_level = 10
+			type = male
+			birth = 6935.6.17
+			title = d_barazinbar
+			government = feudal_government
+			religion = cult_of_the_ulukai
+			culture = ghrazim
+			history_id = lineofazog18
+			animation = personality_vengeful
+		}
 	}
 	
 	# Gimli, Duke of Aglarond
