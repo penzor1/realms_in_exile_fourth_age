@@ -44,6 +44,6 @@
     }
 	
 	7045.1.1 = {
-		death = {  death_reason = death_battle killer = lineeaudur14 }
+		death = {  death_reason = death_duel killer = lineeaudur14 }
 	}
 }
