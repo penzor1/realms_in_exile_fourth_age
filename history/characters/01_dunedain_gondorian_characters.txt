@@ -7686,6 +7686,32 @@ lineofchief27 = {
     }
 }
 
+lineofchief28 = {
+    name = Maethon
+
+    dynasty_house = house_calambar
+    religion = faith_edain
+    culture = harondorim
+
+    father = lineofchief12
+    mother = lineofchief12wife
+
+    sexulaity = bisexual
+
+    trait = blood_of_numenor_1
+
+    7093.6.1 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7196.4.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 # Line of Surionath
 
 linesurionath7wife = {
