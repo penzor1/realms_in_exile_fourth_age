@@ -26193,7 +26193,8 @@ linelinnarion23 = {
 		}			
 	}
     7056.1.1 = {
-		add_spouse = linecelebhatol9					
+		add_spouse = linelinnarion23wife
+		#add_spouse = linecelebhatol9					#??
 	}
 	7154.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -89652,7 +89653,7 @@ lineofegalmoth101 = {
     culture = belfalathrim
 
     father = lineofegalmoth72
-    mother = lineofegalmoth73
+    mother = linegilthol15
 
     
 
