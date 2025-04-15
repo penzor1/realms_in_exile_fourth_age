@@ -1,8 +1,8 @@
 ﻿# Dúnedain
 # heritage_dunedain
-#  Hyarmenedain
+#  Umbarrim
 
-hyarmenedain = { # The ruling class people of Umbar after Elessar's conquest
+umbarrim = { # The ruling class people of Umbar after Elessar's conquest
 	color = { 43 97 89 }
 	created = 7078.6.1 # First year of RK rule
 	parents = { gondorian umbarean }
@@ -23,7 +23,7 @@ hyarmenedain = { # The ruling class people of Umbar after Elessar's conquest
 		requires_dlc_flag = the_fate_of_iberia
 	}
 
-	name_list = name_list_dunedain
+	name_list = name_list_umbarean
 
 	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx }
 	building_gfx = { numenorean_building_gfx mediterranean_building_gfx }

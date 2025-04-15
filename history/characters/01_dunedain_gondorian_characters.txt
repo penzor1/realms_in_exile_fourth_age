@@ -7724,7 +7724,7 @@ lineofchief28 = {
     }
 
     7078.6.1 = {
-        culture = hyarmenedain
+        culture = umbarrim
     }
 
     7196.4.7 = {

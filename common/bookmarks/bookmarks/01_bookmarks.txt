@@ -1181,7 +1181,7 @@ bm_120_fourth_age_06 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofsharkey2
 		position = { 400 300 }
-		animation = personality_dishonorable
+		animation = personality_callous
 	}
 	
 	# Karluk, the Lost
@@ -1198,7 +1198,7 @@ bm_120_fourth_age_06 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofugluk2
 		position = { 400 600 }
-		animation = personality_dishonorable
+		animation = personality_irrational
 	}
 	
 	# Zagbug, the Troll-King
@@ -1215,6 +1215,7 @@ bm_120_fourth_age_06 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineoftrollking1
 		position = { 750 200 }
+		animation = personality_vengeful
 	}
 	
 	# Korg, the Scion
@@ -1231,7 +1232,7 @@ bm_120_fourth_age_06 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineukorg6
 		position = { 800 500 }
-		animation = personality_vengeful
+		animation = personality_greedy
 		# Ukorg, 
 		character = {
 			name = "bookmark_fa_06_ukorg"
@@ -1304,6 +1305,6 @@ bm_120_fourth_age_06 = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = mouthofsauron
 		position = { 1000 800 }
-		animation = personality_dishonorable
+		animation = personality_zealous
 	}
 }
