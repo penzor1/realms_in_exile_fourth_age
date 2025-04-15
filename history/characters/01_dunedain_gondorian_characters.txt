@@ -1295,7 +1295,7 @@ linecelebhatol25 = {
     }
 
     7157.6.25 = {
-        add_spouse = linecelebhatol27
+        add_spouse = linecelebhatol26
     }
 
     7240.9.4 = {
@@ -2673,7 +2673,7 @@ dolamroth28wife = {
 		}			
 	}
     7066.9.9 = {
-        add_spouse = dolamroth
+        add_spouse = dolamroth28
     }
 	7111.3.2 = {
 		death = { death_reason = death_natural_causes }
@@ -5074,6 +5074,7 @@ lineastandur10wife = {
 
 	religion = faith_edain
 	culture = gondorian
+	female = yes
 
 	trait = blood_of_numenor_1
 	7012.3.8={
@@ -6503,7 +6504,7 @@ lineofmorthil8 = {
     }
 
     7160.1.9 = {
-        add_spouse = lineofmorthil9
+#        add_spouse = lineofmorthil9 ##missing
     }
 
     7235.2.7 = {
@@ -10219,7 +10220,7 @@ lineofulrad79a1 = {
     culture = belfalathrim
 
     father = lineofulrad79
-    mother = lineofulrad780
+    mother = lineofulrad80
 
 	trait = blood_of_numenor_1
     7136.6.22 = {
@@ -10245,8 +10246,8 @@ linehardang89 = {
 
     sexuality = heterosexual
 
-    father = linehardang69
-    mother = linehardang70
+    father = lineofhardang69
+    mother = lineofhardang70
 
     trait = blood_of_numenor_1
 
