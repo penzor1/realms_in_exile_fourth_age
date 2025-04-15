@@ -2470,9 +2470,6 @@ k_nelornieth = {
 	}
 	#fiction
 	7052.5.1 = { # Ravage of the Penni # Mordor Orc Invasion
-		holder = lineoftarkmor1father # Tarkmor
-	}
-	7156.6.20 = { # Aramagor hunts the Orcs out of the center of the forest
 		holder = 0
 	}
 }
@@ -2694,7 +2691,7 @@ d_dor_banath = {
 	}  
 	#fiction
 	7052.5.1 = { # Ravage of the Penni # Mordor Orc Invasion
-		holder = lineoftarkmor1father # Tarkmor
+		holder = lineofyagmuz1 # Yagmuz
 	}
 	7156.6.20 = { # Aramagor hunts the Orcs out of the center of the forest
 		holder = 0
