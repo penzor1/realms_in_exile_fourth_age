@@ -65,8 +65,8 @@ linesteward46 = {
 		add_spouse = lineastandur13sister # Luindis
 	}
 	7174.3.2 = {
+		give_council_position = councillor_steward
 		effect = {
-			give_council_position = councillor_steward
 			vassal_contract_set_obligation_level = {
 				type = council_rights 
 				level = 1
