@@ -882,6 +882,7 @@
 			hidden_effect = {
 				add_character_flag = learning_sorcery
 				add_character_modifier = studying_dark_arts_modifier
+				primary_title ?= { set_title_name = cn_rangers_of_molko }
 			}
 		}
 		hidden_effect = {
@@ -916,6 +917,7 @@
 			hidden_effect = {
 				add_character_flag = learning_sorcery
 				add_character_modifier = studying_dark_arts_modifier
+				primary_title ?= { set_title_name = cn_rangers_of_zigur }
 			}
 		}
 		hidden_effect = {
