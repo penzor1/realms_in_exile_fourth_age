@@ -28,8 +28,6 @@ linecaradoc10wife = {
 	dynasty = dynasty_caradach
 	religion = faith_hillmen
 	culture = enedhwaithrim
-	#father = 
-	#mother = 
 	female = yes
 	
 	7052.6.25 = {
@@ -62,8 +60,6 @@ linecaradoc11wife = {
 	name = Turan
 	religion = faith_hillmen
 	culture = hillmen
-	#father = 
-	#mother = 
 	female = yes
 	
 	7072.4.26 = {
@@ -78,8 +74,6 @@ linecaradoc11wife2 = {
 	name = Nivi
 	religion = faith_hillmen
 	culture = andrastrim
-	#father = 
-	#mother = 
 	female = yes
 	
 	trait = fornicator
@@ -115,8 +109,6 @@ linecaradoc12wife = {
 	name = Rena
 	religion = faith_hillmen
 	culture = hillmen
-	#father = 
-	#mother = 
 	female = yes
 	
 	7091.7.24 = {
@@ -169,8 +161,6 @@ linecaradoc13wife = {
 	name = Mara
 	religion = faith_hillmen
 	culture = hillmen
-	#father = 
-	#mother = 
 	female = yes
 	
 	7116.5.23 = {
@@ -223,8 +213,6 @@ linecaradoc14wife = {
 	name = Eile
 	religion = faith_hillmen
 	culture = hillmen
-	#father = 
-	#mother = 
 	female = yes
 	
 	trait = beauty_good_2
@@ -312,8 +300,6 @@ linemananach1mom = {
 	name = Joly
 	religion = faith_hillmen
 	culture = hillmen
-	#father = 
-	#mother = 
 	female = yes
 	
 	trait = fornicator
@@ -417,8 +403,6 @@ linemananach2wife = {
 	name = Flana
 	religion = faith_hillmen
 	culture = hillmen
-	#father = 
-	#mother = 
 	female = yes
 	
 	7099.6.2 = {
@@ -460,8 +444,6 @@ linemananach3wife = {
 	name = Caith
 	religion = faith_hillmen
 	culture = hillmen
-	#father = 
-	#mother = 
 	female = yes
 	
 	7115.1.13 = {
@@ -515,8 +497,6 @@ linedevin1 = {
 	dynasty = dynasty_devin
 	religion = faith_hillmen
 	culture = hillmen
-	#father = 
-	#mother = 
 	
 	trait = strong
 	trait = reaver
@@ -536,8 +516,6 @@ linedevin1wife = {
 	name = _Enid
 	religion = faith_hillmen
 	culture = saralain
-	#father = 
-	#mother = 
 	female = yes
 	
 	trait = wheezing
@@ -612,8 +590,6 @@ linebrant1wife = {
 	name = Alis
 	religion = faith_hillmen
 	culture = dunlending
-	#father = 
-	#mother = 
 	female = yes
 	
 	7115.5.26 = {
@@ -663,8 +639,6 @@ lineoloch1wife = {
 	name = Asko
 	religion = faith_hillmen
 	culture = lossoth
-	#father = 
-	#mother = 
 	female = yes
 	
 	trait = fecund
