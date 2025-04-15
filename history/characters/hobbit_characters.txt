@@ -9774,9 +9774,9 @@ lineofgamgee10 = {
 	
 
     7115.9.23 = { #22
-		employer = linefinwe6
+#		employer = linefinwe6
 		effect = {
-#			add_trait = widowed
+			add_trait = widowed
 			add_trait = sailed_west
 		}
 		#death = { death_reason = death_sailed_west }
