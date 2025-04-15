@@ -1,0 +1,13 @@
+﻿d_ithillond={
+	pattern="pattern_solid.dds"
+	color1=rgb { 0 51 0 }
+	color2=white
+	textured_emblem={
+		texture="te_oropher.dds"
+		instance={
+			scale={ 0.900000 0.900000 }
+		}
+
+	}
+
+}
