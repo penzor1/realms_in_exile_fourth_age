@@ -921,7 +921,6 @@ bm_120_fourth_age_05 = {
 			religion = faith_rohirric
 			culture = rohirrim
 			history_id = lineofeofor20
-			}
 		}
 	}
 	
