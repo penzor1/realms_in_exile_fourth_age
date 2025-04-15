@@ -768,7 +768,7 @@
     7052.5.1 = { # Reconstruction of Arnor
     	culture = arnorian
 		religion = faith_edain
-		holding = none
+		holding = castle_holding
     }
 }
 
