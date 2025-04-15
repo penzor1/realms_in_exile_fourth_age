@@ -22,7 +22,7 @@ bm_120_fourth_age_01 = {
 		culture = rohirrim
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofeofor20
-		position = { 750 400 }
+		position = { 750 200 }
 		animation = personality_honorable
 		# Éobrand, Prince of Rohan
 		character = {
@@ -52,9 +52,9 @@ bm_120_fourth_age_01 = {
 		culture = dunedain
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineisildur43
-		position = { 600 675 }
+		position = { 600 400 }
 		animation = schadenfreude
-		# Elendur, Heir of RK
+		# Elendur, Faithful Heir
 		character = {
 			name = "bookmark_fa_01_elendur"
 			relation = "BOOKMARK_RELATION_SON"
@@ -66,7 +66,7 @@ bm_120_fourth_age_01 = {
 			culture = dunedain
 			history_id = lineisildur47
 		}
-		# Dineth, Queen of RK
+		# Dineth, Queen of Hearts
 		character = {
 			name = "bookmark_fa_01_dineth"
 			relation = "BOOKMARK_RELATION_WIFE"
@@ -93,7 +93,7 @@ bm_120_fourth_age_01 = {
 		culture = lasgalendrim
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoforopher6
-		position = { 1050 550 }
+		position = { 1100 500 }
 		animation = personality_rational
 		# Eldarion, King of RK
 		character = {
@@ -136,7 +136,7 @@ bm_120_fourth_age_01 = {
 		culture = gondorian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = linesteward46
-		position = { 1025 800 }
+		position = { 1000 700 }
 		animation = personality_honorable
 		# Barahir, Heir of Ithilien
 		character = {
