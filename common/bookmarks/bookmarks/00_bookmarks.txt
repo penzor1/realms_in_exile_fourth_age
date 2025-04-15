@@ -8,78 +8,6 @@ bm_120_fourth_age_01 = {
 	weight = {
 		value = 0
 	}
-		
-#	# Eärendur, Regent of Arnor
-#	character = {
-#		name = "bookmark_fa_01_anarion"
-#		dynasty_house = house_anarioni
-#		dynasty_splendor_level = 10
-#		type = male
-#		birth = 7121.1.1
-#		title = d_northern_dunedain
-#		government = feudal_government
-#		religion = faith_edain
-#		culture = arnorian
-#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-#		history_id = lineisildur48
-#		position = { 400 200 }
-#		animation = personality_bold
-#		# Eärnur, Heir of Arnor
-#		character = {
-#			name = "bookmark_fa_01_earnur"
-#			relation = "BOOKMARK_RELATION_SON"
-#			dynasty_house = house_anarioni
-#			type = male
-#			birth = 7158.1.1
-#			government = feudal_government
-#			religion = faith_edain
-#			culture = arnorian
-#			history_id = lineisildur51
-#		}
-#		# Elladan, King of Imladris
-#		character = {
-#			name = "bookmark_fa_01_elladan"
-#			relation = "BOOKMARK_RELATION_UNCLE"
-#			dynasty_house = house_elrond
-#			type = male
-#			birth = 4163.1.1
-#			title = k_imladris
-#			government = elven_government
-#			religion = faith_eldar
-#			culture = noldor
-#			history_id = linefinwe28
-#		}
-#	}
-		
-#	# Éobrand, Prince of Rohan #replace with erkenbrand
-#	character = {
-#		name = "bookmark_fa_01_eobrand"
-#		dynasty_house = house_eofor
-#		dynasty_splendor_level = 10
-#		type = male
-#		birth = 7127.7.3
-#		title = d_isengard
-#		government = feudal_government
-#		religion = faith_rohirric
-#		culture = rohirrim
-#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-#		history_id = lineofeofor21
-#		position = { 400 600 }
-#		animation = personality_honorable
-#		# Éofara, King of Rohan
-#		character = {
-#		name = "bookmark_fa_01_eofara"
-#			relation = "BOOKMARK_RELATION_FATHER"
-#			dynasty_house = house_eofor
-#			type = male
-#			birth = 7093.4.28
-#			title = k_rohan
-#			government = feudal_government
-#			religion = faith_rohirric
-#			culture = rohirrim
-#			history_id = lineofeofor20
-#		}
-#	}
 	
 	# Éofara, King of Rohan
 	character = {
@@ -180,24 +108,20 @@ bm_120_fourth_age_01 = {
 			culture = dunedain
 			history_id = lineisildur43
 		}
+		# Thranduil, High King of Lasgalen
+		character = {
+			name = "bookmark_fa_04_thranduil"
+			relation = "BOOKMARK_RELATION_FATHER"
+			dynasty = dynasty_oropher
+			type = male
+			birth = 95.1.1
+			title = k_lasgalen
+			government = elven_government
+			religion = faith_eldar
+			culture = lasgalendrim
+			history_id = lineoforopher3
+		}
 	}
-	
-#	# Eldacar, Ranger of Mordor
-#	character = {
-#		name = "bookmark_fa_01_eldacar"
-#		dynasty_house = house_telcontar
-#		dynasty_splendor_level = 10
-#		type = male
-#		birth = 7139.1.1
-#		title = d_watch_on_mordor
-#		government = landless_adventurer_government
-#		religion = faith_edain
-#		culture = dunedain
-#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-#		history_id = lineisildur49
-#		position = { 1200 600 }
-#		animation = personality_honorable
-#	}
 	
 	# Dior, Prince of Ithilien
 	character = {
@@ -241,7 +165,6 @@ bm_120_fourth_age_01 = {
 	}
 	# add pelargir
 	# add dol amroth
-	# add anfalas
 	# add moountain tribes
 	# add beorning
 	# add south rhovanion
