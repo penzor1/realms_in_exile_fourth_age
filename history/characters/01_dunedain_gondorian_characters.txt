@@ -7696,7 +7696,7 @@ lineofchief28 = {
     father = lineofchief12
     mother = lineofchief12wife
 
-    sexulaity = bisexual
+    sexuality = bisexual
 
     trait = blood_of_numenor_1
 
