@@ -5479,7 +5479,7 @@ lineastandur26 = {
 		}
     }
 
-    7222.9.14 = {
+    7199.9.14 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -5498,11 +5498,6 @@ lineohtarion8wife = {
 		effect = {
 			learn_language = language_sindarin		
 		}				
-	}
-	7030.1.1 = {
-		effect = {
-			set_relation_rival = character:lineeruholion11
-		}
 	}
 
 	7057.1.1 = {
@@ -5523,8 +5518,6 @@ lineohtarion9 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
     7025.11.21 = {
         birth = yes
         effect = {
@@ -5532,7 +5525,7 @@ lineohtarion9 = {
 		}
     }
 
-    7058.10.20 = {
+    7048.10.20 = {
         add_spouse = lineohtarion10
     }
 
@@ -5550,8 +5543,6 @@ lineohtarion10 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
     7041.7.27 = {
         birth = yes
         effect = {
@@ -5559,7 +5550,7 @@ lineohtarion10 = {
 		}
     }
 
-    7143.11.27 = {
+    7127.11.27 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -5576,8 +5567,6 @@ lineohtarion11 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
     7062.1.22 = {
         birth = yes
         effect = {
@@ -5585,11 +5574,11 @@ lineohtarion11 = {
 		}
     }
 
-    7095.4.24 = {
+    7085.4.24 = {
         add_spouse = lineohtarion12
     }
 
-    7170.7.13 = {
+    7151.7.13 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -5603,8 +5592,6 @@ lineohtarion12 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
     7059.4.8 = {
         birth = yes
         effect = {
@@ -5612,7 +5599,7 @@ lineohtarion12 = {
 		}
     }
 
-    7154.5.19 = {
+    7144.5.19 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -5629,9 +5616,7 @@ lineohtarion13 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
-    7106.12.3 = {
+    7096.12.3 = {
         birth = yes
         effect = {
 			learn_language = language_sindarin
@@ -5665,7 +5650,7 @@ lineohtarion14 = {
 		}
     }
 
-    7217.10.28 = {
+    7187.10.28 = {
         death = { death_reason = death_natural_causes }
     }
 }
@@ -5682,17 +5667,39 @@ lineohtarion15 = {
 
     sexuality = heterosexual
 
-    trait = blood_of_numenor_1
-
-    7068.10.12 = {
+    7054.10.12 = {
         birth = yes
         effect = {
 			learn_language = language_sindarin
 		}
     }
 
-    7161.4.21 = {
+    7132.4.21 = {
         death = { death_reason = death_natural_causes }
+    }
+}
+
+lineohtarion16 = {
+    name = Anborn
+
+    dynasty = dynasty_ohtarion
+    religion = faith_edain
+    culture = gondorian
+
+    father = lineohtarion13
+    mother = lineohtarion14
+
+    sexuality = heterosexual
+
+    7131.12.3 = {
+        birth = yes
+        effect = {
+			learn_language = language_sindarin
+		}
+    }
+
+    7217.9.3 = {
+        death = { death_reason = death_treatment }
     }
 }
 

@@ -3558,7 +3558,7 @@ k_andrast = {
     7101.9.14 = {
         holder = lineohtarion11 #Olurin
     }
-    7170.7.13 = {
+    7151.7.13 = {
         holder = lineohtarion13 #Manwendil
     }
 }			
@@ -3623,7 +3623,7 @@ d_nan_enqui = {
     7101.9.14 = {
         holder = lineohtarion11 #Olurin
     }
-    7170.7.13 = {
+    7151.7.13 = {
         holder = lineohtarion13 #Manwendil
     }
 
@@ -3704,7 +3704,7 @@ c_tharagrondost = {
     7101.9.14 = {
         holder = lineohtarion11 #Olurin
     }
-    7170.7.13 = {
+    7151.7.13 = {
         holder = lineohtarion13 #Manwendil
     }
 
@@ -3854,7 +3854,7 @@ c_nornin = {
     7101.9.14 = {
         holder = lineohtarion11 #Olurin
     }
-    7170.7.13 = {
+    7151.7.13 = {
         holder = lineohtarion13 #Manwendil
     }	
 }
