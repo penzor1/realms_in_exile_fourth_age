@@ -1,4 +1,4 @@
-name_list_umbarrim = {
+﻿name_list_umbarrim = {
 	cadet_dynasty_names = {
         "dynn_Elatanionath"
 		"dynn_Ardamirionath"
