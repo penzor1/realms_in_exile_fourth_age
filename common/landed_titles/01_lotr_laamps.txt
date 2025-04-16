@@ -14,7 +14,7 @@ d_laamp_rangers_of_mordor = { # Eldarion's band
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
 
-	ai_primary_priority = { add = @never_primary_score }
+	ai_primary_priority = { add = @always_primary_score }
 }
 
 d_laamp_sharkey_band = { # Sharkey's Band
@@ -28,7 +28,7 @@ d_laamp_sharkey_band = { # Sharkey's Band
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
 
-	ai_primary_priority = { add = @never_primary_score }
+	ai_primary_priority = { add = @always_primary_score }
 }
 
 d_laamp_uruk_band = { # Uruks in Enedwaith
@@ -42,7 +42,7 @@ d_laamp_uruk_band = { # Uruks in Enedwaith
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
 
-	ai_primary_priority = { add = @never_primary_score }
+	ai_primary_priority = { add = @always_primary_score }
 }
 
 d_laamp_troll_band = { # Trolls under bridges
@@ -56,7 +56,7 @@ d_laamp_troll_band = { # Trolls under bridges
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
 
-	ai_primary_priority = { add = @never_primary_score }
+	ai_primary_priority = { add = @always_primary_score }
 }
 
 d_laamp_mahud_marauders = { # Trollmen in khand
@@ -70,5 +70,5 @@ d_laamp_mahud_marauders = { # Trollmen in khand
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
 
-	ai_primary_priority = { add = @never_primary_score }
+	ai_primary_priority = { add = @always_primary_score }
 }
