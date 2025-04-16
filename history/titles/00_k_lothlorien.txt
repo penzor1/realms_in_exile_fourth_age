@@ -57,7 +57,7 @@ c_melbrethil = {
 	#fiction
 	7054.9.29 = { #TA3021 # Galadriel sails west
 		holder = linefinwe29 # Elrohir
-		change_development_level = 5
+		change_development_level = 3
 	}
 }
 
@@ -74,7 +74,7 @@ c_egladil = {
 	#fiction
 	7054.9.29 = { #TA3021 # Galadriel sails west
 		holder = linefinwe29 # Elrohir
-		change_development_level = 5
+		change_development_level = 3
 	}
 }
 
@@ -91,7 +91,7 @@ c_cerin_amroth = {
 	#fiction
 	7054.9.29 = { #TA3021 # Galadriel sails west
 		holder = linefinwe29 # Elrohir
-		change_development_level = 5
+		change_development_level = 3
 	}
 }
 
@@ -103,7 +103,7 @@ c_amdirion = {
 	}
 	#fiction
 	7054.9.29 = { #TA3021 # Galadriel sails west
-		change_development_level = 5
+		change_development_level = 3
 	}
 }
 
@@ -132,7 +132,7 @@ c_nimrodel = {
 	}
 	#fiction
 	7054.9.29 = { #TA3021 # Galadriel sails west
-		change_development_level = 5
+		change_development_level = 3
 	}
 	7154.1.1 = { #FA100 # Haldir takes over East Lorien
 		holder = lineofhaldir3 # Orophin
@@ -150,7 +150,7 @@ c_harglan_nimrodel = {
 	}
 	#fiction
 	7054.9.29 = { #TA3021 # Galadriel sails west
-		change_development_level = 5
+		change_development_level = 3
 	}
 	7154.1.1 = { #FA100 # Haldir takes over East Lorien
 		holder = lineofhaldir3 # Orophin
@@ -168,7 +168,7 @@ c_thinglad = {
 	}
 	#fiction
 	7054.9.29 = { #TA3021 # Galadriel sails west
-		change_development_level = 5
+		change_development_level = 3
 	}
 }
 
