@@ -229,7 +229,7 @@ lineofozho2wife = {
 }
 
 lineofozho3 = {
-	name = Za_akk
+	name = Z_a_kk
 	dynasty = dynasty_ozho
 	religion = cult_of_zigur
 	culture = black_troll
