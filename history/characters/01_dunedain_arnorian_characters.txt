@@ -130,6 +130,7 @@ lineisildur47 = {
 			add_character_flag = is_elendur
 			add_character_flag = ai_immune_to_mental_breaks
 			learn_language = language_sindarin
+			add_character_flag = has_regnal_name
 		}
 	}
 	7275.1.1 = { # Fourth Age 222
@@ -166,6 +167,7 @@ lineisildur48 = {
 			add_character_flag = is_earendur
 			add_character_flag = ai_immune_to_mental_breaks
 			learn_language = language_sindarin
+			add_character_flag = has_regnal_name
 		}
 	}
 	7156.1.1 = {
@@ -213,6 +215,7 @@ lineisildur49 = {
 			add_character_flag = is_eldacar
 			add_character_flag = ai_immune_to_mental_breaks
 			learn_language = language_sindarin
+			add_character_flag = has_regnal_name
 		}
 	}
 	7170.1.1 = { # Fourth Age 116 # Sent to Watch
@@ -268,6 +271,7 @@ lineisildur50 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
+			add_character_flag = has_regnal_name
 		}
 	}
 	7364.1.1 = { # Fourth Age 311
@@ -295,6 +299,7 @@ lineisildur51 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
+			add_character_flag = has_regnal_name
 		}
 	}
 	7372.1.1 = { # Fourth Age 319
