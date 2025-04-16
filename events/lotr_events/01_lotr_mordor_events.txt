@@ -325,9 +325,9 @@
 		name = 01_mordor.1004.a
 		custom_tooltip = 01_mordor.1001.a.tt # There will be Repercussions
 		character:lineisildur49 = { # Eldacar
+			add_realm_law_skip_effects = camp_purpose_explorers
 			primary_title ?= {
 				set_title_name = d_laamp_rangers_of_mordor
-				add_realm_law_skip_effects = camp_purpose_explorers
 			}
 			add_stress = 50
 			spawn_army = {
