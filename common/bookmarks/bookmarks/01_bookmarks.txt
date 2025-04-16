@@ -1160,7 +1160,7 @@ bm_120_fourth_age_06 = {
 		culture = isengard_urukhai
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofsharkey2
-		position = { 400 500 }
+		position = { 350 500 }
 		animation = personality_callous
 	}
 	
