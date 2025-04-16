@@ -1,0 +1,160 @@
+﻿
+### House Tuulitar
+#fiction
+lineoftuulitar1 = {
+	name = Tuulitar
+	#dynasty = dynasty_tuulitar
+	religion = faith_angmar_azira
+	culture = angmarrim
+	#father = 
+	#mother = 
+	
+	7041.3.13 = {
+		birth = yes
+	}
+	7069.3.13 = {
+		add_spouse = lineoftuulitar1wife # Maar
+	}
+	7120.6.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineoftuulitar1wife = {
+	name = Ma_a_r
+	religion = faith_lossoth
+	culture = lossoth
+	female = yes
+	
+	7051.6.25 = {
+		birth = yes
+	}
+	7128.9.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineoftuulitar2 = {
+	name = Aikio
+	#dynasty = dynasty_tuulitar
+	religion = faith_angmar_azira
+	culture = angmarrim
+	father = lineoftuulitar1 # tuulitar
+	mother = lineoftuulitar1wife # Maar
+	
+	7075.6.1 = {
+		birth = yes
+	}
+	7100.1.20 = {
+		#add_spouse = lineoftuulitar2wife # Miela
+	}
+	7160.8.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineoftuulitar2wife = {
+	name = Miela
+	religion = faith_angmar_azira
+	culture = angmarrim
+	female = yes
+	
+	7076.1.25 = {
+		birth = yes
+	}
+	7161.10.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineoftuulitar3 = {
+	name = Aikamieli
+	#dynasty = dynasty_tuulitar
+	religion = faith_angmar_azira
+	culture = angmarrim
+	father = lineoftuulitar2 # Aikio
+	mother = lineoftuulitar2wife # Miela
+	
+	7101.9.13 = {
+		birth = yes
+		give_nickname = nick_the_shepard
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7126.6.3 = {
+		#add_spouse = lineoftuulitar3wife # Ilmatar
+	}
+	7180.7.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineoftuulitar3wife = {
+	name = Ilmatar
+	religion = faith_angmar_azira
+	culture = angmarrim
+	female = yes
+	
+	7102.7.10 = {
+		birth = yes
+	}
+	7190.11.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineoftuulitar4 = {
+	name = Kultavaino
+	#dynasty = dynasty_tuulitar
+	religion = faith_angmar_azira
+	culture = angmarrim
+	father = lineoftuulitar3 # Aikamieli
+	mother = lineoftuulitar3wife # Ilmatar
+	
+	trait = brave
+	trait = impatient
+	trait = diligent
+	trait = ambitious
+	
+	trait = strong
+	trait = logistician
+	trait = winter_soldier
+	trait = lifestyle_traveler
+	trait = lifestyle_wayfarer
+	trait = education_martial_2
+	
+	7130.6.2 = {
+		birth = yes
+		give_nickname = nick_the_shepard
+		effect = {
+			add_character_flag = had_nickname_event
+		}
+	}
+	7152.8.6 = {
+		#add_spouse = lineoftuulitar4wife # Ilmatar
+	}
+	7190.9.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineoftuulitar4wife = {
+	name = Ilmatar
+	religion = faith_angmar_azira
+	culture = angmarrim
+	female = yes
+	
+	trait = compassionate
+	
+	trait = education_intrigue_2
+	trait = beauty_good_1
+	trait = lifestyle_voyager
+	
+	7102.7.10 = {
+		birth = yes
+	}
+	7190.11.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
