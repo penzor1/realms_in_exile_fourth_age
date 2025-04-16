@@ -255,9 +255,7 @@ lineofpendor2 = {
 		birth = yes
 		give_nickname = nick_the_butcher
 		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
+			add_character_flag = had_nickname_event
 		}
 	}
 	7112.2.26 = {
