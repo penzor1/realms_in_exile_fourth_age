@@ -354,7 +354,7 @@ lotr_on_game_start = {
 		
 		
 		if = {
-			limit = { game_start_date >= 7033 }
+			limit = { game_start_date = 7033 }
 			### Remove prescripted will not marry traits on timeout ###
 			character:linesteward40 = {
 				trigger_event = {
