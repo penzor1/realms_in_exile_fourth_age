@@ -1463,7 +1463,7 @@ c_amon_lanc = {
 	#canon
 	7052.5.1 = { #TA3019 #Settling of East Lorien
 		holder = lineofelmo5 # Celeborn
-		change_development_level = 4
+		change_development_level = 3
 	}
 	#fiction
 	7154.1.1 = { #FA100 #Haldir takes over East Lorien
@@ -1510,7 +1510,7 @@ c_gorogrod = {
 	#canon
 	7052.5.1 = { #TA3019 #Settling of East Lorien
 		holder = lineofelmo5 # Celeborn
-		change_development_level = 2
+		change_development_level = 1
 	}
 	#fiction
 	7154.1.1 = { #FA100 #Haldir takes over East Lorien
@@ -1557,7 +1557,7 @@ c_dimbar = {
 	#canon
 	7052.5.1 = { #TA3019 #Settling of East Lorien
 		holder = lineofelmo5 # Celeborn
-		change_development_level = 2
+		change_development_level = 1
 	}
 	#fiction
 	7154.1.1 = { #FA100 #Haldir takes over East Lorien
@@ -1602,7 +1602,7 @@ c_barad_angol = {
 	#canon
 	7052.5.1 = { #TA3019 #Settling of East Lorien
 		holder = lineofelmo5 # Celeborn
-		change_development_level = 2
+		change_development_level = 1
 	}
 	#fiction
 	7154.1.1 = { #FA100 #Haldir takes over East Lorien
@@ -1645,7 +1645,7 @@ c_naerorn = {
 	#canon
 	7052.5.1 = { #TA3019 #Settling of East Lorien
 		holder = lineofelmo5 # Celeborn
-		change_development_level = 2
+		change_development_level = 1
 	}
 	#fiction
 	7154.1.1 = { #FA100 #Haldir takes over East Lorien
