@@ -59,3 +59,61 @@
 	}
 
 }
+
+dynasty_ozho={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=red
+	color3=white
+	colored_emblem={
+		color1=black
+		color2=grey
+		texture="ce_block_02.dds"
+		instance={
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_dol_amroth_06.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		color3=red
+		texture="ce_mordor_eye_02.dds"
+		instance={
+			position={ 0.500000 0.270000 }
+			scale={ 0.630000 0.630000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 71 10 2 }
+		texture="ce_uruk_slaughter.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=yellow
+		texture="ce_african_pattern_lozengy_03.dds"
+		instance={
+			depth=3.010000
+		}
+
+	}
+
+}
+
