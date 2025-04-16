@@ -9977,9 +9977,6 @@ lineofbelmoran2 = {
 	trait = blood_of_numenor_1
     7083.9.12 = {
         birth = yes
-		effect = {
-			learn_language = language_sindarin
-		}
     }
 
     7116.7.21 = {
