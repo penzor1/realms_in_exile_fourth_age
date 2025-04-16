@@ -7,14 +7,13 @@ umbarrim = { # The ruling class people of Umbar after Elessar's conquest
 	created = 7078.6.1 # First year of RK rule
 	parents = { gondorian umbarean }
 
-	ethos = ethos_stoic
+	ethos = ethos_egalitarian
 	heritage = heritage_dunedain
-	language = language_westron_south
+	language = language_westron
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_gondorian_legacy
 		tradition_dunedain_of_umbar
-		tradition_castle_keepers
 		tradition_ruling_caste
 		tradition_seafaring
 	}
@@ -29,7 +28,6 @@ umbarrim = { # The ruling class people of Umbar after Elessar's conquest
 	building_gfx = { numenorean_building_gfx mediterranean_building_gfx }
 	clothing_gfx = { harondorim_clothing_gfx } #replace to new mix of north_haradrim and gondorian
 	unit_gfx = { dunedain_unit_gfx }
-
 
 	ethnicities = {
 		55 = gondorian_ethnicity
