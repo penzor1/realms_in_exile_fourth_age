@@ -3,7 +3,7 @@
 #fiction
 lineoftuulitar1 = {
 	name = Tuulitar
-	#dynasty = dynasty_tuulitar
+	dynasty = dynasty_tuulitar
 	religion = faith_angmar_azira
 	culture = angmarrim
 	#father = 
@@ -36,7 +36,7 @@ lineoftuulitar1wife = {
 
 lineoftuulitar2 = {
 	name = Aikio
-	#dynasty = dynasty_tuulitar
+	dynasty = dynasty_tuulitar
 	religion = faith_angmar_azira
 	culture = angmarrim
 	father = lineoftuulitar1 # tuulitar
@@ -46,7 +46,7 @@ lineoftuulitar2 = {
 		birth = yes
 	}
 	7100.1.20 = {
-		#add_spouse = lineoftuulitar2wife # Miela
+		add_spouse = lineoftuulitar2wife # Miela
 	}
 	7160.8.12 = {
 		death = { death_reason = death_natural_causes }
@@ -69,7 +69,7 @@ lineoftuulitar2wife = {
 
 lineoftuulitar3 = {
 	name = Aikamieli
-	#dynasty = dynasty_tuulitar
+	dynasty = dynasty_tuulitar
 	religion = faith_angmar_azira
 	culture = angmarrim
 	father = lineoftuulitar2 # Aikio
@@ -83,7 +83,7 @@ lineoftuulitar3 = {
 		}
 	}
 	7126.6.3 = {
-		#add_spouse = lineoftuulitar3wife # Ilmatar
+		add_spouse = lineoftuulitar3wife # Ilmatar
 	}
 	7180.7.2 = {
 		death = { death_reason = death_natural_causes }
@@ -106,7 +106,7 @@ lineoftuulitar3wife = {
 
 lineoftuulitar4 = {
 	name = Kultavaino
-	#dynasty = dynasty_tuulitar
+	dynasty = dynasty_tuulitar
 	religion = faith_angmar_azira
 	culture = angmarrim
 	father = lineoftuulitar3 # Aikamieli
@@ -131,8 +131,8 @@ lineoftuulitar4 = {
 			add_character_flag = had_nickname_event
 		}
 	}
-	7152.8.6 = {
-		#add_spouse = lineoftuulitar4wife # Ilmatar
+	7162.8.6 = {
+		add_spouse = lineoftuulitar4wife # Ilmatar
 	}
 	7190.9.13 = {
 		death = { death_reason = death_natural_causes }
@@ -151,7 +151,7 @@ lineoftuulitar4wife = {
 	trait = beauty_good_1
 	trait = lifestyle_voyager
 	
-	7102.7.10 = {
+	7141.7.10 = {
 		birth = yes
 	}
 	7190.11.3 = {
