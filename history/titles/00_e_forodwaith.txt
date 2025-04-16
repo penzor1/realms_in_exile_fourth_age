@@ -1840,6 +1840,12 @@ c_palo = {
 		change_development_level = -100
 		government = wastelands_government
 	}
+	#fiction
+		holder = lineoftuulitar4
+		liege = 0
+		change_development_level = 3
+		government = tribal_government
+	}
 }
 c_paksu_ma = {
 	5200.1.1 = {
