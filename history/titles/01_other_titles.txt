@@ -21,8 +21,13 @@ d_ingors_expedition = {
 }
 
 k_arnor_regent = {
-	7174.3.2 = { 
-		holder = lineisildur48 # Anarion settles in the lands of Arnor
+	7174.3.3 = { 
+		holder = lineisildur48 # Earendur is proclaimed regent of Arnor
+		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
+	}
+	7324.1.1 = { 
+		holder = lineisildur51 # Earnur
 		liege = e_reunitedkingdom
 		de_jure_liege = e_reunitedkingdom
 	}
