@@ -1,11 +1,9 @@
-﻿
-	# Special
+﻿	# Special
 	nick_sharkey = { is_prefix = yes }
 	nick_sharkey_saruman = { is_prefix = yes } # Saruman
 	nick_the_old_shadow = {}
 	nick_the_last_flame = {}
 	nick_reaverbane = {}
-
 	# Generic
 	nick_the_humongous = { is_bad = yes } # Golmog
 	nick_the_wanderer = { is_bad = yes } # Varya
@@ -18,21 +16,17 @@
 	nick_the_manipulator_orc = {} # Now uassigned
 	nick_the_tormentor_orc = {} # Hurog the Manipulator, son of Gorgol the Proud
 	nick_troll_king = {} # Troll-King Zagbug the Cave Troll
-
 	# Hobbit
 	nick_of_the_towers = {} # Fairbairns
 	nick_luckwearer = {} # Bilbo Baggins
-	
 	# Dúnedain
 	nick_envinyatar = {} # Elessar
 	nick_andumire = {} # Eldarion
-	
 	# Dwarf
 	nick_the_unworthy_dwarf = {} # Olius the Unworthy
 	nick_glitterbeard = {} # Wirwir of Aglarond
 	nick_orcsfoe = {} # Nain I
 	nick_the_slakeless = {}	# Dwarf - Náin the Slakeless, son of Dáin II 'Ironfoot'
-	
 	# Dwarf-Father last reincarnation nicknames
 	nick_the_last_dorfdad_durin = {} # Durin the Deathless of the Longbeards 
 	nick_the_last_dorfdad_dwalin = {} # Dwálin the Wise of the Broadbeams
