@@ -14,7 +14,7 @@ d_ithillond = {
 
 d_ingors_expedition = {
 	7174.1.1 = { # Expedition led into the Grey Mountains by Ingor son of Vekun II, brother of King Otek VII
-		holder = lineofthelor904 # Ingor
+		holder = lineofsindriIngor # Ingor
 		liege = 0
 	}
 }
