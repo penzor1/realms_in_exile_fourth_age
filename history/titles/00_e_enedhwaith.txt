@@ -3899,23 +3899,16 @@ d_perth_maiwin = {
 		holder = 0
 		liege = 0
 	}
-	7052.5.1 = {  
-		holder = lineofmorthil1 # Elentur
-		government = feudal_government
-		liege = k_andrast
+	7052.5.1 = {
+		holder = lineohtarion9 #Handir
 		de_jure_liege = e_reunitedkingdom
+		liege = k_andrast
     }
-	7105.1.7 = {
-        holder = lineofmorthil2 #Hostamir
+    7101.9.14 = {
+        holder = lineohtarion11 #Olurin
     }
-    7127.5.10 = {
-        holder = lineofmorthil4 #Falmandur
-    }
-    7188.11.14 = {
-        holder = lineofmorthil6 #Nolimon
-    }
-	7221.9.17 = {
-        holder = lineofmorthil8 #Castaher
+    7151.7.13 = {
+        holder = lineohtarion13 #Manwendil
     }
 }
 c_ulond = {
@@ -3981,25 +3974,19 @@ c_ulond = {
 		holder = lineeruholion11	#corsair count in andrast
 		government = feudal_government	
 	}
-	7050.5.12 = { # The last member of House an Ulond Hallas, son of Alquandur the last Castellan dies from his battle wounds in Ulond after slaying the Andrake, the title goes his friend and battle companion of the new house An Morthil
-	holder = lineofmorthil1 # Elentur
+	7050.5.12 = { # The last member of House an Ulond Hallas, son of Alquandur the last Castellan dies from his battle wounds in Ulond after slaying the Andrake.
+	holder = lineohtarion9 #Handir
+	liege = k_andrast
 	government = feudal_government
 	}
-	7052.5.1 = {   
-		liege = k_andrast
+	7052.5.1 = {
 		de_jure_liege = e_reunitedkingdom
     }
-	7105.1.7 = {
-        holder = lineofmorthil2 #Hostamir
+    7101.9.14 = {
+        holder = lineohtarion11 #Olurin
     }
-    7127.5.10 = {
-        holder = lineofmorthil4 #Falmandur
-    }
-    7188.11.14 = {
-        holder = lineofmorthil6 #Nolimon
-    }
-	7221.9.17 = {
-        holder = lineofmorthil8 #Castaher
+    7151.7.13 = {
+        holder = lineohtarion13 #Manwendil
     }
 }
 c_rafinfalas = {
@@ -4078,23 +4065,16 @@ c_rafinfalas = {
     7028.2.21 = {
         holder = line_tonredin31 #Gere
     }
-	7052.5.1 = {  
-		holder = lineofmorthil1 # Elentur
-		government = feudal_government
-		liege = k_andrast
+	7052.5.1 = {
+		holder = lineohtarion9 #Handir
 		de_jure_liege = e_reunitedkingdom
+		liege = k_andrast
     }
-	7105.1.7 = {
-        holder = lineofmorthil2 #Hostamir
+    7101.9.14 = {
+        holder = lineohtarion11 #Olurin
     }
-    7127.5.10 = {
-        holder = lineofmorthil4 #Falmandur
-    }
-    7188.11.14 = {
-        holder = lineofmorthil6 #Nolimon
-    }
-	7221.9.17 = {
-        holder = lineofmorthil8 #Castaher
+    7151.7.13 = {
+        holder = lineohtarion13 #Manwendil
     }
 }
 
@@ -4124,23 +4104,16 @@ d_parth_i_certemar = {
 		holder = 0
 		liege = 0
 	}
-    7052.5.1 = {  
-		holder = lineofmorthil1 # Elentur
-		government = feudal_government
-		liege = k_andrast
+    7052.5.1 = {
+		holder = lineohtarion9 #Handir
 		de_jure_liege = e_reunitedkingdom
+		liege = k_andrast
     }
-	7105.1.7 = {
-        holder = lineofmorthil2 #Hostamir
+    7101.9.14 = {
+        holder = lineohtarion11 #Olurin
     }
-    7127.5.10 = {
-        holder = lineofmorthil4 #Falmandur
-    }
-    7188.11.14 = {
-        holder = lineofmorthil6 #Nolimon
-    }
-	7221.9.17 = {
-        holder = lineofmorthil8 #Castaher
+    7151.7.13 = {
+        holder = lineohtarion13 #Manwendil
     }
 }
 c_aralanthir = {
@@ -4252,23 +4225,16 @@ c_nannthorod = {
 	7017.11.18 = {			
 		holder = line_tonredin19	
 	}
-	7052.5.1 = {  
-		holder = lineofmorthil1 # Elentur
-		government = feudal_government
-		liege = k_andrast
+	7052.5.1 = {
+		holder = lineohtarion9 #Handir
 		de_jure_liege = e_reunitedkingdom
+		liege = k_andrast
     }
-	7105.1.7 = {
-        holder = lineofmorthil2 #Hostamir
+    7101.9.14 = {
+        holder = lineohtarion11 #Olurin
     }
-    7127.5.10 = {
-        holder = lineofmorthil4 #Falmandur
-    }
-    7188.11.14 = {
-        holder = lineofmorthil6 #Nolimon
-    }
-	7221.9.17 = {
-        holder = lineofmorthil8 #Castaher
+    7151.7.13 = {
+        holder = lineohtarion13 #Manwendil
     }
 }
 

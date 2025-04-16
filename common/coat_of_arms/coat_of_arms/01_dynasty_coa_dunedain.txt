@@ -1,4 +1,4 @@
-﻿dynasty_an_morthil={ # Made by Alrain, full credit
+﻿house_dunaer={ # Made by Alrain, full credit
     pattern="pattern_numenorean_base_02.dds"
     color1=white
     color2=rgb { 42 80 116 }
