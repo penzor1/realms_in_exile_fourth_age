@@ -14,11 +14,14 @@ d_laamp_rangers_of_mordor = {
 			set_variable = { name = adventurer_creation_reason value = flag:historical }
 		}
 	}
+	7200.1.1 = {
+		holder = 0
+	}
 }
 
 d_laamp_uruk_band = {
 	7051.7.10 = { # Treachery of Isengard revealed
-		holder = lineofugluk1 # Ugluk
+		holder = isengardlurtz # Lurtz
 		government = landless_adventurer_government
 		succession_laws = { landless_adventurer_succession_law }
 		effect = {
@@ -32,8 +35,14 @@ d_laamp_uruk_band = {
 			set_variable = { name = adventurer_creation_reason value = flag:historical }
 		}
 	}
+	7052.2.26 = { # Battle of Eaves of Fangorn
+		holder = lineofugluk1 # Ugluk
+	}
 	7052.2.28 = { # Battle of Eaves of Fangorn
 		holder = lineofugluk2 # Karluk
+	}
+	7200.1.1 = {
+		holder = 0
 	}
 }
 
@@ -59,6 +68,9 @@ d_laamp_sharkey_band = {
 	7110.4.9 = {
 		holder = lineofsharkey2 # Shardakh
 	}
+	7200.1.1 = {
+		holder = 0
+	}
 }
 
 d_laamp_troll_band = {
@@ -77,11 +89,14 @@ d_laamp_troll_band = {
 			set_variable = { name = adventurer_creation_reason value = flag:historical }
 		}
 	}
+	7200.1.1 = {
+		holder = 0
+	}
 }
 
 d_laamp_mahud_marauders = {
-	7174.3.1 = {
-		holder = 0 #
+	7034.1.1 = {
+		holder = lineofozho1 # Ozho
 		government = landless_adventurer_government
 		succession_laws = { landless_adventurer_succession_law }
 		effect = {
@@ -94,5 +109,17 @@ d_laamp_mahud_marauders = {
 			create_landless_adventurer_title_history_effect = yes
 			set_variable = { name = adventurer_creation_reason value = flag:historical }
 		}
+	}
+	7052.3.15 = { # Battle of Pelennor
+		holder = lineofozho2 # Borghal
+	}
+	7160.6.19 = {
+		holder = lineofozho3 # Zakk
+	}
+	7236.1.13 = {
+		holder = lineofozho4 # Rakhaad
+	}
+	7250.1.1 = {
+		holder = 0
 	}
 }
