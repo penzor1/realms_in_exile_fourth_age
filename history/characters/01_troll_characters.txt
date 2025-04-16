@@ -253,6 +253,8 @@ lineofozho3 = {
 	trait = education_martial_3
 	trait = physique_good_2
 	trait = strong
+	trait = gallowsbait
+	trait = rough_terrain_expert
 	
 	7108.2.3 = {
 		birth = yes
@@ -261,7 +263,6 @@ lineofozho3 = {
 		domicile ?= { move_domicile = province:2260 } #b_chikehr
 		effect = {
 			add_realm_law_skip_effects = camp_purpose_mercenaries
-			add_courtier = character:lineofozho4 # Rakhaad
 		}
 	}
 	7236.1.13 = {
@@ -276,7 +277,23 @@ lineofozho4 = {
 	culture = black_troll
 
 	#dna = rakhaad_dna # a more humanoid dna compared to ologhai, trollmen are supposed to be half haradrim half ologhai
-
+	
+	diplomacy = 3
+	martial = 8
+	stewardship = 4
+	intrigue = 5
+	learning = 3
+	prowess = 10
+	
+	trait = callous
+	trait = wrathful
+	trait = gregarious
+	
+	trait = athletic
+	trait = flagellant
+	trait = gallowsbait
+	trait = reaver
+	
 	father = lineofozho2 # Borghal
 	mother = lineofozho2wife # Ruza
 	
