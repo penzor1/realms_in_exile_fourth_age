@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
 # History database id:lineoftuulitar3
-historical_export_lineoftuulitar3={
+bookmark_fa_06_aikamieli={
 	type=male
 	id=34780
 	random_seed=2448030062
