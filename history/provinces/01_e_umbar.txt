@@ -33,7 +33,7 @@
 	}
 	###fiction
     7078.6.1 = { # RK Conquest of Umbar
-		culture = hyarmenedain
+		culture = umbarrim
 		religion = faith_edain
 	}
 }
@@ -59,7 +59,7 @@
 	}
 	###fiction
     7078.6.1 = { # RK Conquest of Umbar
-		culture = hyarmenedain
+		culture = umbarrim
 		religion = faith_edain
 	}
 }
@@ -85,7 +85,7 @@
 	}
 	###fiction
     7078.6.1 = { # RK Conquest of Umbar
-		culture = hyarmenedain
+		culture = umbarrim
 		religion = faith_edain
 	}
 }
@@ -111,7 +111,7 @@
 	}
 	###fiction
     7078.6.1 = { # RK Conquest of Umbar
-		culture = hyarmenedain
+		culture = umbarrim
 		religion = faith_edain
 	}
 }
@@ -136,7 +136,7 @@
 	}
 	###fiction
     7078.6.1 = { # RK Conquest of Umbar
-		culture = hyarmenedain
+		culture = umbarrim
 		religion = faith_edain
 	}
 }
@@ -309,7 +309,7 @@
 	}
 	###fiction
     7078.6.1 = { # RK Conquest of Umbar
-		culture = hyarmenedain
+		culture = umbarrim
 		religion = faith_edain
 	}
 }
@@ -325,7 +325,7 @@
 	}
 	###fiction
     7078.6.1 = { # RK Conquest of Umbar
-		culture = hyarmenedain
+		culture = umbarrim
 		religion = faith_edain
 	}
 }
@@ -336,7 +336,7 @@
 	holding = none
 	###fiction
     7078.6.1 = { # RK Conquest of Umbar
-		culture = hyarmenedain
+		culture = umbarrim
 		religion = faith_edain
 	}
 }
@@ -355,7 +355,7 @@
 	}
 	###fiction
     7078.6.1 = { # RK Conquest of Umbar
-		culture = hyarmenedain
+		culture = umbarrim
 		religion = faith_edain
 	}
 }
