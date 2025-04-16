@@ -1,4 +1,4 @@
-elendur_dna={ 
+﻿elendur_dna={ 
 	portrait_info = {
 		genes={		
 			hair_color={ 61 245 61 245 }
