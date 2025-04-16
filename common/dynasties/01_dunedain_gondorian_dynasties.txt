@@ -8,8 +8,8 @@ dynasty_herumori = {
 	motto = dynn_herumori_motto
 }
 
-dynasty_ciryaloth = {
-	name = "dynn_ciryaloth"
+dynasty_asturui = {
+	name = "dynn_asturui"
 	culture = "gondorian"
-	motto = dynn_ciryaloth_motto
+	motto = dynn_asturui_motto
 }

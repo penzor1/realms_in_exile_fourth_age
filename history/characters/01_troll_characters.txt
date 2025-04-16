@@ -43,10 +43,10 @@ lineoftrollking1 = {
 lineofyagmuz1 = {
 	name = Yagm_u_z
 	dynasty = dynasty_yagmuz
-	religion = sons_of_sauron
-	culture = black_troll
+	religion = way_of_strength
+	culture = sand_troll
 
-	dna = yagmuz_dna
+	# dna = yagmuz_dna
 
 	#father = 
 	#mother = 
@@ -81,8 +81,8 @@ lineofyagmuz1wife = {
 	name = Garghira
 	female = yes
 
-	religion = sons_of_sauron
-	culture = black_troll
+	religion = way_of_strength
+	culture = sand_troll
 
 	trait = eccentric
 	trait = wrathful
@@ -101,10 +101,10 @@ lineofyagmuz1wife = {
 lineofyagmuz2 = {
 	name = Shagdush
 	dynasty = dynasty_yagmuz
-	religion = sons_of_sauron
-	culture = black_troll
+	religion = way_of_strength
+	culture = sand_troll
 
-	dna = shagdush_dna
+	# dna = shagdush_dna
 
 	father = lineofyagmuz1 # Yagmuz
 	mother = lineofyagmuz1wife # Garghira
@@ -137,10 +137,10 @@ lineofyagmuz2 = {
 lineofyagmuz3 = {
 	name = Uglag
 	dynasty = dynasty_yagmuz
-	religion = sons_of_sauron
-	culture = black_troll
+	religion = way_of_strength
+	culture = sand_troll
 
-	dna = uglag_dna
+	# dna = uglag_dna
 
 	father = lineofyagmuz1 # Yagmuz
 	mother = lineofyagmuz1wife # Garghira

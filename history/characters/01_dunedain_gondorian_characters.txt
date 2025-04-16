@@ -8168,12 +8168,12 @@ lineorontorion23 = {
     }
 }
 
-# Line of Ciryaloth
+# Line of An Astúrui
 
-lineciryaloth1 = {
+lineasturui1 = {
     name = Ohtar
 
-    dynasty = dynasty_ciryaloth
+    dynasty = dynasty_asturui
     religion = faith_edain
     culture = harondorim
 
@@ -8202,7 +8202,7 @@ lineciryaloth1 = {
     }
 
     7014.10.16 = {
-        add_spouse = lineciryaloth2
+        add_spouse = lineasturui2
     }
 
     7071.3.19 = {
@@ -8210,7 +8210,7 @@ lineciryaloth1 = {
     }
 }
 
-lineciryaloth2 = {
+lineasturui2 = {
     name = Meldis
     female = yes
 
@@ -8246,15 +8246,15 @@ lineciryaloth2 = {
     }
 }
 
-lineciryaloth3 = {
+lineasturui3 = {
     name = Salmandur
 
-    dynasty = dynasty_ciryaloth
+    dynasty = dynasty_asturui
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth1
-    mother = lineciryaloth2
+    father = lineasturui1
+    mother = lineasturui2
 
     sexuality = heterosexual
 
@@ -8268,7 +8268,7 @@ lineciryaloth3 = {
     }
 
     7048.2.26 = {
-        add_spouse = lineciryaloth4
+        add_spouse = lineasturui4
     }
 
     7117.12.6 = {
@@ -8276,7 +8276,7 @@ lineciryaloth3 = {
     }
 }
 
-lineciryaloth4 = {
+lineasturui4 = {
     name = Noliel
     female = yes
 
@@ -8299,15 +8299,15 @@ lineciryaloth4 = {
     }
 }
 
-lineciryaloth5 = {
+lineasturui5 = {
     name = Alquandil
 
-    dynasty = dynasty_ciryaloth
+    dynasty = dynasty_asturui
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth3
-    mother = lineciryaloth4
+    father = lineasturui3
+    mother = lineasturui4
 
     sexuality = heterosexual
 
@@ -8321,7 +8321,7 @@ lineciryaloth5 = {
     }
 
     7085.11.16 = {
-        add_spouse = lineciryaloth6
+        add_spouse = lineasturui6
     }
 
     7133.10.18 = {
@@ -8329,7 +8329,7 @@ lineciryaloth5 = {
     }
 }
 
-lineciryaloth6 = {
+lineasturui6 = {
     name = Arwing
     female = yes
 
@@ -8352,15 +8352,15 @@ lineciryaloth6 = {
     }
 }
 
-lineciryaloth7 = {
+lineasturui7 = {
     name = Mirime
     female = yes
 
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth5
-    mother = lineciryaloth6
+    father = lineasturui5
+    mother = lineasturui6
 
     sexuality = heterosexual
 
@@ -8378,15 +8378,15 @@ lineciryaloth7 = {
     }
 }
 
-lineciryaloth8 = {
+lineasturui8 = {
     name = Arbereth
     female = yes
 
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth5
-    mother = lineciryaloth6
+    father = lineasturui5
+    mother = lineasturui6
 
     sexuality = heterosexual
 
@@ -8404,15 +8404,15 @@ lineciryaloth8 = {
     }
 }
 
-lineciryaloth9 = {
+lineasturui9 = {
     name = Romestamo
 
-    dynasty = dynasty_ciryaloth
+    dynasty = dynasty_asturui
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth5
-    mother = lineciryaloth6
+    father = lineasturui5
+    mother = lineasturui6
 
     sexuality = heterosexual
 
@@ -8426,7 +8426,7 @@ lineciryaloth9 = {
     }
 
     7131.12.28 = {
-        add_spouse = lineciryaloth10
+        add_spouse = lineasturui10
     }
 
     7187.11.8 = {
@@ -8434,7 +8434,7 @@ lineciryaloth9 = {
     }
 }
 
-lineciryaloth10 = {
+lineasturui10 = {
     name = Tarandis
     female = yes
 
@@ -8457,15 +8457,15 @@ lineciryaloth10 = {
     }
 }
 
-lineciryaloth11 = {
+lineasturui11 = {
     name = Ithilwing
     female = yes
 
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth3
-    mother = lineciryaloth4
+    father = lineasturui3
+    mother = lineasturui4
 
     sexuality = heterosexual
 
@@ -8483,15 +8483,15 @@ lineciryaloth11 = {
     }
 }
 
-lineciryaloth12 = {
+lineasturui12 = {
     name = Arniel
     female = yes
 
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth1
-    mother = lineciryaloth2
+    father = lineasturui1
+    mother = lineasturui2
 
     sexuality = heterosexual
 
@@ -8509,15 +8509,15 @@ lineciryaloth12 = {
     }
 }
 
-lineciryaloth13 = {
+lineasturui13 = {
     name = Huor
 
-    dynasty = dynasty_ciryaloth
+    dynasty = dynasty_asturui
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth1
-    mother = lineciryaloth2
+    father = lineasturui1
+    mother = lineasturui2
 
     sexuality = heterosexual
 
@@ -8531,7 +8531,7 @@ lineciryaloth13 = {
     }
 
     7068.5.2 = {
-        add_spouse = lineciryaloth14
+        add_spouse = lineasturui14
     }
 
     7142.3.19 = {
@@ -8539,7 +8539,7 @@ lineciryaloth13 = {
     }
 }
 
-lineciryaloth14 = {
+lineasturui14 = {
     name = Forowen
     female = yes
 
@@ -8562,15 +8562,15 @@ lineciryaloth14 = {
     }
 }
 
-lineciryaloth15 = {
+lineasturui15 = {
     name = Isilatan
 
-    dynasty = dynasty_ciryaloth
+    dynasty = dynasty_asturui
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth13
-    mother = lineciryaloth14
+    father = lineasturui13
+    mother = lineasturui14
 
     sexuality = heterosexual
 
@@ -8584,7 +8584,7 @@ lineciryaloth15 = {
     }
 
     7121.7.1 = {
-        add_spouse = lineciryaloth16
+        add_spouse = lineasturui16
     }
 
     7153.1.14 = {
@@ -8592,7 +8592,7 @@ lineciryaloth15 = {
     }
 }
 
-lineciryaloth16 = {
+lineasturui16 = {
     name = Turwen
     female = yes
 
@@ -8615,15 +8615,15 @@ lineciryaloth16 = {
     }
 }
 
-lineciryaloth17 = {
+lineasturui17 = {
     name = Saelind
     female = yes
 
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth15
-    mother = lineciryaloth16
+    father = lineasturui15
+    mother = lineasturui16
 
     sexuality = heterosexual
 
@@ -8641,15 +8641,15 @@ lineciryaloth17 = {
     }
 }
 
-lineciryaloth18 = {
+lineasturui18 = {
     name = Aryawen
     female = yes
 
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth15
-    mother = lineciryaloth16
+    father = lineasturui15
+    mother = lineasturui16
 
     sexuality = heterosexual
 
@@ -8667,15 +8667,15 @@ lineciryaloth18 = {
     }
 }
 
-lineciryaloth19 = {
+lineasturui19 = {
     name = Elegost
 
-    dynasty = dynasty_ciryaloth
+    dynasty = dynasty_asturui
     religion = faith_edain
     culture = harondorim
 
-    father = lineciryaloth15
-    mother = lineciryaloth16
+    father = lineasturui15
+    mother = lineasturui16
 
     sexuality = heterosexual
 
@@ -8689,7 +8689,7 @@ lineciryaloth19 = {
     }
 
     7170.4.20 = {
-        add_spouse = lineciryaloth20
+        add_spouse = lineasturui20
     }
 
     7223.10.11 = {
@@ -8697,7 +8697,7 @@ lineciryaloth19 = {
     }
 }
 
-lineciryaloth20 = {
+lineasturui20 = {
     name = Fuiniel
     female = yes
 
