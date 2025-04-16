@@ -1,5 +1,4 @@
 ﻿l_english:
-
  ### DAEN
  dynn_mananach:0 "Mananach"
  dynn_devin:0 "Devin"
@@ -11,6 +10,7 @@
  dynn_oran:0 "Oran"
  dynn_bondin:0 "Bondin"
  dynn_ruinond:0 "Ruinond"
+ dynn_tuulitar:0 "Tuulitar"
  ### DWARF
  dynn_bofur:0 "Bofur"
  dynn_bifur:0 "Bifur"
