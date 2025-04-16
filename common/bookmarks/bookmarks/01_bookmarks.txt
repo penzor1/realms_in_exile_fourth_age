@@ -730,7 +730,7 @@ bm_120_fourth_age_04 = {
 		culture = black_troll
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofyagmuz2
-		position = { 1200 600 }
+		position = { 1150 600 }
 		animation = personality_vengeful
 		# Uglag, brother of Shagdush
 		character = {
@@ -768,7 +768,7 @@ bm_120_fourth_age_05 = {
 		culture = firebeards
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofuri90
-		position = { 300 450 }
+		position = { 300 250 }
 		animation = disapproval
 	}
 	
@@ -785,7 +785,7 @@ bm_120_fourth_age_05 = {
 		culture = firebeards
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofuri126
-		position = { 350 700 }
+		position = { 350 450 }
 		animation = personality_dishonorable
 		# Olius, the Unworthy
 		character = {
@@ -924,6 +924,23 @@ bm_120_fourth_age_05 = {
 		}
 	}
 	
+#	# Nordri, the Holdout
+#	character = {
+#		name = "bookmark_fa_05_nordri"
+#		dynasty = dynasty_gorin
+#		dynasty_splendor_level = 10
+#		type = male
+#		birth = 6935.3.3
+#		title = c_nordinbad
+#		government = feudal_government
+#		religion = faith_khazad
+#		culture = longbeards
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+#		history_id = linegorin9
+#		position = { 900 200 }
+#		animation = personality_honorable
+#	}
+	
 	# Durin VII, the Last
 	character = {
 		name = "bookmark_fa_05_durin"
@@ -965,23 +982,6 @@ bm_120_fourth_age_05 = {
 			history_id = lineofdurin108
 		}
 	}
-	
-#	# Nordri, the Holdout
-#	character = {
-#		name = "bookmark_fa_05_nordri"
-#		dynasty = dynasty_gorin
-#		dynasty_splendor_level = 10
-#		type = male
-#		birth = 6935.3.3
-#		title = c_nordinbad
-#		government = feudal_government
-#		religion = faith_khazad
-#		culture = longbeards
-#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-#		history_id = linegorin9
-#		position = { 900 300 }
-#		animation = personality_honorable
-#	}
 	
 	# Durblakh the Dragon
 	character = {
@@ -1142,30 +1142,10 @@ bm_120_fourth_age_06 = {
 		value = 0
 	}
 	
-	# add saralain
-	# add dunland
 	# add lossoth
 	# add angmar orcs
 	# add framling
 	# add new rhovanion
-	# add orc tribe in harad
-	
-	# Goblin, dorwinion roofsleeper clan
-#	character = {
-#		name = "bookmark_fa_06_goblin"
-#		dynasty = dynasty_rob
-#		dynasty_splendor_level = 10
-#		type = male
-#		birth = 7062.5.7
-#		title = c_rovlarand
-#		government = tribal_government
-#		religion = sons_of_sauron
-#		culture = roofsleeper_goblin
-#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-#		history_id = lineofrob2
-#		position = { 1100 850 }
-#		animation = personality_honorable
-#	}
 	
 	# Shardakh, the Scion
 	character = {
@@ -1180,7 +1160,7 @@ bm_120_fourth_age_06 = {
 		culture = isengard_urukhai
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofsharkey2
-		position = { 400 300 }
+		position = { 400 500 }
 		animation = personality_callous
 	}
 	
@@ -1197,7 +1177,7 @@ bm_120_fourth_age_06 = {
 		culture = isengard_urukhai
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofugluk2
-		position = { 400 600 }
+		position = { 450 700 }
 		animation = personality_irrational
 	}
 	
@@ -1214,7 +1194,7 @@ bm_120_fourth_age_06 = {
 		culture = cave_troll
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineoftrollking1
-		position = { 750 200 }
+		position = { 750 300 }
 		animation = personality_vengeful
 	}
 	
@@ -1231,7 +1211,7 @@ bm_120_fourth_age_06 = {
 		culture = kazgumhoth
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineukorg6
-		position = { 800 500 }
+		position = { 900 500 }
 		animation = personality_greedy
 		# Ukorg, 
 		character = {
@@ -1260,6 +1240,26 @@ bm_120_fourth_age_06 = {
 			history_id = lineukorg8
 		}
 	}
+	
+	# add dunland
+	# add orc tribe in harad
+	
+	# Goblin, the Sleeper
+#	character = {
+#		name = "bookmark_fa_06_goblin"
+#		dynasty = dynasty_rob
+#		dynasty_splendor_level = 10
+#		type = male
+#		birth = 7062.5.7
+#		title = c_rovlarand
+#		government = tribal_government
+#		religion = sons_of_sauron
+#		culture = roofsleeper_goblin
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+#		history_id = lineofrob2
+#		position = { 1100 850 }
+#		animation = personality_honorable
+#	}
 	
 	# Gharsh, the Rat
 	character = {
@@ -1304,7 +1304,7 @@ bm_120_fourth_age_06 = {
 		culture = black_numenorean
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = mouthofsauron
-		position = { 1000 800 }
+		position = { 1100 800 }
 		animation = personality_zealous
 	}
 }
