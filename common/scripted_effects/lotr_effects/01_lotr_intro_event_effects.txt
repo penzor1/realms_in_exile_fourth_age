@@ -350,23 +350,24 @@ fire_intro_events_0120 = {
 	
 	### HUMANS INTRO EVENTS ###
 	# ARNOR
-	#character:lineisildur48 = { # Eärendur Intro # temp
-	#	if = {
-	#		limit = {
-	#			is_alive = yes
-	#		}
-	#		trigger_event = {
-	#			id = ns_lotr_intro_events.6001
-	#			days = { 5 10 }
-	#		}
-	#	}
-	#}
+	character:lineisildur48 = { # Earendur Intro
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = ns_lotr_intro_events.6001
+				days = { 5 10 }
+			}
+		}
+	}
 	
 	# GONDOR
 	every_ruler = { # Death of Aragorn
 		if = {
 			limit = {
 				is_playable_character = yes
+				NOT = { is_evil = yes } # we do not care
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.6201
@@ -413,10 +414,14 @@ fire_intro_events_0120 = {
 	
 	# ROHAN
 	# Rohan intro
-	#character:lineofeofor20 = { # Eofara
+	#every_ruler = { # Ride of the Eorlings
 	#	if = {
 	#		limit = {
-	#			is_alive = yes
+	#			is_playable_character = yes
+	#			OR = {
+	#				has_title = title:k_rohan
+	#				is_vassal_or_below_of = title:k_rohan.holder
+	#			}
 	#		}
 	#		trigger_event = {
 	#			id = ns_lotr_intro_events.6401
@@ -431,8 +436,8 @@ fire_intro_events_0120 = {
 	#			is_alive = yes
 	#		}
 	#		trigger_event = {
-	#			id = ns_lotr_intro_events.6401 #wad same
-	#			days = { 5 10 }
+	#			id = ns_lotr_intro_events.6406
+	#			days = { 10 15 }
 	#		}
 	#	}
 	#}
