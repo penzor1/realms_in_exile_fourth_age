@@ -1259,7 +1259,23 @@ bm_120_fourth_age_06 = {
 	}
 	
 	# add dunland
-	# add orc tribe in harad
+	
+	# Mordu, the Old Shadow
+	character = {
+		name = "bookmark_fa_06_herumor"
+		dynasty = dynasty_herumori
+		dynasty_splendor_level = 10
+		type = male
+		birth = 6958.1.1
+		title = k_dark_lord
+		government = landless_adventurer_government
+		religion = lidless_eye			
+		culture = black_numenorean
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = mouthofsauron
+		position = { 850 800 }
+		animation = personality_zealous
+	}
 	
 	# Goblin, the Sleeper
 #	character = {
@@ -1308,19 +1324,19 @@ bm_120_fourth_age_06 = {
 		}
 	}
 	
-	# Mordu, the Old Shadow
+	# Zakk, the Red Devil
 	character = {
-		name = "bookmark_fa_06_herumor"
-		dynasty = dynasty_herumori
+		name = "bookmark_fa_06_zakk"
+		dynasty = dynasty_ozho
 		dynasty_splendor_level = 10
 		type = male
-		birth = 6958.1.1
-		title = k_dark_lord
+		birth = 7108.2.3
+		title = d_laamp_mahud_marauders
 		government = landless_adventurer_government
-		religion = lidless_eye			
-		culture = black_numenorean
+		religion = cult_of_zigur
+		culture = black_troll
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = mouthofsauron
+		history_id = lineofozho3
 		position = { 1100 800 }
 		animation = personality_zealous
 	}
