@@ -1375,7 +1375,7 @@ bm_120_fourth_age_06 = {
 		title = d_laamp_mahud_marauders
 		government = landless_adventurer_government
 		religion = cult_of_zigur
-		culture = black_troll
+		culture = sand_troll
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = lineofozho3
 		position = { 1150 800 }
@@ -1390,7 +1390,7 @@ bm_120_fourth_age_06 = {
 			title = d_laamp_mahud_marauders
 			government = landless_adventurer_government
 			religion = cult_of_zigur
-			culture = black_troll
+			culture = sand_troll
 			history_id = lineofozho4
 		}
 	}
