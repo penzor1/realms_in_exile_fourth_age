@@ -275,7 +275,7 @@ lineisildur50 = {
 	}
 }
 
-## Children of Eärendur and ? ##
+## Children of Earendur and ? ##
 lineisildur51 = {
 	name = E_a_arnur # Earnur 2nd King of restored Arnor
 	dynasty_house = house_telcontar #house_anarioni later
