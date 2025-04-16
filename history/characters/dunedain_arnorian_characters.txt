@@ -1778,6 +1778,7 @@ lineisildur42 = { #Aragorn, you know who he is
     }
 	7052.5.1 = { #TA3019
 		name = "Elessar"
+        dynasty_house = house_telcontar
 		effect = {
 			remove_trait = cannot_marry
 			remove_trait = celibate
