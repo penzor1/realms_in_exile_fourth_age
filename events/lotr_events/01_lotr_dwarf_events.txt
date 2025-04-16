@@ -1,0 +1,66 @@
+﻿namespace = 01_dwarf
+
+#################################
+
+01_dwarf.0011 = { # Become Glitterbeard event
+	content_source = realms_dlc
+	type = character_event
+	title = 01_dwarf.0011.t
+	desc = 01_dwarf.0011.desc
+	theme = realm
+	override_background = {
+		reference = underground_caverns_01
+	}
+	right_portrait = {
+		character = title:c_glittering_caves.holder # lord
+		animation = happiness
+	}
+	
+	immediate = {
+		play_music_cue = lotr_cue_elves
+		root = {
+			save_scope_as = diverger
+		}
+		capital_county = {
+			save_scope_as = capital_county_scope
+		}
+		capital_county.culture = {
+			save_scope_as = divergence_offer_culture
+		}
+		hidden_effect = {
+			create_divergent_culture_with_side_effects_excluding_cost = yes
+			culture = {
+				set_culture_name = {
+					noun = glitterbeards
+					collective_noun = glitterbeards_collective_noun
+					prefix = glitterbeards_prefix
+					#desc = glitterbeards_desc
+				}
+				clear_culture_traditions = yes
+				add_culture_tradition = tradition_hard_working
+				add_culture_tradition = tradition_mountain_homes
+				add_culture_tradition = tradition_esteemed_hospitality
+				add_culture_tradition = tradition_fp2_ritualised_friendship
+				add_culture_tradition = tradition_artisans
+				add_culture_tradition = tradition_legendary_artisans
+				add_culture_tradition = tradition_metal_craftsmanship
+				set_culture_pillar = language_westron
+				set_culture_pillar = ethos_egalitarian
+			}
+		}
+	}
+	
+	option = {
+		name = 01_dwarf.0011.a
+		custom_tooltip = 01_dwarf.0011.a.tt # Youll be Glitter-full
+		flavor = new_divergent_culture_tt
+		give_nickname = nick_glitterbeard
+		culture = {
+			set_variable = {
+				name = recent_event_divergence
+				#value = true
+				days = 3650
+			}
+		}
+	}
+}
