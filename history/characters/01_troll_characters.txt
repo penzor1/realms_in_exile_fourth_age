@@ -43,10 +43,10 @@ lineoftrollking1 = {
 lineofyagmuz1 = {
 	name = Yagm_u_z
 	dynasty = dynasty_yagmuz
-	religion = way_of_strength
-	culture = sand_troll
+	religion = sons_of_sauron
+	culture = black_troll
 
-	# dna = yagmuz_dna
+	dna = yagmuz_dna
 
 	#father = 
 	#mother = 
@@ -81,8 +81,8 @@ lineofyagmuz1wife = {
 	name = Garghira
 	female = yes
 
-	religion = way_of_strength
-	culture = sand_troll
+	religion = sons_of_sauron
+	culture = black_troll
 
 	trait = eccentric
 	trait = wrathful
@@ -101,10 +101,10 @@ lineofyagmuz1wife = {
 lineofyagmuz2 = {
 	name = Shagdush
 	dynasty = dynasty_yagmuz
-	religion = way_of_strength
-	culture = sand_troll
+	religion = sons_of_sauron
+	culture = black_troll
 
-	# dna = shagdush_dna
+	dna = shagdush_dna
 
 	father = lineofyagmuz1 # Yagmuz
 	mother = lineofyagmuz1wife # Garghira
@@ -137,10 +137,10 @@ lineofyagmuz2 = {
 lineofyagmuz3 = {
 	name = Uglag
 	dynasty = dynasty_yagmuz
-	religion = way_of_strength
-	culture = sand_troll
+	religion = sons_of_sauron
+	culture = black_troll
 
-	# dna = uglag_dna
+	dna = uglag_dna
 
 	father = lineofyagmuz1 # Yagmuz
 	mother = lineofyagmuz1wife # Garghira
@@ -169,14 +169,12 @@ lineofyagmuz3 = {
 	}
 }
 
-### Line of Ozho
+### Sand Trolls, Line of Ozho
 lineofozho1 = {
 	name = Ozho
 	dynasty = dynasty_ozho
 	religion = cult_of_zigur
-	culture = black_troll
-
-	#dna = ozho_dna # a more humanoid dna compared to ologhai, trollmen are supposed to be half haradrim half ologhai
+	culture = sand_troll
 
 	#father = 
 	#mother = 
@@ -194,7 +192,7 @@ lineofozho2 = {
 	name = Borgh_a_l
 	dynasty = dynasty_ozho
 	religion = cult_of_zigur
-	culture = black_troll
+	culture = sand_troll
 
 	father = lineofozho1 # Ozho
 	#mother = 
@@ -205,7 +203,7 @@ lineofozho2 = {
 		birth = yes
 	}
 	7098.3.13 = {
-		add_spouse = lineofozho2wife # Garghira
+		add_spouse = lineofozho2wife # Ruza
 	}
 	7160.6.19 = {
 		death = { death_reason = death_duel }
@@ -232,9 +230,7 @@ lineofozho3 = {
 	name = Z_a_kk
 	dynasty = dynasty_ozho
 	religion = cult_of_zigur
-	culture = black_troll
-
-	#dna = zakk_dna # a more humanoid dna compared to ologhai, trollmen are supposed to be half haradrim half ologhai
+	culture = sand_troll
 
 	father = lineofozho2 # Borghal
 	mother = lineofozho2wife # Ruza
@@ -274,9 +270,7 @@ lineofozho4 = {
 	name = R_a_hkaad
 	dynasty = dynasty_ozho
 	religion = cult_of_zigur
-	culture = black_troll
-
-	#dna = rakhaad_dna # a more humanoid dna compared to ologhai, trollmen are supposed to be half haradrim half ologhai
+	culture = sand_troll
 	
 	diplomacy = 3
 	martial = 8

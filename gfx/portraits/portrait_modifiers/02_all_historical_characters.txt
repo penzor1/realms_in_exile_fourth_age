@@ -12117,6 +12117,108 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 		}
 	}
 
+	# Fictional Sand Trolls
+
+	ozho_portrait = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_hunchbacked
+				template = hunchbacked
+				range = { 0.2 0.4 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofozho1
+				this = character:lineofozho1
+			}
+		}
+	}
+
+	borghal_portrait = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_hunchbacked
+				template = hunchbacked
+				range = { 0.2 0.4 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofozho2
+				this = character:lineofozho2
+			}
+		}
+	}
+
+	ruza_portrait = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_hunchbacked
+				template = hunchbacked
+				range = { 0.2 0.4 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofozho2wife
+				this = character:lineofozho2wife
+			}
+		}
+	}
+
+	zakk_portrait = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_hunchbacked
+				template = hunchbacked
+				range = { 0.2 0.4 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofozho3
+				this = character:lineofozho3
+			}
+		}
+	}
+
+	rakhaad_portrait = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_hunchbacked
+				template = hunchbacked
+				range = { 0.2 0.4 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofozho4
+				this = character:lineofozho4
+			}
+		}
+	}
+
 	marku_portrait = {
 		dna_modifiers = {
 			accessory = {
