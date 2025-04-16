@@ -34,7 +34,10 @@
  Rugru: "Rugru" # Male
  Golmog: "Golmog" # Male
  Ash_urz: "Ashúrz" # Male
- Baulwayaz: "Baulwayaz" # Female
+ # HARAD names
+ Borgh_a_l: "Borghâl" # Female
+ Z_a_kk: "Zâkk" # Female
+ R_a_hkaad: "Râkhaad" # Female
  # DWARF names
  V_ekun: "Vékun" # Male
  V_elat: "Vélat" # Male
