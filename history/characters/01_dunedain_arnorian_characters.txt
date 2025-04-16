@@ -205,9 +205,10 @@ lineisildur49 = {
 	trait = calm
 	
 	trait = education_learning_4
-	
+	trait = lifestyle_archivist
+	trait = scholar
 	trait = intellect_good_2
-	trait = blood_of_numenor_6
+	trait = blood_of_numenor_5
 	
 	7139.1.1 = { # Fourth Age 85
 		birth = yes
