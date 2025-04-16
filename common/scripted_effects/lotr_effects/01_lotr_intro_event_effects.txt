@@ -367,7 +367,7 @@ fire_intro_events_0120 = {
 		if = {
 			limit = {
 				is_playable_character = yes
-				NOT = { is_evil = yes } # we do not care
+				NOT = { faith_is_evil = yes } # we do not care
 			}
 			trigger_event = {
 				id = ns_lotr_intro_events.6201
