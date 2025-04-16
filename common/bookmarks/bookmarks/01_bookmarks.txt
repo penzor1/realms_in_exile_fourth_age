@@ -1147,6 +1147,23 @@ bm_120_fourth_age_06 = {
 	# add framling
 	# add new rhovanion
 	
+	# Kultavaino, the Shepard
+	character = {
+		name = "bookmark_fa_06_kultavaino"
+		dynasty = dynasty_tuulitar
+		dynasty_splendor_level = 10
+		type = male
+		birth = 7130.6.2
+		title = c_palo
+		government = tribal_government
+		religion = faith_angmar_azira
+		culture = angmarrim
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = lineoftuulitar4
+		position = { 400 200 }
+		animation = personality_callous
+	}
+	
 	# Shardakh, the Scion
 	character = {
 		name = "bookmark_fa_06_shardakh"
