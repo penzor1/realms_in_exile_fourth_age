@@ -1794,8 +1794,8 @@ lineisildur42 = { #Aragorn, you know who he is
 				reason = contemplated_life_and_death_together
 				target = character:lineoforopher6
 			}
-			add_character_flag = {
-				flag = had_nickname_event
+			add_character_flag = had_nickname_event
+			add_character_flag = has_regnal_name
 			}
 		}
 		add_spouse = linefinwe30 
