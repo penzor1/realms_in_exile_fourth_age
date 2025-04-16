@@ -1617,7 +1617,7 @@
 	}
 	#fiction
 	7174.1.1 = { # FO120 # LOTRO Durin's Expedition
-		culture = ironfists
+		culture = longbeards
 		religion = faith_khazad
 		special_building_slot = wonder_gundabad_02
 		special_building = wonder_gundabad_02

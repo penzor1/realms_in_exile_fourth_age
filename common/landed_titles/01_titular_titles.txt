@@ -1,4 +1,4 @@
-﻿@correct_culture_primary_score = 100
+@correct_culture_primary_score = 100
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
 @never_primary_score = -1000
@@ -12,6 +12,17 @@ d_ithillond = {
 	always_follows_primary_heir = yes
 	ignore_titularity_for_title_weighting = yes
 	capital = c_henneth_annun
+
+	ai_primary_priority = { add = @always_primary_score }
+}
+
+d_gunduzbad = {
+	color = "white"
+	definite_form = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	ignore_titularity_for_title_weighting = yes
+	capital = c_gundabad
 
 	ai_primary_priority = { add = @always_primary_score }
 }

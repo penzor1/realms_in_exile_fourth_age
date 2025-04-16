@@ -32,3 +32,11 @@ k_arnor_regent = {
 		de_jure_liege = e_reunitedkingdom
 	}
 }
+
+d_gunduzbad = {
+	7174.1.1 = { # Durin's Expedition takes Gunduzbad
+		holder = lineofdurinVII
+		liege = k_longbeards
+		government = feudal_government
+	}
+}
