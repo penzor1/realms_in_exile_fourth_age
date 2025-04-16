@@ -12065,6 +12065,18 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 
 	uglag_portrait = {
 		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_balding_01
+			}
+			accessory = {
+				mode = add	
+				gene = headgear
+				template = uruk_war_headgear
+				accessory = male_headgear_uruk_isengard_1
+			}
 			morph = {
 				mode = add
 				gene = gene_hunchbacked
