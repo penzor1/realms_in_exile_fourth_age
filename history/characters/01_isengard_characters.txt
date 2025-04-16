@@ -79,7 +79,6 @@ lineofugluk2 = {
 		domicile ?= { move_domicile = province:528 } # b_balorn
 		effect = {
 			add_realm_law_skip_effects = camp_purpose_brigands
-			add_courtier = character:lineofkurtuk1 # Kurtuk
 		}
 	}
 	7189.12.5 = {
@@ -162,7 +161,6 @@ lineofsharkey2 = {
 	religion = white_hand_cult
 	culture = isengard_urukhai
 	father = lineofsharkey1 # Sharku
-	#father = 
 	#mother = 
 	
 	trait = arbitrary
@@ -191,7 +189,6 @@ lineofsharkey2 = {
 		domicile ?= { move_domicile = province:4774 } # b_barad_thoron
 		effect = {
 			add_realm_law_skip_effects = camp_purpose_brigands
-			add_courtier = character:lineofpendor4 # Pendor
 		}
 	}
 	7180.4.9 = {
