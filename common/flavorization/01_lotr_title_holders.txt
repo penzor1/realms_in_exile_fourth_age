@@ -1,5 +1,4 @@
 ﻿### Regent of Arnor ###
-
 kingdom_feudal_regent = {
 	type = title
 	tier = kingdom
@@ -19,6 +18,7 @@ king_feudal_male_regent = {
 	heritages = { heritage_dunedain }
 	titles = { k_arnor_regent }
 }
+
 king_feudal_female_regent = { 
 	type = character
 	gender = female
@@ -31,7 +31,6 @@ king_feudal_female_regent = {
 	heritages = { heritage_dunedain }
 	titles = { k_arnor_regent }
 }
-
 
 # Sauron HOF
 kingdom_k_dark_lord = {
@@ -46,7 +45,7 @@ king_black_male_k_dark_lord = {
 	gender = male
 	special = holder
 	tier = kingdom
-	priority = 160
+	priority = 1000
 	flavourization_rules = {
 		top_liege = no
 		only_holder = yes
@@ -60,7 +59,7 @@ king_black_female_k_dark_lord = { #??
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 160
+	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
 		only_holder = yes
@@ -74,7 +73,7 @@ king_adunaic_male_k_dark_lord = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 160
+	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
 		only_holder = yes
@@ -89,7 +88,7 @@ king_adunaic_female_k_dark_lord = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 160
+	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
 		only_holder = yes
@@ -104,7 +103,7 @@ king_edain_male_k_dark_lord = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 160
+	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
 		only_holder = yes
@@ -118,7 +117,7 @@ king_edain_female_k_dark_lord = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 160
+	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
 		only_holder = yes
@@ -132,7 +131,7 @@ king_male_k_dark_lord = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 200
+	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
 		only_holder = yes
@@ -145,10 +144,166 @@ king_female_k_dark_lord = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 200
+	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
 		only_holder = yes
 	}
 	titles = { k_dark_lord k_dark_tree }
+}
+
+### Sealord of Umbar
+kingdom_feudal_k_umbar = { 
+	type = title
+	tier = kingdom
+	titles = { k_umbar }
+	heritages = { heritage_dunedain }
+	priority = 115
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+king_feudal_male_k_umbar = { 
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 130
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = no
+	}
+	titles = { k_umbar }
+	heritages = { heritage_dunedain }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+king_feudal_female_k_umbar = { 
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 130
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { k_umbar }
+	heritages = { heritage_dunedain }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+king_feudal_female_k_umbar_nonholder = { 
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 130
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = no
+	}
+	titles = { k_umbar }
+	heritages = { heritage_dunedain }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+duchy_feudal_k_umbar_coast = { 
+	type = title
+	tier = duchy
+	titles = { d_umbar d_calenfalas d_glinfalas d_tol_uialgaer }
+	priority = 90
+	heritages = { heritage_dunedain }
+}
+
+duchy_feudal_k_umbar_noncoast = { 
+	type = title
+	tier = duchy
+	titles = { d_sakal_an_khar d_annabrith d_dusalan }
+	priority = 90
+	heritages = { heritage_dunedain }
+}
+
+duke_feudal_male_k_umbar_coast = { 
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 90
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { d_umbar d_calenfalas d_glinfalas d_tol_uialgaer }
+	heritages = { heritage_dunedain }
+}
+
+duke_feudal_female_k_umbar_coast = { 
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 90
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { d_umbar d_calenfalas d_glinfalas d_tol_uialgaer }
+	heritages = { heritage_dunedain }
+}
+
+duke_feudal_male_k_umbar_noncoast = { 
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 90
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { d_sakal_an_khar d_annabrith d_dusalan }
+	heritages = { heritage_dunedain }
+}
+
+duke_feudal_female_k_umbar_noncoast = { 
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 90
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { d_sakal_an_khar d_annabrith d_dusalan }
+	heritages = { heritage_dunedain }
+}
+
+county_feudal_k_umbar = { 
+	type = title
+	tier = county
+	titles = { c_umbar c_nilo c_maros c_zabthan c_barazon c_karagmir c_ardumir c_suzakal c_khibil c_pellardur c_zamudor c_isigir c_eradas c_caldur c_dibis c_tol_uialgaer }
+	priority = 90
+	heritages = { heritage_dunedain }
+}
+
+count_feudal_k_umbar = { 
+	type = character
+	special = holder
+	tier = county
+	priority = 90
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	titles = { c_umbar c_nilo c_maros c_zabthan c_barazon c_karagmir c_ardumir c_suzakal c_khibil c_pellardur c_zamudor c_isigir c_eradas c_caldur c_dibis c_tol_uialgaer }
+	heritages = { heritage_dunedain }
 }
