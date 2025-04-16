@@ -188,9 +188,9 @@
  ns_lotr_intro_events.6002.t:0 "The Realm of Arnor Anew"
  ns_lotr_intro_events.6002.desc:0 "In a letter with the Sceptre, my father King Eldarion appointed me as Regent of [arnor|E]. Despite the restored Reunited Kingdoms of [arnor|E] and [gondor|E], Arnor still lays in ruin. Mostly ignored and devoid of men, the seat of power remained in [minastirith|E], or [minasanor|E] as the Rangers still call it. With the [lordofmordor|E] defeated, nothing threatens the North nor South anymore. My father saw fit to grant me the task of truly restoring the [northernkingdom|E].\nI gathered my subjects, Sceptre in hand, in the hallowed ruins of the partially rebuilt Annúminas. The great Hall of the Kings was domeless, open to Anár, the Daystar, or the Star of Eärendil by night. The crowd of Dúnedain men and women stood before you, the people of the northern realm.\nTurlong, the eldest Ranger, came forward. A winged crown made of simple steel made from ancient swords, in his hands. I bowed to the people and to him.\nAnd so, the crown was raised upon my head.\n#help 'Et Eärello, Endorenna utúlien, Sinome Maruvan, ar Hildinyar tenn' Ambar-Metta'\n'Out of the Great Sea to [middleearth|E] I am come. In this place I will abide, and my heirs, unto the ending of the world.'#!"
  ns_lotr_intro_events.6002.a:0 "We have work to do."
- ns_lotr_intro_events.6002.a.tt:0 "You choose to become Regent of [arnor|E], a vassal realm."
+ ns_lotr_intro_events.6002.a.tt:0 "You choose to become Regent of [arnor|E]."
  ns_lotr_intro_events.6002.b:0 "I will lead this realm freely!"
- ns_lotr_intro_events.6002.b.tt:0 "You choose to become King of [arnor|E], an independent realm."
+ ns_lotr_intro_events.6002.b.tt:0 "You choose to become King of an independent Kingdom of [arnor|E]."
  ns_lotr_intro_events.6006.t:0 "" # Bilbo Intro
  ns_lotr_intro_events.6006.desc:0 "" 
  ns_lotr_intro_events.6006.a:0 ""
