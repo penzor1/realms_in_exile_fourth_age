@@ -2,7 +2,7 @@
 # History database id:lineoforopher5
 bookmark_fa_04_ilmarien={
 	type=female
-	id=142
+	id=144
 	random_seed=1025981600
 	age=0.362624
 	genes={ 		hair_color={ 28 56 115 248 }

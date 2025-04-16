@@ -2,7 +2,7 @@
 # History database id:linefinwe28
 bookmark_fa_02_elladan={
 	type=male
-	id=2851
+	id=2905
 	random_seed=3540251686
 	age=0.297912
 	genes={ 		hair_color={ 170 217 178 133 }

@@ -1,8 +1,8 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
+# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:linefinwe30
 bookmark_fa_04_arwen={
 	type=female
-	id=3162
+	id=3223
 	random_seed=893496825
 	age=0.296131
 	genes={ 		hair_color={ 0 255 23 244 }

@@ -2,7 +2,7 @@
 # History database id:lineofglorfindel
 bookmark_fa_02_glorfindel={
 	type=male
-	id=45
+	id=44
 	random_seed=2201457561
 	age=0.364678
 	genes={ 		hair_color={ 3 49 163 110 }

@@ -2,12 +2,12 @@
 # History database id:lineofdwalinVII
 bookmark_fa_02_dwalinVII={
 	type=male
-	id=35029
+	id=35162
 	random_seed=622760464
 	age=0.265882
-	genes={ 		hair_color={ 4 207 221 12 }
- 		skin_color={ 32 29 28 28 }
- 		eye_color={ 178 67 231 131 }
+	genes={ 		hair_color={ 4 207 4 207 }
+ 		skin_color={ 32 29 32 29 }
+ 		eye_color={ 178 67 178 67 }
  		gene_chin_forward={ "chin_forward_neg" 136 "chin_forward_neg" 136 }
  		gene_chin_height={ "chin_height_neg" 114 "chin_height_neg" 114 }
  		gene_chin_width={ "chin_width_neg" 178 "chin_width_neg" 178 }
@@ -99,7 +99,7 @@ bookmark_fa_02_dwalinVII={
  		gene_height={ "normal_height" 43 "normal_height" 43 }
  		gene_bs_body_type={ "body_fat_head_fat_medium" 124 "body_fat_head_fat_medium" 124 }
  		gene_bs_body_shape={ "body_shape_triangle_half" 143 "body_shape_triangle_half" 143 }
- 		gene_bs_bust={ "bust_clothes" 73 "bust_clothes" 92 }
+ 		gene_bs_bust={ "bust_clothes" 73 "bust_default" 92 }
  		gene_age={ "old_2" 39 "old_2" 39 }
  		gene_eyebrows_shape={ "close_spacing_high_thickness" 235 "close_spacing_high_thickness" 235 }
  		gene_eyebrows_fullness={ "layer_2_avg_thickness" 152 "layer_2_avg_thickness" 152 }

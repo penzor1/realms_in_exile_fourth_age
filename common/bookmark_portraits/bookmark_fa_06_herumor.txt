@@ -1,8 +1,8 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
+# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:mouthofsauron
 bookmark_fa_06_herumor={
 	type=male
-	id=27932
+	id=28021
 	random_seed=916262210
 	age=1.000000
 	genes={ 		hair_color={ 116 245 116 245 }

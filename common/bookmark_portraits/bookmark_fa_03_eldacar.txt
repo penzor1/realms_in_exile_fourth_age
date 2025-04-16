@@ -2,9 +2,9 @@
 # History database id:lineisildur49
 bookmark_fa_03_eldacar={
 	type=male
-	id=35027
+	id=35160
 	random_seed=3315269152
-	age=0.277273
+	age=0.281034
 	genes={ 		hair_color={ 133 162 133 162 }
  		skin_color={ 78 90 78 90 }
  		eye_color={ 199 117 199 117 }
@@ -97,8 +97,8 @@ bookmark_fa_03_eldacar={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_5" 142 "complexion_5" 142 }
  		gene_height={ "normal_height" 165 "normal_height" 165 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 107 "body_fat_head_fat_full" 114 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 168 "body_shape_triangle_half" 107 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 116 "body_fat_head_fat_full" 114 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 151 "body_shape_triangle_half" 107 }
  		gene_bs_bust={ "bust_clothes" 40 "bust_default" 50 }
  		gene_age={ "old_3" 209 "old_3" 209 }
  		gene_eyebrows_shape={ "avg_spacing_avg_thickness" 109 "avg_spacing_avg_thickness" 109 }
@@ -120,26 +120,22 @@ bookmark_fa_03_eldacar={
  		beards={ "tier_2_numenorean_blood_beards" 221 "no_beard" 0 }
  		cloaks={ "no_cloak" 35 "no_cloak" 0 }
  		hairstyles={ "gondorian_hairstyles_wavy" 209 "all_hairstyles" 0 }
- 		legwear={ "western_common_legwear" 31 "all_legwear" 0 }
+ 		legwear={ "gondorian_common_legwear" 187 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "arnorian_high_clothes" 3 "" 0 }
- 		headgear={ "uialdain_high_headgear" 164 "no_headgear" 0 }
+ 		clothes={ "gondorian_high_clothes" 153 "" 0 }
+ 		headgear={ "gondorian_low_headgear" 204 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 979141817 979141817 }
 	tags={ {
+			hash=1989892411
+			invert=no
+		}
+ {
 			hash=2125534279
-			invert=no
-		}
- {
-			hash=681013727
-			invert=no
-		}
- {
-			hash=3672171019
 			invert=no
 		}
  {
@@ -147,15 +143,7 @@ bookmark_fa_03_eldacar={
 			invert=no
 		}
  {
-			hash=1500963499
-			invert=no
-		}
- {
-			hash=1563190100
-			invert=no
-		}
- {
-			hash=1945936758
+			hash=681013727
 			invert=no
 		}
  }
