@@ -1797,7 +1797,6 @@ lineisildur42 = { #Aragorn, you know who he is
 			add_character_flag = had_nickname_event
 			add_character_flag = has_regnal_name
 			}
-		}
 		add_spouse = linefinwe30 
 		give_nickname = nick_envinyatar
         culture = gondorian
