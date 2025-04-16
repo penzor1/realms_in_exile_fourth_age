@@ -4,6 +4,7 @@ d_ithillond = {
 	7052.5.2 = { # Ithilien settled by Elves
 		holder = lineoforopher6 # Legolas
 		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
 		government = elven_government
 	}
 	7174.3.3 = { # On Aragorn's death, Legolas sails west with Gimli
@@ -23,5 +24,6 @@ k_arnor_regent = {
 	7174.3.2 = { 
 		holder = lineisildur48 # Anarion settles in the lands of Arnor
 		liege = e_reunitedkingdom
+		de_jure_liege = e_reunitedkingdom
 	}
 }
