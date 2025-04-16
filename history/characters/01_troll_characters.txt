@@ -46,8 +46,6 @@ lineofyagmuz1 = {
 	religion = way_of_strength
 	culture = sand_troll
 
-	# dna = yagmuz_dna
-
 	#father = 
 	#mother = 
 
@@ -104,8 +102,6 @@ lineofyagmuz2 = {
 	religion = way_of_strength
 	culture = sand_troll
 
-	# dna = shagdush_dna
-
 	father = lineofyagmuz1 # Yagmuz
 	mother = lineofyagmuz1wife # Garghira
 	
@@ -139,8 +135,6 @@ lineofyagmuz3 = {
 	dynasty = dynasty_yagmuz
 	religion = way_of_strength
 	culture = sand_troll
-
-	# dna = uglag_dna
 
 	father = lineofyagmuz1 # Yagmuz
 	mother = lineofyagmuz1wife # Garghira
