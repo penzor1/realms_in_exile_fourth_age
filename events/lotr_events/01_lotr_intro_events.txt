@@ -951,7 +951,6 @@ ns_lotr_intro_events.6001 = { # Earendur Intro
 		name = ns_lotr_intro_events.6001.a
 		custom_tooltip = ns_lotr_intro_events.6001.a.tt # Accept the Kingdom
 		character:lineisildur48 = {
-			add_prestige_level = 1
 			create_artifact_sceptre_of_annuminas_effect = { OWNER = this }
 			create_artifact_banner_of_elendil_effect = { OWNER = this }
 			trigger_event = {
@@ -1033,6 +1032,8 @@ ns_lotr_intro_events.6002 = {
 		name = ns_lotr_intro_events.6002.a
 		custom_tooltip = ns_lotr_intro_events.6002.a.tt
 		character:lineisildur48 = { # Earendur
+			get_title = title:k_arnor_regent # flavor
+			add_prestige_level = 1
 			spawn_army = {
 				men_at_arms = {
 					type = arnorian_soldiers
@@ -1058,8 +1059,8 @@ ns_lotr_intro_events.6002 = {
 			}
 			hidden_effect = {
 				set_nickname_effect = { NICKNAME = nick_the_restorer }
-				set_house = house:house_anarioni
-				every_child = { set_house = house:house_anarioni }
+#				set_house = house:house_anarioni
+#				every_child = { set_house = house:house_anarioni }
 			}
 		}
 		ai_chance = {
@@ -1085,33 +1086,10 @@ ns_lotr_intro_events.6002 = {
 		character:lineisildur48 = { # Earendur
 			get_title = title:e_arnor # independence
 			add_stress = 100
-			spawn_army = {
-				men_at_arms = {
-					type = arnorian_soldiers
-					stacks = 1
-				}
-				men_at_arms = {
-					type = arnorian_bowmen
-					stacks = 1
-				}
-				men_at_arms = {
-					type = wardens_of_annuminas
-					stacks = 1
-				}
-				men_at_arms = {
-					type = arnorian_cavalry
-					stacks = 1
-				}
-				war_keep_on_attacker_victory = yes
-				inheritable = yes
-				uses_supply = no
-				name = wardens_of_annuminas
-				location = character:lineisildur48.location
-			}
 			hidden_effect = {
 				set_nickname_effect = { NICKNAME = nick_the_restorer }
-				set_house = house:house_anarioni
-				every_child = { set_house = house:house_anarioni }
+#				set_house = house:house_anarioni
+#				every_child = { set_house = house:house_anarioni }
 				set_relation_rival = {
 					target = character:lineisildur48 # Eldarion
 				}
