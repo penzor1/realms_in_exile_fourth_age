@@ -1778,7 +1778,7 @@ lineisildur42 = { #Aragorn, you know who he is
     }
 	7052.5.1 = { #TA3019
 		name = "Elessar"
-        dynasty_house = house_telcontar
+		dynasty_house = house_telcontar
 		effect = {
 			remove_trait = cannot_marry
 			remove_trait = celibate
@@ -1797,7 +1797,7 @@ lineisildur42 = { #Aragorn, you know who he is
 			}
 			add_character_flag = had_nickname_event
 			add_character_flag = has_regnal_name
-			}
+		}
 		add_spouse = linefinwe30 
 		give_nickname = nick_envinyatar
         culture = gondorian
