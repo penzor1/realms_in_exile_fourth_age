@@ -1,0 +1,33 @@
+﻿
+k_isengard = {
+	item = {
+		trigger = { coa_switch_to_dunlending_trigger = yes}
+		coat_of_arms = k_isengeard
+	}	
+	item = {
+		trigger = { coa_switch_to_rohan_trigger = yes }
+		coat_of_arms = k_treegarth
+	}
+}
+
+d_isengard = {
+	item = {
+		trigger = { coa_switch_to_dunlending_trigger = yes}
+		coat_of_arms = d_isengeard
+	}	
+	item = {
+		trigger = { coa_switch_to_rohan_trigger = yes }
+		coat_of_arms = d_treegarth
+	}
+}
+
+c_isengard = {
+	item = {
+		trigger = { coa_switch_to_dunlending_trigger = yes}
+		coat_of_arms = c_isengeard
+	}	
+	item = {
+		trigger = { coa_switch_to_rohan_trigger = yes }
+		coat_of_arms = c_treegarth
+	}
+}
