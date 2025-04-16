@@ -126,7 +126,7 @@ lineoftuulitar4 = {
 	
 	7130.6.2 = {
 		birth = yes
-		give_nickname = nick_the_shepard
+		give_nickname = nick_the_shepherd
 		effect = {
 			add_character_flag = had_nickname_event
 		}
