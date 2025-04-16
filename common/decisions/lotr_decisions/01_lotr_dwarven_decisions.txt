@@ -1,0 +1,103 @@
+﻿#################################################
+################ Dwarven Decisions ################
+#################################################
+
+
+##################################################
+# Glittering Caves Decisions
+##################################################
+
+decision_become_glitterbeards = {
+	title = decision_become_glitterbeards
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_dwarves_02.dds"
+	}
+	
+	sort_order = 1000
+
+	ai_goal = yes
+	selection_tooltip = decision_become_glitterbeards_tooltip
+	desc = decision_become_glitterbeards_desc
+	confirm_text = decision_become_glitterbeards_confirm
+	
+	cost = {
+		gold = 200
+		prestige = 1000
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		is_dwarf = yes
+		has_dlc_feature = diverge_culture
+		OR = {
+			has_title = title:d_glittering_caves
+			has_title = title:c_glittering_caves
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_become_glitterbeards
+			}
+		}
+	}
+	
+	is_valid = {
+		is_at_war = no
+		completely_controls = title:d_glittering_caves
+		title:c_glittering_caves = { development_level > 10 }
+		prestige_level >= 2
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+	}
+	
+	effect = {
+		custom_tooltip = decision_become_glitterbeards_tt
+		custom_tooltip = culture_emergence_events.0002.new_divergence
+		custom_tooltip = culture_emergence_events.vassals
+#		trigger_event = {
+#			id = 01_dwarf.0011
+#		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_become_glitterbeards
+		}
+		root = {
+			save_scope_as = diverger
+		}
+		capital_county = {
+			save_scope_as = capital_county_scope
+		}
+		capital_county.culture = {
+			save_scope_as = divergence_offer_culture
+		}
+		hidden_effect = {
+			create_divergent_culture_with_side_effects_excluding_cost = yes
+			culture = {
+				set_culture_name = {
+					noun = glitterbeards
+					collective_noun = glitterbeards_collective_noun
+					prefix = glitterbeards_prefix
+					#desc = glitterbeards_desc
+				}
+				clear_culture_traditions = yes
+				add_culture_tradition = tradition_hard_working
+				add_culture_tradition = tradition_mountain_homes
+				add_culture_tradition = tradition_artisans
+				add_culture_tradition = tradition_legendary_artisans
+				add_culture_tradition = tradition_metal_craftsmanship
+				add_culture_tradition = tradition_fp2_ritualised_friendship
+			}
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
