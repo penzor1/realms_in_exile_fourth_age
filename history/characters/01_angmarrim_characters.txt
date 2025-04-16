@@ -140,7 +140,7 @@ lineoftuulitar4 = {
 }
 
 lineoftuulitar4wife = {
-	name = Ilmatar
+	name = Mesi
 	religion = faith_angmar_azira
 	culture = angmarrim
 	female = yes
