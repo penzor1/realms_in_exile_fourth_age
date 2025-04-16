@@ -13850,20 +13850,20 @@ d_aegardh = { # Aegardh
 		holder = lineofawzalika6 # Qûtaiba	
 	}
 	7050.1.1 = {
-        holder = lineciryaloth1 #Ranatar
+        holder = lineasturui1 #Ranatar
     }
 	7052.5.1 = {
 		liege = e_reunitedkingdom
 		government = feudal_government
     }
     7071.3.19 = {
-        holder = lineciryaloth3 #Salmandur
+        holder = lineasturui3 #Salmandur
     }
     7117.12.6 = {
-        holder = lineciryaloth5 #Alquandil
+        holder = lineasturui5 #Alquandil
     }
     7133.10.18 = {
-        holder = lineciryaloth9 #Romestamo
+        holder = lineasturui9 #Romestamo
     }
 }	
 c_foraegardh = { #Foraegardh
@@ -13904,19 +13904,19 @@ c_foraegardh = { #Foraegardh
 	}
 	7050.1.1 = {
 		
-        holder = lineciryaloth1 #Ranatar
+        holder = lineasturui1 #Ranatar
     }
 	7052.5.1 = {
 		liege = d_aegardh
     }
     7071.3.19 = {
-        holder = lineciryaloth3 #Salmandur
+        holder = lineasturui3 #Salmandur
     }
     7117.12.6 = {
-        holder = lineciryaloth5 #Alquandil
+        holder = lineasturui5 #Alquandil
     }
     7133.10.18 = {
-        holder = lineciryaloth9 #Romestamo
+        holder = lineasturui9 #Romestamo
     }
 }
 c_haraegardh = { #Haraegardh
@@ -13953,19 +13953,19 @@ c_haraegardh = { #Haraegardh
 	liege = d_aegardh	
 	}
 	7037.1.1 = {
-        holder = lineciryaloth1 #Ranatar
+        holder = lineasturui1 #Ranatar
     }
 	7052.5.1 = {
 		liege = d_aegardh
     }
     7071.3.19 = {
-        holder = lineciryaloth3 #Salmandur
+        holder = lineasturui3 #Salmandur
     }
     7117.12.6 = {
-        holder = lineciryaloth5 #Alquandil
+        holder = lineasturui5 #Alquandil
     }
     7133.10.18 = {
-        holder = lineciryaloth9 #Romestamo
+        holder = lineasturui9 #Romestamo
     }
 }		
 c_imladrim = { #Imladrim
@@ -14005,19 +14005,19 @@ c_imladrim = { #Imladrim
 		holder = lineofsallaka4 # Amessan	
 	}
 	7049.1.1 = {
-        holder = lineciryaloth1 #Ranatar
+        holder = lineasturui1 #Ranatar
     }
 	7052.5.1 = {
 		liege = d_aegardh
     }
     7071.3.19 = {
-        holder = lineciryaloth3 #Salmandur
+        holder = lineasturui3 #Salmandur
     }
     7117.12.6 = {
-        holder = lineciryaloth5 #Alquandil
+        holder = lineasturui5 #Alquandil
     }
     7133.10.18 = {
-        holder = lineciryaloth9 #Romestamo
+        holder = lineasturui9 #Romestamo
     }
 }		
 c_laer = { #Laer
@@ -14132,19 +14132,19 @@ c_laer = { #Laer
 	holder = lineofawzalika6 # Qûtaiba	
 	}
 	7050.1.1 = {
-        holder = lineciryaloth1 #Ranatar
+        holder = lineasturui1 #Ranatar
     }
 	7052.5.1 = {
 		liege = d_aegardh
     }
     7071.3.19 = {
-        holder = lineciryaloth3 #Salmandur
+        holder = lineasturui3 #Salmandur
     }
     7117.12.6 = {
-        holder = lineciryaloth5 #Alquandil
+        holder = lineasturui5 #Alquandil
     }
     7133.10.18 = {
-        holder = lineciryaloth9 #Romestamo
+        holder = lineasturui9 #Romestamo
     }
 }	
 b_barad_laer = { #Barad Laer
@@ -14152,16 +14152,16 @@ b_barad_laer = { #Barad Laer
 		holder = lineofawzalika6 # Qûtaiba	
 	}
 	7050.1.1 = {
-        holder = lineciryaloth1 #Ranatar
+        holder = lineasturui1 #Ranatar
     }
     7071.3.19 = {
-        holder = lineciryaloth3 #Salmandur
+        holder = lineasturui3 #Salmandur
     }
     7117.12.6 = {
-        holder = lineciryaloth5 #Alquandil
+        holder = lineasturui5 #Alquandil
     }
     7133.10.18 = {
-        holder = lineciryaloth9 #Romestamo
+        holder = lineasturui9 #Romestamo
     }
 }
 
