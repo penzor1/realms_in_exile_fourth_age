@@ -241,9 +241,16 @@ decision_seek_places_of_power = {
 	}
 
 	is_valid = {
-		is_landless_adventurer = yes
-		prestige_level >= 1
-		piety_level >= 1
+		character:lineisildur49 = { # Eldacar
+			is_landless_adventurer = yes
+			OR = { # Nurn holy sites
+				is_at_location = province:658 # b_thaurband
+				is_at_location = province:700 # b_sturlurza
+				is_at_location = province:785 # b_cirith_nargil
+			}
+			prestige_level >= 1
+			piety_level >= 1
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -324,9 +331,16 @@ decision_seek_places_of_power_2 = { # temp
 	}
 
 	is_valid = {
-		is_landless_adventurer = yes
-		prestige_level >= 1
-		piety_level >= 1
+		character:lineisildur49 = { # Eldacar
+			is_landless_adventurer = yes
+			OR = { # Nurn holy sites
+				is_at_location = province:658 # b_thaurband
+				is_at_location = province:700 # b_sturlurza
+				is_at_location = province:785 # b_cirith_nargil
+			}
+			prestige_level >= 1
+			piety_level >= 1
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -406,6 +420,18 @@ decision_commit_to_darkness = {
 	}
 
 	is_valid = {
+		character:lineisildur49 = { # Eldacar
+			is_landless_adventurer = yes
+			OR = { # Harad, Khand or Rhun holy sites
+				is_at_location = province:786 # b_gizar
+				is_at_location = province:880 # b_amrun
+				is_at_location = province:4051 # b_olbamarl
+				is_at_location = province:4983 # b_raton
+				is_at_location = province:3635 # b_mistrand
+				is_at_location = province:3671 # b_lest
+				is_at_location = province:2717 # b_nenadija
+			}
+		}
 		prestige_level >= 1
 		piety_level >= 2
 	}
@@ -470,7 +496,6 @@ decision_commune_in_darkness = {
 	
 	is_shown = {
 		has_character_flag = is_eldacar
-		faith_is_evil = yes
 		NOR = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -493,8 +518,21 @@ decision_commune_in_darkness = {
 	}
 
 	is_valid = {
-		prestige_level >= 2
-		piety_level >= 2
+		character:lineisildur49 = { # Eldacar
+			faith_is_evil = yes
+			is_landless_adventurer = yes
+			OR = { # Harad, Khand or Rhun holy sites
+				is_at_location = province:786 # b_gizar
+				is_at_location = province:880 # b_amrun
+				is_at_location = province:4051 # b_olbamarl
+				is_at_location = province:4983 # b_raton
+				is_at_location = province:3635 # b_mistrand
+				is_at_location = province:3671 # b_lest
+				is_at_location = province:2717 # b_nenadija
+			}
+			prestige_level >= 2
+			piety_level >= 2
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -557,7 +595,6 @@ decision_commune_in_darkness_2 = {
 	
 	is_shown = {
 		has_character_flag = is_eldacar
-		faith_is_evil = yes
 		NOR = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -580,8 +617,21 @@ decision_commune_in_darkness_2 = {
 	}
 
 	is_valid = {
-		prestige_level >= 2
-		piety_level >= 3
+		character:lineisildur49 = { # Eldacar
+			faith_is_evil = yes
+			is_landless_adventurer = yes
+			OR = { # Harad, Khand or Rhun holy sites
+				is_at_location = province:786 # b_gizar
+				is_at_location = province:880 # b_amrun
+				is_at_location = province:4051 # b_olbamarl
+				is_at_location = province:4983 # b_raton
+				is_at_location = province:3635 # b_mistrand
+				is_at_location = province:3671 # b_lest
+				is_at_location = province:2717 # b_nenadija
+			}
+			prestige_level >= 2
+			piety_level >= 3
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -598,6 +648,189 @@ decision_commune_in_darkness_2 = {
 		}
 		trigger_event = {
 			id = 01_mordor.1012
+			days = { 30 90 }
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 0
+		modifier = { # Game Rule
+			has_game_rule = default_ai_behavior
+			add = 50
+		}
+		modifier = { # Game Rule
+			has_game_rule = weighted_ai_behavior
+			add = 25
+		}
+		modifier = { # Game Rule
+			has_game_rule = random_ai_behavior
+			add = 10
+		}
+	}
+}
+
+decision_commune_in_darkness_3 = {
+	sort_order = 25
+	title = decision_commune_in_darkness_3
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
+	}
+	
+	ai_goal = yes
+	selection_tooltip = decision_commune_in_darkness_3_tooltip
+	desc = decision_commune_in_darkness_3_desc
+	confirm_text = decision_commune_in_darkness_3_confirm
+	
+	cost = {
+		gold = 200
+		prestige = 500
+		piety = 500
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		has_character_flag = is_eldacar
+		NOR = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_shutdown
+			}
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_inside
+			}
+		}
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_indulged
+		}
+		has_trait = sorcerer_1
+		has_trait = sorcerer_2
+		NOR = {
+			has_trait = sorcerer_3
+		}
+	}
+
+	is_valid = {
+		character:lineisildur49 = { # Eldacar
+			faith_is_evil = yes
+			is_landless_adventurer = yes
+			OR = { # Harad, Khand or Rhun holy sites
+				is_at_location = province:786 # b_gizar
+				is_at_location = province:880 # b_amrun
+				is_at_location = province:4051 # b_olbamarl
+				is_at_location = province:4983 # b_raton
+				is_at_location = province:3635 # b_mistrand
+				is_at_location = province:3671 # b_lest
+			}
+			prestige_level >= 3
+			piety_level >= 4
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_at_war = no
+	}
+	
+	effect = {
+		custom_tooltip = decision_commune_in_darkness_3.tt
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_in_control
+		}
+		trigger_event = {
+			id = 01_mordor.1013
+			days = { 30 90 }
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 0
+		modifier = { # Game Rule
+			has_game_rule = default_ai_behavior
+			add = 50
+		}
+		modifier = { # Game Rule
+			has_game_rule = weighted_ai_behavior
+			add = 25
+		}
+		modifier = { # Game Rule
+			has_game_rule = random_ai_behavior
+			add = 10
+		}
+	}
+}
+
+decision_challenge_the_necromancers = {
+	sort_order = 30
+	title = decision_challenge_the_necromancers
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
+	}
+	
+	ai_goal = yes
+	selection_tooltip = decision_challenge_the_necromancers_tooltip
+	desc = decision_challenge_the_necromancers_desc
+	confirm_text = decision_challenge_the_necromancers_confirm
+	
+	cost = {
+		prestige = 500
+		piety = 500
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		has_character_flag = is_eldacar
+		NOR = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:voices_shutdown
+			}
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:necromancers_challenged
+			}
+		}
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_converted
+		}
+	}
+
+	is_valid = {
+		character:lineisildur49 = { # Eldacar
+			faith_is_evil = yes
+			is_landless_adventurer = yes
+			is_at_same_location = title:k_dark_lord.holder
+			prestige_level >= 2
+			piety_level >= 2
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_at_war = no
+	}
+	
+	effect = {
+		custom_tooltip = decision_challenge_the_necromancers.tt
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:voices_inside
+		}
+		trigger_event = {
+			id = 01_mordor.1014
 			days = { 30 90 }
 		}
 	}
