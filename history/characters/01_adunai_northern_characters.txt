@@ -91,3 +91,186 @@ lineeruholion13 = {	# his lil baby 2
 		death = { death_reason = death_natural_causes }
 	}
 }
+
+# Umbar Corsairs
+
+# Abarzagar Dynasty
+lineofabarzagar62 = {
+    name = Zimratho_o_n
+
+    dynasty = dynasty_abarzagari
+    religion = faith_corsair
+    culture = corsair
+
+    father = lineofabarzagar61
+
+    sexuality = bisexual
+
+    7029.3.9 = {
+        birth = yes
+    }
+	
+	7092.3.16 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofabarzagar63 = {
+    name = Ta_a_rikmaga_a_n
+
+    dynasty = dynasty_abarzagari
+    religion = faith_corsair
+    culture = corsair
+
+    father = lineofabarzagar62
+
+    sexuality = heterosexual
+
+    7060.1.18 = {
+        birth = yes
+    }
+
+	7128.7.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofabarzagar64 = {
+    name = Arnuzi_i_l
+
+    dynasty = dynasty_abarzagari
+    religion = faith_corsair
+    culture = corsair
+
+    father = lineofabarzagar63
+
+    sexuality = heterosexual
+
+    7086.4.28 = {
+        birth = yes
+    }
+
+	7154.2.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofabarzagar65 = {
+    name = Nimruzu_u_r
+
+    dynasty = dynasty_abarzagari
+    religion = faith_corsair
+    culture = corsair
+
+    father = lineofabarzagar64
+
+    sexuality = homosexual
+
+    7111.3.18 = {
+        birth = yes
+    }
+
+	7179.5.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofabarzagar66 = {
+    name = Arnuzi_i_l
+
+    dynasty = dynasty_abarzagari
+    religion = faith_corsair
+    culture = corsair
+
+    father = lineofabarzagar65
+
+    sexuality = heterosexual
+
+    7142.8.8 = {
+        birth = yes
+    }
+
+	7214.3.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Adunapharazath Dynasty
+
+lineadunapharaz7 = {
+    name = Avalo_o_be_e_n
+
+    dynasty = dynasty_adunapharaz
+    religion = faith_corsair
+    culture = corsair
+
+    father = lineadunapharaz4
+
+    7027.1.1 = { birth = yes }
+    7099.1.1 = { death = { death_reason = death_natural_causes }  }
+}
+
+lineadunapharaz8 = {
+    name = Inziladu_u_n
+
+    dynasty = dynasty_adunapharaz
+    religion = faith_corsair
+    culture = corsair
+
+    father = lineadunapharaz7
+
+    7046.1.1 = { birth = yes }
+    7107.1.1 = { death = { death_reason = death_natural_causes }  }
+}
+
+lineadunapharaz9 = {
+    name = Tamarzi_i_r
+
+    dynasty = dynasty_adunapharaz
+    religion = faith_corsair
+    culture = corsair
+
+    father = lineadunapharaz8
+
+    7066.1.1 = { birth = yes }
+    7130.1.1 = { death = { death_reason = death_natural_causes }  }
+}
+
+lineadunapharaz10 = {
+    name = U_U_ri_i_zi_i_r
+
+    dynasty = dynasty_adunapharaz
+    religion = faith_corsair
+    culture = corsair
+
+    father = lineadunapharaz9
+
+    7092.1.1 = { birth = yes }
+    7149.1.1 = { death = { death_reason = death_natural_causes }  }
+}
+
+lineadunapharaz11 = {
+    name = Zo_o_rnagar
+
+    dynasty = dynasty_adunapharaz
+    religion = faith_corsair
+    culture = corsair
+
+    father = lineadunapharaz10
+
+    7115.1.1 = { birth = yes }
+    7174.1.1 = { death = { death_reason = death_natural_causes }  }
+}
+
+lineadunapharaz12 = {
+    name = Adu_u_naphazo_o_r
+
+    dynasty = dynasty_adunapharaz
+    religion = faith_corsair
+    culture = corsair
+
+    father = lineadunapharaz11
+
+    7145.1.1 = { birth = yes }
+    7241.1.1 = { death = { death_reason = death_natural_causes }  }
+}
