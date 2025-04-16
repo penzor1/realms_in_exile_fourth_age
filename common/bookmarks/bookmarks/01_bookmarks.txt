@@ -1162,6 +1162,30 @@ bm_120_fourth_age_06 = {
 		history_id = lineoftuulitar4
 		position = { 400 200 }
 		animation = personality_callous
+		# Mesi, the Pretty
+		character = {
+			name = "bookmark_fa_06_mesi"
+			relation = "BOOKMARK_RELATION_WIFE"
+			type = female
+			birth = 7130.6.2
+			title = c_palo
+			government = tribal_government
+			religion = faith_angmar_azira
+			culture = angmarrim
+			history_id = lineoftuulitar4wife
+		}
+		# Aikamieli, the Son-Father
+		character = {
+			name = "bookmark_fa_06_aikamieli"
+			relation = "BOOKMARK_RELATION_FATHER"
+			type = male
+			birth = 7100.6.2
+			title = c_palo
+			government = tribal_government
+			religion = faith_angmar_azira
+			culture = angmarrim
+			history_id = lineoftuulitar3
+		}
 	}
 	
 	# Shardakh, the Scion
@@ -1324,7 +1348,7 @@ bm_120_fourth_age_06 = {
 		}
 	}
 	
-	# Zakk, the Red Devil
+	# Zakk, the Devil
 	character = {
 		name = "bookmark_fa_06_zakk"
 		dynasty = dynasty_ozho
@@ -1339,5 +1363,18 @@ bm_120_fourth_age_06 = {
 		history_id = lineofozho3
 		position = { 1100 800 }
 		animation = personality_zealous
+		# Rakhaad, the Marauder
+		character = {
+			name = "bookmark_fa_06_rakhaad"
+			relation = "BOOKMARK_RELATION_BROTHER"
+			dynasty = dynasty_ozho
+			type = male
+			birth = 7108.2.3
+			title = d_laamp_mahud_marauders
+			government = landless_adventurer_government
+			religion = cult_of_zigur
+			culture = black_troll
+			history_id = lineofozho4
+		}
 	}
 }
