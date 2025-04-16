@@ -518,7 +518,6 @@ ns_lotr_intro_events.2006 = { # Wirwir Intro
 	option = {
 		name = ns_lotr_intro_events.2006.a
 		character:linefrar7 = { # Wirwir
-			give_nickname = nick_glitterbeard
 		}
 	}
 }
