@@ -75,8 +75,12 @@ lineofugluk2 = {
 	7052.2.20 = {
 		birth = yes
 	}
-	7174.1.1 = {
+	7174.3.2 = {
 		domicile ?= { move_domicile = province:528 } # b_balorn
+		effect = {
+			add_realm_law_skip_effects = camp_purpose_brigands
+			add_courtier = character:lineofkurtuk1 # Kurtuk
+		}
 	}
 	7189.12.5 = {
 		death = { death_reason = death_battle }  
@@ -108,7 +112,7 @@ lineofkurtuk1 = {
 	7070.1.2 = {
 		birth = yes
 	}
-	7174.1.1 = {
+	7174.3.2 = {
 		employer = lineofugluk2 # Karluk
 	}
 	7199.6.14 = {
@@ -144,9 +148,7 @@ lineofsharkey1 = {
 		birth = yes
 		give_nickname = nick_sharkey
 		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
+			add_character_flag = had_nickname_event
 		}
 	}
 	7110.4.9 = {
@@ -182,13 +184,15 @@ lineofsharkey2 = {
 		birth = yes
 		give_nickname = nick_sharkey
 		effect = {
-			add_character_flag = {
-				flag = had_nickname_event
-			}
+			add_character_flag = had_nickname_event
 		}
 	}
-	7174.1.1 = {
+	7174.3.2 = {
 		domicile ?= { move_domicile = province:4774 } # b_barad_thoron
+		effect = {
+			add_realm_law_skip_effects = camp_purpose_brigands
+			add_courtier = character:lineofpendor4 # Pendor
+		}
 	}
 	7180.4.9 = {
 		death = { death_reason = death_battle }  
