@@ -70,6 +70,9 @@ mouthofsauron = {
 	}			
 	7174.1.1 = {
 		domicile ?= { move_domicile = province:700 } # b_sturlurza_nur
+		effect = {
+			add_realm_law_skip_effects = camp_purpose_scholars
+		}
 	}
 }			
 				
