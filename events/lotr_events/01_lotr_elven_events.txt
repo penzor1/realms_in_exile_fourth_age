@@ -156,7 +156,7 @@
 		custom_tooltip = 01_elven.0037.a.tt # Play as Thranduil
 		hidden_effect = {
 			character:lineoforopher6 = { # Legolas
-				add_courtier = scope:successor
+				add_courtier = scope:successor #maybe lineofferen1
 			}
 			scope:successor = { # RNG Successor
 				if = {
