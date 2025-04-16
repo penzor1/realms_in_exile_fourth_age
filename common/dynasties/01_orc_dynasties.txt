@@ -64,6 +64,12 @@ dynasty_troll_king = {
 	motto = dynn_troll_king_motto
 }
 
+dynasty_ozho = {
+	name = "dynn_ozho"
+	culture = "black_troll"
+	motto = dynn_ozho_motto
+}
+
 ####################
 #### Goblin ####
 ####################
