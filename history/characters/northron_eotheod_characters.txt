@@ -932,7 +932,7 @@ lineofeorl28 = { # Théoden Thengling
 		}
 	}
 	7052.3.15 = {
-		death = { death_reason = death_battle }	#Battle of the Pelennor Fields
+		death = { death_reason = death_battle killer = nazgul1 } #Killed by Witch King at Battle of the Pelennor Fields
 	}
 }
 
