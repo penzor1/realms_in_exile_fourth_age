@@ -9,6 +9,8 @@ lineisildur44 = {
 	father = lineisildur42 # Elessar
 	mother = linefinwe30 # Arwen
 
+	dna = luthien_dna
+
 	sexuality = heterosexual
 	
 	trait = compassionate
@@ -25,6 +27,8 @@ lineisildur44 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
+			add_character_flag = is_luthien
+			add_character_flag = has_scripted_appearance
 		}
 	}
 	7119.1.1 = {
@@ -44,6 +48,8 @@ lineisildur45 = {
 	father = lineisildur42 # Elessar
 	mother = linefinwe30 # Arwen
 
+	dna = indis_dna
+
 	sexuality = heterosexual
 	
 	trait = eccentric
@@ -60,6 +66,8 @@ lineisildur45 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
+			add_character_flag = is_indis
+			add_character_flag = has_scripted_appearance
 		}
 	}
 	7245.1.1 = { # Fourth Age 193
@@ -75,6 +83,8 @@ lineisildur46 = {
 	female = yes
 	father = lineisildur42 # Elessar
 	mother = linefinwe30 # Arwen
+
+	dna = altariel_dna
 
 	sexuality = heterosexual
 	
@@ -93,6 +103,8 @@ lineisildur46 = {
 		birth = yes
 		effect = {
 			learn_language = language_sindarin
+			add_character_flag = is_altariel
+			add_character_flag = has_scripted_appearance
 		}
 	}
 	7260.1.1 = { # Fourth Age 208
