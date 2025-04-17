@@ -849,7 +849,6 @@
 		holding = castle_holding
 		buildings = {
 		}
-		special_building = wonder_minas_ithil_03
 	}
 }
 
