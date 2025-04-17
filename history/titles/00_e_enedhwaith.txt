@@ -3579,7 +3579,6 @@ d_nan_enqui = {
 	7057.1.1 = {
         holder = lineohtarion9 #Handir
 		liege = k_andrast
-		de_jure_liege = e_reunitedkingdom
     }
     7101.9.14 = {
         holder = lineohtarion11 #Olurin
@@ -3660,7 +3659,6 @@ c_tharagrondost = {
 	7057.1.1 = {
         holder = lineohtarion9 #Handir
 		liege = k_andrast
-		de_jure_liege = e_reunitedkingdom
     }
     7101.9.14 = {
         holder = lineohtarion11 #Olurin
@@ -3752,7 +3750,6 @@ c_rast_hwarin = {
 	7085.5.16 = {
         holder = line_norn_vudrin53 #Aru_u_ndi_i_rd
 		liege = d_nan_enqui
-		de_jure_liege = e_reunitedkingdom
     }
     7135.12.9 = {
         holder = line_norn_vudrin57 #Hila_a_t
@@ -3810,7 +3807,6 @@ c_nornin = {
 	7057.1.1 = {
         holder = lineohtarion9 #Handir
 		liege = k_andrast
-		de_jure_liege = e_reunitedkingdom
     }
     7101.9.14 = {
         holder = lineohtarion11 #Olurin
@@ -3862,7 +3858,6 @@ d_perth_maiwin = {
 	}
 	7052.5.1 = {
 		holder = lineohtarion9 #Handir
-		de_jure_liege = e_reunitedkingdom
 		liege = k_andrast
     }
     7101.9.14 = {
@@ -3940,9 +3935,6 @@ c_ulond = {
 	liege = k_andrast
 	government = feudal_government
 	}
-	7052.5.1 = {
-		de_jure_liege = e_reunitedkingdom
-    }
     7101.9.14 = {
         holder = lineohtarion11 #Olurin
     }
@@ -4028,7 +4020,6 @@ c_rafinfalas = {
     }
 	7052.5.1 = {
 		holder = lineohtarion9 #Handir
-		de_jure_liege = e_reunitedkingdom
 		liege = k_andrast
     }
     7101.9.14 = {
@@ -4067,7 +4058,6 @@ d_parth_i_certemar = {
 	}
     7052.5.1 = {
 		holder = lineohtarion9 #Handir
-		de_jure_liege = e_reunitedkingdom
 		liege = k_andrast
     }
     7101.9.14 = {
@@ -4145,7 +4135,6 @@ c_aralanthir = {
     7111.4.28 = {
         holder = line_tonredin38 #Aru_u_ndi_i_rd
 		liege = d_parth_i_certemar
-		de_jure_liege = e_reunitedkingdom
     }
     7154.10.14 = {
         holder = line_tonredin41 #Sorot
@@ -4188,14 +4177,16 @@ c_nannthorod = {
 	}
 	7052.5.1 = {
 		holder = lineohtarion9 #Handir
-		de_jure_liege = e_reunitedkingdom
 		liege = k_andrast
     }
     7101.9.14 = {
         holder = lineohtarion11 #Olurin
     }
-    7151.7.13 = {
-        holder = lineohtarion13 #Manwendil
+    7154.10.14 = {
+        holder = line_tonredin41 #Sorot
+    }
+    7206.7.2 = {
+        holder = line_tonredin43 #Kadu_u_n
     }
 }
 
@@ -4237,7 +4228,6 @@ d_annulefnui = {
 	7052.5.1 = { # War against local Andrathrim
 		holder = linevingintur9 #Virinar
 		liege = k_pinnath_gelin
-		de_jure_liege = e_reunitedkingdom
 
 	}
 	7089.1.1={
@@ -4246,7 +4236,6 @@ d_annulefnui = {
 	7148.11.10 = {
 		holder = linevingintur26 #Virinehtar
 		liege = k_andrast
-		de_jure_liege = e_reunitedkingdom
     }
     7178.4.20 = {
         holder = linevingintur28 #Voromir
@@ -4315,8 +4304,6 @@ c_cereg = {
 	7052.5.1 = { # War against local Andrathrim
 		holder = linevingintur9 #Virinar
 		liege = d_arlefnui
-		de_jure_liege = e_reunitedkingdom
-
 	}
 	7089.1.1={
 		holder = linevingintur20 #Vinyaran
@@ -4324,7 +4311,6 @@ c_cereg = {
 	7148.11.10 = {
 		holder = linevingintur26 #Virinehtar
 		liege = d_annulefnui
-		de_jure_liege = e_reunitedkingdom
     }
     7178.4.20 = {
         holder = linevingintur28 #Voromir
@@ -4384,8 +4370,6 @@ c_tawartelch = {
 	7052.5.1 = { # War against local Andrathrim
 		holder = linevingintur9 #Virinar
 		liege = d_annulefnui
-		de_jure_liege = e_reunitedkingdom
-
 	}
 	7089.1.1={
 		holder = linevingintur20 #Vinyaran
@@ -4470,8 +4454,6 @@ c_adarubar = {
 	7052.5.1 = { # War against local Andrathrim
 		holder = linevingintur9 #Virinar
 		liege = d_annulefnui
-		de_jure_liege = e_reunitedkingdom
-
 	}
 	7089.1.1={
 		holder = linevingintur20 #Vinyaran
