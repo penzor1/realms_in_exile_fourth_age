@@ -3,7 +3,7 @@
  #### DWARVEN Decisions ####
  #################################
  decision_become_glitterbeards: "Become the Glitterbeards"
- decision_become_glitterbeards_tooltip: ""
+ decision_become_glitterbeards_tooltip: "You will adopt a new culture"
  decision_become_glitterbeards_desc: ""
  decision_become_glitterbeards_confirm: "We are the Glitterbeards"
  decision_become_glitterbeards.tt: "You will adopt the divergent Glitterbeard culture"
