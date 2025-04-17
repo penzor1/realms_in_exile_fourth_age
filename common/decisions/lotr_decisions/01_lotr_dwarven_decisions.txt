@@ -58,7 +58,6 @@ decision_become_glitterbeards = {
 		custom_tooltip = decision_become_glitterbeards.tt
 		custom_tooltip = culture_emergence_events.0002.new_divergence
 		custom_tooltip = culture_emergence_events.vassals
-		flavor = new_divergent_culture_tt
 		give_nickname = nick_glitterbeard
 		get_title = title:k_eastern_white_mountains
 		culture = {
