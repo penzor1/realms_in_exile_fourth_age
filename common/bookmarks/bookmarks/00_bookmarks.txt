@@ -9,6 +9,8 @@ bm_120_fourth_age_01 = {
 		value = 0
 	}
 	
+	# add moountain tribes
+	
 	# Éofara, King of Rohan
 	character = {
 		name = "bookmark_fa_01_eofara"
@@ -22,7 +24,7 @@ bm_120_fourth_age_01 = {
 		culture = rohirrim
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofeofor20
-		position = { 750 200 }
+		position = { 725 200 }
 		animation = personality_honorable
 		# Éobrand, Prince of Rohan
 		character = {
@@ -93,7 +95,7 @@ bm_120_fourth_age_01 = {
 		culture = lasgalendrim
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoforopher6
-		position = { 1100 500 }
+		position = { 1100 450 }
 		animation = personality_rational
 		# Eldarion, King of RK
 		character = {
@@ -136,7 +138,7 @@ bm_120_fourth_age_01 = {
 		culture = gondorian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = linesteward46
-		position = { 1000 700 }
+		position = { 1000 650 }
 		animation = personality_honorable
 		# Barahir, Heir of Ithilien
 		character = {
@@ -165,9 +167,7 @@ bm_120_fourth_age_01 = {
 	}
 	# add pelargir
 	# add dol amroth
-	# add moountain tribes
 	# add beorning
-	# add south rhovanion
 }
 
 ### 3000 T.A. ###
