@@ -9,6 +9,7 @@
 		name = lock_of_hair_galadriel
 		description = lock_of_hair_galadriel_desc
 		type = necklace
+		template = lock_of_hair_galadriel_template # Template is where you set restrictions on usability!
 		visuals = mithrellas_talisman
 		wealth = scope:wealth
 		quality = scope:quality
@@ -19,9 +20,7 @@
 			recipient = character:lineofdurin100 # Gimli
 			location = province:3108 # Lorien (b_caras_galadhon)
 		}
-		modifier = artifact_monthly_prestige_5_modifier
-		modifier = artifact_monthly_prestige_add_2_modifier
-		modifier = artifact_short_reign_duration_mult_5_modifier
+		modifier = lock_of_hair_galadriel_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
@@ -46,6 +45,7 @@ create_artifact_banner_of_elendil_effect = {
 		name = banner_of_elendil
 		description = banner_of_elendil_desc
 		type = wall_big
+		template = banner_of_elendil_template # Template is where you set restrictions on usability!
 		visuals = banner
 		visuals_source = house:house_telcontar
 		wealth = scope:wealth
@@ -57,9 +57,7 @@ create_artifact_banner_of_elendil_effect = {
 			recipient = character:lineisildur42 # Aragorn
 			location = province:4337 #Imladris (b_imladris)
 		}
-		modifier = artifact_powerful_vassal_opinion_5_modifier
-		modifier = artifact_monthly_prestige_add_5_modifier
-		modifier = artifact_knight_effectiveness_10_modifier
+		modifier = banner_of_elendil_modifier
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
