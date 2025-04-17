@@ -1,0 +1,63 @@
+﻿lock_of_hair_galadriel_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		OR = {
+			has_primary_title = title:d_glittering_caves
+			has_primary_title = title:k_eastern_white_mountains
+			has_primary_title = title:e_white_mountains
+			dynasty = dynasty:dynasty_durin
+			is_elf = yes
+		}
+	}
+	can_reforge = {
+		always = yes
+	}
+
+	fallback = {
+		monthly_prestige = 0.10
+		short_reign_duration_mult = -0.2
+	}
+	
+	ai_score = {
+		value = 100
+	}
+	
+	unique = yes
+}
+
+banner_of_elendil_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		OR = {
+			has_primary_title = title:e_arnor
+			has_primary_title = title:e_gondor
+			has_primary_title = title:k_arthedain
+			has_primary_title = title:k_arnor_regent
+			has_primary_title = title:e_numenor_in_exile
+			has_primary_title = title:e_reunitedkingdom
+			AND = {
+				highest_held_title_tier = tier_kingdom
+				has_title = title:k_arnor_regent
+			}
+		}
+	}
+	can_reforge = {
+		culture = { has_cultural_pillar = heritage_dunedain }
+	}
+
+	fallback = {
+		powerful_vassal_opinion = 2
+		monthly_prestige = 0.25
+		court_grandeur_baseline_add = 2
+	}
+	
+	ai_score = {
+		value = 100
+	}
+	
+	unique = yes
+}
