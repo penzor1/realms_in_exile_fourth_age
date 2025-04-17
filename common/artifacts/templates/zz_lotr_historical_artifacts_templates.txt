@@ -1,0 +1,33 @@
+﻿sceptre_of_annuminas_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		OR = {
+			has_primary_title = title:e_arnor
+			has_primary_title = title:k_arthedain
+			has_primary_title = title:k_arnor_regent
+			has_primary_title = title:e_numenor_in_exile
+			has_primary_title = title:e_reunitedkingdom
+			AND = {
+				highest_held_title_tier = tier_kingdom
+				has_title = title:k_arnor_regent
+			}
+		}
+	}
+	can_reforge = {
+		culture = { has_cultural_pillar = heritage_dunedain }
+	}
+
+	fallback = {
+		powerful_vassal_opinion = 2
+		monthly_prestige = 0.5
+		monthly_dynasty_prestige = 0.08
+	}
+	
+	ai_score = {
+		value = 100
+	}
+	
+	unique = yes
+}
