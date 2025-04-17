@@ -2274,7 +2274,7 @@
 		holding = tribal_holding	
 	}
 	7052.5.1 = {
-        culture = gondorian
+		culture = orodbedhrim
 		religion = faith_edain
 		holding = castle_holding	
     }
@@ -2312,9 +2312,6 @@
 		religion = faith_daen_gaoth
 		holding = tribal_holding	
 	}
-	7088.5.26 = {
-		religion = faith_edain
-	}
 	
 }
 						
@@ -2349,11 +2346,6 @@
 		religion = faith_daen_gaoth
 		holding = tribal_holding
 	}
-	7088.5.26 = {
-        culture = gondorian
-		religion = faith_edain
-		holding = castle_holding	
-    }
 }
 						
 508 = {	   #Rast Nimrais (b_rast_nimrais)						
@@ -2406,9 +2398,8 @@
 		religion = faith_daen_gaoth
 		holding = tribal_holding	
 	}
+	#fiction
 	7052.5.1 = {
-		culture = orodbedhrim					
-		religion = faith_edain						
 		holding = castle_holding
 	}
 }
