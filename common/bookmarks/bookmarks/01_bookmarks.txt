@@ -36,6 +36,9 @@ bm_120_fourth_age_02 = {
 			 history_id = lineofdwalinVII
 		}
 	}
+	
+	# maglor
+	# sirgala
 
 	# Eärendur, Regent Restorator
 	character = {
@@ -92,7 +95,7 @@ bm_120_fourth_age_02 = {
 		culture = hobbit
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineoftook83
-		position = { 500 600 }
+		position = { 550 600 }
 		animation = personality_compassionate
 		# Marmaduke, the Buck
 		character = {
@@ -134,6 +137,9 @@ bm_120_fourth_age_02 = {
 #			history_id = #
 #		}
 	}
+	
+	# saralain
+	# add tharbad
 	
 	# Tharzog, of Gram
 	character = {
@@ -272,7 +278,6 @@ bm_120_fourth_age_02 = {
 			history_id = lineofeofor20
 			}
 		}
-	# add tharbad
 	}
 
 # Mordor
@@ -284,6 +289,8 @@ bm_120_fourth_age_03 = {
 	weight = {
 		value = 0
 	}
+	
+	#south rhovanion
 	
 	# Eldacar, Ranger of Mordor
 	character = {
@@ -314,6 +321,9 @@ bm_120_fourth_age_03 = {
 			history_id = lineisildur43
 		}
 	}
+	
+	# add umbar
+	# add harondor
 	
 	# Vaugan, the Fishmonger
 	character = {
@@ -357,8 +367,6 @@ bm_120_fourth_age_03 = {
 			history_id = lineofvronkhar42
 		}
 	}
-	# add harondor
-	# add legolas?
 	
 	# Kidjun, Sons of Liberty
 	character = {
@@ -404,7 +412,7 @@ bm_120_fourth_age_03 = {
 	}
 		
 	# add nurn orc
-#	# Harad
+#	# Harad, the Blunted Scimitars
 #	character = {
 #		name = "bookmark_fa_03_harad"
 #		dynasty_house = house_telcontar
@@ -685,7 +693,7 @@ bm_120_fourth_age_04 = {
 	}
 	
 	# kingdom of rhovanion
-	# add dale
+	# landless rhunnic
 	
 	# Aramagor, Prince of Cinders
 	character = {
@@ -785,7 +793,7 @@ bm_120_fourth_age_05 = {
 		culture = firebeards
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = lineofuri126
-		position = { 350 450 }
+		position = { 350 500 }
 		animation = personality_dishonorable
 		# Olius, the Unworthy
 		character = {
