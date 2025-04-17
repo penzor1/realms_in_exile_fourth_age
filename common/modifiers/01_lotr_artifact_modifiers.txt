@@ -1,0 +1,14 @@
+﻿lock_of_hair_galadriel_modifier = {
+	monthly_prestige = 0.15
+	monthly_dynasty_prestige = 0.05
+	short_reign_duration_mult = -0.2
+	court_grandeur_baseline_add = 2
+}
+
+banner_of_elendil_modifier = {
+	monthly_prestige = 1
+	powerful_vassal_opinion = 5
+	short_reign_duration_mult = -0.2
+	knight_effectiveness_mult = 0.10
+	court_grandeur_baseline_add = 2
+}
