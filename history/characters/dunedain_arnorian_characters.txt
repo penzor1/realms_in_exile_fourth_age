@@ -1785,22 +1785,23 @@ lineisildur42 = { #Aragorn, you know who he is
 			set_relation_soulmate = { target = character:linefinwe30 }
 			set_relation_friend = {
 				reason = contemplated_life_and_death_together
-				target = character:lineofgandalf
+				target = character:lineofgandalf # Gandalf
 			}
 			set_relation_friend = {
 				reason = contemplated_life_and_death_together
-				target = character:lineofdurin100
+				target = character:lineofdurin100 # Gimli
 			}
 			set_relation_friend = {
 				reason = contemplated_life_and_death_together
-				target = character:lineoforopher6
+				target = character:lineoforopher6 # Legolas
 			}
 			add_character_flag = had_nickname_event
 			add_character_flag = has_regnal_name
+			add_character_flag = aragorn_has_returned
 		}
 		add_spouse = linefinwe30 
-		give_nickname = nick_envinyatar
-        culture = gondorian
+		give_nickname = nick_the_renewer_dunedain
+		culture = gondorian
 	}
 	7174.3.1 = { # Died on the 1 of March
 		death = { death_reason = death_natural_causes } 		
