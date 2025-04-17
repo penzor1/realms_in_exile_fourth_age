@@ -11773,7 +11773,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 			accessory = {
 				mode = add
 				gene = hairstyles
-				template = all_hairstyles
+				template = no_hairstyles
 				accessory = bald
 			}
 			accessory = {
@@ -11825,7 +11825,7 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 			accessory = {
 				mode = add
 				gene = hairstyles
-				template = all_hairstyles
+				template = no_hairstyles
 				accessory = bald
 			}
 			accessory = {
@@ -12102,8 +12102,8 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 			accessory = {
 				mode = add
 				gene = hairstyles
-				template = all_hairstyles
-				accessory = male_hair_balding_01
+				template = no_hairstyles
+				accessory = bald
 			}
 			accessory = {
 				mode = add	
@@ -12133,6 +12133,12 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 
 	ozho_portrait = {
 		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = no_hairstyles
+				accessory = bald
+			}
 			morph = {
 				mode = add
 				gene = gene_hunchbacked
@@ -12153,6 +12159,12 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 
 	borghal_portrait = {
 		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = no_hairstyles
+				accessory = bald
+			}
 			morph = {
 				mode = add
 				gene = gene_hunchbacked
@@ -12173,6 +12185,12 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 
 	ruza_portrait = {
 		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = no_hairstyles
+				accessory = bald
+			}
 			morph = {
 				mode = add
 				gene = gene_hunchbacked
@@ -12193,6 +12211,12 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 
 	zakk_portrait = {
 		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = no_hairstyles
+				accessory = bald
+			}
 			morph = {
 				mode = add
 				gene = gene_hunchbacked
@@ -12212,6 +12236,12 @@ dorfdad_dwalin_portrait = { # Jagua note: Based on brown-haired gimli_temp model
 	}
 
 	rakhaad_portrait = {
+		accessory = {
+				mode = add
+				gene = hairstyles
+				template = no_hairstyles
+				accessory = bald
+			}
 		dna_modifiers = {
 			morph = {
 				mode = add
