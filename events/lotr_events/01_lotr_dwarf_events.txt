@@ -39,11 +39,11 @@
 				clear_culture_traditions = yes
 				add_culture_tradition = tradition_hard_working
 				add_culture_tradition = tradition_mountain_homes
-				add_culture_tradition = tradition_esteemed_hospitality
 				add_culture_tradition = tradition_fp2_ritualised_friendship
 				add_culture_tradition = tradition_artisans
 				add_culture_tradition = tradition_legendary_artisans
 				add_culture_tradition = tradition_metal_craftsmanship
+				add_culture_tradition = tradition_mining_fervour
 				set_culture_pillar = language_westron
 				set_culture_pillar = ethos_egalitarian
 			}
@@ -55,6 +55,7 @@
 		custom_tooltip = 01_dwarf.0011.a.tt # Youll be Glitter-full
 		flavor = new_divergent_culture_tt
 		give_nickname = nick_glitterbeard
+		get_title = title:k_eastern_white_mountains
 		culture = {
 			set_variable = {
 				name = recent_event_divergence
