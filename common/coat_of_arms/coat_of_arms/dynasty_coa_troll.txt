@@ -117,3 +117,51 @@ dynasty_ozho={
 
 }
 
+dynasty_yagmuz={
+	pattern="pattern_solid.dds"
+	color1=pitch_black
+	color2=rhudaur_rust
+	color3=white
+	color4=yellow
+	colored_emblem={
+		color1=white
+		color2=yellow_light
+		texture="ce_dwarven_hammer_01.dds"
+		instance={
+			scale={ 0.780000 0.780000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 64 64 64 }
+		color2=white
+		color3=dark_rust
+		texture="ce_pattern_uruk_3.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 233 161 54 }
+		texture="ce_nargubraz_dwarves_02.dds"
+		instance={
+			position={ 0.490000 0.480000 }
+			scale={ 1.000000 0.760000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_texture_uruk_1.dds"
+		instance={
+			depth=3.010000
+		}
+
+	}
+
+}
