@@ -49,3 +49,65 @@ house_mazog={
 	}
 
 }
+
+dynasty_tharzog={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=brown
+	color3=white
+	color4=white
+	colored_emblem={
+		color1=rgb { 172 172 172 }
+		color2=rgb { 255 30 0 }
+		texture="ce_dwarf_13.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=white
+		texture="ce_texture_uruk_1.dds"
+		instance={
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		color3=red
+		texture="ce_uruk_feral.dds"
+		instance={
+			position={ 0.500000 0.190000 }
+			scale={ 0.710000 0.710000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=white
+		color3=brown
+		texture="ce_cc_flash_01.dds"
+		instance={
+			position={ 0.500000 0.690000 }
+			scale={ 0.710000 0.710000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_edain_border_08.dds"
+		instance={
+			depth=3.010000
+		}
+
+	}
+
+}
