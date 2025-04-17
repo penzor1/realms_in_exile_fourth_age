@@ -11,8 +11,8 @@
  cn_rangers_of_zigur_adj:0 "Rangers"
  d_gunduzbad:0 "Gunduzbad"
  ### Other ### (Titular Arnor)
- d_ithillond: "Nan Nisilmë"
- d_ithillond_adj: "Nisilmerim"
+ d_ithillond: "Nan Nisilmë" #meaning vale of the moonlight in quenya
+ d_ithillond_adj: "Nisilmerim" #ithillond means refuge of the moon in sindarin
  d_ingors_expedition: "Ingór's Expedition"
  d_ingors_expedition_adj: "Ironfists"
  k_arnor_regent: "Arnor"
