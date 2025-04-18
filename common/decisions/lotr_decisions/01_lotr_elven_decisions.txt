@@ -21,7 +21,13 @@ decision_build_a_grey_ship = {
 	confirm_text = decision_build_a_grey_ship_confirm
 	
 	cost = {
-		gold = 100
+		gold = {
+			value = 100
+			if = {
+				limit = { is_ai = yes }
+				multiply = 0.1
+			}
+		}
 	}
 
 	decision_group_type = realms_in_exile_major
@@ -29,9 +35,7 @@ decision_build_a_grey_ship = {
 	is_shown = {
 		is_elf = yes
 		is_in_valinor = no
-		NOT = { 
-			has_trait = sailed_west
-		}
+		NOT = { has_trait = sailed_west }
 		has_title = title:d_ithillond
 		title:d_ithillond.holder = character:lineoforopher6 # Legolas
 		NOT = {
@@ -40,18 +44,15 @@ decision_build_a_grey_ship = {
 				target = flag:decision_build_grey_ship
 			}
 		}
-		current_year >= 7052
 	}
 	
 	is_valid = {
-		is_at_war = no		
-		NOT = { 
+		is_at_war = no
+		NOR = {
 			has_character_modifier = elf_childraising_modifier
-		}
-		NOT = { 
 			has_character_modifier = valar_ban_modifier
 		}
-		character:lineisildur42 = { is_alive = no } # Aragorn ded
+		character:lineisildur42 = { NOT = { is_alive = yes } }
 	}
 	
 	is_valid_showing_failures_only = {
@@ -60,10 +61,7 @@ decision_build_a_grey_ship = {
 	}
 	
 	effect = {
-		custom_tooltip = {
-			text = sail_to_valinor
-			# set_employer = title:k_tirion.holder
-		}
+		custom_tooltip = sail_to_valinor
 		trigger_event = {
 			id = 01_elven.0036
 		}
