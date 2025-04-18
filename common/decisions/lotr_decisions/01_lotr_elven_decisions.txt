@@ -78,7 +78,7 @@ decision_build_a_grey_ship = {
 		base = 0
 		modifier = { # Game Rule
 			has_game_rule = default_ai_behavior
-			add = 100
+			add = 1000
 			current_year >= 7175
 		}
 		modifier = { # Game Rule
