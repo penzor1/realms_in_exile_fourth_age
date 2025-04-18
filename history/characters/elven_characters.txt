@@ -3319,6 +3319,16 @@ lineoforopher3 = { # Thranduil the Elvenking
 			add_character_modifier = elf_child_limit_modifier
 		}
 	}
+	7174.3.2 = {
+		effect = {
+			remove_claim = title:c_amarthrynd
+			remove_claim = title:c_naerorn
+			remove_claim = title:c_barad_angol
+			remove_claim = title:c_dimbar
+			remove_claim = title:c_gorogrod
+			remove_claim = title:c_amon_lanc
+		}
+	}
 }
 
 lineoforopher4 = { # Arhendhiril, Thranduil's Wife
