@@ -4063,8 +4063,15 @@ d_parth_i_certemar = {
     7101.9.14 = {
         holder = lineohtarion11 #Olurin
     }
-    7151.7.13 = {
-        holder = lineohtarion13 #Manwendil
+    7111.4.28 = {
+        holder = line_tonredin38 #Aru_u_ndi_i_rd
+		liege = k_andrast
+    }
+    7154.10.14 = {
+        holder = line_tonredin41 #Sorot
+    }
+    7206.7.2 = {
+        holder = line_tonredin43 #Kadu_u_n
     }
 }
 c_aralanthir = {
