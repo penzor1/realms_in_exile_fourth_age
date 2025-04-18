@@ -2702,6 +2702,18 @@ c_minas_ithil = { #Minas Ithil
 	7142.1.1 = {
 		holder = linesteward46 # Dior
 		change_development_level = 8
+		effect = {
+			add_county_modifier = {
+				modifier = fading_morgul_corruption_modifier
+				years = 35
+			}
+			title:c_minas_ithil.holder = {
+				trigger_event = {
+					id = gondor.2301 # Minas Ithil Purified
+					years = 35
+				}
+			}
+		}
 	}
 }
 b_imlad_ithil = { #Imlad Ithil
