@@ -64,6 +64,9 @@
 	option = {
 		name = 01_elven.0036.b
 		custom_tooltip = 01_elven.0036.b.tt # Leave with Gimli
+		trigger = {
+			character:lineofdurin100 = { is_alive = yes } 
+		}
 		character:lineofdurin100 = { # Gimli
 			trigger_event = {
 				id = 01_elven.0038
@@ -129,14 +132,6 @@
 	
 	immediate = {
 		play_music_cue = hobbit_erebor
-		character:lineoforopher6 = { # Legolas
-			#start_travel_plan = { #Travel to Valinor # NO TRAVEL PATH
-			#	destination = province:3900 # b_valinor_1
-			#	return_trip = no
-			#	players_use_planner = yes
-			#	on_arrival_destinations = all
-			#}
-		}
 		hidden_effect_new_object = {
 			# Create a commander for the troops.
 			create_character = {
@@ -149,15 +144,24 @@
 				save_scope_as = successor
 			}
 		}
+		character:lineoforopher6 = { # Legolas
+			#start_travel_plan = { #Travel to Valinor # NO TRAVEL PATH
+			#	destination = province:3900 # b_valinor_1
+			#	return_trip = no
+			#	players_use_planner = yes
+			#	on_arrival_destinations = all
+			#}
+			add_courtier = scope:successor #maybe lineofferen1
+		}
 	}
 	
 	option = {
 		name = 01_elven.0037.a
 		custom_tooltip = 01_elven.0037.a.tt # Play as Thranduil
+		trigger = {
+			character:lineoforopher3 = { is_alive = yes } 
+		}
 		hidden_effect = {
-			character:lineoforopher6 = { # Legolas
-				add_courtier = scope:successor #maybe lineofferen1
-			}
 			scope:successor = { # RNG Successor
 				if = {
 					limit = { NOT = { has_title = title:d_ithillond } }
@@ -196,9 +200,6 @@
 		name = 01_elven.0037.b
 		custom_tooltip = 01_elven.0037.b.tt # Play as RNG Elf
 		hidden_effect = {
-			character:lineoforopher6 = { # Legolas
-				add_courtier = scope:successor
-			}
 			scope:successor = { # RNG Successor
 				if = {
 					limit = { NOT = { has_title = title:d_ithillond } }
@@ -261,12 +262,6 @@
 	option = {
 		name = 01_elven.0038.a
 		custom_tooltip = 01_elven.0038.a.tt # Leave
-		character:lineoforopher6 = { # Legolas
-			trigger_event = {
-				id = 01_elven.0039
-				days = 30
-			}
-		}
 		hidden_effect = {
 			character:linefrar7 = { # Wirwir
 				trigger_event = {
@@ -311,6 +306,10 @@
 			}
 			character:lineoforopher6 = { # Legolas
 				add_courtier = character:lineofdurin100 # Gimli
+				trigger_event = {
+					id = 01_elven.0039
+					days = 30
+				}
 			}
 		}
 		ai_chance = {
@@ -386,22 +385,6 @@
 	
 	immediate = {
 		play_music_cue = hobbit_erebor
-		character:lineoforopher6 = { # Legolas
-			#start_travel_plan = { # Travel to Valinor # NO TRAVEL PATH
-			#	destination = province:3900 # b_valinor_1
-			#	return_trip = no
-			#	players_use_planner = no
-			#	on_arrival_destinations = all
-			#}
-		}
-		character:lineofdurin100 = { # Gimli
-			#start_travel_plan = { # Travel to Valinor # NO TRAVEL PATH
-			#	destination = province:3900 # b_valinor_1
-			#	return_trip = no
-			#	players_use_planner = no
-			#	on_arrival_destinations = all
-			#}
-		}
 		hidden_effect_new_object = {
 			# Create a commander for the troops.
 			create_character = {
@@ -415,15 +398,33 @@
 				save_scope_as = successor
 			}
 		}
+		character:lineoforopher6 = { # Legolas
+			#start_travel_plan = { # Travel to Valinor # NO TRAVEL PATH
+			#	destination = province:3900 # b_valinor_1
+			#	return_trip = no
+			#	players_use_planner = no
+			#	on_arrival_destinations = all
+			#}
+			add_courtier = scope:successor
+			}
+		}
+		character:lineofdurin100 = { # Gimli
+			#start_travel_plan = { # Travel to Valinor # NO TRAVEL PATH
+			#	destination = province:3900 # b_valinor_1
+			#	return_trip = no
+			#	players_use_planner = no
+			#	on_arrival_destinations = all
+			#}
+		}
 	}
 	
 	option = {
 		name = 01_elven.0039.a
-		custom_tooltip = 01_elven.0039.a.tt # Leave
+		custom_tooltip = 01_elven.0039.a.tt # Play as Thraduil
+		trigger = {
+			character:lineoforopher3 = { is_alive = yes } 
+		}
 		hidden_effect = {
-#			character:lineoforopher6 = { # Legolas
-#				add_courtier = scope:successor
-#			}
 			scope:successor = { # RNG Successor
 				if = {
 					limit = { NOT = { has_title = title:d_ithillond } }
@@ -439,12 +440,12 @@
 					set_owner = character:lineoforopher3 # Thranduil
 				}
 				add_trait = sailed_west
-#				set_employer = character:linefinwe6
+				set_employer = character:linefinwe6
 			}
 			character:lineofdurin100 = { # Gimli
 				set_player_character = character:linefrar7 # Wirwir
 				add_trait = sailed_west
-#				set_employer = character:linefinwe6
+				set_employer = character:linefinwe6
 			}
 		}
 		ai_chance = {
@@ -467,9 +468,6 @@
 		name = 01_elven.0039.b
 		custom_tooltip = 01_elven.0039.b.tt # Play as RNG Elf
 		hidden_effect = {
-#			character:lineoforopher6 = { # Legolas
-#				add_courtier = scope:successor
-#			}
 			scope:successor = { # RNG Successor
 				if = {
 					limit = { NOT = { has_title = title:d_ithillond } }
@@ -490,7 +488,7 @@
 			character:lineofdurin100 = { # Gimli
 				set_player_character = character:linefrar7 # Wirwir
 				add_trait = sailed_west
-#				set_employer = character:linefinwe6
+				set_employer = character:linefinwe6
 			}
 		}
 		ai_chance = {
@@ -522,6 +520,11 @@
 		reference = throne_room_thranduils_halls
 	}
 
+	left_portrait = {
+		character = character:lineoforopher3 # Thranduil
+		animation = worry
+	}
+
 	right_portrait = {
 		character = character:lineoforopher6 # Legolas
 		animation = interested
@@ -533,5 +536,9 @@
 	
 	option = {
 		name = 01_elven.0040.a
+		character:lineoforopher6 = { # Legolas
+			add_character_modifier = valar_ban_modifier
+			add_piety_level = -1
+		}
 	}
 }
