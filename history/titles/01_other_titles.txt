@@ -45,4 +45,8 @@ d_gunduzbad = {
 		liege = k_longbeards
 		government = feudal_government
 	}
+	7174.3.3 = { # fake
+		holder = 0
+		liege = 0
+	}
 }
