@@ -24,18 +24,17 @@ decision_invite_elves_ithilien = {
 		# If Anfalas player controlled, apply decision restrictions as normal. If not, allow ruler to land them
 		trigger_if = {
 			limit = {
-				title:c_ithillond.holder = { is_ai = yes }
+				title:d_forithilien.holder = { is_ai = yes }
 			}
-			title:c_ithillond = { holder.top_liege = root }
+			title:d_forithilien = { holder.top_liege = root }
 		} 
 		trigger_else = {
-			has_title = title:c_ithillond
+			has_title = title:d_forithilien
 		}
 		
 		NOR = {
-			title:c_ithillond = {
-				county_is_elven = yes
-			}
+			title:c_asgaril = { county_is_elven = yes }
+			title:c_coruvegil = { county_is_elven = yes }
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:invite_elves_ithillond
@@ -59,7 +58,7 @@ decision_invite_elves_ithilien = {
 
 		trigger_if = {
 			limit = {
-				title:c_ithillond.holder = { is_ai = yes }
+				title:d_forithilien.holder = { is_ai = yes }
 			}
 			prestige_level >= 4
 		} 
@@ -68,6 +67,10 @@ decision_invite_elves_ithilien = {
 		}
 
 		knows_language = language_sindarin
+		OR = {
+			NOT = { exists = title:e_mordor.holder }
+			has_title = title:e_mordor
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -92,7 +95,7 @@ decision_invite_elves_ithilien = {
 			target = flag:invite_elves_ithilien
 		}
 		trigger_event = {
-			id = gondor.2800
+			id = 01_gondor.2800
 			days = { 15 30 }
 		}
 	}
@@ -130,7 +133,7 @@ decision_elevate_ithillond = { # Aragorn decides to elevate ithillond into a kin
 		is_landed = yes
 		exists = title:d_ithillond.holder
 
-		title:c_ithillond = { holder.top_liege = root }
+		title:d_ithillond = { holder.top_liege = root }
 		
 		is_target_in_global_variable_list = {
 			name = unavailable_unique_decisions
@@ -171,7 +174,7 @@ decision_elevate_ithillond = { # Aragorn decides to elevate ithillond into a kin
 	effect = {
 		title:d_ithillond.holder ?= {
 			trigger_event = {
-				id = gondor.2801
+				id = 01_gondor.2801
 				days = { 15 30 }
 			}
 		}
