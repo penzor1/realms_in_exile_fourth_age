@@ -10,10 +10,10 @@
  cn_rangers_of_zigur:0 "the Rangers of Zigûrun"
  cn_rangers_of_zigur_adj:0 "Rangers"
  d_gunduzbad:0 "Gunduzbad"
- ### Other ### (Titular Arnor)
- k_ithillond: "Ithillond"
+ ### Other ###
+ k_ithillond: "Ithillond" #Nan Nisilmë vale of the moonlight
  k_ithillond_adj: "Elven"
- d_ithillond: "Ithillond"
+ d_ithillond: "Ithillond" #refuge of the moon
  d_ithillond_adj: "Elven"
  d_ingors_expedition: "Ingór's Expedition"
  d_ingors_expedition_adj: "Ironfist"
