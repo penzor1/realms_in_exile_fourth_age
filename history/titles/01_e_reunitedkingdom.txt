@@ -7,6 +7,7 @@ e_reunitedkingdom = {
 			}
 			set_capital_county = title:c_minas_tirith
 			set_global_variable = gondor_has_a_king
+			set_variable = founded_mundburgian_eored
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:aragorn_returned_to_gondor
