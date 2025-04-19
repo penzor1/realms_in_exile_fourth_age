@@ -888,9 +888,15 @@ decision_lead_the_flock = {
 				target = flag:dark_tree_created
 			}
 		}
-		is_target_in_global_variable_list = {
-			name = unavailable_unique_decisions
-			target = flag:dark_lord_challenged
+		OR = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:dark_lord_challenged
+			}
+			OR = {
+				NOT = { exists = title:k_dark_lord.holder }
+				has_title = title:k_dark_lord
+			}
 		}
 	}
 
@@ -928,6 +934,8 @@ decision_lead_the_flock = {
 			name = unavailable_unique_decisions
 			target = flag:dark_tree_created
 		}
+		destroy_title = title:k_dark_lord
+		get_title = title:k_dark_tree
 		trigger_event = {
 			id = 01_mordor.1018
 			days = { 30 90 }
