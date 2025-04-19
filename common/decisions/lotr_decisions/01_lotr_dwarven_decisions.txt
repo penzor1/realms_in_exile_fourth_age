@@ -22,13 +22,14 @@ decision_become_glitterbeards = {
 	
 	cost = {
 		gold = 200
-		prestige = 1000
+		prestige = 500
 	}
 
 	decision_group_type = realms_in_exile_major
 	
 	is_shown = {
 		is_dwarf = yes
+		is_landed = yes
 		has_dlc_feature = diverge_culture
 		OR = {
 			has_title = title:d_glittering_caves
@@ -45,8 +46,11 @@ decision_become_glitterbeards = {
 	is_valid = {
 		is_at_war = no
 		completely_controls = title:d_glittering_caves
-		title:c_glittering_caves = { development_level > 10 }
-		prestige_level >= 2
+		any_held_title = {
+			duchy = title:d_glittering_caves
+			title_capital_county.title_province = { development_level > 10 }
+		}
+		prestige_level >= 3
 	}
 	
 	is_valid_showing_failures_only = {
@@ -59,7 +63,7 @@ decision_become_glitterbeards = {
 		custom_tooltip = culture_emergence_events.0002.new_divergence
 		custom_tooltip = culture_emergence_events.vassals
 		give_nickname = nick_glitterbeard
-		get_title = title:k_eastern_white_mountains
+#		get_title = title:k_eastern_white_mountains
 		culture = {
 			set_variable = {
 				name = recent_event_divergence
@@ -96,7 +100,6 @@ decision_become_glitterbeards = {
 				add_culture_tradition = tradition_hard_working
 				add_culture_tradition = tradition_mountain_homes
 				add_culture_tradition = tradition_fp2_ritualised_friendship
-				add_culture_tradition = tradition_artisans
 				add_culture_tradition = tradition_legendary_artisans
 				add_culture_tradition = tradition_metal_craftsmanship
 				add_culture_tradition = tradition_mining_fervour
