@@ -6,6 +6,12 @@ d_ithillond = {
 		liege = e_reunitedkingdom
 #		de_jure_liege = k_ithilien
 		government = elven_government
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:invite_elves_ithillond
+			}
+		}
 	}
 	7174.3.3 = { # On Aragorn's death, Legolas sails west with Gimli
 		holder = 0
