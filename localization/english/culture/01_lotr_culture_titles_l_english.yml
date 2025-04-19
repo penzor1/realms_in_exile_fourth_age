@@ -1,4 +1,13 @@
 ﻿l_english:
+ ## ELVES ###
+ kingdom_feudal_k_ithillond_quenya: "Nan Nisilmë" #vale of the moonlight in quenya
+ kingdom_feudal_k_ithilien_quenya: "Nan Nisilmë"
+ duchy_feudal_d_ithillond_quenya: "Nan Nisilmë"
+ duchy_feudal_d_forithilien_quenya: "Nan Nisilmë"
+ kingdom_feudal_k_ithillond_sindarin: "Ithillond" #refuge of the moon in sindarin
+ kingdom_feudal_k_ithilien_sindarin: "Ithillond"
+ duchy_feudal_d_ithillond_sindarin: "Ithillond"
+ duchy_feudal_d_forithilien_sindarin: "Ithillond"
  ### MORDOR ###
  kingdom_k_dark_lord: "Dominion"
  king_black_male_k_dark_lord: "Durbúrz" # Dark Lord
