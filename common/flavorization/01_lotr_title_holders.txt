@@ -1,68 +1,32 @@
 ﻿### Elf Ithilien ###
-# Quenya
-kingdom_feudal_k_ithillond_quenya = {
+kingdom_feudal_k_ithillond_elves = {
+	type = title
+	tier = kingdom
+	titles = { k_ithillond k_ithilien d_edhellond }
+	priority = 160
+	heritages = { heritage_lomiquendi heritage_quendi heritage_calaquendi heritage_moriquendi }
+}
+
+duchy_feudal_d_ithillond_elves = {
+	type = title
+	tier = duchy
+	titles = { d_ithillond d_forithilien d_edhellond }
+	priority = 160
+	heritages = { heritage_lomiquendi heritage_quendi heritage_calaquendi heritage_moriquendi }
+}
+
+kingdom_feudal_k_ithillond = {
 	type = title
 	tier = kingdom
 	titles = { k_ithillond }
 	priority = 160
-	heritages = { heritage_lomiquendi heritage_quendi }
 }
 
-kingdom_feudal_k_ithilien_quenya = {
-	type = title
-	tier = kingdom
-	titles = { k_ithilien }
-	priority = 160
-	heritages = { heritage_lomiquendi heritage_quendi }
-}
-
-duchy_feudal_d_ithillond_quenya = {
+duchy_feudal_k_ithillond = {
 	type = title
 	tier = duchy
-	titles = { d_ithillond }
+	titles = { d_ithillond d_edhellond }
 	priority = 160
-	heritages = { heritage_lomiquendi heritage_quendi }
-}
-
-duchy_feudal_d_forithilien_quenya = {
-	type = title
-	tier = duchy
-	titles = { d_forithilien }
-	priority = 160
-	heritages = { heritage_lomiquendi heritage_quendi }
-}
-
-# Sindarin
-kingdom_feudal_k_ithillond_sindarin = {
-	type = title
-	tier = kingdom
-	titles = { k_ithillond }
-	priority = 160
-	heritages = { heritage_calaquendi heritage_moriquendi }
-}
-
-kingdom_feudal_k_ithilien_sindarin = {
-	type = title
-	tier = kingdom
-	titles = { k_ithilien }
-	priority = 160
-	heritages = { heritage_calaquendi heritage_moriquendi }
-}
-
-duchy_feudal_d_forithilien_sindarin = {
-	type = title
-	tier = duchy
-	titles = { d_ithillond }
-	priority = 160
-	heritages = { heritage_calaquendi heritage_moriquendi }
-}
-
-duchy_feudal_d_ithillond_sindarin = {
-	type = title
-	tier = duchy
-	titles = { d_forithilien }
-	priority = 160
-	heritages = { heritage_calaquendi heritage_moriquendi }
 }
 
 ### Regent of Arnor ###
@@ -110,8 +74,7 @@ kingdom_k_dark_lord = {
 king_black_male_k_dark_lord = {
 	type = character
 	gender = male
-	special = holder
-	tier = kingdom
+	special = head_of_faith
 	priority = 1000
 	flavourization_rules = {
 		top_liege = no
@@ -124,8 +87,7 @@ king_black_male_k_dark_lord = {
 king_black_female_k_dark_lord = { #??
 	type = character
 	gender = female
-	special = holder
-	tier = kingdom
+	special = head_of_faith
 	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
@@ -139,7 +101,6 @@ king_adunaic_male_k_dark_lord = {
 	type = character
 	gender = female
 	special = holder
-	tier = kingdom
 	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
@@ -147,14 +108,12 @@ king_adunaic_male_k_dark_lord = {
 	}
 	titles = { k_dark_lord k_dark_tree }
 	heritages = { heritage_northern_adunaic heritage_southern_adunaic heritage_bellakari heritage_tulwangi heritage_thani_native }
-	name_lists = { name_list_adunaic name_list_bellakaze name_list_south_adunaic }
 }
 
 king_adunaic_female_k_dark_lord = { 
 	type = character
 	gender = female
-	special = holder
-	tier = kingdom
+	special = head_of_faith
 	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
@@ -162,14 +121,12 @@ king_adunaic_female_k_dark_lord = {
 	}
 	titles = { k_dark_lord k_dark_tree }
 	heritages = { heritage_northern_adunaic heritage_southern_adunaic heritage_bellakari heritage_tulwangi heritage_thani_native }
-	name_lists = { name_list_adunaic name_list_bellakaze name_list_south_adunaic }
 }
 
 king_edain_male_k_dark_lord = { 
 	type = character
-	gender = female
-	special = holder
-	tier = kingdom
+	gender = male
+	special = head_of_faith
 	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
@@ -182,8 +139,7 @@ king_edain_male_k_dark_lord = {
 king_edain_female_k_dark_lord = { 
 	type = character
 	gender = female
-	special = holder
-	tier = kingdom
+	special = head_of_faith
 	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
@@ -196,8 +152,7 @@ king_edain_female_k_dark_lord = {
 king_male_k_dark_lord = { 
 	type = character
 	gender = female
-	special = holder
-	tier = kingdom
+	special = head_of_faith
 	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
@@ -209,8 +164,7 @@ king_male_k_dark_lord = {
 king_female_k_dark_lord = { 
 	type = character
 	gender = female
-	special = holder
-	tier = kingdom
+	special = head_of_faith
 	priority = 1000
 	flavourization_rules = { 
 		top_liege = no
