@@ -1719,6 +1719,9 @@
 		culture = sirrandrai
 		religion = faith_eldar
 		holding = elven_holding
+		effect = {
+			add_county_modifier = elves_in_edhellond
+		}
 	}
 }
 
