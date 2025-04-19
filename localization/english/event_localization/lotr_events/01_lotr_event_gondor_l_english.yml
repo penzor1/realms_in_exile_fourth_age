@@ -1,0 +1,25 @@
+﻿l_english:
+ 01_gondor.2800.t: "Elves in Ithilien"
+ 01_gondor.2800.desc: "The Haven of Ithilien has stood empty for hundreds of years, ever since the death of Amroth in T.A. 1981. \n\nThrough determination I have managed to contact Elves willing to come back and settle in Ithilien, bringing prosperity to a region which has stood empty for a thousand years. It is now up to me to appoint the leader of the Elves who will be taking over Edhellond and who will remain in contact with me." # Look at this again
+ 01_gondor.2800.a: "The Galadhrim are known for their craftmanship" # Lothlorien elf
+ 01_gondor.2800.a_tt: "You ask the Elf with Galadhrim heritage to lead Ithillond."
+ 01_gondor.2800.b: "The Wood Elves are experienced in matters of agriculture" # Lasgaledhrim elf
+ 01_gondor.2800.b_tt: "You ask the Elf from Lasgalen to lead Ithillond."
+ 01_gondor.2800.c: "The Falathrim are known for their maritime ways" # Penni elf
+ 01_gondor.2800.c_tt: "You ask the Elf from Lindon to lead Ithillond."
+ 01_gondor.2800.d: "The Noldor are known for their martial ways" # Noldor elf
+ 01_gondor.2800.d_tt: "You ask the Elf from Imladris to lead Ithillond."
+ 01_gondor.2801.t: "Elves in Ithilien"
+ 01_gondor.2801.desc: "The ruler of Gondor has offered to elevate our port into a kingdom of its own, reflecting the glory of the Elder Days and beholden only to Gondor.\n\nFurthermore, Gondor has promised to let us have Dol Amroth as part of our new kingdom, if we can somehow obtain it."
+ 01_gondor.2801.a: "We shall stand as a proud Elven Kingdom"
+ 01_gondor.2801.b: "The time is not yet right"
+ 01_gondor.2802.t: "Elves in Ithilien"
+ 01_gondor.2802.desc: "The Elves have finally arrived at my shores, bringing with them gifts for the people living close to Ithilien.\n\nIn time there might exist a friendship between Men and Elves as there existed the days of the Last Alliance, but for now I must focus on first strengething the bonds between my people and the recently arrived elves."
+ 01_gondor.2802.a: "Time to focus on more important matters."
+ 01_gondor.2802.b: "I wonder how they will rule..."
+ 01_gondor.2803.t: "Elves in Ithilien"
+ 01_gondor.2803.desc: "Word has reached me that the elves in Ithillond have accepted my proposal, and now stand at the head of the revived kingdom of Ithillond beholden only to me. This is a day to rejoice, as it will surely strengthen the bonds between men and elves."
+ 01_gondor.2803.a: "May they prosper for ages to come!"
+ 01_gondor.2804.opening: "Refusal of a Kingdom"
+ 01_gondor.2804.desc: "Due to internal conflicts we have had to refuse your offer, returning the generous gifts you sent to help us elevate our new homeland into a kingdom."
+ 01_gondor.2804.a: "Maybe one day they will rise"
