@@ -1,0 +1,188 @@
+﻿# Invite Elves to Ithilien
+decision_invite_elves_ithilien = {
+	sort_order = 35
+	# TEXT + PICTURE
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_mithlond_02.dds"
+	}
+	title = decision_invite_elves_ithilien
+	selection_tooltip = decision_invite_elves_ithilien_tooltip
+	desc = decision_invite_elves_ithilien_desc
+	confirm_text = decision_invite_elves_ithilien_confirm
+
+	decision_group_type = realms_in_exile_major
+	
+
+	# SHOWN
+	is_shown = {
+		is_landed = yes
+		current_year >= 6013
+		
+		#faith = faith:faith_edain
+		faith.religion = religion:dunedain_religion #juke note: dont bully heretics
+		
+		# If Anfalas player controlled, apply decision restrictions as normal. If not, allow ruler to land them
+		trigger_if = {
+			limit = {
+				title:c_ithillond.holder = { is_ai = yes }
+			}
+			title:c_ithillond = { holder.top_liege = root }
+		} 
+		trigger_else = {
+			has_title = title:c_ithillond
+		}
+		
+		NOR = {
+			title:c_ithillond = {
+				county_is_elven = yes
+			}
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:invite_elves_ithillond
+			}
+		}
+	}
+
+	# IS_VALID
+	is_valid = {
+		custom_tooltip = {
+			text = LOTR_FRIENDS_WITH_ELVEN_KING_TRIGGER
+			any_relation = { 
+				type = friend 
+				is_ruler = yes
+				highest_held_title_tier >= tier_kingdom
+				is_elf = yes
+				is_in_valinor = no
+				is_eldar = yes
+			}
+		}
+
+		trigger_if = {
+			limit = {
+				title:c_ithillond.holder = { is_ai = yes }
+			}
+			prestige_level >= 4
+		} 
+		trigger_else = {
+			prestige_level >= 3
+		}
+
+		knows_language = language_sindarin
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	#COST
+	cost = {
+		gold = 350
+		prestige = 1000
+		piety = 750
+	}
+
+	# EFFECT
+	effect = {
+		custom_tooltip = decision_invite_elves_ithilien_effect_tooltip
+		
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:invite_elves_ithilien
+		}
+		trigger_event = {
+			id = gondor.2800
+			days = { 15 30 }
+		}
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
+
+decision_elevate_ithillond = { # Aragorn decides to elevate ithillond into a kingdom/sanctuary type thing for the elves
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/armenelos.dds"
+	}
+	title = decision_elevate_ithillond
+	selection_tooltip = decision_elevate_ithillond_tooltip
+	desc = decision_elevate_ithillond_desc
+	confirm_text = decision_elevate_ithillond_confirm
+
+	decision_group_type = realms_in_exile_major
+	
+
+	# COOLDOWN
+	cooldown = {
+		years = 25 
+	}
+
+	# SHOWN
+	is_shown = {
+		faith_is_evil = no
+		is_landed = yes
+		exists = title:d_ithillond.holder
+
+		title:c_ithillond = { holder.top_liege = root }
+		
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:invite_elves_ithillond
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:elves_ithillond_kingdom
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		faith = faith:faith_edain
+		prestige_level >= 4
+		knows_language = language_sindarin
+		# title:d_ithillond.holder ?= {
+		has_relation_friend = title:d_ithillond.holder
+		# }
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	#COST
+	cost = {
+		prestige = 1250
+		gold = 500
+		piety = 350
+	}
+
+	#EFFECT
+	effect = {
+		title:d_ithillond.holder ?= {
+			trigger_event = {
+				id = gondor.2801
+				days = { 15 30 }
+			}
+		}
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
