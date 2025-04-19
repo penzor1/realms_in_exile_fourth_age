@@ -59,15 +59,87 @@ define_elven_homelands = {
 		##d_forithilien
 		title:c_asgaril = {
 			add_county_modifier = elven_homeland_county_modifier
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 30
+			}
 		}
 		title:c_coruvegil = {
 			add_county_modifier = elven_homeland_county_modifier
-		}
-		title:c_feadur = {
-			add_county_modifier = elven_homeland_county_modifier
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 30
+			}
 		}
 		title:c_henneth_annun = {
 			add_county_modifier = elven_homeland_county_modifier
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 30
+			}
+		}
+		title:c_faedur = {
+			add_county_modifier = elven_homeland_county_modifier
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 10
+			}
+		}
+		#d_emyn_arnen
+		title:c_emyn_arnen = {
+			add_county_modifier = elven_homeland_county_modifier
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 10
+			}
+		}
+		title:c_curedain = {
+			add_county_modifier = elven_homeland_county_modifier
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 10
+			}
+		}
+		title:c_othnir = {
+			add_county_modifier = elven_homeland_county_modifier
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 10
+			}
+		}
+		title:c_rian = {
+			add_county_modifier = elven_homeland_county_modifier
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 10
+			}
+		}
+		#d_minas_ithil
+		title:c_minas_ithil = {
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 10
+			}
+		}
+		#d_minas_tirith
+		title:c_minas_tirith = {
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 10
+			}
+		}
+		title:c_osgiliath = {
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 10
+			}
+		}
+		title:c_telengaur = {
+			add_county_modifier = elven_homeland_county_modifier
+			add_county_modifier = {
+				modifier = elves_in_edhellond
+				years = 10
+			}
 		}
 		##Greenwood
 		title:c_aradhrynd = {
