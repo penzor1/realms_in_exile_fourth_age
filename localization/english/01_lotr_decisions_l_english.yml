@@ -4,17 +4,21 @@
  #################################
  decision_become_glitterbeards: "Become the Glitterbeards"
  decision_become_glitterbeards_tooltip: "You will adopt a new culture"
- decision_become_glitterbeards_desc: ""
+ decision_become_glitterbeards_desc: "It has been years since the arrival of our first settlers and we have well established ourselves in the Glittering Caves. The distance from the holds of our kin and dwarven brethren has slowly permitted the development of social peculiarities amongst the people of our lands. Perhaps it is time to fully declare and embrace this difference?"
  decision_become_glitterbeards_confirm: "We are the Glitterbeards"
  decision_become_glitterbeards.tt: "You will adopt the divergent Glitterbeard culture"
  #################################
  #### GONDOR Decisions ####
  #################################
  decision_invite_elves_ithilien: "Invite Elves to Ithilien"
- decision_invite_elves_ithilien_desc: "You invite elves to settle Ithilien, bringing back life to the once great elven port."
+ decision_invite_elves_ithilien_desc: "The forests of Ithilien would be perfect grounds for the settlements of the fair elves. Perhaps we could invite some of them to reside there, bringing back life to the surrounding barrenlands."
  decision_invite_elves_ithilien_confirm: "Invite elves to settle Ithilien"
  decision_invite_elves_ithilien_tooltip: "You invite elves to come live in Ithilien."
- decision_invite_elves_ithilien_effect_tooltip: "Elves come to settle the desolate wastelands of Ithilien, bringing back life to the barrenlands."
+ decision_invite_elves_ithilien_effect_tooltip: "Elves settle in Forithilien, revitalizing the surrounding lands."
+ decision_elevate_ithillond: "Elevate the Elves of Ithillond"
+ decision_elevate_ithillond_desc: "You declare that from now on Ithillond will become its own fiefdom, beholden only to you."
+ decision_elevate_ithillond_confirm: "The novel woodland realm of Ithillond!"
+ decision_elevate_ithillond_tooltip: "You elevate Ithillond into a kingdom."
  #################################
  #### ELVEN Decisions ####
  #################################
@@ -38,7 +42,7 @@
  decision_leave_the_watch.tt: "You will desert the Watch on Mordor"
  decision_seek_places_of_power: "Seek Places of Power"
  decision_seek_places_of_power_tooltip: "You will go investigate Points of Interest."
- decision_seek_places_of_power_desc: "Surely there must be remaining items in the ruins of Evil in the Southlands, wether in the citadels of the Dark Lord or the ruined mansions of his minions."
+ decision_seek_places_of_power_desc: "Surely there must be remaining items in the ruins of Evil of the Southlands, wether in the citadels of the Dark Lord or the ruined mansions of his minions."
  decision_seek_places_of_power_confirm: "Truth is close at hand"
  decision_seek_places_of_power.tt: "You will go investigate Points of Interest."
  decision_seek_places_of_power_2: "Seek Places of Power"
