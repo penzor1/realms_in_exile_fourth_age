@@ -5,6 +5,17 @@
 
 ### CUSTOM TITULAR TITLES ###
 
+k_ithillond = {
+	color = "green"
+	definite_form = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	ignore_titularity_for_title_weighting = yes
+	capital = c_henneth_annun
+
+	ai_primary_priority = { add = @always_primary_score }
+}
+
 d_ithillond = {
 	color = "green"
 	definite_form = yes
