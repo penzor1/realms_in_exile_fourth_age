@@ -73,7 +73,7 @@ linesteward46 = {
 			}
 			create_artifact_cleft_horn_gondor_effect = { OWNER = root }
 			add_truce_one_way = {
-				character = lineoforopher6 # Legolas
+				character = character:lineoforopher6 # Legolas
 				years = 10
 			}
 		}
@@ -106,7 +106,7 @@ linesteward47 = { # Duke of Forithilien
 	7174.3.2 = {
 		effect = {
 			add_truce_one_way = {
-				character = lineoforopher6 # Legolas
+				character = character:lineoforopher6 # Legolas
 				years = 10
 			}
 		}
