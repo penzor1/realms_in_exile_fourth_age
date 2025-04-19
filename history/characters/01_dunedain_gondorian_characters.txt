@@ -75,6 +75,7 @@ linesteward46 = {
 			add_truce_one_way = {
 				character = character:lineoforopher6 # Legolas
 				years = 10
+				name = TRUCE_GONDOR_MORDOR
 			}
 		}
 	}
@@ -108,6 +109,7 @@ linesteward47 = { # Duke of Forithilien
 			add_truce_one_way = {
 				character = character:lineoforopher6 # Legolas
 				years = 10
+				name = TRUCE_GONDOR_MORDOR
 			}
 		}
 	}
