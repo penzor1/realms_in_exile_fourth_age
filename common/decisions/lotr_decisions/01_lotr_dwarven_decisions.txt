@@ -21,7 +21,7 @@ decision_become_glitterbeards = {
 	confirm_text = decision_become_glitterbeards_confirm
 	
 	cost = {
-		gold = 200
+		gold = 100
 		prestige = 500
 	}
 
@@ -48,7 +48,8 @@ decision_become_glitterbeards = {
 		completely_controls = title:d_glittering_caves
 		any_held_title = {
 			duchy = title:d_glittering_caves
-			title_capital_county.title_province = { development_level > 10 }
+			#title_capital_county.title_province = { development_level > 10 }
+			title_capital_county = { development_level > 10 }
 		}
 		prestige_level >= 3
 	}
@@ -64,13 +65,6 @@ decision_become_glitterbeards = {
 		custom_tooltip = culture_emergence_events.vassals
 		give_nickname = nick_glitterbeard
 #		get_title = title:k_eastern_white_mountains
-		culture = {
-			set_variable = {
-				name = recent_event_divergence
-				#value = true
-				days = 3650
-			}
-		}
 #		trigger_event = {
 #			id = 01_dwarf.0011
 #		}
@@ -78,34 +72,12 @@ decision_become_glitterbeards = {
 			name = unavailable_unique_decisions
 			target = flag:decision_become_glitterbeards
 		}
-		root = {
-			save_scope_as = diverger
-		}
-		capital_county = {
-			save_scope_as = capital_county_scope
-		}
-		capital_county.culture = {
-			save_scope_as = divergence_offer_culture
-		}
+		root = { save_scope_as = diverger }
+		capital_county = { save_scope_as = capital_county_scope }
+		capital_county.culture = { save_scope_as = divergence_offer_culture }
 		hidden_effect = {
 			create_divergent_culture_with_side_effects_excluding_cost = yes
-			culture = {
-				set_culture_name = {
-					noun = glitterbeards
-					collective_noun = glitterbeards_collective_noun
-					prefix = glitterbeards_prefix
-					#desc = glitterbeards_desc
-				}
-				clear_culture_traditions = yes
-				add_culture_tradition = tradition_hard_working
-				add_culture_tradition = tradition_mountain_homes
-				add_culture_tradition = tradition_fp2_ritualised_friendship
-				add_culture_tradition = tradition_legendary_artisans
-				add_culture_tradition = tradition_metal_craftsmanship
-				add_culture_tradition = tradition_mining_fervour
-				set_culture_pillar = language_westron
-				set_culture_pillar = ethos_egalitarian
-			}
+			set_glitterbeards_culture_effect = yes
 		}
 	}
 
