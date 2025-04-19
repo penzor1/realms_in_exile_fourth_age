@@ -555,7 +555,7 @@ ns_lotr_intro_events.2011 = { # Durin VII Intro
 	option = {
 		name = ns_lotr_intro_events.2011.a
 		hidden_effect = {
-			destroy_title = title:d_gundubaz
+			destroy_title = title:d_gunduzbad
 		}
 	}
 }
