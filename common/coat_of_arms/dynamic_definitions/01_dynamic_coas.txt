@@ -31,3 +31,41 @@ c_isengard = {
 		coat_of_arms = c_treegarth
 	}
 }
+
+k_ithilien = {
+	item = {
+		trigger = { coa_switch_to_dunedain_trigger = yes }
+		coat_of_arms = k_ithilien
+	}
+	item = {
+		trigger = { coa_switch_to_gobbo_trigger = yes }
+		coat_of_arms = k_ithilien_orc
+	}
+	item = {
+		trigger = { coa_switch_to_daen_trigger = yes}
+		coat_of_arms = k_donan_ithilien
+	}
+	item = {
+		trigger = { coa_switch_to_druedain_trigger = yes }
+		coat_of_arms = k_ithilien_druedain
+	}
+	item = {
+		trigger = { coa_switch_to_elf_trigger = yes }
+		coat_of_arms = k_ithillond
+	}
+}
+
+d_forithilien = {
+	item = {
+		trigger = { coa_switch_to_gobbo_trigger = yes }
+		coat_of_arms = d_forithilien_orc
+	}
+	item = {
+		trigger = { coa_switch_to_daen_trigger = yes}
+		coat_of_arms = d_forithilien_donan
+	}
+	item = {
+		trigger = { coa_switch_to_elf_trigger = yes }
+		coat_of_arms = d_ithillond
+	}
+}
