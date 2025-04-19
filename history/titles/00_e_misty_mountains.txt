@@ -4121,8 +4121,9 @@ d_gundabad = {
 		holder = lineofazog14 # Boldog
 	}
 	7174.1.1 = { # FO120 # LOTRO Durin's Expedition
-		holder = lineofdurinVII
+		holder = lineofdurinVII # Durin VII
 		liege = k_erebor
+		set_coa = d_gunduzbad
 	}
 }	
 
