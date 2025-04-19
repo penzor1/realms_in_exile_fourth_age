@@ -48,8 +48,10 @@ decision_become_glitterbeards = {
 		completely_controls = title:d_glittering_caves
 		any_held_title = {
 			duchy = title:d_glittering_caves
+			tier = tier_county
 			#title_capital_county.title_province = { development_level > 10 }
-			title_capital_county = { development_level > 10 }
+			title_capital_county = { development_level >= 10 }
+			development_level >=5 
 		}
 		prestige_level >= 3
 	}
