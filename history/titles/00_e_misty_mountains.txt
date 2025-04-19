@@ -4123,7 +4123,9 @@ d_gundabad = {
 	7174.1.1 = { # FO120 # LOTRO Durin's Expedition
 		holder = lineofdurinVII # Durin VII
 		liege = k_erebor
-		set_coa = d_gunduzbad
+		effect = {
+			set_coa = d_gunduzbad
+		}
 	}
 }	
 
