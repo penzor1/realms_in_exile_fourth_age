@@ -11,16 +11,62 @@ define_elven_homelands = {
 			add_culture_tradition = tradition_sirgala_renewed
 			remove_variable = tradition_cooldown
 		}
-		# add title: sirgala forest
+		##Sirgala
+		##d_hyarromenya
+		title:c_gobel_edledh = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		title:c_hyarmenyarond = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		title:c_bar_ereb = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		title:c_elendinmar = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		title:c_hyarmenyalond = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		##d_sarn_athrad
+		title:c_eregdoscel = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		title:c_iach_sarn = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		title:c_gondamoth = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		title:c_awecirbann = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		##d_siragale
+		title:c_edhelas = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		title:c_tumnogoth_iaur = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		title:c_rhunhethu = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
 		##Sulereb
 		title:c_nabal_mayzri = {
 			add_county_modifier = elven_homeland_county_modifier
 		}
 		##Ithilien
+		##d_forithilien
 		title:c_asgaril = {
 			add_county_modifier = elven_homeland_county_modifier
 		}
 		title:c_coruvegil = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		title:c_feadur = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+		title:c_henneth_annun = {
 			add_county_modifier = elven_homeland_county_modifier
 		}
 		##Greenwood
@@ -93,13 +139,13 @@ define_elven_homelands = {
 		title:c_mornrad = {
 			add_county_modifier = elven_homeland_county_modifier
 		}
-		#removed western edge of greenwood
-		#removed angaladh
+		##removed western edge of greenwood
+		##removed angaladh
 		##Corridor kept
 		title:c_taurannon = {
 			add_county_modifier = elven_homeland_county_modifier
 		}
-		##core of East Lorien
+		##addedcore of East Lorien
 		title:c_amon_lanc = {
 			add_county_modifier = elven_homeland_county_modifier
 		}
@@ -255,8 +301,8 @@ define_elven_homelands = {
 		}
 		title:c_sirannon = {
 			add_county_modifier = elven_homeland_county_modifier
-			add_county_modifier = elven_homeland_county_modifier
 		}
+		##removed most of lindon
 		##d_ardolyalinya
 		title:c_harlond = {
 			add_county_modifier = elven_homeland_county_modifier
