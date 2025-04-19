@@ -1,4 +1,64 @@
-﻿d_ithillond={
+﻿k_ithillond={
+	pattern="pattern_solid.tga"
+	color1=green
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_ithilien_01.dds"
+		instance={
+			position={ 0.500000 0.300000 }
+			scale={ 0.600000 0.600000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=white
+		texture="ce_two_trees_of_valinor.dds"
+		instance={
+			position={ 0.500000 0.800000 }
+			scale={ 0.550000 0.550000 }
+		}
+
+	}
+
+}
+
+d_ithillond={
+	pattern="pattern_solid.tga"
+	color1=green
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_ithilien_01.dds"
+		instance={
+			position={ 0.500000 0.300000 }
+			scale={ 0.600000 0.600000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=white
+		texture="ce_two_trees_of_valinor.dds"
+		instance={
+			position={ 0.500000 0.800000 }
+			scale={ 0.550000 0.550000 }
+		}
+
+	}
+
+}
+
+d_ithillond2={
 	pattern="pattern_solid.dds"
 	color1=rgb { 0 51 0 }
 	color2=white
