@@ -5,7 +5,7 @@ kingdom_feudal_k_ithillond_quenya = {
 	tier = kingdom
 	titles = { k_ithillond }
 	priority = 160
-	heritages = { heritage_quendi heritage_calaquendi }
+	heritages = { heritage_lomiquendi heritage_quendi }
 }
 
 kingdom_feudal_k_ithilien_quenya = {
@@ -13,7 +13,7 @@ kingdom_feudal_k_ithilien_quenya = {
 	tier = kingdom
 	titles = { k_ithilien }
 	priority = 160
-	heritages = { heritage_quendi heritage_calaquendi }
+	heritages = { heritage_lomiquendi heritage_quendi }
 }
 
 duchy_feudal_d_ithillond_quenya = {
@@ -21,7 +21,7 @@ duchy_feudal_d_ithillond_quenya = {
 	tier = duchy
 	titles = { d_ithillond }
 	priority = 160
-	heritages = { heritage_quendi heritage_calaquendi }
+	heritages = { heritage_lomiquendi heritage_quendi }
 }
 
 duchy_feudal_d_forithilien_quenya = {
@@ -29,7 +29,7 @@ duchy_feudal_d_forithilien_quenya = {
 	tier = duchy
 	titles = { d_forithilien }
 	priority = 160
-	heritages = { heritage_quendi heritage_calaquendi }
+	heritages = { heritage_lomiquendi heritage_quendi }
 }
 
 # Sindarin
@@ -38,7 +38,7 @@ kingdom_feudal_k_ithillond_sindarin = {
 	tier = kingdom
 	titles = { k_ithillond }
 	priority = 160
-	heritages = { heritage_lomiquendi heritage_moriquendi }
+	heritages = { heritage_calaquendi heritage_moriquendi }
 }
 
 kingdom_feudal_k_ithilien_sindarin = {
@@ -46,7 +46,7 @@ kingdom_feudal_k_ithilien_sindarin = {
 	tier = kingdom
 	titles = { k_ithilien }
 	priority = 160
-	heritages = { heritage_lomiquendi heritage_moriquendi }
+	heritages = { heritage_calaquendi heritage_moriquendi }
 }
 
 duchy_feudal_d_forithilien_sindarin = {
@@ -54,7 +54,7 @@ duchy_feudal_d_forithilien_sindarin = {
 	tier = duchy
 	titles = { d_ithillond }
 	priority = 160
-	heritages = { heritage_lomiquendi heritage_moriquendi }
+	heritages = { heritage_calaquendi heritage_moriquendi }
 }
 
 duchy_feudal_d_ithillond_sindarin = {
@@ -62,7 +62,7 @@ duchy_feudal_d_ithillond_sindarin = {
 	tier = duchy
 	titles = { d_forithilien }
 	priority = 160
-	heritages = { heritage_lomiquendi heritage_moriquendi }
+	heritages = { heritage_calaquendi heritage_moriquendi }
 }
 
 ### Regent of Arnor ###
