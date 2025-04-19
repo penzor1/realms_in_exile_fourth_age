@@ -1,0 +1,765 @@
+﻿namespace = 01_gondor
+
+# Decision Events
+#		01_gondor.2800   Invite elves to ithilien
+#		01_gondor.2801   Elevate elves in ithillond into kingdom title
+
+
+### Scripted effects
+
+scripted_effect apply_elven_influence_ithillond = {
+	##d_forithilien
+	title:c_henneth_annun = {
+		add_county_modifier = elven_homeland_county_modifier
+		add_county_modifier = {
+			modifier = elves_in_edhellond
+			years = 30
+		}
+	}
+	title:c_asgaril = {
+		add_county_modifier = elven_homeland_county_modifier
+		add_county_modifier = {
+			modifier = elves_in_edhellond
+			years = 30
+		}
+	}
+	title:c_coruvegil = {
+		add_county_modifier = elven_homeland_county_modifier
+		add_county_modifier = {
+			modifier = elves_in_edhellond
+			years = 30
+		}
+	}
+	title:c_faedur = {
+		add_county_modifier = elven_homeland_county_modifier
+		add_county_modifier = {
+			modifier = elves_in_edhellond
+			years = 30
+		}
+	}
+	#d_emyn_arnen
+	title:c_emyn_arnen = {
+		add_county_modifier = elven_homeland_county_modifier
+		add_county_modifier = {
+			modifier = elves_in_edhellond
+			years = 30
+		}
+	}
+	title:c_curedain = {
+		add_county_modifier = elven_homeland_county_modifier
+		add_county_modifier = {
+			modifier = elves_in_edhellond
+			years = 30
+		}
+	}
+	title:c_othnir = {
+		add_county_modifier = elven_homeland_county_modifier
+		add_county_modifier = {
+			modifier = elves_in_edhellond
+			years = 30
+		}
+	}
+	title:c_rian = {
+		add_county_modifier = elven_homeland_county_modifier
+		add_county_modifier = {
+			modifier = elves_in_edhellond
+			years = 30
+		}
+	}
+	#d_minas_ithil
+	title:c_minas_ithil = {
+		add_county_modifier = {
+			modifier = elves_in_edhellond
+			years = 30
+		}
+	}
+	#d_minas_tirith
+	title:c_minas_tirith = {
+		add_county_modifier = {
+			modifier = elves_in_edhellond
+			years = 30
+		}
+	}
+	title:c_osgiliath = { # Add a special modifier for Edhellond 
+		add_county_modifier = {
+			modifier = bustling_elven_harbour
+			years = 30
+		}
+	}
+	title:c_telengaur = {
+		add_county_modifier = {
+			modifier = elves_in_edhellond
+			years = 30
+		}
+	}
+}
+
+scripted_effect upgrade_ithillond = {
+	province:229 = { # henneth annun
+		add_building = elven_forges_01
+		add_building = elven_settlement_02
+	}
+}
+
+01_gondor.2800 = { # Invite elves to Ithilien
+	content_source = realms_dlc
+	type = character_event
+	title = 01_gondor.2800.t
+	desc = 01_gondor.2800.desc
+	theme = stewardship_duty_focus
+
+	override_background = {     
+		reference = docks_elven
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	left_portrait = {
+		## add a trigger here to display special elf if exists
+		character = scope:elf_lothlorien
+		animation = personality_honorable
+	}
+	lower_left_portrait = {
+		character = scope:elf_lasgalen
+		animation = personality_cynical
+	}
+	lower_right_portrait = {
+		character = scope:elf_falathrim
+		animation = personality_irrational
+	}
+	lower_center_portrait = {
+		character = scope:elf_noldor
+		animation = personality_irrational
+	}
+
+	immediate = {
+		hidden_effect = { # Create elf
+			if = { # Lothlorien
+				limit = {  # check for friends with Lothlorien ruler + whether special char is still alive
+					title:k_lothlorien.holder = {
+						has_relation_friend = root
+						is_elf = yes
+					}
+				}
+				create_character = { # Lothlorien Elf
+					location = root.capital_province
+					culture = culture:galadhrim
+					faith = faith:faith_eldar
+					gender = male
+					age = { 100 6950 }
+					random_traits = yes
+					gender_female_chance = 50
+					save_scope_as = elf_lothlorien
+				}
+				scope:elf_lothlorien = { # Theres an error showing up in error log for the replace_unelven_traits effect, maybe talk to Brice/Jamie, not sure why there is an error
+					replace_unelven_traits = yes
+				}
+			}
+			if = { # Greenwood
+				limit = {  # check for friends with Lasgalen ruler + whether special char is still alive
+					title:k_lasgalen.holder = {
+						has_relation_friend = root
+						is_elf = yes
+					}
+				}
+				create_character = { # Lasgalen Elf
+					location = root.capital_province
+					culture = culture:lasgalendrim
+					faith = faith:faith_eldar
+					gender = male
+					age = { 100 6950 }
+					random_traits = yes
+					gender_female_chance = 50
+					save_scope_as = elf_lasgalen
+				}
+				scope:elf_lasgalen = {
+					replace_unelven_traits = yes
+				}
+			}
+			if = { # Penni
+				limit = {  # check for friends with Penni ruler + whether special char is still alive
+					title:e_lindon.holder = {
+						has_relation_friend = root
+						is_elf = yes
+					}
+				}
+				create_character = { # Penni Elf
+					location = root.capital_province
+					culture = culture:falathrim
+					faith = faith:faith_eldar
+					gender = male
+					age = { 100 6950 }
+					random_traits = yes
+					gender_female_chance = 50
+					save_scope_as = elf_falathrim
+				}
+				scope:elf_falathrim = {
+					replace_unelven_traits = yes
+				}
+			}
+			if = { # Noldor
+				limit = {  # check for friends with Penni ruler + whether special char is still alive
+					title:k_imladris.holder = {
+						has_relation_friend = root
+						is_elf = yes
+					}
+				}
+				create_character = { # Noldor Elf
+					location = root.capital_province
+					culture = culture:noldor
+					faith = faith:faith_eldar
+					gender = male
+					age = { 100 6950 }
+					random_traits = yes
+					gender_female_chance = 50
+					save_scope_as = elf_noldor
+				}
+				scope:elf_noldor = {
+					replace_unelven_traits = yes
+				}
+			}
+		}
+
+#		hidden_effect = {
+#			title:c_ithillond = {
+#				set_de_jure_liege_title = title:d_ithillond
+#				title:d_ithillond = {
+#					set_de_jure_liege_title = title:k_ithilien
+#				}
+#			}
+#		}
+		
+		title:d_forithilien = { # Changes province to elven holding
+			every_county_province = {
+				limit = { 
+					has_holding = yes
+				}
+				set_holding_type = elven_holding
+			}
+		}
+
+	}
+
+	option = { # Invite Elves from Lothlorien
+		name = 01_gondor.2800.a
+		custom_tooltip = 01_gondor.2800.a_tt
+		trigger = {
+			title:k_lothlorien.holder = {
+				has_relation_friend = root
+			}
+		}
+		every_county = {
+			limit = {
+				duchy = title:d_forithilien
+				tier = tier_county
+				is_wastelands = no
+				culture = { has_cultural_pillar = heritage_dunedain }
+			}
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			change_title_holder = {
+				holder = scope:elf_lothlorien
+				change = scope:change
+			}
+			resolve_title_and_vassal_change = scope:change
+			set_county_culture = scope:elf_lothlorien.culture
+			set_county_faith = scope:elf_lothlorien.faith
+		}
+
+		scope:elf_lothlorien = {
+			add_opinion = {
+				target = root
+				modifier = invite_elves_edhellond
+				years = 10
+			}
+			hidden_effect = {
+				add_gold = 150
+				add_prestige = 750
+				add_piety = 500
+			}
+		}
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:d_ithillond = {
+			change_title_holder = {
+				holder = scope:elf_lothlorien
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		
+		apply_elven_influence_ithillond = yes
+		upgrade_ithillond = yes
+	}
+
+	option = { # Invite Elves from Woodland Realm
+		name = 01_gondor.2800.b
+		custom_tooltip = 01_gondor.2800.b_tt
+		trigger = {
+			title:k_lasgalen.holder = {
+				has_relation_friend = root
+			}
+		}
+		every_county = {
+			limit = {
+				duchy = title:d_forithilien
+				tier = tier_county
+				is_wastelands = no
+				culture = { has_cultural_pillar = heritage_dunedain }
+			}
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			change_title_holder = {
+				holder = scope:elf_lasgalen
+				change = scope:change
+			}
+			resolve_title_and_vassal_change = scope:change
+			set_county_culture = scope:elf_lasgalen.culture
+			set_county_faith = scope:elf_lasgalen.faith
+		}
+		scope:elf_lasgalen = {
+			add_opinion = {
+				target = root
+				modifier = invite_elves_edhellond
+				years = 10
+			}
+			hidden_effect = {
+				add_gold = 150
+				add_prestige = 750
+				add_piety = 500
+			}
+		}
+
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:d_ithillond = {
+			change_title_holder = {
+				holder = scope:elf_lasgalen
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		apply_elven_influence_ithillond = yes
+		upgrade_ithillond = yes
+	}
+
+	option = { # Invite Elves from Lindon Realm
+		name = 01_gondor.2800.c
+		custom_tooltip = 01_gondor.2800.c_tt
+		trigger = {
+			title:k_nelornieth.holder = {
+				has_relation_friend = root
+			}
+		}
+		every_county = {
+			limit = {
+				duchy = title:d_forithilien
+				tier = tier_county
+				is_wastelands = no
+				culture = { has_cultural_pillar = heritage_dunedain }
+			}
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			change_title_holder = {
+				holder = scope:elf_falathrim
+				change = scope:change
+			}
+			resolve_title_and_vassal_change = scope:change
+			set_county_culture = scope:elf_falathrim.culture
+			set_county_faith = scope:elf_falathrim.faith
+		}
+		scope:elf_falathrim = {
+			add_opinion = {
+				target = root
+				modifier = invite_elves_edhellond
+				years = 25
+			}
+			hidden_effect = {
+				add_gold = 150
+				add_prestige = 750
+				add_piety = 500
+			}
+		}
+
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:d_ithillond = {
+			change_title_holder = {
+				holder = scope:elf_falathrim
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		apply_elven_influence_ithillond = yes
+		upgrade_ithillond = yes
+	}
+
+	option = { # Invite Elves from Noldor Realm
+		name = 01_gondor.2800.d
+		custom_tooltip = 01_gondor.2800.d_tt
+		trigger = {
+			title:k_imladris.holder = {
+				has_relation_friend = root
+			}
+		}
+		every_county = {
+			limit = {
+				duchy = title:d_forithilien
+				tier = tier_county
+				is_wastelands = no
+				culture = { has_cultural_pillar = heritage_dunedain }
+			}
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			change_title_holder = {
+				holder = scope:elf_noldor
+				change = scope:change
+			}
+			resolve_title_and_vassal_change = scope:change
+			set_county_culture = scope:elf_noldor.culture
+			set_county_faith = scope:elf_noldor.faith
+		}
+		scope:elf_noldor = {
+			add_opinion = {
+				target = root
+				modifier = invite_elves_edhellond
+				years = 25
+			}
+			hidden_effect = {
+				add_gold = 150
+				add_prestige = 750
+				add_piety = 500
+			}
+		}
+
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:d_ithillond = {
+			change_title_holder = {
+				holder = scope:elf_noldor
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		apply_elven_influence_ithillond = yes
+		upgrade_ithillond = yes
+	}
+
+	after = {
+		trigger_event = 01_gondor.2802
+
+		# Some elven characters to make sure the elf has some nice courtiers
+		create_character = { 
+			employer = title:d_ithillond.holder
+			culture = culture:lasgalendrim
+			faith = faith:faith_eldar
+			gender = female
+			age = { 100 6950 }
+			random_traits = yes
+		}
+		create_character = {
+			employer = title:d_ithillond.holder
+			culture = culture:galadhrim
+			faith = faith:faith_eldar
+			gender = female
+			age = { 100 6950 }
+			random_traits = yes
+		}
+		create_character = {
+			employer = title:d_ithillond.holder
+			culture = culture:noldor
+			faith = faith:faith_eldar
+			gender = male
+			age = { 100 6950 }
+			random_traits = yes
+		}
+		create_character = { 
+			employer = title:d_ithillond.holder
+			culture = culture:penni
+			faith = faith:faith_moriquendi
+			gender = male
+			age = { 100 6950 }
+			random_traits = yes
+		}
+	}
+}
+
+01_gondor.2801 = { # Gondor elevates ithillond into a kingdom, maybe add a choice to give Dol Amroth back to them
+	content_source = realms_dlc
+	type = character_event
+	title = 01_gondor.2801.t # still debating on whether the actually have an event for this decision.
+	desc = 01_gondor.2801.desc
+	theme = stewardship_duty_focus
+
+	override_background = {     
+		reference = armenelos
+	}
+
+	right_portrait = {
+		character = scope:high_king_of_gondor
+		animation = happiness
+	}
+
+	left_portrait = {
+		character = title:d_ithillond.holder
+		animation = personality_bold
+	}
+
+	immediate = {
+		if = {
+			limit = { exists = title:e_gondor.holder }
+			title:e_gondor.holder = {
+				save_scope_as = high_king_of_gondor
+			}
+		}
+		else = {
+			title:e_gondor_steward.holder = {
+				save_scope_as = high_king_of_gondor
+			}
+		}
+	}
+
+	option = { # Accept Kingdom of ithillond
+		name = 01_gondor.2801.a
+
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:k_ithillond = {
+			change_title_holder = {
+				holder = title:d_ithillond.holder
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		title:k_ithillond = {
+			set_de_jure_liege_title = root.top_liege.primary_title
+		}
+#		title:d_ithillond = {
+#			set_de_jure_liege_title = title:k_ithillond
+#		}
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:elves_ithillond_kingdom
+		}
+
+		root.top_liege = {
+			trigger_event = {
+				id = 01_gondor.2803
+				days = { 15 30 }
+			}
+		}
+
+		ai_chance = {
+			base = 75
+			# modifier = {
+			# 	title:d_ithillond.holder = {
+			# 		has_title = title:c_dol_amroth
+			# 	}
+			# 	add = -50
+			# }
+		}
+	}
+
+	option = { # Deny Kingdom of ithillond
+		name = 01_gondor.2801.b
+
+		scope:high_king_of_gondor = {
+			trigger_event = {
+				id = 01_gondor.2804
+				days = { 10 15 }
+			}
+		}
+
+		ai_chance = {
+			base = 25
+			# modifier = {
+			# 	title:d_ithillond.holder = {
+			# 		has_title = title:c_dol_amroth
+			# 	}
+			# 	add = 50
+			# }
+		}
+	}
+}
+
+01_gondor.2802 = { # Swap over to elves in ithillond event
+	content_source = realms_dlc
+	type = character_event
+	title = 01_gondor.2802.t
+	desc = 01_gondor.2802.desc
+	theme = stewardship_duty_focus
+
+	override_background = {     
+		reference = market_elven
+	}
+
+	right_portrait = {
+		character = root
+		animation = admiration
+	}
+
+	left_portrait = {
+		character = title:d_ithillond.holder
+		animation = personality_content
+	}
+	
+	option = {
+		name = 01_gondor.2802.a
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = 01_gondor.2802.b
+		set_player_character = title:d_ithillond.holder
+
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+01_gondor.2803 = { # Gondor gets event for elevating ithillond IF elves accept
+	content_source = realms_dlc
+	type = character_event
+	title = 01_gondor.2803.t
+	desc = 01_gondor.2803.desc
+	theme = stewardship_duty_focus
+
+	override_background = {     
+		reference = market_elven
+	}
+	right_portrait = {
+		character = root
+		animation = admiration
+	}
+
+	left_portrait = {
+		character = title:k_ithillond.holder
+		animation = personality_content
+	}
+
+	option = {
+		name = 01_gondor.2803.a
+
+		if = { # Mega lothlorien
+			limit = { exists = title:e_laurelindorenan.holder }
+			title:e_laurelindorenan.holder = {
+				add_opinion = {	
+					target = root
+					modifier = restored_edhellond_as_kingdom
+					years = 30
+				}
+			}
+		}
+		else = {
+			title:k_lothlorien.holder ?= {
+				add_opinion = {	
+					target = root
+					modifier = restored_edhellond_as_kingdom
+					years = 30
+				}
+			}
+		}
+
+		if = { # Greenwood
+			limit = { exists = title:e_greenwood.holder }
+			title:e_greenwood.holder = {
+				add_opinion = {	
+					target = root
+					modifier = restored_edhellond_as_kingdom
+					years = 30
+				}
+			}
+		} 
+		else = {
+			title:k_lasgalen.holder ?= {
+				add_opinion = {	
+					target = root
+					modifier = restored_edhellond_as_kingdom
+					years = 30
+				}
+			}
+		}
+
+		set_relation_friend = title:k_ithillond.holder
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+01_gondor.2804 = {
+	type = letter_event
+	sender = title:d_ithillond.holder
+
+	immediate = {
+		if = {
+			limit = { exists = title:e_gondor.holder }
+			title:e_gondor.holder = {
+				save_scope_as = high_king_of_gondor
+			}
+		}
+		else = {
+			title:e_gondor_steward.holder = {
+				save_scope_as = high_king_of_gondor
+			}
+		}
+	}
+
+	opening = {
+		desc = 01_gondor.2804.opening
+	}
+
+	desc = 01_gondor.2804.desc
+
+
+	on_trigger_fail = { #Trigger invitation again if it was blocked because the character was handling another invitation
+		trigger_event = {
+			id = 01_gondor.2804
+			days = 1
+		}
+	}
+
+	option = {
+		name = 01_gondor.2804.a
+		add_gold = 500
+	}	
+}
