@@ -406,7 +406,6 @@
 			#	on_arrival_destinations = all
 			#}
 			add_courtier = scope:successor
-			}
 		}
 		character:lineofdurin100 = { # Gimli
 			#start_travel_plan = { # Travel to Valinor # NO TRAVEL PATH
